@@ -3,6 +3,7 @@
 //  functions for WM_COPYDATA messaging
 //
 // 4.1.0.0 - 09/09/04	first versioned release
+// 4.1.1.0 - 06/02/20   Corrects use of CBDATA_SIZE_POINTER because it's in a pickle
 ////////////////////////////////////////////////////////////////////
 
 #ifndef BNCSWM32_INCLUDED

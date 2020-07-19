@@ -2,12 +2,9 @@
 *																									 *
 *			BBC_MXC.H		:	BBC BNCS Message eXchange Constants					 *
 *																									 *
-*			(c) BBC Manchester 1992-2005 :	Author Simon Dowson					 *
 *																									 *
+* Copyright Atos 2019
 ****************************************************************************/
-
-// V4.1	09/09/2004	Version for Synergy
-
 
 #ifndef BBC_MXC_INCLUDED 
 	#define BBC_MXC_INCLUDED 
@@ -23,7 +20,7 @@
 #define BBC_CLOSEDOWNACK		WM_USER+1003	// ApplCore internal closedown request acknowledge
 #define BBC_RESOURCECHECK		WM_USER+1004	// ApplCore internal resource check
 #define BBC_EXECBUTTON			WM_USER+1005	// Posted ExecButton command
-#define BBC_IACRETRY				WM_USER+1006	// Posted IAC retry message
+#define BBC_IACRETRY			WM_USER+1006	// Posted IAC retry message
 #define BBC_GETHWNDCSI			WM_USER+1007	// Local broadcast to ask CSI for its HWND
 #define BBC_HWNDCSI				WM_USER+1008	//	Message from CSI returning its HWND
 #define BBC_LAUNCH				WM_USER+1009	// Broadcast from CSI to Launch to commence boot sequence
@@ -45,9 +42,10 @@
 #define BBC_POSTEDUNIMSG		WM_USER+1023	// Posted message within CSI to allow packet disassembly
 #define BBC_POSTEDDIRECTMSG	WM_USER+1024	// Posted message within CSI to allow direct message between panels and drivers
 #define BBC_POSTEDCOMBINERMSG	WM_USER+1025	// Posted message within the combiner to return control to windows before processing package
+#define BBC_POSTEDCOMBINERIWMSG	WM_USER+1026	// Posted message within the combiner to return control to windows before processing IW's
 
 #define BBC_REGCLIENT32			WM_USER+1030	// Request from 32 bit client to register or de-register with CSI
-#define BBC_COPYDATA          WM_USER+1050   // Used for the BNCS 16/32 and 32/32 bit messaging schema
+#define BBC_COPYDATA          WM_USER+1050   // Used for the BNCS 16/32 and 32/32 bit messaging schema (DLL messsaging COPY DATA I/F) 
 
 #define BBC_FBMSGSCHEME			WM_USER+1055	// Flag in CSI to hold the message scheme used by FBCSLINK
 #define BBC_CLMSGSCHEME			WM_USER+1056	// Flag in CSI to hold the message scheme used by CSLINK
@@ -77,6 +75,9 @@
 #define BBC_GETDBASENAME		WM_USER+1140	// Database source/destination name request from ApplCore to CSI
 #define BBC_GETDBASEINDEX		WM_USER+1141	// Database source/destination index request from ApplCore to CSI
 #define BBC_GETDBASEINDEXEXT	WM_USER+1142	// High order database index request from ApplCore to CSI
+
+#define BBC_CLEARDATABASECACHE	WM_USER+1143	// if using memory databases this is a request to flush all or specific (device no in wParam) databases
+
 #define BBC_GETCACHEDDATA	 	WM_USER+1145	// Get cached slot contents request from client to CSI
 #define BBC_GETCACHEDINDEX	 	WM_USER+1146	// Get cached slot index request from client to CSI
 #define BBC_DATABASECHANGE		WM_USER+1150	// Signal from CSI to ApplCore that the database has changed
@@ -85,8 +86,8 @@
 #define BBC_DATABASEPOLL		WM_USER+1153	// Signal from CSI to say that driver should send full poll response
 #define BBC_GETMAPPEDDEVID    WM_USER+1154   // Request from CSI client to CSI asking for database mapping if any
 #define BBC_REQDEVGORXONLY    WM_USER+1155   // Request from CSI to device driver asking it to go RX only
-#define BBC_REQDEVGOTXRX      WM_USER+1156   // Request from CSI to device driver asking it to go TX/RX only
-#define BBC_INQDEVGOTXRX      WM_USER+1157   // Request from CSI to device driver asking it to go TX/RX only
+#define BBC_REQDEVGOTXRX      WM_USER+1156   // Request from CSI to device driver asking it to go TX
+#define BBC_INQDEVGOTXRX      WM_USER+1157   // Request from CSI to device driver asking it if it wants to go TX
 
 #define BBC_SENDCSIDATAGRAM   WM_USER+1158   // Message from CSI client requesting a datagram to CSI be transmitted direct to the network
 #define BBC_SENDDRVDATAGRAM   WM_USER+1159   // Message from CSI client requesting a datagram to drivers be transmitted direct to the network
@@ -100,7 +101,7 @@
 #define BBC_DEVICEIDINUSE		WM_USER+1166   // Message from CSI to a driver saying that a device ID is already in use on the network
 #define BBC_DEVDRVVERBATIM		WM_USER+1167	// Message from Device Driver to CSI carrying verbatim message to send to the network
 #define BBC_REGALLDEVICEIDS	WM_USER+1168	// Message from an external client/driver such as CSCLIENT requesting to redirect all Ids
-#define BBC_REGDEVICEID32		WM_USER+1169	// Message from Device Driver to CSI registering for a device
+#define BBC_REGDEVICEID32		WM_USER+1169	// Message from Device Driver to CSI registering for a device  (DLL messsaging COPY DATA I/F)
 
 #define BBC_DEVCONNECT			WM_USER+1170	// Message from ApplCore to CSI requesting session connection with remote device driver
 #define BBC_DEVDISCONNECT 		WM_USER+1171	// Message from ApplCore to CSI requesting to drop connection with remote device driver
@@ -128,6 +129,7 @@
 #define BBC_ASYNCPOST			WM_USER+1311	// Internal asynch message
 #define BBC_CSIPOSTEDPOLL	 	WM_USER+1320	// Internal CSI Message
 #define BBC_CSIPOSTEDHANGUP	WM_USER+1330	// Internal CSI Message
+#define BBC_CSIPOSTEDSEND	WM_USER+1331	// Internal CSI Message
 
 #define BBC_GETBKGSERVERHWND	WM_USER+1400	// Message from BSLIBMOD to get handle of BSSERVER
 #define BBC_BKGSERVERHWND		WM_USER+1401	// Message from BSSERVER to give handle to BSLIBMOD
@@ -153,7 +155,8 @@
 #define BBC_IDSENDSLOTS			WM_USER+1699	// Message from external driver to InfoDriver requesting it sends a range of slots to the network
 #define BBC_IDCONNECT			WM_USER+1700	// Message from external driver to InfoDriver requesting handle
 #define BBC_IDDISCONNECT		WM_USER+1701	// Message from external driver to InfoDriver disconnecting
-#define BBC_IDSETSLOT			WM_USER+1702	// Message from external driver to InfoDriver requesting to set slot contents
+#define BBC_IDSETSLOT			WM_USER+1702	// Message from external driver to InfoDriver requesting to set slot contents and send revertive
+#define BBC_IDUPDATESLOT		WM_USER+1722	// Message from external driver to InfoDriver requesting to set slot contents and send revertive if the value has changed
 #define BBC_IDGETSLOT			WM_USER+1703   // Message from external driver to InfoDriver requesting to get slot contents
 #define BBC_IDSLOTMSG			WM_USER+1704	// Message from InfoDriver to external driver delivering slot contents
 #define BBC_IDHANDLE				WM_USER+1705	// Message from Infodriver to external driver delivering it handle
@@ -171,6 +174,9 @@
 #define BBC_GRDUSERSTR			WM_USER+1716	// Message from GRD to external driver delivering a client string
 #define BBC_GRDDESTINFO			WM_USER+1717	// Message from GRD to external driver delivering destination information
 #define BBC_GRDREVINFO			WM_USER+1718	// Message from GRD to external driver : similar to BBC_GRDDESTINFO but with router number included
+#define BBC_SETOUTPUTMODE     WM_USER+1719	// Message from external controller to GRD requesting it to set its output mode for a destination
+#define BBC_GETOUTPUTMODE     WM_USER+1720	// Message from external controller to GRD requesting it return its output mode for a destination
+#define BBC_GRDSETDESTONLY        WM_USER+1721    // Message from external driver to GRD telling it to update tally its table with new source, without updateing network
 
 #define BBC_GPIDCONNECT			WM_USER+1730	// Message from external driver to GPID requesting handle
 #define BBC_GPIDDISCONNECT		WM_USER+1731	// Message from external driver to GPID disconnecting
@@ -181,6 +187,7 @@
 #define BBC_GPIDIOINFO			WM_USER+1736	// Message from GPID to external driver delivering IO information
 #define BBC_GPIDUSERSTR			WM_USER+1737	// Message from GPID to external driver delivering a client string
 #define BBC_GPIDIOMSG			WM_USER+1738	// Message from GPID to external driver requesting it to make a switch
+#define BBC_GPIDSETIOONLY        WM_USER+1739    // Message from external driver to GPID telling it to update tally its table with new state, without updating network
 
 #define BBC_CTRLCONNECT			WM_USER+1750	// Message from external client to driver requesting handle
 #define BBC_CTRLDISCONNECT		WM_USER+1751	// Message from external client to driver disconnecting
@@ -190,13 +197,13 @@
 
 #define BBC_VDSLOTUPDATE		WM_USER+1791	// Internal message within VIDEODRV.EXE
 
-#define BBC_FBNEWBKG				WM_USER+1800	// Broadcast message from FBAMSLIB.EXE to indicate new booking
+#define BBC_FBNEWBKG			WM_USER+1800	// Broadcast message from FBAMSLIB.EXE to indicate new booking
 #define BBC_GETFBSCHEDHWND		WM_USER+1801	// Message requesting the handle to FBSECHED.EXE
 #define BBC_HWNDFBSCHED			WM_USER+1802   // Message returning the handle to FBSECHED.EXE
 
 #define BBC_NAGETACHWND			WM_USER+1900   // NPANGEL.DLL
-#define BBC_NAACHWND				WM_USER+1901   // NPANGEL.DLL
-#define BBC_NAINITAC				WM_USER+1902	// NPANGEL.DLL
+#define BBC_NAACHWND			WM_USER+1901   // NPANGEL.DLL
+#define BBC_NAINITAC			WM_USER+1902	// NPANGEL.DLL
 #define BBC_NACLOSEDOWN			WM_USER+1911	// NPANGEL.DLL
 #define BBC_NADISPLAYHWND		WM_USER+1921	// NPANGEL.DLL
 
@@ -215,8 +222,8 @@
 
 #define BBC_ACAXEXECCMD			WM_USER+1980	// Command message from ApplCore to Applex
 
-#define BBC_GETEXTAPPINFO     WM_USER+1990   // Message from FBSERVER to a none BNCS app requesting information item
-#define BBC_SETEXTAPPINFO     WM_USER+1991   // Message from FBSERVER to a none BNCS app sending information item
+#define BBC_GETEXTAPPINFO		WM_USER+1990   // Message from FBSERVER to a none BNCS app requesting information item
+#define BBC_SETEXTAPPINFO		WM_USER+1991   // Message from FBSERVER to a none BNCS app sending information item
 
 #define BBC_SPLITCONRANGE		WM_USER+2100	// range of splitter connect (Tim Alden addition)
 
@@ -229,16 +236,27 @@
 #define BBC_GETHWNDSHIM			WM_USER+2141	// same as BBC_GETHWNDCSI but for custom control shim bbc_smcc.exe
 #define BBC_REGSHIM				WM_USER+2142	// same as BBC_REGAPPLCORE but for custom control shim bbc_smcc.exe
 
+#define BBC_GETHWNDSHIM_ALT			WM_USER+2143	// same as BBC_GETHWNDCSI but for custom control shim bbc_smcc.exe
+
+#define	BBC_IS_APPLCORE_WINDOW	WM_USER+2150	// responds with "magic" number, if applcore window
+#define APPLCORE_CONFIG_MAGIC	(0xf1d3b597)	// reply value for BBC_IS_APPLCORE_WINDOW (a piece of antiquity)  :-) */
+#define	BBC_APPLCORE_STARTUP	WM_USER+2151	// delayed startup mechanism. 
+
+
+
 #define WM_BNCS					0xC000
 
 #define BBC_GETHWNDCSI32		WM_BNCS+1	// Local broadcast to ask CSI for its HWND
+#define BBC_GETHWNDCSI32_ALT	WM_BNCS+111	// Local broadcast to ask CSI for its HWND
 #define BBC_IDCONNECT32			WM_BNCS+2	// Message from external driver to InfoDriver requesting handle
 #define BBC_GRDCONNECT32		WM_BNCS+3	// Message from external driver to GRD requesting handle
 
-#define BBC_APPREADY				WM_BNCS+11	// Broadcast from BNCS application to say that it has initialised. (Used by V3Launch)
-#define BBC_CTRLCONNECT32	 	WM_BNCS+12	// Message from external client to driver requesting handle
+#define BBC_APPREADY			WM_BNCS+9	// Broadcast from BNCS application to say that it has initialised. (Used by V3Launch)
+#define BBC_APPREADY2			WM_BNCS+11	// Broadcast from BNCS application to say that it has initialised. (Used by V3Launch)
+#define BBC_CTRLCONNECT32	 	WM_BNCS+12	// Message from external client to driver requesting handle (Send using SendMessage and only use WM_COPYDATA once connected)
+#define BBC_CTRLCONNECT32_DLL 	WM_BNCS+112	// Message from external client to driver requesting handle (Send using SendMessage and only use WM_COPYDATA once connected)
 #define BBC_CTRLDISCONNECT32	WM_BNCS+13	// Message from external client to driver disconnecting
-#define BBC_LAUNCHAPPLICATION WM_BNCS+14	// Message from logic engine to GUI requesting that it launch another application
+#define BBC_LAUNCHAPPLICATION	WM_BNCS+14	// Message from logic engine to GUI requesting that it launch another application
 #define BBC_QUERYCLIENTREG		WM_BNCS+15	// Message from client to CSI registering its name.
 #define BBC_REGCLIENTNAME		WM_BNCS+16	// Message from client to CSI registering its name.
 #define BBC_RUT					WM_BNCS+17	// Message from one app to another to see if it still there
@@ -247,7 +265,7 @@
 #define BBC_GUICOMMANDID		WM_BNCS+20   // Command Id from GUI to logic dll
 #define BBC_GUIUPDATE			WM_BNCS+21   // Message from GUI that any updating should be done now
 #define BBC_GUIPARAMVALUE		WM_BNCS+22   // Inter-GUI Parameter=Value message
-#define BBC_GUIPANELMESSAGE	WM_BNCS+23   // Inter-GUI panel message
+#define BBC_GUIPANELMESSAGE		WM_BNCS+23   // Inter-GUI panel message
 #define BBC_GUIPANELVARIABLE	WM_BNCS+24   // Inter-GUI panel variable copy message
 
 #define BBC_SETLIBRARYID		WM_BNCS+30   // Message to a library allocating it a unique library Id.
@@ -258,40 +276,91 @@
 #define BBC_SETDEBUGMODE		WM_BNCS+40   // Message to set debug mode
 #define BBC_DEBUGMESSAGE		WM_BNCS+41   // Debug message string 
 
-#define BBC_PREINITIALISE		WM_BNCS+2019   // Generic pre-initialise command
-#define BBC_INITIALISE			WM_BNCS+2020   // Generic initialise command
-#define BBC_TIMER					WM_BNCS+2021   // Message delivered by the CBBC_timer class
-#define BBC_SETIPCMODE			WM_BNCS+2022   // Sets the the IPC mode used by the BBC_csi_if library
-#define BBC_SETIPCDATASIZE		WM_BNCS+2023   // Sets the data size for lParam in IPC comms *
-
 #define BBC_ROUTERCONNECT    	WM_BNCS+50
-#define BBC_ROUTERINTERROGATE WM_BNCS+51
+#define BBC_ROUTERINTERROGATE	WM_BNCS+51
+
+#define BBC_VIDEODISABLE		WM_BNCS+60   // Message to overlay application to closedown
+
+#define BBC_PKTSERNUMERR_REG		(WM_BNCS+70)	// register for unrecoverable packet errors
+#define BBC_PKTSERNUMERR_UNREG		(WM_BNCS+71)
+#define BBC_PKTSERNUMERR			(WM_BNCS+72)	// notification of unrecoverable packet error
+
+#define BBC_NETTXRXSTATUS_REG		(WM_BNCS+73)	// registration for BBC_NETTXRXSTATUS
+#define BBC_NETTXRXSTATUS_UNREG		(WM_BNCS+74)
+#define BBC_NETTXRXSTATUS_BROADCAST_ENABLED		(WM_BNCS+77)
+
+#define BBC_NETMSGUPDATE_REG		(WM_BNCS+75)	// registration for BBC_NETMSGUPDATE
+#define BBC_NETMSGUPDATE_UNREG		(WM_BNCS+76)
+#define BBC_NETMSGUPDATE_BROADCAST_ENABLED		(WM_BNCS+78)
+
+#define BBC_GETCLIENTREGEXTENT       (WM_BNCS+80)      // means of querying range of destinations current registered for
+
+#define BBC_GETMAXDEVICES			(WM_BNCS+93)	// get the maximum number of devices that CSI can control
+
+#define BBC_GETMAXDESTS				(WM_BNCS+81)	// get the maximum number of destinations that CSI can control
+#define BBC_GETMAXSOURCES			(WM_BNCS+82)	// get the maximum number of sources that CSI can control
+#define BBC_GETMAXSOURCENAMES		(WM_BNCS+83)	// get the maximum number of source names that CSI supports
+#define BBC_GETMAXDESTNAMES			(WM_BNCS+84)	// get the maximum number of dest names that CSI supports
+
+#define BBC_SENDQUEUEDCOMMANDS		(WM_BNCS+85)	// force immediate send of queued commands (rather than waiting or setting flag on last command)
+#define BBC_SENDQUEUEDREVERTIVES	(WM_BNCS+86)	// force immediate send of queued revertives (rather than waiting or setting flag on last revertive)
+
+#define BBC_CONFIGCHANGE_NOTIFY		(WM_BNCS+87)
+#define BBC_CONFIGCHANGE_REQUEST	(WM_BNCS+88)
+#define BBC_CONFIGCHANGE_REG		(WM_BNCS+89)
+#define BBC_CONFIGCHANGE_UNREG		(WM_BNCS+90)
+
+#define BBC_GETMAXDATABASES			(WM_BNCS+91)	// get the maximum number of databases that CSI can load (was 2, then 10, now 65536)
+#define BBC_SETREDUNDANCYMASTER		(WM_BNCS+92)
+#define BBC_GETMAXSTRINGSIZE		(WM_BNCS+94)
+#define BBC_GETMAXWORKSTATIONS	    (WM_BNCS+95)
+
+#define BBC_GATEWAYREGISTER			(WM_BNCS+601)	// wParam is window handle to register, LOWORD(lParam) is true to register, false to deregister
+#define BBC_GATEWAYSEND				(WM_BNCS+602)	// wParam is driver number, lParam is command to send
+#define BBC_GATEWAYRECEIVE			(WM_BNCS+603)	// LOWORD( wParam ) is target ws, HIWORD( wParam ) is originating ws, lParam is string command/revertive
+
+#define BBC_PREINITIALISE			WM_BNCS+2019   // Generic pre-initialise command
+#define BBC_INITIALISE				WM_BNCS+2020   // Generic initialise command
+#define BBC_TIMER					WM_BNCS+2021   // Message delivered by the CBBC_timer class
+#define BBC_SETIPCMODE				WM_BNCS+2022   // Sets the the IPC mode used by the BBC_csi_if library
+#define BBC_SETIPCDATASIZE			WM_BNCS+2023   // Sets the data size for lParam in IPC comms *
+
 
 #define BBC_DPI_LOAD				WM_BNCS+100
-#define BBC_DPI_UNLOAD			WM_BNCS+101
+#define BBC_DPI_UNLOAD				WM_BNCS+101
 #define BBC_DPI_DATA				WM_BNCS+102
 
 #define BBC_DCI_LOAD				WM_BNCS+300	// Loads a DCI library
-#define BBC_DCI_UNLOAD			WM_BNCS+301	// Unloads a DCI library
+#define BBC_DCI_UNLOAD				WM_BNCS+301	// Unloads a DCI library
 #define BBC_DCI_OPEN				WM_BNCS+302	// Opens a connection on the DCI's port
-#define BBC_DCI_CLOSE			WM_BNCS+303	// Closes a connection on the DCI's port
-#define BBC_DCI_WRITE			WM_BNCS+304	// Writes data
+#define BBC_DCI_CLOSE				WM_BNCS+303	// Closes a connection on the DCI's port
+#define BBC_DCI_WRITE				WM_BNCS+304	// Writes data
 #define BBC_DCI_READ				WM_BNCS+305	// Reads data
-#define BBC_DCI_LSEEK			WM_BNCS+306   // Seeks to a postion within the file or stream
-#define BBC_DCI_READDIR			WM_BNCS+307	// Unlikely to be implememented. Included for completeness
+#define BBC_DCI_LSEEK				WM_BNCS+306   // Seeks to a postion within the file or stream
+#define BBC_DCI_READDIR				WM_BNCS+307	// Unlikely to be implememented. Included for completeness
 #define BBC_DCI_POLL				WM_BNCS+308	// Unlikely to be implememented. Included for completeness
-#define BBC_DCI_IOCTL			WM_BNCS+309   // Used to set parameters on on a port
-#define BBC_DCI_FLUSH			WM_BNCS+310   // Flushes Tx and/or Rx buffers
-#define BBC_DCI_FSYNC			WM_BNCS+311	// Used to ensure I/O operations are complete
-#define BBC_DCI_FASYNC			WM_BNCS+312	// Unlikely to be implememented. Included for completeness
-#define BBC_DCI_CHKMEDIACHANGE	WM_BNCS+0313	// Unlikely to be implememented. Included for completeness
+#define BBC_DCI_IOCTL				WM_BNCS+309   // Used to set parameters on on a port
+#define BBC_DCI_FLUSH				WM_BNCS+310   // Flushes Tx and/or Rx buffers
+#define BBC_DCI_FSYNC				WM_BNCS+311	// Used to ensure I/O operations are complete
+#define BBC_DCI_FASYNC				WM_BNCS+312	// Unlikely to be implememented. Included for completeness
+#define BBC_DCI_CHKMEDIACHANGE		WM_BNCS+0313	// Unlikely to be implememented. Included for completeness
 #define BBC_DCI_MMAP				WM_BNCS+314	// Unlikely to be implememented. Included for completeness
-#define BBC_DCI_REVALIDATE		WM_BNCS+315	// Unlikely to be implememented. Included for completeness
+#define BBC_DCI_REVALIDATE			WM_BNCS+315	// Unlikely to be implememented. Included for completeness
 #define BBC_DCI_LOCK				WM_BNCS+316	// Unlikely to be implememented. Included for completeness
+
+#define BBC_NOTWPARAM				WM_BNCS+400	// can be used for checking that this app is CSI - will simply NOT the value in wParam and return it
+
+#define BBC_ALM_UNIREVERTIVE		WM_BNCS+401
+#define BBC_ALM_DRIVERREG			WM_BNCS+402	// wParam contains driver number
+#define BBC_ALM_DRIVERUNREG			WM_BNCS+403	// wParam contains driver number
+#define BBC_ALM_REG					WM_BNCS+404
+#define BBC_ALM_UNREG				WM_BNCS+405
+
+
 
 /* these are to go from the DCI -> DPI when events occur there may be more*/
 #define BBC_DCI_READ_EVENT			0x0   // Signal from a DCI to its parent that data is available for reading
-#define BBC_DCI_ERROR_EVENT		0x2   // Signal from a DCI to its parent that an error has occurred
+#define BBC_DCI_ERROR_EVENT			0x2   // Signal from a DCI to its parent that an error has occurred
 #define BBC_DCI_CONNECTED_EVENT 	0x3   // Signal from a DCI to its parent that the DCI is connected
 
 
@@ -313,5 +382,7 @@
 #define BBC_ABOUTBOX					0x9002
 #define BBC_MESSAGEBOX				0x9003
 #define BBC_DEBUGMODE				0x9004
+
+#define BNCS_INFOWRITE	(WM_BNCS+501)
 
 #endif // BBC_MXC_INCLUDED

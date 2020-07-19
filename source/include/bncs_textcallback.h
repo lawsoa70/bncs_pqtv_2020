@@ -1,6 +1,6 @@
 /********************************************/
 /* Written by David Yates                   */
-/* Copyright Siemens Business Services 2007 */
+/* Copyright Atos 2007 */
 /********************************************/
 #if !defined(AFX_BNCS_CALLBACK_H__A6E12E75_7EF2_4723_B82E_DD39DB06ED5D__INCLUDED_)
 #define AFX_BNCS_CALLBACK_H__A6E12E75_7EF2_4723_B82E_DD39DB06ED5D__INCLUDED_

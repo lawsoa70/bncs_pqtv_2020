@@ -10,6 +10,8 @@
 
 #define	SR_BNCS_Control		(QStyle::SubRect) (QStyle::SR_CustomBase+1)
 
+#define PM_BNCS_POPUPMARGIN (QStyle::PixelMetric) (QStyle::PM_CustomBase+1)
+
 #ifdef BNCS_STYLE_EXPORTS
 	#ifndef NO_BNCS_STYLE_EXPORTS
 		#define DO_STYLE_EXPORT __declspec(dllexport) 

@@ -1,0 +1,57 @@
+# PrismTech Software License,created on 05-Feb-2018 by Alison
+# subject to the terms and conditions of PrismTech's Software License Agreement.
+# Serial number: 201802051330507282
+# Customer: Atos UK
+# Contact email: davidyates@atos.net
+# Contract Ref: 5645
+# License status: Original
+# 
+PACKAGE prismtech EnterpriseDep_PKG 6.99 
+FEATURE prismtech opensplice_tuner 6.99 permanent uncounted hostid=ANY
+  _ck=2e1efc6e91 sig="60PG453QH17S9THQ1B7M7QD5K6SPSRE8NG8S1D022M0C8TQC
+  HHHXAVFX580G2QHRK1CCPC5132GG"
+FEATURE prismtech opensplice_tuner_remote 6.99 permanent uncounted
+  hostid=ANY _ck=191efc5331 sig="60P0452P87FSPYJU183YH74AEJ4VK0AA60NK3
+  D022HAHFYW55Y1RK2KAAU16T6KER92GAFBXG0"
+FEATURE prismtech opensplice_cm 6.99 permanent uncounted hostid=ANY
+  _ck=d01efc8863 sig="60PG4580RWYF85BV4KJ8HUXW0G8JGBJ4252TAVEB08A4HUYX
+  0JG70YUH1MQQKU347EEWV210P6N0"
+FEATURE prismtech opensplice_dbms 6.99 permanent uncounted hostid=ANY
+  _ck=a61efc7f93 sig="60P0453PDX737D36J9NYV0K1V9AKVTBEBR8KNG022GDUGUYB
+  R8MGSJBGT2TTA8VH6WPHSHSQUR"
+FEATURE prismtech opensplice_secure 6.99 permanent uncounted
+  hostid=ANY _ck=871efc2e65 sig="60PG4580RQ2Y17QDBQMAM3APUKSAVGWMJ3SHP
+  RUT08A2KNTAPT5GYH0M59TB9QKXHX5W7F66HW8G"
+FEATURE prismtech opensplice_windows_service 6.99 permanent uncounted
+  hostid=ANY _ck=5b1efc0359 sig="60PG452XCCJDHDUNM5MPD24UDTHFVYXP3GESE
+  P022M08KY5W869HPU3EFW07KFK5KU1AX4NWKNQG"
+FEATURE prismtech opensplice_rmi 6.99 permanent uncounted hostid=ANY
+  _ck=481efc0d5f sig="60P0452M6N4KV1HXQ64TX69SMUD57AHR0NR90F822GWWT7DQ
+  7SW1CA2R3VDX4FTHPYDF3P9MN0"
+FEATURE prismtech opensplice_spliced 6.99 permanent uncounted
+  hostid=ANY _ck=e41efc7160 sig="60Q04580HCY1H5VWPENFE25WD5XB43MEWTDF7
+  C5508AG1705JAJCMPN5Y97RWX5JFK3GP0GQ33HF4"
+FEATURE prismtech opensplice_networking 6.99 permanent uncounted
+  hostid=ANY _ck=481efc2b5f sig="60Q04580PJ2TBF3DFY5NGYJGG9W0MAWPC0K30
+  CWV08AG1BWJJDVA23QHHY5VA6GDD950BE7FHSR66"
+FEATURE prismtech opensplice_ddsi2 6.99 permanent uncounted hostid=ANY
+  _ck=d61efc3f92 sig="60PG45341XDTUCR14MGJGCBQCX6NB560XGHQBE822M08R726
+  26N058KB4NTYY2C4QCCRKGGKW95G"
+FEATURE prismtech opensplice_durability 6.99 permanent uncounted
+  hostid=ANY _ck=391efc0d5f sig="60Q04580QFFT4BCPS5CS9S2N6YEJQHKP9NGG4
+  H9K08AG1A8CMU4M26X2SYW80J7MFSY26WFJFJ56C"
+FEATURE prismtech opensplice_streams 6.99 permanent uncounted
+  hostid=ANY _ck=ff1efc218e sig="60PG4506PFW8TWHNS1R70EFM79VVYWRNAUWRG
+  X022M0CBS87DFS69MKD9V5SP5G1144PC0NNHUW0"
+FEATURE prismtech opensplice_ddsi2e 6.99 permanent uncounted
+  hostid=ANY _ck=3b1efce68f sig="60PG450UQPDNNPWN0FG677G97PJ3TW8B47WBP
+  N822M0CUSQFXXYHYMAXVS45YCGVEB5V2VGX33T0"
+FEATURE prismtech opensplice_record 6.99 permanent uncounted
+  hostid=ANY _ck=7f1efc5768 sig="60PG4580PGQSM9NU0W1J7Q2RP31QM7DNK965F
+  1G408A07NRP8VHM08YTE30JBQBWGX0CMBFMG21G"
+FEATURE prismtech com.prismtech.domain.dds.recordreplay.ui 6.99
+  permanent uncounted hostid=ANY _ck=001efcde88 sig="60P0452E04RVR2AFA
+  2MGWHQUU4HJB9E7UXEWBGR22G127Y4ECD4XED8653AKGVG8091HTPF3YV"
+FEATURE prismtech opensplice_durability_kv 6.99 permanent uncounted
+  hostid=ANY _ck=791efc0a60 sig="60P0451AJGKB5YRX1TKXJ0NS0JXBXDN96CBQ8
+  A022GG40VY1YJJMNUN6BMSDXNHAKVY3788W7V"

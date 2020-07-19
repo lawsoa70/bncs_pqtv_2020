@@ -1,6 +1,6 @@
 /*************************************/
 /* Written by David Yates            */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #if !defined(AFX_CCCONFIG_H__0A931BB2_1970_48D9_8C01_80C1813801B9__INCLUDED_)
 #define AFX_CCCONFIG_H__0A931BB2_1970_48D9_8C01_80C1813801B9__INCLUDED_
@@ -11,10 +11,12 @@
 
 #pragma warning( disable : 4786 )
 
+// #include <algorithm>
 #include <string>
 #include <map>
 #include <list>
 using namespace std;
+
 
 class ccConfig  
 {
@@ -68,6 +70,10 @@ private:
 	// helper function to get section with an absolute filename
 	static void readConfigSectionAbs( const string & absFilename, const string & section, map< string, string > & out );
 	static void writeConfigSectionAbs( const string & absFilename, const string & section, const map< string, string > & in );
+
+	static char * buftolower(char * buf);
+	static string strtolower(const string & s);
+	map<string, string >::iterator ccConfig::find(const string & key);
 };
 
 #endif // !defined(AFX_CCCONFIG_H__0A931BB2_1970_48D9_8C01_80C1813801B9__INCLUDED_)

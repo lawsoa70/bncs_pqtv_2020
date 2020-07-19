@@ -4,7 +4,7 @@
 //
 //	Written by Tim Alden
 //
-// (C) 2001 BBC Technology Ltd
+// (C) 2017 Atos
 //	v4.1	09/09/2004	first versioned release
 //
 ///////////////////////////////////////////////////////////

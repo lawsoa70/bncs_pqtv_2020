@@ -1,6 +1,6 @@
 /*************************************/
 /* Original Version by David Yates   */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #if !defined(AFX_BNCS_CLIENT_RUNTIME_H__DB93E75C_BEFE_4ED0_9D61_525A10E3E45C__INCLUDED_)
 #define AFX_BNCS_CLIENT_RUNTIME_H__DB93E75C_BEFE_4ED0_9D61_525A10E3E45C__INCLUDED_
@@ -44,6 +44,8 @@ public:
 	QWidgetList widgetList( void ) const;
 	void setFilePath( const QString & f );
 	QString filePath( void );
+	void addWidgetToList(QWidget*);
+	bool removeWidgetFromList(QWidget *);
 private: 
 	int decoration;
 //	void resizeEvent(  QResizeEvent * );

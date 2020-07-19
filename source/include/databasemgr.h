@@ -34,7 +34,7 @@ public:	// members
 
 	int getIndex( int device, int db, const char* name, int start = 0, int end = 0 );
 	int getIndex( int device, int db, const char* name, bool caseInsensitive, bool substring );
-	bool setName( int device, int db, int index, const char * name, bool writeToFile = true );
+	bool setName( int device, int db, int index, const char * name, bool writeToFile = true, bool *changed = 0 );
 
 	bool exists( int device, int db, int start, int end );
 	int numLoaded( void );
@@ -54,6 +54,8 @@ public:	// members
 	int size( int device, int db );
 	int exists( int device, int db );
 	void clear( int device = 0 );
+	bool dump(void);
+	bool loadDump(int device, int db);
 private:	// variables
 	map< int, database* > dbs;	
 //	map< int, int > lastTimeUsed;		// use this to determine whether to drop the last used database to make room

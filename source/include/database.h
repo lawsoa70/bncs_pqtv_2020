@@ -28,13 +28,15 @@ public:		// methods
 	const char* getName( int index );
 	bool getName( int index, char * name, int len );
 
-	bool setName( int index, const char*, bool writeToFile = true );
+	bool setName( int index, const char*, bool writeToFile = true, bool * changed = 0 );
 	int getIndex( const char * name, int start = 0, int end = 0 );
 	int getIndex( const char * name, bool caseInsensitive, bool substring );
 	int size( void );
 
 	bool exists( int index );
 
+	bool dump(const char* path);
+	bool loadDump(const char* path);
 private:	// variables
 	map< int, string > db;
 	int m_device;

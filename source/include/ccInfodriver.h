@@ -1,6 +1,6 @@
 /*************************************/
 /* Written by David Yates            */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #if !defined(AFX_CCINFODRIVER_H__0EF3B407_6B86_49D2_92FF_9737960379E3__INCLUDED_)
 #define AFX_CCINFODRIVER_H__0EF3B407_6B86_49D2_92FF_9737960379E3__INCLUDED_
@@ -46,7 +46,7 @@ protected:
 	/** Notification of redundancy state
 	\param[in] state The current state
 	*/
-	virtual void cciRedundancyState( enum cc::redundancyState state ){};
+	virtual void cciRedundancyState( int device, enum cc::redundancyState state ){};
 	/** Connected event */
 	virtual void cciConnected( int ){};
 	/** Disconnected event */
@@ -97,11 +97,18 @@ public:
 	void setRedundancyState( enum cc::redundancyState state, bool force = true );
 	void setDriverState( enum cc::driverState state, bool doNow=false, bool force = true );
 	enum cc::redundancyState redundancyState( void );
-
+	int setRedundancyMaster(int device);
 	void setCloseHostOnExit( bool close = false );
 	bool counters( unsigned int & tx, unsigned int & rx );
 	void resetCounters( void );
 	void sendBufferedRevertives( void );
+
+	unsigned int maxDevices(void);
+	unsigned int maxIndexes(void);
+	unsigned int maxSources(void);
+	unsigned int maxDatabases(void);
+	unsigned int maxString(void);
+
 private:
 	IccInfodriverCallback * m_callback;
 	HWND m_hInfo;

@@ -1,0 +1,144 @@
+<dds xmlns="http://www.omg.org/dds/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="file:DDS_QoSProfile.xsd">
+	<qos_profile name="bncs_participant">
+		<domainparticipant_qos name="bncs_participant">
+		</domainparticipant_qos>
+	</qos_profile>
+	<qos_profile name="bncs_commands">
+		<datareader_qos name="bncs_commands">
+			<reliability>
+				<kind>RELIABLE_RELIABILITY_QOS</kind>
+				<max_blocking_time>
+					<sec>0</sec>
+					<nanosec>100000000</nanosec>
+				</max_blocking_time>
+			</reliability>
+		</datareader_qos>
+		<datawriter_qos name="bncs_commands">
+			<reliability>
+				<kind>RELIABLE_RELIABILITY_QOS</kind>
+				<max_blocking_time>
+					<sec>0</sec>
+					<nanosec>100000000</nanosec>
+				</max_blocking_time>
+			</reliability>
+		</datawriter_qos>
+		<domainparticipant_qos name="bncs_commands">
+		</domainparticipant_qos>
+		<subscriber_qos name="bncs_commands">
+		</subscriber_qos>
+		<publisher_qos name="bncs_commands"> 
+		</publisher_qos>
+		<topic_qos name="bncs_commands">
+			<durability>
+				<kind>VOLATILE_DURABILITY_QOS</kind>
+			</durability>
+			<durability_service>
+				<service_cleanup_delay>
+					<sec>0</sec>
+					<nanosec>0</nanosec>
+				</service_cleanup_delay>
+				<history_kind>KEEP_LAST_HISTORY_QOS</history_kind>
+				<history_depth>10</history_depth>
+
+			</durability_service>
+			<latency_budget>
+				<duration>
+					<sec>1</sec>
+					<nanosec>0</nanosec>
+				</duration>
+			</latency_budget>
+			<reliability>
+				<kind>RELIABLE_RELIABILITY_QOS</kind>
+				<max_blocking_time>
+					<sec>0</sec>
+					<nanosec>100000000</nanosec>
+				</max_blocking_time>
+			</reliability>
+		</topic_qos>
+	</qos_profile>
+	<qos_profile name="bncs_revertives">
+		<datareader_qos name="bncs_revertives">
+			<reliability>
+				<kind>RELIABLE_RELIABILITY_QOS</kind>
+				<max_blocking_time>
+					<sec>0</sec>
+					<nanosec>100000000</nanosec>
+				</max_blocking_time>
+			</reliability>
+		</datareader_qos>
+		<datawriter_qos name="bncs_revertives">
+			<reliability>
+				<kind>RELIABLE_RELIABILITY_QOS</kind>
+				<max_blocking_time>
+					<sec>0</sec>
+					<nanosec>100000000</nanosec>
+				</max_blocking_time>
+			</reliability>
+		</datawriter_qos>
+		<domainparticipant_qos name="bncs_revertives">
+		</domainparticipant_qos>
+		<subscriber_qos name="bncs_revertives">
+		</subscriber_qos>
+		<publisher_qos name="bncs_revertives">
+		</publisher_qos>
+		<topic_qos name="bncs_revertives">
+			<durability>
+				<kind>VOLATILE_DURABILITY_QOS</kind>
+			</durability>
+			<durability_service>
+				<service_cleanup_delay>
+					<sec>0</sec>
+					<nanosec>0</nanosec>
+				</service_cleanup_delay>
+				<history_kind>KEEP_LAST_HISTORY_QOS</history_kind>
+				<history_depth>10</history_depth>
+
+			</durability_service>
+			<latency_budget>
+				<duration>
+					<sec>1</sec>
+					<nanosec>0</nanosec>
+				</duration>
+			</latency_budget>
+			<reliability>
+				<kind>RELIABLE_RELIABILITY_QOS</kind>
+				<max_blocking_time>
+					<sec>0</sec>
+					<nanosec>100000000</nanosec>
+				</max_blocking_time>
+			</reliability>
+			<history>
+				<kind>KEEP_LAST_HISTORY_QOS</kind>
+				<depth>10</depth>
+			</history>
+		</topic_qos>
+	</qos_profile>
+	<qos_profile name="bncs_redundancy">
+		<datareader_qos name="bncs_redundancy">
+		</datareader_qos>
+		<datawriter_qos name="bncs_redundancy">
+		</datawriter_qos>
+		<domainparticipant_qos name="bncs_redundancy">
+		</domainparticipant_qos>
+		<subscriber_qos name="bncs_redundancy">
+		</subscriber_qos>
+		<publisher_qos name="bncs_redundancy">
+		</publisher_qos>
+		<topic_qos name="bncs_redundancy">
+		</topic_qos>
+	</qos_profile>
+	<qos_profile name="bncs_netstatus">
+		<datareader_qos name="bncs_netstatus">
+		</datareader_qos>
+		<datawriter_qos name="bncs_netstatus">
+		</datawriter_qos>
+		<domainparticipant_qos name="bncs_netstatus">
+		</domainparticipant_qos>
+		<subscriber_qos name="bncs_netstatus">
+		</subscriber_qos>
+		<publisher_qos name="bncs_netstatus">
+		</publisher_qos>
+		<topic_qos name="bncs_netstatus">
+		</topic_qos>
+	</qos_profile>
+</dds>

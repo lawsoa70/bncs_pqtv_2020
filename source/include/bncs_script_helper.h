@@ -1,6 +1,6 @@
 /*************************************/
 /* Original Version by David Yates   */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #ifndef BNCS_SCRIPT_HELPER_INCLUDED
 	#define BNCS_SCRIPT_HELPER_INCLUDED
@@ -11,7 +11,7 @@
 #include <bncs_stringlist.h>
 
 
-static char BNCS_SCRIPTHELPER_SIG[]="BNCS_SIG,name=bncs_script_helper,type=LIB,version=4.8.4.0,date=05/11/2015,author=David Yates";
+static char BNCS_SCRIPTHELPER_SIG[]="BNCS_SIG,name=bncs_script_helper,type=LIB,version=4.8.7.0,date=05/03/2019,author=David Yates";
 /*	enum revertiveType
 	{
 		ROUTER=1,
@@ -309,7 +309,10 @@ void mypanel::buttonCallback( buttonNotify *b )
 	{
 		if( b && b->dec )
 		{
-			bncs_string out = b->szId;
+			bncs_string out = b->szPanel;
+			
+			out += ":";
+			out += b->szId;
 			
 			out += ": ";
 			out += b->dec->command;
@@ -522,7 +525,7 @@ public:
 	bool panelShow( const bncs_string & pnl, const bncs_string & path, const bncs_string & target="" );
 	bool panelInit( const bncs_string & pnl, const bncs_string & path, const bncs_string & target="" );
 	bool panelTarget( const bncs_string & pnl, const bncs_string & target);
-	bool panelPopup( const bncs_string & pnl, const bncs_string & path, int width = 0, int height = 0 );
+	bool panelPopup( const bncs_string & pnl, const bncs_string & path, int width = 0, int height = 0, const bncs_string & target = "" );
 	bool panelRemove( const bncs_string & pnl );
 	bool panelDestroy( const bncs_string & pnl );
 
@@ -575,6 +578,7 @@ public:
 	void controlPosition( const bncs_string & panel, const bncs_string & id, bncs_string & x, bncs_string & y);
 
 	bncs_string controlCreate( const bncs_string & panel, const bncs_string & id, const bncs_string & buttonClass, int x, int y, int w, int h, const bncs_string & settings );
+	bool controlDestroy( const bncs_string & panel, const bncs_string & id );
 	
 	// host commands
 	void hostNotify( const bncs_string & message );
@@ -616,7 +620,7 @@ public:
 	/** HTTP notification
 
 	This gets called whenever HTTP wants to tell us something
-	See the parentNotify documentation for the values it returns
+	See the httpNotify documentation for the values it returns
 	*/
 #ifdef BNCS_CALLBACK_BY_REF
 	virtual void httpCallback( httpNotify &p ){};		// this has an implementation so that existing scripts don't throw an error
@@ -667,7 +671,7 @@ public:
 private:
 	bncs_client_callback * logic;
 	bncs_string exePath;
-	boolean m_bEnableAck;
+	bool m_bEnableAck;
 };
 
 #define EXPORT_BNCS_SCRIPT( a )		extern "C" \

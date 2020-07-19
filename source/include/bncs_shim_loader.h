@@ -1,6 +1,6 @@
 /****************************************************/
 /* Written by David Yates                           */
-/* Copyright Siemens IT Solutions and Services 2008 */
+/* Copyright Atos 2008 */
 /****************************************************/
 #ifndef BNCS_SHIM_LOADER_INCLUDED
 	#define BNCS_SHIM_LOADER_INCLUDED

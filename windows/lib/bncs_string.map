@@ -1,241 +1,814 @@
  bncs_string
 
- Timestamp is 56ddfd39 (Mon Mar 07 22:14:17 2016)
+ Timestamp is 5e9db7ae (Mon Apr 20 15:54:38 2020)
 
  Preferred load address is 10000000
 
  Start         Length     Name                   Class
- 0001:00000000 00004870H .text                   CODE
- 0001:00004870 000004abH .text$x                 CODE
- 0002:00000000 00000070H .idata$5                DATA
- 0002:00000070 00000044H .rdata                  DATA
- 0002:000000b8 00000598H .xdata$x                DATA
- 0002:00000650 0000003cH .idata$2                DATA
- 0002:0000068c 00000014H .idata$3                DATA
- 0002:000006a0 00000070H .idata$4                DATA
- 0002:00000710 0000022eH .idata$6                DATA
- 0002:00000940 00001581H .edata                  DATA
- 0003:00000000 00000004H .CRT$XCA                DATA
- 0003:00000004 00000004H .CRT$XCU                DATA
- 0003:00000008 00000004H .CRT$XCZ                DATA
- 0003:0000000c 00000004H .CRT$XIA                DATA
- 0003:00000010 00000004H .CRT$XIZ                DATA
- 0003:00000020 00000010H .data                   DATA
- 0003:00000030 0000003cH .bss                    DATA
- 0004:00000000 00000058H .rsrc$01                DATA
- 0004:00000060 000004a8H .rsrc$02                DATA
+ 0001:00000000 00000046H .text$di                CODE
+ 0001:00000050 00005bfcH .text$mn                CODE
+ 0001:00005c50 00000673H .text$x                 CODE
+ 0001:000062d0 0000005aH .text$yd                CODE
+ 0002:00000000 000000f0H .idata$5                DATA
+ 0002:000000f0 00000004H .CRT$XCA                DATA
+ 0002:000000f4 00000010H .CRT$XCU                DATA
+ 0002:00000104 00000004H .CRT$XCZ                DATA
+ 0002:00000108 00000004H .CRT$XIA                DATA
+ 0002:0000010c 00000004H .CRT$XIAA               DATA
+ 0002:00000110 00000004H .CRT$XIC                DATA
+ 0002:00000114 00000004H .CRT$XIZ                DATA
+ 0002:00000118 00000178H .rdata                  DATA
+ 0002:00000290 0000020cH .rdata$r                DATA
+ 0002:0000049c 00000004H .rtc$IAA                DATA
+ 0002:000004a0 00000004H .rtc$IZZ                DATA
+ 0002:000004a4 00000004H .rtc$TAA                DATA
+ 0002:000004a8 00000004H .rtc$TZZ                DATA
+ 0002:000004b0 000008a4H .xdata$x                DATA
+ 0002:00000d60 000015e8H .edata                  DATA
+ 0002:00002348 0000003cH .idata$2                DATA
+ 0002:00002384 00000014H .idata$3                DATA
+ 0002:00002398 000000f0H .idata$4                DATA
+ 0002:00002488 00000514H .idata$6                DATA
+ 0003:00000000 00000024H .data                   DATA
+ 0003:00000024 000000fcH .data$r                 DATA
+ 0003:00000120 00000384H .bss                    DATA
+ 0004:00000000 000000a0H .rsrc$01                DATA
+ 0004:000000a0 00000570H .rsrc$02                DATA
 
-  Address         Publics by Value              Rva+Base     Lib:Object
+  Address         Publics by Value              Rva+Base       Lib:Object
 
- 0001:00000000       ??0bncs_string@@QAE@ABV0@@Z 10001000 f   bncs_string.obj
- 0001:00000070       ??_Ebncs_string@@UAEPAXI@Z 10001070 f i bncs_string.obj
- 0001:000000d0       ??0bncs_string@@QAE@XZ     100010d0 f   bncs_string.obj
- 0001:000000f0       ??0bncs_string@@QAE@PBD@Z  100010f0 f   bncs_string.obj
- 0001:00000150       ??0bncs_string@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10001150 f   bncs_string.obj
- 0001:000001e0       ??Bbncs_string@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 100011e0 f   bncs_string.obj
- 0001:00000270       ??0bncs_string@@QAE@D@Z    10001270 f   bncs_string.obj
- 0001:000002b0       ??0bncs_string@@QAE@HDIH@Z 100012b0 f   bncs_string.obj
- 0001:000003b0       ??0bncs_string@@QAE@NHDI@Z 100013b0 f   bncs_string.obj
- 0001:000004c0       ??1bncs_string@@UAE@XZ     100014c0 f   bncs_string.obj
- 0001:000004f0       ??Abncs_string@@QBE?BDI@Z  100014f0 f   bncs_string.obj
- 0001:00000510       ??Abncs_string@@QAEAADH@Z  10001510 f   bncs_string.obj
- 0001:00000540       ??Bbncs_string@@QBEPBDXZ   10001540 f   bncs_string.obj
- 0001:00000550       ??Bbncs_string@@QBEHXZ     10001550 f   bncs_string.obj
- 0001:00000560       ??4bncs_string@@QAEAAV0@PBD@Z 10001560 f   bncs_string.obj
- 0001:000005e0       ??4bncs_string@@QAEAAV0@ABV0@@Z 100015e0 f   bncs_string.obj
- 0001:00000650       ??8@YA_NABVbncs_string@@H@Z 10001650 f   bncs_string.obj
- 0001:000006d0       ??9@YA_NABVbncs_string@@H@Z 100016d0 f   bncs_string.obj
- 0001:00000750       ??8@YA_NHABVbncs_string@@@Z 10001750 f   bncs_string.obj
- 0001:000007d0       ??9@YA_NHABVbncs_string@@@Z 100017d0 f   bncs_string.obj
- 0001:00000850       ??8@YA_NABVbncs_string@@0@Z 10001850 f   bncs_string.obj
- 0001:000008d0       ??9@YA_NABVbncs_string@@0@Z 100018d0 f   bncs_string.obj
- 0001:00000940       ??8@YA_NABVbncs_string@@PBD@Z 10001940 f   bncs_string.obj
- 0001:000009d0       ??8@YA_NPBDABVbncs_string@@@Z 100019d0 f   bncs_string.obj
- 0001:00000a60       ??H@YA?BVbncs_string@@ABV0@0@Z 10001a60 f   bncs_string.obj
- 0001:00000ad0       ??H@YA?BVbncs_string@@ABV0@PBD@Z 10001ad0 f   bncs_string.obj
- 0001:00000b70       ??H@YA?BVbncs_string@@PBDABV0@@Z 10001b70 f   bncs_string.obj
- 0001:00000be0       ??H@YA?BVbncs_string@@ABV0@H@Z 10001be0 f   bncs_string.obj
- 0001:00000c50       ??H@YA?BVbncs_string@@HABV0@@Z 10001c50 f   bncs_string.obj
- 0001:00000cc0       ??Ybncs_string@@QAEAAV0@ABV0@@Z 10001cc0 f   bncs_string.obj
- 0001:00000ce0       ?append@bncs_string@@QAEAAV1@HDHH@Z 10001ce0 f   bncs_string.obj
- 0001:00000d50       ?append@bncs_string@@QAEAAV1@D@Z 10001d50 f   bncs_string.obj
- 0001:00000db0       ?append@bncs_string@@QAEAAV1@ABV1@@Z 10001db0 f   bncs_string.obj
- 0001:00000e80       ?dump@bncs_string@@QAEXXZ  10001e80 f   bncs_string.obj
- 0001:00000ea0       ?toInt@bncs_string@@QBEHXZ 10001ea0 f   bncs_string.obj
- 0001:00000ec0       ?firstInt@bncs_string@@QBEHXZ 10001ec0 f   bncs_string.obj
- 0001:00000f10       ?toLong@bncs_string@@QBEJXZ 10001f10 f   bncs_string.obj
- 0001:00000f30       ?toUInt@bncs_string@@QBEIH@Z 10001f30 f   bncs_string.obj
- 0001:00000f30       ?toULong@bncs_string@@QBEKH@Z 10001f30 f   bncs_string.obj
- 0001:00000f50       ?toDouble@bncs_string@@QBENXZ 10001f50 f   bncs_string.obj
- 0001:00000f70       ?length@bncs_string@@QBEIXZ 10001f70 f   bncs_string.obj
- 0001:00000f80       ?truncate@bncs_string@@QAEXI@Z 10001f80 f   bncs_string.obj
- 0001:00000fa0       ?find@bncs_string@@QBEHDH_N@Z 10001fa0 f   bncs_string.obj
- 0001:00001030       ?rfind@bncs_string@@QBEHDH_N@Z 10002030 f   bncs_string.obj
- 0001:000010b0       ?find@bncs_string@@QBEHABV1@H_N@Z 100020b0 f   bncs_string.obj
- 0001:000011f0       ?contains@bncs_string@@QBEHD_N@Z 100021f0 f   bncs_string.obj
- 0001:00001270       ?startsWith@bncs_string@@QBE_NABV1@@Z 10002270 f   bncs_string.obj
- 0001:000012c0       ?endsWith@bncs_string@@QBE_NABV1@@Z 100022c0 f   bncs_string.obj
- 0001:00001330       ?left@bncs_string@@QBE?AV1@I@Z 10002330 f   bncs_string.obj
- 0001:000013f0       ?right@bncs_string@@QBE?AV1@I@Z 100023f0 f   bncs_string.obj
- 0001:000014a0       ?mid@bncs_string@@QBE?AV1@II@Z 100024a0 f   bncs_string.obj
- 0001:00001570       ?lower@bncs_string@@QBE?AV1@XZ 10002570 f   bncs_string.obj
- 0001:00001600       ?upper@bncs_string@@QBE?AV1@XZ 10002600 f   bncs_string.obj
- 0001:00001690       ?stripWhiteSpace@bncs_string@@QBE?AV1@XZ 10002690 f   bncs_string.obj
- 0001:00001770       ?iswhitespace@bncs_string@@ABE_ND@Z 10002770 f   bncs_string.obj
- 0001:00001790       ?simplifyWhiteSpace@bncs_string@@QBE?AV1@XZ 10002790 f   bncs_string.obj
- 0001:000018a0       ?arg@bncs_string@@QBE?AV1@ABV1@@Z 100028a0 f   bncs_string.obj
- 0001:00001940       ?arg@bncs_string@@QBE?AV1@PBD@Z 10002940 f   bncs_string.obj
- 0001:00001a00       ?arg@bncs_string@@QBE?AV1@HDIH@Z 10002a00 f   bncs_string.obj
- 0001:00001ad0       ?arg@bncs_string@@QBE?AV1@J@Z 10002ad0 f   bncs_string.obj
- 0001:00001b90       ?decrementPlaceholders@bncs_string@@AAEAAV1@XZ 10002b90 f   bncs_string.obj
- 0001:00001bd0       ?replace@bncs_string@@QAEAAV1@ABV1@0@Z 10002bd0 f   bncs_string.obj
- 0001:00001c20       ?replace@bncs_string@@QAEAAV1@DD@Z 10002c20 f   bncs_string.obj
- 0001:00001c60       ?remove@bncs_string@@QAEAAV1@II@Z 10002c60 f   bncs_string.obj
- 0001:00001cb0       ?insert@bncs_string@@QAEAAV1@IABV1@@Z 10002cb0 f   bncs_string.obj
- 0001:00001dd0       ?cleanup@bncs_string@@QAEAAV1@_N@Z 10002dd0 f   bncs_string.obj
- 0001:00001e40       ?split@bncs_string@@QBEHDAAV1@0@Z 10002e40 f   bncs_string.obj
- 0001:00001ea0       ??M@YA_NABVbncs_string@@0@Z 10002ea0 f   bncs_string.obj
- 0001:00001f00       ?justifyLeft@bncs_string@@QBE?AV1@HD@Z 10002f00 f   bncs_string.obj
- 0001:00001fa0       ?justifyRight@bncs_string@@QBE?AV1@HD@Z 10002fa0 f   bncs_string.obj
- 0001:00002050       ??9@YA_NABVbncs_string@@PBD@Z 10003050 f   bncs_string.obj
- 0001:000020d0       ??9@YA_NPBDABVbncs_string@@@Z 100030d0 f   bncs_string.obj
- 0001:00002150       ??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVbncs_string@@@Z 10003150 f   bncs_string.obj
- 0001:00002170       ??4bncs_stringlistIterator@@QAEAAV0@ABV0@@Z 10003170 f i bncs_stringlist.obj
- 0001:00002190       ??_Fbncs_stringlistIterator@@QAEXXZ 10003190 f i bncs_stringlist.obj
- 0001:000021f0       ??0bncs_stringlistIterator@@QAE@PBVbncs_stringlist@@_N@Z 100031f0 f   bncs_stringlist.obj
- 0001:00002230       ??Dbncs_stringlistIterator@@QBEAAVbncs_string@@XZ 10003230 f   bncs_stringlist.obj
- 0001:00002230       ??Cbncs_stringlistIterator@@QBEPAVbncs_string@@XZ 10003230 f   bncs_stringlist.obj
- 0001:00002280       ??8bncs_stringlistIterator@@QBE_NABV0@@Z 10003280 f   bncs_stringlist.obj
- 0001:000022c0       ??9bncs_stringlistIterator@@QBE_NABV0@@Z 100032c0 f   bncs_stringlist.obj
- 0001:00002300       ??Ebncs_stringlistIterator@@QAE?AV0@XZ 10003300 f   bncs_stringlist.obj
- 0001:00002360       ??Ebncs_stringlistIterator@@QAE?BV0@H@Z 10003360 f   bncs_stringlist.obj
- 0001:000023d0       ??Fbncs_stringlistIterator@@QAE?AV0@XZ 100033d0 f   bncs_stringlist.obj
- 0001:00002420       ??0bncs_stringlist@@QAE@XZ 10003420 f   bncs_stringlist.obj
- 0001:00002490       ??_Ebncs_stringlist@@UAEPAXI@Z 10003490 f i bncs_stringlist.obj
- 0001:000024f0       ??1bncs_stringlist@@UAE@XZ 100034f0 f   bncs_stringlist.obj
- 0001:00002580       ??0bncs_stringlist@@QAE@ABV0@@Z 10003580 f   bncs_stringlist.obj
- 0001:000027d0       ??4bncs_stringlist@@QAEAAV0@ABV0@@Z 100037d0 f   bncs_stringlist.obj
- 0001:000029e0       ??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z 100039e0 f   bncs_stringlist.obj
- 0001:00002a60       ?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z 10003a60 f   bncs_stringlist.obj
- 0001:00002d20       ??Abncs_stringlist@@QAEAAVbncs_string@@H@Z 10003d20 f   bncs_stringlist.obj
- 0001:00002da0       ?count@bncs_stringlist@@QBEHXZ 10003da0 f   bncs_stringlist.obj
- 0001:00002dd0       ?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z 10003dd0 f   bncs_stringlist.obj
- 0001:00002ec0       ?append@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 10003ec0 f   bncs_stringlist.obj
- 0001:000030a0       ?prepend@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 100040a0 f   bncs_stringlist.obj
- 0001:00003280       ?deleteItem@bncs_stringlist@@QAEAAV1@H@Z 10004280 f   bncs_stringlist.obj
- 0001:00003310       ??Ybncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10004310 f   bncs_stringlist.obj
- 0001:00003310       ??Hbncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10004310 f   bncs_stringlist.obj
- 0001:00003310       ??6bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10004310 f   bncs_stringlist.obj
- 0001:00003330       ??Hbncs_stringlist@@QAEAAV0@ABV0@@Z 10004330 f   bncs_stringlist.obj
- 0001:00003330       ??Ybncs_stringlist@@QAEAAV0@ABV0@@Z 10004330 f   bncs_stringlist.obj
- 0001:00003370       ??4bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10004370 f   bncs_stringlist.obj
- 0001:00003390       ?begin@bncs_stringlist@@QAE?BVbncs_stringlistIterator@@XZ 10004390 f   bncs_stringlist.obj
- 0001:00003390       ?begin@bncs_stringlist@@QBE?BVbncs_stringlistIterator@@XZ 10004390 f   bncs_stringlist.obj
- 0001:000033b0       ?end@bncs_stringlist@@QBE?BVbncs_stringlistIterator@@XZ 100043b0 f   bncs_stringlist.obj
- 0001:000033b0       ?end@bncs_stringlist@@QAE?BVbncs_stringlistIterator@@XZ 100043b0 f   bncs_stringlist.obj
- 0001:000033d0       ?replaceItem@bncs_stringlist@@QAEAAV1@ABVbncs_string@@H@Z 100043d0 f   bncs_stringlist.obj
- 0001:00003410       ?sort@bncs_stringlist@@QBE?AV1@_N@Z 10004410 f   bncs_stringlist.obj
- 0001:00003720       ?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 10004720 f   bncs_stringlist.obj
- 0001:00003820       ?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 10004820 f   bncs_stringlist.obj
- 0001:00003940       ??Bbncs_stringlist@@QAEPBDXZ 10004940 f   bncs_stringlist.obj
- 0001:000039b0       ?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z 100049b0 f   bncs_stringlist.obj
- 0001:00003a90       ?clear@bncs_stringlist@@QAEXXZ 10004a90 f   bncs_stringlist.obj
- 0001:00003ae0       ?setCount@bncs_stringlist@@QAEXHABVbncs_string@@@Z 10004ae0 f   bncs_stringlist.obj
- 0001:00003d70       ?size@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QBEIXZ 10004d70 f i bncs_stringlist.obj
- 0001:00003d90       ??1?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE@XZ 10004d90 f i bncs_stringlist.obj
- 0001:00003df0       ?begin@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE?AViterator@12@XZ 10004df0 f i bncs_stringlist.obj
- 0001:00003e00       ??_F?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXXZ 10004e00 f i bncs_stringlist.obj
- 0001:00003e30       ?insert@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXPAVbncs_string@@IABV3@@Z 10004e30 f i bncs_stringlist.obj
- 0001:00004110       ?_Destroy@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXPAVbncs_string@@0@Z 10005110 f i bncs_stringlist.obj
- 0001:00004140       ?insert@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE?AViterator@12@V312@ABVbncs_string@@@Z 10005140 f i bncs_stringlist.obj
- 0001:000041a0       ?swap@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXAAV12@@Z 100051a0 f i bncs_stringlist.obj
- 0001:000041d0       ?splice@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXViterator@12@AAV12@0@Z 100051d0 f i bncs_stringlist.obj
- 0001:00004230       ?merge@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXAAV12@@Z 10005230 f i bncs_stringlist.obj
- 0001:00004310       ?_Buynode@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEPAU_Node@12@PAU312@0@Z 10005310 f i bncs_stringlist.obj
- 0001:00004340       ?_Splice@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXViterator@12@AAV12@00@Z 10005340 f i bncs_stringlist.obj
- 0001:00004380       ?_Ucopy@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEPAVbncs_string@@PBV3@0PAV3@@Z 10005380 f i bncs_stringlist.obj
- 0001:000043c0       ?_Ufill@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXPAVbncs_string@@IABV3@@Z 100053c0 f i bncs_stringlist.obj
- 0001:000043f0       ?erase@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE?AViterator@12@V312@@Z 100053f0 f i bncs_stringlist.obj
- 0001:00004430       ??Eiterator@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE?AV012@H@Z 10005430 f i bncs_stringlist.obj
- 0001:00004440       ?fill@std@@YAXPAVbncs_string@@0ABV2@@Z 10005440 f i bncs_stringlist.obj
- 0001:00004470       ?copy_backward@std@@YAPAVbncs_string@@PAV2@00@Z 10005470 f i bncs_stringlist.obj
- 0001:000044b0       ?_Construct@std@@YAXPAVbncs_string@@ABV2@@Z 100054b0 f i bncs_stringlist.obj
- 0001:00004500       ??3@YAXPAX0@Z              10005500 f i bncs_stringlist.obj
- 0001:00004510       ??3@YAXPAX@Z               10005510 f   msvcprt:delop_s.obj
- 0001:0000451c       ??2@YAPAXI@Z               1000551c f   MSVCRT:MSVCRT.dll
- 0001:00004522       ??_M@YGXPAXIHP6EX0@Z@Z     10005522 f   MSVCRT:ehvecdtr.obj
- 0001:000045a2       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 100055a2 f   MSVCRT:ehvecdtr.obj
- 0001:00004620       ___CxxFrameHandler         10005620 f   MSVCRT:MSVCRT.dll
- 0001:00004626       __onexit                   10005626 f   MSVCRT:atonexit.obj
- 0001:00004652       _atexit                    10005652 f   MSVCRT:atonexit.obj
- 0001:00004664       ??_L@YGXPAXIHP6EX0@Z1@Z    10005664 f   MSVCRT:ehvecctr.obj
- 0001:000046e6       __CRT_INIT@12              100056e6 f   MSVCRT:crtdll.obj
- 0001:00004791       __DllMainCRTStartup@12     10005791 f   MSVCRT:crtdll.obj
- 0001:0000482e       _free                      1000582e f   MSVCRT:MSVCRT.dll
- 0001:00004834       __except_handler3          10005834 f   MSVCRT:MSVCRT.dll
- 0001:0000483a       ?terminate@@YAXXZ          1000583a f   MSVCRT:MSVCRT.dll
- 0001:00004840       ___dllonexit               10005840 f   MSVCRT:MSVCRT.dll
- 0001:00004846       __initterm                 10005846 f   MSVCRT:MSVCRT.dll
- 0001:0000484c       _DllMain@12                1000584c f   MSVCRT:dllmain.obj
- 0002:00000000       __imp__DisableThreadLibraryCalls@4 10006000     kernel32:KERNEL32.dll
- 0002:00000004       \177KERNEL32_NULL_THUNK_DATA 10006004     kernel32:KERNEL32.dll
- 0002:00000008       __imp_??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10006008     msvcprt:MSVCP60.dll
- 0002:0000000c       __imp_?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 1000600c     msvcprt:MSVCP60.dll
- 0002:00000010       __imp_?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB 10006010     msvcprt:MSVCP60.dll
- 0002:00000014       \177MSVCP60_NULL_THUNK_DATA 10006014     msvcprt:MSVCP60.dll
- 0002:00000018       __imp____CxxFrameHandler   10006018     MSVCRT:MSVCRT.dll
- 0002:0000001c       __imp__printf              1000601c     MSVCRT:MSVCRT.dll
- 0002:00000020       __imp__atoi                10006020     MSVCRT:MSVCRT.dll
- 0002:00000024       __imp__isdigit             10006024     MSVCRT:MSVCRT.dll
- 0002:00000028       __imp__atol                10006028     MSVCRT:MSVCRT.dll
- 0002:0000002c       __imp__strtoul             1000602c     MSVCRT:MSVCRT.dll
- 0002:00000030       __imp__strtod              10006030     MSVCRT:MSVCRT.dll
- 0002:00000034       __imp___gcvt               10006034     MSVCRT:MSVCRT.dll
- 0002:00000038       __imp__strncmp             10006038     MSVCRT:MSVCRT.dll
- 0002:0000003c       __imp__tolower             1000603c     MSVCRT:MSVCRT.dll
- 0002:00000040       __imp__free                10006040     MSVCRT:MSVCRT.dll
- 0002:00000044       __imp___except_handler3    10006044     MSVCRT:MSVCRT.dll
- 0002:00000048       __imp_?terminate@@YAXXZ    10006048     MSVCRT:MSVCRT.dll
- 0002:0000004c       __imp____dllonexit         1000604c     MSVCRT:MSVCRT.dll
- 0002:00000050       __imp___onexit             10006050     MSVCRT:MSVCRT.dll
- 0002:00000054       __imp___initterm           10006054     MSVCRT:MSVCRT.dll
- 0002:00000058       __imp__malloc              10006058     MSVCRT:MSVCRT.dll
- 0002:0000005c       __imp___adjust_fdiv        1000605c     MSVCRT:MSVCRT.dll
- 0002:00000060       __imp_??2@YAPAXI@Z         10006060     MSVCRT:MSVCRT.dll
- 0002:00000064       __imp__toupper             10006064     MSVCRT:MSVCRT.dll
- 0002:00000068       __imp__itoa                10006068     MSVCRT:MSVCRT.dll
- 0002:00000068       __imp___itoa               10006068     MSVCRT:MSVCRT.dll
- 0002:0000006c       \177MSVCRT_NULL_THUNK_DATA 1000606c     MSVCRT:MSVCRT.dll
- 0002:00000070       ??_7bncs_string@@6B@       10006070     bncs_string.obj
- 0002:00000078       __real@8@00000000000000000000 10006078     bncs_string.obj
- 0002:00000080       ??_7bncs_stringlist@@6B@   10006080     bncs_stringlist.obj
- 0002:00000650       __IMPORT_DESCRIPTOR_MSVCP60 10006650     msvcprt:MSVCP60.dll
- 0002:00000664       __IMPORT_DESCRIPTOR_MSVCRT 10006664     MSVCRT:MSVCRT.dll
- 0002:00000678       __IMPORT_DESCRIPTOR_KERNEL32 10006678     kernel32:KERNEL32.dll
- 0002:0000068c       __NULL_IMPORT_DESCRIPTOR   1000668c     msvcprt:MSVCP60.dll
- 0003:00000000       ___xc_a                    10008000     MSVCRT:cinitexe.obj
- 0003:00000008       ___xc_z                    10008008     MSVCRT:cinitexe.obj
- 0003:0000000c       ___xi_a                    1000800c     MSVCRT:cinitexe.obj
- 0003:00000010       ___xi_z                    10008010     MSVCRT:cinitexe.obj
- 0003:00000020       ??_C@_03HHKO@?$CFs?6?$AA@  10008020     bncs_string.obj
- 0003:00000024       ??_C@_02MIFF@?$CF1?$AA@    10008024     bncs_string.obj
- 0003:00000034       ??_C@_00A@?$AA@            10008034     bncs_string.obj
- 0003:00000048       ?m_safeReturn@bncs_stringlistIterator@@0Vbncs_string@@A 10008048     bncs_stringlist.obj
- 0003:0000005c       __adjust_fdiv              1000805c     <common>
- 0003:00000060       __pRawDllMain              10008060     <common>
- 0003:00000064       ___onexitend               10008064     <common>
- 0003:00000068       ___onexitbegin             10008068     <common>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000050       ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10001050 f i bncs_string.obj
+ 0001:00000280       ??0bncs_string@@QAE@ABV0@@Z 10001280 f   bncs_string.obj
+ 0001:000002e0       ??0bncs_string@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100012e0 f i bncs_string.obj
+ 0001:00000310       ??0bncs_string@@QAE@D@Z    10001310 f   bncs_string.obj
+ 0001:00000360       ??0bncs_string@@QAE@HDIH@Z 10001360 f   bncs_string.obj
+ 0001:00000450       ??0bncs_string@@QAE@NHDI@Z 10001450 f   bncs_string.obj
+ 0001:00000560       ??0bncs_string@@QAE@PBD@Z  10001560 f   bncs_string.obj
+ 0001:000005c0       ??0bncs_string@@QAE@XZ     100015c0 f   bncs_string.obj
+ 0001:000005e0       ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 100015e0 f i bncs_string.obj
+ 0001:00000600       ??1bncs_string@@UAE@XZ     10001600 f   bncs_string.obj
+ 0001:00000630       ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 10001630 f i bncs_string.obj
+ 0001:00000660       ??3@YAXPAX0@Z              10001660 f i bncs_string.obj
+ 0001:00000670       ??4bncs_string@@QAEAAV0@ABV0@@Z 10001670 f   bncs_string.obj
+ 0001:000006d0       ??4bncs_string@@QAEAAV0@PBD@Z 100016d0 f   bncs_string.obj
+ 0001:00000750       ??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVbncs_string@@@Z 10001750 f   bncs_string.obj
+ 0001:00000770       ??8@YA_NABVbncs_string@@0@Z 10001770 f   bncs_string.obj
+ 0001:000007e0       ??8@YA_NABVbncs_string@@H@Z 100017e0 f   bncs_string.obj
+ 0001:00000860       ??8@YA_NABVbncs_string@@PBD@Z 10001860 f   bncs_string.obj
+ 0001:000008e0       ??8@YA_NHABVbncs_string@@@Z 100018e0 f   bncs_string.obj
+ 0001:00000960       ??8@YA_NPBDABVbncs_string@@@Z 10001960 f   bncs_string.obj
+ 0001:000009e0       ??9@YA_NABVbncs_string@@0@Z 100019e0 f   bncs_string.obj
+ 0001:00000a50       ??9@YA_NABVbncs_string@@H@Z 10001a50 f   bncs_string.obj
+ 0001:00000ad0       ??9@YA_NABVbncs_string@@PBD@Z 10001ad0 f   bncs_string.obj
+ 0001:00000b50       ??9@YA_NHABVbncs_string@@@Z 10001b50 f   bncs_string.obj
+ 0001:00000bd0       ??9@YA_NPBDABVbncs_string@@@Z 10001bd0 f   bncs_string.obj
+ 0001:00000c50       ??Abncs_string@@QAEAADH@Z  10001c50 f   bncs_string.obj
+ 0001:00000c80       ??Abncs_string@@QBE?BDI@Z  10001c80 f   bncs_string.obj
+ 0001:00000ca0       ??Bbncs_string@@QBEPBDXZ   10001ca0 f   bncs_string.obj
+ 0001:00000cb0       ??H@YA?BVbncs_string@@ABV0@0@Z 10001cb0 f   bncs_string.obj
+ 0001:00000d20       ??H@YA?BVbncs_string@@ABV0@H@Z 10001d20 f   bncs_string.obj
+ 0001:00000dc0       ??H@YA?BVbncs_string@@ABV0@PBD@Z 10001dc0 f   bncs_string.obj
+ 0001:00000e50       ??H@YA?BVbncs_string@@HABV0@@Z 10001e50 f   bncs_string.obj
+ 0001:00000ec0       ??H@YA?BVbncs_string@@PBDABV0@@Z 10001ec0 f   bncs_string.obj
+ 0001:00000f30       ??M@YA_NABVbncs_string@@0@Z 10001f30 f   bncs_string.obj
+ 0001:00000f90       ??Ybncs_string@@QAEAAV0@ABV0@@Z 10001f90 f   bncs_string.obj
+ 0001:00000fb0       ??_Ebncs_string@@UAEPAXI@Z 10001fb0 f i bncs_string.obj
+ 0001:00001020       ??_G_Iostream_error_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_Gerror_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_Eerror_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_G_System_error_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_G_Generic_error_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_E_System_error_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_E_Iostream_error_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001020       ??_E_Generic_error_category@std@@UAEPAXI@Z 10002020 f i bncs_string.obj
+ 0001:00001050       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 10002050 f i bncs_string.obj
+ 0001:000011a0       ?allocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEPADI@Z 100021a0 f i bncs_string.obj
+ 0001:000011d0       ?append@bncs_string@@QAEAAV1@ABV1@@Z 100021d0 f   bncs_string.obj
+ 0001:00001250       ?append@bncs_string@@QAEAAV1@D@Z 10002250 f   bncs_string.obj
+ 0001:000012f0       ?append@bncs_string@@QAEAAV1@HDHH@Z 100022f0 f   bncs_string.obj
+ 0001:00001370       ?arg@bncs_string@@QBE?AV1@ABV1@@Z 10002370 f   bncs_string.obj
+ 0001:000013a0       ?arg@bncs_string@@QBE?AV1@HDIH@Z 100023a0 f   bncs_string.obj
+ 0001:00001420       ?arg@bncs_string@@QBE?AV1@J@Z 10002420 f   bncs_string.obj
+ 0001:000014a0       ?arg@bncs_string@@QBE?AV1@PBD@Z 100024a0 f   bncs_string.obj
+ 0001:000016c0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 100026c0 f i bncs_string.obj
+ 0001:000017e0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 100027e0 f i bncs_string.obj
+ 0001:000018e0       ?cleanup@bncs_string@@QAEAAV1@_N@Z 100028e0 f   bncs_string.obj
+ 0001:00001950       ?contains@bncs_string@@QBEHD_N@Z 10002950 f   bncs_string.obj
+ 0001:000019d0       ?decrementPlaceholders@bncs_string@@AAEAAV1@XZ 100029d0 f   bncs_string.obj
+ 0001:00001a10       ?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z 10002a10 f i bncs_string.obj
+ 0001:00001a50       ?default_error_condition@error_category@std@@UBE?AVerror_condition@2@H@Z 10002a50 f i bncs_string.obj
+ 0001:00001a70       ?dump@bncs_string@@QAEXXZ  10002a70 f   bncs_string.obj
+ 0001:00001a90       ?endsWith@bncs_string@@QBE_NABV1@@Z 10002a90 f   bncs_string.obj
+ 0001:00001b00       ?equivalent@error_category@std@@UBE_NABVerror_code@2@H@Z 10002b00 f i bncs_string.obj
+ 0001:00001b20       ?equivalent@error_category@std@@UBE_NHABVerror_condition@2@@Z 10002b20 f i bncs_string.obj
+ 0001:00001b60       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 10002b60 f i bncs_string.obj
+ 0001:00001c00       ?find@bncs_string@@QBEHABV1@H_N@Z 10002c00 f   bncs_string.obj
+ 0001:00001d40       ?find@bncs_string@@QBEHDH_N@Z 10002d40 f   bncs_string.obj
+ 0001:00001dd0       ?firstInt@bncs_string@@QBEHXZ 10002dd0 f   bncs_string.obj
+ 0001:00001e20       ?insert@bncs_string@@QAEAAV1@IABV1@@Z 10002e20 f   bncs_string.obj
+ 0001:00001f40       ?iswhitespace@bncs_string@@ABE_ND@Z 10002f40 f   bncs_string.obj
+ 0001:00001f60       ?justifyLeft@bncs_string@@QBE?AV1@HD@Z 10002f60 f   bncs_string.obj
+ 0001:000020b0       ?justifyRight@bncs_string@@QBE?AV1@HD@Z 100030b0 f   bncs_string.obj
+ 0001:00002220       ?left@bncs_string@@QBE?AV1@I@Z 10003220 f   bncs_string.obj
+ 0001:000022e0       ?length@bncs_string@@QBEIXZ 100032e0 f   bncs_string.obj
+ 0001:000022f0       ?lower@bncs_string@@QBE?AV1@XZ 100032f0 f   bncs_string.obj
+ 0001:00002350       ?message@_Generic_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 10003350 f i bncs_string.obj
+ 0001:000023d0       ?message@_Iostream_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 100033d0 f i bncs_string.obj
+ 0001:00002420       ?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 10003420 f i bncs_string.obj
+ 0001:000024a0       ?mid@bncs_string@@QBE?AV1@II@Z 100034a0 f   bncs_string.obj
+ 0001:00002590       ?name@_Generic_error_category@std@@UBEPBDXZ 10003590 f i bncs_string.obj
+ 0001:000025a0       ?name@_Iostream_error_category@std@@UBEPBDXZ 100035a0 f i bncs_string.obj
+ 0001:000025b0       ?name@_System_error_category@std@@UBEPBDXZ 100035b0 f i bncs_string.obj
+ 0001:000025c0       ?remove@bncs_string@@QAEAAV1@II@Z 100035c0 f   bncs_string.obj
+ 0001:00002610       ?replace@bncs_string@@QAEAAV1@ABV1@0@Z 10003610 f   bncs_string.obj
+ 0001:00002670       ?replace@bncs_string@@QAEAAV1@DD@Z 10003670 f   bncs_string.obj
+ 0001:000026a0       ?rfind@bncs_string@@QBEHDH_N@Z 100036a0 f   bncs_string.obj
+ 0001:00002730       ?right@bncs_string@@QBE?AV1@I@Z 10003730 f   bncs_string.obj
+ 0001:000027f0       ?simplifyWhiteSpace@bncs_string@@QBE?AV1@XZ 100037f0 f   bncs_string.obj
+ 0001:00002970       ?split@bncs_string@@QBEHDAAV1@0@Z 10003970 f   bncs_string.obj
+ 0001:000029f0       ?startsWith@bncs_string@@QBE_NABV1@@Z 100039f0 f   bncs_string.obj
+ 0001:00002a40       ?stripWhiteSpace@bncs_string@@QBE?AV1@XZ 10003a40 f   bncs_string.obj
+ 0001:00002ba0       ?toDouble@bncs_string@@QBENXZ 10003ba0 f   bncs_string.obj
+ 0001:00002bc0       ?toInt@bncs_string@@QBEHXZ 10003bc0 f   bncs_string.obj
+ 0001:00002bc0       ??Bbncs_string@@QBEHXZ     10003bc0 f   bncs_string.obj
+ 0001:00002be0       ?toLong@bncs_string@@QBEJXZ 10003be0 f   bncs_string.obj
+ 0001:00002c00       ?toUInt@bncs_string@@QBEIH@Z 10003c00 f   bncs_string.obj
+ 0001:00002c00       ?toULong@bncs_string@@QBEKH@Z 10003c00 f   bncs_string.obj
+ 0001:00002c30       ?truncate@bncs_string@@QAEXI@Z 10003c30 f   bncs_string.obj
+ 0001:00002c50       ?upper@bncs_string@@QBE?AV1@XZ 10003c50 f   bncs_string.obj
+ 0001:00002cb0       ??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z 10003cb0 f i bncs_stringlist.obj
+ 0001:00002d40       ??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10003d40 f i bncs_stringlist.obj
+ 0001:00002de0       ??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10003de0 f i bncs_stringlist.obj
+ 0001:00002e80       ??$merge@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXAAV01@U?$less@X@1@@Z 10003e80 f i bncs_stringlist.obj
+ 0001:00002f10       ??$sort@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXU?$less@X@1@@Z 10003f10 f i bncs_stringlist.obj
+ 0001:00003210       ??0?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE@XZ 10004210 f i bncs_stringlist.obj
+ 0001:00003230       ??0bncs_stringlist@@QAE@ABV0@@Z 10004230 f   bncs_stringlist.obj
+ 0001:00003320       ??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z 10004320 f   bncs_stringlist.obj
+ 0001:000033d0       ??0bncs_stringlist@@QAE@XZ 100043d0 f   bncs_stringlist.obj
+ 0001:00003480       ??0bncs_stringlistIterator@@QAE@PBVbncs_stringlist@@_N@Z 10004480 f   bncs_stringlist.obj
+ 0001:00003610       ??1?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE@XZ 10004610 f i bncs_stringlist.obj
+ 0001:00003630       ??1bncs_stringlist@@UAE@XZ 10004630 f   bncs_stringlist.obj
+ 0001:000036b0       ??4bncs_stringlist@@QAEAAV0@ABV0@@Z 100046b0 f   bncs_stringlist.obj
+ 0001:00003780       ??4bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10004780 f   bncs_stringlist.obj
+ 0001:000037a0       ??4bncs_stringlistIterator@@QAEAAV0@ABV0@@Z 100047a0 f i bncs_stringlist.obj
+ 0001:000037c0       ??8bncs_stringlist@@QBE_NABV0@@Z 100047c0 f   bncs_stringlist.obj
+ 0001:00003860       ??8bncs_stringlistIterator@@QBE_NABV0@@Z 10004860 f   bncs_stringlist.obj
+ 0001:00003890       ??9bncs_stringlist@@QBE_NABV0@@Z 10004890 f   bncs_stringlist.obj
+ 0001:000038b0       ??9bncs_stringlistIterator@@QBE_NABV0@@Z 100048b0 f   bncs_stringlist.obj
+ 0001:000038e0       ??Abncs_stringlist@@QAEAAVbncs_string@@H@Z 100048e0 f   bncs_stringlist.obj
+ 0001:00003990       ??Abncs_stringlist@@QBEABVbncs_string@@H@Z 10004990 f   bncs_stringlist.obj
+ 0001:00003a40       ??Bbncs_stringlist@@QAEPBDXZ 10004a40 f   bncs_stringlist.obj
+ 0001:00003ab0       ??Dbncs_stringlistIterator@@QBEAAVbncs_string@@XZ 10004ab0 f   bncs_stringlist.obj
+ 0001:00003ab0       ??Cbncs_stringlistIterator@@QBEPAVbncs_string@@XZ 10004ab0 f   bncs_stringlist.obj
+ 0001:00003af0       ??Ebncs_stringlistIterator@@QAE?AV0@XZ 10004af0 f   bncs_stringlist.obj
+ 0001:00003b40       ??Ebncs_stringlistIterator@@QAE?BV0@H@Z 10004b40 f   bncs_stringlist.obj
+ 0001:00003b90       ??Fbncs_stringlistIterator@@QAE?AV0@XZ 10004b90 f   bncs_stringlist.obj
+ 0001:00003be0       ??Ybncs_stringlist@@QAEAAV0@ABV0@@Z 10004be0 f   bncs_stringlist.obj
+ 0001:00003be0       ??Hbncs_stringlist@@QAEAAV0@ABV0@@Z 10004be0 f   bncs_stringlist.obj
+ 0001:00003c80       ??_Ebncs_stringlist@@UAEPAXI@Z 10004c80 f i bncs_stringlist.obj
+ 0001:00003ce0       ??_Fbncs_stringlistIterator@@QAEXXZ 10004ce0 f i bncs_stringlist.obj
+ 0001:00003d00       ?_Buynode0@?$_List_alloc@$0A@U?$_List_base_types@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@2@PAU32@0@Z 10004d00 f i bncs_stringlist.obj
+ 0001:00003d40       ?_Destroy@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXPAVbncs_string@@0@Z 10004d40 f i bncs_stringlist.obj
+ 0001:00003d70       ?_Grow_to@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IBEII@Z 10004d70 f i bncs_stringlist.obj
+ 0001:00003dc0       ?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z 10004dc0 f i bncs_stringlist.obj
+ 0001:00004140       ?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z 10005140 f i bncs_stringlist.obj
+ 0001:00004260       ?_Reserve@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z 10005260 f i bncs_stringlist.obj
+ 0001:00004300       ?_Splice_same@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@Vbncs_string@@@std@@@std@@@2@AAV12@00I@Z 10005300 f i bncs_stringlist.obj
+ 0001:00004380       ?_Tidy@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXXZ 10005380 f i bncs_stringlist.obj
+ 0001:00004380       ??1?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE@XZ 10005380 f i bncs_stringlist.obj
+ 0001:000043d0       ?allocate@?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAVbncs_string@@I@Z 100053d0 f i bncs_stringlist.obj
+ 0001:00004410       ?append@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 10005410 f   bncs_stringlist.obj
+ 0001:00004410       ??Ybncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10005410 f   bncs_stringlist.obj
+ 0001:00004410       ??Hbncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10005410 f   bncs_stringlist.obj
+ 0001:00004410       ??6bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10005410 f   bncs_stringlist.obj
+ 0001:00004490       ?begin@bncs_stringlist@@QAE?BVbncs_stringlistIterator@@XZ 10005490 f   bncs_stringlist.obj
+ 0001:00004490       ?begin@bncs_stringlist@@QBE?BVbncs_stringlistIterator@@XZ 10005490 f   bncs_stringlist.obj
+ 0001:000044b0       ?clear@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXXZ 100054b0 f i bncs_stringlist.obj
+ 0001:000044f0       ?clear@bncs_stringlist@@QAEXXZ 100054f0 f   bncs_stringlist.obj
+ 0001:00004530       ?contentDiff@bncs_stringlist@@QAEHABV1@_NAAV1@2@Z 10005530 f   bncs_stringlist.obj
+ 0001:000045a0       ?count@bncs_stringlist@@QBEHXZ 100055a0 f   bncs_stringlist.obj
+ 0001:000045c0       ?deleteItem@bncs_stringlist@@QAEAAV1@H@Z 100055c0 f   bncs_stringlist.obj
+ 0001:00004610       ?end@bncs_stringlist@@QBE?BVbncs_stringlistIterator@@XZ 10005610 f   bncs_stringlist.obj
+ 0001:00004610       ?end@bncs_stringlist@@QAE?BVbncs_stringlistIterator@@XZ 10005610 f   bncs_stringlist.obj
+ 0001:00004670       ?erase@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@@Z 10005670 f i bncs_stringlist.obj
+ 0001:000046e0       ?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 100056e0 f   bncs_stringlist.obj
+ 0001:000047e0       ?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z 100057e0 f   bncs_stringlist.obj
+ 0001:00004970       ?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z 10005970 f   bncs_stringlist.obj
+ 0001:00004b60       ?prepend@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 10005b60 f   bncs_stringlist.obj
+ 0001:00004b80       ?replaceItem@bncs_stringlist@@QAEAAV1@ABVbncs_string@@H@Z 10005b80 f   bncs_stringlist.obj
+ 0001:00004bd0       ?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z 10005bd0 f i bncs_stringlist.obj
+ 0001:00004d30       ?setCount@bncs_stringlist@@QAEXHABVbncs_string@@@Z 10005d30 f   bncs_stringlist.obj
+ 0001:00004d70       ?sort@bncs_stringlist@@QBE?AV1@_N@Z 10005d70 f   bncs_stringlist.obj
+ 0001:00004f80       ?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z 10005f80 f   bncs_stringlist.obj
+ 0001:00005090       ?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 10006090 f   bncs_stringlist.obj
+ 0001:00005188       ??_U@YAPAXI@Z              10006188 f   msvcprt:newaop_s.obj
+ 0001:00005191       ??_M@YGXPAXIHP6EX0@Z@Z     10006191 f   MSVCRT:ehvecdtr.obj
+ 0001:00005200       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10006200 f   MSVCRT:ehvecdtr.obj
+ 0001:0000525e       __purecall                 1000625e f   MSVCRT:MSVCR120.dll
+ 0001:00005264       ??2@YAPAXI@Z               10006264 f   MSVCRT:MSVCR120.dll
+ 0001:0000526a       ??3@YAXPAX@Z               1000626a f   MSVCRT:MSVCR120.dll
+ 0001:00005270       ___atonexitinit            10006270 f   MSVCRT:atonexit.obj
+ 0001:000052ac       __onexit                   100062ac f   MSVCRT:atonexit.obj
+ 0001:00005355       _atexit                    10006355 f   MSVCRT:atonexit.obj
+ 0001:0000536a       ??_V@YAXPAX@Z              1000636a f   MSVCRT:MSVCR120.dll
+ 0001:00005370       @__security_check_cookie@4 10006370 f   MSVCRT:secchk.obj
+ 0001:00005380       __CxxThrowException@8      10006380 f   MSVCRT:MSVCR120.dll
+ 0001:00005386       ___CxxFrameHandler3        10006386 f   MSVCRT:MSVCR120.dll
+ 0001:0000538c       _memcpy                    1000638c f   MSVCRT:MSVCR120.dll
+ 0001:00005392       ??_Etype_info@@UAEPAXI@Z   10006392 f i MSVCRT:ti_inst.obj
+ 0001:000053e0       ??_L@YGXPAXIHP6EX0@Z1@Z    100063e0 f   MSVCRT:ehvecctr.obj
+ 0001:0000548e       __CRT_INIT@12              1000648e f   MSVCRT:crtdll.obj
+ 0001:00005685       __DllMainCRTStartup@12     10006685 f   MSVCRT:crtdll.obj
+ 0001:000057dc       ?terminate@@YAXXZ          100067dc f   MSVCRT:MSVCR120.dll
+ 0001:000057f0       __SEH_prolog4              100067f0 f   MSVCRT:sehprolg4.obj
+ 0001:00005835       __SEH_epilog4              10006835 f   MSVCRT:sehprolg4.obj
+ 0001:00005849       __except_handler4          10006849 f   MSVCRT:chandler4gs.obj
+ 0001:0000586c       __lock                     1000686c f   MSVCRT:MSVCR120.dll
+ 0001:00005872       __unlock                   10006872 f   MSVCRT:MSVCR120.dll
+ 0001:00005878       ___dllonexit               10006878 f   MSVCRT:MSVCR120.dll
+ 0001:0000587e       ___raise_securityfailure   1000687e f   MSVCRT:gs_report.obj
+ 0001:000058bb       ___report_gsfailure        100068bb f   MSVCRT:gs_report.obj
+ 0001:000059b6       ??1type_info@@UAE@XZ       100069b6 f   MSVCRT:MSVCR120.dll
+ 0001:000059bc       ___CppXcptFilter           100069bc f   MSVCRT:MSVCR120.dll
+ 0001:000059c2       __amsg_exit                100069c2 f   MSVCRT:MSVCR120.dll
+ 0001:000059d0       __FindPESection            100069d0 f   MSVCRT:pesect.obj
+ 0001:00005a20       __IsNonwritableInCurrentImage 10006a20 f   MSVCRT:pesect.obj
+ 0001:00005ae0       __ValidateImageBase        10006ae0 f   MSVCRT:pesect.obj
+ 0001:00005b11       ___security_init_cookie    10006b11 f   MSVCRT:gs_support.obj
+ 0001:00005bad       _DllMain@12                10006bad f   MSVCRT:dllmain.obj
+ 0001:00005bcf       __RTC_Initialize           10006bcf f   MSVCRT:initsect.obj
+ 0001:00005bef       __RTC_Terminate            10006bef f   MSVCRT:initsect.obj
+ 0001:00005c10       __initterm                 10006c10 f   MSVCRT:MSVCR120.dll
+ 0001:00005c16       __initterm_e               10006c16 f   MSVCRT:MSVCR120.dll
+ 0001:00005c1c       ___clean_type_info_names   10006c1c f   MSVCRT:tncleanup.obj
+ 0001:00005c28       __except_handler4_common   10006c28 f   MSVCRT:MSVCR120.dll
+ 0001:00005c2e       __crt_debugger_hook        10006c2e f   MSVCRT:MSVCR120.dll
+ 0001:00005c34       ___crtUnhandledException   10006c34 f   MSVCRT:MSVCR120.dll
+ 0001:00005c3a       ___crtTerminateProcess     10006c3a f   MSVCRT:MSVCR120.dll
+ 0001:00005c40       ___clean_type_info_names_internal 10006c40 f   MSVCRT:MSVCR120.dll
+ 0001:00005c46       _IsProcessorFeaturePresent@4 10006c46 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__DecodePointer@4     10008000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__IsDebuggerPresent@0 10008004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__IsProcessorFeaturePresent@4 10008008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 1000800c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetCurrentProcessId@0 10008010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetCurrentThreadId@0 10008014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetSystemTimeAsFileTime@4 10008018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__DisableThreadLibraryCalls@4 1000801c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__EncodePointer@4     10008020     kernel32:KERNEL32.dll
+ 0002:00000024       \177KERNEL32_NULL_THUNK_DATA 10008024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 10008028     msvcprt:MSVCP120.dll
+ 0002:0000002c       __imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 1000802c     msvcprt:MSVCP120.dll
+ 0002:00000030       __imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z 10008030     msvcprt:MSVCP120.dll
+ 0002:00000034       __imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z 10008034     msvcprt:MSVCP120.dll
+ 0002:00000038       __imp_?_Winerror_map@std@@YAPBDH@Z 10008038     msvcprt:MSVCP120.dll
+ 0002:0000003c       __imp_?_Syserror_map@std@@YAPBDH@Z 1000803c     msvcprt:MSVCP120.dll
+ 0002:00000040       __imp_?_Xout_of_range@std@@YAXPBD@Z 10008040     msvcprt:MSVCP120.dll
+ 0002:00000044       __imp_?_Xlength_error@std@@YAXPBD@Z 10008044     msvcprt:MSVCP120.dll
+ 0002:00000048       __imp_?_Xbad_alloc@std@@YAXXZ 10008048     msvcprt:MSVCP120.dll
+ 0002:0000004c       __imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ 1000804c     msvcprt:MSVCP120.dll
+ 0002:00000050       __imp_?uncaught_exception@std@@YA_NXZ 10008050     msvcprt:MSVCP120.dll
+ 0002:00000054       \177MSVCP120_NULL_THUNK_DATA 10008054     msvcprt:MSVCP120.dll
+ 0002:00000058       __imp__strtod              10008058     MSVCRT:MSVCR120.dll
+ 0002:0000005c       __imp__strtoul             1000805c     MSVCRT:MSVCR120.dll
+ 0002:00000060       __imp___gcvt               10008060     MSVCRT:MSVCR120.dll
+ 0002:00000064       __imp__printf              10008064     MSVCRT:MSVCR120.dll
+ 0002:00000068       __imp_??_V@YAXPAX@Z        10008068     MSVCRT:MSVCR120.dll
+ 0002:0000006c       __imp___CxxThrowException@8 1000806c     MSVCRT:MSVCR120.dll
+ 0002:00000070       __imp____CxxFrameHandler3  10008070     MSVCRT:MSVCR120.dll
+ 0002:00000074       __imp__atol                10008074     MSVCRT:MSVCR120.dll
+ 0002:00000078       __imp_?terminate@@YAXXZ    10008078     MSVCRT:MSVCR120.dll
+ 0002:0000007c       __imp___lock               1000807c     MSVCRT:MSVCR120.dll
+ 0002:00000080       __imp___unlock             10008080     MSVCRT:MSVCR120.dll
+ 0002:00000084       __imp___calloc_crt         10008084     MSVCRT:MSVCR120.dll
+ 0002:00000088       __imp____dllonexit         10008088     MSVCRT:MSVCR120.dll
+ 0002:0000008c       __imp___onexit             1000808c     MSVCRT:MSVCR120.dll
+ 0002:00000090       __imp_??1type_info@@UAE@XZ 10008090     MSVCRT:MSVCR120.dll
+ 0002:00000094       __imp____CppXcptFilter     10008094     MSVCRT:MSVCR120.dll
+ 0002:00000098       __imp___amsg_exit          10008098     MSVCRT:MSVCR120.dll
+ 0002:0000009c       __imp__free                1000809c     MSVCRT:MSVCR120.dll
+ 0002:000000a0       __imp___malloc_crt         100080a0     MSVCRT:MSVCR120.dll
+ 0002:000000a4       __imp___initterm           100080a4     MSVCRT:MSVCR120.dll
+ 0002:000000a8       __imp___initterm_e         100080a8     MSVCRT:MSVCR120.dll
+ 0002:000000ac       __imp___except_handler4_common 100080ac     MSVCRT:MSVCR120.dll
+ 0002:000000b0       __imp___crt_debugger_hook  100080b0     MSVCRT:MSVCR120.dll
+ 0002:000000b4       __imp____crtUnhandledException 100080b4     MSVCRT:MSVCR120.dll
+ 0002:000000b8       __imp____crtTerminateProcess 100080b8     MSVCRT:MSVCR120.dll
+ 0002:000000bc       __imp____clean_type_info_names_internal 100080bc     MSVCRT:MSVCR120.dll
+ 0002:000000c0       __imp__atoi                100080c0     MSVCRT:MSVCR120.dll
+ 0002:000000c4       __imp__strncmp             100080c4     MSVCRT:MSVCR120.dll
+ 0002:000000c8       __imp__memmove             100080c8     MSVCRT:MSVCR120.dll
+ 0002:000000cc       __imp__tolower             100080cc     MSVCRT:MSVCR120.dll
+ 0002:000000d0       __imp__toupper             100080d0     MSVCRT:MSVCR120.dll
+ 0002:000000d4       __imp__isdigit             100080d4     MSVCRT:MSVCR120.dll
+ 0002:000000d8       __imp_??3@YAXPAX@Z         100080d8     MSVCRT:MSVCR120.dll
+ 0002:000000dc       __imp_??2@YAPAXI@Z         100080dc     MSVCRT:MSVCR120.dll
+ 0002:000000e0       __imp___purecall           100080e0     MSVCRT:MSVCR120.dll
+ 0002:000000e4       __imp__memcpy              100080e4     MSVCRT:MSVCR120.dll
+ 0002:000000e8       __imp___itoa               100080e8     MSVCRT:MSVCR120.dll
+ 0002:000000e8       __imp__itoa                100080e8     MSVCRT:MSVCR120.dll
+ 0002:000000ec       \177MSVCR120_NULL_THUNK_DATA 100080ec     MSVCRT:MSVCR120.dll
+ 0002:000000f0       ___xc_a                    100080f0     MSVCRT:cinitexe.obj
+ 0002:00000104       ___xc_z                    10008104     MSVCRT:cinitexe.obj
+ 0002:00000108       ___xi_a                    10008108     MSVCRT:cinitexe.obj
+ 0002:00000114       ___xi_z                    10008114     MSVCRT:cinitexe.obj
+ 0002:00000118       ??_C@_00CNPNBAHC@?$AA@     10008118     bncs_string.obj
+ 0002:00000120       ??_7error_category@std@@6B@ 10008120     bncs_string.obj
+ 0002:0000013c       ??_7_Generic_error_category@std@@6B@ 1000813c     bncs_string.obj
+ 0002:00000154       ??_C@_07DCLBNMLN@generic?$AA@ 10008154     bncs_string.obj
+ 0002:0000015c       ??_C@_0O@BFJCFAAK@unknown?5error?$AA@ 1000815c     bncs_string.obj
+ 0002:00000170       ??_7_Iostream_error_category@std@@6B@ 10008170     bncs_string.obj
+ 0002:00000188       ??_C@_08LLGCOLLL@iostream?$AA@ 10008188     bncs_string.obj
+ 0002:00000194       ??_C@_0BG@PADBLCHM@iostream?5stream?5error?$AA@ 10008194     bncs_string.obj
+ 0002:000001b0       ??_7_System_error_category@std@@6B@ 100081b0     bncs_string.obj
+ 0002:000001c8       ??_C@_06FHFOAHML@system?$AA@ 100081c8     bncs_string.obj
+ 0002:000001d4       ??_7bncs_string@@6B@       100081d4     bncs_string.obj
+ 0002:000001d8       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 100081d8     bncs_string.obj
+ 0002:000001dc       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 100081dc     bncs_string.obj
+ 0002:000001ec       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 100081ec     bncs_string.obj
+ 0002:00000208       ??_7bncs_stringlist@@6B@   10008208     bncs_stringlist.obj
+ 0002:0000020c       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 1000820c     bncs_stringlist.obj
+ 0002:00000220       ??_C@_0BB@MOGOBHAF@list?$DMT?$DO?5too?5long?$AA@ 10008220     bncs_stringlist.obj
+ 0002:00000238       ??_7type_info@@6B@         10008238     MSVCRT:ti_inst.obj
+ 0002:0000023c       __pDefaultRawDllMain       1000823c     MSVCRT:crtdll.obj
+ 0002:0000023c       __pRawDllMain              1000823c     MSVCRT:crtdll.obj
+ 0002:00000248       __load_config_used         10008248     MSVCRT:loadcfg.obj
+ 0002:00000290       ??_R4error_category@std@@6B@ 10008290     bncs_string.obj
+ 0002:000002a4       ??_R3error_category@std@@8 100082a4     bncs_string.obj
+ 0002:000002b4       ??_R2error_category@std@@8 100082b4     bncs_string.obj
+ 0002:000002bc       ??_R1A@?0A@EA@error_category@std@@8 100082bc     bncs_string.obj
+ 0002:000002d8       ??_R4_Generic_error_category@std@@6B@ 100082d8     bncs_string.obj
+ 0002:000002ec       ??_R3_Generic_error_category@std@@8 100082ec     bncs_string.obj
+ 0002:000002fc       ??_R2_Generic_error_category@std@@8 100082fc     bncs_string.obj
+ 0002:00000308       ??_R1A@?0A@EA@_Generic_error_category@std@@8 10008308     bncs_string.obj
+ 0002:00000324       ??_R4_Iostream_error_category@std@@6B@ 10008324     bncs_string.obj
+ 0002:00000338       ??_R3_Iostream_error_category@std@@8 10008338     bncs_string.obj
+ 0002:00000348       ??_R2_Iostream_error_category@std@@8 10008348     bncs_string.obj
+ 0002:00000358       ??_R1A@?0A@EA@_Iostream_error_category@std@@8 10008358     bncs_string.obj
+ 0002:00000374       ??_R4_System_error_category@std@@6B@ 10008374     bncs_string.obj
+ 0002:00000388       ??_R3_System_error_category@std@@8 10008388     bncs_string.obj
+ 0002:00000398       ??_R2_System_error_category@std@@8 10008398     bncs_string.obj
+ 0002:000003a8       ??_R1A@?0A@EA@_System_error_category@std@@8 100083a8     bncs_string.obj
+ 0002:000003c4       ??_R4bncs_string@@6B@      100083c4     bncs_string.obj
+ 0002:000003d8       ??_R3bncs_string@@8        100083d8     bncs_string.obj
+ 0002:000003e8       ??_R2bncs_string@@8        100083e8     bncs_string.obj
+ 0002:000003f0       ??_R1A@?0A@EA@bncs_string@@8 100083f0     bncs_string.obj
+ 0002:0000040c       ??_R4bncs_stringlist@@6B@  1000840c     bncs_stringlist.obj
+ 0002:00000420       ??_R3bncs_stringlist@@8    10008420     bncs_stringlist.obj
+ 0002:00000430       ??_R2bncs_stringlist@@8    10008430     bncs_stringlist.obj
+ 0002:00000438       ??_R1A@?0A@EA@bncs_stringlist@@8 10008438     bncs_stringlist.obj
+ 0002:00000454       ??_R4type_info@@6B@        10008454     MSVCRT:ti_inst.obj
+ 0002:00000468       ??_R3type_info@@8          10008468     MSVCRT:ti_inst.obj
+ 0002:00000478       ??_R2type_info@@8          10008478     MSVCRT:ti_inst.obj
+ 0002:00000480       ??_R1A@?0A@EA@type_info@@8 10008480     MSVCRT:ti_inst.obj
+ 0002:0000049c       ___rtc_iaa                 1000849c     MSVCRT:initsect.obj
+ 0002:000004a0       ___rtc_izz                 100084a0     MSVCRT:initsect.obj
+ 0002:000004a4       ___rtc_taa                 100084a4     MSVCRT:initsect.obj
+ 0002:000004a8       ___rtc_tzz                 100084a8     MSVCRT:initsect.obj
+ 0002:00002348       __IMPORT_DESCRIPTOR_MSVCP120 1000a348     msvcprt:MSVCP120.dll
+ 0002:0000235c       __IMPORT_DESCRIPTOR_MSVCR120 1000a35c     MSVCRT:MSVCR120.dll
+ 0002:00002370       __IMPORT_DESCRIPTOR_KERNEL32 1000a370     kernel32:KERNEL32.dll
+ 0002:00002384       __NULL_IMPORT_DESCRIPTOR   1000a384     msvcprt:MSVCP120.dll
+ 0003:00000000       ?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A 1000b000     bncs_string.obj
+ 0003:00000004       ?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A 1000b004     bncs_string.obj
+ 0003:00000008       ?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A 1000b008     bncs_string.obj
+ 0003:0000000c       ___security_cookie         1000b00c     MSVCRT:gs_cookie.obj
+ 0003:00000010       ___security_cookie_complement 1000b010     MSVCRT:gs_cookie.obj
+ 0003:00000020       ___native_dllmain_reason   1000b020     MSVCRT:natstart.obj
+ 0003:00000024       ??_R0?AVerror_category@std@@@8 1000b024     bncs_string.obj
+ 0003:00000048       ??_R0?AV_Generic_error_category@std@@@8 1000b048     bncs_string.obj
+ 0003:00000074       ??_R0?AV_Iostream_error_category@std@@@8 1000b074     bncs_string.obj
+ 0003:000000a0       ??_R0?AV_System_error_category@std@@@8 1000b0a0     bncs_string.obj
+ 0003:000000cc       ??_R0?AVbncs_string@@@8    1000b0cc     bncs_string.obj
+ 0003:000000e8       ??_R0?AVbncs_stringlist@@@8 1000b0e8     bncs_stringlist.obj
+ 0003:00000108       ??_R0?AVtype_info@@@8      1000b108     MSVCRT:ti_inst.obj
+ 0003:00000124       ?id@?$num_put@DV?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@2V0locale@2@A 1000b124     bncs_string.obj
+ 0003:00000128       ?id@?$num_put@_WV?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@std@@2V0locale@2@A 1000b128     bncs_string.obj
+ 0003:00000130       ?m_safeReturn@bncs_stringlistIterator@@0Vbncs_string@@A 1000b130     bncs_stringlist.obj
+ 0003:00000488       ?__type_info_root_node@@3U__type_info_node@@A 1000b488     MSVCRT:tncleanup.obj
+ 0003:00000490       ___native_startup_lock     1000b490     <common>
+ 0003:00000494       ___native_startup_state    1000b494     <common>
+ 0003:00000498       ___dyn_tls_init_callback   1000b498     <common>
+ 0003:0000049c       ___onexitend               1000b49c     <common>
+ 0003:000004a0       ___onexitbegin             1000b4a0     <common>
 
- entry point at        0001:00004791
+ entry point at        0001:00005685
 
  Static symbols
 
- 0001:000021a0       _$E27                      100031a0 f   bncs_stringlist.obj
- 0001:000021b0       _$E23                      100031b0 f   bncs_stringlist.obj
- 0001:000021c0       _$E26                      100031c0 f   bncs_stringlist.obj
- 0001:000021d0       _$E24                      100031d0 f   bncs_stringlist.obj
- 0001:00002d90       _$E30                      10003d90 f   bncs_stringlist.obj
- 0001:00004600       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 10005600 f   MSVCRT:ehvecdtr.obj
-
- 304 bytes saved through ICF
-
+ 0001:00000000       ??__E?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A@@YAXXZ 10001000 f   bncs_string.obj
+ 0001:00000010       ??__E?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A@@YAXXZ 10001010 f   bncs_string.obj
+ 0001:00000020       ??__E?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A@@YAXXZ 10001020 f   bncs_string.obj
+ 0001:00000030       ??__E?m_safeReturn@bncs_stringlistIterator@@0Vbncs_string@@A@@YAXXZ 10001030 f   bncs_stringlist.obj
+ 0001:00000202       __catch$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$0 10001202 f i bncs_string.obj
+ 0001:000010e6       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$0 100020e6 f i bncs_string.obj
+ 0001:00001123       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1 10002123 f i bncs_string.obj
+ 0001:00002d21       __catch$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z$0 10003d21 f i bncs_stringlist.obj
+ 0001:00002da4       __catch$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z$0 10003da4 f i bncs_stringlist.obj
+ 0001:00002e46       __catch$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z$0 10003e46 f i bncs_stringlist.obj
+ 0001:000034f0       ??0diffLists@?1??contentDiff@bncs_stringlist@@QAEHABV2@_NAAV2@2@Z@QAE@1002@Z 100044f0 f   bncs_stringlist.obj
+ 0001:00003f5f       __catch$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z$0 10004f5f f i bncs_stringlist.obj
+ 0001:00004062       __catch$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z$2 10005062 f i bncs_stringlist.obj
+ 0001:0000423d       __catch$?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z$0 1000523d f i bncs_stringlist.obj
+ 0001:00004d10       __catch$?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z$0 10005d10 f i bncs_stringlist.obj
+ 0001:00005442       _pre_c_init                10006442 f   MSVCRT:crtdll.obj
+ 0001:000056a8       ___DllMainCRTStartup       100066a8 f   MSVCRT:crtdll.obj
+ 0001:000057f0       $$000000                   100067f0     MSVCRT:sehprolg4.obj
+ 0001:00005c50       __unwindfunclet$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$3 10006c50 f   bncs_string.obj
+ 0001:00005c58       __unwindfunclet$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$2 10006c58 f   bncs_string.obj
+ 0001:00005c60       __ehhandler$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10006c60 f   bncs_string.obj
+ 0001:00005c80       __unwindfunclet$??H@YA?BVbncs_string@@PBDABV0@@Z$0 10006c80 f   bncs_string.obj
+ 0001:00005c80       __unwindfunclet$??H@YA?BVbncs_string@@HABV0@@Z$0 10006c80 f   bncs_string.obj
+ 0001:00005c80       __unwindfunclet$??H@YA?BVbncs_string@@ABV0@0@Z$0 10006c80 f   bncs_string.obj
+ 0001:00005c99       __ehhandler$??H@YA?BVbncs_string@@PBDABV0@@Z 10006c99 f   bncs_string.obj
+ 0001:00005c99       __ehhandler$??H@YA?BVbncs_string@@HABV0@@Z 10006c99 f   bncs_string.obj
+ 0001:00005c99       __ehhandler$??H@YA?BVbncs_string@@ABV0@0@Z 10006c99 f   bncs_string.obj
+ 0001:00005cc0       __unwindfunclet$??H@YA?BVbncs_string@@ABV0@PBD@Z$0 10006cc0 f   bncs_string.obj
+ 0001:00005cc0       __unwindfunclet$??H@YA?BVbncs_string@@ABV0@H@Z$0 10006cc0 f   bncs_string.obj
+ 0001:00005cd9       __unwindfunclet$??H@YA?BVbncs_string@@ABV0@H@Z$1 10006cd9 f   bncs_string.obj
+ 0001:00005cd9       __unwindfunclet$??H@YA?BVbncs_string@@ABV0@PBD@Z$1 10006cd9 f   bncs_string.obj
+ 0001:00005ce1       __ehhandler$??H@YA?BVbncs_string@@ABV0@PBD@Z 10006ce1 f   bncs_string.obj
+ 0001:00005ce1       __ehhandler$??H@YA?BVbncs_string@@ABV0@H@Z 10006ce1 f   bncs_string.obj
+ 0001:00005d00       __ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 10006d00 f   bncs_string.obj
+ 0001:00005d20       __unwindfunclet$?append@bncs_string@@QAEAAV1@D@Z$0 10006d20 f   bncs_string.obj
+ 0001:00005d28       __ehhandler$?append@bncs_string@@QAEAAV1@D@Z 10006d28 f   bncs_string.obj
+ 0001:00005d50       __unwindfunclet$?arg@bncs_string@@QBE?AV1@PBD@Z$0 10006d50 f   bncs_string.obj
+ 0001:00005d69       __unwindfunclet$?arg@bncs_string@@QBE?AV1@PBD@Z$1 10006d69 f   bncs_string.obj
+ 0001:00005d71       __ehhandler$?arg@bncs_string@@QBE?AV1@PBD@Z 10006d71 f   bncs_string.obj
+ 0001:00005d90       __unwindfunclet$?justifyLeft@bncs_string@@QBE?AV1@HD@Z$1 10006d90 f   bncs_string.obj
+ 0001:00005d98       __unwindfunclet$?justifyLeft@bncs_string@@QBE?AV1@HD@Z$2 10006d98 f   bncs_string.obj
+ 0001:00005da0       __ehhandler$?justifyLeft@bncs_string@@QBE?AV1@HD@Z 10006da0 f   bncs_string.obj
+ 0001:00005dc0       __unwindfunclet$?justifyRight@bncs_string@@QBE?AV1@HD@Z$1 10006dc0 f   bncs_string.obj
+ 0001:00005dc8       __unwindfunclet$?justifyRight@bncs_string@@QBE?AV1@HD@Z$2 10006dc8 f   bncs_string.obj
+ 0001:00005dd0       __ehhandler$?justifyRight@bncs_string@@QBE?AV1@HD@Z 10006dd0 f   bncs_string.obj
+ 0001:00005df0       __unwindfunclet$?arg@bncs_string@@QBE?AV1@HDIH@Z$0 10006df0 f   bncs_string.obj
+ 0001:00005df0       __unwindfunclet$?right@bncs_string@@QBE?AV1@I@Z$0 10006df0 f   bncs_string.obj
+ 0001:00005df0       __unwindfunclet$?left@bncs_string@@QBE?AV1@I@Z$0 10006df0 f   bncs_string.obj
+ 0001:00005df0       __unwindfunclet$?mid@bncs_string@@QBE?AV1@II@Z$0 10006df0 f   bncs_string.obj
+ 0001:00005df0       __unwindfunclet$?arg@bncs_string@@QBE?AV1@J@Z$0 10006df0 f   bncs_string.obj
+ 0001:00005df8       __ehhandler$?arg@bncs_string@@QBE?AV1@J@Z 10006df8 f   bncs_string.obj
+ 0001:00005df8       __ehhandler$?right@bncs_string@@QBE?AV1@I@Z 10006df8 f   bncs_string.obj
+ 0001:00005df8       __ehhandler$?left@bncs_string@@QBE?AV1@I@Z 10006df8 f   bncs_string.obj
+ 0001:00005df8       __ehhandler$?arg@bncs_string@@QBE?AV1@HDIH@Z 10006df8 f   bncs_string.obj
+ 0001:00005df8       __ehhandler$?mid@bncs_string@@QBE?AV1@II@Z 10006df8 f   bncs_string.obj
+ 0001:00005e20       __unwindfunclet$?simplifyWhiteSpace@bncs_string@@QBE?AV1@XZ$1 10006e20 f   bncs_string.obj
+ 0001:00005e20       __unwindfunclet$?stripWhiteSpace@bncs_string@@QBE?AV1@XZ$0 10006e20 f   bncs_string.obj
+ 0001:00005e28       __ehhandler$?stripWhiteSpace@bncs_string@@QBE?AV1@XZ 10006e28 f   bncs_string.obj
+ 0001:00005e28       __ehhandler$?simplifyWhiteSpace@bncs_string@@QBE?AV1@XZ 10006e28 f   bncs_string.obj
+ 0001:00005e50       __unwindfunclet$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z$2 10006e50 f   bncs_stringlist.obj
+ 0001:00005e61       __ehhandler$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z 10006e61 f   bncs_stringlist.obj
+ 0001:00005e80       __unwindfunclet$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z$2 10006e80 f   bncs_stringlist.obj
+ 0001:00005e91       __ehhandler$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10006e91 f   bncs_stringlist.obj
+ 0001:00005eb0       __unwindfunclet$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z$2 10006eb0 f   bncs_stringlist.obj
+ 0001:00005ec1       __ehhandler$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10006ec1 f   bncs_stringlist.obj
+ 0001:00005ee0       __unwindfunclet$??$sort@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXU?$less@X@1@@Z$0 10006ee0 f   bncs_stringlist.obj
+ 0001:00005eeb       __unwindfunclet$??$sort@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXU?$less@X@1@@Z$1 10006eeb f   bncs_stringlist.obj
+ 0001:00005f01       __ehhandler$??$sort@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXU?$less@X@1@@Z 10006f01 f   bncs_stringlist.obj
+ 0001:00005f30       __unwindfunclet$??0bncs_stringlist@@QAE@ABV0@@Z$0 10006f30 f   bncs_stringlist.obj
+ 0001:00005f3b       __unwindfunclet$??0bncs_stringlist@@QAE@ABV0@@Z$1 10006f3b f   bncs_stringlist.obj
+ 0001:00005f46       __unwindfunclet$??0bncs_stringlist@@QAE@ABV0@@Z$2 10006f46 f   bncs_stringlist.obj
+ 0001:00005f4e       __unwindfunclet$??0bncs_stringlist@@QAE@ABV0@@Z$3 10006f4e f   bncs_stringlist.obj
+ 0001:00005f5f       __ehhandler$??0bncs_stringlist@@QAE@ABV0@@Z 10006f5f f   bncs_stringlist.obj
+ 0001:00005f80       __unwindfunclet$??0bncs_stringlist@@QAE@XZ$0 10006f80 f   bncs_stringlist.obj
+ 0001:00005f80       __unwindfunclet$??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z$0 10006f80 f   bncs_stringlist.obj
+ 0001:00005f8b       __unwindfunclet$??0bncs_stringlist@@QAE@XZ$1 10006f8b f   bncs_stringlist.obj
+ 0001:00005f8b       __unwindfunclet$??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z$1 10006f8b f   bncs_stringlist.obj
+ 0001:00005f96       __unwindfunclet$??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z$2 10006f96 f   bncs_stringlist.obj
+ 0001:00005f96       __unwindfunclet$??0bncs_stringlist@@QAE@XZ$2 10006f96 f   bncs_stringlist.obj
+ 0001:00005f9e       __ehhandler$??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z 10006f9e f   bncs_stringlist.obj
+ 0001:00005f9e       __ehhandler$??0bncs_stringlist@@QAE@XZ 10006f9e f   bncs_stringlist.obj
+ 0001:00005fc0       __unwindfunclet$??0diffLists@?1??contentDiff@bncs_stringlist@@QAEHABV2@_NAAV2@2@Z@QAE@1002@Z$0 10006fc0 f   bncs_stringlist.obj
+ 0001:00005fd1       __ehhandler$??0diffLists@?1??contentDiff@bncs_stringlist@@QAEHABV2@_NAAV2@2@Z@QAE@1002@Z 10006fd1 f   bncs_stringlist.obj
+ 0001:00005ff0       __unwindfunclet$??6bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z$0 10006ff0 f   bncs_stringlist.obj
+ 0001:00005ff0       __unwindfunclet$??Hbncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z$0 10006ff0 f   bncs_stringlist.obj
+ 0001:00005ff0       __unwindfunclet$??Ybncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z$0 10006ff0 f   bncs_stringlist.obj
+ 0001:00005ff0       __unwindfunclet$?append@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z$0 10006ff0 f   bncs_stringlist.obj
+ 0001:00006001       __ehhandler$??Ybncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10007001 f   bncs_stringlist.obj
+ 0001:00006001       __ehhandler$?append@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 10007001 f   bncs_stringlist.obj
+ 0001:00006001       __ehhandler$??6bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10007001 f   bncs_stringlist.obj
+ 0001:00006001       __ehhandler$??Hbncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 10007001 f   bncs_stringlist.obj
+ 0001:00006020       __unwindfunclet$??Abncs_stringlist@@QAEAAVbncs_string@@H@Z$0 10007020 f   bncs_stringlist.obj
+ 0001:0000602e       __ehhandler$??Abncs_stringlist@@QAEAAVbncs_string@@H@Z 1000702e f   bncs_stringlist.obj
+ 0001:00006050       __unwindfunclet$??Abncs_stringlist@@QBEABVbncs_string@@H@Z$0 10007050 f   bncs_stringlist.obj
+ 0001:0000605e       __ehhandler$??Abncs_stringlist@@QBEABVbncs_string@@H@Z 1000705e f   bncs_stringlist.obj
+ 0001:00006080       __unwindfunclet$?append@bncs_string@@QAEAAV1@HDHH@Z$0 10007080 f   bncs_stringlist.obj
+ 0001:00006080       __unwindfunclet$??Bbncs_stringlist@@QAEPBDXZ$0 10007080 f   bncs_stringlist.obj
+ 0001:00006088       __ehhandler$?append@bncs_string@@QAEAAV1@HDHH@Z 10007088 f   bncs_stringlist.obj
+ 0001:00006088       __ehhandler$??Bbncs_stringlist@@QAEPBDXZ 10007088 f   bncs_stringlist.obj
+ 0001:000060b0       __unwindfunclet$??Ybncs_stringlist@@QAEAAV0@ABV0@@Z$0 100070b0 f   bncs_stringlist.obj
+ 0001:000060b0       __unwindfunclet$??4bncs_stringlist@@QAEAAV0@ABV0@@Z$0 100070b0 f   bncs_stringlist.obj
+ 0001:000060b0       __unwindfunclet$??Hbncs_stringlist@@QAEAAV0@ABV0@@Z$0 100070b0 f   bncs_stringlist.obj
+ 0001:000060c1       __ehhandler$??4bncs_stringlist@@QAEAAV0@ABV0@@Z 100070c1 f   bncs_stringlist.obj
+ 0001:000060c1       __ehhandler$??Ybncs_stringlist@@QAEAAV0@ABV0@@Z 100070c1 f   bncs_stringlist.obj
+ 0001:000060c1       __ehhandler$??Hbncs_stringlist@@QAEAAV0@ABV0@@Z 100070c1 f   bncs_stringlist.obj
+ 0001:000060e0       __unwindfunclet$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z$4 100070e0 f   bncs_stringlist.obj
+ 0001:000060e8       __unwindfunclet$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z$5 100070e8 f   bncs_stringlist.obj
+ 0001:000060f0       __ehhandler$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z 100070f0 f   bncs_stringlist.obj
+ 0001:00006110       __ehhandler$?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z 10007110 f   bncs_stringlist.obj
+ 0001:00006130       __unwindfunclet$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z$0 10007130 f   bncs_stringlist.obj
+ 0001:00006138       __unwindfunclet$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z$2 10007138 f   bncs_stringlist.obj
+ 0001:00006149       __unwindfunclet$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z$1 10007149 f   bncs_stringlist.obj
+ 0001:00006151       __unwindfunclet$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z$3 10007151 f   bncs_stringlist.obj
+ 0001:00006162       __ehhandler$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z 10007162 f   bncs_stringlist.obj
+ 0001:00006180       __unwindfunclet$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z$2 10007180 f   bncs_stringlist.obj
+ 0001:00006188       __unwindfunclet$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z$3 10007188 f   bncs_stringlist.obj
+ 0001:00006193       __unwindfunclet$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z$4 10007193 f   bncs_stringlist.obj
+ 0001:0000619b       __unwindfunclet$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z$0 1000719b f   bncs_stringlist.obj
+ 0001:000061a3       __unwindfunclet$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z$5 100071a3 f   bncs_stringlist.obj
+ 0001:000061b1       __unwindfunclet$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z$6 100071b1 f   bncs_stringlist.obj
+ 0001:000061bf       __ehhandler$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z 100071bf f   bncs_stringlist.obj
+ 0001:000061e0       __ehhandler$?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z 100071e0 f   bncs_stringlist.obj
+ 0001:00006200       __unwindfunclet$?sort@bncs_stringlist@@QBE?AV1@_N@Z$0 10007200 f   bncs_stringlist.obj
+ 0001:00006219       __unwindfunclet$?sort@bncs_stringlist@@QBE?AV1@_N@Z$1 10007219 f   bncs_stringlist.obj
+ 0001:00006221       __unwindfunclet$?sort@bncs_stringlist@@QBE?AV1@_N@Z$4 10007221 f   bncs_stringlist.obj
+ 0001:00006232       __ehhandler$?sort@bncs_stringlist@@QBE?AV1@_N@Z 10007232 f   bncs_stringlist.obj
+ 0001:00006250       __unwindfunclet$?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z$0 10007250 f   bncs_stringlist.obj
+ 0001:00006258       __unwindfunclet$?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z$1 10007258 f   bncs_stringlist.obj
+ 0001:00006271       __ehhandler$?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z 10007271 f   bncs_stringlist.obj
+ 0001:00006290       __unwindfunclet$?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z$0 10007290 f   bncs_stringlist.obj
+ 0001:00006290       __unwindfunclet$?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z$0 10007290 f   bncs_stringlist.obj
+ 0001:00006298       __unwindfunclet$?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z$1 10007298 f   bncs_stringlist.obj
+ 0001:00006298       __unwindfunclet$?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z$1 10007298 f   bncs_stringlist.obj
+ 0001:000062a0       __unwindfunclet$?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z$2 100072a0 f   bncs_stringlist.obj
+ 0001:000062a0       __unwindfunclet$?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z$2 100072a0 f   bncs_stringlist.obj
+ 0001:000062a8       __ehhandler$?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 100072a8 f   bncs_stringlist.obj
+ 0001:000062a8       __ehhandler$?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 100072a8 f   bncs_stringlist.obj
+ 0001:000062d0       ??__F?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A@@YAXXZ 100072d0 f   bncs_string.obj
+ 0001:000062e0       ??__F?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A@@YAXXZ 100072e0 f   bncs_string.obj
+ 0001:000062f0       ??__F?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A@@YAXXZ 100072f0 f   bncs_string.obj
+ 0001:00006300       ??__F?m_safeReturn@bncs_stringlistIterator@@0Vbncs_string@@A@@YAXXZ 10007300 f   bncs_stringlist.obj
+ 0001:00006310       ??__Fret@?1???Abncs_stringlist@@QAEAAVbncs_string@@H@Z@YAXXZ 10007310 f   bncs_stringlist.obj
+ 0001:00006320       ??__Fret@?1???Abncs_stringlist@@QBEABVbncs_string@@H@Z@YAXXZ 10007320 f   bncs_stringlist.obj
+ 0002:000000f4       ?_Generic_object$initializer$@?$_Error_objects@H@std@@2P6AXXZA 100080f4     bncs_string.obj
+ 0002:000000f8       ?_Iostream_object$initializer$@?$_Error_objects@H@std@@2P6AXXZA 100080f8     bncs_string.obj
+ 0002:000000fc       ?_System_object$initializer$@?$_Error_objects@H@std@@2P6AXXZA 100080fc     bncs_string.obj
+ 0002:00000100       ?m_safeReturn$initializer$@bncs_stringlistIterator@@0P6AXXZA 10008100     bncs_stringlist.obj
+ 0002:0000010c       _pcinit                    1000810c     MSVCRT:crtdll.obj
+ 0002:00000110       _pinit                     10008110     MSVCRT:atonexit.obj
+ 0002:00000240       _GS_ExceptionPointers      10008240     MSVCRT:gs_report.obj
+ 0002:000004b0       __catchsym$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$5 100084b0     bncs_string.obj
+ 0002:000004c0       __catchsym$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$4 100084c0     bncs_string.obj
+ 0002:000004d0       __unwindtable$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 100084d0     bncs_string.obj
+ 0002:000004f0       __ehfuncinfo$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 100084f0     bncs_string.obj
+ 0002:00000514       __tryblocktable$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 10008514     bncs_string.obj
+ 0002:0000053c       __unwindtable$??H@YA?BVbncs_string@@HABV0@@Z 1000853c     bncs_string.obj
+ 0002:0000053c       __unwindtable$??H@YA?BVbncs_string@@ABV0@0@Z 1000853c     bncs_string.obj
+ 0002:0000053c       __unwindtable$??H@YA?BVbncs_string@@PBDABV0@@Z 1000853c     bncs_string.obj
+ 0002:00000544       __ehfuncinfo$??H@YA?BVbncs_string@@ABV0@0@Z 10008544     bncs_string.obj
+ 0002:00000544       __ehfuncinfo$??H@YA?BVbncs_string@@PBDABV0@@Z 10008544     bncs_string.obj
+ 0002:00000544       __ehfuncinfo$??H@YA?BVbncs_string@@HABV0@@Z 10008544     bncs_string.obj
+ 0002:00000568       __unwindtable$??H@YA?BVbncs_string@@ABV0@H@Z 10008568     bncs_string.obj
+ 0002:00000568       __unwindtable$??H@YA?BVbncs_string@@ABV0@PBD@Z 10008568     bncs_string.obj
+ 0002:00000578       __ehfuncinfo$??H@YA?BVbncs_string@@ABV0@H@Z 10008578     bncs_string.obj
+ 0002:00000578       __ehfuncinfo$??H@YA?BVbncs_string@@ABV0@PBD@Z 10008578     bncs_string.obj
+ 0002:0000059c       __unwindtable$?append@bncs_string@@QAEAAV1@D@Z 1000859c     bncs_string.obj
+ 0002:000005a4       __ehfuncinfo$?append@bncs_string@@QAEAAV1@D@Z 100085a4     bncs_string.obj
+ 0002:000005c8       __unwindtable$?mid@bncs_string@@QBE?AV1@II@Z 100085c8     bncs_string.obj
+ 0002:000005c8       __unwindtable$?left@bncs_string@@QBE?AV1@I@Z 100085c8     bncs_string.obj
+ 0002:000005c8       __unwindtable$?right@bncs_string@@QBE?AV1@I@Z 100085c8     bncs_string.obj
+ 0002:000005c8       __unwindtable$?arg@bncs_string@@QBE?AV1@HDIH@Z 100085c8     bncs_string.obj
+ 0002:000005c8       __unwindtable$?arg@bncs_string@@QBE?AV1@J@Z 100085c8     bncs_string.obj
+ 0002:000005d0       __ehfuncinfo$?right@bncs_string@@QBE?AV1@I@Z 100085d0     bncs_string.obj
+ 0002:000005d0       __ehfuncinfo$?mid@bncs_string@@QBE?AV1@II@Z 100085d0     bncs_string.obj
+ 0002:000005d0       __ehfuncinfo$?arg@bncs_string@@QBE?AV1@J@Z 100085d0     bncs_string.obj
+ 0002:000005d0       __ehfuncinfo$?arg@bncs_string@@QBE?AV1@HDIH@Z 100085d0     bncs_string.obj
+ 0002:000005d0       __ehfuncinfo$?left@bncs_string@@QBE?AV1@I@Z 100085d0     bncs_string.obj
+ 0002:000005f4       __unwindtable$?simplifyWhiteSpace@bncs_string@@QBE?AV1@XZ 100085f4     bncs_string.obj
+ 0002:000005f4       __unwindtable$?stripWhiteSpace@bncs_string@@QBE?AV1@XZ 100085f4     bncs_string.obj
+ 0002:000005fc       __ehfuncinfo$?stripWhiteSpace@bncs_string@@QBE?AV1@XZ 100085fc     bncs_string.obj
+ 0002:000005fc       __ehfuncinfo$?simplifyWhiteSpace@bncs_string@@QBE?AV1@XZ 100085fc     bncs_string.obj
+ 0002:00000620       __unwindtable$?arg@bncs_string@@QBE?AV1@PBD@Z 10008620     bncs_string.obj
+ 0002:00000630       __ehfuncinfo$?arg@bncs_string@@QBE?AV1@PBD@Z 10008630     bncs_string.obj
+ 0002:00000654       __unwindtable$?justifyLeft@bncs_string@@QBE?AV1@HD@Z 10008654     bncs_string.obj
+ 0002:00000664       __ehfuncinfo$?justifyLeft@bncs_string@@QBE?AV1@HD@Z 10008664     bncs_string.obj
+ 0002:00000688       __unwindtable$?justifyRight@bncs_string@@QBE?AV1@HD@Z 10008688     bncs_string.obj
+ 0002:00000698       __ehfuncinfo$?justifyRight@bncs_string@@QBE?AV1@HD@Z 10008698     bncs_string.obj
+ 0002:000006bc       __catchsym$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$4 100086bc     bncs_string.obj
+ 0002:000006cc       __tryblocktable$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 100086cc     bncs_string.obj
+ 0002:000006e0       __unwindtable$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 100086e0     bncs_string.obj
+ 0002:00000700       __ehfuncinfo$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10008700     bncs_string.obj
+ 0002:00000724       __unwindtable$??0bncs_stringlist@@QAE@XZ 10008724     bncs_stringlist.obj
+ 0002:00000724       __unwindtable$??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z 10008724     bncs_stringlist.obj
+ 0002:0000073c       __ehfuncinfo$??0bncs_stringlist@@QAE@ABVbncs_string@@D@Z 1000873c     bncs_stringlist.obj
+ 0002:0000073c       __ehfuncinfo$??0bncs_stringlist@@QAE@XZ 1000873c     bncs_stringlist.obj
+ 0002:00000760       __unwindtable$??0bncs_stringlist@@QAE@ABV0@@Z 10008760     bncs_stringlist.obj
+ 0002:00000780       __ehfuncinfo$??0bncs_stringlist@@QAE@ABV0@@Z 10008780     bncs_stringlist.obj
+ 0002:000007a4       __unwindtable$??Abncs_stringlist@@QAEAAVbncs_string@@H@Z 100087a4     bncs_stringlist.obj
+ 0002:000007ac       __ehfuncinfo$??Abncs_stringlist@@QAEAAVbncs_string@@H@Z 100087ac     bncs_stringlist.obj
+ 0002:000007d0       __unwindtable$??Abncs_stringlist@@QBEABVbncs_string@@H@Z 100087d0     bncs_stringlist.obj
+ 0002:000007d8       __ehfuncinfo$??Abncs_stringlist@@QBEABVbncs_string@@H@Z 100087d8     bncs_stringlist.obj
+ 0002:000007fc       __unwindtable$?append@bncs_string@@QAEAAV1@HDHH@Z 100087fc     bncs_stringlist.obj
+ 0002:000007fc       __unwindtable$??Bbncs_stringlist@@QAEPBDXZ 100087fc     bncs_stringlist.obj
+ 0002:00000804       __ehfuncinfo$?append@bncs_string@@QAEAAV1@HDHH@Z 10008804     bncs_stringlist.obj
+ 0002:00000804       __ehfuncinfo$??Bbncs_stringlist@@QAEPBDXZ 10008804     bncs_stringlist.obj
+ 0002:00000828       __unwindtable$?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z 10008828     bncs_stringlist.obj
+ 0002:00000838       __ehfuncinfo$?toString@bncs_stringlist@@QAE?AVbncs_string@@D@Z 10008838     bncs_stringlist.obj
+ 0002:0000085c       __unwindtable$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z 1000885c     bncs_stringlist.obj
+ 0002:0000087c       __ehfuncinfo$?fromString@bncs_stringlist@@QAEAAV1@ABVbncs_string@@D@Z 1000887c     bncs_stringlist.obj
+ 0002:000008a0       __unwindtable$??Hbncs_stringlist@@QAEAAV0@ABV0@@Z 100088a0     bncs_stringlist.obj
+ 0002:000008a0       __unwindtable$??Ybncs_stringlist@@QAEAAV0@ABV0@@Z 100088a0     bncs_stringlist.obj
+ 0002:000008a0       __unwindtable$??4bncs_stringlist@@QAEAAV0@ABV0@@Z 100088a0     bncs_stringlist.obj
+ 0002:000008a8       __ehfuncinfo$??4bncs_stringlist@@QAEAAV0@ABV0@@Z 100088a8     bncs_stringlist.obj
+ 0002:000008a8       __ehfuncinfo$??Hbncs_stringlist@@QAEAAV0@ABV0@@Z 100088a8     bncs_stringlist.obj
+ 0002:000008a8       __ehfuncinfo$??Ybncs_stringlist@@QAEAAV0@ABV0@@Z 100088a8     bncs_stringlist.obj
+ 0002:000008cc       __unwindtable$?append@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 100088cc     bncs_stringlist.obj
+ 0002:000008cc       __unwindtable$??Hbncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 100088cc     bncs_stringlist.obj
+ 0002:000008cc       __unwindtable$??6bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 100088cc     bncs_stringlist.obj
+ 0002:000008cc       __unwindtable$??Ybncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 100088cc     bncs_stringlist.obj
+ 0002:000008d4       __ehfuncinfo$??Ybncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 100088d4     bncs_stringlist.obj
+ 0002:000008d4       __ehfuncinfo$??Hbncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 100088d4     bncs_stringlist.obj
+ 0002:000008d4       __ehfuncinfo$?append@bncs_stringlist@@QAEAAV1@ABVbncs_string@@@Z 100088d4     bncs_stringlist.obj
+ 0002:000008d4       __ehfuncinfo$??6bncs_stringlist@@QAEAAV0@ABVbncs_string@@@Z 100088d4     bncs_stringlist.obj
+ 0002:000008f8       __unwindtable$?sort@bncs_stringlist@@QBE?AV1@_N@Z 100088f8     bncs_stringlist.obj
+ 0002:00000910       __ehfuncinfo$?sort@bncs_stringlist@@QBE?AV1@_N@Z 10008910     bncs_stringlist.obj
+ 0002:00000934       __unwindtable$?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 10008934     bncs_stringlist.obj
+ 0002:00000934       __unwindtable$?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 10008934     bncs_stringlist.obj
+ 0002:0000094c       __ehfuncinfo$?find@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 1000894c     bncs_stringlist.obj
+ 0002:0000094c       __ehfuncinfo$?valueCount@bncs_stringlist@@QAEHABVbncs_string@@_N@Z 1000894c     bncs_stringlist.obj
+ 0002:00000970       __ehfuncinfo$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z 10008970     bncs_stringlist.obj
+ 0002:00000994       __unwindtable$?getNamedParam@bncs_stringlist@@QAE?AVbncs_string@@ABV2@@Z 10008994     bncs_stringlist.obj
+ 0002:000009c4       __catchsym$?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z$2 100089c4     bncs_stringlist.obj
+ 0002:000009d4       __unwindtable$?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z 100089d4     bncs_stringlist.obj
+ 0002:000009e4       __tryblocktable$?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z 100089e4     bncs_stringlist.obj
+ 0002:000009f8       __ehfuncinfo$?resize@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXIABVbncs_string@@@Z 100089f8     bncs_stringlist.obj
+ 0002:00000a1c       __catchsym$?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z$2 10008a1c     bncs_stringlist.obj
+ 0002:00000a2c       __unwindtable$?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z 10008a2c     bncs_stringlist.obj
+ 0002:00000a3c       __tryblocktable$?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z 10008a3c     bncs_stringlist.obj
+ 0002:00000a50       __ehfuncinfo$?_Reallocate@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAEXI@Z 10008a50     bncs_stringlist.obj
+ 0002:00000a74       __catchsym$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z$7 10008a74     bncs_stringlist.obj
+ 0002:00000a84       __catchsym$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z$6 10008a84     bncs_stringlist.obj
+ 0002:00000a94       __ehfuncinfo$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z 10008a94     bncs_stringlist.obj
+ 0002:00000ab8       __tryblocktable$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z 10008ab8     bncs_stringlist.obj
+ 0002:00000ae0       __unwindtable$?_Insert_n@?$vector@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@IAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Vbncs_string@@@std@@@std@@@2@IABVbncs_string@@@Z 10008ae0     bncs_stringlist.obj
+ 0002:00000b10       __unwindtable$??0diffLists@?1??contentDiff@bncs_stringlist@@QAEHABV2@_NAAV2@2@Z@QAE@1002@Z 10008b10     bncs_stringlist.obj
+ 0002:00000b18       __ehfuncinfo$??0diffLists@?1??contentDiff@bncs_stringlist@@QAEHABV2@_NAAV2@2@Z@QAE@1002@Z 10008b18     bncs_stringlist.obj
+ 0002:00000b3c       __unwindtable$??$sort@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXU?$less@X@1@@Z 10008b3c     bncs_stringlist.obj
+ 0002:00000b4c       __ehfuncinfo$??$sort@U?$less@X@std@@@?$list@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEXU?$less@X@1@@Z 10008b4c     bncs_stringlist.obj
+ 0002:00000b70       __catchsym$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z$3 10008b70     bncs_stringlist.obj
+ 0002:00000b80       __tryblocktable$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z 10008b80     bncs_stringlist.obj
+ 0002:00000b94       __unwindtable$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z 10008b94     bncs_stringlist.obj
+ 0002:00000bac       __ehfuncinfo$??$_Buynode@ABVbncs_string@@@?$_List_buy@Vbncs_string@@V?$allocator@Vbncs_string@@@std@@@std@@QAEPAU?$_List_node@Vbncs_string@@PAX@1@PAU21@0ABVbncs_string@@@Z 10008bac     bncs_stringlist.obj
+ 0002:00000bd0       __catchsym$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z$3 10008bd0     bncs_stringlist.obj
+ 0002:00000be0       __tryblocktable$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10008be0     bncs_stringlist.obj
+ 0002:00000bf4       __unwindtable$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10008bf4     bncs_stringlist.obj
+ 0002:00000c0c       __ehfuncinfo$??$_Uninit_fill_n@PAVbncs_string@@IV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAXPAVbncs_string@@IPBV1@AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10008c0c     bncs_stringlist.obj
+ 0002:00000c30       __catchsym$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z$3 10008c30     bncs_stringlist.obj
+ 0002:00000c40       __tryblocktable$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10008c40     bncs_stringlist.obj
+ 0002:00000c54       __unwindtable$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10008c54     bncs_stringlist.obj
+ 0002:00000c6c       __ehfuncinfo$??$_Uninit_move@PAVbncs_string@@PAV1@V?$allocator@Vbncs_string@@@std@@V1@@std@@YAPAVbncs_string@@PAV1@00AAU?$_Wrap_alloc@V?$allocator@Vbncs_string@@@std@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 10008c6c     bncs_stringlist.obj
+ 0002:00000c90       __sehtable$??_M@YGXPAXIHP6EX0@Z@Z 10008c90     MSVCRT:ehvecdtr.obj
+ 0002:00000cb0       __sehtable$?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10008cb0     MSVCRT:ehvecdtr.obj
+ 0002:00000cd0       __sehtable$__onexit        10008cd0     MSVCRT:atonexit.obj
+ 0002:00000cf0       __sehtable$??_L@YGXPAXIHP6EX0@Z1@Z 10008cf0     MSVCRT:ehvecctr.obj
+ 0002:00000d10       __sehtable$___DllMainCRTStartup 10008d10     MSVCRT:crtdll.obj
+ 0002:00000d38       __sehtable$__IsNonwritableInCurrentImage 10008d38     MSVCRT:pesect.obj
+ 0002:00000d60       .edata                     10008d60     bncs_string.exp
+ 0002:00000d88       rgpv                       10008d88     bncs_string.exp
+ 0002:00000f60       rgszName                   10008f60     bncs_string.exp
+ 0002:00001138       rgwOrd                     10009138     bncs_string.exp
+ 0002:00001224       szName                     10009224     bncs_string.exp
+ 0002:00001234       $N00001                    10009234     bncs_string.exp
+ 0002:00001250       $N00002                    10009250     bncs_string.exp
+ 0002:000012a7       $N00003                    100092a7     bncs_string.exp
+ 0002:000012bf       $N00004                    100092bf     bncs_string.exp
+ 0002:000012da       $N00005                    100092da     bncs_string.exp
+ 0002:000012f5       $N00006                    100092f5     bncs_string.exp
+ 0002:0000130f       $N00007                    1000930f     bncs_string.exp
+ 0002:00001326       $N00008                    10009326     bncs_string.exp
+ 0002:00001346       $N00009                    10009346     bncs_string.exp
+ 0002:00001372       $N00010                    10009372     bncs_string.exp
+ 0002:0000138d       $N00011                    1000938d     bncs_string.exp
+ 0002:000013c6       $N00012                    100093c6     bncs_string.exp
+ 0002:000013dd       $N00013                    100093dd     bncs_string.exp
+ 0002:000013f8       $N00014                    100093f8     bncs_string.exp
+ 0002:00001418       $N00015                    10009418     bncs_string.exp
+ 0002:00001436       $N00016                    10009436     bncs_string.exp
+ 0002:0000145a       $N00017                    1000945a     bncs_string.exp
+ 0002:00001489       $N00018                    10009489     bncs_string.exp
+ 0002:000014b5       $N00019                    100094b5     bncs_string.exp
+ 0002:00001504       $N00020                    10009504     bncs_string.exp
+ 0002:00001533       $N00021                    10009533     bncs_string.exp
+ 0002:0000154f       $N00022                    1000954f     bncs_string.exp
+ 0002:0000156b       $N00023                    1000956b     bncs_string.exp
+ 0002:00001589       $N00024                    10009589     bncs_string.exp
+ 0002:000015a5       $N00025                    100095a5     bncs_string.exp
+ 0002:000015c3       $N00026                    100095c3     bncs_string.exp
+ 0002:000015e4       $N00027                    100095e4     bncs_string.exp
+ 0002:0000160d       $N00028                    1000960d     bncs_string.exp
+ 0002:00001629       $N00029                    10009629     bncs_string.exp
+ 0002:00001645       $N00030                    10009645     bncs_string.exp
+ 0002:00001663       $N00031                    10009663     bncs_string.exp
+ 0002:0000167f       $N00032                    1000967f     bncs_string.exp
+ 0002:0000169d       $N00033                    1000969d     bncs_string.exp
+ 0002:000016be       $N00034                    100096be     bncs_string.exp
+ 0002:000016e7       $N00035                    100096e7     bncs_string.exp
+ 0002:00001701       $N00036                    10009701     bncs_string.exp
+ 0002:0000171b       $N00037                    1000971b     bncs_string.exp
+ 0002:00001746       $N00038                    10009746     bncs_string.exp
+ 0002:00001771       $N00039                    10009771     bncs_string.exp
+ 0002:00001788       $N00040                    10009788     bncs_string.exp
+ 0002:000017a1       $N00041                    100097a1     bncs_string.exp
+ 0002:000017be       $N00042                    100097be     bncs_string.exp
+ 0002:000017f0       $N00043                    100097f0     bncs_string.exp
+ 0002:00001822       $N00044                    10009822     bncs_string.exp
+ 0002:00001849       $N00045                    10009849     bncs_string.exp
+ 0002:00001871       $N00046                    10009871     bncs_string.exp
+ 0002:00001898       $N00047                    10009898     bncs_string.exp
+ 0002:000018b7       $N00048                    100098b7     bncs_string.exp
+ 0002:000018d6       $N00049                    100098d6     bncs_string.exp
+ 0002:000018f7       $N00050                    100098f7     bncs_string.exp
+ 0002:00001916       $N00051                    10009916     bncs_string.exp
+ 0002:00001937       $N00052                    10009937     bncs_string.exp
+ 0002:0000195b       $N00053                    1000995b     bncs_string.exp
+ 0002:0000198a       $N00054                    1000998a     bncs_string.exp
+ 0002:000019a6       $N00055                    100099a6     bncs_string.exp
+ 0002:000019c6       $N00056                    100099c6     bncs_string.exp
+ 0002:000019ea       $N00057                    100099ea     bncs_string.exp
+ 0002:00001a19       $N00058                    10009a19     bncs_string.exp
+ 0002:00001a2e       $N00059                    10009a2e     bncs_string.exp
+ 0002:00001a47       $N00060                    10009a47     bncs_string.exp
+ 0002:00001a6b       $N00061                    10009a6b     bncs_string.exp
+ 0002:00001a90       $N00062                    10009a90     bncs_string.exp
+ 0002:00001ab1       $N00063                    10009ab1     bncs_string.exp
+ 0002:00001ad5       $N00064                    10009ad5     bncs_string.exp
+ 0002:00001b09       $N00065                    10009b09     bncs_string.exp
+ 0002:00001b2b       $N00066                    10009b2b     bncs_string.exp
+ 0002:00001b4c       $N00067                    10009b4c     bncs_string.exp
+ 0002:00001b6a       $N00068                    10009b6a     bncs_string.exp
+ 0002:00001b8a       $N00069                    10009b8a     bncs_string.exp
+ 0002:00001bc4       $N00070                    10009bc4     bncs_string.exp
+ 0002:00001bfe       $N00071                    10009bfe     bncs_string.exp
+ 0002:00001c21       $N00072                    10009c21     bncs_string.exp
+ 0002:00001c40       $N00073                    10009c40     bncs_string.exp
+ 0002:00001c61       $N00074                    10009c61     bncs_string.exp
+ 0002:00001c93       $N00075                    10009c93     bncs_string.exp
+ 0002:00001cb2       $N00076                    10009cb2     bncs_string.exp
+ 0002:00001ce1       $N00077                    10009ce1     bncs_string.exp
+ 0002:00001d0a       $N00078                    10009d0a     bncs_string.exp
+ 0002:00001d24       $N00079                    10009d24     bncs_string.exp
+ 0002:00001d5c       $N00080                    10009d5c     bncs_string.exp
+ 0002:00001d94       $N00081                    10009d94     bncs_string.exp
+ 0002:00001db8       $N00082                    10009db8     bncs_string.exp
+ 0002:00001dda       $N00083                    10009dda     bncs_string.exp
+ 0002:00001df8       $N00084                    10009df8     bncs_string.exp
+ 0002:00001e28       $N00085                    10009e28     bncs_string.exp
+ 0002:00001e46       $N00086                    10009e46     bncs_string.exp
+ 0002:00001e7f       $N00087                    10009e7f     bncs_string.exp
+ 0002:00001eba       $N00088                    10009eba     bncs_string.exp
+ 0002:00001ee0       $N00089                    10009ee0     bncs_string.exp
+ 0002:00001f04       $N00090                    10009f04     bncs_string.exp
+ 0002:00001f2b       $N00091                    10009f2b     bncs_string.exp
+ 0002:00001f53       $N00092                    10009f53     bncs_string.exp
+ 0002:00001f72       $N00093                    10009f72     bncs_string.exp
+ 0002:00001f8e       $N00094                    10009f8e     bncs_string.exp
+ 0002:00001fad       $N00095                    10009fad     bncs_string.exp
+ 0002:00001fe5       $N00096                    10009fe5     bncs_string.exp
+ 0002:00002004       $N00097                    1000a004     bncs_string.exp
+ 0002:00002039       $N00098                    1000a039     bncs_string.exp
+ 0002:0000205b       $N00099                    1000a05b     bncs_string.exp
+ 0002:00002082       $N00100                    1000a082     bncs_string.exp
+ 0002:000020a5       $N00101                    1000a0a5     bncs_string.exp
+ 0002:000020df       $N00102                    1000a0df     bncs_string.exp
+ 0002:000020fe       $N00103                    1000a0fe     bncs_string.exp
+ 0002:0000211e       $N00104                    1000a11e     bncs_string.exp
+ 0002:00002151       $N00105                    1000a151     bncs_string.exp
+ 0002:0000217d       $N00106                    1000a17d     bncs_string.exp
+ 0002:000021a1       $N00107                    1000a1a1     bncs_string.exp
+ 0002:000021c3       $N00108                    1000a1c3     bncs_string.exp
+ 0002:000021e9       $N00109                    1000a1e9     bncs_string.exp
+ 0002:00002212       $N00110                    1000a212     bncs_string.exp
+ 0002:00002230       $N00111                    1000a230     bncs_string.exp
+ 0002:0000224b       $N00112                    1000a24b     bncs_string.exp
+ 0002:00002267       $N00113                    1000a267     bncs_string.exp
+ 0002:00002299       $N00114                    1000a299     bncs_string.exp
+ 0002:000022b6       $N00115                    1000a2b6     bncs_string.exp
+ 0002:000022d4       $N00116                    1000a2d4     bncs_string.exp
+ 0002:000022f3       $N00117                    1000a2f3     bncs_string.exp
+ 0002:00002312       $N00118                    1000a312     bncs_string.exp
+ 0002:0000268a       .idata$6                   1000a68a     msvcprt:MSVCP120.dll
+ 0002:00002786       .idata$6                   1000a786     MSVCRT:MSVCR120.dll
+ 0002:00002986       .idata$6                   1000a986     kernel32:KERNEL32.dll
+ 0003:00000120       _allocator_arg             1000b120     bncs_string.obj
+ 0003:00000121       _piecewise_construct       1000b121     bncs_string.obj
+ 0003:0000012c       ?c@?1???Abncs_string@@QAEAADH@Z@4DA 1000b12c     bncs_string.obj
+ 0003:0000013c       _allocator_arg             1000b13c     bncs_stringlist.obj
+ 0003:0000013d       _piecewise_construct       1000b13d     bncs_stringlist.obj
+ 0003:00000140       ?ret@?1???Abncs_stringlist@@QAEAAVbncs_string@@H@Z@4V2@A 1000b140     bncs_stringlist.obj
+ 0003:0000014c       ?$S1@?1???Abncs_stringlist@@QAEAAVbncs_string@@H@Z@4IA 1000b14c     bncs_stringlist.obj
+ 0003:00000150       ?ret@?1???Abncs_stringlist@@QBEABVbncs_string@@H@Z@4V2@A 1000b150     bncs_stringlist.obj
+ 0003:0000015c       ?$S2@?1???Abncs_stringlist@@QBEABVbncs_string@@H@Z@4IA 1000b15c     bncs_stringlist.obj
+ 0003:00000160       ___proc_attached           1000b160     MSVCRT:crtdll.obj
+ 0003:00000168       _GS_ExceptionRecord        1000b168     MSVCRT:gs_report.obj
+ 0003:000001b8       _GS_ContextRecord          1000b1b8     MSVCRT:gs_report.obj
+ 0003:00000484       _DebuggerWasPresent        1000b484     MSVCRT:gs_report.obj
+ 0004:000000a0       $R000000                   1000c0a0     Script1.res
+ 0004:00000490       $R0003F0                   1000c490     Script1.res

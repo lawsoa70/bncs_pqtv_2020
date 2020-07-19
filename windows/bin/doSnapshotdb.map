@@ -1,0 +1,2004 @@
+ doSnapshotdb
+
+ Timestamp is 5e9dbc1d (Mon Apr 20 16:13:33 2020)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 00002568H .text                   CODE
+ 0002:00002570 000010f7H .text$di                CODE
+ 0002:00003670 0000b2bfH .text$mn                CODE
+ 0002:0000e930 00001ee5H .text$x                 CODE
+ 0002:00010820 0000116eH .text$yd                CODE
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000104H .CRT$XCAA               DATA
+ 0003:00000208 00000109H .CRT$XCU                DATA
+ 0003:00000314 00000104H .CRT$XCZ                DATA
+ 0003:00000418 00000104H .CRT$XIA                DATA
+ 0003:0000051c 00000104H .CRT$XIAA               DATA
+ 0003:00000620 00000104H .CRT$XIC                DATA
+ 0003:00000724 00000104H .CRT$XIY                DATA
+ 0003:00000828 00000104H .CRT$XIZ                DATA
+ 0003:00000930 000178e7H .rdata                  DATA
+ 0003:00018218 00000173H .rdata$debug            DATA
+ 0003:0001838c 00000c23H .rdata$r                DATA
+ 0003:00018fb0 00000104H .rtc$IAA                DATA
+ 0003:000190b4 0000011cH .rtc$IMZ                DATA
+ 0003:000191d0 00000104H .rtc$IZZ                DATA
+ 0003:000192d4 00000104H .rtc$TAA                DATA
+ 0003:000193d8 0000011cH .rtc$TMZ                DATA
+ 0003:000194f4 00000104H .rtc$TZZ                DATA
+ 0003:000195f8 00000973H .xdata$x                DATA
+ 0003:00019f6b 00000000H .edata                  DATA
+ 0004:00000000 000004eaH .data                   DATA
+ 0004:000004ec 0000047fH .data$r                 DATA
+ 0004:00000970 00000494H .bss                    DATA
+ 0005:00000000 00000d04H .idata$5                DATA
+ 0005:00000d04 00000050H .idata$2                DATA
+ 0005:00000d54 00000014H .idata$3                DATA
+ 0005:00000d68 00000d04H .idata$4                DATA
+ 0005:00001a6c 00006f7fH .idata$6                DATA
+ 0006:00000000 000002e0H .rsrc$01                DATA
+ 0006:000002e0 00004e2cH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        00401000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          00411000     <linker-defined>
+ 0002:00001eeb       _WinMain@16                00412eeb f   qtmain:qtmain_win.obj
+ 0002:00001f9b       ?detach@?$QMemArray@PAD@@UAEXXZ 00412f9b f i qtmain:qtmain_win.obj
+ 0002:00001fa5       ??_G?$QMemArray@H@@UAEPAXI@Z 00412fa5 f i qtmain:qtmain_win.obj
+ 0002:00001fd2       ??_G?$QMemArray@_N@@UAEPAXI@Z 00412fd2 f i qtmain:qtmain_win.obj
+ 0002:00001fff       ??_G?$QMemArray@VQPoint@@@@UAEPAXI@Z 00412fff f i qtmain:qtmain_win.obj
+ 0002:0000202c       ??_G?$QPtrList@D@@UAEPAXI@Z 0041302c f i qtmain:qtmain_win.obj
+ 0002:00002063       ??_G?$QPtrList@VQObject@@@@UAEPAXI@Z 00413063 f i qtmain:qtmain_win.obj
+ 0002:0000209a       ??_G?$QPtrList@VQWidget@@@@UAEPAXI@Z 0041309a f i qtmain:qtmain_win.obj
+ 0002:000020d1       ??_E?$QMemArray@PAD@@UAEPAXI@Z 004130d1 f i qtmain:qtmain_win.obj
+ 0002:000020d1       ??_G?$QMemArray@PAD@@UAEPAXI@Z 004130d1 f i qtmain:qtmain_win.obj
+ 0002:00003670       ??0doSnapshotDialog@@QAE@PAVQWidget@@PBD_NI@Z 00414670 f   dosnapshotdialog.obj
+ 0002:00003870       ??1doSnapshotDialog@@UAE@XZ 00414870 f   dosnapshotdialog.obj
+ 0002:00003ae0       ?debug@doSnapshotDialog@@QAEXABVQString@@@Z 00414ae0 f   dosnapshotdialog.obj
+ 0002:00003ba0       ?getFilename@doSnapshotDialog@@QAE?AVQString@@ABV2@@Z 00414ba0 f   dosnapshotdialog.obj
+ 0002:00003d40       ?closeEvent@doSnapshotDialog@@UAEXPAVQCloseEvent@@@Z 00414d40 f   dosnapshotdialog.obj
+ 0002:00003e20       ?reject@doSnapshotDialog@@UAEXXZ 00414e20 f   dosnapshotdialog.obj
+ 0002:00003ef0       ?timerEvent@doSnapshotDialog@@UAEXPAVQTimerEvent@@@Z 00414ef0 f   dosnapshotdialog.obj
+ 0002:00005110       ?doGo@doSnapshotDialog@@QAEXXZ 00416110 f   dosnapshotdialog.obj
+ 0002:00006060       ?zipProcExited@doSnapshotDialog@@QAEXXZ 00417060 f   dosnapshotdialog.obj
+ 0002:00006180       ?zipReadyRead@doSnapshotDialog@@QAEXXZ 00417180 f   dosnapshotdialog.obj
+ 0002:00006290       ?zipReadyReadErr@doSnapshotDialog@@QAEXXZ 00417290 f   dosnapshotdialog.obj
+ 0002:00007210       ??0?$QDict@V?$QMemArray@D@@@@QAE@H_N@Z 00418210 f i dosnapshotdialog.obj
+ 0002:00007290       ??1?$QDict@V?$QMemArray@D@@@@UAE@XZ 00418290 f i dosnapshotdialog.obj
+ 0002:00007346       ??_EdoSnapshotDialog@@WCI@AEPAXI@Z 00418346 f i dosnapshotdialog.obj
+ 0002:00007350       ??_G?$QDict@V?$QMemArray@D@@@@UAEPAXI@Z 00418350 f i dosnapshotdialog.obj
+ 0002:00007350       ??_E?$QDict@V?$QMemArray@D@@@@UAEPAXI@Z 00418350 f i dosnapshotdialog.obj
+ 0002:000073c0       ??_G?$QMemArray@D@@UAEPAXI@Z 004183c0 f i dosnapshotdialog.obj
+ 0002:000073c0       ??_E?$QMemArray@D@@UAEPAXI@Z 004183c0 f i dosnapshotdialog.obj
+ 0002:00007440       ??_GQProcess@@UAEPAXI@Z    00418440 f i dosnapshotdialog.obj
+ 0002:00007440       ??_EQProcess@@UAEPAXI@Z    00418440 f i dosnapshotdialog.obj
+ 0002:000074c0       ??_GdoSnapshotDialog@@UAEPAXI@Z 004184c0 f i dosnapshotdialog.obj
+ 0002:000074c0       ??_EdoSnapshotDialog@@UAEPAXI@Z 004184c0 f i dosnapshotdialog.obj
+ 0002:00007530       ?clear@?$QDict@V?$QMemArray@D@@@@UAEXXZ 00418530 f i dosnapshotdialog.obj
+ 0002:00007590       ?count@?$QDict@V?$QMemArray@D@@@@UBEIXZ 00418590 f i dosnapshotdialog.obj
+ 0002:000075f0       ?deleteItem@?$QDict@V?$QMemArray@D@@@@EAEXPAX@Z 004185f0 f i dosnapshotdialog.obj
+ 0002:000076b0       ?find@?$QDict@V?$QMemArray@D@@@@QBEPAV?$QMemArray@D@@ABVQString@@@Z 004186b0 f i dosnapshotdialog.obj
+ 0002:00007720       ?insert@?$QDict@V?$QMemArray@D@@@@QAEXABVQString@@PBV?$QMemArray@D@@@Z 00418720 f i dosnapshotdialog.obj
+ 0002:00007790       ?metaObject@doSnapshotDialog@@UBEPAVQMetaObject@@XZ 00418790 f i dosnapshotdialog.obj
+ 0002:000077e0       _main                      004187e0 f   main.obj
+ 0002:00007970       ??0doSnapshotDialogBase@@QAE@PAVQWidget@@PBD_NI@Z 00418970 f   dosnapshotdialogbase.obj
+ 0002:00008120       ??1doSnapshotDialogBase@@UAE@XZ 00419120 f   dosnapshotdialogbase.obj
+ 0002:00008180       ?languageChange@doSnapshotDialogBase@@MAEXXZ 00419180 f   dosnapshotdialogbase.obj
+ 0002:00008854       ??_EQHBoxLayout@@WCI@AEPAXI@Z 00419854 f i dosnapshotdialogbase.obj
+ 0002:0000885e       ??_EQLabel@@WCI@AEPAXI@Z   0041985e f i dosnapshotdialogbase.obj
+ 0002:00008868       ??_EQLineEdit@@WCI@AEPAXI@Z 00419868 f i dosnapshotdialogbase.obj
+ 0002:00008872       ??_EQPushButton@@WCI@AEPAXI@Z 00419872 f i dosnapshotdialogbase.obj
+ 0002:0000887c       ??_EQTextEdit@@WCI@AEPAXI@Z 0041987c f i dosnapshotdialogbase.obj
+ 0002:00008886       ??_EQVBoxLayout@@WCI@AEPAXI@Z 00419886 f i dosnapshotdialogbase.obj
+ 0002:00008890       ??_EdoSnapshotDialogBase@@WCI@AEPAXI@Z 00419890 f i dosnapshotdialogbase.obj
+ 0002:000088a0       ??_GQHBoxLayout@@UAEPAXI@Z 004198a0 f i dosnapshotdialogbase.obj
+ 0002:000088a0       ??_EQHBoxLayout@@UAEPAXI@Z 004198a0 f i dosnapshotdialogbase.obj
+ 0002:00008920       ??_EQLabel@@UAEPAXI@Z      00419920 f i dosnapshotdialogbase.obj
+ 0002:00008920       ??_GQLabel@@UAEPAXI@Z      00419920 f i dosnapshotdialogbase.obj
+ 0002:000089a0       ??_GQLineEdit@@UAEPAXI@Z   004199a0 f i dosnapshotdialogbase.obj
+ 0002:000089a0       ??_EQLineEdit@@UAEPAXI@Z   004199a0 f i dosnapshotdialogbase.obj
+ 0002:00008a20       ??_GQPushButton@@UAEPAXI@Z 00419a20 f i dosnapshotdialogbase.obj
+ 0002:00008a20       ??_EQPushButton@@UAEPAXI@Z 00419a20 f i dosnapshotdialogbase.obj
+ 0002:00008aa0       ??_GQSpacerItem@@UAEPAXI@Z 00419aa0 f i dosnapshotdialogbase.obj
+ 0002:00008aa0       ??_EQSpacerItem@@UAEPAXI@Z 00419aa0 f i dosnapshotdialogbase.obj
+ 0002:00008b20       ??_GQTextEdit@@UAEPAXI@Z   00419b20 f i dosnapshotdialogbase.obj
+ 0002:00008b20       ??_EQTextEdit@@UAEPAXI@Z   00419b20 f i dosnapshotdialogbase.obj
+ 0002:00008ba0       ??_EQVBoxLayout@@UAEPAXI@Z 00419ba0 f i dosnapshotdialogbase.obj
+ 0002:00008ba0       ??_GQVBoxLayout@@UAEPAXI@Z 00419ba0 f i dosnapshotdialogbase.obj
+ 0002:00008c20       ??_EdoSnapshotDialogBase@@UAEPAXI@Z 00419c20 f i dosnapshotdialogbase.obj
+ 0002:00008c20       ??_GdoSnapshotDialogBase@@UAEPAXI@Z 00419c20 f i dosnapshotdialogbase.obj
+ 0002:00008c90       ?metaObject@doSnapshotDialogBase@@UBEPAVQMetaObject@@XZ 00419c90 f i dosnapshotdialogbase.obj
+ 0002:00008ce0       ?className@doSnapshotDialog@@UBEPBDXZ 00419ce0 f   moc_dosnapshotdialog.obj
+ 0002:00008d10       ?qt_cast@doSnapshotDialog@@UAEPAXPBD@Z 00419d10 f   moc_dosnapshotdialog.obj
+ 0002:00008d80       ?qt_invoke@doSnapshotDialog@@UAE_NHPAUQUObject@@@Z 00419d80 f   moc_dosnapshotdialog.obj
+ 0002:00008e50       ?qt_emit@doSnapshotDialog@@UAE_NHPAUQUObject@@@Z 00419e50 f   moc_dosnapshotdialog.obj
+ 0002:00008ea0       ?qt_property@doSnapshotDialog@@UAE_NHHPAVQVariant@@@Z 00419ea0 f   moc_dosnapshotdialog.obj
+ 0002:00008ef0       ?qt_static_property@doSnapshotDialog@@SA_NPAVQObject@@HHPAVQVariant@@@Z 00419ef0 f   moc_dosnapshotdialog.obj
+ 0002:00008f20       ?staticMetaObject@doSnapshotDialog@@SAPAVQMetaObject@@XZ 00419f20 f   moc_dosnapshotdialog.obj
+ 0002:00008fc0       ?tr@doSnapshotDialog@@SA?AVQString@@PBD0@Z 00419fc0 f   moc_dosnapshotdialog.obj
+ 0002:00009080       ?trUtf8@doSnapshotDialog@@SA?AVQString@@PBD0@Z 0041a080 f   moc_dosnapshotdialog.obj
+ 0002:00009250       ?dummy@doSnapshotDialog@@QAEXXZ 0041a250 f i moc_dosnapshotdialog.obj
+ 0002:00009290       ?className@doSnapshotDialogBase@@UBEPBDXZ 0041a290 f   moc_dosnapshotdialogbase.obj
+ 0002:000092c0       ?qt_cast@doSnapshotDialogBase@@UAEPAXPBD@Z 0041a2c0 f   moc_dosnapshotdialogbase.obj
+ 0002:00009340       ?qt_invoke@doSnapshotDialogBase@@UAE_NHPAUQUObject@@@Z 0041a340 f   moc_dosnapshotdialogbase.obj
+ 0002:000093e0       ?qt_emit@doSnapshotDialogBase@@UAE_NHPAUQUObject@@@Z 0041a3e0 f   moc_dosnapshotdialogbase.obj
+ 0002:00009440       ?qt_property@doSnapshotDialogBase@@UAE_NHHPAVQVariant@@@Z 0041a440 f   moc_dosnapshotdialogbase.obj
+ 0002:000094a0       ?qt_static_property@doSnapshotDialogBase@@SA_NPAVQObject@@HHPAVQVariant@@@Z 0041a4a0 f   moc_dosnapshotdialogbase.obj
+ 0002:000094d0       ?staticMetaObject@doSnapshotDialogBase@@SAPAVQMetaObject@@XZ 0041a4d0 f   moc_dosnapshotdialogbase.obj
+ 0002:00009580       ?tr@doSnapshotDialogBase@@SA?AVQString@@PBD0@Z 0041a580 f   moc_dosnapshotdialogbase.obj
+ 0002:00009640       ?trUtf8@doSnapshotDialogBase@@SA?AVQString@@PBD0@Z 0041a640 f   moc_dosnapshotdialogbase.obj
+ 0002:00009890       ??0bncs_disklog@@QAE@PBDW4filetype@0@000000@Z 0041a890 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:00009910       ??0bncs_disklog@@QAE@PBDW4filetype@0@@Z 0041a910 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:00009970       ?write@bncs_disklog@@QAEXPBD00000@Z 0041a970 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:00009d10       ??1bncs_disklog@@UAE@XZ    0041ad10 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:00009d60       ?ref@bncs_disklog@@QAEPBDXZ 0041ad60 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:00009d90       ?clear@bncs_disklog@@QAEXXZ 0041ad90 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:00009e10       ?openLogFile@bncs_disklog@@AAEXPBDW4filetype@1@@Z 0041ae10 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:0000a1a0       ?initVars@bncs_disklog@@AAEXXZ 0041b1a0 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:0000a1f0       ?createDirectory@bncs_disklog@@AAEXPBD@Z 0041b1f0 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:0000a330       ?cleanup@bncs_disklog@@AAEXXZ 0041b330 f   bncs_disklogdb:bncs_disklog.obj
+ 0002:0000a670       ??_Gbncs_disklog@@UAEPAXI@Z 0041b670 f i bncs_disklogdb:bncs_disklog.obj
+ 0002:0000a670       ??_Ebncs_disklog@@UAEPAXI@Z 0041b670 f i bncs_disklogdb:bncs_disklog.obj
+ 0002:0000a6de       ??0?$QMemArray@D@@QAE@XZ   0041b6de f   qt-mt323:qt-mt323.dll
+ 0002:0000a6e4       ??0?$QMemArray@D@@QAE@ABV0@@Z 0041b6e4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a6ea       ??1?$QMemArray@D@@UAE@XZ   0041b6ea f   qt-mt323:qt-mt323.dll
+ 0002:0000a6f0       ?count@?$QMemArray@D@@QBEIXZ 0041b6f0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a6f6       ?setRawData@?$QMemArray@D@@QAEAAV1@PBDI@Z 0041b6f6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a6fc       ??B?$QMemArray@D@@QBEPBDXZ 0041b6fc f   qt-mt323:qt-mt323.dll
+ 0002:0000a702       ??0QString@@QAE@XZ         0041b702 f   qt-mt323:qt-mt323.dll
+ 0002:0000a708       ??0QString@@QAE@ABV0@@Z    0041b708 f   qt-mt323:qt-mt323.dll
+ 0002:0000a70e       ??0QString@@QAE@ABV?$QMemArray@D@@@Z 0041b70e f   qt-mt323:qt-mt323.dll
+ 0002:0000a714       ??0QString@@QAE@PBD@Z      0041b714 f   qt-mt323:qt-mt323.dll
+ 0002:0000a71a       ??1QString@@QAE@XZ         0041b71a f   qt-mt323:qt-mt323.dll
+ 0002:0000a720       ??4QString@@QAEAAV0@ABV0@@Z 0041b720 f   qt-mt323:qt-mt323.dll
+ 0002:0000a726       ??4QString@@QAEAAV0@PBD@Z  0041b726 f   qt-mt323:qt-mt323.dll
+ 0002:0000a72c       ?length@QString@@QBEIXZ    0041b72c f   qt-mt323:qt-mt323.dll
+ 0002:0000a732       ?arg@QString@@QBE?AV1@ABV1@H@Z 0041b732 f   qt-mt323:qt-mt323.dll
+ 0002:0000a738       ?lower@QString@@QBE?AV1@XZ 0041b738 f   qt-mt323:qt-mt323.dll
+ 0002:0000a73e       ?remove@QString@@QAEAAV1@II@Z 0041b73e f   qt-mt323:qt-mt323.dll
+ 0002:0000a744       ??BQString@@QBEPBDXZ       0041b744 f   qt-mt323:qt-mt323.dll
+ 0002:0000a74a       ?startsWith@QString@@QBE_NABV1@@Z 0041b74a f   qt-mt323:qt-mt323.dll
+ 0002:0000a750       ??8@YA_NABVQString@@PBD@Z  0041b750 f   qt-mt323:qt-mt323.dll
+ 0002:0000a756       ??H@YA?BVQString@@ABV0@0@Z 0041b756 f   qt-mt323:qt-mt323.dll
+ 0002:0000a75c       ??H@YA?BVQString@@ABV0@PBD@Z 0041b75c f   qt-mt323:qt-mt323.dll
+ 0002:0000a762       ??H@YA?BVQString@@PBDABV0@@Z 0041b762 f   qt-mt323:qt-mt323.dll
+ 0002:0000a768       ??0QDataStream@@QAE@PAVQIODevice@@@Z 0041b768 f   qt-mt323:qt-mt323.dll
+ 0002:0000a76e       ??1QDataStream@@UAE@XZ     0041b76e f   qt-mt323:qt-mt323.dll
+ 0002:0000a774       ?writeRawBytes@QDataStream@@QAEAAV1@PBDI@Z 0041b774 f   qt-mt323:qt-mt323.dll
+ 0002:0000a77a       ??9?$QValueListIterator@VQString@@@@QBE_NABV0@@Z 0041b77a f   qt-mt323:qt-mt323.dll
+ 0002:0000a780       ??D?$QValueListIterator@VQString@@@@QAEAAVQString@@XZ 0041b780 f   qt-mt323:qt-mt323.dll
+ 0002:0000a786       ??E?$QValueListIterator@VQString@@@@QAEAAV0@XZ 0041b786 f   qt-mt323:qt-mt323.dll
+ 0002:0000a78c       ?begin@?$QValueList@VQString@@@@QAE?AV?$QValueListIterator@VQString@@@@XZ 0041b78c f   qt-mt323:qt-mt323.dll
+ 0002:0000a792       ?end@?$QValueList@VQString@@@@QAE?AV?$QValueListIterator@VQString@@@@XZ 0041b792 f   qt-mt323:qt-mt323.dll
+ 0002:0000a798       ?split@QStringList@@SA?AV1@ABVQString@@0_N@Z 0041b798 f   qt-mt323:qt-mt323.dll
+ 0002:0000a79e       ??1QStringList@@QAE@XZ     0041b79e f   qt-mt323:qt-mt323.dll
+ 0002:0000a7a4       ?timerId@QTimerEvent@@QBEHXZ 0041b7a4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7aa       ?startTimer@QObject@@QAEHH@Z 0041b7aa f   qt-mt323:qt-mt323.dll
+ 0002:0000a7b0       ?killTimer@QObject@@QAEXH@Z 0041b7b0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7b6       ?connect@QObject@@SA_NPBV1@PBD01@Z 0041b7b6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7bc       ?deleteLater@QObject@@QAEXXZ 0041b7bc f   qt-mt323:qt-mt323.dll
+ 0002:0000a7c2       ?setIcon@QWidget@@UAEXABVQPixmap@@@Z 0041b7c2 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7c8       ?close@QWidget@@QAE_NXZ    0041b7c8 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7ce       ?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z 0041b7ce f   qt-mt323:qt-mt323.dll
+ 0002:0000a7d4       ?reject@QDialog@@MAEXXZ    0041b7d4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7da       ?count@QGDict@@UBEIXZ      0041b7da f   qt-mt323:qt-mt323.dll
+ 0002:0000a7e0       ?look_string@QGDict@@QAEPAXABVQString@@PAXH@Z 0041b7e0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7e6       ??0QGDict@@IAE@IW4KeyType@0@_N1@Z 0041b7e6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7ec       ??1QGDict@@MAE@XZ          0041b7ec f   qt-mt323:qt-mt323.dll
+ 0002:0000a7f2       ?clear@QGDict@@MAEXXZ      0041b7f2 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7f8       ?information@QMessageBox@@SAHPAVQWidget@@ABVQString@@1111HH@Z 0041b7f8 f   qt-mt323:qt-mt323.dll
+ 0002:0000a7fe       ??0QPixmap@@QAE@QAPBD@Z    0041b7fe f   qt-mt323:qt-mt323.dll
+ 0002:0000a804       ??1QPixmap@@UAE@XZ         0041b804 f   qt-mt323:qt-mt323.dll
+ 0002:0000a80a       ??0QFile@@QAE@ABVQString@@@Z 0041b80a f   qt-mt323:qt-mt323.dll
+ 0002:0000a810       ??1QFile@@UAE@XZ           0041b810 f   qt-mt323:qt-mt323.dll
+ 0002:0000a816       ?open@QFile@@UAE_NH@Z      0041b816 f   qt-mt323:qt-mt323.dll
+ 0002:0000a81c       ?toString@QDateTime@@QBE?AVQString@@ABV2@@Z 0041b81c f   qt-mt323:qt-mt323.dll
+ 0002:0000a822       ?currentDateTime@QDateTime@@SA?AV1@XZ 0041b822 f   qt-mt323:qt-mt323.dll
+ 0002:0000a828       ??0QFileInfo@@QAE@ABVQString@@@Z 0041b828 f   qt-mt323:qt-mt323.dll
+ 0002:0000a82e       ??1QFileInfo@@QAE@XZ       0041b82e f   qt-mt323:qt-mt323.dll
+ 0002:0000a834       ?baseName@QFileInfo@@QBE?AVQString@@_N@Z 0041b834 f   qt-mt323:qt-mt323.dll
+ 0002:0000a83a       ??0QDir@@QAE@XZ            0041b83a f   qt-mt323:qt-mt323.dll
+ 0002:0000a840       ??1QDir@@UAE@XZ            0041b840 f   qt-mt323:qt-mt323.dll
+ 0002:0000a846       ?mkdir@QDir@@UBE_NABVQString@@_N@Z 0041b846 f   qt-mt323:qt-mt323.dll
+ 0002:0000a84c       ?rmdir@QDir@@UBE_NABVQString@@_N@Z 0041b84c f   qt-mt323:qt-mt323.dll
+ 0002:0000a852       ?remove@QDir@@UAE_NABVQString@@_N@Z 0041b852 f   qt-mt323:qt-mt323.dll
+ 0002:0000a858       ??0QProcess@@QAE@PAVQObject@@PBD@Z 0041b858 f   qt-mt323:qt-mt323.dll
+ 0002:0000a85e       ??1QProcess@@UAE@XZ        0041b85e f   qt-mt323:qt-mt323.dll
+ 0002:0000a864       ?argc@QApplication@@QBEHXZ 0041b864 f   qt-mt323:qt-mt323.dll
+ 0002:0000a86a       ?argv@QApplication@@QBEPAPADXZ 0041b86a f   qt-mt323:qt-mt323.dll
+ 0002:0000a870       ?text@QLineEdit@@QBE?AVQString@@XZ 0041b870 f   qt-mt323:qt-mt323.dll
+ 0002:0000a876       ?accept@QDialog@@MAEXXZ    0041b876 f   qt-mt323:qt-mt323.dll
+ 0002:0000a87c       ?addArgument@QProcess@@UAEXABVQString@@@Z 0041b87c f   qt-mt323:qt-mt323.dll
+ 0002:0000a882       ?adjustSize@QWidget@@UAEXXZ 0041b882 f   qt-mt323:qt-mt323.dll
+ 0002:0000a888       ?checkConnectArgs@QObject@@MAE_NPBDPBV1@0@Z 0041b888 f   qt-mt323:qt-mt323.dll
+ 0002:0000a88e       ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z 0041b88e f   qt-mt323:qt-mt323.dll
+ 0002:0000a894       ?className@QProcess@@UBEPBDXZ 0041b894 f   qt-mt323:qt-mt323.dll
+ 0002:0000a89a       ?close@QWidget@@UAE_N_N@Z  0041b89a f   qt-mt323:qt-mt323.dll
+ 0002:0000a8a0       ?closeStdin@QProcess@@UAEXXZ 0041b8a0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8a6       ?cmd@QPaintDevice@@MAE_NHPAVQPainter@@PATQPDevCmdParam@@@Z 0041b8a6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8ac       ?connectNotify@QObject@@MAEXPBD@Z 0041b8ac f   qt-mt323:qt-mt323.dll
+ 0002:0000a8b2       ?connectNotify@QProcess@@MAEXPBD@Z 0041b8b2 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8b8       ?contextMenuEvent@QDialog@@MAEXPAVQContextMenuEvent@@@Z 0041b8b8 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8be       ?create@QWidget@@MAEXPAUHWND__@@_N1@Z 0041b8be f   qt-mt323:qt-mt323.dll
+ 0002:0000a8c4       ?customEvent@QObject@@MAEXPAVQCustomEvent@@@Z 0041b8c4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8ca       ?customWhatsThis@QWidget@@UBE_NXZ 0041b8ca f   qt-mt323:qt-mt323.dll
+ 0002:0000a8d0       ?deleteData@QGArray@@MAEXPAUarray_data@1@@Z 0041b8d0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8d6       ?destroy@QWidget@@MAEX_N0@Z 0041b8d6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8dc       ?detach@?$QMemArray@D@@UAEXXZ 0041b8dc f   qt-mt323:qt-mt323.dll
+ 0002:0000a8e2       ?disconnectNotify@QObject@@MAEXPBD@Z 0041b8e2 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8e8       ?disconnectNotify@QProcess@@MAEXPBD@Z 0041b8e8 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8ee       ?done@QDialog@@MAEXH@Z     0041b8ee f   qt-mt323:qt-mt323.dll
+ 0002:0000a8f4       ?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z 0041b8f4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a8fa       ?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z 0041b8fa f   qt-mt323:qt-mt323.dll
+ 0002:0000a900       ?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z 0041b900 f   qt-mt323:qt-mt323.dll
+ 0002:0000a906       ?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z 0041b906 f   qt-mt323:qt-mt323.dll
+ 0002:0000a90c       ?enabledChange@QWidget@@MAEX_N@Z 0041b90c f   qt-mt323:qt-mt323.dll
+ 0002:0000a912       ?enterEvent@QWidget@@MAEXPAVQEvent@@@Z 0041b912 f   qt-mt323:qt-mt323.dll
+ 0002:0000a918       ?event@QObject@@UAE_NPAVQEvent@@@Z 0041b918 f   qt-mt323:qt-mt323.dll
+ 0002:0000a91e       ?event@QWidget@@MAE_NPAVQEvent@@@Z 0041b91e f   qt-mt323:qt-mt323.dll
+ 0002:0000a924       ?eventFilter@QDialog@@MAE_NPAVQObject@@PAVQEvent@@@Z 0041b924 f   qt-mt323:qt-mt323.dll
+ 0002:0000a92a       ?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z 0041b92a f   qt-mt323:qt-mt323.dll
+ 0002:0000a930       ?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z 0041b930 f   qt-mt323:qt-mt323.dll
+ 0002:0000a936       ?focusNextPrevChild@QWidget@@MAE_N_N@Z 0041b936 f   qt-mt323:qt-mt323.dll
+ 0002:0000a93c       ?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z 0041b93c f   qt-mt323:qt-mt323.dll
+ 0002:0000a942       ?fontChange@QWidget@@MAEXABVQFont@@@Z 0041b942 f   qt-mt323:qt-mt323.dll
+ 0002:0000a948       ?fontInf@QPaintDevice@@MBEHPAVQFont@@H@Z 0041b948 f   qt-mt323:qt-mt323.dll
+ 0002:0000a94e       ?fontMet@QPaintDevice@@MBEHPAVQFont@@HPBDH@Z 0041b94e f   qt-mt323:qt-mt323.dll
+ 0002:0000a954       ?handle@QPaintDevice@@UBEPAUHDC__@@XZ 0041b954 f   qt-mt323:qt-mt323.dll
+ 0002:0000a95a       ?heightForWidth@QWidget@@UBEHH@Z 0041b95a f   qt-mt323:qt-mt323.dll
+ 0002:0000a960       ?hide@QDialog@@UAEXXZ      0041b960 f   qt-mt323:qt-mt323.dll
+ 0002:0000a966       ?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z 0041b966 f   qt-mt323:qt-mt323.dll
+ 0002:0000a96c       ?imComposeEvent@QWidget@@MAEXPAVQIMEvent@@@Z 0041b96c f   qt-mt323:qt-mt323.dll
+ 0002:0000a972       ?imEndEvent@QWidget@@MAEXPAVQIMEvent@@@Z 0041b972 f   qt-mt323:qt-mt323.dll
+ 0002:0000a978       ?imStartEvent@QWidget@@MAEXPAVQIMEvent@@@Z 0041b978 f   qt-mt323:qt-mt323.dll
+ 0002:0000a97e       ?insertChild@QObject@@UAEXPAV1@@Z 0041b97e f   qt-mt323:qt-mt323.dll
+ 0002:0000a984       ?keyPressEvent@QDialog@@MAEXPAVQKeyEvent@@@Z 0041b984 f   qt-mt323:qt-mt323.dll
+ 0002:0000a98a       ?keyReleaseEvent@QWidget@@MAEXPAVQKeyEvent@@@Z 0041b98a f   qt-mt323:qt-mt323.dll
+ 0002:0000a990       ?launch@QProcess@@UAE_NABV?$QMemArray@D@@PAVQStringList@@@Z 0041b990 f   qt-mt323:qt-mt323.dll
+ 0002:0000a996       ?launch@QProcess@@UAE_NABVQString@@PAVQStringList@@@Z 0041b996 f   qt-mt323:qt-mt323.dll
+ 0002:0000a99c       ?leaveEvent@QWidget@@MAEXPAVQEvent@@@Z 0041b99c f   qt-mt323:qt-mt323.dll
+ 0002:0000a9a2       ?metaObject@QProcess@@UBEPAVQMetaObject@@XZ 0041b9a2 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9a8       ?metric@QWidget@@MBEHH@Z   0041b9a8 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9ae       ?minimumSizeHint@QDialog@@UBE?AVQSize@@XZ 0041b9ae f   qt-mt323:qt-mt323.dll
+ 0002:0000a9b4       ?mouseDoubleClickEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0041b9b4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9ba       ?mouseMoveEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0041b9ba f   qt-mt323:qt-mt323.dll
+ 0002:0000a9c0       ?mousePressEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0041b9c0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9c6       ?mouseReleaseEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0041b9c6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9cc       ?move@QDialog@@UAEXHH@Z    0041b9cc f   qt-mt323:qt-mt323.dll
+ 0002:0000a9d2       ?moveEvent@QWidget@@MAEXPAVQMoveEvent@@@Z 0041b9d2 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9d8       ?newData@QGArray@@MAEPAUarray_data@1@XZ 0041b9d8 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9de       ?newItem@QPtrCollection@@MAEPAXPAX@Z 0041b9de f   qt-mt323:qt-mt323.dll
+ 0002:0000a9e4       ?paintEvent@QWidget@@MAEXPAVQPaintEvent@@@Z 0041b9e4 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9ea       ?paletteChange@QWidget@@MAEXABVQPalette@@@Z 0041b9ea f   qt-mt323:qt-mt323.dll
+ 0002:0000a9f0       ?polish@QWidget@@UAEXXZ    0041b9f0 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9f6       ?property@QObject@@UBE?AVQVariant@@PBD@Z 0041b9f6 f   qt-mt323:qt-mt323.dll
+ 0002:0000a9fc       ?qt_cast@QProcess@@UAEPAXPBD@Z 0041b9fc f   qt-mt323:qt-mt323.dll
+ 0002:0000aa02       ?qt_emit@QProcess@@UAE_NHPAUQUObject@@@Z 0041ba02 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa08       ?qt_invoke@QProcess@@UAE_NHPAUQUObject@@@Z 0041ba08 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa0e       ?qt_property@QProcess@@UAE_NHHPAVQVariant@@@Z 0041ba0e f   qt-mt323:qt-mt323.dll
+ 0002:0000aa14       ?read@QGDict@@MAEAAVQDataStream@@AAV2@AAPAX@Z 0041ba14 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa1a       ?readLineStderr@QProcess@@UAE?AVQString@@XZ 0041ba1a f   qt-mt323:qt-mt323.dll
+ 0002:0000aa20       ?readLineStdout@QProcess@@UAE?AVQString@@XZ 0041ba20 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa26       ?readStderr@QProcess@@UAE?AV?$QMemArray@D@@XZ 0041ba26 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa2c       ?readStdout@QProcess@@UAE?AV?$QMemArray@D@@XZ 0041ba2c f   qt-mt323:qt-mt323.dll
+ 0002:0000aa32       ?removeChild@QObject@@UAEXPAV1@@Z 0041ba32 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa38       ?reparent@QWidget@@UAEXPAV1@IABVQPoint@@_N@Z 0041ba38 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa3e       ?resize@QDialog@@UAEXHH@Z  0041ba3e f   qt-mt323:qt-mt323.dll
+ 0002:0000aa44       ?resizeEvent@QDialog@@MAEXPAVQResizeEvent@@@Z 0041ba44 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa4a       ?resolution@QPaintDevice@@UBEHXZ 0041ba4a f   qt-mt323:qt-mt323.dll
+ 0002:0000aa50       ?setAcceptDrops@QWidget@@UAEX_N@Z 0041ba50 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa56       ?setActiveWindow@QWidget@@UAEXXZ 0041ba56 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa5c       ?setArguments@QProcess@@UAEXABVQStringList@@@Z 0041ba5c f   qt-mt323:qt-mt323.dll
+ 0002:0000aa62       ?setAutoMask@QWidget@@UAEX_N@Z 0041ba62 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa68       ?setBackgroundColor@QWidget@@UAEXABVQColor@@@Z 0041ba68 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa6e       ?setBackgroundMode@QWidget@@UAEXW4BackgroundMode@Qt@@@Z 0041ba6e f   qt-mt323:qt-mt323.dll
+ 0002:0000aa74       ?setBackgroundOrigin@QWidget@@UAEXW4BackgroundOrigin@1@@Z 0041ba74 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa7a       ?setBackgroundPixmap@QWidget@@UAEXABVQPixmap@@@Z 0041ba7a f   qt-mt323:qt-mt323.dll
+ 0002:0000aa80       ?setCaption@QWidget@@UAEXABVQString@@@Z 0041ba80 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa86       ?setCursor@QWidget@@UAEXABVQCursor@@@Z 0041ba86 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa8c       ?setEnabled@QWidget@@UAEX_N@Z 0041ba8c f   qt-mt323:qt-mt323.dll
+ 0002:0000aa92       ?setEraseColor@QWidget@@UAEXABVQColor@@@Z 0041ba92 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa98       ?setErasePixmap@QWidget@@UAEXABVQPixmap@@@Z 0041ba98 f   qt-mt323:qt-mt323.dll
+ 0002:0000aa9e       ?setFocus@QWidget@@UAEXXZ  0041ba9e f   qt-mt323:qt-mt323.dll
+ 0002:0000aaa4       ?setFocusPolicy@QWidget@@UAEXW4FocusPolicy@1@@Z 0041baa4 f   qt-mt323:qt-mt323.dll
+ 0002:0000aaaa       ?setFocusProxy@QWidget@@UAEXPAV1@@Z 0041baaa f   qt-mt323:qt-mt323.dll
+ 0002:0000aab0       ?setFont@QWidget@@UAEXABVQFont@@@Z 0041bab0 f   qt-mt323:qt-mt323.dll
+ 0002:0000aab6       ?setGeometry@QDialog@@UAEXABVQRect@@@Z 0041bab6 f   qt-mt323:qt-mt323.dll
+ 0002:0000aabc       ?setGeometry@QDialog@@UAEXHHHH@Z 0041babc f   qt-mt323:qt-mt323.dll
+ 0002:0000aac2       ?setIconText@QWidget@@UAEXABVQString@@@Z 0041bac2 f   qt-mt323:qt-mt323.dll
+ 0002:0000aac8       ?setKeyCompression@QWidget@@MAEX_N@Z 0041bac8 f   qt-mt323:qt-mt323.dll
+ 0002:0000aace       ?setMask@QWidget@@UAEXABVQBitmap@@@Z 0041bace f   qt-mt323:qt-mt323.dll
+ 0002:0000aad4       ?setMask@QWidget@@UAEXABVQRegion@@@Z 0041bad4 f   qt-mt323:qt-mt323.dll
+ 0002:0000aada       ?setMaximumSize@QWidget@@UAEXHH@Z 0041bada f   qt-mt323:qt-mt323.dll
+ 0002:0000aae0       ?setMicroFocusHint@QWidget@@MAEXHHHH_NPAVQFont@@@Z 0041bae0 f   qt-mt323:qt-mt323.dll
+ 0002:0000aae6       ?setMinimumSize@QWidget@@UAEXHH@Z 0041bae6 f   qt-mt323:qt-mt323.dll
+ 0002:0000aaec       ?setMouseTracking@QWidget@@UAEX_N@Z 0041baec f   qt-mt323:qt-mt323.dll
+ 0002:0000aaf2       ?setName@QObject@@UAEXPBD@Z 0041baf2 f   qt-mt323:qt-mt323.dll
+ 0002:0000aaf8       ?setName@QWidget@@UAEXPBD@Z 0041baf8 f   qt-mt323:qt-mt323.dll
+ 0002:0000aafe       ?setPalette@QWidget@@UAEXABVQPalette@@@Z 0041bafe f   qt-mt323:qt-mt323.dll
+ 0002:0000ab04       ?setPaletteBackgroundColor@QWidget@@UAEXABVQColor@@@Z 0041bb04 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab0a       ?setPaletteBackgroundPixmap@QWidget@@UAEXABVQPixmap@@@Z 0041bb0a f   qt-mt323:qt-mt323.dll
+ 0002:0000ab10       ?setProperty@QObject@@UAE_NPBDABVQVariant@@@Z 0041bb10 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab16       ?setResolution@QPaintDevice@@UAEXH@Z 0041bb16 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab1c       ?setSizeIncrement@QWidget@@UAEXHH@Z 0041bb1c f   qt-mt323:qt-mt323.dll
+ 0002:0000ab22       ?setSizePolicy@QWidget@@UAEXVQSizePolicy@@@Z 0041bb22 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab28       ?setUpdatesEnabled@QWidget@@UAEX_N@Z 0041bb28 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab2e       ?setWFlags@QWidget@@MAEXI@Z 0041bb2e f   qt-mt323:qt-mt323.dll
+ 0002:0000ab34       ?setWState@QWidget@@MAEXI@Z 0041bb34 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab3a       ?setWorkingDirectory@QProcess@@UAEXABVQDir@@@Z 0041bb3a f   qt-mt323:qt-mt323.dll
+ 0002:0000ab40       ?show@QDialog@@UAEXXZ      0041bb40 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab46       ?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z 0041bb46 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab4c       ?showMaximized@QWidget@@UAEXXZ 0041bb4c f   qt-mt323:qt-mt323.dll
+ 0002:0000ab52       ?showMinimized@QWidget@@UAEXXZ 0041bb52 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab58       ?showNormal@QWidget@@UAEXXZ 0041bb58 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab5e       ?sizeHint@QDialog@@UBE?AVQSize@@XZ 0041bb5e f   qt-mt323:qt-mt323.dll
+ 0002:0000ab64       ?sizePolicy@QWidget@@UBE?AVQSizePolicy@@XZ 0041bb64 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab6a       ?start@QProcess@@UAE_NPAVQStringList@@@Z 0041bb6a f   qt-mt323:qt-mt323.dll
+ 0002:0000ab70       ?styleChange@QWidget@@MAEXAAVQStyle@@@Z 0041bb70 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab76       ?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z 0041bb76 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab7c       ?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z 0041bb7c f   qt-mt323:qt-mt323.dll
+ 0002:0000ab82       ?unsetCursor@QWidget@@UAEXXZ 0041bb82 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab88       ?updateMask@QWidget@@MAEXXZ 0041bb88 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab8e       ?wheelEvent@QWidget@@MAEXPAVQWheelEvent@@@Z 0041bb8e f   qt-mt323:qt-mt323.dll
+ 0002:0000ab94       ?winEvent@QWidget@@MAE_NPAUtagMSG@@@Z 0041bb94 f   qt-mt323:qt-mt323.dll
+ 0002:0000ab9a       ?windowActivationChange@QWidget@@MAEX_N@Z 0041bb9a f   qt-mt323:qt-mt323.dll
+ 0002:0000aba0       ?write@QGDict@@MBEAAVQDataStream@@AAV2@PAX@Z 0041bba0 f   qt-mt323:qt-mt323.dll
+ 0002:0000aba6       ?writeToStdin@QProcess@@UAEXABV?$QMemArray@D@@@Z 0041bba6 f   qt-mt323:qt-mt323.dll
+ 0002:0000abac       ?writeToStdin@QProcess@@UAEXABVQString@@@Z 0041bbac f   qt-mt323:qt-mt323.dll
+ 0002:0000abb2       ??0QApplication@@QAE@AAHPAPAD@Z 0041bbb2 f   qt-mt323:qt-mt323.dll
+ 0002:0000abb8       ??1QApplication@@UAE@XZ    0041bbb8 f   qt-mt323:qt-mt323.dll
+ 0002:0000abbe       ?setMainWidget@QApplication@@UAEXPAVQWidget@@@Z 0041bbbe f   qt-mt323:qt-mt323.dll
+ 0002:0000abc4       ?exec@QDialog@@QAEHXZ      0041bbc4 f   qt-mt323:qt-mt323.dll
+ 0002:0000abca       ??0QSize@@QAE@HH@Z         0041bbca f   qt-mt323:qt-mt323.dll
+ 0002:0000abd0       ?expandedTo@QSize@@QBE?AV1@ABV1@@Z 0041bbd0 f   qt-mt323:qt-mt323.dll
+ 0002:0000abd6       ?clearWState@QWidget@@IAEXI@Z 0041bbd6 f   qt-mt323:qt-mt323.dll
+ 0002:0000abdc       ??0QDialog@@QAE@PAVQWidget@@PBD_NI@Z 0041bbdc f   qt-mt323:qt-mt323.dll
+ 0002:0000abe2       ??1QDialog@@UAE@XZ         0041bbe2 f   qt-mt323:qt-mt323.dll
+ 0002:0000abe8       ?resize@QDialog@@QAEXABVQSize@@@Z 0041bbe8 f   qt-mt323:qt-mt323.dll
+ 0002:0000abee       ?setSizeGripEnabled@QDialog@@QAEX_N@Z 0041bbee f   qt-mt323:qt-mt323.dll
+ 0002:0000abf4       ?setFrameShape@QFrame@@QAEXW4Shape@1@@Z 0041bbf4 f   qt-mt323:qt-mt323.dll
+ 0002:0000abfa       ?setFrameShadow@QFrame@@QAEXW4Shadow@1@@Z 0041bbfa f   qt-mt323:qt-mt323.dll
+ 0002:0000ac00       ??0QTextEdit@@QAE@PAVQWidget@@PBD@Z 0041bc00 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac06       ??1QTextEdit@@UAE@XZ       0041bc06 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac0c       ??0QLabel@@QAE@PAVQWidget@@PBDI@Z 0041bc0c f   qt-mt323:qt-mt323.dll
+ 0002:0000ac12       ??1QLabel@@UAE@XZ          0041bc12 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac18       ??0QLineEdit@@QAE@PAVQWidget@@PBD@Z 0041bc18 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac1e       ??1QLineEdit@@UAE@XZ       0041bc1e f   qt-mt323:qt-mt323.dll
+ 0002:0000ac24       ??0QKeySequence@@QAE@ABVQString@@@Z 0041bc24 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac2a       ??1QKeySequence@@QAE@XZ    0041bc2a f   qt-mt323:qt-mt323.dll
+ 0002:0000ac30       ??0QPushButton@@QAE@PAVQWidget@@PBD@Z 0041bc30 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac36       ??1QPushButton@@UAE@XZ     0041bc36 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac3c       ??0QSpacerItem@@QAE@HHW4SizeType@QSizePolicy@@0@Z 0041bc3c f   qt-mt323:qt-mt323.dll
+ 0002:0000ac42       ??1QSpacerItem@@UAE@XZ     0041bc42 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac48       ?addWidget@QBoxLayout@@QAEXPAVQWidget@@HH@Z 0041bc48 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac4e       ?addLayout@QBoxLayout@@QAEXPAVQLayout@@H@Z 0041bc4e f   qt-mt323:qt-mt323.dll
+ 0002:0000ac54       ??0QHBoxLayout@@QAE@PAVQWidget@@HHPBD@Z 0041bc54 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac5a       ??1QHBoxLayout@@UAE@XZ     0041bc5a f   qt-mt323:qt-mt323.dll
+ 0002:0000ac60       ??0QVBoxLayout@@QAE@PAVQWidget@@HHPBD@Z 0041bc60 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac66       ??1QVBoxLayout@@UAE@XZ     0041bc66 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac6c       ?addChild@QScrollView@@UAEXPAVQWidget@@HH@Z 0041bc6c f   qt-mt323:qt-mt323.dll
+ 0002:0000ac72       ?addItem@QBoxLayout@@UAEXPAVQLayoutItem@@@Z 0041bc72 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac78       ?append@QTextEdit@@UAEXABVQString@@@Z 0041bc78 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac7e       ?childEvent@QLayout@@MAEXPAVQChildEvent@@@Z 0041bc7e f   qt-mt323:qt-mt323.dll
+ 0002:0000ac84       ?className@QHBoxLayout@@UBEPBDXZ 0041bc84 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac8a       ?className@QLabel@@UBEPBDXZ 0041bc8a f   qt-mt323:qt-mt323.dll
+ 0002:0000ac90       ?className@QLineEdit@@UBEPBDXZ 0041bc90 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac96       ?className@QPushButton@@UBEPBDXZ 0041bc96 f   qt-mt323:qt-mt323.dll
+ 0002:0000ac9c       ?className@QTextEdit@@UBEPBDXZ 0041bc9c f   qt-mt323:qt-mt323.dll
+ 0002:0000aca2       ?className@QVBoxLayout@@UBEPBDXZ 0041bca2 f   qt-mt323:qt-mt323.dll
+ 0002:0000aca8       ?clear@QLineEdit@@UAEXXZ   0041bca8 f   qt-mt323:qt-mt323.dll
+ 0002:0000acae       ?clear@QTextEdit@@UAEXXZ   0041bcae f   qt-mt323:qt-mt323.dll
+ 0002:0000acb4       ?clearParagraphBackground@QTextEdit@@UAEXH@Z 0041bcb4 f   qt-mt323:qt-mt323.dll
+ 0002:0000acba       ?clearValidator@QLineEdit@@UAEXXZ 0041bcba f   qt-mt323:qt-mt323.dll
+ 0002:0000acc0       ?closeEvent@QDialog@@MAEXPAVQCloseEvent@@@Z 0041bcc0 f   qt-mt323:qt-mt323.dll
+ 0002:0000acc6       ?contentsContextMenuEvent@QTextEdit@@MAEXPAVQContextMenuEvent@@@Z 0041bcc6 f   qt-mt323:qt-mt323.dll
+ 0002:0000accc       ?contentsDragEnterEvent@QTextEdit@@MAEXPAVQDragEnterEvent@@@Z 0041bccc f   qt-mt323:qt-mt323.dll
+ 0002:0000acd2       ?contentsDragLeaveEvent@QTextEdit@@MAEXPAVQDragLeaveEvent@@@Z 0041bcd2 f   qt-mt323:qt-mt323.dll
+ 0002:0000acd8       ?contentsDragMoveEvent@QTextEdit@@MAEXPAVQDragMoveEvent@@@Z 0041bcd8 f   qt-mt323:qt-mt323.dll
+ 0002:0000acde       ?contentsDropEvent@QTextEdit@@MAEXPAVQDropEvent@@@Z 0041bcde f   qt-mt323:qt-mt323.dll
+ 0002:0000ace4       ?contentsMouseDoubleClickEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0041bce4 f   qt-mt323:qt-mt323.dll
+ 0002:0000acea       ?contentsMouseMoveEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0041bcea f   qt-mt323:qt-mt323.dll
+ 0002:0000acf0       ?contentsMousePressEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0041bcf0 f   qt-mt323:qt-mt323.dll
+ 0002:0000acf6       ?contentsMouseReleaseEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0041bcf6 f   qt-mt323:qt-mt323.dll
+ 0002:0000acfc       ?contentsWheelEvent@QTextEdit@@MAEXPAVQWheelEvent@@@Z 0041bcfc f   qt-mt323:qt-mt323.dll
+ 0002:0000ad02       ?contextMenuEvent@QLineEdit@@MAEXPAVQContextMenuEvent@@@Z 0041bd02 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad08       ?contextMenuEvent@QScrollView@@MAEXPAVQContextMenuEvent@@@Z 0041bd08 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad0e       ?contextMenuEvent@QWidget@@MAEXPAVQContextMenuEvent@@@Z 0041bd0e f   qt-mt323:qt-mt323.dll
+ 0002:0000ad14       ?copy@QLineEdit@@UBEXXZ    0041bd14 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad1a       ?copy@QTextEdit@@UAEXXZ    0041bd1a f   qt-mt323:qt-mt323.dll
+ 0002:0000ad20       ?createPopupMenu@QLineEdit@@MAEPAVQPopupMenu@@XZ 0041bd20 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad26       ?createPopupMenu@QTextEdit@@MAEPAVQPopupMenu@@ABVQPoint@@@Z 0041bd26 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad2c       ?createPopupMenu@QTextEdit@@MAEPAVQPopupMenu@@XZ 0041bd2c f   qt-mt323:qt-mt323.dll
+ 0002:0000ad32       ?cut@QLineEdit@@UAEXXZ     0041bd32 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad38       ?cut@QTextEdit@@UAEXXZ     0041bd38 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad3e       ?del@QTextEdit@@UAEXXZ     0041bd3e f   qt-mt323:qt-mt323.dll
+ 0002:0000ad44       ?deselect@QLineEdit@@UAEXXZ 0041bd44 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad4a       ?doChangeInterval@QTextEdit@@MAEXXZ 0041bd4a f   qt-mt323:qt-mt323.dll
+ 0002:0000ad50       ?doKeyboardAction@QTextEdit@@UAEXW4KeyboardAction@1@@Z 0041bd50 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad56       ?dragEnterEvent@QLineEdit@@MAEXPAVQDragEnterEvent@@@Z 0041bd56 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad5c       ?dragLeaveEvent@QLineEdit@@MAEXPAVQDragLeaveEvent@@@Z 0041bd5c f   qt-mt323:qt-mt323.dll
+ 0002:0000ad62       ?dragMoveEvent@QLineEdit@@MAEXPAVQDragMoveEvent@@@Z 0041bd62 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad68       ?drawButton@QPushButton@@MAEXPAVQPainter@@@Z 0041bd68 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad6e       ?drawButtonLabel@QPushButton@@MAEXPAVQPainter@@@Z 0041bd6e f   qt-mt323:qt-mt323.dll
+ 0002:0000ad74       ?drawContents@QLabel@@MAEXPAVQPainter@@@Z 0041bd74 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad7a       ?drawContents@QLineEdit@@MAEXPAVQPainter@@@Z 0041bd7a f   qt-mt323:qt-mt323.dll
+ 0002:0000ad80       ?drawContents@QTextEdit@@EAEXPAVQPainter@@@Z 0041bd80 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad86       ?drawContents@QTextEdit@@MAEXPAVQPainter@@HHHH@Z 0041bd86 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad8c       ?drawContentsOffset@QScrollView@@MAEXPAVQPainter@@HHHHHH@Z 0041bd8c f   qt-mt323:qt-mt323.dll
+ 0002:0000ad92       ?drawFrame@QFrame@@MAEXPAVQPainter@@@Z 0041bd92 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad98       ?dropEvent@QLineEdit@@MAEXPAVQDropEvent@@@Z 0041bd98 f   qt-mt323:qt-mt323.dll
+ 0002:0000ad9e       ?emitHighlighted@QTextEdit@@EAEXABVQString@@@Z 0041bd9e f   qt-mt323:qt-mt323.dll
+ 0002:0000ada4       ?emitLinkClicked@QTextEdit@@EAEXABVQString@@@Z 0041bda4 f   qt-mt323:qt-mt323.dll
+ 0002:0000adaa       ?enabledChange@QButton@@MAEX_N@Z 0041bdaa f   qt-mt323:qt-mt323.dll
+ 0002:0000adb0       ?ensureCursorVisible@QTextEdit@@UAEXXZ 0041bdb0 f   qt-mt323:qt-mt323.dll
+ 0002:0000adb6       ?event@QLineEdit@@MAE_NPAVQEvent@@@Z 0041bdb6 f   qt-mt323:qt-mt323.dll
+ 0002:0000adbc       ?event@QTextEdit@@MAE_NPAVQEvent@@@Z 0041bdbc f   qt-mt323:qt-mt323.dll
+ 0002:0000adc2       ?eventFilter@QLayout@@MAE_NPAVQObject@@PAVQEvent@@@Z 0041bdc2 f   qt-mt323:qt-mt323.dll
+ 0002:0000adc8       ?eventFilter@QTextEdit@@UAE_NPAVQObject@@PAVQEvent@@@Z 0041bdc8 f   qt-mt323:qt-mt323.dll
+ 0002:0000adce       ?expanding@QBoxLayout@@UBE?AW4ExpandData@QSizePolicy@@XZ 0041bdce f   qt-mt323:qt-mt323.dll
+ 0002:0000add4       ?expanding@QSpacerItem@@UBE?AW4ExpandData@QSizePolicy@@XZ 0041bdd4 f   qt-mt323:qt-mt323.dll
+ 0002:0000adda       ?find@QTextEdit@@UAE_NABVQString@@_N11PAH2@Z 0041bdda f   qt-mt323:qt-mt323.dll
+ 0002:0000ade0       ?focusInEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z 0041bde0 f   qt-mt323:qt-mt323.dll
+ 0002:0000ade6       ?focusInEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z 0041bde6 f   qt-mt323:qt-mt323.dll
+ 0002:0000adec       ?focusNextPrevChild@QTextEdit@@MAE_N_N@Z 0041bdec f   qt-mt323:qt-mt323.dll
+ 0002:0000adf2       ?focusOutEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z 0041bdf2 f   qt-mt323:qt-mt323.dll
+ 0002:0000adf8       ?focusOutEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z 0041bdf8 f   qt-mt323:qt-mt323.dll
+ 0002:0000adfe       ?fontChange@QLabel@@MAEXABVQFont@@@Z 0041bdfe f   qt-mt323:qt-mt323.dll
+ 0002:0000ae04       ?fontChange@QScrollView@@MAEXABVQFont@@@Z 0041be04 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae0a       ?frameChanged@QFrame@@MAEXXZ 0041be0a f   qt-mt323:qt-mt323.dll
+ 0002:0000ae10       ?frameChanged@QScrollView@@MAEXXZ 0041be10 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae16       ?geometry@QLayout@@UBE?AVQRect@@XZ 0041be16 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae1c       ?geometry@QSpacerItem@@UBE?AVQRect@@XZ 0041be1c f   qt-mt323:qt-mt323.dll
+ 0002:0000ae22       ?getFormat@QTextEdit@@UAE_NHHPAVQFont@@PAVQColor@@PAW4VerticalAlignment@1@@Z 0041be22 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae28       ?getParagraphFormat@QTextEdit@@UAE_NHPAVQFont@@PAVQColor@@PAW4VerticalAlignment@1@PAHPAW4DisplayMode@QStyleSheetItem@@PAW4ListStyle@6@3@Z 0041be28 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae2e       ?hasHeightForWidth@QBoxLayout@@UBE_NXZ 0041be2e f   qt-mt323:qt-mt323.dll
+ 0002:0000ae34       ?hasHeightForWidth@QLayoutItem@@UBE_NXZ 0041be34 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae3a       ?heightForWidth@QBoxLayout@@UBEHH@Z 0041be3a f   qt-mt323:qt-mt323.dll
+ 0002:0000ae40       ?heightForWidth@QLabel@@UBEHH@Z 0041be40 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae46       ?heightForWidth@QLayoutItem@@UBEHH@Z 0041be46 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae4c       ?heightForWidth@QTextEdit@@UBEHH@Z 0041be4c f   qt-mt323:qt-mt323.dll
+ 0002:0000ae52       ?hide@QWidget@@UAEXXZ      0041be52 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae58       ?hitButton@QButton@@MBE_NABVQPoint@@@Z 0041be58 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae5e       ?imComposeEvent@QLineEdit@@MAEXPAVQIMEvent@@@Z 0041be5e f   qt-mt323:qt-mt323.dll
+ 0002:0000ae64       ?imComposeEvent@QTextEdit@@MAEXPAVQIMEvent@@@Z 0041be64 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae6a       ?imEndEvent@QLineEdit@@MAEXPAVQIMEvent@@@Z 0041be6a f   qt-mt323:qt-mt323.dll
+ 0002:0000ae70       ?imEndEvent@QTextEdit@@MAEXPAVQIMEvent@@@Z 0041be70 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae76       ?imStartEvent@QLineEdit@@MAEXPAVQIMEvent@@@Z 0041be76 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae7c       ?imStartEvent@QTextEdit@@MAEXPAVQIMEvent@@@Z 0041be7c f   qt-mt323:qt-mt323.dll
+ 0002:0000ae82       ?indent@QTextEdit@@UAEXXZ  0041be82 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae88       ?insert@QLineEdit@@UAEXABVQString@@@Z 0041be88 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae8e       ?insert@QTextEdit@@UAEXABVQString@@_N11@Z 0041be8e f   qt-mt323:qt-mt323.dll
+ 0002:0000ae94       ?insertAt@QTextEdit@@UAEXABVQString@@HH@Z 0041be94 f   qt-mt323:qt-mt323.dll
+ 0002:0000ae9a       ?insertParagraph@QTextEdit@@UAEXABVQString@@H@Z 0041be9a f   qt-mt323:qt-mt323.dll
+ 0002:0000aea0       ?invalidate@QBoxLayout@@UAEXXZ 0041bea0 f   qt-mt323:qt-mt323.dll
+ 0002:0000aea6       ?invalidate@QLayoutItem@@UAEXXZ 0041bea6 f   qt-mt323:qt-mt323.dll
+ 0002:0000aeac       ?isEmpty@QLayout@@UBE_NXZ  0041beac f   qt-mt323:qt-mt323.dll
+ 0002:0000aeb2       ?isEmpty@QSpacerItem@@UBE_NXZ 0041beb2 f   qt-mt323:qt-mt323.dll
+ 0002:0000aeb8       ?iterator@QBoxLayout@@UAE?AVQLayoutIterator@@XZ 0041beb8 f   qt-mt323:qt-mt323.dll
+ 0002:0000aebe       ?iterator@QLayoutItem@@UAE?AVQLayoutIterator@@XZ 0041bebe f   qt-mt323:qt-mt323.dll
+ 0002:0000aec4       ?keyPressEvent@QButton@@MAEXPAVQKeyEvent@@@Z 0041bec4 f   qt-mt323:qt-mt323.dll
+ 0002:0000aeca       ?keyPressEvent@QLineEdit@@MAEXPAVQKeyEvent@@@Z 0041beca f   qt-mt323:qt-mt323.dll
+ 0002:0000aed0       ?keyPressEvent@QTextEdit@@MAEXPAVQKeyEvent@@@Z 0041bed0 f   qt-mt323:qt-mt323.dll
+ 0002:0000aed6       ?keyPressEvent@QWidget@@MAEXPAVQKeyEvent@@@Z 0041bed6 f   qt-mt323:qt-mt323.dll
+ 0002:0000aedc       ?keyReleaseEvent@QButton@@MAEXPAVQKeyEvent@@@Z 0041bedc f   qt-mt323:qt-mt323.dll
+ 0002:0000aee2       ?layout@QLayout@@UAEPAV1@XZ 0041bee2 f   qt-mt323:qt-mt323.dll
+ 0002:0000aee8       ?layout@QLayoutItem@@UAEPAVQLayout@@XZ 0041bee8 f   qt-mt323:qt-mt323.dll
+ 0002:0000aeee       ?linksEnabled@QTextEdit@@EBE_NXZ 0041beee f   qt-mt323:qt-mt323.dll
+ 0002:0000aef4       ?maximumSize@QBoxLayout@@UBE?AVQSize@@XZ 0041bef4 f   qt-mt323:qt-mt323.dll
+ 0002:0000aefa       ?maximumSize@QSpacerItem@@UBE?AVQSize@@XZ 0041befa f   qt-mt323:qt-mt323.dll
+ 0002:0000af00       ?metaObject@QHBoxLayout@@UBEPAVQMetaObject@@XZ 0041bf00 f   qt-mt323:qt-mt323.dll
+ 0002:0000af06       ?metaObject@QLabel@@UBEPAVQMetaObject@@XZ 0041bf06 f   qt-mt323:qt-mt323.dll
+ 0002:0000af0c       ?metaObject@QLineEdit@@UBEPAVQMetaObject@@XZ 0041bf0c f   qt-mt323:qt-mt323.dll
+ 0002:0000af12       ?metaObject@QPushButton@@UBEPAVQMetaObject@@XZ 0041bf12 f   qt-mt323:qt-mt323.dll
+ 0002:0000af18       ?metaObject@QTextEdit@@UBEPAVQMetaObject@@XZ 0041bf18 f   qt-mt323:qt-mt323.dll
+ 0002:0000af1e       ?metaObject@QVBoxLayout@@UBEPAVQMetaObject@@XZ 0041bf1e f   qt-mt323:qt-mt323.dll
+ 0002:0000af24       ?minimumSize@QBoxLayout@@UBE?AVQSize@@XZ 0041bf24 f   qt-mt323:qt-mt323.dll
+ 0002:0000af2a       ?minimumSize@QSpacerItem@@UBE?AVQSize@@XZ 0041bf2a f   qt-mt323:qt-mt323.dll
+ 0002:0000af30       ?minimumSizeHint@QLabel@@UBE?AVQSize@@XZ 0041bf30 f   qt-mt323:qt-mt323.dll
+ 0002:0000af36       ?minimumSizeHint@QLineEdit@@UBE?AVQSize@@XZ 0041bf36 f   qt-mt323:qt-mt323.dll
+ 0002:0000af3c       ?minimumSizeHint@QScrollView@@UBE?AVQSize@@XZ 0041bf3c f   qt-mt323:qt-mt323.dll
+ 0002:0000af42       ?minimumSizeHint@QWidget@@UBE?AVQSize@@XZ 0041bf42 f   qt-mt323:qt-mt323.dll
+ 0002:0000af48       ?mouseDoubleClickEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0041bf48 f   qt-mt323:qt-mt323.dll
+ 0002:0000af4e       ?mouseDoubleClickEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041bf4e f   qt-mt323:qt-mt323.dll
+ 0002:0000af54       ?mouseMoveEvent@QButton@@MAEXPAVQMouseEvent@@@Z 0041bf54 f   qt-mt323:qt-mt323.dll
+ 0002:0000af5a       ?mouseMoveEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0041bf5a f   qt-mt323:qt-mt323.dll
+ 0002:0000af60       ?mouseMoveEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041bf60 f   qt-mt323:qt-mt323.dll
+ 0002:0000af66       ?mousePressEvent@QButton@@MAEXPAVQMouseEvent@@@Z 0041bf66 f   qt-mt323:qt-mt323.dll
+ 0002:0000af6c       ?mousePressEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0041bf6c f   qt-mt323:qt-mt323.dll
+ 0002:0000af72       ?mousePressEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041bf72 f   qt-mt323:qt-mt323.dll
+ 0002:0000af78       ?mouseReleaseEvent@QButton@@MAEXPAVQMouseEvent@@@Z 0041bf78 f   qt-mt323:qt-mt323.dll
+ 0002:0000af7e       ?mouseReleaseEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0041bf7e f   qt-mt323:qt-mt323.dll
+ 0002:0000af84       ?mouseReleaseEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041bf84 f   qt-mt323:qt-mt323.dll
+ 0002:0000af8a       ?move@QPushButton@@UAEXHH@Z 0041bf8a f   qt-mt323:qt-mt323.dll
+ 0002:0000af90       ?move@QWidget@@UAEXHH@Z    0041bf90 f   qt-mt323:qt-mt323.dll
+ 0002:0000af96       ?moveChild@QScrollView@@UAEXPAVQWidget@@HH@Z 0041bf96 f   qt-mt323:qt-mt323.dll
+ 0002:0000af9c       ?moveCursor@QTextEdit@@UAEXW4CursorAction@1@_N@Z 0041bf9c f   qt-mt323:qt-mt323.dll
+ 0002:0000afa2       ?paintEvent@QButton@@MAEXPAVQPaintEvent@@@Z 0041bfa2 f   qt-mt323:qt-mt323.dll
+ 0002:0000afa8       ?paintEvent@QFrame@@MAEXPAVQPaintEvent@@@Z 0041bfa8 f   qt-mt323:qt-mt323.dll
+ 0002:0000afae       ?paste@QLineEdit@@UAEXXZ   0041bfae f   qt-mt323:qt-mt323.dll
+ 0002:0000afb4       ?paste@QTextEdit@@UAEXXZ   0041bfb4 f   qt-mt323:qt-mt323.dll
+ 0002:0000afba       ?pasteSubType@QTextEdit@@UAEXABVQCString@@@Z 0041bfba f   qt-mt323:qt-mt323.dll
+ 0002:0000afc0       ?placeCursor@QTextEdit@@UAEXABVQPoint@@PAVQTextCursor@@@Z 0041bfc0 f   qt-mt323:qt-mt323.dll
+ 0002:0000afc6       ?polish@QTextEdit@@UAEXXZ  0041bfc6 f   qt-mt323:qt-mt323.dll
+ 0002:0000afcc       ?qt_cast@QHBoxLayout@@UAEPAXPBD@Z 0041bfcc f   qt-mt323:qt-mt323.dll
+ 0002:0000afd2       ?qt_cast@QLabel@@UAEPAXPBD@Z 0041bfd2 f   qt-mt323:qt-mt323.dll
+ 0002:0000afd8       ?qt_cast@QLineEdit@@UAEPAXPBD@Z 0041bfd8 f   qt-mt323:qt-mt323.dll
+ 0002:0000afde       ?qt_cast@QPushButton@@UAEPAXPBD@Z 0041bfde f   qt-mt323:qt-mt323.dll
+ 0002:0000afe4       ?qt_cast@QTextEdit@@UAEPAXPBD@Z 0041bfe4 f   qt-mt323:qt-mt323.dll
+ 0002:0000afea       ?qt_cast@QVBoxLayout@@UAEPAXPBD@Z 0041bfea f   qt-mt323:qt-mt323.dll
+ 0002:0000aff0       ?qt_emit@QHBoxLayout@@UAE_NHPAUQUObject@@@Z 0041bff0 f   qt-mt323:qt-mt323.dll
+ 0002:0000aff6       ?qt_emit@QLabel@@UAE_NHPAUQUObject@@@Z 0041bff6 f   qt-mt323:qt-mt323.dll
+ 0002:0000affc       ?qt_emit@QLineEdit@@UAE_NHPAUQUObject@@@Z 0041bffc f   qt-mt323:qt-mt323.dll
+ 0002:0000b002       ?qt_emit@QPushButton@@UAE_NHPAUQUObject@@@Z 0041c002 f   qt-mt323:qt-mt323.dll
+ 0002:0000b008       ?qt_emit@QTextEdit@@UAE_NHPAUQUObject@@@Z 0041c008 f   qt-mt323:qt-mt323.dll
+ 0002:0000b00e       ?qt_emit@QVBoxLayout@@UAE_NHPAUQUObject@@@Z 0041c00e f   qt-mt323:qt-mt323.dll
+ 0002:0000b014       ?qt_invoke@QHBoxLayout@@UAE_NHPAUQUObject@@@Z 0041c014 f   qt-mt323:qt-mt323.dll
+ 0002:0000b01a       ?qt_invoke@QLabel@@UAE_NHPAUQUObject@@@Z 0041c01a f   qt-mt323:qt-mt323.dll
+ 0002:0000b020       ?qt_invoke@QLineEdit@@UAE_NHPAUQUObject@@@Z 0041c020 f   qt-mt323:qt-mt323.dll
+ 0002:0000b026       ?qt_invoke@QPushButton@@UAE_NHPAUQUObject@@@Z 0041c026 f   qt-mt323:qt-mt323.dll
+ 0002:0000b02c       ?qt_invoke@QTextEdit@@UAE_NHPAUQUObject@@@Z 0041c02c f   qt-mt323:qt-mt323.dll
+ 0002:0000b032       ?qt_invoke@QVBoxLayout@@UAE_NHPAUQUObject@@@Z 0041c032 f   qt-mt323:qt-mt323.dll
+ 0002:0000b038       ?qt_property@QHBoxLayout@@UAE_NHHPAVQVariant@@@Z 0041c038 f   qt-mt323:qt-mt323.dll
+ 0002:0000b03e       ?qt_property@QLabel@@UAE_NHHPAVQVariant@@@Z 0041c03e f   qt-mt323:qt-mt323.dll
+ 0002:0000b044       ?qt_property@QLineEdit@@UAE_NHHPAVQVariant@@@Z 0041c044 f   qt-mt323:qt-mt323.dll
+ 0002:0000b04a       ?qt_property@QPushButton@@UAE_NHHPAVQVariant@@@Z 0041c04a f   qt-mt323:qt-mt323.dll
+ 0002:0000b050       ?qt_property@QTextEdit@@UAE_NHHPAVQVariant@@@Z 0041c050 f   qt-mt323:qt-mt323.dll
+ 0002:0000b056       ?qt_property@QVBoxLayout@@UAE_NHHPAVQVariant@@@Z 0041c056 f   qt-mt323:qt-mt323.dll
+ 0002:0000b05c       ?redo@QLineEdit@@UAEXXZ    0041c05c f   qt-mt323:qt-mt323.dll
+ 0002:0000b062       ?redo@QTextEdit@@UAEXXZ    0041c062 f   qt-mt323:qt-mt323.dll
+ 0002:0000b068       ?removeChild@QScrollView@@UAEXPAVQObject@@@Z 0041c068 f   qt-mt323:qt-mt323.dll
+ 0002:0000b06e       ?removeParagraph@QTextEdit@@UAEXH@Z 0041c06e f   qt-mt323:qt-mt323.dll
+ 0002:0000b074       ?removeSelectedText@QTextEdit@@UAEXH@Z 0041c074 f   qt-mt323:qt-mt323.dll
+ 0002:0000b07a       ?removeSelection@QTextEdit@@UAEXH@Z 0041c07a f   qt-mt323:qt-mt323.dll
+ 0002:0000b080       ?resetFormat@QTextEdit@@UAEXXZ 0041c080 f   qt-mt323:qt-mt323.dll
+ 0002:0000b086       ?resize@QPushButton@@UAEXHH@Z 0041c086 f   qt-mt323:qt-mt323.dll
+ 0002:0000b08c       ?resize@QScrollView@@UAEXHH@Z 0041c08c f   qt-mt323:qt-mt323.dll
+ 0002:0000b092       ?resize@QWidget@@UAEXHH@Z  0041c092 f   qt-mt323:qt-mt323.dll
+ 0002:0000b098       ?resizeContents@QScrollView@@UAEXHH@Z 0041c098 f   qt-mt323:qt-mt323.dll
+ 0002:0000b09e       ?resizeEvent@QLabel@@MAEXPAVQResizeEvent@@@Z 0041c09e f   qt-mt323:qt-mt323.dll
+ 0002:0000b0a4       ?resizeEvent@QLineEdit@@MAEXPAVQResizeEvent@@@Z 0041c0a4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0aa       ?resizeEvent@QPushButton@@MAEXPAVQResizeEvent@@@Z 0041c0aa f   qt-mt323:qt-mt323.dll
+ 0002:0000b0b0       ?resizeEvent@QTextEdit@@MAEXPAVQResizeEvent@@@Z 0041c0b0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0b6       ?scrollToAnchor@QTextEdit@@UAEXABVQString@@@Z 0041c0b6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0bc       ?scrollToBottom@QTextEdit@@UAEXXZ 0041c0bc f   qt-mt323:qt-mt323.dll
+ 0002:0000b0c2       ?selectAll@QLineEdit@@UAEXXZ 0041c0c2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0c8       ?selectAll@QTextEdit@@UAEX_N@Z 0041c0c8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0ce       ?setAccel@QButton@@UAEXABVQKeySequence@@@Z 0041c0ce f   qt-mt323:qt-mt323.dll
+ 0002:0000b0d4       ?setAlignment@QLabel@@UAEXH@Z 0041c0d4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0da       ?setAlignment@QLayoutItem@@UAEXH@Z 0041c0da f   qt-mt323:qt-mt323.dll
+ 0002:0000b0e0       ?setAlignment@QLineEdit@@UAEXH@Z 0041c0e0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0e6       ?setAlignment@QTextEdit@@UAEXH@Z 0041c0e6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0ec       ?setAutoAdd@QLayout@@UAEX_N@Z 0041c0ec f   qt-mt323:qt-mt323.dll
+ 0002:0000b0f2       ?setAutoDefault@QPushButton@@UAEX_N@Z 0041c0f2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0f8       ?setAutoRepeat@QButton@@UAEX_N@Z 0041c0f8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b0fe       ?setAutoResize@QLabel@@UAEX_N@Z 0041c0fe f   qt-mt323:qt-mt323.dll
+ 0002:0000b104       ?setBold@QTextEdit@@UAEX_N@Z 0041c104 f   qt-mt323:qt-mt323.dll
+ 0002:0000b10a       ?setBuddy@QLabel@@UAEXPAVQWidget@@@Z 0041c10a f   qt-mt323:qt-mt323.dll
+ 0002:0000b110       ?setColor@QTextEdit@@UAEXABVQColor@@@Z 0041c110 f   qt-mt323:qt-mt323.dll
+ 0002:0000b116       ?setContentsPos@QScrollView@@UAEXHH@Z 0041c116 f   qt-mt323:qt-mt323.dll
+ 0002:0000b11c       ?setCornerWidget@QScrollView@@UAEXPAVQWidget@@@Z 0041c11c f   qt-mt323:qt-mt323.dll
+ 0002:0000b122       ?setCurrentFont@QTextEdit@@UAEXABVQFont@@@Z 0041c122 f   qt-mt323:qt-mt323.dll
+ 0002:0000b128       ?setCursorPosition@QLineEdit@@UAEXH@Z 0041c128 f   qt-mt323:qt-mt323.dll
+ 0002:0000b12e       ?setCursorPosition@QTextEdit@@UAEXHH@Z 0041c12e f   qt-mt323:qt-mt323.dll
+ 0002:0000b134       ?setDefault@QPushButton@@UAEX_N@Z 0041c134 f   qt-mt323:qt-mt323.dll
+ 0002:0000b13a       ?setDown@QButton@@UAEX_N@Z 0041c13a f   qt-mt323:qt-mt323.dll
+ 0002:0000b140       ?setDragAutoScroll@QScrollView@@UAEX_N@Z 0041c140 f   qt-mt323:qt-mt323.dll
+ 0002:0000b146       ?setDragEnabled@QLineEdit@@UAEX_N@Z 0041c146 f   qt-mt323:qt-mt323.dll
+ 0002:0000b14c       ?setEchoMode@QLineEdit@@UAEXW4EchoMode@1@@Z 0041c14c f   qt-mt323:qt-mt323.dll
+ 0002:0000b152       ?setEnabled@QTextEdit@@UAEX_N@Z 0041c152 f   qt-mt323:qt-mt323.dll
+ 0002:0000b158       ?setFamily@QTextEdit@@UAEXABVQString@@@Z 0041c158 f   qt-mt323:qt-mt323.dll
+ 0002:0000b15e       ?setFont@QLabel@@UAEXABVQFont@@@Z 0041c15e f   qt-mt323:qt-mt323.dll
+ 0002:0000b164       ?setFont@QLineEdit@@UAEXABVQFont@@@Z 0041c164 f   qt-mt323:qt-mt323.dll
+ 0002:0000b16a       ?setFont@QTextEdit@@UAEXABVQFont@@@Z 0041c16a f   qt-mt323:qt-mt323.dll
+ 0002:0000b170       ?setFormat@QTextEdit@@UAEXPAVQTextFormat@@H@Z 0041c170 f   qt-mt323:qt-mt323.dll
+ 0002:0000b176       ?setFrame@QLineEdit@@UAEX_N@Z 0041c176 f   qt-mt323:qt-mt323.dll
+ 0002:0000b17c       ?setFrameRect@QFrame@@UAEXABVQRect@@@Z 0041c17c f   qt-mt323:qt-mt323.dll
+ 0002:0000b182       ?setFrameStyle@QFrame@@UAEXH@Z 0041c182 f   qt-mt323:qt-mt323.dll
+ 0002:0000b188       ?setGeometry@QBoxLayout@@UAEXABVQRect@@@Z 0041c188 f   qt-mt323:qt-mt323.dll
+ 0002:0000b18e       ?setGeometry@QPushButton@@UAEXABVQRect@@@Z 0041c18e f   qt-mt323:qt-mt323.dll
+ 0002:0000b194       ?setGeometry@QPushButton@@UAEXHHHH@Z 0041c194 f   qt-mt323:qt-mt323.dll
+ 0002:0000b19a       ?setGeometry@QSpacerItem@@UAEXABVQRect@@@Z 0041c19a f   qt-mt323:qt-mt323.dll
+ 0002:0000b1a0       ?setGeometry@QWidget@@UAEXABVQRect@@@Z 0041c1a0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1a6       ?setGeometry@QWidget@@UAEXHHHH@Z 0041c1a6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1ac       ?setGroup@QButton@@EAEXPAVQButtonGroup@@@Z 0041c1ac f   qt-mt323:qt-mt323.dll
+ 0002:0000b1b2       ?setHBarGeometry@QScrollView@@MAEXAAVQScrollBar@@HHHH@Z 0041c1b2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1b8       ?setHScrollBarMode@QScrollView@@UAEXW4ScrollBarMode@1@@Z 0041c1b8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1be       ?setIsMenuButton@QPushButton@@UAEX_N@Z 0041c1be f   qt-mt323:qt-mt323.dll
+ 0002:0000b1c4       ?setItalic@QTextEdit@@UAEX_N@Z 0041c1c4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1ca       ?setLineWidth@QFrame@@UAEXH@Z 0041c1ca f   qt-mt323:qt-mt323.dll
+ 0002:0000b1d0       ?setLinkUnderline@QTextEdit@@UAEX_N@Z 0041c1d0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1d6       ?setMargin@QFrame@@UAEXH@Z 0041c1d6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1dc       ?setMargin@QLayout@@UAEXH@Z 0041c1dc f   qt-mt323:qt-mt323.dll
+ 0002:0000b1e2       ?setMargins@QScrollView@@MAEXHHHH@Z 0041c1e2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1e8       ?setMaxLength@QLineEdit@@UAEXH@Z 0041c1e8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1ee       ?setMenuBar@QLayout@@UAEXPAVQMenuBar@@@Z 0041c1ee f   qt-mt323:qt-mt323.dll
+ 0002:0000b1f4       ?setMidLineWidth@QFrame@@UAEXH@Z 0041c1f4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b1fa       ?setMimeSourceFactory@QTextEdit@@UAEXPAVQMimeSourceFactory@@@Z 0041c1fa f   qt-mt323:qt-mt323.dll
+ 0002:0000b200       ?setModified@QTextEdit@@UAEX_N@Z 0041c200 f   qt-mt323:qt-mt323.dll
+ 0002:0000b206       ?setMovie@QLabel@@UAEXABVQMovie@@@Z 0041c206 f   qt-mt323:qt-mt323.dll
+ 0002:0000b20c       ?setNum@QLabel@@UAEXH@Z    0041c20c f   qt-mt323:qt-mt323.dll
+ 0002:0000b212       ?setNum@QLabel@@UAEXN@Z    0041c212 f   qt-mt323:qt-mt323.dll
+ 0002:0000b218       ?setOn@QPushButton@@UAEX_N@Z 0041c218 f   qt-mt323:qt-mt323.dll
+ 0002:0000b21e       ?setOverwriteMode@QTextEdit@@UAEX_N@Z 0041c21e f   qt-mt323:qt-mt323.dll
+ 0002:0000b224       ?setPalette@QLineEdit@@UAEXABVQPalette@@@Z 0041c224 f   qt-mt323:qt-mt323.dll
+ 0002:0000b22a       ?setPalette@QTextEdit@@UAEXABVQPalette@@@Z 0041c22a f   qt-mt323:qt-mt323.dll
+ 0002:0000b230       ?setPaper@QTextEdit@@UAEXABVQBrush@@@Z 0041c230 f   qt-mt323:qt-mt323.dll
+ 0002:0000b236       ?setParagType@QTextEdit@@UAEXW4DisplayMode@QStyleSheetItem@@W4ListStyle@3@@Z 0041c236 f   qt-mt323:qt-mt323.dll
+ 0002:0000b23c       ?setParagraphBackgroundColor@QTextEdit@@UAEXHABVQColor@@@Z 0041c23c f   qt-mt323:qt-mt323.dll
+ 0002:0000b242       ?setPicture@QLabel@@UAEXABVQPicture@@@Z 0041c242 f   qt-mt323:qt-mt323.dll
+ 0002:0000b248       ?setPixmap@QButton@@UAEXABVQPixmap@@@Z 0041c248 f   qt-mt323:qt-mt323.dll
+ 0002:0000b24e       ?setPixmap@QLabel@@UAEXABVQPixmap@@@Z 0041c24e f   qt-mt323:qt-mt323.dll
+ 0002:0000b254       ?setPointSize@QTextEdit@@UAEXH@Z 0041c254 f   qt-mt323:qt-mt323.dll
+ 0002:0000b25a       ?setReadOnly@QLineEdit@@UAEX_N@Z 0041c25a f   qt-mt323:qt-mt323.dll
+ 0002:0000b260       ?setReadOnly@QTextEdit@@UAEX_N@Z 0041c260 f   qt-mt323:qt-mt323.dll
+ 0002:0000b266       ?setResizePolicy@QScrollView@@UAEXW4ResizePolicy@1@@Z 0041c266 f   qt-mt323:qt-mt323.dll
+ 0002:0000b26c       ?setSelection@QLineEdit@@UAEXHH@Z 0041c26c f   qt-mt323:qt-mt323.dll
+ 0002:0000b272       ?setSelection@QTextEdit@@UAEXHHHHH@Z 0041c272 f   qt-mt323:qt-mt323.dll
+ 0002:0000b278       ?setSelectionAttributes@QTextEdit@@UAEXHABVQColor@@_N@Z 0041c278 f   qt-mt323:qt-mt323.dll
+ 0002:0000b27e       ?setSpacing@QLayout@@UAEXH@Z 0041c27e f   qt-mt323:qt-mt323.dll
+ 0002:0000b284       ?setState@QButton@@MAEXW4ToggleState@1@@Z 0041c284 f   qt-mt323:qt-mt323.dll
+ 0002:0000b28a       ?setStyleSheet@QTextEdit@@UAEXPAVQStyleSheet@@@Z 0041c28a f   qt-mt323:qt-mt323.dll
+ 0002:0000b290       ?setTabStopWidth@QTextEdit@@UAEXH@Z 0041c290 f   qt-mt323:qt-mt323.dll
+ 0002:0000b296       ?setText@QButton@@UAEXABVQString@@@Z 0041c296 f   qt-mt323:qt-mt323.dll
+ 0002:0000b29c       ?setText@QLabel@@UAEXABVQString@@@Z 0041c29c f   qt-mt323:qt-mt323.dll
+ 0002:0000b2a2       ?setText@QLineEdit@@UAEXABVQString@@@Z 0041c2a2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2a8       ?setText@QTextEdit@@UAEXABVQString@@0@Z 0041c2a8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2ae       ?setTextFormat@QTextEdit@@UAEXW4TextFormat@Qt@@@Z 0041c2ae f   qt-mt323:qt-mt323.dll
+ 0002:0000b2b4       ?setToggleType@QButton@@MAEXW4ToggleType@1@@Z 0041c2b4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2ba       ?setUnderline@QTextEdit@@UAEX_N@Z 0041c2ba f   qt-mt323:qt-mt323.dll
+ 0002:0000b2c0       ?setUndoDepth@QTextEdit@@UAEXH@Z 0041c2c0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2c6       ?setUndoRedoEnabled@QTextEdit@@UAEX_N@Z 0041c2c6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2cc       ?setVBarGeometry@QScrollView@@MAEXAAVQScrollBar@@HHHH@Z 0041c2cc f   qt-mt323:qt-mt323.dll
+ 0002:0000b2d2       ?setVScrollBarMode@QScrollView@@UAEXW4ScrollBarMode@1@@Z 0041c2d2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2d8       ?setValidator@QLineEdit@@UAEXPBVQValidator@@@Z 0041c2d8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2de       ?setVerticalAlignment@QTextEdit@@UAEXW4VerticalAlignment@1@@Z 0041c2de f   qt-mt323:qt-mt323.dll
+ 0002:0000b2e4       ?setWordWrap@QTextEdit@@UAEXW4WordWrap@1@@Z 0041c2e4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2ea       ?setWrapColumnOrWidth@QTextEdit@@UAEXH@Z 0041c2ea f   qt-mt323:qt-mt323.dll
+ 0002:0000b2f0       ?setWrapPolicy@QTextEdit@@UAEXW4WrapPolicy@1@@Z 0041c2f0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2f6       ?show@QScrollView@@UAEXXZ  0041c2f6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b2fc       ?show@QWidget@@UAEXXZ      0041c2fc f   qt-mt323:qt-mt323.dll
+ 0002:0000b302       ?sizeHint@QBoxLayout@@UBE?AVQSize@@XZ 0041c302 f   qt-mt323:qt-mt323.dll
+ 0002:0000b308       ?sizeHint@QLabel@@UBE?AVQSize@@XZ 0041c308 f   qt-mt323:qt-mt323.dll
+ 0002:0000b30e       ?sizeHint@QLineEdit@@UBE?AVQSize@@XZ 0041c30e f   qt-mt323:qt-mt323.dll
+ 0002:0000b314       ?sizeHint@QPushButton@@UBE?AVQSize@@XZ 0041c314 f   qt-mt323:qt-mt323.dll
+ 0002:0000b31a       ?sizeHint@QSpacerItem@@UBE?AVQSize@@XZ 0041c31a f   qt-mt323:qt-mt323.dll
+ 0002:0000b320       ?sizeHint@QTextEdit@@UBE?AVQSize@@XZ 0041c320 f   qt-mt323:qt-mt323.dll
+ 0002:0000b326       ?spacerItem@QLayoutItem@@UAEPAVQSpacerItem@@XZ 0041c326 f   qt-mt323:qt-mt323.dll
+ 0002:0000b32c       ?spacerItem@QSpacerItem@@UAEPAV1@XZ 0041c32c f   qt-mt323:qt-mt323.dll
+ 0002:0000b332       ?styleChange@QFrame@@MAEXAAVQStyle@@@Z 0041c332 f   qt-mt323:qt-mt323.dll
+ 0002:0000b338       ?styleChange@QScrollView@@UAEXAAVQStyle@@@Z 0041c338 f   qt-mt323:qt-mt323.dll
+ 0002:0000b33e       ?sync@QTextEdit@@UAEXXZ    0041c33e f   qt-mt323:qt-mt323.dll
+ 0002:0000b344       ?undo@QLineEdit@@UAEXXZ    0041c344 f   qt-mt323:qt-mt323.dll
+ 0002:0000b34a       ?undo@QTextEdit@@UAEXXZ    0041c34a f   qt-mt323:qt-mt323.dll
+ 0002:0000b350       ?updateMask@QPushButton@@MAEXXZ 0041c350 f   qt-mt323:qt-mt323.dll
+ 0002:0000b356       ?viewportContextMenuEvent@QScrollView@@MAEXPAVQContextMenuEvent@@@Z 0041c356 f   qt-mt323:qt-mt323.dll
+ 0002:0000b35c       ?viewportDragEnterEvent@QScrollView@@MAEXPAVQDragEnterEvent@@@Z 0041c35c f   qt-mt323:qt-mt323.dll
+ 0002:0000b362       ?viewportDragLeaveEvent@QScrollView@@MAEXPAVQDragLeaveEvent@@@Z 0041c362 f   qt-mt323:qt-mt323.dll
+ 0002:0000b368       ?viewportDragMoveEvent@QScrollView@@MAEXPAVQDragMoveEvent@@@Z 0041c368 f   qt-mt323:qt-mt323.dll
+ 0002:0000b36e       ?viewportDropEvent@QScrollView@@MAEXPAVQDropEvent@@@Z 0041c36e f   qt-mt323:qt-mt323.dll
+ 0002:0000b374       ?viewportMouseDoubleClickEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041c374 f   qt-mt323:qt-mt323.dll
+ 0002:0000b37a       ?viewportMouseMoveEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041c37a f   qt-mt323:qt-mt323.dll
+ 0002:0000b380       ?viewportMousePressEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041c380 f   qt-mt323:qt-mt323.dll
+ 0002:0000b386       ?viewportMouseReleaseEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0041c386 f   qt-mt323:qt-mt323.dll
+ 0002:0000b38c       ?viewportPaintEvent@QScrollView@@MAEXPAVQPaintEvent@@@Z 0041c38c f   qt-mt323:qt-mt323.dll
+ 0002:0000b392       ?viewportResizeEvent@QTextEdit@@MAEXPAVQResizeEvent@@@Z 0041c392 f   qt-mt323:qt-mt323.dll
+ 0002:0000b398       ?viewportWheelEvent@QScrollView@@MAEXPAVQWheelEvent@@@Z 0041c398 f   qt-mt323:qt-mt323.dll
+ 0002:0000b39e       ?wheelEvent@QScrollView@@MAEXPAVQWheelEvent@@@Z 0041c39e f   qt-mt323:qt-mt323.dll
+ 0002:0000b3a4       ?widget@QLayoutItem@@UAEPAVQWidget@@XZ 0041c3a4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3aa       ?windowActivationChange@QLineEdit@@MAEX_N@Z 0041c3aa f   qt-mt323:qt-mt323.dll
+ 0002:0000b3b0       ?windowActivationChange@QTextEdit@@MAEX_N@Z 0041c3b0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3b6       ?zoomIn@QTextEdit@@UAEXH@Z 0041c3b6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3bc       ?zoomIn@QTextEdit@@UAEXXZ  0041c3bc f   qt-mt323:qt-mt323.dll
+ 0002:0000b3c2       ?zoomOut@QTextEdit@@UAEXH@Z 0041c3c2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3c8       ?zoomOut@QTextEdit@@UAEXXZ 0041c3c8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3ce       ?zoomTo@QTextEdit@@UAEXH@Z 0041c3ce f   qt-mt323:qt-mt323.dll
+ 0002:0000b3d4       ?qstrcmp@@YAHPBD0@Z        0041c3d4 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3da       ?fromLatin1@QString@@SA?AV1@PBDH@Z 0041c3da f   qt-mt323:qt-mt323.dll
+ 0002:0000b3e0       ?fromUtf8@QString@@SA?AV1@PBDH@Z 0041c3e0 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3e6       ?slotOffset@QMetaObject@@QBEHXZ 0041c3e6 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3ec       ?new_metaobject@QMetaObject@@SAPAV1@PBDPAV1@QBUQMetaData@@H2HQBVQMetaProperty@@HQBUQMetaEnum@@HQBUQClassInfo@@H@Z 0041c3ec f   qt-mt323:qt-mt323.dll
+ 0002:0000b3f2       ??0QMetaObjectCleanUp@@QAE@PBDP6APAVQMetaObject@@XZ@Z 0041c3f2 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3f8       ??1QMetaObjectCleanUp@@QAE@XZ 0041c3f8 f   qt-mt323:qt-mt323.dll
+ 0002:0000b3fe       ?setMetaObject@QMetaObjectCleanUp@@QAEXAAPAVQMetaObject@@@Z 0041c3fe f   qt-mt323:qt-mt323.dll
+ 0002:0000b404       ?translate@QApplication@@QBE?AVQString@@PBD00W4Encoding@1@@Z 0041c404 f   qt-mt323:qt-mt323.dll
+ 0002:0000b40a       ?qt_cast@QDialog@@UAEPAXPBD@Z 0041c40a f   qt-mt323:qt-mt323.dll
+ 0002:0000b410       ?qt_invoke@QDialog@@UAE_NHPAUQUObject@@@Z 0041c410 f   qt-mt323:qt-mt323.dll
+ 0002:0000b416       ?qt_emit@QDialog@@UAE_NHPAUQUObject@@@Z 0041c416 f   qt-mt323:qt-mt323.dll
+ 0002:0000b41c       ?qt_property@QDialog@@UAE_NHHPAVQVariant@@@Z 0041c41c f   qt-mt323:qt-mt323.dll
+ 0002:0000b422       ?staticMetaObject@QDialog@@SAPAVQMetaObject@@XZ 0041c422 f   qt-mt323:qt-mt323.dll
+ 0002:0000b428       _GetPrivateProfileStringA@24 0041c428 f   kernel32:KERNEL32.dll
+ 0002:0000b42e       _WritePrivateProfileStringA@16 0041c42e f   kernel32:KERNEL32.dll
+ 0002:0000b434       _GetLastError@0            0041c434 f   kernel32:KERNEL32.dll
+ 0002:0000b43a       _WriteFile@20              0041c43a f   kernel32:KERNEL32.dll
+ 0002:0000b440       _SetEndOfFile@4            0041c440 f   kernel32:KERNEL32.dll
+ 0002:0000b446       _SetFilePointer@16         0041c446 f   kernel32:KERNEL32.dll
+ 0002:0000b44c       _CloseHandle@4             0041c44c f   kernel32:KERNEL32.dll
+ 0002:0000b452       _GetSystemTime@4           0041c452 f   kernel32:KERNEL32.dll
+ 0002:0000b458       _GetLocalTime@4            0041c458 f   kernel32:KERNEL32.dll
+ 0002:0000b45e       _OutputDebugStringA@4      0041c45e f   kernel32:KERNEL32.dll
+ 0002:0000b464       _CreateFileA@28            0041c464 f   kernel32:KERNEL32.dll
+ 0002:0000b46a       _ShellExecuteA@24          0041c46a f   shell32:SHELL32.dll
+ 0002:0000b470       ??2@YAPAXI@Z               0041c470 f   MSVCRT:MSVCR120.dll
+ 0002:0000b476       ??3@YAXPAX@Z               0041c476 f   MSVCRT:MSVCR120.dll
+ 0002:0000b47c       ___atonexitinit            0041c47c f   MSVCRT:atonexit.obj
+ 0002:0000b4c7       __onexit                   0041c4c7 f   MSVCRT:atonexit.obj
+ 0002:0000b59a       _atexit                    0041c59a f   MSVCRT:atonexit.obj
+ 0002:0000b5b4       _strcmp                    0041c5b4 f   MSVCRT:MSVCR120.dll
+ 0002:0000b5ba       _strlen                    0041c5ba f   MSVCRT:MSVCR120.dll
+ 0002:0000b5c0       _getenv                    0041c5c0 f   MSVCRT:MSVCR120.dll
+ 0002:0000b5c6       @_RTC_AllocaHelper@12      0041c5c6 f   MSVCRT:stack.obj
+ 0002:0000b604       @_RTC_CheckStackVars2@12   0041c604 f   MSVCRT:stack.obj
+ 0002:0000b6fb       @_RTC_CheckStackVars@8     0041c6fb f   MSVCRT:stack.obj
+ 0002:0000b769       __RTC_CheckEsp             0041c769 f   MSVCRT:stack.obj
+ 0002:0000b794       @__security_check_cookie@4 0041c794 f   MSVCRT:secchk.obj
+ 0002:0000b7a6       __RTC_InitBase             0041c7a6 f   MSVCRT:init.obj
+ 0002:0000b7d6       __RTC_Shutdown             0041c7d6 f   MSVCRT:init.obj
+ 0002:0000b7ec       ___CxxFrameHandler3        0041c7ec f   MSVCRT:MSVCR120.dll
+ 0002:0000b7f2       ??0type_info@@AAE@ABV0@@Z  0041c7f2 f   MSVCRT:ti_inst.obj
+ 0002:0000b7ff       ??4type_info@@AAEAAV0@ABV0@@Z 0041c7ff f   MSVCRT:ti_inst.obj
+ 0002:0000b804       ??_Etype_info@@UAEPAXI@Z   0041c804 f i MSVCRT:ti_inst.obj
+ 0002:0000b9a4       _NtCurrentTeb              0041c9a4 f i MSVCRT:crtexew.obj
+ 0002:0000b9ab       _WinMainCRTStartup         0041c9ab f   MSVCRT:crtexew.obj
+ 0002:0000bc30       _strcpy                    0041cc30 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc36       _strcat                    0041cc36 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc3c       _strncpy                   0041cc3c f   MSVCRT:MSVCR120.dll
+ 0002:0000bc42       _strtok                    0041cc42 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc48       __localtime64              0041cc48 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc4e       __time64                   0041cc4e f   MSVCRT:MSVCR120.dll
+ 0002:0000bc54       _sprintf                   0041cc54 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc5a       __mkdir                    0041cc5a f   MSVCRT:MSVCR120.dll
+ 0002:0000bc60       __lock                     0041cc60 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc66       __unlock                   0041cc66 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc6c       __calloc_crt               0041cc6c f   MSVCRT:MSVCR120.dll
+ 0002:0000bc72       ___dllonexit               0041cc72 f   MSVCRT:MSVCR120.dll
+ 0002:0000bc80       __SEH_prolog4              0041cc80 f   MSVCRT:sehprolg4.obj
+ 0002:0000bcc5       __SEH_epilog4              0041ccc5 f   MSVCRT:sehprolg4.obj
+ 0002:0000bcef       __except_handler4          0041ccef f   MSVCRT:chandler4gs.obj
+ 0002:0000be25       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 0041ce25 f   MSVCRT:error.obj
+ 0002:0000bfd1       ?_RTC_Failure@@YAXPAXH@Z   0041cfd1 f   MSVCRT:error.obj
+ 0002:0000c01c       ?_RTC_StackFailure@@YAXPAXPBD@Z 0041d01c f   MSVCRT:error.obj
+ 0002:0000c443       __RTC_UninitUse            0041d443 f   MSVCRT:error.obj
+ 0002:0000c559       ___raise_securityfailure   0041d559 f   MSVCRT:gs_report.obj
+ 0002:0000c5a5       ___report_gsfailure        0041d5a5 f   MSVCRT:gs_report.obj
+ 0002:0000c6de       ___report_rangecheckfailure 0041d6de f   MSVCRT:gs_report.obj
+ 0002:0000c6ed       ___report_securityfailure  0041d6ed f   MSVCRT:gs_report.obj
+ 0002:0000c7f1       ___report_securityfailureEx 0041d7f1 f   MSVCRT:gs_report.obj
+ 0002:0000c94c       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 0041d94c f   MSVCRT:userapi.obj
+ 0002:0000c952       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 0041d952 f   MSVCRT:userapi.obj
+ 0002:0000c958       __RTC_GetErrDesc           0041d958 f   MSVCRT:userapi.obj
+ 0002:0000c976       __RTC_NumErrors            0041d976 f   MSVCRT:userapi.obj
+ 0002:0000c97a       __RTC_SetErrorFunc         0041d97a f   MSVCRT:userapi.obj
+ 0002:0000c99a       __RTC_SetErrorFuncW        0041d99a f   MSVCRT:userapi.obj
+ 0002:0000c9ba       __RTC_SetErrorType         0041d9ba f   MSVCRT:userapi.obj
+ 0002:0000c9e6       __CRT_RTC_INITW            0041d9e6 f   MSVCRT:MSVCR120.dll
+ 0002:0000c9ec       ??_M@YGXPAXIHP6EX0@Z@Z     0041d9ec f   MSVCRT:ehvecdtr.obj
+ 0002:0000ca95       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 0041da95 f   MSVCRT:ehvecdtr.obj
+ 0002:0000cb0a       ??1type_info@@UAE@XZ       0041db0a f   MSVCRT:MSVCR120.dll
+ 0002:0000cb10       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 0041db10 f   MSVCRT:unhandld.obj
+ 0002:0000cb61       ___CxxSetUnhandledExceptionFilter 0041db61 f   MSVCRT:unhandld.obj
+ 0002:0000cb72       __XcptFilter               0041db72 f   MSVCRT:MSVCR120.dll
+ 0002:0000cb78       ___crtGetShowWindowMode    0041db78 f   MSVCRT:MSVCR120.dll
+ 0002:0000cb7e       __amsg_exit                0041db7e f   MSVCRT:MSVCR120.dll
+ 0002:0000cb84       __setargv                  0041db84 f   MSVCRT:dllargv.obj
+ 0002:0000cb88       ___getmainargs             0041db88 f   MSVCRT:MSVCR120.dll
+ 0002:0000cb8e       ___set_app_type            0041db8e f   MSVCRT:MSVCR120.dll
+ 0002:0000cba0       __FindPESection            0041dba0 f   MSVCRT:pesect.obj
+ 0002:0000cc00       __IsNonwritableInCurrentImage 0041dc00 f   MSVCRT:pesect.obj
+ 0002:0000ccf0       __ValidateImageBase        0041dcf0 f   MSVCRT:pesect.obj
+ 0002:0000cd2e       _exit                      0041dd2e f   MSVCRT:MSVCR120.dll
+ 0002:0000cd34       __exit                     0041dd34 f   MSVCRT:MSVCR120.dll
+ 0002:0000cd3a       __cexit                    0041dd3a f   MSVCRT:MSVCR120.dll
+ 0002:0000cd40       ___security_init_cookie    0041dd40 f   MSVCRT:gs_support.obj
+ 0002:0000ce03       __matherr                  0041de03 f   MSVCRT:merr.obj
+ 0002:0000ce06       __ismbblead                0041de06 f   MSVCRT:MSVCR120.dll
+ 0002:0000ce0c       __RTC_Initialize           0041de0c f   MSVCRT:initsect.obj
+ 0002:0000ce34       __RTC_Terminate            0041de34 f   MSVCRT:initsect.obj
+ 0002:0000ce5c       __configthreadlocale       0041de5c f   MSVCRT:MSVCR120.dll
+ 0002:0000ce62       __invoke_watson_if_error   0041de62 f i MSVCRT:fp8.obj
+ 0002:0000ce8a       __setdefaultprecision      0041de8a f   MSVCRT:fp8.obj
+ 0002:0000ceba       ___setusermatherr          0041deba f   MSVCRT:MSVCR120.dll
+ 0002:0000cec0       __initterm_e               0041dec0 f   MSVCRT:MSVCR120.dll
+ 0002:0000cec6       __initterm                 0041dec6 f   MSVCRT:MSVCR120.dll
+ 0002:0000cecc       __except_handler4_common   0041decc f   MSVCRT:MSVCR120.dll
+ 0002:0000d126       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 0041e126 f   MSVCRT:pdblkup.obj
+ 0002:0000d44e       __crt_debugger_hook        0041e44e f   MSVCRT:MSVCR120.dll
+ 0002:0000d454       ___crtUnhandledException   0041e454 f   MSVCRT:MSVCR120.dll
+ 0002:0000d45a       ___crtTerminateProcess     0041e45a f   MSVCRT:MSVCR120.dll
+ 0002:0000d460       ?terminate@@YAXXZ          0041e460 f   MSVCRT:MSVCR120.dll
+ 0002:0000d466       ___crtSetUnhandledExceptionFilter 0041e466 f   MSVCRT:MSVCR120.dll
+ 0002:0000d46c       __invoke_watson            0041e46c f   MSVCRT:MSVCR120.dll
+ 0002:0000d472       __controlfp_s              0041e472 f   MSVCRT:MSVCR120.dll
+ 0002:0000d478       _EncodePointer@4           0041e478 f   kernel32:KERNEL32.dll
+ 0002:0000d47e       _DecodePointer@4           0041e47e f   kernel32:KERNEL32.dll
+ 0002:0000d484       _IsDebuggerPresent@0       0041e484 f   kernel32:KERNEL32.dll
+ 0002:0000d48a       _RaiseException@16         0041e48a f   kernel32:KERNEL32.dll
+ 0002:0000d490       _GetProcAddress@8          0041e490 f   kernel32:KERNEL32.dll
+ 0002:0000d496       _LoadLibraryExW@12         0041e496 f   kernel32:KERNEL32.dll
+ 0002:0000d49c       _MultiByteToWideChar@24    0041e49c f   kernel32:KERNEL32.dll
+ 0002:0000d4a2       _WideCharToMultiByte@32    0041e4a2 f   kernel32:KERNEL32.dll
+ 0002:0000d4a8       _IsProcessorFeaturePresent@4 0041e4a8 f   kernel32:KERNEL32.dll
+ 0002:0000d4ae       _QueryPerformanceCounter@4 0041e4ae f   kernel32:KERNEL32.dll
+ 0002:0000d4b4       _GetCurrentProcessId@0     0041e4b4 f   kernel32:KERNEL32.dll
+ 0002:0000d4ba       _GetCurrentThreadId@0      0041e4ba f   kernel32:KERNEL32.dll
+ 0002:0000d4c0       _GetSystemTimeAsFileTime@4 0041e4c0 f   kernel32:KERNEL32.dll
+ 0002:0000d4c6       _HeapAlloc@12              0041e4c6 f   kernel32:KERNEL32.dll
+ 0002:0000d4cc       _HeapFree@12               0041e4cc f   kernel32:KERNEL32.dll
+ 0002:0000d4d2       _GetProcessHeap@0          0041e4d2 f   kernel32:KERNEL32.dll
+ 0002:0000d4d8       _VirtualQuery@12           0041e4d8 f   kernel32:KERNEL32.dll
+ 0002:0000d4de       _FreeLibrary@4             0041e4de f   kernel32:KERNEL32.dll
+ 0002:0000d4e4       _GetModuleFileNameW@12     0041e4e4 f   kernel32:KERNEL32.dll
+ 0002:0000d4ea       ??1QGArray@@MAE@XZ         0041e4ea f   qt-mt323:qt-mt323.dll
+ 0002:0000d4f0       ?qWinMain@@YAXPAUHINSTANCE__@@0PADHAAHAAV?$QMemArray@PAD@@@Z 0041e4f0 f   qt-mt323:qt-mt323.dll
+ 0002:0000d4f6       ??0QGArray@@IAE@H@Z        0041e4f6 f   qt-mt323:qt-mt323.dll
+ 0002:0000d4fc       ?duplicate@QGArray@@IAEAAV1@ABV1@@Z 0041e4fc f   qt-mt323:qt-mt323.dll
+ 0002:0000d502       ??1QGList@@MAE@XZ          0041e502 f   qt-mt323:qt-mt323.dll
+ 0002:0000d508       ?clear@QGList@@MAEXXZ      0041e508 f   qt-mt323:qt-mt323.dll
+ 0003:00000000       ___xc_a                    00423000     MSVCRT:cinitexe.obj
+ 0003:00000314       ___xc_z                    00423314     MSVCRT:cinitexe.obj
+ 0003:00000418       ___xi_a                    00423418     MSVCRT:cinitexe.obj
+ 0003:00000828       ___xi_z                    00423828     MSVCRT:cinitexe.obj
+ 0003:00000968       ??_C@_0N@MBPMBMMO@M?5?5c?5?$CD9E9E4C?$AA@ 00423968     dosnapshotdialog.obj
+ 0003:00000978       ??_C@_0N@PFHNGDMC@N?5?5c?5?$CD8D8D54?$AA@ 00423978     dosnapshotdialog.obj
+ 0003:00000988       ??_C@_0N@JHNGIKE@B?5?5c?5?$CDA2A24B?$AA@ 00423988     dosnapshotdialog.obj
+ 0003:00000998       ??_C@_0N@IEBHDAPF@V?5?5c?5?$CDAEAE4C?$AA@ 00423998     dosnapshotdialog.obj
+ 0003:000009a8       ??_C@_0N@GOEPOLCP@C?5?5c?5?$CDB0B04A?$AA@ 004239a8     dosnapshotdialog.obj
+ 0003:000009b8       ??_C@_0N@OMDOBNJE@Z?5?5c?5?$CDA3A354?$AA@ 004239b8     dosnapshotdialog.obj
+ 0003:000009c8       ??_C@_0N@NCGGAPNM@A?5?5c?5?$CDA7A75B?$AA@ 004239c8     dosnapshotdialog.obj
+ 0003:000009d8       ??_C@_0N@JDKJJMMJ@S?5?5c?5?$CDA9A95E?$AA@ 004239d8     dosnapshotdialog.obj
+ 0003:000009e8       ??_C@_0N@LEABGFMN@D?5?5c?5?$CD8D8D6B?$AA@ 004239e8     dosnapshotdialog.obj
+ 0003:000009f8       ??_C@_0N@KJKHLGK@F?5?5c?5?$CD98987C?$AA@ 004239f8     dosnapshotdialog.obj
+ 0003:00000a08       ??_C@_0N@DCAPFOPD@G?5?5c?5?$CDACAC63?$AA@ 00423a08     dosnapshotdialog.obj
+ 0003:00000a18       ??_C@_0N@JBJIDDIM@H?5?5c?5?$CDAFAF68?$AA@ 00423a18     dosnapshotdialog.obj
+ 0003:00000a28       ??_C@_0N@DPKJDOKL@J?5?5c?5?$CDB2B26C?$AA@ 00423a28     dosnapshotdialog.obj
+ 0003:00000a38       ??_C@_0N@HOCGJOGM@K?5?5c?5?$CDB5B571?$AA@ 00423a38     dosnapshotdialog.obj
+ 0003:00000a48       ??_C@_0N@COAMFPA@L?5?5c?5?$CDB8B876?$AA@ 00423a48     dosnapshotdialog.obj
+ 0003:00000a58       ??_C@_0N@LKNFLMLM@P?5?5c?5?$CDBCBC7B?$AA@ 00423a58     dosnapshotdialog.obj
+ 0003:00000a68       ??_C@_0N@INMNJPKG@I?5?5c?5?$CDCDCD40?$AA@ 00423a68     dosnapshotdialog.obj
+ 0003:00000a78       ??_C@_0N@FAFEACEB@U?5?5c?5?$CDD3D344?$AA@ 00423a78     dosnapshotdialog.obj
+ 0003:00000a88       ??_C@_0N@HPAEBNOF@Y?5?5c?5?$CDDADA46?$AA@ 00423a88     dosnapshotdialog.obj
+ 0003:00000a98       ??_C@_0N@FPHPMEAI@T?5?5c?5?$CDD6D649?$AA@ 00423a98     dosnapshotdialog.obj
+ 0003:00000aa8       ??_C@_0N@CNEEEGHF@R?5?5c?5?$CDDCDC4C?$AA@ 00423aa8     dosnapshotdialog.obj
+ 0003:00000ab8       ??_C@_0N@LMJCLHF@E?5?5c?5?$CDDEDE51?$AA@ 00423ab8     dosnapshotdialog.obj
+ 0003:00000ac8       ??_C@_0N@OONLGJHJ@W?5?5c?5?$CDE2E24E?$AA@ 00423ac8     dosnapshotdialog.obj
+ 0003:00000ad8       ??_C@_0N@IKOKCIOF@Q?5?5c?5?$CDE4E454?$AA@ 00423ad8     dosnapshotdialog.obj
+ 0003:00000ae8       ??_C@_0N@GHPBKOCD@?$CB?5?5c?5?$CDE9E955?$AA@ 00423ae8     dosnapshotdialog.obj
+ 0003:00000af8       ??_C@_0N@MBLBENOJ@?$HO?5?5c?5?$CDE5E558?$AA@ 00423af8     dosnapshotdialog.obj
+ 0003:00000b08       ??_C@_0N@DEDAIGPM@?$FO?5?5c?5?$CDECEC5B?$AA@ 00423b08     dosnapshotdialog.obj
+ 0003:00000b18       ??_C@_0N@PEJMCAOL@?1?5?5c?5?$CDF1F15D?$AA@ 00423b18     dosnapshotdialog.obj
+ 0003:00000b28       ??_C@_0N@LHBDPLJE@?$CI?5?5c?5?$CDD3D365?$AA@ 00423b28     dosnapshotdialog.obj
+ 0003:00000b38       ??_C@_0N@BDIDLOAN@?$CJ?5?5c?5?$CDDCDC64?$AA@ 00423b38     dosnapshotdialog.obj
+ 0003:00000b48       ??_C@_0N@HGDLPCFF@_?5?5c?5?$CDEDED60?$AA@ 00423b48     dosnapshotdialog.obj
+ 0003:00000b58       ??_C@_0N@CEALMCFL@?$GA?5?5c?5?$CDF4F464?$AA@ 00423b58     dosnapshotdialog.obj
+ 0003:00000b68       ??_C@_0N@DIPNBCGF@?8?5?5c?5?$CD8A8A87?$AA@ 00423b68     dosnapshotdialog.obj
+ 0003:00000b78       ??_C@_0M@OFBNPEMJ@?$FN?5?5c?5gray59?$AA@ 00423b78     dosnapshotdialog.obj
+ 0003:00000b88       ??_C@_0N@LHDNHDBL@?$FL?5?5c?5?$CD9D9D9B?$AA@ 00423b88     dosnapshotdialog.obj
+ 0003:00000b98       ??_C@_0N@PLEILACG@?$HL?5?5c?5?$CDBFBF84?$AA@ 00423b98     dosnapshotdialog.obj
+ 0003:00000ba8       ??_C@_0N@IOBOLMOL@?$HN?5?5c?5?$CDB6B689?$AA@ 00423ba8     dosnapshotdialog.obj
+ 0003:00000bb8       ??_C@_0N@FEIGKJLC@?$HM?5?5c?5?$CDBCBC89?$AA@ 00423bb8     dosnapshotdialog.obj
+ 0003:00000bc8       ??_C@_0N@LCLJBHBK@?5?4?5c?5?$CDBFBF93?$AA@ 00423bc8     dosnapshotdialog.obj
+ 0003:00000bd8       ??_C@_0N@ODCJIGNC@?4?4?5c?5?$CDA4A4A3?$AA@ 00423bd8     dosnapshotdialog.obj
+ 0003:00000be8       ??_C@_0N@NDKACLIM@X?4?5c?5?$CDA9A9A7?$AA@ 00423be8     dosnapshotdialog.obj
+ 0003:00000bf8       ??_C@_0N@CGDJJHNH@o?4?5c?5?$CDABABAB?$AA@ 00423bf8     dosnapshotdialog.obj
+ 0003:00000c08       ??_C@_0N@GBPIEIFL@O?4?5c?5?$CDB5B5B5?$AA@ 00423c08     dosnapshotdialog.obj
+ 0003:00000c18       ??_C@_0N@CPADLCPO@?$CL?4?5c?5?$CDBBBBBB?$AA@ 00423c18     dosnapshotdialog.obj
+ 0003:00000c28       ??_C@_0N@CPAGAJCO@?$EA?4?5c?5?$CDC2C286?$AA@ 00423c28     dosnapshotdialog.obj
+ 0003:00000c38       ??_C@_0N@HCAEBIAL@?$CD?4?5c?5?$CDC4C48D?$AA@ 00423c38     dosnapshotdialog.obj
+ 0003:00000c48       ??_C@_0N@JABBMDJE@$?4?5c?5?$CDC6C692?$AA@ 00423c48     dosnapshotdialog.obj
+ 0003:00000c58       ??_C@_0N@EKIJNGMN@?$CF?4?5c?5?$CDCCCC92?$AA@ 00423c58     dosnapshotdialog.obj
+ 0003:00000c68       ??_C@_0N@HJECCKJF@?$CG?4?5c?5?$CDC7C798?$AA@ 00423c68     dosnapshotdialog.obj
+ 0003:00000c78       ??_C@_0N@GHHMGJEI@?$CK?4?5c?5?$CDCBCB9D?$AA@ 00423c78     dosnapshotdialog.obj
+ 0003:00000c88       ??_C@_0N@OPMICBIP@?$DN?4?5c?5?$CDD2D29B?$AA@ 00423c88     dosnapshotdialog.obj
+ 0003:00000c98       ??_C@_0N@BFFHDKNM@?9?4?5c?5?$CDF1F183?$AA@ 00423c98     dosnapshotdialog.obj
+ 0003:00000ca8       ??_C@_0N@OCPJGPEJ@?$DL?4?5c?5?$CDCECEA5?$AA@ 00423ca8     dosnapshotdialog.obj
+ 0003:00000cb8       ??_C@_0N@LBDMMAEP@?3?4?5c?5?$CDD2D2A4?$AA@ 00423cb8     dosnapshotdialog.obj
+ 0003:00000cc8       ??_C@_0N@NFFIOMFK@?$DO?4?5c?5?$CDD9D9A5?$AA@ 00423cc8     dosnapshotdialog.obj
+ 0003:00000cd8       ??_C@_0N@HJNDHMHP@?0?4?5c?5?$CDD4D4AD?$AA@ 00423cd8     dosnapshotdialog.obj
+ 0003:00000ce8       ??_C@_0N@GNJHPBAL@?$DM?4?5c?5?$CDD7D7B5?$AA@ 00423ce8     dosnapshotdialog.obj
+ 0003:00000cf8       ??_C@_0N@KIKDGADF@1?4?5c?5?$CDD8D8B6?$AA@ 00423cf8     dosnapshotdialog.obj
+ 0003:00000d08       ??_C@_0N@EPANFANF@2?4?5c?5?$CDDADABA?$AA@ 00423d08     dosnapshotdialog.obj
+ 0003:00000d18       ??_C@_0N@LBJIEAJG@3?4?5c?5?$CDC4C4C4?$AA@ 00423d18     dosnapshotdialog.obj
+ 0003:00000d28       ??_C@_0N@FFEBDNOC@4?4?5c?5?$CDCCCCCB?$AA@ 00423d28     dosnapshotdialog.obj
+ 0003:00000d38       ??_C@_0N@BBGLKBEM@5?4?5c?5?$CDDEDEC0?$AA@ 00423d38     dosnapshotdialog.obj
+ 0003:00000d48       ??_C@_0N@NOHPAHJO@6?4?5c?5?$CDD4D4D4?$AA@ 00423d48     dosnapshotdialog.obj
+ 0003:00000d58       ??_C@_0N@OJKDBBPH@7?4?5c?5?$CDDBDBDB?$AA@ 00423d58     dosnapshotdialog.obj
+ 0003:00000d68       ??_C@_0N@PGPPANON@8?4?5c?5?$CDE1E1C7?$AA@ 00423d68     dosnapshotdialog.obj
+ 0003:00000d78       ??_C@_0N@BODCDIFK@9?4?5c?5?$CDE4E4CB?$AA@ 00423d78     dosnapshotdialog.obj
+ 0003:00000d88       ??_C@_0N@GGCAFGMD@0?4?5c?5?$CDE6E6D0?$AA@ 00423d88     dosnapshotdialog.obj
+ 0003:00000d98       ??_C@_0N@LAKOBMDH@q?4?5c?5?$CDEAEAD6?$AA@ 00423d98     dosnapshotdialog.obj
+ 0003:00000da8       ??_C@_0N@GKFBLJBP@w?4?5c?5?$CDEDEDDD?$AA@ 00423da8     dosnapshotdialog.obj
+ 0003:00000db8       ??_C@_0N@PAOKBEBC@e?4?5c?5?$CDE4E4E4?$AA@ 00423db8     dosnapshotdialog.obj
+ 0003:00000dc8       ??_C@_0N@NKCOLFEJ@r?4?5c?5?$CDEFEFE0?$AA@ 00423dc8     dosnapshotdialog.obj
+ 0003:00000dd8       ??_C@_0N@BJMKCBCA@t?4?5c?5?$CDECECEC?$AA@ 00423dd8     dosnapshotdialog.obj
+ 0003:00000de8       ??_C@_0N@NGBHDLLO@y?4?5c?5?$CDF1F1E5?$AA@ 00423de8     dosnapshotdialog.obj
+ 0003:00000df8       ??_C@_0N@CBDLIJHE@u?4?5c?5?$CDF5F5EC?$AA@ 00423df8     dosnapshotdialog.obj
+ 0003:00000e08       ??_C@_0M@COMGDHBP@i?4?5c?5gray96?$AA@ 00423e08     dosnapshotdialog.obj
+ 0003:00000e18       ??_C@_0N@DDNJCCFC@p?4?5c?5?$CDFAFAF5?$AA@ 00423e18     dosnapshotdialog.obj
+ 0003:00000e28       ??_C@_0N@NOIIHPDJ@a?4?5c?5?$CDFFFFFF?$AA@ 00423e28     dosnapshotdialog.obj
+ 0003:00000e38       ??_C@_09NBPJLJIO@s?4?5c?5None?$AA@ 00423e38     dosnapshotdialog.obj
+ 0003:00000e48       ??_C@_0EB@OFINDPPC@s?4s?4s?4s?4s?4s?4?9?4?$GA?5?$GA?5?1?5?$GA?5?1?5?$GA?5?1?5?$GA?5?1?5@ 00423e48     dosnapshotdialog.obj
+ 0003:00000e98       ??_C@_0EB@IBHNIGON@s?4s?4s?4s?4s?4?9?4v?5s?5f?5u?5u?5y?5y?5g?5u?5y?5@ 00423e98     dosnapshotdialog.obj
+ 0003:00000ee8       ??_C@_0EB@KPNGCDNN@s?4s?4s?4s?4?9?4c?5h?5?9?5?$EA?5?$CG?5?$CG?5X?5?$EA?5?$DN?5?$CG?5?$EA?5@ 00423ee8     dosnapshotdialog.obj
+ 0003:00000f38       ??_C@_0EB@DAIACFDI@s?4s?4s?4?9?4j?5a?5?9?5X?5?4?5?$CG?5?$CG?5?4?5?$CG?5?$CG?5?$CG?5?$EA?5@ 00423f38     dosnapshotdialog.obj
+ 0003:00000f88       ??_C@_0EB@JEMBPBLA@s?4s?4?9?4h?5i?5?9?5?$CG?5?$CG?5?$EA?5?$CG?5O?5?4?5?$CG?5?$EA?5?$CG?5?$CG?5@ 00423f88     dosnapshotdialog.obj
+ 0003:00000fd8       ??_C@_0EB@ILBPGMIJ@s?4?9?4h?5i?5?$CD?5?$CG?5?$CG?5X?5?$EA?5?$DN?5?$CG?5X?5?$CG?5X?5?$EA?5?$CG?5@ 00423fd8     dosnapshotdialog.obj
+ 0003:00001028       ??_C@_0EB@BBGDNEEE@?9?4h?5y?5?$CD?5X?5?$CG?5?$EA?5?4?5?4?5?$CG?5?$CG?5?$EA?5?$CG?5?4?5?4?5?$CG?5@ 00424028     dosnapshotdialog.obj
+ 0003:00001078       ??_C@_0EB@CKDOOINB@?$GA?5p?5?$CL?5?4?5?$EA?5?$CG?5?$EA?5X?5?$EA?5?$CG?5?$EA?5?$CG?5?$CG?5?4?5?4?5?$CG?5@ 00424078     dosnapshotdialog.obj
+ 0003:000010c8       ??_C@_0EB@CGGGDFIN@?$GA?5i?5?4?5?4?5?$HL?5r?4r?4w?4w?49?41?4P?5?$DN?5?4?5?4?5X?5@ 004240c8     dosnapshotdialog.obj
+ 0003:00001118       ??_C@_0EB@OHHAMJGC@?$GA?5a?5?4?5?4?5?$CD?4a?4a?4a?4a?4a?4a?4a?4u?4M?5?4?5?4?5@ 00424118     dosnapshotdialog.obj
+ 0003:00001168       ??_C@_0EB@EBLOKGFH@?$GA?5i?5?4?5?4?5?$CD?4a?4a?4P?5K?5?$HL?5q?4a?4a?4p?43?5?4?5@ 00424168     dosnapshotdialog.obj
+ 0003:000011b8       ??_C@_0EB@KIMGHOEO@?$GA?5y?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5?3?4a?4a?4?0?4?4?5@ 004241b8     dosnapshotdialog.obj
+ 0003:00001208       ??_C@_0EB@NALANAGD@?$GA?5i?5?4?5?4?5$?4a?4a?41?5?4?5?4?5?4?5X?5p?4a?4p?4X?5@ 00424208     dosnapshotdialog.obj
+ 0003:00001258       ??_C@_0EB@MBNNMOKK@?$GA?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5?4?58?4a?4a?43?5@ 00424258     dosnapshotdialog.obj
+ 0003:000012a8       ??_C@_0EB@JMABBLBD@?$GA?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5?4?5?$DM?4a?4a?47?5@ 004242a8     dosnapshotdialog.obj
+ 0003:000012f8       ??_C@_0EB@GCECJMKD@?$GA?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5?4?5?$DL?4a?4a?4m?5@ 004242f8     dosnapshotdialog.obj
+ 0003:00001348       ??_C@_0EB@PIEINAFG@_?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5?4?52?4a?4a?43?5@ 00424348     dosnapshotdialog.obj
+ 0003:00001398       ??_C@_0EB@JBAEBKKC@_?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5?4?5y?4a?4a?4X?5@ 00424398     dosnapshotdialog.obj
+ 0003:000013e8       ??_C@_0EB@KLLJJAOG@?$FO?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5?4?5B?5a?4a?42?4?4?5@ 004243e8     dosnapshotdialog.obj
+ 0003:00001438       ??_C@_0EB@LDNPPMMI@?$FO?5i?5?4?5?4?5?$CD?4a?4a?41?5?4?5?4?5B?5u?4a?4a?4M?5?4?5@ 00424438     dosnapshotdialog.obj
+ 0003:00001488       ??_C@_0EB@JFHECLAE@?$HO?5i?5?4?5?4?5?$CD?4a?4a?4q?48?4y?4a?4a?4a?4?$HM?5?4?5?4?5@ 00424488     dosnapshotdialog.obj
+ 0003:000014d8       ??_C@_0EB@BKLJMHOJ@Q?5i?5?4?5?4?5?$CD?4a?4a?4a?4a?4a?4a?4w?4G?5X?5o?5o?5@ 004244d8     dosnapshotdialog.obj
+ 0003:00001528       ??_C@_0EB@POLAONHL@E?5i?5?4?5?4?5M?5L?5L?5L?5L?5H?56?5?$CG?5o?5o?5o?5?$CK?5@ 00424528     dosnapshotdialog.obj
+ 0003:00001578       ??_C@_0EB@MLAAKGDJ@R?5y?5?4?5?4?5?4?5?4?5?4?5?4?5X?5o?5o?5?$DN?5?$CK?52?52?54?5@ 00424578     dosnapshotdialog.obj
+ 0003:000015c8       ??_C@_0EB@MMIOPNEN@R?5i?5?4?5?4?5?4?5o?5o?5o?5o?5?$CK?5?$DM?5?$DM?52?54?54?56?5@ 004245c8     dosnapshotdialog.obj
+ 0003:00001618       ??_C@_0EB@KOHHPFBE@T?5i?5X?5?4?5o?5o?5?$CK?5?$DM?5?$DM?52?54?5b?5?$FL?5?4?4D?5Z?5@ 00424618     dosnapshotdialog.obj
+ 0003:00001668       ??_C@_0EB@JLAGGCOJ@U?5i?5o?5?$CG?5?$CK?5?$DM?5?$DM?52?52?54?56?5N?53?46?4F?5G?5@ 00424668     dosnapshotdialog.obj
+ 0003:000016b8       ??_C@_0EB@FIPFHHGL@I?5d?5?8?5?$FL?5?$FL?5?$FL?5?$FL?5?$FL?5?4?4X?4X?4o?44?47?4O?4O?4@ 004246b8     dosnapshotdialog.obj
+ 0003:00001708       ??_C@_0EB@CEKFHGEL@I?5d?5o?43?43?44?44?44?44?46?46?47?47?47?47?4e?4@ 00424708     dosnapshotdialog.obj
+ 0003:00001758       ??_C@_0EB@IBEOCJJD@z?5d?5?$FN?5o?4o?4o?4O?4O?4O?4?$CL?4?$CL?4?$CL?43?43?44?44?4@ 00424758     dosnapshotdialog.obj
+ 0003:000017a8       ??_C@_0EB@IPMDOOOH@l?5p?5d?5f?5d?5f?5f?5f?5d?5f?5f?5f?5f?5f?5f?5f?5@ 004247a8     dosnapshotdialog.obj
+ 0003:000017f8       ??_C@_0EB@NCGCFCJM@V?5w?5q?5q?59?59?58?58?58?5?0?5?$DO?53?5?9?5?9?5?9?5$?5@ 004247f8     dosnapshotdialog.obj
+ 0003:0001577c       ??_C@_07ICCAJJGH@zip?4exe?$AA@ 0043877c     dosnapshotdialog.obj
+ 0003:00015788       ??_C@_0N@LIBCGII@32?532?5132?52?5?$AA@ 00438788     dosnapshotdialog.obj
+ 0003:00015798       ??_C@_0N@MBCHPPO@?5?5?5c?5?$CD6C6C00?$AA@ 00438798     dosnapshotdialog.obj
+ 0003:000157a8       ??_C@_0N@JDDJAJIL@?4?5?5c?5?$CD7A7A01?$AA@ 004387a8     dosnapshotdialog.obj
+ 0003:000157b8       ??_C@_0N@LCOEAGGF@X?5?5c?5?$CD7E7E0A?$AA@ 004387b8     dosnapshotdialog.obj
+ 0003:000157c8       ??_C@_0N@HCDCCDJD@o?5?5c?5?$CD7F7F11?$AA@ 004387c8     dosnapshotdialog.obj
+ 0003:000157d8       ??_C@_0N@KKIDBIPE@O?5?5c?5?$CD838300?$AA@ 004387d8     dosnapshotdialog.obj
+ 0003:000157e8       ??_C@_0N@GOCPIAOA@?$CL?5?5c?5?$CD8B8B01?$AA@ 004387e8     dosnapshotdialog.obj
+ 0003:000157f8       ??_C@_0N@CBGBBILD@?$EA?5?5c?5?$CD81810D?$AA@ 004387f8     dosnapshotdialog.obj
+ 0003:00015808       ??_C@_0N@LCFBCIJB@?$CD?5?5c?5?$CD929204?$AA@ 00438808     dosnapshotdialog.obj
+ 0003:00015818       ??_C@_0N@EFHFEMHI@$?5?5c?5?$CD94940B?$AA@ 00438818     dosnapshotdialog.obj
+ 0003:00015828       ??_C@_0N@MJLHPOKH@?$CF?5?5c?5?$CD9A9A0D?$AA@ 00438828     dosnapshotdialog.obj
+ 0003:00015838       ??_C@_0N@JAKPBLG@?$CG?5?5c?5?$CD838313?$AA@ 00438838     dosnapshotdialog.obj
+ 0003:00015848       ??_C@_0N@EPLNINHK@?$CK?5?5c?5?$CD85851C?$AA@ 00438848     dosnapshotdialog.obj
+ 0003:00015858       ??_C@_0N@LLNNFCDL@?$DN?5?5c?5?$CD89891C?$AA@ 00438858     dosnapshotdialog.obj
+ 0003:00015868       ??_C@_0N@MNCPAAN@?9?5?5c?5?$CD9C9C12?$AA@ 00438868     dosnapshotdialog.obj
+ 0003:00015878       ??_C@_0N@KMGILNDA@?$DL?5?5c?5?$CDBABA00?$AA@ 00438878     dosnapshotdialog.obj
+ 0003:00015888       ??_C@_0N@NHPCANJE@?3?5?5c?5?$CDA3A316?$AA@ 00438888     dosnapshotdialog.obj
+ 0003:00015898       ??_C@_0N@NMMKNDPB@?$DO?5?5c?5?$CDA4A41B?$AA@ 00438898     dosnapshotdialog.obj
+ 0003:000158a8       ??_C@_0N@FJMFKLDK@?0?5?5c?5?$CDAAAA1D?$AA@ 004388a8     dosnapshotdialog.obj
+ 0003:000158b8       ??_C@_0N@IIPMGLBD@?$DM?5?5c?5?$CD878722?$AA@ 004388b8     dosnapshotdialog.obj
+ 0003:000158c8       ??_C@_0N@FPIALOHE@1?5?5c?5?$CD8D8D26?$AA@ 004388c8     dosnapshotdialog.obj
+ 0003:000158d8       ??_C@_0N@FKCLNCIJ@2?5?5c?5?$CD8B8B2B?$AA@ 004388d8     dosnapshotdialog.obj
+ 0003:000158e8       ??_C@_0N@LOMMPOJD@3?5?5c?5?$CD91912D?$AA@ 004388e8     dosnapshotdialog.obj
+ 0003:000158f8       ??_C@_0N@MAMAMLNE@4?5?5c?5?$CD8F8F32?$AA@ 004388f8     dosnapshotdialog.obj
+ 0003:00015908       ??_C@_0N@HPJFKEEI@5?5?5c?5?$CD919133?$AA@ 00438908     dosnapshotdialog.obj
+ 0003:00015918       ??_C@_0N@JDGIOBLA@6?5?5c?5?$CD94943B?$AA@ 00438918     dosnapshotdialog.obj
+ 0003:00015928       ??_C@_0N@GLBGCCO@7?5?5c?5?$CD9A9A3E?$AA@ 00438928     dosnapshotdialog.obj
+ 0003:00015938       ??_C@_0N@CIFAFHJP@8?5?5c?5?$CDADAD23?$AA@ 00438938     dosnapshotdialog.obj
+ 0003:00015948       ??_C@_0N@NFLHALLN@9?5?5c?5?$CDB4B42B?$AA@ 00438948     dosnapshotdialog.obj
+ 0003:00015958       ??_C@_0N@FMNPLBH@0?5?5c?5?$CDB9B92C?$AA@ 00438958     dosnapshotdialog.obj
+ 0003:00015968       ??_C@_0N@JGPAHKGH@q?5?5c?5?$CDBBBB33?$AA@ 00438968     dosnapshotdialog.obj
+ 0003:00015978       ??_C@_0N@JJPINEEN@w?5?5c?5?$CDBEBE3C?$AA@ 00438978     dosnapshotdialog.obj
+ 0003:00015988       ??_C@_0N@LAPNNMOJ@e?5?5c?5?$CDC5C500?$AA@ 00438988     dosnapshotdialog.obj
+ 0003:00015998       ??_C@_0N@BJJENBDG@r?5?5c?5?$CDCECE00?$AA@ 00438998     dosnapshotdialog.obj
+ 0003:000159a8       ??_C@_0N@NKAFDJDE@t?5?5c?5?$CDDADA00?$AA@ 004389a8     dosnapshotdialog.obj
+ 0003:000159b8       ??_C@_0N@LJDCPFMN@y?5?5c?5?$CDEBEB03?$AA@ 004389b8     dosnapshotdialog.obj
+ 0003:000159c8       ??_C@_0N@MLHDFMA@u?5?5c?5?$CDEBEB0C?$AA@ 004389c8     dosnapshotdialog.obj
+ 0003:000159d8       ??_C@_0N@FKLGEIEF@i?5?5c?5?$CDF3F301?$AA@ 004389d8     dosnapshotdialog.obj
+ 0003:000159e8       ??_C@_0N@PKALPFOL@p?5?5c?5?$CDFEFE01?$AA@ 004389e8     dosnapshotdialog.obj
+ 0003:000159f8       ??_C@_0N@DLHJDHJP@a?5?5c?5?$CDF7F70A?$AA@ 004389f8     dosnapshotdialog.obj
+ 0003:00015a08       ??_C@_0N@NEINMKNF@s?5?5c?5?$CDFCFC0F?$AA@ 00438a08     dosnapshotdialog.obj
+ 0003:00015a18       ??_C@_0N@HOODPHAA@d?5?5c?5?$CDE7E711?$AA@ 00438a18     dosnapshotdialog.obj
+ 0003:00015a28       ??_C@_0N@FIGHFINF@f?5?5c?5?$CDECEC13?$AA@ 00438a28     dosnapshotdialog.obj
+ 0003:00015a38       ??_C@_0N@KGNHFAA@g?5?5c?5?$CDF4F412?$AA@ 00438a38     dosnapshotdialog.obj
+ 0003:00015a48       ??_C@_0N@NEMJDECI@h?5?5c?5?$CDFCFC13?$AA@ 00438a48     dosnapshotdialog.obj
+ 0003:00015a58       ??_C@_0N@JLKKPIJF@j?5?5c?5?$CDFCFC1C?$AA@ 00438a58     dosnapshotdialog.obj
+ 0003:00015a68       ??_C@_0N@OHNDFNJL@k?5?5c?5?$CDCBCB37?$AA@ 00438a68     dosnapshotdialog.obj
+ 0003:00015a78       ??_C@_0N@HAOKJECP@l?5?5c?5?$CDC4C43A?$AA@ 00438a78     dosnapshotdialog.obj
+ 0003:00015a88       ??_C@_0N@LGPBCKPG@z?5?5c?5?$CDCCCC3C?$AA@ 00438a88     dosnapshotdialog.obj
+ 0003:00015a98       ??_C@_0N@OEINMDDI@x?5?5c?5?$CDD2D23E?$AA@ 00438a98     dosnapshotdialog.obj
+ 0003:00015aa8       ??_C@_0N@NCLCOMBJ@c?5?5c?5?$CDFCFC28?$AA@ 00438aa8     dosnapshotdialog.obj
+ 0003:00015ab8       ??_C@_0N@LMBGFJGK@v?5?5c?5?$CDFBFB35?$AA@ 00438ab8     dosnapshotdialog.obj
+ 0003:00015ac8       ??_C@_0N@CMMHGGGJ@b?5?5c?5?$CD888848?$AA@ 00438ac8     dosnapshotdialog.obj
+ 0003:00015ad8       ??_C@_0N@EMIGNFBN@n?5?5c?5?$CD979740?$AA@ 00438ad8     dosnapshotdialog.obj
+ 0003:00015ae8       ??_C@_0N@JCCOLAAL@m?5?5c?5?$CD9B9B44?$AA@ 00438ae8     dosnapshotdialog.obj
+ 0003:00015afc       ??_S?$QMemArray@D@@6B@     00438afc     dosnapshotdialog.obj
+ 0003:00015b14       ??_7doSnapshotDialog@@6BQObject@@@ 00438b14     dosnapshotdialog.obj
+ 0003:00015d34       ??_7doSnapshotDialog@@6BQPaintDevice@@@ 00438d34     dosnapshotdialog.obj
+ 0003:00015d64       ??_SQProcess@@6B@          00438d64     dosnapshotdialog.obj
+ 0003:00015e03       ??_C@_00CNPNBAHC@?$AA@     00438e03     dosnapshotdialog.obj
+ 0003:00015e08       ??_7?$QDict@V?$QMemArray@D@@@@6B@ 00438e08     dosnapshotdialog.obj
+ 0003:00015e2c       ??_C@_0L@HFDNCLOG@doSnapShot?$AA@ 00438e2c     dosnapshotdialog.obj
+ 0003:00015e3c       ??_C@_07JBEBLGDD@CC_ROOT?$AA@ 00438e3c     dosnapshotdialog.obj
+ 0003:00015e48       ??_C@_09DDAHAMBK@CC_SYSTEM?$AA@ 00438e48     dosnapshotdialog.obj
+ 0003:00015e54       ??_C@_05NHDADLIP@?$CF1?2?$CF2?$AA@ 00438e54     dosnapshotdialog.obj
+ 0003:00015e5c       ??_C@_0N@MKFPCOLP@?$CF1?2snapshots?$AA@ 00438e5c     dosnapshotdialog.obj
+ 0003:00015e6c       ??_C@_0BG@LEPEFEGG@?$CF1?2local_settings?4ini?$AA@ 00438e6c     dosnapshotdialog.obj
+ 0003:00015e88       ??_C@_07PNDADJFL@Exclude?$AA@ 00438e88     dosnapshotdialog.obj
+ 0003:00015e94       ??_C@_0L@LEPMAEOC@doSnapshot?$AA@ 00438e94     dosnapshotdialog.obj
+ 0003:00015ea4       ??_C@_03IJBHDFEG@?1go?$AA@ 00438ea4     dosnapshotdialog.obj
+ 0003:00015ea8       ??_C@_06FMLLEKMF@?1root?$DN?$AA@ 00438ea8     dosnapshotdialog.obj
+ 0003:00015eb0       ??_C@_0M@FDOHPKN@?1outputdir?$DN?$AA@ 00438eb0     dosnapshotdialog.obj
+ 0003:00015ec0       ??_C@_06CAHCDHII@?1name?$DN?$AA@ 00438ec0     dosnapshotdialog.obj
+ 0003:00015ec8       ??_C@_0DK@ILGNFNO@Cannot?5do?5anything?5?9?5I?5don?8t?5kno@ 00438ec8     dosnapshotdialog.obj
+ 0003:00015f10       ??_C@_0BB@CMGFANAI@doSnapshot?5Error?$AA@ 00438f10     dosnapshotdialog.obj
+ 0003:00015f24       ??_C@_0DH@GCGOEIDG@Cannot?5do?5anything?5?9?5I?5don?8t?5kno@ 00438f24     dosnapshotdialog.obj
+ 0003:00015f68       ??_C@_0DJ@PHKAOIPL@Create?5zipped?5snapshot?5for?5?$CC?$CF1?$CC?5@ 00438f68     dosnapshotdialog.obj
+ 0003:00015fac       ??_C@_02KNHHEEKP@?5?5?$AA@ 00438fac     dosnapshotdialog.obj
+ 0003:00015fb0       ??_C@_0CD@FAHPDHFN@Press?5Go?$CB?5to?5generate?5the?5snapsh@ 00438fb0     dosnapshotdialog.obj
+ 0003:00015fdc       ??_C@_07KOGPENLD@1doGo?$CI?$CJ?$AA@ 00438fdc     dosnapshotdialog.obj
+ 0003:00015fe8       ??_C@_0L@OELOHDKG@2clicked?$CI?$CJ?$AA@ 00438fe8     dosnapshotdialog.obj
+ 0003:00015ff8       ??_C@_0BK@DMOACPEI@Setting?5up?5temporary?5path?$AA@ 00438ff8     dosnapshotdialog.obj
+ 0003:00016018       ??_C@_0M@JNNPGEOM@?2doSnapshot?$AA@ 00439018     dosnapshotdialog.obj
+ 0003:00016028       ??_C@_04JKHNIKCB@TEMP?$AA@ 00439028     dosnapshotdialog.obj
+ 0003:00016030       ??_C@_08JFGNOAMC@?2zip?4exe?$AA@ 00439030     dosnapshotdialog.obj
+ 0003:0001603c       ??_C@_0M@NPNBBGCE@Extract?5ZIP?$AA@ 0043903c     dosnapshotdialog.obj
+ 0003:0001604c       ??_C@_0BG@OLKFGMAC@Create?5output?5path?5?9?5?$AA@ 0043904c     dosnapshotdialog.obj
+ 0003:00016068       ??_C@_0P@NIOKELF@Create?5process?$AA@ 00439068     dosnapshotdialog.obj
+ 0003:0001607c       ??_C@_0BB@LHBGOJLL@1zipProcExited?$CI?$CJ?$AA@ 0043907c     dosnapshotdialog.obj
+ 0003:00016090       ??_C@_0BB@PLPOOLEO@2processExited?$CI?$CJ?$AA@ 00439090     dosnapshotdialog.obj
+ 0003:000160a4       ??_C@_0BA@EGBDNAFG@1zipReadyRead?$CI?$CJ?$AA@ 004390a4     dosnapshotdialog.obj
+ 0003:000160b8       ??_C@_0BD@OGLINKBC@2readyReadStdout?$CI?$CJ?$AA@ 004390b8     dosnapshotdialog.obj
+ 0003:000160d0       ??_C@_0BD@CFDANEHP@1zipReadyReadErr?$CI?$CJ?$AA@ 004390d0     dosnapshotdialog.obj
+ 0003:000160e8       ??_C@_0BD@NAGIHKLI@2readyReadStderr?$CI?$CJ?$AA@ 004390e8     dosnapshotdialog.obj
+ 0003:00016100       ??_C@_02CNCCOICK@?9r?$AA@  00439100     dosnapshotdialog.obj
+ 0003:00016104       ??_C@_01JOAMLHOP@?9?$AA@   00439104     dosnapshotdialog.obj
+ 0003:00016108       ??_C@_01KICIPPFI@?2?$AA@   00439108     dosnapshotdialog.obj
+ 0003:0001610c       ??_C@_04FGAJMCLA@?2?$CK?4?$CK?$AA@ 0043910c     dosnapshotdialog.obj
+ 0003:00016114       ??_C@_01ICJEACDI@?$DL?$AA@ 00439114     dosnapshotdialog.obj
+ 0003:00016118       ??_C@_02NHMNAAKA@?9x?$AA@  00439118     dosnapshotdialog.obj
+ 0003:0001611c       ??_C@_0BK@KGOEDOKF@Running?4?4?4?4?4generating?5?9?5?$AA@ 0043911c     dosnapshotdialog.obj
+ 0003:00016140       ??_C@_0FM@LNCJIFGB@NOTE?3?5It?5can?5take?5some?5time?5to?5r@ 00439140     dosnapshotdialog.obj
+ 0003:000161b0       ??_C@_0BE@IPDDDBLH@Can?8t?5start?5process?$AA@ 004391b0     dosnapshotdialog.obj
+ 0003:000161c8       ??_C@_0EJ@CEOMGAAI@You?5can?8t?5close?5this?5application@ 004391c8     dosnapshotdialog.obj
+ 0003:00016220       ??_C@_05NIOMGKKC@Done?$CB?$AA@ 00439220     dosnapshotdialog.obj
+ 0003:00016228       ??_C@_04PMOCAHAA@open?$AA@ 00439228     dosnapshotdialog.obj
+ 0003:00016230       ??_C@_04CLJHFACG@?4zip?$AA@ 00439230     dosnapshotdialog.obj
+ 0003:00016238       ??_C@_0BE@GDINDPGL@yyyy?9MM?9dd_hh?9mm?9ss?$AA@ 00439238     dosnapshotdialog.obj
+ 0003:00016254       ??_7doSnapshotDialogBase@@6BQObject@@@ 00439254     dosnapshotdialogbase.obj
+ 0003:00016474       ??_7doSnapshotDialogBase@@6BQPaintDevice@@@ 00439474     dosnapshotdialogbase.obj
+ 0003:000164a4       ??_SQTextEdit@@6BQObject@@@ 004394a4     dosnapshotdialogbase.obj
+ 0003:000168d4       ??_SQTextEdit@@6BQPaintDevice@@@ 004398d4     dosnapshotdialogbase.obj
+ 0003:00016904       ??_SQLabel@@6BQObject@@@   00439904     dosnapshotdialogbase.obj
+ 0003:00016b60       ??_SQLabel@@6BQPaintDevice@@@ 00439b60     dosnapshotdialogbase.obj
+ 0003:00016b8c       ??_SQLineEdit@@6BQObject@@@ 00439b8c     dosnapshotdialogbase.obj
+ 0003:00016e24       ??_SQLineEdit@@6BQPaintDevice@@@ 00439e24     dosnapshotdialogbase.obj
+ 0003:00016e54       ??_SQPushButton@@6BQObject@@@ 00439e54     dosnapshotdialogbase.obj
+ 0003:000170a8       ??_SQPushButton@@6BQPaintDevice@@@ 0043a0a8     dosnapshotdialogbase.obj
+ 0003:000170d4       ??_SQSpacerItem@@6B@       0043a0d4     dosnapshotdialogbase.obj
+ 0003:0001712c       ??_SQHBoxLayout@@6BQObject@@@ 0043a12c     dosnapshotdialogbase.obj
+ 0003:000171ac       ??_SQHBoxLayout@@6BQLayoutItem@@@ 0043a1ac     dosnapshotdialogbase.obj
+ 0003:00017204       ??_SQVBoxLayout@@6BQObject@@@ 0043a204     dosnapshotdialogbase.obj
+ 0003:00017284       ??_SQVBoxLayout@@6BQLayoutItem@@@ 0043a284     dosnapshotdialogbase.obj
+ 0003:000172d4       ??_C@_0BF@BCKBFCHI@doSnapshotDialogBase?$AA@ 0043a2d4     dosnapshotdialogbase.obj
+ 0003:000172f0       ??_C@_0BL@IBDKKKCJ@doSnapshotDialogBaseLayout?$AA@ 0043a2f0     dosnapshotdialogbase.obj
+ 0003:00017310       ??_C@_09HCBNDNHI@textEdit1?$AA@ 0043a310     dosnapshotdialogbase.obj
+ 0003:0001731c       ??_C@_07OFHOKKPF@layout2?$AA@ 0043a31c     dosnapshotdialogbase.obj
+ 0003:00017328       ??_C@_0L@KGLFILOJ@textLabel1?$AA@ 0043a328     dosnapshotdialogbase.obj
+ 0003:00017338       ??_C@_0N@KBELFCBC@excludedList?$AA@ 0043a338     dosnapshotdialogbase.obj
+ 0003:00017348       ??_C@_08FAGMOKOJ@buttonGo?$AA@ 0043a348     dosnapshotdialogbase.obj
+ 0003:00017354       ??_C@_0N@OLKBNHFJ@buttonCancel?$AA@ 0043a354     dosnapshotdialogbase.obj
+ 0003:00017364       ??_C@_09OCDCAEKE@1reject?$CI?$CJ?$AA@ 0043a364     dosnapshotdialogbase.obj
+ 0003:00017370       ??_C@_0CD@JIACADJF@Create?5Zip?5Snapshot?5of?5BNCS?5syst@ 0043a370     dosnapshotdialogbase.obj
+ 0003:0001739c       ??_C@_0CP@BCFNOMEF@Files?5excluded?5from?5Zip?6?$CIsemi?5co@ 0043a39c     dosnapshotdialogbase.obj
+ 0003:000173d4       ??_C@_04LOILCLDM@?$CGGo?$CB?$AA@ 0043a3d4     dosnapshotdialogbase.obj
+ 0003:000173dc       ??_C@_05LJIGFKNB@Alt?$CLG?$AA@ 0043a3dc     dosnapshotdialogbase.obj
+ 0003:000173e4       ??_C@_07JLEKEEPN@?$CGCancel?$AA@ 0043a3e4     dosnapshotdialogbase.obj
+ 0003:000173f0       ??_C@_05NNOKJPNF@Alt?$CLC?$AA@ 0043a3f0     dosnapshotdialogbase.obj
+ 0003:00017488       ??_C@_05JLNEMJLN@dummy?$AA@ 0043a488     moc_dosnapshotdialog.obj
+ 0003:00017490       ??_C@_04KBJKNCBH@doGo?$AA@ 0043a490     moc_dosnapshotdialog.obj
+ 0003:00017498       ??_C@_0O@CCDMIPOF@zipProcExited?$AA@ 0043a498     moc_dosnapshotdialog.obj
+ 0003:000174a8       ??_C@_0N@NJNGDFNP@zipReadyRead?$AA@ 0043a4a8     moc_dosnapshotdialog.obj
+ 0003:000174b8       ??_C@_0BA@KNOCMIMG@zipReadyReadErr?$AA@ 0043a4b8     moc_dosnapshotdialog.obj
+ 0003:000174cc       ??_C@_07MBMLLJIG@dummy?$CI?$CJ?$AA@ 0043a4cc     moc_dosnapshotdialog.obj
+ 0003:000174d8       ??_C@_06BPEGBOEH@doGo?$CI?$CJ?$AA@ 0043a4d8     moc_dosnapshotdialog.obj
+ 0003:000174e0       ??_C@_0BA@CMBGDDJH@zipProcExited?$CI?$CJ?$AA@ 0043a4e0     moc_dosnapshotdialog.obj
+ 0003:000174f4       ??_C@_0P@CCALEMJG@zipReadyRead?$CI?$CJ?$AA@ 0043a4f4     moc_dosnapshotdialog.obj
+ 0003:00017508       ??_C@_0BC@HKAHBPBL@zipReadyReadErr?$CI?$CJ?$AA@ 0043a508     moc_dosnapshotdialog.obj
+ 0003:00017520       ??_C@_0BB@IDMBILFJ@doSnapshotDialog?$AA@ 0043a520     moc_dosnapshotdialog.obj
+ 0003:00017550       ??_C@_0P@DMEOIADN@languageChange?$AA@ 0043a550     moc_dosnapshotdialogbase.obj
+ 0003:00017564       ??_C@_0BB@PFEIHPGD@languageChange?$CI?$CJ?$AA@ 0043a564     moc_dosnapshotdialogbase.obj
+ 0003:0001757c       ??_7bncs_disklog@@6B@      0043a57c     bncs_disklogdb:bncs_disklog.obj
+ 0003:00017584       ??_C@_0L@ILPMAFPO@?$CFs?2?$CFs?2logs?$AA@ 0043a584     bncs_disklogdb:bncs_disklog.obj
+ 0003:00017594       ??_C@_0M@EEBKEKAD@c?3?2bncslogs?$AA@ 0043a594     bncs_disklogdb:bncs_disklog.obj
+ 0003:000175a4       ??_C@_0BG@DPKAAFIM@localtime?5has?5failed?6?$AA@ 0043a5a4     bncs_disklogdb:bncs_disklog.obj
+ 0003:000175c0       ??_C@_0N@GLHMENIG@?$CFs?2?$CFs?2?$CFs?4log?$AA@ 0043a5c0     bncs_disklogdb:bncs_disklog.obj
+ 0003:000175d0       ??_C@_0BH@EBDFGIGN@?$CFs?2?$CFs?2?$CF04d?$CF02d?$CF02d?4log?$AA@ 0043a5d0     bncs_disklogdb:bncs_disklog.obj
+ 0003:000175ec       ??_C@_0BM@MFEMPJOF@?$CFs?2?$CFs?2?$CF04d?$CF02d?$CF02d?9?$CF02d?4log?$AA@ 0043a5ec     bncs_disklogdb:bncs_disklog.obj
+ 0003:00017610       ??_C@_0CE@NIPIAOPO@bncs_disklog?3?5Can?8t?5open?5log?5fil@ 0043a610     bncs_disklogdb:bncs_disklog.obj
+ 0003:0001763c       ??_C@_01EEMJAFIK@?6?$AA@   0043a63c     bncs_disklogdb:bncs_disklog.obj
+ 0003:00017640       ??_C@_0CE@NLINMDII@?$CF02d?1?$CF02d?1?$CF04d?5?$CF02d?3?$CF02d?3?$CF02d?4?$CF0@ 0043a640     bncs_disklogdb:bncs_disklog.obj
+ 0003:0001766c       ??_C@_02KEGNLNML@?0?5?$AA@ 0043a66c     bncs_disklogdb:bncs_disklog.obj
+ 0003:00017670       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 0043a670     bncs_disklogdb:bncs_disklog.obj
+ 0003:00017673       ?value@?$integral_constant@_N$0A@@std@@2_NB 0043a673     MSVCRT:ti_inst.obj
+ 0003:00017674       ?value@?$integral_constant@_N$00@std@@2_NB 0043a674     MSVCRT:ti_inst.obj
+ 0003:0001767c       ??_7type_info@@6B@         0043a67c     MSVCRT:ti_inst.obj
+ 0003:00017740       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 0043a740     MSVCRT:error.obj
+ 0003:00017850       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 0043a850     MSVCRT:error.obj
+ 0003:000179a8       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 0043a9a8     MSVCRT:error.obj
+ 0003:000179cc       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 0043a9cc     MSVCRT:error.obj
+ 0003:00017a0c       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 0043aa0c     MSVCRT:error.obj
+ 0003:00017a40       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 0043aa40     MSVCRT:error.obj
+ 0003:00017a68       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 0043aa68     MSVCRT:error.obj
+ 0003:00017af0       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 0043aaf0     MSVCRT:error.obj
+ 0003:00017b3c       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 0043ab3c     MSVCRT:error.obj
+ 0003:00017b50       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 0043ab50     MSVCRT:error.obj
+ 0003:00017b68       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 0043ab68     MSVCRT:error.obj
+ 0003:00017b90       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 0043ab90     MSVCRT:error.obj
+ 0003:00017bc0       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 0043abc0     MSVCRT:error.obj
+ 0003:00017bc8       ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 0043abc8     MSVCRT:error.obj
+ 0003:00017be4       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 0043abe4     MSVCRT:error.obj
+ 0003:00017bf0       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 0043abf0     MSVCRT:error.obj
+ 0003:00017c48       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 0043ac48     MSVCRT:error.obj
+ 0003:00017c54       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 0043ac54     MSVCRT:error.obj
+ 0003:00017c88       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 0043ac88     MSVCRT:error.obj
+ 0003:00017c94       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 0043ac94     MSVCRT:error.obj
+ 0003:00017ca8       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 0043aca8     MSVCRT:error.obj
+ 0003:00017d00       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 0043ad00     MSVCRT:error.obj
+ 0003:00017d18       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 0043ad18     MSVCRT:error.obj
+ 0003:00017d1c       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 0043ad1c     MSVCRT:error.obj
+ 0003:00017d28       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 0043ad28     MSVCRT:error.obj
+ 0003:00017d8c       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 0043ad8c     MSVCRT:userapi.obj
+ 0003:00017dac       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 0043adac     MSVCRT:userapi.obj
+ 0003:00017de0       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 0043ade0     MSVCRT:userapi.obj
+ 0003:00017dfc       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 0043adfc     MSVCRT:userapi.obj
+ 0003:00017e30       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 0043ae30     MSVCRT:userapi.obj
+ 0003:00017e58       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 0043ae58     MSVCRT:unhandld.obj
+ 0003:00017e5c       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 0043ae5c     MSVCRT:unhandld.obj
+ 0003:00017e60       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 0043ae60     MSVCRT:unhandld.obj
+ 0003:00017e64       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 0043ae64     MSVCRT:unhandld.obj
+ 0003:00017e68       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 0043ae68     MSVCRT:unhandld.obj
+ 0003:00017e6c       ?LocalIdBitWidth@CrossScopeId@CodeViewInfo@@2IB 0043ae6c     MSVCRT:pdblkup.obj
+ 0003:00017e70       ?IdScopeBitWidth@CrossScopeId@CodeViewInfo@@2IB 0043ae70     MSVCRT:pdblkup.obj
+ 0003:00017e74       ?StartCrossScopeId@CrossScopeId@CodeViewInfo@@2IB 0043ae74     MSVCRT:pdblkup.obj
+ 0003:00017e78       ?LocalIdMask@CrossScopeId@CodeViewInfo@@2IB 0043ae78     MSVCRT:pdblkup.obj
+ 0003:00017e7c       ?ScopeIdMask@CrossScopeId@CodeViewInfo@@2IB 0043ae7c     MSVCRT:pdblkup.obj
+ 0003:00017e80       ?MaxLocalId@CrossScopeId@CodeViewInfo@@2IB 0043ae80     MSVCRT:pdblkup.obj
+ 0003:00017e84       ?MaxScopeId@CrossScopeId@CodeViewInfo@@2IB 0043ae84     MSVCRT:pdblkup.obj
+ 0003:00017eb0       ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 0043aeb0     MSVCRT:pdblkup.obj
+ 0003:00017ed0       ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ 0043aed0     MSVCRT:pdblkup.obj
+ 0003:00017ee0       ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ 0043aee0     MSVCRT:pdblkup.obj
+ 0003:00017ef4       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 0043aef4     MSVCRT:pdblkup.obj
+ 0003:00017f08       ??_C@_1FM@EGIBBNPP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ 0043af08     MSVCRT:pdblkup.obj
+ 0003:00017f78       ??_C@_1BG@EABPBLLF@?$AAP?$AAr?$AAo?$AAd?$AAu?$AAc?$AAt?$AAD?$AAi?$AAr?$AA?$AA@ 0043af78     MSVCRT:pdblkup.obj
+ 0003:00017f94       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 0043af94     MSVCRT:pdblkup.obj
+ 0003:00017fa8       ??_C@_01KDCPPGHE@r?$AA@    0043afa8     MSVCRT:pdblkup.obj
+ 0003:00017fac       ??_7?$QMemArray@PAD@@6B@   0043afac     qtmain:qtmain_win.obj
+ 0003:00017fc0       __load_config_used         0043afc0     MSVCRT:loadcfg.obj
+ 0003:0001838c       ??_R4?$QMemArray@D@@6B@    0043b38c     dosnapshotdialog.obj
+ 0003:000183a4       ??_R3?$QMemArray@D@@8      0043b3a4     dosnapshotdialog.obj
+ 0003:000183b8       ??_R2?$QMemArray@D@@8      0043b3b8     dosnapshotdialog.obj
+ 0003:000183c4       ??_R1A@?0A@EA@?$QMemArray@D@@8 0043b3c4     dosnapshotdialog.obj
+ 0003:000183e8       ??_R1A@?0A@EA@QGArray@@8   0043b3e8     dosnapshotdialog.obj
+ 0003:0001840c       ??_R3QGArray@@8            0043b40c     dosnapshotdialog.obj
+ 0003:00018420       ??_R2QGArray@@8            0043b420     dosnapshotdialog.obj
+ 0003:00018428       ??_R1A@?0A@EA@QPtrCollection@@8 0043b428     dosnapshotdialog.obj
+ 0003:0001844c       ??_R3QPtrCollection@@8     0043b44c     dosnapshotdialog.obj
+ 0003:00018460       ??_R2QPtrCollection@@8     0043b460     dosnapshotdialog.obj
+ 0003:00018468       ??_R4QProcess@@6B@         0043b468     dosnapshotdialog.obj
+ 0003:00018480       ??_R3QProcess@@8           0043b480     dosnapshotdialog.obj
+ 0003:00018494       ??_R2QProcess@@8           0043b494     dosnapshotdialog.obj
+ 0003:000184a4       ??_R1A@?0A@EA@QProcess@@8  0043b4a4     dosnapshotdialog.obj
+ 0003:000184c8       ??_R1A@?0A@EA@QObject@@8   0043b4c8     dosnapshotdialog.obj
+ 0003:000184ec       ??_R3QObject@@8            0043b4ec     dosnapshotdialog.obj
+ 0003:00018500       ??_R2QObject@@8            0043b500     dosnapshotdialog.obj
+ 0003:0001850c       ??_R13?0A@EA@Qt@@8         0043b50c     dosnapshotdialog.obj
+ 0003:00018530       ??_R3Qt@@8                 0043b530     dosnapshotdialog.obj
+ 0003:00018544       ??_R2Qt@@8                 0043b544     dosnapshotdialog.obj
+ 0003:0001854c       ??_R1A@?0A@EA@Qt@@8        0043b54c     dosnapshotdialog.obj
+ 0003:00018570       ??_R4doSnapshotDialog@@6BQObject@@@ 0043b570     dosnapshotdialog.obj
+ 0003:00018588       ??_R3doSnapshotDialog@@8   0043b588     dosnapshotdialog.obj
+ 0003:0001859c       ??_R2doSnapshotDialog@@8   0043b59c     dosnapshotdialog.obj
+ 0003:000185c0       ??_R1A@?0A@EA@doSnapshotDialog@@8 0043b5c0     dosnapshotdialog.obj
+ 0003:000185e4       ??_R1A@?0A@EA@doSnapshotDialogBase@@8 0043b5e4     dosnapshotdialog.obj
+ 0003:00018608       ??_R3doSnapshotDialogBase@@8 0043b608     dosnapshotdialog.obj
+ 0003:0001861c       ??_R2doSnapshotDialogBase@@8 0043b61c     dosnapshotdialog.obj
+ 0003:0001863c       ??_R1A@?0A@EA@QDialog@@8   0043b63c     dosnapshotdialog.obj
+ 0003:00018660       ??_R3QDialog@@8            0043b660     dosnapshotdialog.obj
+ 0003:00018674       ??_R2QDialog@@8            0043b674     dosnapshotdialog.obj
+ 0003:00018690       ??_R1A@?0A@EA@QWidget@@8   0043b690     dosnapshotdialog.obj
+ 0003:000186b4       ??_R3QWidget@@8            0043b6b4     dosnapshotdialog.obj
+ 0003:000186c8       ??_R2QWidget@@8            0043b6c8     dosnapshotdialog.obj
+ 0003:000186dc       ??_R1CI@?0A@EA@QPaintDevice@@8 0043b6dc     dosnapshotdialog.obj
+ 0003:00018700       ??_R3QPaintDevice@@8       0043b700     dosnapshotdialog.obj
+ 0003:00018714       ??_R2QPaintDevice@@8       0043b714     dosnapshotdialog.obj
+ 0003:0001871c       ??_R1A@?0A@EA@QPaintDevice@@8 0043b71c     dosnapshotdialog.obj
+ 0003:00018740       ??_R4doSnapshotDialog@@6BQPaintDevice@@@ 0043b740     dosnapshotdialog.obj
+ 0003:00018758       ??_R1A@?0A@EA@QGDict@@8    0043b758     dosnapshotdialog.obj
+ 0003:0001877c       ??_R3QGDict@@8             0043b77c     dosnapshotdialog.obj
+ 0003:00018790       ??_R2QGDict@@8             0043b790     dosnapshotdialog.obj
+ 0003:0001879c       ??_R4?$QDict@V?$QMemArray@D@@@@6B@ 0043b79c     dosnapshotdialog.obj
+ 0003:000187b4       ??_R3?$QDict@V?$QMemArray@D@@@@8 0043b7b4     dosnapshotdialog.obj
+ 0003:000187c8       ??_R2?$QDict@V?$QMemArray@D@@@@8 0043b7c8     dosnapshotdialog.obj
+ 0003:000187d8       ??_R1A@?0A@EA@?$QDict@V?$QMemArray@D@@@@8 0043b7d8     dosnapshotdialog.obj
+ 0003:000187fc       ??_R4QPushButton@@6BQObject@@@ 0043b7fc     dosnapshotdialogbase.obj
+ 0003:00018814       ??_R3QPushButton@@8        0043b814     dosnapshotdialogbase.obj
+ 0003:00018828       ??_R2QPushButton@@8        0043b828     dosnapshotdialogbase.obj
+ 0003:00018848       ??_R1A@?0A@EA@QPushButton@@8 0043b848     dosnapshotdialogbase.obj
+ 0003:0001886c       ??_R1A@?0A@EA@QButton@@8   0043b86c     dosnapshotdialogbase.obj
+ 0003:00018890       ??_R3QButton@@8            0043b890     dosnapshotdialogbase.obj
+ 0003:000188a4       ??_R2QButton@@8            0043b8a4     dosnapshotdialogbase.obj
+ 0003:000188c0       ??_R4QPushButton@@6BQPaintDevice@@@ 0043b8c0     dosnapshotdialogbase.obj
+ 0003:000188d8       ??_R4QVBoxLayout@@6BQObject@@@ 0043b8d8     dosnapshotdialogbase.obj
+ 0003:000188f0       ??_R3QVBoxLayout@@8        0043b8f0     dosnapshotdialogbase.obj
+ 0003:00018904       ??_R2QVBoxLayout@@8        0043b904     dosnapshotdialogbase.obj
+ 0003:00018924       ??_R1A@?0A@EA@QVBoxLayout@@8 0043b924     dosnapshotdialogbase.obj
+ 0003:00018948       ??_R1A@?0A@EA@QBoxLayout@@8 0043b948     dosnapshotdialogbase.obj
+ 0003:0001896c       ??_R3QBoxLayout@@8         0043b96c     dosnapshotdialogbase.obj
+ 0003:00018980       ??_R2QBoxLayout@@8         0043b980     dosnapshotdialogbase.obj
+ 0003:0001899c       ??_R1A@?0A@EA@QLayout@@8   0043b99c     dosnapshotdialogbase.obj
+ 0003:000189c0       ??_R3QLayout@@8            0043b9c0     dosnapshotdialogbase.obj
+ 0003:000189d4       ??_R2QLayout@@8            0043b9d4     dosnapshotdialogbase.obj
+ 0003:000189e8       ??_R1CI@?0A@EA@QLayoutItem@@8 0043b9e8     dosnapshotdialogbase.obj
+ 0003:00018a0c       ??_R3QLayoutItem@@8        0043ba0c     dosnapshotdialogbase.obj
+ 0003:00018a20       ??_R2QLayoutItem@@8        0043ba20     dosnapshotdialogbase.obj
+ 0003:00018a28       ??_R1A@?0A@EA@QLayoutItem@@8 0043ba28     dosnapshotdialogbase.obj
+ 0003:00018a4c       ??_R4QVBoxLayout@@6BQLayoutItem@@@ 0043ba4c     dosnapshotdialogbase.obj
+ 0003:00018a64       ??_R4QHBoxLayout@@6BQObject@@@ 0043ba64     dosnapshotdialogbase.obj
+ 0003:00018a7c       ??_R3QHBoxLayout@@8        0043ba7c     dosnapshotdialogbase.obj
+ 0003:00018a90       ??_R2QHBoxLayout@@8        0043ba90     dosnapshotdialogbase.obj
+ 0003:00018ab0       ??_R1A@?0A@EA@QHBoxLayout@@8 0043bab0     dosnapshotdialogbase.obj
+ 0003:00018ad4       ??_R4QHBoxLayout@@6BQLayoutItem@@@ 0043bad4     dosnapshotdialogbase.obj
+ 0003:00018aec       ??_R4QTextEdit@@6BQObject@@@ 0043baec     dosnapshotdialogbase.obj
+ 0003:00018b04       ??_R3QTextEdit@@8          0043bb04     dosnapshotdialogbase.obj
+ 0003:00018b18       ??_R2QTextEdit@@8          0043bb18     dosnapshotdialogbase.obj
+ 0003:00018b3c       ??_R1A@?0A@EA@QTextEdit@@8 0043bb3c     dosnapshotdialogbase.obj
+ 0003:00018b60       ??_R1A@?0A@EA@QScrollView@@8 0043bb60     dosnapshotdialogbase.obj
+ 0003:00018b84       ??_R3QScrollView@@8        0043bb84     dosnapshotdialogbase.obj
+ 0003:00018b98       ??_R2QScrollView@@8        0043bb98     dosnapshotdialogbase.obj
+ 0003:00018bb8       ??_R1A@?0A@EA@QFrame@@8    0043bbb8     dosnapshotdialogbase.obj
+ 0003:00018bdc       ??_R3QFrame@@8             0043bbdc     dosnapshotdialogbase.obj
+ 0003:00018bf0       ??_R2QFrame@@8             0043bbf0     dosnapshotdialogbase.obj
+ 0003:00018c0c       ??_R4QTextEdit@@6BQPaintDevice@@@ 0043bc0c     dosnapshotdialogbase.obj
+ 0003:00018c24       ??_R4QLabel@@6BQObject@@@  0043bc24     dosnapshotdialogbase.obj
+ 0003:00018c3c       ??_R3QLabel@@8             0043bc3c     dosnapshotdialogbase.obj
+ 0003:00018c50       ??_R2QLabel@@8             0043bc50     dosnapshotdialogbase.obj
+ 0003:00018c70       ??_R1A@?0A@EA@QLabel@@8    0043bc70     dosnapshotdialogbase.obj
+ 0003:00018c94       ??_R4QLabel@@6BQPaintDevice@@@ 0043bc94     dosnapshotdialogbase.obj
+ 0003:00018cac       ??_R4QLineEdit@@6BQObject@@@ 0043bcac     dosnapshotdialogbase.obj
+ 0003:00018cc4       ??_R3QLineEdit@@8          0043bcc4     dosnapshotdialogbase.obj
+ 0003:00018cd8       ??_R2QLineEdit@@8          0043bcd8     dosnapshotdialogbase.obj
+ 0003:00018cf8       ??_R1A@?0A@EA@QLineEdit@@8 0043bcf8     dosnapshotdialogbase.obj
+ 0003:00018d1c       ??_R4QLineEdit@@6BQPaintDevice@@@ 0043bd1c     dosnapshotdialogbase.obj
+ 0003:00018d34       ??_R4doSnapshotDialogBase@@6BQObject@@@ 0043bd34     dosnapshotdialogbase.obj
+ 0003:00018d4c       ??_R4doSnapshotDialogBase@@6BQPaintDevice@@@ 0043bd4c     dosnapshotdialogbase.obj
+ 0003:00018d64       ??_R4QSpacerItem@@6B@      0043bd64     dosnapshotdialogbase.obj
+ 0003:00018d7c       ??_R3QSpacerItem@@8        0043bd7c     dosnapshotdialogbase.obj
+ 0003:00018d90       ??_R2QSpacerItem@@8        0043bd90     dosnapshotdialogbase.obj
+ 0003:00018d9c       ??_R1A@?0A@EA@QSpacerItem@@8 0043bd9c     dosnapshotdialogbase.obj
+ 0003:00018dc0       ??_R4bncs_disklog@@6B@     0043bdc0     bncs_disklogdb:bncs_disklog.obj
+ 0003:00018dd8       ??_R3bncs_disklog@@8       0043bdd8     bncs_disklogdb:bncs_disklog.obj
+ 0003:00018dec       ??_R2bncs_disklog@@8       0043bdec     bncs_disklogdb:bncs_disklog.obj
+ 0003:00018df4       ??_R1A@?0A@EA@bncs_disklog@@8 0043bdf4     bncs_disklogdb:bncs_disklog.obj
+ 0003:00018e18       ??_R4type_info@@6B@        0043be18     MSVCRT:ti_inst.obj
+ 0003:00018e30       ??_R3type_info@@8          0043be30     MSVCRT:ti_inst.obj
+ 0003:00018e44       ??_R2type_info@@8          0043be44     MSVCRT:ti_inst.obj
+ 0003:00018e4c       ??_R1A@?0A@EA@type_info@@8 0043be4c     MSVCRT:ti_inst.obj
+ 0003:00018fb0       ___rtc_iaa                 0043bfb0     MSVCRT:initsect.obj
+ 0003:000191d0       ___rtc_izz                 0043c1d0     MSVCRT:initsect.obj
+ 0003:000192d4       ___rtc_taa                 0043c2d4     MSVCRT:initsect.obj
+ 0003:000194f4       ___rtc_tzz                 0043c4f4     MSVCRT:initsect.obj
+ 0004:000003b8       ___security_cookie         0043d3b8     MSVCRT:gs_cookie.obj
+ 0004:000003bc       ___security_cookie_complement 0043d3bc     MSVCRT:gs_cookie.obj
+ 0004:000003c0       ?_RTC_ErrorLevels@@3PAHA   0043d3c0     MSVCRT:error.obj
+ 0004:000003d8       ___defaultmatherr          0043d3d8     MSVCRT:merr.obj
+ 0004:000003dc       ___globallocalestatus      0043d3dc     MSVCRT:xthdloc.obj
+ 0004:000003e0       ___native_dllmain_reason   0043d3e0     MSVCRT:natstart.obj
+ 0004:000004ec       ??_R0?AV?$QMemArray@D@@@8  0043d4ec     dosnapshotdialog.obj
+ 0004:00000510       ??_R0?AVQGArray@@@8        0043d510     dosnapshotdialog.obj
+ 0004:0000052c       ??_R0?AVQPtrCollection@@@8 0043d52c     dosnapshotdialog.obj
+ 0004:00000550       ??_R0?AVQProcess@@@8       0043d550     dosnapshotdialog.obj
+ 0004:0000056c       ??_R0?AVQObject@@@8        0043d56c     dosnapshotdialog.obj
+ 0004:00000588       ??_R0?AVQt@@@8             0043d588     dosnapshotdialog.obj
+ 0004:0000059c       ??_R0?AVdoSnapshotDialog@@@8 0043d59c     dosnapshotdialog.obj
+ 0004:000005c4       ??_R0?AVdoSnapshotDialogBase@@@8 0043d5c4     dosnapshotdialog.obj
+ 0004:000005f0       ??_R0?AVQDialog@@@8        0043d5f0     dosnapshotdialog.obj
+ 0004:0000060c       ??_R0?AVQWidget@@@8        0043d60c     dosnapshotdialog.obj
+ 0004:00000628       ??_R0?AVQPaintDevice@@@8   0043d628     dosnapshotdialog.obj
+ 0004:00000648       ??_R0?AVQGDict@@@8         0043d648     dosnapshotdialog.obj
+ 0004:00000664       ??_R0?AV?$QDict@V?$QMemArray@D@@@@@8 0043d664     dosnapshotdialog.obj
+ 0004:00000694       ??_R0?AVQPushButton@@@8    0043d694     dosnapshotdialogbase.obj
+ 0004:000006b4       ??_R0?AVQButton@@@8        0043d6b4     dosnapshotdialogbase.obj
+ 0004:000006d0       ??_R0?AVQVBoxLayout@@@8    0043d6d0     dosnapshotdialogbase.obj
+ 0004:000006f0       ??_R0?AVQBoxLayout@@@8     0043d6f0     dosnapshotdialogbase.obj
+ 0004:00000710       ??_R0?AVQLayout@@@8        0043d710     dosnapshotdialogbase.obj
+ 0004:0000072c       ??_R0?AVQLayoutItem@@@8    0043d72c     dosnapshotdialogbase.obj
+ 0004:0000074c       ??_R0?AVQHBoxLayout@@@8    0043d74c     dosnapshotdialogbase.obj
+ 0004:0000076c       ??_R0?AVQTextEdit@@@8      0043d76c     dosnapshotdialogbase.obj
+ 0004:00000788       ??_R0?AVQScrollView@@@8    0043d788     dosnapshotdialogbase.obj
+ 0004:000007a8       ??_R0?AVQFrame@@@8         0043d7a8     dosnapshotdialogbase.obj
+ 0004:000007c4       ??_R0?AVQLabel@@@8         0043d7c4     dosnapshotdialogbase.obj
+ 0004:000007e0       ??_R0?AVQLineEdit@@@8      0043d7e0     dosnapshotdialogbase.obj
+ 0004:000007fc       ??_R0?AVQSpacerItem@@@8    0043d7fc     dosnapshotdialogbase.obj
+ 0004:0000081c       ??_R0?AVbncs_disklog@@@8   0043d81c     bncs_disklogdb:bncs_disklog.obj
+ 0004:0000083c       ??_R0?AVtype_info@@@8      0043d83c     MSVCRT:ti_inst.obj
+ 0004:000009a0       ?metaObj@doSnapshotDialog@@0PAVQMetaObject@@A 0043d9a0     moc_dosnapshotdialog.obj
+ 0004:000009ac       ?metaObj@doSnapshotDialogBase@@0PAVQMetaObject@@A 0043d9ac     moc_dosnapshotdialogbase.obj
+ 0004:000009e0       ?wsprintffp@@3P6AHPADPBDZZA 0043d9e0     MSVCRT:error.obj
+ 0004:00000db4       __commode                  0043ddb4     MSVCRT:xncommod.obj
+ 0004:00000db8       __dowildcard               0043ddb8     MSVCRT:wildcard.obj
+ 0004:00000dbc       __newmode                  0043ddbc     MSVCRT:_newmode.obj
+ 0004:00000dc0       __fmode                    0043ddc0     MSVCRT:xtxtmode.obj
+ 0004:00000dcc       ___native_startup_lock     0043ddcc     <common>
+ 0004:00000ddc       ___native_startup_state    0043dddc     <common>
+ 0004:00000de0       ___dyn_tls_init_callback   0043dde0     <common>
+ 0004:00000df0       ___onexitend               0043ddf0     <common>
+ 0004:00000e00       ___onexitbegin             0043de00     <common>
+ 0005:00000000       __imp__GetModuleFileNameW@12 0043e000     kernel32:KERNEL32.dll
+ 0005:00000004       __imp__VirtualQuery@12     0043e004     kernel32:KERNEL32.dll
+ 0005:00000008       __imp__GetProcessHeap@0    0043e008     kernel32:KERNEL32.dll
+ 0005:0000000c       __imp__HeapFree@12         0043e00c     kernel32:KERNEL32.dll
+ 0005:00000010       __imp__HeapAlloc@12        0043e010     kernel32:KERNEL32.dll
+ 0005:00000014       __imp__GetSystemTimeAsFileTime@4 0043e014     kernel32:KERNEL32.dll
+ 0005:00000018       __imp__GetCurrentThreadId@0 0043e018     kernel32:KERNEL32.dll
+ 0005:0000001c       __imp__GetCurrentProcessId@0 0043e01c     kernel32:KERNEL32.dll
+ 0005:00000020       __imp__QueryPerformanceCounter@4 0043e020     kernel32:KERNEL32.dll
+ 0005:00000024       __imp__IsProcessorFeaturePresent@4 0043e024     kernel32:KERNEL32.dll
+ 0005:00000028       __imp__WideCharToMultiByte@32 0043e028     kernel32:KERNEL32.dll
+ 0005:0000002c       __imp__MultiByteToWideChar@24 0043e02c     kernel32:KERNEL32.dll
+ 0005:00000030       __imp__LoadLibraryExW@12   0043e030     kernel32:KERNEL32.dll
+ 0005:00000034       __imp__GetProcAddress@8    0043e034     kernel32:KERNEL32.dll
+ 0005:00000038       __imp__RaiseException@16   0043e038     kernel32:KERNEL32.dll
+ 0005:0000003c       __imp__IsDebuggerPresent@0 0043e03c     kernel32:KERNEL32.dll
+ 0005:00000040       __imp__DecodePointer@4     0043e040     kernel32:KERNEL32.dll
+ 0005:00000044       __imp__EncodePointer@4     0043e044     kernel32:KERNEL32.dll
+ 0005:00000048       __imp__CreateFileA@28      0043e048     kernel32:KERNEL32.dll
+ 0005:0000004c       __imp__OutputDebugStringA@4 0043e04c     kernel32:KERNEL32.dll
+ 0005:00000050       __imp__GetLocalTime@4      0043e050     kernel32:KERNEL32.dll
+ 0005:00000054       __imp__GetSystemTime@4     0043e054     kernel32:KERNEL32.dll
+ 0005:00000058       __imp__CloseHandle@4       0043e058     kernel32:KERNEL32.dll
+ 0005:0000005c       __imp__SetFilePointer@16   0043e05c     kernel32:KERNEL32.dll
+ 0005:00000060       __imp__SetEndOfFile@4      0043e060     kernel32:KERNEL32.dll
+ 0005:00000064       __imp__WriteFile@20        0043e064     kernel32:KERNEL32.dll
+ 0005:00000068       __imp__GetLastError@0      0043e068     kernel32:KERNEL32.dll
+ 0005:0000006c       __imp__WritePrivateProfileStringA@16 0043e06c     kernel32:KERNEL32.dll
+ 0005:00000070       __imp__GetPrivateProfileStringA@24 0043e070     kernel32:KERNEL32.dll
+ 0005:00000074       __imp__FreeLibrary@4       0043e074     kernel32:KERNEL32.dll
+ 0005:00000078       \177KERNEL32_NULL_THUNK_DATA 0043e078     kernel32:KERNEL32.dll
+ 0005:000000bc       __imp___controlfp_s        0043e0bc     MSVCRT:MSVCR120.dll
+ 0005:000000c0       __imp____crtSetUnhandledExceptionFilter 0043e0c0     MSVCRT:MSVCR120.dll
+ 0005:000000c4       __imp_?terminate@@YAXXZ    0043e0c4     MSVCRT:MSVCR120.dll
+ 0005:000000c8       __imp____crtTerminateProcess 0043e0c8     MSVCRT:MSVCR120.dll
+ 0005:000000cc       __imp____crtUnhandledException 0043e0cc     MSVCRT:MSVCR120.dll
+ 0005:000000d0       __imp___crt_debugger_hook  0043e0d0     MSVCRT:MSVCR120.dll
+ 0005:000000d4       __imp___except_handler4_common 0043e0d4     MSVCRT:MSVCR120.dll
+ 0005:000000d8       __imp___commode            0043e0d8     MSVCRT:MSVCR120.dll
+ 0005:000000dc       __imp___fmode              0043e0dc     MSVCRT:MSVCR120.dll
+ 0005:000000e0       __imp___acmdln             0043e0e0     MSVCRT:MSVCR120.dll
+ 0005:000000e4       __imp___initterm           0043e0e4     MSVCRT:MSVCR120.dll
+ 0005:000000e8       __imp___initterm_e         0043e0e8     MSVCRT:MSVCR120.dll
+ 0005:000000ec       __imp____setusermatherr    0043e0ec     MSVCRT:MSVCR120.dll
+ 0005:000000f0       __imp___configthreadlocale 0043e0f0     MSVCRT:MSVCR120.dll
+ 0005:000000f4       __imp___ismbblead          0043e0f4     MSVCRT:MSVCR120.dll
+ 0005:000000f8       __imp___cexit              0043e0f8     MSVCRT:MSVCR120.dll
+ 0005:000000fc       __imp___exit               0043e0fc     MSVCRT:MSVCR120.dll
+ 0005:00000100       __imp__exit                0043e100     MSVCRT:MSVCR120.dll
+ 0005:00000104       __imp____set_app_type      0043e104     MSVCRT:MSVCR120.dll
+ 0005:00000108       __imp____getmainargs       0043e108     MSVCRT:MSVCR120.dll
+ 0005:0000010c       __imp___amsg_exit          0043e10c     MSVCRT:MSVCR120.dll
+ 0005:00000110       __imp____crtGetShowWindowMode 0043e110     MSVCRT:MSVCR120.dll
+ 0005:00000114       __imp___XcptFilter         0043e114     MSVCRT:MSVCR120.dll
+ 0005:00000118       __imp_??1type_info@@UAE@XZ 0043e118     MSVCRT:MSVCR120.dll
+ 0005:0000011c       __imp___CRT_RTC_INITW      0043e11c     MSVCRT:MSVCR120.dll
+ 0005:00000120       __imp___onexit             0043e120     MSVCRT:MSVCR120.dll
+ 0005:00000124       __imp____dllonexit         0043e124     MSVCRT:MSVCR120.dll
+ 0005:00000128       __imp___calloc_crt         0043e128     MSVCRT:MSVCR120.dll
+ 0005:0000012c       __imp___unlock             0043e12c     MSVCRT:MSVCR120.dll
+ 0005:00000130       __imp___lock               0043e130     MSVCRT:MSVCR120.dll
+ 0005:00000134       __imp___mkdir              0043e134     MSVCRT:MSVCR120.dll
+ 0005:00000138       __imp__sprintf             0043e138     MSVCRT:MSVCR120.dll
+ 0005:0000013c       __imp___time64             0043e13c     MSVCRT:MSVCR120.dll
+ 0005:00000140       __imp___localtime64        0043e140     MSVCRT:MSVCR120.dll
+ 0005:00000144       __imp__strtok              0043e144     MSVCRT:MSVCR120.dll
+ 0005:00000148       __imp__strncpy             0043e148     MSVCRT:MSVCR120.dll
+ 0005:0000014c       __imp__strcat              0043e14c     MSVCRT:MSVCR120.dll
+ 0005:00000150       __imp__strcpy              0043e150     MSVCRT:MSVCR120.dll
+ 0005:00000154       __imp____CxxFrameHandler3  0043e154     MSVCRT:MSVCR120.dll
+ 0005:00000158       __imp__getenv              0043e158     MSVCRT:MSVCR120.dll
+ 0005:0000015c       __imp__strlen              0043e15c     MSVCRT:MSVCR120.dll
+ 0005:00000160       __imp__strcmp              0043e160     MSVCRT:MSVCR120.dll
+ 0005:00000164       __imp_??3@YAXPAX@Z         0043e164     MSVCRT:MSVCR120.dll
+ 0005:00000168       __imp_??2@YAPAXI@Z         0043e168     MSVCRT:MSVCR120.dll
+ 0005:0000016c       __imp___invoke_watson      0043e16c     MSVCRT:MSVCR120.dll
+ 0005:00000170       \177MSVCR120_NULL_THUNK_DATA 0043e170     MSVCRT:MSVCR120.dll
+ 0005:000001c0       __imp__ShellExecuteA@24    0043e1c0     shell32:SHELL32.dll
+ 0005:000001c4       \177SHELL32_NULL_THUNK_DATA 0043e1c4     shell32:SHELL32.dll
+ 0005:000001f0       __imp_?contextMenuEvent@QDialog@@MAEXPAVQContextMenuEvent@@@Z 0043e1f0     qt-mt323:qt-mt323.dll
+ 0005:000001f4       __imp_?create@QWidget@@MAEXPAUHWND__@@_N1@Z 0043e1f4     qt-mt323:qt-mt323.dll
+ 0005:000001f8       __imp_?customEvent@QObject@@MAEXPAVQCustomEvent@@@Z 0043e1f8     qt-mt323:qt-mt323.dll
+ 0005:000001fc       __imp_?customWhatsThis@QWidget@@UBE_NXZ 0043e1fc     qt-mt323:qt-mt323.dll
+ 0005:00000200       __imp_?deleteData@QGArray@@MAEXPAUarray_data@1@@Z 0043e200     qt-mt323:qt-mt323.dll
+ 0005:00000204       __imp_?destroy@QWidget@@MAEX_N0@Z 0043e204     qt-mt323:qt-mt323.dll
+ 0005:00000208       __imp_?detach@?$QMemArray@D@@UAEXXZ 0043e208     qt-mt323:qt-mt323.dll
+ 0005:0000020c       __imp_?disconnectNotify@QObject@@MAEXPBD@Z 0043e20c     qt-mt323:qt-mt323.dll
+ 0005:00000210       __imp_?disconnectNotify@QProcess@@MAEXPBD@Z 0043e210     qt-mt323:qt-mt323.dll
+ 0005:00000214       __imp_?done@QDialog@@MAEXH@Z 0043e214     qt-mt323:qt-mt323.dll
+ 0005:00000218       __imp_?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z 0043e218     qt-mt323:qt-mt323.dll
+ 0005:0000021c       __imp_?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z 0043e21c     qt-mt323:qt-mt323.dll
+ 0005:00000220       __imp_?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z 0043e220     qt-mt323:qt-mt323.dll
+ 0005:00000224       __imp_?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z 0043e224     qt-mt323:qt-mt323.dll
+ 0005:00000228       __imp_?enabledChange@QWidget@@MAEX_N@Z 0043e228     qt-mt323:qt-mt323.dll
+ 0005:0000022c       __imp_?enterEvent@QWidget@@MAEXPAVQEvent@@@Z 0043e22c     qt-mt323:qt-mt323.dll
+ 0005:00000230       __imp_?event@QObject@@UAE_NPAVQEvent@@@Z 0043e230     qt-mt323:qt-mt323.dll
+ 0005:00000234       __imp_?event@QWidget@@MAE_NPAVQEvent@@@Z 0043e234     qt-mt323:qt-mt323.dll
+ 0005:00000238       __imp_?eventFilter@QDialog@@MAE_NPAVQObject@@PAVQEvent@@@Z 0043e238     qt-mt323:qt-mt323.dll
+ 0005:0000023c       __imp_?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z 0043e23c     qt-mt323:qt-mt323.dll
+ 0005:00000240       __imp_?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z 0043e240     qt-mt323:qt-mt323.dll
+ 0005:00000244       __imp_?focusNextPrevChild@QWidget@@MAE_N_N@Z 0043e244     qt-mt323:qt-mt323.dll
+ 0005:00000248       __imp_?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z 0043e248     qt-mt323:qt-mt323.dll
+ 0005:0000024c       __imp_?fontChange@QWidget@@MAEXABVQFont@@@Z 0043e24c     qt-mt323:qt-mt323.dll
+ 0005:00000250       __imp_?fontInf@QPaintDevice@@MBEHPAVQFont@@H@Z 0043e250     qt-mt323:qt-mt323.dll
+ 0005:00000254       __imp_?fontMet@QPaintDevice@@MBEHPAVQFont@@HPBDH@Z 0043e254     qt-mt323:qt-mt323.dll
+ 0005:00000258       __imp_?handle@QPaintDevice@@UBEPAUHDC__@@XZ 0043e258     qt-mt323:qt-mt323.dll
+ 0005:0000025c       __imp_?heightForWidth@QWidget@@UBEHH@Z 0043e25c     qt-mt323:qt-mt323.dll
+ 0005:00000260       __imp_?hide@QDialog@@UAEXXZ 0043e260     qt-mt323:qt-mt323.dll
+ 0005:00000264       __imp_?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z 0043e264     qt-mt323:qt-mt323.dll
+ 0005:00000268       __imp_?imComposeEvent@QWidget@@MAEXPAVQIMEvent@@@Z 0043e268     qt-mt323:qt-mt323.dll
+ 0005:0000026c       __imp_?imEndEvent@QWidget@@MAEXPAVQIMEvent@@@Z 0043e26c     qt-mt323:qt-mt323.dll
+ 0005:00000270       __imp_?imStartEvent@QWidget@@MAEXPAVQIMEvent@@@Z 0043e270     qt-mt323:qt-mt323.dll
+ 0005:00000274       __imp_?insertChild@QObject@@UAEXPAV1@@Z 0043e274     qt-mt323:qt-mt323.dll
+ 0005:00000278       __imp_?keyPressEvent@QDialog@@MAEXPAVQKeyEvent@@@Z 0043e278     qt-mt323:qt-mt323.dll
+ 0005:0000027c       __imp_?keyReleaseEvent@QWidget@@MAEXPAVQKeyEvent@@@Z 0043e27c     qt-mt323:qt-mt323.dll
+ 0005:00000280       __imp_?launch@QProcess@@UAE_NABV?$QMemArray@D@@PAVQStringList@@@Z 0043e280     qt-mt323:qt-mt323.dll
+ 0005:00000284       __imp_?launch@QProcess@@UAE_NABVQString@@PAVQStringList@@@Z 0043e284     qt-mt323:qt-mt323.dll
+ 0005:00000288       __imp_?leaveEvent@QWidget@@MAEXPAVQEvent@@@Z 0043e288     qt-mt323:qt-mt323.dll
+ 0005:0000028c       __imp_?metaObject@QProcess@@UBEPAVQMetaObject@@XZ 0043e28c     qt-mt323:qt-mt323.dll
+ 0005:00000290       __imp_?metric@QWidget@@MBEHH@Z 0043e290     qt-mt323:qt-mt323.dll
+ 0005:00000294       __imp_?minimumSizeHint@QDialog@@UBE?AVQSize@@XZ 0043e294     qt-mt323:qt-mt323.dll
+ 0005:00000298       __imp_?mouseDoubleClickEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0043e298     qt-mt323:qt-mt323.dll
+ 0005:0000029c       __imp_?mouseMoveEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0043e29c     qt-mt323:qt-mt323.dll
+ 0005:000002a0       __imp_?mousePressEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0043e2a0     qt-mt323:qt-mt323.dll
+ 0005:000002a4       __imp_?mouseReleaseEvent@QWidget@@MAEXPAVQMouseEvent@@@Z 0043e2a4     qt-mt323:qt-mt323.dll
+ 0005:000002a8       __imp_?move@QDialog@@UAEXHH@Z 0043e2a8     qt-mt323:qt-mt323.dll
+ 0005:000002ac       __imp_?moveEvent@QWidget@@MAEXPAVQMoveEvent@@@Z 0043e2ac     qt-mt323:qt-mt323.dll
+ 0005:000002b0       __imp_?newData@QGArray@@MAEPAUarray_data@1@XZ 0043e2b0     qt-mt323:qt-mt323.dll
+ 0005:000002b4       __imp_?newItem@QPtrCollection@@MAEPAXPAX@Z 0043e2b4     qt-mt323:qt-mt323.dll
+ 0005:000002b8       __imp_?paintEvent@QWidget@@MAEXPAVQPaintEvent@@@Z 0043e2b8     qt-mt323:qt-mt323.dll
+ 0005:000002bc       __imp_?paletteChange@QWidget@@MAEXABVQPalette@@@Z 0043e2bc     qt-mt323:qt-mt323.dll
+ 0005:000002c0       __imp_?polish@QWidget@@UAEXXZ 0043e2c0     qt-mt323:qt-mt323.dll
+ 0005:000002c4       __imp_?property@QObject@@UBE?AVQVariant@@PBD@Z 0043e2c4     qt-mt323:qt-mt323.dll
+ 0005:000002c8       __imp_?qt_cast@QProcess@@UAEPAXPBD@Z 0043e2c8     qt-mt323:qt-mt323.dll
+ 0005:000002cc       __imp_?qt_emit@QProcess@@UAE_NHPAUQUObject@@@Z 0043e2cc     qt-mt323:qt-mt323.dll
+ 0005:000002d0       __imp_?qt_invoke@QProcess@@UAE_NHPAUQUObject@@@Z 0043e2d0     qt-mt323:qt-mt323.dll
+ 0005:000002d4       __imp_?qt_property@QProcess@@UAE_NHHPAVQVariant@@@Z 0043e2d4     qt-mt323:qt-mt323.dll
+ 0005:000002d8       __imp_?read@QGDict@@MAEAAVQDataStream@@AAV2@AAPAX@Z 0043e2d8     qt-mt323:qt-mt323.dll
+ 0005:000002dc       __imp_?readLineStderr@QProcess@@UAE?AVQString@@XZ 0043e2dc     qt-mt323:qt-mt323.dll
+ 0005:000002e0       __imp_?readLineStdout@QProcess@@UAE?AVQString@@XZ 0043e2e0     qt-mt323:qt-mt323.dll
+ 0005:000002e4       __imp_?readStderr@QProcess@@UAE?AV?$QMemArray@D@@XZ 0043e2e4     qt-mt323:qt-mt323.dll
+ 0005:000002e8       __imp_?readStdout@QProcess@@UAE?AV?$QMemArray@D@@XZ 0043e2e8     qt-mt323:qt-mt323.dll
+ 0005:000002ec       __imp_?removeChild@QObject@@UAEXPAV1@@Z 0043e2ec     qt-mt323:qt-mt323.dll
+ 0005:000002f0       __imp_?reparent@QWidget@@UAEXPAV1@IABVQPoint@@_N@Z 0043e2f0     qt-mt323:qt-mt323.dll
+ 0005:000002f4       __imp_?resize@QDialog@@UAEXHH@Z 0043e2f4     qt-mt323:qt-mt323.dll
+ 0005:000002f8       __imp_?resizeEvent@QDialog@@MAEXPAVQResizeEvent@@@Z 0043e2f8     qt-mt323:qt-mt323.dll
+ 0005:000002fc       __imp_?resolution@QPaintDevice@@UBEHXZ 0043e2fc     qt-mt323:qt-mt323.dll
+ 0005:00000300       __imp_?setAcceptDrops@QWidget@@UAEX_N@Z 0043e300     qt-mt323:qt-mt323.dll
+ 0005:00000304       __imp_?setActiveWindow@QWidget@@UAEXXZ 0043e304     qt-mt323:qt-mt323.dll
+ 0005:00000308       __imp_?setArguments@QProcess@@UAEXABVQStringList@@@Z 0043e308     qt-mt323:qt-mt323.dll
+ 0005:0000030c       __imp_?setAutoMask@QWidget@@UAEX_N@Z 0043e30c     qt-mt323:qt-mt323.dll
+ 0005:00000310       __imp_?setBackgroundColor@QWidget@@UAEXABVQColor@@@Z 0043e310     qt-mt323:qt-mt323.dll
+ 0005:00000314       __imp_?setBackgroundMode@QWidget@@UAEXW4BackgroundMode@Qt@@@Z 0043e314     qt-mt323:qt-mt323.dll
+ 0005:00000318       __imp_?setBackgroundOrigin@QWidget@@UAEXW4BackgroundOrigin@1@@Z 0043e318     qt-mt323:qt-mt323.dll
+ 0005:0000031c       __imp_?setBackgroundPixmap@QWidget@@UAEXABVQPixmap@@@Z 0043e31c     qt-mt323:qt-mt323.dll
+ 0005:00000320       __imp_?setCaption@QWidget@@UAEXABVQString@@@Z 0043e320     qt-mt323:qt-mt323.dll
+ 0005:00000324       __imp_?setCursor@QWidget@@UAEXABVQCursor@@@Z 0043e324     qt-mt323:qt-mt323.dll
+ 0005:00000328       __imp_?setEnabled@QWidget@@UAEX_N@Z 0043e328     qt-mt323:qt-mt323.dll
+ 0005:0000032c       __imp_?setEraseColor@QWidget@@UAEXABVQColor@@@Z 0043e32c     qt-mt323:qt-mt323.dll
+ 0005:00000330       __imp_?setErasePixmap@QWidget@@UAEXABVQPixmap@@@Z 0043e330     qt-mt323:qt-mt323.dll
+ 0005:00000334       __imp_?setFocus@QWidget@@UAEXXZ 0043e334     qt-mt323:qt-mt323.dll
+ 0005:00000338       __imp_?setFocusPolicy@QWidget@@UAEXW4FocusPolicy@1@@Z 0043e338     qt-mt323:qt-mt323.dll
+ 0005:0000033c       __imp_?setFocusProxy@QWidget@@UAEXPAV1@@Z 0043e33c     qt-mt323:qt-mt323.dll
+ 0005:00000340       __imp_?setFont@QWidget@@UAEXABVQFont@@@Z 0043e340     qt-mt323:qt-mt323.dll
+ 0005:00000344       __imp_?setGeometry@QDialog@@UAEXABVQRect@@@Z 0043e344     qt-mt323:qt-mt323.dll
+ 0005:00000348       __imp_?setGeometry@QDialog@@UAEXHHHH@Z 0043e348     qt-mt323:qt-mt323.dll
+ 0005:0000034c       __imp_?setIconText@QWidget@@UAEXABVQString@@@Z 0043e34c     qt-mt323:qt-mt323.dll
+ 0005:00000350       __imp_?setKeyCompression@QWidget@@MAEX_N@Z 0043e350     qt-mt323:qt-mt323.dll
+ 0005:00000354       __imp_?setMask@QWidget@@UAEXABVQBitmap@@@Z 0043e354     qt-mt323:qt-mt323.dll
+ 0005:00000358       __imp_?setMask@QWidget@@UAEXABVQRegion@@@Z 0043e358     qt-mt323:qt-mt323.dll
+ 0005:0000035c       __imp_?setMaximumSize@QWidget@@UAEXHH@Z 0043e35c     qt-mt323:qt-mt323.dll
+ 0005:00000360       __imp_?setMicroFocusHint@QWidget@@MAEXHHHH_NPAVQFont@@@Z 0043e360     qt-mt323:qt-mt323.dll
+ 0005:00000364       __imp_?setMinimumSize@QWidget@@UAEXHH@Z 0043e364     qt-mt323:qt-mt323.dll
+ 0005:00000368       __imp_?setMouseTracking@QWidget@@UAEX_N@Z 0043e368     qt-mt323:qt-mt323.dll
+ 0005:0000036c       __imp_?setName@QObject@@UAEXPBD@Z 0043e36c     qt-mt323:qt-mt323.dll
+ 0005:00000370       __imp_?setName@QWidget@@UAEXPBD@Z 0043e370     qt-mt323:qt-mt323.dll
+ 0005:00000374       __imp_?setPalette@QWidget@@UAEXABVQPalette@@@Z 0043e374     qt-mt323:qt-mt323.dll
+ 0005:00000378       __imp_?setPaletteBackgroundColor@QWidget@@UAEXABVQColor@@@Z 0043e378     qt-mt323:qt-mt323.dll
+ 0005:0000037c       __imp_?setPaletteBackgroundPixmap@QWidget@@UAEXABVQPixmap@@@Z 0043e37c     qt-mt323:qt-mt323.dll
+ 0005:00000380       __imp_?setProperty@QObject@@UAE_NPBDABVQVariant@@@Z 0043e380     qt-mt323:qt-mt323.dll
+ 0005:00000384       __imp_?setResolution@QPaintDevice@@UAEXH@Z 0043e384     qt-mt323:qt-mt323.dll
+ 0005:00000388       __imp_?setSizeIncrement@QWidget@@UAEXHH@Z 0043e388     qt-mt323:qt-mt323.dll
+ 0005:0000038c       __imp_?setSizePolicy@QWidget@@UAEXVQSizePolicy@@@Z 0043e38c     qt-mt323:qt-mt323.dll
+ 0005:00000390       __imp_?setUpdatesEnabled@QWidget@@UAEX_N@Z 0043e390     qt-mt323:qt-mt323.dll
+ 0005:00000394       __imp_?setWFlags@QWidget@@MAEXI@Z 0043e394     qt-mt323:qt-mt323.dll
+ 0005:00000398       __imp_?setWState@QWidget@@MAEXI@Z 0043e398     qt-mt323:qt-mt323.dll
+ 0005:0000039c       __imp_?setWorkingDirectory@QProcess@@UAEXABVQDir@@@Z 0043e39c     qt-mt323:qt-mt323.dll
+ 0005:000003a0       __imp_?show@QDialog@@UAEXXZ 0043e3a0     qt-mt323:qt-mt323.dll
+ 0005:000003a4       __imp_?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z 0043e3a4     qt-mt323:qt-mt323.dll
+ 0005:000003a8       __imp_?showMaximized@QWidget@@UAEXXZ 0043e3a8     qt-mt323:qt-mt323.dll
+ 0005:000003ac       __imp_?showMinimized@QWidget@@UAEXXZ 0043e3ac     qt-mt323:qt-mt323.dll
+ 0005:000003b0       __imp_?showNormal@QWidget@@UAEXXZ 0043e3b0     qt-mt323:qt-mt323.dll
+ 0005:000003b4       __imp_?sizeHint@QDialog@@UBE?AVQSize@@XZ 0043e3b4     qt-mt323:qt-mt323.dll
+ 0005:000003b8       __imp_?sizePolicy@QWidget@@UBE?AVQSizePolicy@@XZ 0043e3b8     qt-mt323:qt-mt323.dll
+ 0005:000003bc       __imp_?start@QProcess@@UAE_NPAVQStringList@@@Z 0043e3bc     qt-mt323:qt-mt323.dll
+ 0005:000003c0       __imp_?styleChange@QWidget@@MAEXAAVQStyle@@@Z 0043e3c0     qt-mt323:qt-mt323.dll
+ 0005:000003c4       __imp_?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z 0043e3c4     qt-mt323:qt-mt323.dll
+ 0005:000003c8       __imp_?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z 0043e3c8     qt-mt323:qt-mt323.dll
+ 0005:000003cc       __imp_?unsetCursor@QWidget@@UAEXXZ 0043e3cc     qt-mt323:qt-mt323.dll
+ 0005:000003d0       __imp_?updateMask@QWidget@@MAEXXZ 0043e3d0     qt-mt323:qt-mt323.dll
+ 0005:000003d4       __imp_?wheelEvent@QWidget@@MAEXPAVQWheelEvent@@@Z 0043e3d4     qt-mt323:qt-mt323.dll
+ 0005:000003d8       __imp_?winEvent@QWidget@@MAE_NPAUtagMSG@@@Z 0043e3d8     qt-mt323:qt-mt323.dll
+ 0005:000003dc       __imp_?windowActivationChange@QWidget@@MAEX_N@Z 0043e3dc     qt-mt323:qt-mt323.dll
+ 0005:000003e0       __imp_?write@QGDict@@MBEAAVQDataStream@@AAV2@PAX@Z 0043e3e0     qt-mt323:qt-mt323.dll
+ 0005:000003e4       __imp_?writeToStdin@QProcess@@UAEXABV?$QMemArray@D@@@Z 0043e3e4     qt-mt323:qt-mt323.dll
+ 0005:000003e8       __imp_?writeToStdin@QProcess@@UAEXABVQString@@@Z 0043e3e8     qt-mt323:qt-mt323.dll
+ 0005:000003ec       __imp_?null@QString@@2V1@A 0043e3ec     qt-mt323:qt-mt323.dll
+ 0005:000003f0       __imp_?qApp@@3PAVQApplication@@A 0043e3f0     qt-mt323:qt-mt323.dll
+ 0005:000003f4       __imp_??0QApplication@@QAE@AAHPAPAD@Z 0043e3f4     qt-mt323:qt-mt323.dll
+ 0005:000003f8       __imp_??1QApplication@@UAE@XZ 0043e3f8     qt-mt323:qt-mt323.dll
+ 0005:000003fc       __imp_?setMainWidget@QApplication@@UAEXPAVQWidget@@@Z 0043e3fc     qt-mt323:qt-mt323.dll
+ 0005:00000400       __imp_?exec@QDialog@@QAEHXZ 0043e400     qt-mt323:qt-mt323.dll
+ 0005:00000404       __imp_??0QSize@@QAE@HH@Z   0043e404     qt-mt323:qt-mt323.dll
+ 0005:00000408       __imp_?expandedTo@QSize@@QBE?AV1@ABV1@@Z 0043e408     qt-mt323:qt-mt323.dll
+ 0005:0000040c       __imp_?clearWState@QWidget@@IAEXI@Z 0043e40c     qt-mt323:qt-mt323.dll
+ 0005:00000410       __imp_??0QDialog@@QAE@PAVQWidget@@PBD_NI@Z 0043e410     qt-mt323:qt-mt323.dll
+ 0005:00000414       __imp_??1QDialog@@UAE@XZ   0043e414     qt-mt323:qt-mt323.dll
+ 0005:00000418       __imp_?resize@QDialog@@QAEXABVQSize@@@Z 0043e418     qt-mt323:qt-mt323.dll
+ 0005:0000041c       __imp_?setSizeGripEnabled@QDialog@@QAEX_N@Z 0043e41c     qt-mt323:qt-mt323.dll
+ 0005:00000420       __imp_?setFrameShape@QFrame@@QAEXW4Shape@1@@Z 0043e420     qt-mt323:qt-mt323.dll
+ 0005:00000424       __imp_?setFrameShadow@QFrame@@QAEXW4Shadow@1@@Z 0043e424     qt-mt323:qt-mt323.dll
+ 0005:00000428       __imp_??0QTextEdit@@QAE@PAVQWidget@@PBD@Z 0043e428     qt-mt323:qt-mt323.dll
+ 0005:0000042c       __imp_??1QTextEdit@@UAE@XZ 0043e42c     qt-mt323:qt-mt323.dll
+ 0005:00000430       __imp_??0QLabel@@QAE@PAVQWidget@@PBDI@Z 0043e430     qt-mt323:qt-mt323.dll
+ 0005:00000434       __imp_??1QLabel@@UAE@XZ    0043e434     qt-mt323:qt-mt323.dll
+ 0005:00000438       __imp_??0QLineEdit@@QAE@PAVQWidget@@PBD@Z 0043e438     qt-mt323:qt-mt323.dll
+ 0005:0000043c       __imp_??1QLineEdit@@UAE@XZ 0043e43c     qt-mt323:qt-mt323.dll
+ 0005:00000440       __imp_??0QKeySequence@@QAE@ABVQString@@@Z 0043e440     qt-mt323:qt-mt323.dll
+ 0005:00000444       __imp_??1QKeySequence@@QAE@XZ 0043e444     qt-mt323:qt-mt323.dll
+ 0005:00000448       __imp_??0QPushButton@@QAE@PAVQWidget@@PBD@Z 0043e448     qt-mt323:qt-mt323.dll
+ 0005:0000044c       __imp_??1QPushButton@@UAE@XZ 0043e44c     qt-mt323:qt-mt323.dll
+ 0005:00000450       __imp_??0QSpacerItem@@QAE@HHW4SizeType@QSizePolicy@@0@Z 0043e450     qt-mt323:qt-mt323.dll
+ 0005:00000454       __imp_??1QSpacerItem@@UAE@XZ 0043e454     qt-mt323:qt-mt323.dll
+ 0005:00000458       __imp_?addWidget@QBoxLayout@@QAEXPAVQWidget@@HH@Z 0043e458     qt-mt323:qt-mt323.dll
+ 0005:0000045c       __imp_?addLayout@QBoxLayout@@QAEXPAVQLayout@@H@Z 0043e45c     qt-mt323:qt-mt323.dll
+ 0005:00000460       __imp_??0QHBoxLayout@@QAE@PAVQWidget@@HHPBD@Z 0043e460     qt-mt323:qt-mt323.dll
+ 0005:00000464       __imp_??1QHBoxLayout@@UAE@XZ 0043e464     qt-mt323:qt-mt323.dll
+ 0005:00000468       __imp_??0QVBoxLayout@@QAE@PAVQWidget@@HHPBD@Z 0043e468     qt-mt323:qt-mt323.dll
+ 0005:0000046c       __imp_??1QVBoxLayout@@UAE@XZ 0043e46c     qt-mt323:qt-mt323.dll
+ 0005:00000470       __imp_?addChild@QScrollView@@UAEXPAVQWidget@@HH@Z 0043e470     qt-mt323:qt-mt323.dll
+ 0005:00000474       __imp_?addItem@QBoxLayout@@UAEXPAVQLayoutItem@@@Z 0043e474     qt-mt323:qt-mt323.dll
+ 0005:00000478       __imp_?append@QTextEdit@@UAEXABVQString@@@Z 0043e478     qt-mt323:qt-mt323.dll
+ 0005:0000047c       __imp_?childEvent@QLayout@@MAEXPAVQChildEvent@@@Z 0043e47c     qt-mt323:qt-mt323.dll
+ 0005:00000480       __imp_?className@QHBoxLayout@@UBEPBDXZ 0043e480     qt-mt323:qt-mt323.dll
+ 0005:00000484       __imp_?className@QLabel@@UBEPBDXZ 0043e484     qt-mt323:qt-mt323.dll
+ 0005:00000488       __imp_?className@QLineEdit@@UBEPBDXZ 0043e488     qt-mt323:qt-mt323.dll
+ 0005:0000048c       __imp_?className@QPushButton@@UBEPBDXZ 0043e48c     qt-mt323:qt-mt323.dll
+ 0005:00000490       __imp_?className@QTextEdit@@UBEPBDXZ 0043e490     qt-mt323:qt-mt323.dll
+ 0005:00000494       __imp_?className@QVBoxLayout@@UBEPBDXZ 0043e494     qt-mt323:qt-mt323.dll
+ 0005:00000498       __imp_?clear@QLineEdit@@UAEXXZ 0043e498     qt-mt323:qt-mt323.dll
+ 0005:0000049c       __imp_?clear@QTextEdit@@UAEXXZ 0043e49c     qt-mt323:qt-mt323.dll
+ 0005:000004a0       __imp_?clearParagraphBackground@QTextEdit@@UAEXH@Z 0043e4a0     qt-mt323:qt-mt323.dll
+ 0005:000004a4       __imp_?clearValidator@QLineEdit@@UAEXXZ 0043e4a4     qt-mt323:qt-mt323.dll
+ 0005:000004a8       __imp_?closeEvent@QDialog@@MAEXPAVQCloseEvent@@@Z 0043e4a8     qt-mt323:qt-mt323.dll
+ 0005:000004ac       __imp_?contentsContextMenuEvent@QTextEdit@@MAEXPAVQContextMenuEvent@@@Z 0043e4ac     qt-mt323:qt-mt323.dll
+ 0005:000004b0       __imp_?contentsDragEnterEvent@QTextEdit@@MAEXPAVQDragEnterEvent@@@Z 0043e4b0     qt-mt323:qt-mt323.dll
+ 0005:000004b4       __imp_?contentsDragLeaveEvent@QTextEdit@@MAEXPAVQDragLeaveEvent@@@Z 0043e4b4     qt-mt323:qt-mt323.dll
+ 0005:000004b8       __imp_?contentsDragMoveEvent@QTextEdit@@MAEXPAVQDragMoveEvent@@@Z 0043e4b8     qt-mt323:qt-mt323.dll
+ 0005:000004bc       __imp_?contentsDropEvent@QTextEdit@@MAEXPAVQDropEvent@@@Z 0043e4bc     qt-mt323:qt-mt323.dll
+ 0005:000004c0       __imp_?contentsMouseDoubleClickEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0043e4c0     qt-mt323:qt-mt323.dll
+ 0005:000004c4       __imp_?contentsMouseMoveEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0043e4c4     qt-mt323:qt-mt323.dll
+ 0005:000004c8       __imp_?contentsMousePressEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0043e4c8     qt-mt323:qt-mt323.dll
+ 0005:000004cc       __imp_?contentsMouseReleaseEvent@QTextEdit@@MAEXPAVQMouseEvent@@@Z 0043e4cc     qt-mt323:qt-mt323.dll
+ 0005:000004d0       __imp_?contentsWheelEvent@QTextEdit@@MAEXPAVQWheelEvent@@@Z 0043e4d0     qt-mt323:qt-mt323.dll
+ 0005:000004d4       __imp_?contextMenuEvent@QLineEdit@@MAEXPAVQContextMenuEvent@@@Z 0043e4d4     qt-mt323:qt-mt323.dll
+ 0005:000004d8       __imp_?contextMenuEvent@QScrollView@@MAEXPAVQContextMenuEvent@@@Z 0043e4d8     qt-mt323:qt-mt323.dll
+ 0005:000004dc       __imp_?contextMenuEvent@QWidget@@MAEXPAVQContextMenuEvent@@@Z 0043e4dc     qt-mt323:qt-mt323.dll
+ 0005:000004e0       __imp_?copy@QLineEdit@@UBEXXZ 0043e4e0     qt-mt323:qt-mt323.dll
+ 0005:000004e4       __imp_?copy@QTextEdit@@UAEXXZ 0043e4e4     qt-mt323:qt-mt323.dll
+ 0005:000004e8       __imp_?createPopupMenu@QLineEdit@@MAEPAVQPopupMenu@@XZ 0043e4e8     qt-mt323:qt-mt323.dll
+ 0005:000004ec       __imp_?createPopupMenu@QTextEdit@@MAEPAVQPopupMenu@@ABVQPoint@@@Z 0043e4ec     qt-mt323:qt-mt323.dll
+ 0005:000004f0       __imp_?createPopupMenu@QTextEdit@@MAEPAVQPopupMenu@@XZ 0043e4f0     qt-mt323:qt-mt323.dll
+ 0005:000004f4       __imp_?cut@QLineEdit@@UAEXXZ 0043e4f4     qt-mt323:qt-mt323.dll
+ 0005:000004f8       __imp_?cut@QTextEdit@@UAEXXZ 0043e4f8     qt-mt323:qt-mt323.dll
+ 0005:000004fc       __imp_?del@QTextEdit@@UAEXXZ 0043e4fc     qt-mt323:qt-mt323.dll
+ 0005:00000500       __imp_?deselect@QLineEdit@@UAEXXZ 0043e500     qt-mt323:qt-mt323.dll
+ 0005:00000504       __imp_?doChangeInterval@QTextEdit@@MAEXXZ 0043e504     qt-mt323:qt-mt323.dll
+ 0005:00000508       __imp_?doKeyboardAction@QTextEdit@@UAEXW4KeyboardAction@1@@Z 0043e508     qt-mt323:qt-mt323.dll
+ 0005:0000050c       __imp_?dragEnterEvent@QLineEdit@@MAEXPAVQDragEnterEvent@@@Z 0043e50c     qt-mt323:qt-mt323.dll
+ 0005:00000510       __imp_?dragLeaveEvent@QLineEdit@@MAEXPAVQDragLeaveEvent@@@Z 0043e510     qt-mt323:qt-mt323.dll
+ 0005:00000514       __imp_?dragMoveEvent@QLineEdit@@MAEXPAVQDragMoveEvent@@@Z 0043e514     qt-mt323:qt-mt323.dll
+ 0005:00000518       __imp_?drawButton@QPushButton@@MAEXPAVQPainter@@@Z 0043e518     qt-mt323:qt-mt323.dll
+ 0005:0000051c       __imp_?drawButtonLabel@QPushButton@@MAEXPAVQPainter@@@Z 0043e51c     qt-mt323:qt-mt323.dll
+ 0005:00000520       __imp_?drawContents@QLabel@@MAEXPAVQPainter@@@Z 0043e520     qt-mt323:qt-mt323.dll
+ 0005:00000524       __imp_?drawContents@QLineEdit@@MAEXPAVQPainter@@@Z 0043e524     qt-mt323:qt-mt323.dll
+ 0005:00000528       __imp_?drawContents@QTextEdit@@EAEXPAVQPainter@@@Z 0043e528     qt-mt323:qt-mt323.dll
+ 0005:0000052c       __imp_?drawContents@QTextEdit@@MAEXPAVQPainter@@HHHH@Z 0043e52c     qt-mt323:qt-mt323.dll
+ 0005:00000530       __imp_?drawContentsOffset@QScrollView@@MAEXPAVQPainter@@HHHHHH@Z 0043e530     qt-mt323:qt-mt323.dll
+ 0005:00000534       __imp_?drawFrame@QFrame@@MAEXPAVQPainter@@@Z 0043e534     qt-mt323:qt-mt323.dll
+ 0005:00000538       __imp_?dropEvent@QLineEdit@@MAEXPAVQDropEvent@@@Z 0043e538     qt-mt323:qt-mt323.dll
+ 0005:0000053c       __imp_?emitHighlighted@QTextEdit@@EAEXABVQString@@@Z 0043e53c     qt-mt323:qt-mt323.dll
+ 0005:00000540       __imp_?emitLinkClicked@QTextEdit@@EAEXABVQString@@@Z 0043e540     qt-mt323:qt-mt323.dll
+ 0005:00000544       __imp_?enabledChange@QButton@@MAEX_N@Z 0043e544     qt-mt323:qt-mt323.dll
+ 0005:00000548       __imp_?ensureCursorVisible@QTextEdit@@UAEXXZ 0043e548     qt-mt323:qt-mt323.dll
+ 0005:0000054c       __imp_?event@QLineEdit@@MAE_NPAVQEvent@@@Z 0043e54c     qt-mt323:qt-mt323.dll
+ 0005:00000550       __imp_?event@QTextEdit@@MAE_NPAVQEvent@@@Z 0043e550     qt-mt323:qt-mt323.dll
+ 0005:00000554       __imp_?eventFilter@QLayout@@MAE_NPAVQObject@@PAVQEvent@@@Z 0043e554     qt-mt323:qt-mt323.dll
+ 0005:00000558       __imp_?eventFilter@QTextEdit@@UAE_NPAVQObject@@PAVQEvent@@@Z 0043e558     qt-mt323:qt-mt323.dll
+ 0005:0000055c       __imp_?expanding@QBoxLayout@@UBE?AW4ExpandData@QSizePolicy@@XZ 0043e55c     qt-mt323:qt-mt323.dll
+ 0005:00000560       __imp_?expanding@QSpacerItem@@UBE?AW4ExpandData@QSizePolicy@@XZ 0043e560     qt-mt323:qt-mt323.dll
+ 0005:00000564       __imp_?find@QTextEdit@@UAE_NABVQString@@_N11PAH2@Z 0043e564     qt-mt323:qt-mt323.dll
+ 0005:00000568       __imp_?focusInEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z 0043e568     qt-mt323:qt-mt323.dll
+ 0005:0000056c       __imp_?focusInEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z 0043e56c     qt-mt323:qt-mt323.dll
+ 0005:00000570       __imp_?focusNextPrevChild@QTextEdit@@MAE_N_N@Z 0043e570     qt-mt323:qt-mt323.dll
+ 0005:00000574       __imp_?focusOutEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z 0043e574     qt-mt323:qt-mt323.dll
+ 0005:00000578       __imp_?focusOutEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z 0043e578     qt-mt323:qt-mt323.dll
+ 0005:0000057c       __imp_?fontChange@QLabel@@MAEXABVQFont@@@Z 0043e57c     qt-mt323:qt-mt323.dll
+ 0005:00000580       __imp_?fontChange@QScrollView@@MAEXABVQFont@@@Z 0043e580     qt-mt323:qt-mt323.dll
+ 0005:00000584       __imp_?frameChanged@QFrame@@MAEXXZ 0043e584     qt-mt323:qt-mt323.dll
+ 0005:00000588       __imp_?frameChanged@QScrollView@@MAEXXZ 0043e588     qt-mt323:qt-mt323.dll
+ 0005:0000058c       __imp_?geometry@QLayout@@UBE?AVQRect@@XZ 0043e58c     qt-mt323:qt-mt323.dll
+ 0005:00000590       __imp_?geometry@QSpacerItem@@UBE?AVQRect@@XZ 0043e590     qt-mt323:qt-mt323.dll
+ 0005:00000594       __imp_?getFormat@QTextEdit@@UAE_NHHPAVQFont@@PAVQColor@@PAW4VerticalAlignment@1@@Z 0043e594     qt-mt323:qt-mt323.dll
+ 0005:00000598       __imp_?getParagraphFormat@QTextEdit@@UAE_NHPAVQFont@@PAVQColor@@PAW4VerticalAlignment@1@PAHPAW4DisplayMode@QStyleSheetItem@@PAW4ListStyle@6@3@Z 0043e598     qt-mt323:qt-mt323.dll
+ 0005:0000059c       __imp_?hasHeightForWidth@QBoxLayout@@UBE_NXZ 0043e59c     qt-mt323:qt-mt323.dll
+ 0005:000005a0       __imp_?hasHeightForWidth@QLayoutItem@@UBE_NXZ 0043e5a0     qt-mt323:qt-mt323.dll
+ 0005:000005a4       __imp_?heightForWidth@QBoxLayout@@UBEHH@Z 0043e5a4     qt-mt323:qt-mt323.dll
+ 0005:000005a8       __imp_?heightForWidth@QLabel@@UBEHH@Z 0043e5a8     qt-mt323:qt-mt323.dll
+ 0005:000005ac       __imp_?heightForWidth@QLayoutItem@@UBEHH@Z 0043e5ac     qt-mt323:qt-mt323.dll
+ 0005:000005b0       __imp_?heightForWidth@QTextEdit@@UBEHH@Z 0043e5b0     qt-mt323:qt-mt323.dll
+ 0005:000005b4       __imp_?hide@QWidget@@UAEXXZ 0043e5b4     qt-mt323:qt-mt323.dll
+ 0005:000005b8       __imp_?hitButton@QButton@@MBE_NABVQPoint@@@Z 0043e5b8     qt-mt323:qt-mt323.dll
+ 0005:000005bc       __imp_?imComposeEvent@QLineEdit@@MAEXPAVQIMEvent@@@Z 0043e5bc     qt-mt323:qt-mt323.dll
+ 0005:000005c0       __imp_?imComposeEvent@QTextEdit@@MAEXPAVQIMEvent@@@Z 0043e5c0     qt-mt323:qt-mt323.dll
+ 0005:000005c4       __imp_?end@?$QValueList@VQString@@@@QAE?AV?$QValueListIterator@VQString@@@@XZ 0043e5c4     qt-mt323:qt-mt323.dll
+ 0005:000005c8       __imp_?imEndEvent@QTextEdit@@MAEXPAVQIMEvent@@@Z 0043e5c8     qt-mt323:qt-mt323.dll
+ 0005:000005cc       __imp_?imStartEvent@QLineEdit@@MAEXPAVQIMEvent@@@Z 0043e5cc     qt-mt323:qt-mt323.dll
+ 0005:000005d0       __imp_?imStartEvent@QTextEdit@@MAEXPAVQIMEvent@@@Z 0043e5d0     qt-mt323:qt-mt323.dll
+ 0005:000005d4       __imp_?indent@QTextEdit@@UAEXXZ 0043e5d4     qt-mt323:qt-mt323.dll
+ 0005:000005d8       __imp_?insert@QLineEdit@@UAEXABVQString@@@Z 0043e5d8     qt-mt323:qt-mt323.dll
+ 0005:000005dc       __imp_?connectNotify@QProcess@@MAEXPBD@Z 0043e5dc     qt-mt323:qt-mt323.dll
+ 0005:000005e0       __imp_?insertAt@QTextEdit@@UAEXABVQString@@HH@Z 0043e5e0     qt-mt323:qt-mt323.dll
+ 0005:000005e4       __imp_?insertParagraph@QTextEdit@@UAEXABVQString@@H@Z 0043e5e4     qt-mt323:qt-mt323.dll
+ 0005:000005e8       __imp_?invalidate@QBoxLayout@@UAEXXZ 0043e5e8     qt-mt323:qt-mt323.dll
+ 0005:000005ec       __imp_?invalidate@QLayoutItem@@UAEXXZ 0043e5ec     qt-mt323:qt-mt323.dll
+ 0005:000005f0       __imp_?isEmpty@QLayout@@UBE_NXZ 0043e5f0     qt-mt323:qt-mt323.dll
+ 0005:000005f4       __imp_?isEmpty@QSpacerItem@@UBE_NXZ 0043e5f4     qt-mt323:qt-mt323.dll
+ 0005:000005f8       __imp_?iterator@QBoxLayout@@UAE?AVQLayoutIterator@@XZ 0043e5f8     qt-mt323:qt-mt323.dll
+ 0005:000005fc       __imp_?iterator@QLayoutItem@@UAE?AVQLayoutIterator@@XZ 0043e5fc     qt-mt323:qt-mt323.dll
+ 0005:00000600       __imp_?keyPressEvent@QButton@@MAEXPAVQKeyEvent@@@Z 0043e600     qt-mt323:qt-mt323.dll
+ 0005:00000604       __imp_?keyPressEvent@QLineEdit@@MAEXPAVQKeyEvent@@@Z 0043e604     qt-mt323:qt-mt323.dll
+ 0005:00000608       __imp_?keyPressEvent@QTextEdit@@MAEXPAVQKeyEvent@@@Z 0043e608     qt-mt323:qt-mt323.dll
+ 0005:0000060c       __imp_?keyPressEvent@QWidget@@MAEXPAVQKeyEvent@@@Z 0043e60c     qt-mt323:qt-mt323.dll
+ 0005:00000610       __imp_?keyReleaseEvent@QButton@@MAEXPAVQKeyEvent@@@Z 0043e610     qt-mt323:qt-mt323.dll
+ 0005:00000614       __imp_?layout@QLayout@@UAEPAV1@XZ 0043e614     qt-mt323:qt-mt323.dll
+ 0005:00000618       __imp_?layout@QLayoutItem@@UAEPAVQLayout@@XZ 0043e618     qt-mt323:qt-mt323.dll
+ 0005:0000061c       __imp_?linksEnabled@QTextEdit@@EBE_NXZ 0043e61c     qt-mt323:qt-mt323.dll
+ 0005:00000620       __imp_?maximumSize@QBoxLayout@@UBE?AVQSize@@XZ 0043e620     qt-mt323:qt-mt323.dll
+ 0005:00000624       __imp_?maximumSize@QSpacerItem@@UBE?AVQSize@@XZ 0043e624     qt-mt323:qt-mt323.dll
+ 0005:00000628       __imp_?metaObject@QHBoxLayout@@UBEPAVQMetaObject@@XZ 0043e628     qt-mt323:qt-mt323.dll
+ 0005:0000062c       __imp_?metaObject@QLabel@@UBEPAVQMetaObject@@XZ 0043e62c     qt-mt323:qt-mt323.dll
+ 0005:00000630       __imp_?metaObject@QLineEdit@@UBEPAVQMetaObject@@XZ 0043e630     qt-mt323:qt-mt323.dll
+ 0005:00000634       __imp_?metaObject@QPushButton@@UBEPAVQMetaObject@@XZ 0043e634     qt-mt323:qt-mt323.dll
+ 0005:00000638       __imp_?metaObject@QTextEdit@@UBEPAVQMetaObject@@XZ 0043e638     qt-mt323:qt-mt323.dll
+ 0005:0000063c       __imp_?metaObject@QVBoxLayout@@UBEPAVQMetaObject@@XZ 0043e63c     qt-mt323:qt-mt323.dll
+ 0005:00000640       __imp_?minimumSize@QBoxLayout@@UBE?AVQSize@@XZ 0043e640     qt-mt323:qt-mt323.dll
+ 0005:00000644       __imp_?minimumSize@QSpacerItem@@UBE?AVQSize@@XZ 0043e644     qt-mt323:qt-mt323.dll
+ 0005:00000648       __imp_?minimumSizeHint@QLabel@@UBE?AVQSize@@XZ 0043e648     qt-mt323:qt-mt323.dll
+ 0005:0000064c       __imp_?minimumSizeHint@QLineEdit@@UBE?AVQSize@@XZ 0043e64c     qt-mt323:qt-mt323.dll
+ 0005:00000650       __imp_?minimumSizeHint@QScrollView@@UBE?AVQSize@@XZ 0043e650     qt-mt323:qt-mt323.dll
+ 0005:00000654       __imp_?minimumSizeHint@QWidget@@UBE?AVQSize@@XZ 0043e654     qt-mt323:qt-mt323.dll
+ 0005:00000658       __imp_?mouseDoubleClickEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0043e658     qt-mt323:qt-mt323.dll
+ 0005:0000065c       __imp_?mouseDoubleClickEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e65c     qt-mt323:qt-mt323.dll
+ 0005:00000660       __imp_?mouseMoveEvent@QButton@@MAEXPAVQMouseEvent@@@Z 0043e660     qt-mt323:qt-mt323.dll
+ 0005:00000664       __imp_?mouseMoveEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0043e664     qt-mt323:qt-mt323.dll
+ 0005:00000668       __imp_?mouseMoveEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e668     qt-mt323:qt-mt323.dll
+ 0005:0000066c       __imp_?mousePressEvent@QButton@@MAEXPAVQMouseEvent@@@Z 0043e66c     qt-mt323:qt-mt323.dll
+ 0005:00000670       __imp_?mousePressEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0043e670     qt-mt323:qt-mt323.dll
+ 0005:00000674       __imp_?mousePressEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e674     qt-mt323:qt-mt323.dll
+ 0005:00000678       __imp_?mouseReleaseEvent@QButton@@MAEXPAVQMouseEvent@@@Z 0043e678     qt-mt323:qt-mt323.dll
+ 0005:0000067c       __imp_?mouseReleaseEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z 0043e67c     qt-mt323:qt-mt323.dll
+ 0005:00000680       __imp_?mouseReleaseEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e680     qt-mt323:qt-mt323.dll
+ 0005:00000684       __imp_?move@QPushButton@@UAEXHH@Z 0043e684     qt-mt323:qt-mt323.dll
+ 0005:00000688       __imp_?move@QWidget@@UAEXHH@Z 0043e688     qt-mt323:qt-mt323.dll
+ 0005:0000068c       __imp_?moveChild@QScrollView@@UAEXPAVQWidget@@HH@Z 0043e68c     qt-mt323:qt-mt323.dll
+ 0005:00000690       __imp_?moveCursor@QTextEdit@@UAEXW4CursorAction@1@_N@Z 0043e690     qt-mt323:qt-mt323.dll
+ 0005:00000694       __imp_?paintEvent@QButton@@MAEXPAVQPaintEvent@@@Z 0043e694     qt-mt323:qt-mt323.dll
+ 0005:00000698       __imp_?paintEvent@QFrame@@MAEXPAVQPaintEvent@@@Z 0043e698     qt-mt323:qt-mt323.dll
+ 0005:0000069c       __imp_?paste@QLineEdit@@UAEXXZ 0043e69c     qt-mt323:qt-mt323.dll
+ 0005:000006a0       __imp_?paste@QTextEdit@@UAEXXZ 0043e6a0     qt-mt323:qt-mt323.dll
+ 0005:000006a4       __imp_?pasteSubType@QTextEdit@@UAEXABVQCString@@@Z 0043e6a4     qt-mt323:qt-mt323.dll
+ 0005:000006a8       __imp_?placeCursor@QTextEdit@@UAEXABVQPoint@@PAVQTextCursor@@@Z 0043e6a8     qt-mt323:qt-mt323.dll
+ 0005:000006ac       __imp_?polish@QTextEdit@@UAEXXZ 0043e6ac     qt-mt323:qt-mt323.dll
+ 0005:000006b0       __imp_?qt_cast@QHBoxLayout@@UAEPAXPBD@Z 0043e6b0     qt-mt323:qt-mt323.dll
+ 0005:000006b4       __imp_?qt_cast@QLabel@@UAEPAXPBD@Z 0043e6b4     qt-mt323:qt-mt323.dll
+ 0005:000006b8       __imp_?qt_cast@QLineEdit@@UAEPAXPBD@Z 0043e6b8     qt-mt323:qt-mt323.dll
+ 0005:000006bc       __imp_?qt_cast@QPushButton@@UAEPAXPBD@Z 0043e6bc     qt-mt323:qt-mt323.dll
+ 0005:000006c0       __imp_?qt_cast@QTextEdit@@UAEPAXPBD@Z 0043e6c0     qt-mt323:qt-mt323.dll
+ 0005:000006c4       __imp_?qt_cast@QVBoxLayout@@UAEPAXPBD@Z 0043e6c4     qt-mt323:qt-mt323.dll
+ 0005:000006c8       __imp_?qt_emit@QHBoxLayout@@UAE_NHPAUQUObject@@@Z 0043e6c8     qt-mt323:qt-mt323.dll
+ 0005:000006cc       __imp_?qt_emit@QLabel@@UAE_NHPAUQUObject@@@Z 0043e6cc     qt-mt323:qt-mt323.dll
+ 0005:000006d0       __imp_?qt_emit@QLineEdit@@UAE_NHPAUQUObject@@@Z 0043e6d0     qt-mt323:qt-mt323.dll
+ 0005:000006d4       __imp_?qt_emit@QPushButton@@UAE_NHPAUQUObject@@@Z 0043e6d4     qt-mt323:qt-mt323.dll
+ 0005:000006d8       __imp_?qt_emit@QTextEdit@@UAE_NHPAUQUObject@@@Z 0043e6d8     qt-mt323:qt-mt323.dll
+ 0005:000006dc       __imp_?qt_emit@QVBoxLayout@@UAE_NHPAUQUObject@@@Z 0043e6dc     qt-mt323:qt-mt323.dll
+ 0005:000006e0       __imp_?qt_invoke@QHBoxLayout@@UAE_NHPAUQUObject@@@Z 0043e6e0     qt-mt323:qt-mt323.dll
+ 0005:000006e4       __imp_?qt_invoke@QLabel@@UAE_NHPAUQUObject@@@Z 0043e6e4     qt-mt323:qt-mt323.dll
+ 0005:000006e8       __imp_?qt_invoke@QLineEdit@@UAE_NHPAUQUObject@@@Z 0043e6e8     qt-mt323:qt-mt323.dll
+ 0005:000006ec       __imp_?qt_invoke@QPushButton@@UAE_NHPAUQUObject@@@Z 0043e6ec     qt-mt323:qt-mt323.dll
+ 0005:000006f0       __imp_?qt_invoke@QTextEdit@@UAE_NHPAUQUObject@@@Z 0043e6f0     qt-mt323:qt-mt323.dll
+ 0005:000006f4       __imp_?qt_invoke@QVBoxLayout@@UAE_NHPAUQUObject@@@Z 0043e6f4     qt-mt323:qt-mt323.dll
+ 0005:000006f8       __imp_?qt_property@QHBoxLayout@@UAE_NHHPAVQVariant@@@Z 0043e6f8     qt-mt323:qt-mt323.dll
+ 0005:000006fc       __imp_?qt_property@QLabel@@UAE_NHHPAVQVariant@@@Z 0043e6fc     qt-mt323:qt-mt323.dll
+ 0005:00000700       __imp_?qt_property@QLineEdit@@UAE_NHHPAVQVariant@@@Z 0043e700     qt-mt323:qt-mt323.dll
+ 0005:00000704       __imp_?qt_property@QPushButton@@UAE_NHHPAVQVariant@@@Z 0043e704     qt-mt323:qt-mt323.dll
+ 0005:00000708       __imp_?qt_property@QTextEdit@@UAE_NHHPAVQVariant@@@Z 0043e708     qt-mt323:qt-mt323.dll
+ 0005:0000070c       __imp_?qt_property@QVBoxLayout@@UAE_NHHPAVQVariant@@@Z 0043e70c     qt-mt323:qt-mt323.dll
+ 0005:00000710       __imp_?redo@QLineEdit@@UAEXXZ 0043e710     qt-mt323:qt-mt323.dll
+ 0005:00000714       __imp_?redo@QTextEdit@@UAEXXZ 0043e714     qt-mt323:qt-mt323.dll
+ 0005:00000718       __imp_?removeChild@QScrollView@@UAEXPAVQObject@@@Z 0043e718     qt-mt323:qt-mt323.dll
+ 0005:0000071c       __imp_?removeParagraph@QTextEdit@@UAEXH@Z 0043e71c     qt-mt323:qt-mt323.dll
+ 0005:00000720       __imp_?removeSelectedText@QTextEdit@@UAEXH@Z 0043e720     qt-mt323:qt-mt323.dll
+ 0005:00000724       __imp_?removeSelection@QTextEdit@@UAEXH@Z 0043e724     qt-mt323:qt-mt323.dll
+ 0005:00000728       __imp_?resetFormat@QTextEdit@@UAEXXZ 0043e728     qt-mt323:qt-mt323.dll
+ 0005:0000072c       __imp_?resize@QPushButton@@UAEXHH@Z 0043e72c     qt-mt323:qt-mt323.dll
+ 0005:00000730       __imp_?resize@QScrollView@@UAEXHH@Z 0043e730     qt-mt323:qt-mt323.dll
+ 0005:00000734       __imp_?resize@QWidget@@UAEXHH@Z 0043e734     qt-mt323:qt-mt323.dll
+ 0005:00000738       __imp_?resizeContents@QScrollView@@UAEXHH@Z 0043e738     qt-mt323:qt-mt323.dll
+ 0005:0000073c       __imp_?resizeEvent@QLabel@@MAEXPAVQResizeEvent@@@Z 0043e73c     qt-mt323:qt-mt323.dll
+ 0005:00000740       __imp_?resizeEvent@QLineEdit@@MAEXPAVQResizeEvent@@@Z 0043e740     qt-mt323:qt-mt323.dll
+ 0005:00000744       __imp_?resizeEvent@QPushButton@@MAEXPAVQResizeEvent@@@Z 0043e744     qt-mt323:qt-mt323.dll
+ 0005:00000748       __imp_?resizeEvent@QTextEdit@@MAEXPAVQResizeEvent@@@Z 0043e748     qt-mt323:qt-mt323.dll
+ 0005:0000074c       __imp_?scrollToAnchor@QTextEdit@@UAEXABVQString@@@Z 0043e74c     qt-mt323:qt-mt323.dll
+ 0005:00000750       __imp_?scrollToBottom@QTextEdit@@UAEXXZ 0043e750     qt-mt323:qt-mt323.dll
+ 0005:00000754       __imp_?selectAll@QLineEdit@@UAEXXZ 0043e754     qt-mt323:qt-mt323.dll
+ 0005:00000758       __imp_?selectAll@QTextEdit@@UAEX_N@Z 0043e758     qt-mt323:qt-mt323.dll
+ 0005:0000075c       __imp_?setAccel@QButton@@UAEXABVQKeySequence@@@Z 0043e75c     qt-mt323:qt-mt323.dll
+ 0005:00000760       __imp_?setAlignment@QLabel@@UAEXH@Z 0043e760     qt-mt323:qt-mt323.dll
+ 0005:00000764       __imp_?setAlignment@QLayoutItem@@UAEXH@Z 0043e764     qt-mt323:qt-mt323.dll
+ 0005:00000768       __imp_?setAlignment@QLineEdit@@UAEXH@Z 0043e768     qt-mt323:qt-mt323.dll
+ 0005:0000076c       __imp_?setAlignment@QTextEdit@@UAEXH@Z 0043e76c     qt-mt323:qt-mt323.dll
+ 0005:00000770       __imp_?setAutoAdd@QLayout@@UAEX_N@Z 0043e770     qt-mt323:qt-mt323.dll
+ 0005:00000774       __imp_?setAutoDefault@QPushButton@@UAEX_N@Z 0043e774     qt-mt323:qt-mt323.dll
+ 0005:00000778       __imp_?setAutoRepeat@QButton@@UAEX_N@Z 0043e778     qt-mt323:qt-mt323.dll
+ 0005:0000077c       __imp_?setAutoResize@QLabel@@UAEX_N@Z 0043e77c     qt-mt323:qt-mt323.dll
+ 0005:00000780       __imp_?setBold@QTextEdit@@UAEX_N@Z 0043e780     qt-mt323:qt-mt323.dll
+ 0005:00000784       __imp_?setBuddy@QLabel@@UAEXPAVQWidget@@@Z 0043e784     qt-mt323:qt-mt323.dll
+ 0005:00000788       __imp_?setColor@QTextEdit@@UAEXABVQColor@@@Z 0043e788     qt-mt323:qt-mt323.dll
+ 0005:0000078c       __imp_?setContentsPos@QScrollView@@UAEXHH@Z 0043e78c     qt-mt323:qt-mt323.dll
+ 0005:00000790       __imp_?setCornerWidget@QScrollView@@UAEXPAVQWidget@@@Z 0043e790     qt-mt323:qt-mt323.dll
+ 0005:00000794       __imp_?setCurrentFont@QTextEdit@@UAEXABVQFont@@@Z 0043e794     qt-mt323:qt-mt323.dll
+ 0005:00000798       __imp_?setCursorPosition@QLineEdit@@UAEXH@Z 0043e798     qt-mt323:qt-mt323.dll
+ 0005:0000079c       __imp_?setCursorPosition@QTextEdit@@UAEXHH@Z 0043e79c     qt-mt323:qt-mt323.dll
+ 0005:000007a0       __imp_?setDefault@QPushButton@@UAEX_N@Z 0043e7a0     qt-mt323:qt-mt323.dll
+ 0005:000007a4       __imp_?setDown@QButton@@UAEX_N@Z 0043e7a4     qt-mt323:qt-mt323.dll
+ 0005:000007a8       __imp_?setDragAutoScroll@QScrollView@@UAEX_N@Z 0043e7a8     qt-mt323:qt-mt323.dll
+ 0005:000007ac       __imp_?setDragEnabled@QLineEdit@@UAEX_N@Z 0043e7ac     qt-mt323:qt-mt323.dll
+ 0005:000007b0       __imp_?setEchoMode@QLineEdit@@UAEXW4EchoMode@1@@Z 0043e7b0     qt-mt323:qt-mt323.dll
+ 0005:000007b4       __imp_?setEnabled@QTextEdit@@UAEX_N@Z 0043e7b4     qt-mt323:qt-mt323.dll
+ 0005:000007b8       __imp_?setFamily@QTextEdit@@UAEXABVQString@@@Z 0043e7b8     qt-mt323:qt-mt323.dll
+ 0005:000007bc       __imp_?setFont@QLabel@@UAEXABVQFont@@@Z 0043e7bc     qt-mt323:qt-mt323.dll
+ 0005:000007c0       __imp_?setFont@QLineEdit@@UAEXABVQFont@@@Z 0043e7c0     qt-mt323:qt-mt323.dll
+ 0005:000007c4       __imp_?setFont@QTextEdit@@UAEXABVQFont@@@Z 0043e7c4     qt-mt323:qt-mt323.dll
+ 0005:000007c8       __imp_?setFormat@QTextEdit@@UAEXPAVQTextFormat@@H@Z 0043e7c8     qt-mt323:qt-mt323.dll
+ 0005:000007cc       __imp_?setFrame@QLineEdit@@UAEX_N@Z 0043e7cc     qt-mt323:qt-mt323.dll
+ 0005:000007d0       __imp_?setFrameRect@QFrame@@UAEXABVQRect@@@Z 0043e7d0     qt-mt323:qt-mt323.dll
+ 0005:000007d4       __imp_?setFrameStyle@QFrame@@UAEXH@Z 0043e7d4     qt-mt323:qt-mt323.dll
+ 0005:000007d8       __imp_?setGeometry@QBoxLayout@@UAEXABVQRect@@@Z 0043e7d8     qt-mt323:qt-mt323.dll
+ 0005:000007dc       __imp_?setGeometry@QPushButton@@UAEXABVQRect@@@Z 0043e7dc     qt-mt323:qt-mt323.dll
+ 0005:000007e0       __imp_?setGeometry@QPushButton@@UAEXHHHH@Z 0043e7e0     qt-mt323:qt-mt323.dll
+ 0005:000007e4       __imp_?setGeometry@QSpacerItem@@UAEXABVQRect@@@Z 0043e7e4     qt-mt323:qt-mt323.dll
+ 0005:000007e8       __imp_?setGeometry@QWidget@@UAEXABVQRect@@@Z 0043e7e8     qt-mt323:qt-mt323.dll
+ 0005:000007ec       __imp_?setGeometry@QWidget@@UAEXHHHH@Z 0043e7ec     qt-mt323:qt-mt323.dll
+ 0005:000007f0       __imp_?setGroup@QButton@@EAEXPAVQButtonGroup@@@Z 0043e7f0     qt-mt323:qt-mt323.dll
+ 0005:000007f4       __imp_?setHBarGeometry@QScrollView@@MAEXAAVQScrollBar@@HHHH@Z 0043e7f4     qt-mt323:qt-mt323.dll
+ 0005:000007f8       __imp_?setHScrollBarMode@QScrollView@@UAEXW4ScrollBarMode@1@@Z 0043e7f8     qt-mt323:qt-mt323.dll
+ 0005:000007fc       __imp_?setIsMenuButton@QPushButton@@UAEX_N@Z 0043e7fc     qt-mt323:qt-mt323.dll
+ 0005:00000800       __imp_?setItalic@QTextEdit@@UAEX_N@Z 0043e800     qt-mt323:qt-mt323.dll
+ 0005:00000804       __imp_?setLineWidth@QFrame@@UAEXH@Z 0043e804     qt-mt323:qt-mt323.dll
+ 0005:00000808       __imp_?setLinkUnderline@QTextEdit@@UAEX_N@Z 0043e808     qt-mt323:qt-mt323.dll
+ 0005:0000080c       __imp_?setMargin@QFrame@@UAEXH@Z 0043e80c     qt-mt323:qt-mt323.dll
+ 0005:00000810       __imp_?setMargin@QLayout@@UAEXH@Z 0043e810     qt-mt323:qt-mt323.dll
+ 0005:00000814       __imp_?setMargins@QScrollView@@MAEXHHHH@Z 0043e814     qt-mt323:qt-mt323.dll
+ 0005:00000818       __imp_?setMaxLength@QLineEdit@@UAEXH@Z 0043e818     qt-mt323:qt-mt323.dll
+ 0005:0000081c       __imp_?setMenuBar@QLayout@@UAEXPAVQMenuBar@@@Z 0043e81c     qt-mt323:qt-mt323.dll
+ 0005:00000820       __imp_?setMidLineWidth@QFrame@@UAEXH@Z 0043e820     qt-mt323:qt-mt323.dll
+ 0005:00000824       __imp_?setMimeSourceFactory@QTextEdit@@UAEXPAVQMimeSourceFactory@@@Z 0043e824     qt-mt323:qt-mt323.dll
+ 0005:00000828       __imp_?setModified@QTextEdit@@UAEX_N@Z 0043e828     qt-mt323:qt-mt323.dll
+ 0005:0000082c       __imp_?setMovie@QLabel@@UAEXABVQMovie@@@Z 0043e82c     qt-mt323:qt-mt323.dll
+ 0005:00000830       __imp_?setNum@QLabel@@UAEXH@Z 0043e830     qt-mt323:qt-mt323.dll
+ 0005:00000834       __imp_?setNum@QLabel@@UAEXN@Z 0043e834     qt-mt323:qt-mt323.dll
+ 0005:00000838       __imp_?setOn@QPushButton@@UAEX_N@Z 0043e838     qt-mt323:qt-mt323.dll
+ 0005:0000083c       __imp_?setOverwriteMode@QTextEdit@@UAEX_N@Z 0043e83c     qt-mt323:qt-mt323.dll
+ 0005:00000840       __imp_?setPalette@QLineEdit@@UAEXABVQPalette@@@Z 0043e840     qt-mt323:qt-mt323.dll
+ 0005:00000844       __imp_?setPalette@QTextEdit@@UAEXABVQPalette@@@Z 0043e844     qt-mt323:qt-mt323.dll
+ 0005:00000848       __imp_?setPaper@QTextEdit@@UAEXABVQBrush@@@Z 0043e848     qt-mt323:qt-mt323.dll
+ 0005:0000084c       __imp_?setParagType@QTextEdit@@UAEXW4DisplayMode@QStyleSheetItem@@W4ListStyle@3@@Z 0043e84c     qt-mt323:qt-mt323.dll
+ 0005:00000850       __imp_?setParagraphBackgroundColor@QTextEdit@@UAEXHABVQColor@@@Z 0043e850     qt-mt323:qt-mt323.dll
+ 0005:00000854       __imp_?setPicture@QLabel@@UAEXABVQPicture@@@Z 0043e854     qt-mt323:qt-mt323.dll
+ 0005:00000858       __imp_?setPixmap@QButton@@UAEXABVQPixmap@@@Z 0043e858     qt-mt323:qt-mt323.dll
+ 0005:0000085c       __imp_?setPixmap@QLabel@@UAEXABVQPixmap@@@Z 0043e85c     qt-mt323:qt-mt323.dll
+ 0005:00000860       __imp_?setPointSize@QTextEdit@@UAEXH@Z 0043e860     qt-mt323:qt-mt323.dll
+ 0005:00000864       __imp_?setReadOnly@QLineEdit@@UAEX_N@Z 0043e864     qt-mt323:qt-mt323.dll
+ 0005:00000868       __imp_?setReadOnly@QTextEdit@@UAEX_N@Z 0043e868     qt-mt323:qt-mt323.dll
+ 0005:0000086c       __imp_?setResizePolicy@QScrollView@@UAEXW4ResizePolicy@1@@Z 0043e86c     qt-mt323:qt-mt323.dll
+ 0005:00000870       __imp_?setSelection@QLineEdit@@UAEXHH@Z 0043e870     qt-mt323:qt-mt323.dll
+ 0005:00000874       __imp_?setSelection@QTextEdit@@UAEXHHHHH@Z 0043e874     qt-mt323:qt-mt323.dll
+ 0005:00000878       __imp_?setSelectionAttributes@QTextEdit@@UAEXHABVQColor@@_N@Z 0043e878     qt-mt323:qt-mt323.dll
+ 0005:0000087c       __imp_?setSpacing@QLayout@@UAEXH@Z 0043e87c     qt-mt323:qt-mt323.dll
+ 0005:00000880       __imp_?setState@QButton@@MAEXW4ToggleState@1@@Z 0043e880     qt-mt323:qt-mt323.dll
+ 0005:00000884       __imp_?setStyleSheet@QTextEdit@@UAEXPAVQStyleSheet@@@Z 0043e884     qt-mt323:qt-mt323.dll
+ 0005:00000888       __imp_?setTabStopWidth@QTextEdit@@UAEXH@Z 0043e888     qt-mt323:qt-mt323.dll
+ 0005:0000088c       __imp_?setText@QButton@@UAEXABVQString@@@Z 0043e88c     qt-mt323:qt-mt323.dll
+ 0005:00000890       __imp_?setText@QLabel@@UAEXABVQString@@@Z 0043e890     qt-mt323:qt-mt323.dll
+ 0005:00000894       __imp_?setText@QLineEdit@@UAEXABVQString@@@Z 0043e894     qt-mt323:qt-mt323.dll
+ 0005:00000898       __imp_?setText@QTextEdit@@UAEXABVQString@@0@Z 0043e898     qt-mt323:qt-mt323.dll
+ 0005:0000089c       __imp_?setTextFormat@QTextEdit@@UAEXW4TextFormat@Qt@@@Z 0043e89c     qt-mt323:qt-mt323.dll
+ 0005:000008a0       __imp_?setToggleType@QButton@@MAEXW4ToggleType@1@@Z 0043e8a0     qt-mt323:qt-mt323.dll
+ 0005:000008a4       __imp_?setUnderline@QTextEdit@@UAEX_N@Z 0043e8a4     qt-mt323:qt-mt323.dll
+ 0005:000008a8       __imp_?setUndoDepth@QTextEdit@@UAEXH@Z 0043e8a8     qt-mt323:qt-mt323.dll
+ 0005:000008ac       __imp_?setUndoRedoEnabled@QTextEdit@@UAEX_N@Z 0043e8ac     qt-mt323:qt-mt323.dll
+ 0005:000008b0       __imp_?setVBarGeometry@QScrollView@@MAEXAAVQScrollBar@@HHHH@Z 0043e8b0     qt-mt323:qt-mt323.dll
+ 0005:000008b4       __imp_?setVScrollBarMode@QScrollView@@UAEXW4ScrollBarMode@1@@Z 0043e8b4     qt-mt323:qt-mt323.dll
+ 0005:000008b8       __imp_?setValidator@QLineEdit@@UAEXPBVQValidator@@@Z 0043e8b8     qt-mt323:qt-mt323.dll
+ 0005:000008bc       __imp_?setVerticalAlignment@QTextEdit@@UAEXW4VerticalAlignment@1@@Z 0043e8bc     qt-mt323:qt-mt323.dll
+ 0005:000008c0       __imp_?setWordWrap@QTextEdit@@UAEXW4WordWrap@1@@Z 0043e8c0     qt-mt323:qt-mt323.dll
+ 0005:000008c4       __imp_?setWrapColumnOrWidth@QTextEdit@@UAEXH@Z 0043e8c4     qt-mt323:qt-mt323.dll
+ 0005:000008c8       __imp_?setWrapPolicy@QTextEdit@@UAEXW4WrapPolicy@1@@Z 0043e8c8     qt-mt323:qt-mt323.dll
+ 0005:000008cc       __imp_?show@QScrollView@@UAEXXZ 0043e8cc     qt-mt323:qt-mt323.dll
+ 0005:000008d0       __imp_?show@QWidget@@UAEXXZ 0043e8d0     qt-mt323:qt-mt323.dll
+ 0005:000008d4       __imp_?sizeHint@QBoxLayout@@UBE?AVQSize@@XZ 0043e8d4     qt-mt323:qt-mt323.dll
+ 0005:000008d8       __imp_?sizeHint@QLabel@@UBE?AVQSize@@XZ 0043e8d8     qt-mt323:qt-mt323.dll
+ 0005:000008dc       __imp_?sizeHint@QLineEdit@@UBE?AVQSize@@XZ 0043e8dc     qt-mt323:qt-mt323.dll
+ 0005:000008e0       __imp_?sizeHint@QPushButton@@UBE?AVQSize@@XZ 0043e8e0     qt-mt323:qt-mt323.dll
+ 0005:000008e4       __imp_?sizeHint@QSpacerItem@@UBE?AVQSize@@XZ 0043e8e4     qt-mt323:qt-mt323.dll
+ 0005:000008e8       __imp_?sizeHint@QTextEdit@@UBE?AVQSize@@XZ 0043e8e8     qt-mt323:qt-mt323.dll
+ 0005:000008ec       __imp_?spacerItem@QLayoutItem@@UAEPAVQSpacerItem@@XZ 0043e8ec     qt-mt323:qt-mt323.dll
+ 0005:000008f0       __imp_?spacerItem@QSpacerItem@@UAEPAV1@XZ 0043e8f0     qt-mt323:qt-mt323.dll
+ 0005:000008f4       __imp_?styleChange@QFrame@@MAEXAAVQStyle@@@Z 0043e8f4     qt-mt323:qt-mt323.dll
+ 0005:000008f8       __imp_?styleChange@QScrollView@@UAEXAAVQStyle@@@Z 0043e8f8     qt-mt323:qt-mt323.dll
+ 0005:000008fc       __imp_?sync@QTextEdit@@UAEXXZ 0043e8fc     qt-mt323:qt-mt323.dll
+ 0005:00000900       __imp_?undo@QLineEdit@@UAEXXZ 0043e900     qt-mt323:qt-mt323.dll
+ 0005:00000904       __imp_?undo@QTextEdit@@UAEXXZ 0043e904     qt-mt323:qt-mt323.dll
+ 0005:00000908       __imp_?updateMask@QPushButton@@MAEXXZ 0043e908     qt-mt323:qt-mt323.dll
+ 0005:0000090c       __imp_?viewportContextMenuEvent@QScrollView@@MAEXPAVQContextMenuEvent@@@Z 0043e90c     qt-mt323:qt-mt323.dll
+ 0005:00000910       __imp_?viewportDragEnterEvent@QScrollView@@MAEXPAVQDragEnterEvent@@@Z 0043e910     qt-mt323:qt-mt323.dll
+ 0005:00000914       __imp_?viewportDragLeaveEvent@QScrollView@@MAEXPAVQDragLeaveEvent@@@Z 0043e914     qt-mt323:qt-mt323.dll
+ 0005:00000918       __imp_?viewportDragMoveEvent@QScrollView@@MAEXPAVQDragMoveEvent@@@Z 0043e918     qt-mt323:qt-mt323.dll
+ 0005:0000091c       __imp_?viewportDropEvent@QScrollView@@MAEXPAVQDropEvent@@@Z 0043e91c     qt-mt323:qt-mt323.dll
+ 0005:00000920       __imp_?viewportMouseDoubleClickEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e920     qt-mt323:qt-mt323.dll
+ 0005:00000924       __imp_?viewportMouseMoveEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e924     qt-mt323:qt-mt323.dll
+ 0005:00000928       __imp_?viewportMousePressEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e928     qt-mt323:qt-mt323.dll
+ 0005:0000092c       __imp_?viewportMouseReleaseEvent@QScrollView@@MAEXPAVQMouseEvent@@@Z 0043e92c     qt-mt323:qt-mt323.dll
+ 0005:00000930       __imp_?viewportPaintEvent@QScrollView@@MAEXPAVQPaintEvent@@@Z 0043e930     qt-mt323:qt-mt323.dll
+ 0005:00000934       __imp_?viewportResizeEvent@QTextEdit@@MAEXPAVQResizeEvent@@@Z 0043e934     qt-mt323:qt-mt323.dll
+ 0005:00000938       __imp_?viewportWheelEvent@QScrollView@@MAEXPAVQWheelEvent@@@Z 0043e938     qt-mt323:qt-mt323.dll
+ 0005:0000093c       __imp_?wheelEvent@QScrollView@@MAEXPAVQWheelEvent@@@Z 0043e93c     qt-mt323:qt-mt323.dll
+ 0005:00000940       __imp_?widget@QLayoutItem@@UAEPAVQWidget@@XZ 0043e940     qt-mt323:qt-mt323.dll
+ 0005:00000944       __imp_?windowActivationChange@QLineEdit@@MAEX_N@Z 0043e944     qt-mt323:qt-mt323.dll
+ 0005:00000948       __imp_?windowActivationChange@QTextEdit@@MAEX_N@Z 0043e948     qt-mt323:qt-mt323.dll
+ 0005:0000094c       __imp_?zoomIn@QTextEdit@@UAEXH@Z 0043e94c     qt-mt323:qt-mt323.dll
+ 0005:00000950       __imp_?zoomIn@QTextEdit@@UAEXXZ 0043e950     qt-mt323:qt-mt323.dll
+ 0005:00000954       __imp_?zoomOut@QTextEdit@@UAEXH@Z 0043e954     qt-mt323:qt-mt323.dll
+ 0005:00000958       __imp_?zoomOut@QTextEdit@@UAEXXZ 0043e958     qt-mt323:qt-mt323.dll
+ 0005:0000095c       __imp_?zoomTo@QTextEdit@@UAEXH@Z 0043e95c     qt-mt323:qt-mt323.dll
+ 0005:00000960       __imp_?qstrcmp@@YAHPBD0@Z  0043e960     qt-mt323:qt-mt323.dll
+ 0005:00000964       __imp_?fromLatin1@QString@@SA?AV1@PBDH@Z 0043e964     qt-mt323:qt-mt323.dll
+ 0005:00000968       __imp_?fromUtf8@QString@@SA?AV1@PBDH@Z 0043e968     qt-mt323:qt-mt323.dll
+ 0005:0000096c       __imp_?slotOffset@QMetaObject@@QBEHXZ 0043e96c     qt-mt323:qt-mt323.dll
+ 0005:00000970       __imp_?new_metaobject@QMetaObject@@SAPAV1@PBDPAV1@QBUQMetaData@@H2HQBVQMetaProperty@@HQBUQMetaEnum@@HQBUQClassInfo@@H@Z 0043e970     qt-mt323:qt-mt323.dll
+ 0005:00000974       __imp_??0QMetaObjectCleanUp@@QAE@PBDP6APAVQMetaObject@@XZ@Z 0043e974     qt-mt323:qt-mt323.dll
+ 0005:00000978       __imp_??1QMetaObjectCleanUp@@QAE@XZ 0043e978     qt-mt323:qt-mt323.dll
+ 0005:0000097c       __imp_?setMetaObject@QMetaObjectCleanUp@@QAEXAAPAVQMetaObject@@@Z 0043e97c     qt-mt323:qt-mt323.dll
+ 0005:00000980       __imp_?translate@QApplication@@QBE?AVQString@@PBD00W4Encoding@1@@Z 0043e980     qt-mt323:qt-mt323.dll
+ 0005:00000984       __imp_?qt_cast@QDialog@@UAEPAXPBD@Z 0043e984     qt-mt323:qt-mt323.dll
+ 0005:00000988       __imp_?qt_invoke@QDialog@@UAE_NHPAUQUObject@@@Z 0043e988     qt-mt323:qt-mt323.dll
+ 0005:0000098c       __imp_?qt_emit@QDialog@@UAE_NHPAUQUObject@@@Z 0043e98c     qt-mt323:qt-mt323.dll
+ 0005:00000990       __imp_?qt_property@QDialog@@UAE_NHHPAVQVariant@@@Z 0043e990     qt-mt323:qt-mt323.dll
+ 0005:00000994       __imp_?staticMetaObject@QDialog@@SAPAVQMetaObject@@XZ 0043e994     qt-mt323:qt-mt323.dll
+ 0005:00000998       __imp_?begin@?$QValueList@VQString@@@@QAE?AV?$QValueListIterator@VQString@@@@XZ 0043e998     qt-mt323:qt-mt323.dll
+ 0005:0000099c       __imp_??E?$QValueListIterator@VQString@@@@QAEAAV0@XZ 0043e99c     qt-mt323:qt-mt323.dll
+ 0005:000009a0       __imp_??D?$QValueListIterator@VQString@@@@QAEAAVQString@@XZ 0043e9a0     qt-mt323:qt-mt323.dll
+ 0005:000009a4       __imp_??9?$QValueListIterator@VQString@@@@QBE_NABV0@@Z 0043e9a4     qt-mt323:qt-mt323.dll
+ 0005:000009a8       __imp_?writeRawBytes@QDataStream@@QAEAAV1@PBDI@Z 0043e9a8     qt-mt323:qt-mt323.dll
+ 0005:000009ac       __imp_??1QDataStream@@UAE@XZ 0043e9ac     qt-mt323:qt-mt323.dll
+ 0005:000009b0       __imp_??0QDataStream@@QAE@PAVQIODevice@@@Z 0043e9b0     qt-mt323:qt-mt323.dll
+ 0005:000009b4       __imp_??H@YA?BVQString@@PBDABV0@@Z 0043e9b4     qt-mt323:qt-mt323.dll
+ 0005:000009b8       __imp_??H@YA?BVQString@@ABV0@PBD@Z 0043e9b8     qt-mt323:qt-mt323.dll
+ 0005:000009bc       __imp_??H@YA?BVQString@@ABV0@0@Z 0043e9bc     qt-mt323:qt-mt323.dll
+ 0005:000009c0       __imp_??8@YA_NABVQString@@PBD@Z 0043e9c0     qt-mt323:qt-mt323.dll
+ 0005:000009c4       __imp_?startsWith@QString@@QBE_NABV1@@Z 0043e9c4     qt-mt323:qt-mt323.dll
+ 0005:000009c8       __imp_?cmd@QPaintDevice@@MAE_NHPAVQPainter@@PATQPDevCmdParam@@@Z 0043e9c8     qt-mt323:qt-mt323.dll
+ 0005:000009cc       __imp_?connectNotify@QObject@@MAEXPBD@Z 0043e9cc     qt-mt323:qt-mt323.dll
+ 0005:000009d0       __imp_?closeStdin@QProcess@@UAEXXZ 0043e9d0     qt-mt323:qt-mt323.dll
+ 0005:000009d4       __imp_?close@QWidget@@UAE_N_N@Z 0043e9d4     qt-mt323:qt-mt323.dll
+ 0005:000009d8       __imp_?className@QProcess@@UBEPBDXZ 0043e9d8     qt-mt323:qt-mt323.dll
+ 0005:000009dc       __imp_?childEvent@QObject@@MAEXPAVQChildEvent@@@Z 0043e9dc     qt-mt323:qt-mt323.dll
+ 0005:000009e0       __imp_?checkConnectArgs@QObject@@MAE_NPBDPBV1@0@Z 0043e9e0     qt-mt323:qt-mt323.dll
+ 0005:000009e4       __imp_?adjustSize@QWidget@@UAEXXZ 0043e9e4     qt-mt323:qt-mt323.dll
+ 0005:000009e8       __imp_?addArgument@QProcess@@UAEXABVQString@@@Z 0043e9e8     qt-mt323:qt-mt323.dll
+ 0005:000009ec       __imp_?accept@QDialog@@MAEXXZ 0043e9ec     qt-mt323:qt-mt323.dll
+ 0005:000009f0       __imp_?text@QLineEdit@@QBE?AVQString@@XZ 0043e9f0     qt-mt323:qt-mt323.dll
+ 0005:000009f4       __imp_?argv@QApplication@@QBEPAPADXZ 0043e9f4     qt-mt323:qt-mt323.dll
+ 0005:000009f8       __imp_?argc@QApplication@@QBEHXZ 0043e9f8     qt-mt323:qt-mt323.dll
+ 0005:000009fc       __imp_??1QProcess@@UAE@XZ  0043e9fc     qt-mt323:qt-mt323.dll
+ 0005:00000a00       __imp_??0QProcess@@QAE@PAVQObject@@PBD@Z 0043ea00     qt-mt323:qt-mt323.dll
+ 0005:00000a04       __imp_?remove@QDir@@UAE_NABVQString@@_N@Z 0043ea04     qt-mt323:qt-mt323.dll
+ 0005:00000a08       __imp_?rmdir@QDir@@UBE_NABVQString@@_N@Z 0043ea08     qt-mt323:qt-mt323.dll
+ 0005:00000a0c       __imp_?mkdir@QDir@@UBE_NABVQString@@_N@Z 0043ea0c     qt-mt323:qt-mt323.dll
+ 0005:00000a10       __imp_??1QDir@@UAE@XZ      0043ea10     qt-mt323:qt-mt323.dll
+ 0005:00000a14       __imp_??0QDir@@QAE@XZ      0043ea14     qt-mt323:qt-mt323.dll
+ 0005:00000a18       __imp_?baseName@QFileInfo@@QBE?AVQString@@_N@Z 0043ea18     qt-mt323:qt-mt323.dll
+ 0005:00000a1c       __imp_??1QFileInfo@@QAE@XZ 0043ea1c     qt-mt323:qt-mt323.dll
+ 0005:00000a20       __imp_??0QFileInfo@@QAE@ABVQString@@@Z 0043ea20     qt-mt323:qt-mt323.dll
+ 0005:00000a24       __imp_?currentDateTime@QDateTime@@SA?AV1@XZ 0043ea24     qt-mt323:qt-mt323.dll
+ 0005:00000a28       __imp_?toString@QDateTime@@QBE?AVQString@@ABV2@@Z 0043ea28     qt-mt323:qt-mt323.dll
+ 0005:00000a2c       __imp_?open@QFile@@UAE_NH@Z 0043ea2c     qt-mt323:qt-mt323.dll
+ 0005:00000a30       __imp_??1QFile@@UAE@XZ     0043ea30     qt-mt323:qt-mt323.dll
+ 0005:00000a34       __imp_??0QFile@@QAE@ABVQString@@@Z 0043ea34     qt-mt323:qt-mt323.dll
+ 0005:00000a38       __imp_??1QPixmap@@UAE@XZ   0043ea38     qt-mt323:qt-mt323.dll
+ 0005:00000a3c       __imp_??0QPixmap@@QAE@QAPBD@Z 0043ea3c     qt-mt323:qt-mt323.dll
+ 0005:00000a40       __imp_?information@QMessageBox@@SAHPAVQWidget@@ABVQString@@1111HH@Z 0043ea40     qt-mt323:qt-mt323.dll
+ 0005:00000a44       __imp_?clear@QGDict@@MAEXXZ 0043ea44     qt-mt323:qt-mt323.dll
+ 0005:00000a48       __imp_??1QGDict@@MAE@XZ    0043ea48     qt-mt323:qt-mt323.dll
+ 0005:00000a4c       __imp_??0QGDict@@IAE@IW4KeyType@0@_N1@Z 0043ea4c     qt-mt323:qt-mt323.dll
+ 0005:00000a50       __imp_?look_string@QGDict@@QAEPAXABVQString@@PAXH@Z 0043ea50     qt-mt323:qt-mt323.dll
+ 0005:00000a54       __imp_?count@QGDict@@UBEIXZ 0043ea54     qt-mt323:qt-mt323.dll
+ 0005:00000a58       __imp_?reject@QDialog@@MAEXXZ 0043ea58     qt-mt323:qt-mt323.dll
+ 0005:00000a5c       __imp_?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z 0043ea5c     qt-mt323:qt-mt323.dll
+ 0005:00000a60       __imp_?close@QWidget@@QAE_NXZ 0043ea60     qt-mt323:qt-mt323.dll
+ 0005:00000a64       __imp_?setIcon@QWidget@@UAEXABVQPixmap@@@Z 0043ea64     qt-mt323:qt-mt323.dll
+ 0005:00000a68       __imp_?deleteLater@QObject@@QAEXXZ 0043ea68     qt-mt323:qt-mt323.dll
+ 0005:00000a6c       __imp_?connect@QObject@@SA_NPBV1@PBD01@Z 0043ea6c     qt-mt323:qt-mt323.dll
+ 0005:00000a70       __imp_?killTimer@QObject@@QAEXH@Z 0043ea70     qt-mt323:qt-mt323.dll
+ 0005:00000a74       __imp_?startTimer@QObject@@QAEHH@Z 0043ea74     qt-mt323:qt-mt323.dll
+ 0005:00000a78       __imp_?timerId@QTimerEvent@@QBEHXZ 0043ea78     qt-mt323:qt-mt323.dll
+ 0005:00000a7c       __imp_??1QStringList@@QAE@XZ 0043ea7c     qt-mt323:qt-mt323.dll
+ 0005:00000a80       __imp_?insert@QTextEdit@@UAEXABVQString@@_N11@Z 0043ea80     qt-mt323:qt-mt323.dll
+ 0005:00000a84       __imp_?split@QStringList@@SA?AV1@ABVQString@@0_N@Z 0043ea84     qt-mt323:qt-mt323.dll
+ 0005:00000a88       __imp_??BQString@@QBEPBDXZ 0043ea88     qt-mt323:qt-mt323.dll
+ 0005:00000a8c       __imp_?remove@QString@@QAEAAV1@II@Z 0043ea8c     qt-mt323:qt-mt323.dll
+ 0005:00000a90       __imp_?lower@QString@@QBE?AV1@XZ 0043ea90     qt-mt323:qt-mt323.dll
+ 0005:00000a94       __imp_?arg@QString@@QBE?AV1@ABV1@H@Z 0043ea94     qt-mt323:qt-mt323.dll
+ 0005:00000a98       __imp_?length@QString@@QBEIXZ 0043ea98     qt-mt323:qt-mt323.dll
+ 0005:00000a9c       __imp_??4QString@@QAEAAV0@PBD@Z 0043ea9c     qt-mt323:qt-mt323.dll
+ 0005:00000aa0       __imp_??4QString@@QAEAAV0@ABV0@@Z 0043eaa0     qt-mt323:qt-mt323.dll
+ 0005:00000aa4       __imp_??1QString@@QAE@XZ   0043eaa4     qt-mt323:qt-mt323.dll
+ 0005:00000aa8       __imp_??0QString@@QAE@PBD@Z 0043eaa8     qt-mt323:qt-mt323.dll
+ 0005:00000aac       __imp_??0QString@@QAE@ABV?$QMemArray@D@@@Z 0043eaac     qt-mt323:qt-mt323.dll
+ 0005:00000ab0       __imp_??0QString@@QAE@ABV0@@Z 0043eab0     qt-mt323:qt-mt323.dll
+ 0005:00000ab4       __imp_??0QString@@QAE@XZ   0043eab4     qt-mt323:qt-mt323.dll
+ 0005:00000ab8       __imp_??B?$QMemArray@D@@QBEPBDXZ 0043eab8     qt-mt323:qt-mt323.dll
+ 0005:00000abc       __imp_?setRawData@?$QMemArray@D@@QAEAAV1@PBDI@Z 0043eabc     qt-mt323:qt-mt323.dll
+ 0005:00000ac0       __imp_?count@?$QMemArray@D@@QBEIXZ 0043eac0     qt-mt323:qt-mt323.dll
+ 0005:00000ac4       __imp_??1?$QMemArray@D@@UAE@XZ 0043eac4     qt-mt323:qt-mt323.dll
+ 0005:00000ac8       __imp_??0?$QMemArray@D@@QAE@ABV0@@Z 0043eac8     qt-mt323:qt-mt323.dll
+ 0005:00000acc       __imp_?imEndEvent@QLineEdit@@MAEXPAVQIMEvent@@@Z 0043eacc     qt-mt323:qt-mt323.dll
+ 0005:00000ad0       __imp_??0?$QMemArray@D@@QAE@XZ 0043ead0     qt-mt323:qt-mt323.dll
+ 0005:00000ad4       __imp_??1QGArray@@MAE@XZ   0043ead4     qt-mt323:qt-mt323.dll
+ 0005:00000ad8       __imp_?qWinMain@@YAXPAUHINSTANCE__@@0PADHAAHAAV?$QMemArray@PAD@@@Z 0043ead8     qt-mt323:qt-mt323.dll
+ 0005:00000adc       __imp_??0QGArray@@IAE@H@Z  0043eadc     qt-mt323:qt-mt323.dll
+ 0005:00000ae0       __imp_?duplicate@QGArray@@IAEAAV1@ABV1@@Z 0043eae0     qt-mt323:qt-mt323.dll
+ 0005:00000ae4       __imp_??_7?$QMemArray@H@@6B@ 0043eae4     qt-mt323:qt-mt323.dll
+ 0005:00000ae8       __imp_??_7?$QMemArray@_N@@6B@ 0043eae8     qt-mt323:qt-mt323.dll
+ 0005:00000aec       __imp_??_7?$QMemArray@D@@6B@ 0043eaec     qt-mt323:qt-mt323.dll
+ 0005:00000af0       __imp_??_7?$QMemArray@VQPoint@@@@6B@ 0043eaf0     qt-mt323:qt-mt323.dll
+ 0005:00000af4       __imp_??1QGList@@MAE@XZ    0043eaf4     qt-mt323:qt-mt323.dll
+ 0005:00000af8       __imp_?clear@QGList@@MAEXXZ 0043eaf8     qt-mt323:qt-mt323.dll
+ 0005:00000afc       __imp_??_7?$QPtrList@D@@6B@ 0043eafc     qt-mt323:qt-mt323.dll
+ 0005:00000b00       __imp_??_7?$QPtrList@VQObject@@@@6B@ 0043eb00     qt-mt323:qt-mt323.dll
+ 0005:00000b04       __imp_??_7?$QPtrList@VQWidget@@@@6B@ 0043eb04     qt-mt323:qt-mt323.dll
+ 0005:00000b08       \177qt-mt323_NULL_THUNK_DATA 0043eb08     qt-mt323:qt-mt323.dll
+ 0005:00000d04       __IMPORT_DESCRIPTOR_qt-mt323 0043ed04     qt-mt323:qt-mt323.dll
+ 0005:00000d18       __IMPORT_DESCRIPTOR_KERNEL32 0043ed18     kernel32:KERNEL32.dll
+ 0005:00000d2c       __IMPORT_DESCRIPTOR_SHELL32 0043ed2c     shell32:SHELL32.dll
+ 0005:00000d40       __IMPORT_DESCRIPTOR_MSVCR120 0043ed40     MSVCRT:MSVCR120.dll
+ 0005:00000d54       __NULL_IMPORT_DESCRIPTOR   0043ed54     qt-mt323:qt-mt323.dll

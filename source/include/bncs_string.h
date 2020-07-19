@@ -20,6 +20,7 @@
 #endif
 
 #include <string>
+#include <Windows.h>
 
 class DO_STRING_EXPORT bncs_string  
 {
@@ -29,6 +30,7 @@ private:
 	unsigned int len;
 	bncs_string & decrementPlaceholders( void );
 	bool iswhitespace( char c ) const;
+	bncs_string(char * in, bool noCopy);
 public:
 	// construction / destruction
 	bncs_string( const char* in);
@@ -37,7 +39,7 @@ public:
 	bncs_string( int in, char pad = 0, unsigned int padto =0 , int base = 10 );
 	bncs_string( double in, int digits, char pad = 0, unsigned int padto = 0 );
 	bncs_string( char in );
-	bncs_string( const std::string & in);
+	bncs_string(const std::string & in):bncs_string(in.c_str()){};
 
 // 	// Move constructor.
 // 	bncs_string( bncs_string && other );
@@ -49,7 +51,17 @@ public:
 	char & operator[]( int pos );
 	operator const char*() const;
 	operator int() const;
-	operator std::string() const;
+
+	// was removed to save cross-compiler version woes - std::string will just happily construct with a const char*
+	// reinstated as test
+/*	operator std::string() const
+	{
+		if (buf)
+			return std::string(buf);
+		else
+			return std::string();
+	};
+	*/
 	// operator double() has been removed as it causes ambiguity problems.
 	// Use toDouble().
 //	operator double() const;
@@ -116,8 +128,8 @@ public:
 
 	bncs_string left( unsigned int length ) const;
 	bncs_string right( unsigned int length ) const;
-	
-	bncs_string mid( unsigned int start, unsigned int length ) const;
+#pragma message("bncs_string.h(132): mid default parameter was changed - make sure you check this (feel free to delete this message from bncs_string.h)")
+	bncs_string mid( unsigned int start, unsigned int length=MAXUINT ) const;
 
 	bncs_string lower( void ) const;
 	bncs_string upper( void ) const;
@@ -125,7 +137,7 @@ public:
 	bncs_string simplifyWhiteSpace( void ) const;
 
 	bncs_string arg( const bncs_string & in )  const;
-	bncs_string arg( const char* in  ) const;
+	bncs_string arg(const char* in) const;
 	bncs_string arg( int in, char pad=0, unsigned int padto = 0, int base = 10 ) const;
 	bncs_string arg( long in ) const;
 

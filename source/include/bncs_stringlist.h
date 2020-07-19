@@ -81,12 +81,15 @@ public:
 	typedef bncs_stringlistIterator iterator;
 
 	bncs_stringlist & operator=( const bncs_stringlist & in );
+	bool operator==(const bncs_stringlist& other) const;
+	bool operator!=(const bncs_stringlist& other) const;
 	
 	bncs_stringlist();
 	bncs_stringlist( const bncs_string & in, const char delim = ',' );
 	bncs_stringlist( const bncs_stringlist & in );
 	virtual ~bncs_stringlist();
 	bncs_string & operator[]( int pos );
+	const bncs_string & operator[]( int pos ) const;
 	operator const char*( void );
 	int count( void ) const;
 	bncs_string toString( const char delim = ',' );
@@ -113,6 +116,7 @@ public:
 	bncs_string getNamedParam( const bncs_string & in );
 	void clear(); 
 	void setCount( int, const bncs_string & def = "" );
+	int contentDiff(const bncs_stringlist & other, bool numeric, bncs_stringlist & additions, bncs_stringlist & deletions);
 private:
 	bncs_stringlistPrivate *m_priv;
 	bncs_string outputString;

@@ -1,6 +1,6 @@
 /*************************************/
 /* Written by David Yates            */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #if !defined(AFX_CCCLIENT_H__5BC0221D_E447_4DF8_9175_8C8AB169AAAE__INCLUDED_)
 #define AFX_CCCLIENT_H__5BC0221D_E447_4DF8_9175_8C8AB169AAAE__INCLUDED_
@@ -119,22 +119,22 @@ public:
 	long version( void );
 
 	// router commands
-	void routerCrosspoint( int device, int index, int info, const string & mask = ",---", bool now = false );
+	void routerCrosspoint( int device, int index, int info, const string & mask = ",---", bool now = false, int workstationOverride=0 );
 	void routerPoll( int device, int start, int end, bool now = false );
 	void routerQuery( int device, int start, int end, bool now = false );
-	void routerLock( int device, int start, int end, bool lock, bool now = false );
+	void routerLock(int device, int start, int end, bool lock, bool now = false, int workstationOverride = 0);
 	void routerFile( int device );
 	// infodriver commands
-	void infoWrite( int device, int index, const string & value, bool now = false  );
+	void infoWrite(int device, int index, const string & value, bool now = false, int workstationOverride = 0);
 	void infoPoll( int device, int start, int end, bool now = false );
 	void infoQuery( int device, int start, int end, bool now = false );
-	void infoLock( int device, int start, int end, bool lock, bool now = false );
+	void infoLock(int device, int start, int end, bool lock, bool now = false, int workstationOverride = 0);
 //	void infoFile( int device, const string & value, const string & filename, bool append );	// NEEDS INVESTIGATION!!
 //	void infoDirectory( );																		// NEEDS INVESTIGATION!!
 	// gpi commands
-	void gpiSwitch( int device, int index, bool state, bool now = false  );
+	void gpiSwitch(int device, int index, bool state, bool now = false, int workstationOverride = 0);
 	void gpiFile( int device );
-	void gpiLock( int device, int start, int end, bool lock, bool now = false );
+	void gpiLock(int device, int start, int end, bool lock, bool now = false, int workstationOverride = 0);
 	void gpiPoll( int device, int start, int end, bool now = false );
 	void gpiQuery( int device, int start, int end, bool now = false );
 
@@ -142,12 +142,12 @@ public:
 	void deviceMessage( int workstation, int device, const string & message, int reference );
 
 	// profile
-	void deviceProfile( int driver, int & version, int & sources, int & dests );
+	void deviceProfile(int driver, int & version, int & sources, int & dests, string & db = string());
 
 	// database commands
 	bool databaseName( int device, int index, int database, string & out );
 	int databaseIndex( int device, int database, const string & name );
-	bool databaseModify( int device, int index, int database, const string & name, bool tallyDump = false );
+	bool databaseModify(int device, int index, int database, const string & name, bool tallyDump = false, bool includeHandle = false, int workstationOverride = 0);
 
 	// registrations
 	void revertiveRegister( int device, int start, int end, bool overwrite = true, int iType = cc::IP );
@@ -155,7 +155,7 @@ public:
 	void revertiveDeregisterAll( void );
 	
 	// cache commands
-	bool cacheValue( int device, int index, string & out );
+	bool cacheValue(int device, int index, string & out, int * num =0 );
 	int cacheIndex( int device, int start, int end, const string & value );
 	void cacheEnable( bool );
 	bool cacheTest( int device, int start, int end );
@@ -163,7 +163,7 @@ public:
 	bool isCacheEnabled( void );
 
 	// class connection commands
-	bool connect( enum cc::ipcType ipc = cc::wm, long ipcOptions=0 );
+	bool connect( enum cc::ipcType ipc = cc::bbc, long ipcOptions=0 );
 	bool isConnected( void );
 	bool disconnect( void );
 
@@ -186,6 +186,13 @@ public:
 	void sendConfigChangeMessage( const string & msg );
 
 	void flushDatabaseCache( int device = 0 );
+
+	unsigned int maxDevices(void);
+	unsigned int maxIndexes(void);
+	unsigned int maxSources(void);
+	unsigned int maxDatabases(void);
+	unsigned int maxString(void);
+	int workstation(void);
 private:
 	IccClientCallback *m_callback;
 	HWND m_hWndMessage;
@@ -210,7 +217,7 @@ private:
 	LRESULT BNCSSendMessage( UINT uMsg, WPARAM wParam, LPARAM lParam, int dataLen, int expectedReturnDataLen, int iDataType );
 	void deviceQuery( char type, int device, int start, int end, bool now );
 	void devicePoll( char type, int device, int start, int end, bool now );
-	void deviceLock( char type, int device, int start, int end, bool lock, bool now = false );	
+	void deviceLock( char type, int device, int start, int end, bool lock, bool now = false, int workstationOverride=0 );	
 	void deviceFile( char type, int device );
 };
 

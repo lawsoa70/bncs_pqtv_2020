@@ -1,6 +1,7 @@
 
 #include <qmap.h>
 #include <qstringlist.h>
+#include <QDateTime.h>
 #include <qdom.h>
 
 #ifndef STYLESHEET_INCLUDED
@@ -50,7 +51,8 @@ public:
 	const QStringList settingslist( QString & style );
 
 	static bool load( void );
-	static int count( void );
+	static bool doLoad(void);
+	static int count(void);
 	static bool reLoad( void );
 
 private:
@@ -59,6 +61,7 @@ private:
 
 	// Added by PL to allow stylesheet editor to work 14/02/07
 	static QString m_sFilename;
+	static QDateTime m_sLastModified;
 
 public:
 	// Added by PL to allow stylesheet editor to work 14/02/07

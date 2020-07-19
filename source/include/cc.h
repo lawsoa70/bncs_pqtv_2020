@@ -1,6 +1,6 @@
 /*************************************/
 /* Written by David Yates            */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #if !defined(AFX_CC_H__2F6043C9_824C_427B_A99E_BEB42E154EE6__INCLUDED_)
 #define AFX_CC_H__2F6043C9_824C_427B_A99E_BEB42E154EE6__INCLUDED_

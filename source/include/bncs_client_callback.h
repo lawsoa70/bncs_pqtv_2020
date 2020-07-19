@@ -1,6 +1,6 @@
 /*************************************/
 /* Original Version by David Yates   */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
 
@@ -45,7 +45,7 @@ public:
 	int iDatabase;		
 	int iIndex;				// infodriver slot number / router index
 	int iInfo;				// router source number / gpi state
-	char szInfo[ 256 ];		// infodriver slot contents / router source name
+	const char *szInfo;		// infodriver slot contents / router source name
 	enum revertiveType type;
 	const char *szDevice;	// NYI
 	const char *szIndex;	// NYI

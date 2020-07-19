@@ -21,9 +21,16 @@ Version History
 	#define BNCS32_INCLUDED
 
 #define CBDATA_SIZE_NUMERIC	16
-#define CBDATA_SIZE_POINTER	513
+
+#pragma message("bncs32.h: this value for CBDATA_SIZE_POINTER is incorrect - the size should be 512, but where a buffer might want to be 513 (for null term)")
+#pragma message("bncs32.h: use CBDATA_SIZE_POINTER_BUFFER OR CBDATA_SIZE_POINTER_DATA")
+#define CBDATA_SIZE_POINTER	513		// this value misued to size buffers and as the size of data to pass about. This should be 512 bytes
+#define CBDATA_SIZE_POINTER_BUFFER 513	// the size of a null terminated buffer 
+#define CBDATA_SIZE_POINTER_DATA 512	// the maximum size of the data to be passed 
+
 #define CBDATA_TYPE_NUMERIC	0
 #define CBDATA_TYPE_POINTER	1
+
 
 #endif // BNCS32_INCLUDED
 

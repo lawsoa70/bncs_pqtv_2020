@@ -1,6 +1,6 @@
 /****************************************************/
 /* Written by David Yates                           */
-/* Copyright Siemens IT Solutions and Services 2008 */
+/* Copyright Atos 2008 */
 /****************************************************/
 #include <windows.h>
 
@@ -79,7 +79,8 @@ public:
 	void routerPoll( int device, int start, int end, bool when = LATER );
 
 	bool reg( IccClientCallback *w, int device, int min, int max, int insert = OVERWRITE );
-	void unreg( IccClientCallback *w, int device=0, int slot = 0 );
+	void unreg(IccClientCallback *w, int device = 0);
+	void unreg(IccClientCallback *w, int device, int slot);
 	int totalRegistrations( void );
 	int deletedRegistrations( void );
 	void dumpRegistrations( void );

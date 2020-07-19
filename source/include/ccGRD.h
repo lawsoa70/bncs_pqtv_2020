@@ -1,6 +1,6 @@
 /*************************************/
 /* Written by David Yates            */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 #if !defined(AFX_ccGrd_H__959C69A9_22CC_4486_8F52_4687AE0071A8__INCLUDED_)
 #define AFX_ccGrd_H__959C69A9_22CC_4486_8F52_4687AE0071A8__INCLUDED_
@@ -94,12 +94,19 @@ public:
 	void setRedundancyState( enum cc::redundancyState state );
 	void setDriverState( enum cc::driverState state, bool forceNow=false );
 	enum cc::redundancyState redundancyState( void );
-	void clientMessage( int workstation, int device, const string & message, const string & client, const string & reference );
+	int setRedundancyMaster(int device);
+	void clientMessage(int workstation, int device, const string & message, const string & client, const string & reference);
 
 	void setCloseHostOnExit( bool close = false );
 	bool counters( unsigned int & tx, unsigned int & rx );
 	void resetCounters( void );
 	void loadIndexMapping( void );
+
+	unsigned int maxDevices(void);
+	unsigned int maxIndexes(void);
+	unsigned int maxSources(void);
+	unsigned int maxDatabases(void);
+
 private:
 	IccGrdCallback *m_callback;
 	HWND m_hWndMessage;

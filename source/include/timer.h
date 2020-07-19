@@ -1,6 +1,6 @@
 /*************************************/
 /* Written by David Yates            */
-/* Copyright Siemens IT Systems 2008 */
+/* Copyright Atos 2008 */
 /*************************************/
 #if !defined(AFX_TIMER_H__9A63121B_3762_4665_89A8_3674A4613859__INCLUDED_)
 #define AFX_TIMER_H__9A63121B_3762_4665_89A8_3674A4613859__INCLUDED_

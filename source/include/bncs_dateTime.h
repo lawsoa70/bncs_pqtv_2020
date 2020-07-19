@@ -8,6 +8,22 @@
 #include <windows.h>
 #include <stdio.h>
 
+struct bncs_date
+{
+	int day;
+	int month;
+	int year;
+	int dayOfWeek;
+};
+
+struct bncs_time
+{
+	int hour;
+	int minute;
+	int second;
+	int millisecond;
+};
+
 class bncs_dateTime  
 {
 public:
@@ -47,12 +63,16 @@ public:
 	bool operator!=( const bncs_dateTime & in ) const;
 
 	__int64 difference( const bncs_dateTime & in ) const;
-	DWORD difference_seconds( const bncs_dateTime & in ) const;
+	__int64 difference_seconds(const bncs_dateTime & in) const;
 	__int64 difference_milliseconds( const bncs_dateTime & in ) const;
 
 	operator __int64() const; 
 	void clear( void );
 	bool isNull( void ) const;
+	void dump( const char* ) const;
+
+	bncs_time time( void ) const;
+	bncs_date date( void ) const;
 private:	// vars
 	FILETIME m_ftDateTime;
 	char m_outputString[ 64 ];

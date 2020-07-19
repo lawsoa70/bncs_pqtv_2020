@@ -35,6 +35,7 @@ public:
 	
 	enum driverType
 	{
+		none = 0,
 		info=1,
 		GPI,
 		router
@@ -42,6 +43,7 @@ public:
 public:
 	enum driverType type;
 	QMap< QString, paramInfo > params;
+	int slotSpacing;
 
 };
 

@@ -1,6 +1,6 @@
 /*++
 
-Copyright (c) 2000-2001  BBC Technology Ltd
+Copyright (c) 2000-2017 Atos
 
 Module Name:
 
@@ -38,10 +38,14 @@ Revision History:
   v4.2.0		16/2/2015			makes get mode return internal status value rather than going to infodriver (we should already know this information)
 									makes BBC_SLOTMSG asynchronous (defers for later processing)
 									adds static version string
+  v4.3.0		21/07/16			reworks static version string, adds build url
+  v4.4.0		07/11/16			uses handleshare DLL to do away with HWND_BROADCAST
 */
 
 #if !defined(AFX_EXTINFO_H__A9DB83DB_A9FD_11D0_BFD1_444553540000__INCLUDED_)
 #define AFX_EXTINFO_H__A9DB83DB_A9FD_11D0_BFD1_444553540000__INCLUDED_
+
+#define __EXTINFO_VERSION__ "4.4"
 
 #include <bncsdef.h>
 

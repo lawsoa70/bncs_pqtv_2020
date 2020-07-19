@@ -1,6 +1,6 @@
 /*************************************/
 /* Original Version by David Yates   */
-/* Copyright Siemens IT Systems 2007 */
+/* Copyright Atos 2007 */
 /*************************************/
 
 // dCW.h: interface for the dCW class.
@@ -28,6 +28,12 @@ using namespace std;
 #else
 	#define DO_EXPORT
 #endif
+
+class DO_EXPORT IdCWlimits
+{
+public:
+	virtual void userObjects( unsigned int count )=0;
+};
 
 class  DO_EXPORT dCW  
 {
@@ -85,6 +91,8 @@ public:
 							bool fCreateTopLevel = true, 
 							bool fSizeParent = true, 
 							QString path="");
+
+	static void setUserLimitsCallback( IdCWlimits *gUserLimitsCallback, unsigned int threshold );
 private:
 	static QStyle *m_pStyle;
 	double dDeltaW;
@@ -94,6 +102,8 @@ private:
 	QString sFileName; //temp for tests
 	signalConnectionRefList m_connectionList;
 	static bool m_developerMode;
+	static IdCWlimits *gUserLimitsCallback;
+	static unsigned int gUserLimitsThreshold;
 public:
 	signalConnectionRefList connectionList( void );
 	QString name( void );

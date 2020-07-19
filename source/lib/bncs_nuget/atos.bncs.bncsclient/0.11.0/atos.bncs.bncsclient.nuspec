@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Atos.BNCS.BncsClient</id>
+    <version>0.11.0</version>
+    <title>BncsClient</title>
+    <authors>BNCS</authors>
+    <owners>BNCS</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Managed version of ccClient. NOT READY FOR PRODUCTION USE</description>
+    <releaseNotes>Adds string size</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>BncsClient bncs core client csi revertive infodriver grd</tags>
+  </metadata>
+</package>
