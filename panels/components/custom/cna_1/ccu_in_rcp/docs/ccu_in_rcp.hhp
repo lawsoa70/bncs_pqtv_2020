@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\ccu_in_rcp.chm
+Default Window=main
+Default topic=ccu_in_rcp.html
+Display compile notes=No
+Display compile progress=No
+Full-text search=Yes
+Language=0x809 English (United Kingdom)
+ 
+[WINDOWS]
+main="ccu_in_rcp",,,"ccu_in_rcp.html","ccu_in_rcp.html",,,,,0x22420,,0x204e,[0,0,700,800],,,,1,,,0
+ 
+
+[FILES]
+*.html
+ 
+[INFOTYPES]

@@ -1,0 +1,1112 @@
+<!DOCTYPE stylesheet>
+<stylesheet>
+  <style type="state" suitablefor="generic" name="1080" description="" >
+    <setting value="colour.background=#ff4422" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="1080i" description="" >
+    <setting value="colour.background=#66aa66" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="525" description="" >
+    <setting value="colour.background=#ff4422" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="625" description="" >
+    <setting value="colour.background=#ff4422" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="720" description="" >
+    <setting value="colour.background=#ff4422" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="style" suitablefor="range control" name="Param_Updown" description="Decoration for range control to show up/down arros" >
+    <setting value="font.face=arial" />
+    <setting value="font.style=bold " />
+    <setting value="font.size=10" />
+    <setting value="colour.background=#cccccc" />
+    <setting value="pixmap=/images/decoration_updown.png" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_ack" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_alarm" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_forceoff" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_forceon" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_ignore" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_latched" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_ok" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="state" suitablefor="Alarm System" name="alarm_unknown" description="Alarm State - there is no alarm system so DO NOT USE" >
+    <setting value="colour.background=#AE32DC" />
+    <setting value="colour.text=#AE32DC" />
+  </style>
+  <style type="style" suitablefor="generic" name="arrivals_label" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffffff" />
+    <setting value="textalign=left" />
+  </style>
+  <style type="style" suitablefor="generic" name="arrivals_label_centred" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="audio_clipped" description="Audio state indication - Clipped" >
+    <setting value="colour.background=#ff0000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="audio_na" description="Audio state indication - NA" >
+    <setting value="colour.background=#808080" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="audio_ok" description="Audio state indication - OK" >
+    <setting value="colour.background=#008000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="audio_silence" description="Audio state indication - Silence" >
+    <setting value="colour.background=#FFA811" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="background_discrete" description="" >
+    <setting value="colour.background=#4c4c4c" />
+    <setting value="colour.text=#888888" />
+    <setting value="font.size=-5" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="black_keyboard_button" description="" >
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="pixmapstretch=true" />
+    <setting value="pixmap=/images/bg_title_fill.png" />
+  </style>
+  <style type="style" suitablefor="generic" name="black_keyboard_button_small" description="" >
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="pixmapstretch=true" />
+    <setting value="pixmap=/images/bg_title_fill.png" />
+  </style>
+  <style type="" suitablefor="generic" name="bypassed" description="" >
+    <setting value="font.size=2" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ff0000" />
+    <setting value="textalign=topleft" />
+  </style>
+  <style type="state" suitablefor="generic" name="cam_rev_tb_off" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="cam_rev_tb_on" description="" >
+    <setting value="colour.background=#008000" />
+    <setting value="colour.text=#ffffff" />
+  </style>
+  <style type="style" suitablefor="ifb_column component" name="clean_feed_tally" description="Clean feed tally base style" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="state" suitablefor="ifb_column component" name="clean_feed_tally_select_off" description="Clean feed state when SEL is OFF" >
+    <setting value="colour.text=#00ff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="ifb_column component" name="clean_feed_tally_select_on" description="Clean feed state when SEL is ON" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffff00" />
+  </style>
+  <style type="state" suitablefor="generic" name="default" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_deselected" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_locked" description="" >
+    <setting value="colour.background=dark red" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_mixlocked" description="" >
+    <setting value="colour.background=orange" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_package_locked" description="" >
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_package_unlocked" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_selected" description="" >
+    <setting value="colour.background=#00FF00" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="dest_style" description="" >
+    <setting value="pixmapalign=topright" />
+  </style>
+  <style type="state" suitablefor="generic" name="dest_unlocked" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="destgrid_tally" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="style" suitablefor="generic" name="destgrid_tally_audio" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#00ff00" />
+    <setting value="colour.background=#000000" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="generic" name="destgrid_tally_audio_mixed" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.background=#ffff7f" />
+  </style>
+  <style type="style" suitablefor="generic" name="destgrid_tally_small" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="destgrid_tally_small_warning" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ffaa00" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="generic" name="destgrid_tally_smart" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+    <setting value="style=label" />
+    <setting value="sizepolicy=shrinktofit" />
+  </style>
+  <style type="state" suitablefor="generic" name="destgroup_deselected" description="" >
+    <setting value="colour.background=#006000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="destgroup_selected" description="" >
+    <setting value="colour.background=#00c000" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="destpackage_tally" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="destpage_deselected" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#008000" />
+  </style>
+  <style type="state" suitablefor="generic" name="destpage_selected" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#00ff00" />
+  </style>
+  <style type="state" suitablefor="Name Editor States" name="edit_name_deselected" description="" >
+    <setting value="colour.text=" />
+    <setting value="colour.background=" />
+  </style>
+  <style type="state" suitablefor="Name Editor States" name="edit_name_selected" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#0000ff" />
+  </style>
+  <style type="state" suitablefor="generic" name="embed_off" description="Display embedder output OFF" >
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="embed_on" description="Display embedder output ON" >
+    <setting value="colour.background=#00ff00" />
+  </style>
+  <style type="style" suitablefor="generic" name="embedded_level" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#4d4d4d" />
+    <setting value="textalign=left" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="embedded_level_small" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=8" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#4d4d4d" />
+    <setting value="textalign=left" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="embedder audio mode" name="embedder_mode" description="Large label to indicate embedder mode - stereo, 5.1, multi-track" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="state" suitablefor="embedder mode" name="embedder_mode_inactive" description="Inactive state for embedder mode" >
+    <setting value="colour.text=#808080" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="embedder_mode_multi" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffff00" />
+  </style>
+  <style type="state" suitablefor="generic" name="embedder_mode_stereo" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="embedder_mode_surround" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#00ffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_alarm" description="alarm/bad state for enumerated parameters - e.g. unlocked" >
+    <setting value="colour.background=#ff0000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_deselected" description="deselected state for enumerated parameters" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_normal" description="normal state for enumerated parameters - e.g. 625 detected within a usually 625 system. Used (in preference to enum_ok) for writable parameters" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#66aa66" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_notimportant" description="not important state for enumerated parameters - e.g. where you need to show a value but that it's not relevant or important in this context" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=#888888" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_notnormal" description="not normal state for enumerated parameters - e.g. 525 detected within a usually 625 system. Used (in preference to enum_warning) for writable parameters" >
+    <setting value="colour.background=#ff6644" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_ok" description="ok/good state for enumerated parameters - e.g. locked. Used (in preference to enum_normal) for readonly parameters" >
+    <setting value="colour.background=#008000" />
+    <setting value="colour.text=#ffffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_selected" description="selected state for enumerated parameters" >
+    <setting value="colour.background=#80e080" />
+    <setting value="colour.text=#black" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_unknown" description="When a state is unknown" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=#777777" />
+  </style>
+  <style type="state" suitablefor="generic" name="enum_warning" description="warning state for enumerated parameters. Used (in preference to enum_notnormal) for readonly parameters" >
+    <setting value="colour.background=#FFA811" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="fader_closed" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#cccccc" />
+  </style>
+  <style type="state" suitablefor="generic" name="fader_open" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="state" suitablefor="generic" name="field_modified" description="Shows that a field in an editor has a value that has been modified and should be saved" >
+    <setting value="colour.background=#ffff7f" />
+  </style>
+  <style type="state" suitablefor="generic" name="field_unmodified" description="Shows that a field in an editor has a value that has not been modified" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffffff" />
+  </style>
+  <style type="style" suitablefor="generic" name="group_box_sta" description="" >
+    <setting value="font.size=1" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#a12e21" />
+    <setting value="textalign=topleft" />
+  </style>
+  <style type="style" suitablefor="generic" name="group_box_stb" description="" >
+    <setting value="font.size=2" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#4b7100" />
+    <setting value="textalign=topleft" />
+  </style>
+  <style type="style" suitablefor="generic" name="group_box_stc" description="" >
+    <setting value="font.size=1" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#d1f2fa" />
+    <setting value="textalign=topleft" />
+  </style>
+  <style type="state" suitablefor="generic" name="group_deselected" description="" >
+    <setting value="colour.background=#008000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="group_selected" description="" >
+    <setting value="colour.background=#00f000" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="groupbox" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+	<setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="groupbox_comms" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#78cf65" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="generic" name="groupbox_light_blue" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#323296" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="generic" name="groupbox_light_cyan" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#329696" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="generic" name="groupbox_light_greeen" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#329632" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="generic" name="groupbox_light_red" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#963232" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="generic" name="groupbox_sdi" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#7575af" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="generic" name="groupbox_warning" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#9a4e48" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="generic" name="groupboxnotlsm" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#52f57b" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="setting" suitablefor="nothing" name="grouplabel" description="Now back in use for what it says" >
+    <setting value="font.size=2" />
+    <setting value="style=label" />
+    <setting value="sizepolicy=shrinktofit" />
+  </style>
+  <style type="state" suitablefor="Highlight Sport Out" name="highlight_off" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="Highlight Sport Out" name="highlight_on" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffaa00" />
+  </style>
+  <style type="state" suitablefor="ifb_queue" name="ifb_queue_connected" description="IFB Queue state - AVAILABLE_CONNECTED" >
+    <setting value="colour.background=#00ff00" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="ifb_queue_error" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="state" suitablefor="ifb_queue" name="ifb_queue_not_available" description="IFB Queue state - NOT_AVAILABLE" >
+    <setting value="colour.background=#404040" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="ifb_queue" name="ifb_queue_not_requested" description="IFB Queue state - AVAILABLE_NOT_REQUESTED" >
+    <setting value="colour.background=#c0c0c0" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="ifb_queue" name="ifb_queue_requested_next" description="IFB Queue state - AVAILABLE_REQUESTED_NEXT" >
+    <setting value="colour.background=#ffa811" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="ifb_queue" name="ifb_queue_requested_queued" description="IFB Queue state - AVAILABLE_REQUESTED_QUEUED" >
+    <setting value="colour.background=#ffff7f" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="style" suitablefor="generic" name="input_tally" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="generic" name="ipcr_comms_groupbox" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#a6fa7d" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="generic" name="isdn_dial" description="" >
+    <setting value="textalign=right" />
+    <setting value="pixmap=/images/isdn_dial.png" />
+    <setting value="pixmapalign=left" />
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="style" suitablefor="generic" name="isdn_hang" description="" >
+    <setting value="textalign=right" />
+    <setting value="pixmap=/images/isdn_hang.png" />
+    <setting value="pixmapalign=left" />
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="state" suitablefor="generic" name="k_off" description="" >
+    <setting value="colour.background=#0000ff" />
+  </style>
+  <style type="state" suitablefor="generic" name="k_on" description="" >
+    <setting value="colour.background=#00dd7f" />
+  </style>
+  <style type="style" suitablefor="keyboard buttons" name="keyboard_button" description="Large font for data entry keyboard buttons" >
+    <setting value="font.size=+6" />
+  </style>
+  <style type="state" suitablefor="generic" name="label_small" description="" >
+    <setting value="font.size=-4" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#cccccc" />
+    <setting value="textalign=bottom" />
+  </style>
+  <style type="state" suitablefor="level_indicator" name="level_available" description="Shows that this video level in a source package is available" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#00c000" />
+  </style>
+  <style type="state" suitablefor="level_indicator" name="level_mismatch" description="Shows that the source package does not contain the corresponding video level" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="state" suitablefor="level_indicator" name="level_undefined" description="Shows that this video level in a source package has not been defined" >
+    <setting value="colour.text=#505050" />
+    <setting value="colour.background=#505050" />
+  </style>
+  <style type="style" suitablefor="generic" name="listbox_default" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=18" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="style" suitablefor="generic" name="listbox_small" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=16" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="state" suitablefor="generic" name="memory_notvalid" description="" >
+    <setting value="colour.background=dark red" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="memory_valid" description="" >
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="colour.text=#9a9a9a" />
+  </style>
+  <style type="style" suitablefor="memory" name="memory_valid_indicator" description="" >
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="state" suitablefor="generic" name="mm_stack_available" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="mm_stack_joined" description="" >
+    <setting value="colour.background=#ffff00" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="mm_stack_top" description="" >
+    <setting value="colour.background=#00ff00" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="mm_stack_unavailable" description="" >
+    <setting value="colour.background=#808080" />
+    <setting value="colour.text=#c0c0c0" />
+  </style>
+  <style type="state" suitablefor="generic" name="mon_following" description="Monitor following state" >
+    <setting value="colour.background=#008000" />
+    <setting value="colour.text=#ffffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="mon_notfollowing" description="Monitor not following state" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="style" suitablefor="generic" name="mon_static" description="Static Monitor" >
+    <setting value="style=label" />
+    <setting value="font.face=Arial" />
+    <setting value="font.style=bold" />
+    <setting value="font.size=12" />
+    <setting value="pixmap=/images/mon_trans.png" />
+  </style>
+  <style type="setting" suitablefor="generic" name="mv_background" description="Group Box with label at top left" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#4545cf" />
+    <setting value="textalign=topleft" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="router_mv" name="mv_default" description="Multiviewer tile default" >
+    <setting value="font.face=Arial" />
+    <setting value="font.style=bold" />
+    <setting value="font.size=10" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#00008c" />
+    <setting value="sizepolicy=shrinktofit" />
+  </style>
+  <style type="state" suitablefor="router_mv" name="mv_deselected" description="Multiviewer tile showing deselected appearance" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#00008c" />
+  </style>
+  <style type="style" suitablefor="MV Mimic" name="mv_fixed_input" description="Non routable fixed input" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#000000" />
+    <setting value="style=label" />
+    <setting value="sizepolicy=shrinktofit" />
+    <setting value="labelstyle=whitebox" />
+  </style>
+  <style type="state" suitablefor="router_mv" name="mv_selected" description="Multiviewer tile showing selected appearance" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#5aa0ff" />
+  </style>
+  <style type="style" suitablefor="MV Mimic" name="mv_source_input" description="Non routable source input" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+    <setting value="style=label" />
+    <setting value="sizepolicy=shrinktofit" />
+    <setting value="labelstyle=whitebox" />
+  </style>
+  <style type="style" suitablefor="generic" name="mv_test_umd" description="" >
+    <setting value="font.size=-3" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#55aaff" />
+    <setting value="textalign=left" />
+    <setting value="pixmapstretch=true pixmap=/images/bg_title_fill.png" />
+  </style>
+  <style type="style" suitablefor="generic" name="mv_tile" description="" >
+    <setting value="font.size=-1" />
+    <setting value="colour.text=#cbcbcb" />
+    <setting value="colour.background=#5b5b5b" />
+    <setting value="pixmapstretch=true
+ pixmap=/images/bg_title_fill.png" />
+  </style>
+  <style type="style" suitablefor="generic" name="navigate_large" description="suitable for adjust or navigate button" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold" />
+    <setting value="pixmap=/images/navigate.png" />
+    <setting value="pixmapalign=topright" />
+  </style>
+  <style type="state" suitablefor="On Air Control" name="off_air" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+    <setting value="font.size=0" />
+  </style>
+  <style type="state" suitablefor="generic" name="off_air_small" description="" >
+    <setting value="font.size=-4" />
+    <setting value="colour.background=#9d9d9d" />
+  </style>
+  <style type="state" suitablefor="On Air Control" name="on_air" description="" >
+    <setting value="colour.background=#ff0000" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="font.size=12" />
+  </style>
+  <style type="state" suitablefor="generic" name="on_air_discrete" description="" >
+    <setting value="colour.background=#4c4c4c" />
+    <setting value="colour.text=#000000" />
+    <setting value="font.size=-5" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="state" suitablefor="generic" name="on_air_small" description="" >
+    <setting value="font.size=-4" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="style" suitablefor="package_level" name="package_video_level" description="Default style for package level indication" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=9" />
+    <setting value="font.style=bold" />
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="panman_background" description="" >
+    <setting value="colour.background=#acbcc6" />
+  </style>
+  <style type="setting" suitablefor="generic" name="paramhint" description="Small helper text to fit inside groupbox" >
+    <setting value="font.size=-4" />
+    <setting value="colour.text=#444444" />
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="labelstyle=plain" />
+    <setting value="textalign=left" />
+	<setting value="labelstyle=plain" />
+  </style>
+  <style type="setting" suitablefor="generic" name="paramlabel" description="parameter label where it appears above value" >
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+    <setting value="colour.text=black" />
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="font.face=arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold " />
+    <setting value="textalign=left" />
+    <setting value="sizepolicy=shrinktofit" />
+  </style>
+  <style type="setting" suitablefor="generic" name="paramlabelC" description="parameter label where it appears above a column of values" >
+    <setting value="font.face=arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#00007f" />
+    <setting value="style=label" />
+    <setting value="sizepolicy=shrinktofit" />
+  </style>
+  <style type="setting" suitablefor="generic" name="paramlabelH" description="parameter label where it appears to the left of the value" >
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+    <setting value="colour.text=black" />
+    <setting value="colour.background=#9A9A9A" />
+    <setting value="font.face=arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold " />
+    <setting value="textalign=right" />
+    <setting value="notify.released=false" />
+  </style>
+  <style type="setting" suitablefor="generic" name="paramvalue" description="Parameter display for use with paramlabelH" >
+    <setting value="font.face=arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="style=label" />
+    <setting value="labelstyle=blackbox" />
+  </style>
+  <style type="setting" suitablefor="generic" name="paramvalue_large" description="Parameter display for use with paramlabelH" >
+    <setting value="font.face=arial" />
+    <setting value="font.size=16" />
+    <setting value="font.style=bold" />
+    <setting value="colour.background=#ffffff" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="generic" name="pixmap_left" description="" >
+    <setting value="textalign=right" />
+    <setting value="pixmapalign=left" />
+  </style>
+  <style type="style" suitablefor="generic" name="pixmap_stretch" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#9a9a9a" />
+    <setting value="pixmapstretch=true" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="pixmap_top" description="" >
+    <setting value="pixmapalign=top" />
+    <setting value="textalign=bottom" />
+  </style>
+  <style type="setting" suitablefor="panelman" name="pm_back" description="Back button for panelman" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=9" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#c0c0c0" />
+    <setting value="textalign=bottom" />
+    <setting value="pixmap=back.png" />
+  </style>
+  <style type="state" suitablefor="panelman" name="pm_deselected" description="" >
+    <setting value="colour.background=#c0c0c0" />
+    <setting value="colour.text=black" />
+    <setting value="font.face=Arial" />
+    <setting value="font.size=9" />
+    <setting value="font.style=bold " />
+    <setting value="textalign=bottom" />
+  </style>
+  <style type="state" suitablefor="panelman" name="pm_selected" description="" >
+    <setting value="colour.background=#80e080" />
+    <setting value="colour.text=black" />
+    <setting value="font.face=Arial" />
+    <setting value="font.size=9" />
+    <setting value="font.style=bold " />
+    <setting value="textalign=bottom" />
+  </style>
+  <style type="setting" suitablefor="panelman" name="pm_timedate" description="" >
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+    <setting value="colour.background=#000000" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="font.face=Arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold " />
+  </style>
+  <style type="setting" suitablefor="panelman" name="pm_title" description="" >
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+    <setting value="colour.background=#4d4d4d" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold " />
+  </style>
+  <style type="setting" suitablefor="panelman" name="pm_title_background" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=13" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#004263" />
+    <setting value="textalign=left" />
+    <setting value="style=label" />
+    <setting value="labelstyle=plain" />
+  </style>
+  <style type="style" suitablefor="generic" name="presetstyle" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="colour.text=#4a9400" />
+    <setting value="colour.background=#ffff7f" />
+  </style>
+  <style type="state" suitablefor="generic" name="ptb_gated" description="Gated state PTB indicator" >
+    <setting value="colour.background=#ff5421" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="ptb_off" description="Off state PTB indicator" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="ptb_standard" description="Standard state PTB indicator" >
+    <setting value="colour.background=#00ff00" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="style" suitablefor="generic" name="radio_button_large" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=14" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="state" suitablefor="generic" name="range_default" description="Range control at default state" >
+    <setting value="colour.background=#66aa66" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="range_notdefault" description="Range control not a default state" >
+    <setting value="colour.background=#ff6644" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="salvo component" name="salvo_active" description="Active state - all crosspoints are routed as defined in the salvo" >
+    <setting value="colour.background=#008000" />
+    <setting value="colour.text=#ffffff" />
+  </style>
+  <style type="state" suitablefor="salvo component" name="salvo_inactive" description="Inactive state - one or more crosspoints are note routed as defined in the salvo" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=" />
+  </style>
+  <style type="state" suitablefor="generic" name="source_bypass" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#aa0000" />
+  </style>
+  <style type="state" suitablefor="generic" name="source_deselected" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="source_package_info_important" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="style" suitablefor="generic" name="source_package_info_unimportant" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.background=#ffffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="source_selected" description="" >
+    <setting value="colour.background=#FFFF00" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="source_silent" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="style" suitablefor="generic" name="source_style" description="" >
+    <setting value="pixmapalign=bottomleft" />
+  </style>
+  <style type="" suitablefor="generic" name="sourcegrid_comms_default" description="" >
+    <setting value="font.size=-2" />
+    <setting value="pixmapalign=bottomleft" />
+  </style>
+  <style type="style" suitablefor="generic" name="sourcegrid_default" description="Sets default font size and appearance for source grid controls" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=12" />
+    <setting value="font.style=bold" />
+    <setting value="pixmapalign=bottomright" />
+  </style>
+  <style type="state" suitablefor="generic" name="sourcegrid_tally" description="" >
+    <setting value="colour.background=#37354d" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="sourcegroup_deselected" description="" >
+    <setting value="colour.background=#484800" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="sourcegroup_selected" description="" >
+    <setting value="colour.background=#C0C000" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="sourcepage_deselected" description="" >
+    <setting value="colour.background=#808000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="sourcepage_selected" description="" >
+    <setting value="colour.background=#FFFF00" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="spectrum" name="spectrum_name" description="" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=20" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#ff00ff" />
+    <setting value="colour.background=#4d4d4d" />
+    <setting value="style=label" />
+  </style>
+  <style type="style" suitablefor="string" name="string_value" description="" >
+    <setting value="colour.background=#ffffff" />
+    <setting value="colour.text=#000000" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_reh_off" description="" >
+    <setting value="colour.text=#808080" />
+    <setting value="colour.background=#404000" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_reh_on" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffff00" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_switch_1" description="Studio Output Switch state 1 = Mixer Main" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_switch_2" description="Studio Output Switch state 2 = Mixer Reserve" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_switch_3" description="Studio Output Switch state 3 = Emergency Cut" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ff00ff" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_switch_4" description="Studio Output Switch state 4 = Bypass-Test" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#008000" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_tx_off" description="" >
+    <setting value="colour.text=#808080" />
+    <setting value="colour.background=#400000" />
+  </style>
+  <style type="state" suitablefor="studio topstrap" name="studio_tx_on" description="" >
+    <setting value="colour.text=#ffffff" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="state" suitablefor="generic" name="tab_deselected" description="" >
+    <setting value="colour.text=#acacac" />
+    <setting value="colour.background=#4d4d4d" />
+    <setting value="textOrientation=-90" />
+  </style>
+  <style type="state" suitablefor="generic" name="tab_selected" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#cecece" />
+    <setting value="textOrientation=-90" />
+  </style>
+  <style type="style" suitablefor="generic" name="takeBackground" description="" >
+    <setting value="colour.background=#800000" />
+  </style>
+  <style type="style" suitablefor="generic" name="take_preset" description="suitable for use on the source and dest labels of the router_take component" >
+    <setting value="font.face=Arial" />
+    <setting value="font.size=10" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffffff" />
+  </style>
+  <style type="" suitablefor="generic" name="tally_0ff" description="" >
+    <setting value="colour.background=#838383" />
+  </style>
+  <style type="state" suitablefor="generic" name="tally_audio_mixed" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffff7f" />
+  </style>
+  <style type="state" suitablefor="generic" name="tally_audio_normal" description="" >
+    <setting value="colour.text=#00ff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="" suitablefor="generic" name="tally_both" description="" >
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="" suitablefor="generic" name="tally_left" description="" >
+    <setting value="colour.background=#55ffff" />
+  </style>
+  <style type="state" suitablefor="generic" name="tally_package_lineup" description="" >
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#ff0000" />
+  </style>
+  <style type="state" suitablefor="generic" name="tally_package_normal" description="" >
+    <setting value="colour.text=#ffff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="tally_package_processed" description="" >
+    <setting value="colour.text=#000000" />
+    <setting value="colour.background=#ffff00" />
+  </style>
+  <style type="state" suitablefor="generic" name="tally_package_unexpected_sdi" description="" >
+    <setting value="colour.background=#FFA811" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="" suitablefor="generic" name="tally_right" description="" >
+    <setting value="colour.background=#ffaaff" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_bars_enabled" description="" >
+    <setting value="colour.background=#ffaa00" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_bypass_on" description="" >
+    <setting value="colour.background=green" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_ecut_on" description="" >
+    <setting value="colour.background=yellow" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_floor_off_enabled" description="" >
+    <setting value="colour.background=yellow" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="topstrap_large" description="" >
+    <setting value="style=label" />
+    <setting value="font.face=arial" />
+    <setting value="font.size=18" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_lineup_on" description="" >
+    <setting value="colour.background=magenta" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_off" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_red_on" description="" >
+    <setting value="colour.background=red" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_reh_on" description="" >
+    <setting value="colour.background=blue" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="style" suitablefor="generic" name="topstrap_small" description="" >
+    <setting value="style=label" />
+    <setting value="font.face=arial" />
+    <setting value="font.size=9" />
+    <setting value="font.style=bold" />
+  </style>
+  <style type="style" suitablefor="generic" name="topstrap_tally" description="" >
+    <setting value="style=label" />
+    <setting value="font.face=arial" />
+    <setting value="font.size=9" />
+    <setting value="font.style=bold" />
+    <setting value="colour.background=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_tb_off_enabled" description="" >
+    <setting value="colour.background=#ffaa00" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_tx_on" description="" >
+    <setting value="colour.background=red" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="topstrap_yellow_on" description="" >
+    <setting value="colour.background=yellow" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="style" suitablefor="generic" name="umd" description="" >
+    <setting value="font.size=-3" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#55ff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="style" suitablefor="generic" name="umd_large" description="" >
+    <setting value="font.size=1" />
+    <setting value="font.style=bold" />
+    <setting value="colour.text=#55ff00" />
+    <setting value="colour.background=#000000" />
+  </style>
+  <style type="state" suitablefor="generic" name="wb_notready" description="Whiteboard not ready state" >
+    <setting value="colour.background=darkRed" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="generic" name="wb_ready" description="Whiteboard ready state" >
+    <setting value="colour.background=darkGreen" />
+    <setting value="colour.text=white" />
+  </style>
+</stylesheet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE typehandlers SYSTEM "typehandlers.dtd">
+<typehandlers>
+	<type id="MemoryVisionFunctions" default="MemoryVisionFunctions" />
+	<type id="MemoryDTMFFunctions"   default="MemoryDTMFFunctions" />
+</typehandlers>

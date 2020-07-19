@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device_description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="cna_1_rcp">
+	<param class="enum" access="readonly" style="button" name="status" slot="1" >
+		<state value="Available" caption="Available"/>
+		<state value="NotAvailable" caption="NotAvailable"/>		
+	</param>
+
+	<param name="camera" slot="2" access="readwrite" style="label" class="string" description="RCP Camera">		
+	</param>
+</device_description>

@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="400" h="460" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="0" y="0" w="400" h="460">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_listbox" name="list" x="0" y="0" w="400" h="400">
+			<setting value="stylesheet=listbox_default" />
+		</control>
+		<control class="bncs_control" name="selectNone" x="10" y="410" w="56" h="34">
+			<setting value="colour.background=#1bff13" />
+			<setting value="text=Select|None" />
+		</control>
+		<control class="bncs_control" name="sort" x="250" y="410" w="74" h="33">
+			<setting value="text=Sort" />
+		</control>
+		<control class="bncs_control" name="btnToggleUnused" x="90" y="410" w="129" h="33">
+			<setting value="text=Show | Unused Ports" />
+		</control>
+		<control class="bncs_control" name="btnSearch" x="350" y="410" w="49" h="47">
+			<setting value="pixmapalign=centre" />
+			<setting value="led.align=topleft" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=icon_preview.png" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

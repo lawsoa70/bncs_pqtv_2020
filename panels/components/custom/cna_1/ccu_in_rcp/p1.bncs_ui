@@ -1,0 +1,52 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="160" h="204" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lbl_background" x="0" y="0" w="159" h="206">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_available" x="0" y="60" w="157" h="23">
+			<setting value="style=label" />
+			<setting value="statesheet=dest_deselected" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_name" x="10" y="4" w="136" h="52">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="font.size=3" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_ccu" x="3" y="87" w="43" h="21">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=CCU" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_chu" x="3" y="107" w="43" h="21">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=CHU" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_others" x="5" y="130" w="150" h="44">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffaa00" />
+			<setting value="textalign=topleft" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="btn_release" x="4" y="175" w="151" h="29">
+			<setting value="text=Release Control" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_script_loader" name="optics_ccu" x="50" y="86" w="100" h="21">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/cna_1/ccu_optics" />
+			<setting value="myParam=" />
+		</control>
+		<control class="bncs_script_loader" name="optics_chu" x="50" y="108" w="100" h="21">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/cna_1/ccu_optics" />
+			<setting value="myParam=" />
+		</control>
+	</container>
+</control_set>

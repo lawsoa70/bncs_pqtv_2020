@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT stylesheet (style+)>
+<!ELEMENT style (setting+)>
+<!ATTLIST style
+	name CDATA #REQUIRED
+>
+<!ELEMENT setting EMPTY>
+<!ATTLIST setting
+	value CDATA #REQUIRED
+>

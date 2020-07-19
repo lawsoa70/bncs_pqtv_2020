@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<template>
+	<setting value="nextstate=false" />
+	<setting value="navigatedest=dummy"  />
+	<setting value="navigate=true"  />
+	<setting value="colour.background=green"  />
+</template>

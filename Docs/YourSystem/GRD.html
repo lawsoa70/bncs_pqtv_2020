@@ -1,0 +1,668 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+	<head>
+   		<title>Generic Router Driver</title>
+   			<link rel=stylesheet href="../../style.css" type="text/css">
+	</head>
+
+<body>
+
+<div align="center">
+<h1>Colledia Control - Generic Router Driver</h1>
+
+<h3>Author: Simon Dowson</h3>
+
+This document also applies to the 32 bit versions of the GRD
+
+</div>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>The Generic Router Driver (V2GRD.EXE) can drive many different types
+of router using a variety of protocols. Routers differ greatly in
+terms of the protocol they support, speed of response, inherent
+intelligence etc. The GRD can drive intelligent routers that have
+their own controller or simple routers with limited logic. The two
+basic commands that are common to most routers are 'Connect' to join
+a source to a destination and 'Interrogate' to request the identity
+of the source currently feeding a destination. When a serially
+controlled router fits this model then its protocol can be added to
+the GRD. When a router has more complex functions such as
+conferencing, subscriber ringing etc this calls for a dedicated
+driver that can best exploit the features offered by the
+equipment.</p>
+
+<ul>
+   <li>Each router and protocol has its own particular features. Here
+   are just a few :-</li>
+   
+   <li>Some routers will break away a source and put it back if asked
+   to make the same crosspoint.</li>
+   
+   <li>Some routers cannot accept more than one or two commands at a
+   time.</li>
+   
+   <li>Some routers have two or more married levels.</li>
+   
+   <li>Some routers with very simple logic cannot be
+   interrogated</li>
+   
+   <li>The GRD has evolved to cope with all these scenarios.<BR>
+   </li>
+</ul>
+
+<h2>Versions</h2>
+
+<p>This document covers both version s 1 &amp; 2 of the GRD. However
+all the protocols that are contained in version 2 also exist in
+version 1, so details about the protocol implementation and
+configuration are equally appropriate to version 1.</p>
+
+<h2>Interfacing</h2>
+
+<p>In version 1.x it interfaces directly to the LAN. In V2.xx it
+interfaces to the LAN via CSI. The way in which the GRD is configured
+to drive routers is the same.</p>
+
+<h2>Configuration</h2>
+
+<p>First create a database profile (DEV_xxx.INI) for the device Id
+you intend to use with the GRD. This can be done by either cloning
+and existing DEV_xxx.INI file or making a new one using the ApplCore
+utility MDP.EXE. GRD.EXE takes a single command line parameter. This
+is the router driver number. It can be between 1 and 999. No two
+drivers may use the same number and it serves as the unique number by
+which a particular router is addressed from the ApplCore panels or
+other client applications.</p>
+
+<p>A single router driver would normally be used per router. That
+router may consist of a number of crates each with a separate port
+controlling a range of destinations. GRD.EXE can manage a router
+whose destinations are spread across up to eight ports. Each port can
+have different communications parameters and protocols if required.
+Several router drivers can be used on the same PC providing there are
+sufficient com ports to support them.</p>
+
+<p>The driver can be instructed, either locally at the driver
+application or from ApplCore to inhibit or lock out any destination
+or range of destinations on a router.</p>
+
+<p>The configuration file or 'device profile' for the router driver
+is a called DEV_XXX.INI where XXX is the router driver number.
+MDP.EXE (Make Device Profile) will create this file for you .The first
+part of the INI file has the heading &#91;Router&#93; and deals with
+the global parameters of the driver.</p>
+
+<br>
+<div align="center">
+<table class="plain" width="80%">
+   <tr>
+      <td align="center">
+         <p>&#91;GRD&#93;</p>
+      </td>
+     <td>
+         <p>&nbsp;</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>Name=Default</p>
+      </td>
+     <td>
+         <p>The name for the router. This is for reference only and
+         not used internally by the driver.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>ParkSource = 0</p>
+      </td>
+     <td>
+         <p>The GRD will route this source when a request to route source 0 is received. 
+		e.g. RC 12 0 3 will route source 64 to destination 3 on router 12 if ParkSource = 64.
+		</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>FirstVirtual = 0</p>
+      </td>
+     <td>
+         <p>Index of first virtual destination when virtual routing facility is in use.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>SaveDelay = 10</p>
+      </td>
+     <td>
+         <p>Maximum delay (minutes) between saving destination lock status to disk file (DEV_xxx.LCK).</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>FwdBuffDelay = 0</p>
+      </td>
+     <td>
+         <p>Delay (ms) between multiple routing commands sent to a router. Some older routers could not 
+		 handle a string of commands in quick succession. </p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>RevertiveDelay = 0</p>
+      </td>
+     <td>
+         <p>Some earlier routers were slow at issuing tallies in response to routing commands. 
+		 If several crosspoint commands were issued simultaneously by the driver, the resulting  staggered 
+		 router tallies would cause CSI  to issue the coresponding BNCS revertives as multiple 
+		 network packages, causing an increase in network traffic. Setting the revertive delay alleviates 
+		 this by forcing the driver to wait a sufficient time for all router tallies to be received before 
+		 issuing revertives. This way as many revertives as possible can be bundled by CSI  into a 
+		 single network message.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>DriverMode=INTERNAL</p>
+      </td>
+     <td>
+         <p>INTERNAL = normal mode of operation of GRD. GRD connects directly to router.
+		EXTERNAL = GRD is hooked into another driver, such as the Probel Freeway Controller which then connects to the router.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>InitTallyDelay = 200</p>
+      </td>
+     <td>
+         <p>At startup, the driver polls all router destinations to obtain the router status and initialise its internal 
+		 tally table. This sets the poll speed (ms).</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>TallyDelay = 2000</p>
+      </td>
+     <td>
+         <p>When running, the driver continuously does a background poll of all router destinations to keep its internal 
+		 tally table up-to-date. This sets the background poll speed (ms).</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>RevertiveMode = ROUTER</p>
+      </td>
+     <td>
+         <p>ROUTER = Driver will not issue a revertive in response to a RC command until the 
+			router tallies back that it has made the crosspoint.<br>
+			DRIVER = Driver issues a revertive to a RC 
+			command as soon as it has successfully dispatched the command to the router. Driver does not wait for the 
+			router to make the crosspoint. Some earlier routers did not tally back automatically on making a crosspoint.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>NetUpdateOnStart = 1</p>
+      </td>
+     <td>
+         <p>Inhibits sending of revertives when driver starts up until initial poll of router has been completed. 
+		 When poll is complete all revertives are sent. This reduces network traffic by allowing CSI to bundle 
+		 revertive messages into fewer network packages.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>ReAssert = 1</p>
+      </td>
+     <td>
+         <p>1 = If the driver receives a RC command to route a crosspoint which is already routed it will still 
+		 issue the command to the router.<br>
+		 0 = If the driver receives a RC command to route a crosspoint which is already routed, 
+		 it will not issue the command in this situation. Some routers  cause a signal disturbance by breaking away and then remaking the same 
+		 crosspoint. </p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>DebugMode = 0</p>
+      </td>
+     <td>
+         <p>Switches the extended debug box on the driver diagnostic window. Not used on GRD.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>SourceToDest = 1</p>
+      </td>
+     <td>
+         <p>If set, routes source to destination. This entry takes precedence over DestToSource setting.
+			e.g. RC 12 2 3 will route source 2 to destination 3</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>DestToSource =0</p>
+      </td>
+     <td>
+         <p>If set, routes destination to source. e.g. RC 12 2 3 will route destination 2 to source 3
+		Used for talkback routing.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>NameLength = 8</p>
+      </td>
+     <td>
+         <p>Maximum name length for database 0 and 1 entries. Cannot exceed 16 characters. 
+		 For longer names, databases 2 -9 should be used.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>Simulation = 0</p>
+      </td>
+     <td>
+         <p>0 = driver expects a router to be connected<br>
+			1 = driver can run with no router connected and will behave as though it is driving a router.<br>
+			Very useful for application development and testing.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>BBCRCP_Levels = 1</p>
+      </td>
+     <td>
+         <p>If NTP or BBC Radio Capital Projects protocol is used, it tells the driver the number of levels 
+		 to switch in the router.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>LeitchLevels = OBSOLETE</p>
+      </td>
+     <td>
+         <p>As it says. Earlier Leitch routers allowed married switching of multiple levels by the driver.</p>
+      </td>
+   </tr><br>
+     <tr>
+      <td>
+         <p>LeitchLevel = 0</p>
+      </td>
+     <td>
+         <p>Sets the (single) level of the router that will be switched by the driver. For multilevel switching use the Leitch Controller (V2CTLLCH.EXE)</p>
+      </td>
+   </tr><br>
+  <tr>
+      <td>
+         <p>QuartzLevels = VAB</p>
+      </td>
+     <td>
+         <p>Used to control individual levels of a multilevel Quartz router. When more than level is specified 
+		 they will be switched in parallel. Uses the original Quartz level nomenclature:<br>
+			V = Vision, A= Audio A, B = Audio B.
+			See Quartz section for further information. Use the Quartz controller (CTL_QTZ.EXE) for full control.</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>NetworkRouterType = VIDEO</p>
+      </td>
+     <td>
+         <p>Network is a router manufacturer!</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>NetworkRouter Level = 0</p>
+      </td>
+     <td>
+         <p>&nbsp;</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>AdrienneAddress = 0</p>
+      </td>
+     <td>
+         <p>Used to set the address when controlling an Adrienne router.</p>
+      </td>
+   </tr>
+</table>
+</div>
+<br>
+<br>
+
+<p>The next section of the INI file is in a number of parts, one for
+each com port.In the past, some large routers had their control split over several 
+com ports, each port controlling the routing to a block of destinations. Each block 
+of destinations was numbered from 1 upwards on the router. This numbering is 
+automatically taken into account by the V2GRD.exe when it is set up use multiple com ports. 
+Route crosspoint commands from Applcore panels to the driver need only treat the router 
+as a single large router with a continuous range of destinations.</p>
+
+<p> There is a section in the INI file for each Com port (up to 8). Each one looks like this:-</p>
+<br>
+<div align="center">
+
+<table class="plain" width="80%">
+   <tr>
+      <td align="center">
+         <p>&#91;Com_x&#93;</p>
+      </td>
+      <td>
+         <p>&nbsp;</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>MinDest=NONE</p>
+      </td>
+      <td>
+         <p>Lowest destination to be controlled via this Com Port</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>MaxDest=NONE</p>
+      </td>
+      <td>
+         <p>Highest destination to be controlled via this Com Port</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>Protocol=NONE</p>
+      </td>
+      <td>
+         <p>Protocol types available:</p>
+		 <ul>
+		 <li>SIMPLE 	= 	Probel Simple</li>
+		 <li>PROBEL 	= 	Probel General Switcher</li>
+		 <li>NTP 	= 	NTP Protocol</li>
+		 <li>COX 	= 	Cox Protocol</li>
+		 <li>VISTEK 	= 	Vistek Protocol</li>
+		 <li>NTPEQ 	= 	NTP Equaliser Protocol</li>
+		 <li>SIMOSRTR =	Simple Microcontroller Rtr Protocol</li>
+		 <li>SIMOSGPI  = 	Simple MicroController GPI1</li>
+		 <li>BTSASCII   =	BTS ASCII Protocol</li>
+		 <li>BTSESSWITCH =	switching via a VM3000 controller2</li>
+		 <li>QUARTZ	=	Quartz Protocol</li>
+		 <li>NETWORK =	Network Protocol</li>
+		 <li>LEITCH =	Leitch Protocol</li>
+		 </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>Speed=0</p>
+      </td>
+      <td>
+         <p>Com Port Speed</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>DataBits=8</p>
+      </td>
+      <td>
+         <p>Data bits</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>StopBits=1</p>
+      </td>
+      <td>
+         <p>Stop bits</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>Parity=E</p>
+      </td>
+      <td>
+         <p>Parity: N, O, E</p>
+      </td>
+   </tr>
+</table>
+</div>
+<br>
+<br>
+
+<h4>Notes</h4>
+<ol>
+<li>Simple Microcontroller GPI was developed to communicate with the BNCS Microcontroller-based GPI system.</li>
+<li>BTSESSWITCH Crosspoint connect requests will switch all levels together. 
+	If you need individual control of the routers you need the CTL BTS controller driver.</li>
+<li>Comport settings if no speed is set or 'simulation' is set to '1' (simulate), the comport will not be opened.</li>
+
+<li>All the com ports may be configured in an entirely different
+manner enabling several diverse makes and type of physical unit to be
+driven as one logical unit. Care should be taken to ensure that the
+minimum and maximum destination ranges do not overlap between com
+ports.</li>
+
+<li>When a router driver starts up it begins to interrogate the router
+in order to build up an internal tally table. The driver will send
+out revertive information for all the destinations until its internal
+tally table matches the router. If any subsequent discrepancies occur
+the driver will immediately send the revertive for the destination in
+question to the network. If the driver loses communication with a
+router on one or all com ports no revertive information will be sent
+to the network. Panels will therefore reflect the last known state of
+the router.</li>
+</ol>
+
+<h1>Parameters</h1>
+
+<h2>Revertive Mode</h2>
+
+<p>This parameter governs how the GRD handles revertives. If set to
+ROUTER the driver will wait until the router returns tally
+information after a Router Crosspoint command has been received
+before sending revertive information to the network. If set to DRIVER
+the driver will return revertive information immediately on receipt
+of a valid Router Crosspoint command providing the driver is happy
+that its communications with the router are satisfactory. The latter
+will result in an improved revertive response time when the driver is
+used at slow baud rates.</p>
+
+<h2>Protocols - Further reading</h2>
+
+<p>The following protocols are supported by the GRD. Each protocol
+has one or more unique features that needs to be taken into account
+when configuring the GRD. The 'Comms Parameters' listed are those
+specified in the documentation for the router as being the default.
+When establishing communications with a router it is a good starting
+point, but since many routers have configurable comms parameters it
+is wise to check that the defaults have not been changed.</p>
+
+<h2>Pro-Bel Simple</h2>
+
+<p><b><i>Protocol Keyword</i> = SIMPLE</b></p>
+
+<p><b><i>Comms parameters</i> = 8 bits, Even parity, 1 Stop
+bit</b></p>
+
+<p>This is a very simple hex protocol for driving small routers. It
+enables simple decoding within the router. There is no error
+correction. The GRD continuously interrogates the router for status
+of its destinations.</p>
+
+<h2>Pro-Bel General Switcher</h2>
+
+<p><b><i>Protocol Keyword=PROBEL</i></b></p>
+
+<p><b><i>Comms parameters = </i>8 bits, Even parity, 1 Stop
+bit</b></p>
+
+<p>This is the workhorse hex protocol for driving routers. Large
+routers up to 4096 can be accommodated.</p>
+
+<h2>NTP</h2>
+
+<p><b><i>Protocol Keyword=NTP</i></b></p>
+
+<p><b><i>Comms parameters = </i>8 bits, No parity, 1 Stop
+bit</b></p>
+
+<p>An ASCII based protocol for driving routers and controllers. The
+GRD can address several levels providing they are married together.
+In the INI file the<b> <i>'BBCRCPLevels'</i></b>
+parameter sets the number of levels. If set to 1 only router/level
+'A' is switched. If set to '3' then levels 'A,B &amp; C' would be
+switched. Interrogation is done on Level 'A' only. If greater
+flexibility is required use the NTP controller driver
+<b>GRD_NTP.EXE</b>. If you want to bypass the controller
+altogether and speak to the frames directly you will the CTL_NTP.EXE
+driver and hardware PCB's designed by Willie Orr in Belfast.</p>
+
+<h2>Cox</h2>
+
+<p><b><i>Protocol Keyword=COX</i></b></p>
+
+<h2>Vistek</h2>
+
+<p><b><i>Protocol Keyword=VISTEK</i></b></p>
+
+<h2>NTP Equalizer</h2>
+
+<p><b>Protocol Keyword=NTPEQ</b></p>
+
+<h2>Simple Microcontroller Router Protocol</h2>
+
+<p><b><i>Protocol Keyword=SIMOSRTR</i></b></p>
+
+<p><b><i>Comms parameters = </i>8 bits, No parity, 1 Stop
+bit</b></p>
+
+<p>A protocol developed to communicate with the BNCS Vision Router
+prototype. At the time of writing no production versions exist.</p>
+
+<h2>Simple Microcontroller GPI</h2>
+
+<p><b><i>Protocol Keyword=SIMOSGPI</i></b></p>
+
+<p>A protocol developed to communicate with the BNCS Microcontroller
+based GPI system.</p>
+
+<h2>BTS ASCII</h2>
+
+<p><b><i>Protocol Keyword=BTSASCII</i></b></p>
+
+<h2>BTS ES Switch</h2>
+
+<p><b><i>Protocol Keyword=BTSESSWITCH</i></b></p>
+
+<p>This allows switching via a VM3000 controller. Crosspoint connect
+requests as wildcards so all levels will switch. If you need
+individual control of the matrices and levels you need the <a href="ctl_bts.html">CTL BTS</a>
+controller driver.</p>
+
+<h2>Quartz</h2>
+
+<p><b><i>Protocol Keyword=QUARTZ</i></b></p>
+
+<p><b><i>Quartz levels = VAB</i></b></p>
+<p>This setting can be used to switch individual levels of a multilevel quartz router. Usually the first 
+(master) quartz level is V (Video). When a RC command is sent to the driver it will embed the levels setting 
+into the serial data it sends to the router, for example:<br>
+RC 123 5,1 will cause V2GRD.EXE 123 to send: .C VAB 1,5 to the router.<br>
+The router will respond with:.A VAB 1,5 when the route is made (.A = Ack).<br>
+The driver looks for the first level letter, in this case 'V', in the response. If this matches the first level 
+letter as set in 'Quartz levels =' the driver will issue a revertive to the network.<br>
+To interrogate router destinations the driver uses .IVn where n is the destination that is being interrogated</p>
+
+<p><b><i>Important</i></b><br>
+
+If the V2GRD is set up via the ini file to switch a single level, say 'A' (Quartz levels = A) but the router 
+has levels married, for example V & A, where V is the master, the response from the router will contain the 
+letter 'V' NOT 'A'. This will not match the 'Quartz levels' setting in the ini file and no revertive will be issued 
+by the driver although the route will have been switched.</p>
+
+<h2>Network</h2>
+
+<p><b><i>Protocol Keyword=NETWORK</i></b></p>
+
+<h2>Diagnostics</h2>
+
+<p>The router driver application is normally iconised but can be
+restored to show diagnostic information and provide local control.
+The window is split into four parts :-</p>
+
+<ul>
+   <li>The network message counters at the top showing the number of
+   messages received and transmitted by the driver.</li>
+   
+   <li>The serial ports section shows the status of each active port
+   and the destinations that they are configured for. The 'Status'
+   box shows either OK or FAIL and indicates wether or not the driver
+   is receiving data in response to its interrogation. It does not
+   mean that the data being received is valid. Data validity is
+   indicated by the 'Errors' box. In normal operation it should very
+   rarely increment if at all.</li>
+   
+   <li>The 'Sources' section displays all available sources in a
+   scrollable listbox. A source will be highlighted if it is routed
+   to the destination selected in the 'Destination' section and is
+   also used to select a source for subsequent routing to a
+   destination.</li>
+   
+   <li>The 'Destination' section displays all available destinations
+   is a scrollable listbox. Selecting a destination will highlight it
+   and will also highlight the current source feeding that
+   destination, if any, in the source listbox. Another source may be
+   selected and routed by pressing the 'Take' button. If the
+   destination is locked then it is necessary to unlock it first by
+   pressing the 'Locked' button, which will enable the 'Take' button
+   and the route can then be made.</li>
+</ul>
+
+<p>Any destination can be locked and the lock status is periodically
+saved to disc in case of power failure.</p>
+
+<br>
+
+<h2>Control</h2>
+
+<p>The commands for controlling a router via a GRD are detailed in
+the ApplCore documentation. The basic command for making a crosspoint
+is :-</p>
+
+<div align="center">
+<b>RC &lt;Driver Number%&lt; &lt;Source%&gt;
+&lt;Destination%&gt;</b>
+
+<p><b>Example : RC 38 17 12</b></p>
+</div>
+
+<p>The above command would instruct GRD number 38 to route source 17
+to destination 12. The ApplCore documentation makes reference to a
+'mask' parameter for use with some routing modules, the Packager and
+Virtual Router Driver to name but two. The GRD ignores the mask
+parameter.</p>
+
+<br>
+
+<h2>Local Control</h2>
+
+<p>If the PC on which the router driver is running is configured for
+mouse input then the mouse can be used to make crosspoints locally on
+the router driver itself. If a keyboard is available you can enable
+keyboard router control from the menu bar using &lt;Alt&gt; 'K' 'E'.
+Once enabled, the keyboard can be used to make crosspoints using
+&lt;Alt&gt; 'S', to select the source box, &lt;Alt&gt; 'D' to select
+the destination box and &lt;Alt&gt; 'T' to make the crosspoint.
+&lt;Alt&gt; 'L' enables the locking and unlocking of individual
+destinations. With the keyboard disabled on the main menu only
+monitoring is possible.</p>
+
+<br>
+<hr>
+<br>
+</body>
+</html>

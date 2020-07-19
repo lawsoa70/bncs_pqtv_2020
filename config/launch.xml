@@ -1,0 +1,261 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE launch SYSTEM "launch.dtd">
+<launch>
+	<workstation csi="csi32" id="4" > <!--?-->
+		<application arguments="998" name="infodriver32.exe" />
+		<application arguments="880" name="infodriver32" />
+		<application arguments="880" name="automatics\MemoryAuto.exe" />
+		<application arguments="884" name="infodriver32.exe" />
+		<application arguments="885" name="grd32.exe" />
+		<application arguments="887" name="grd32.exe" />
+		<application arguments="888" name="infodriver32" />
+		<application arguments="889" name="drivers\gpiSim.exe" />
+		<application arguments="891" name="infodriver32" />
+		<application arguments="892" name="infodriver32" />
+		<application arguments="892" name="automatics\MemoryAuto.exe" />
+		<application arguments="894" name="infodriver32" />
+		<application arguments="895" name="grd32.exe" />
+		<application arguments="896" name="grd32.exe" />
+		<application arguments="897" name="grd32.exe" />
+		<application arguments="893" name="infodriver32" />
+		<application arguments="890" name="drivers\gpiSim.exe" />
+		<application arguments="898" name="grd32.exe" />
+		<application arguments="899" name="grd32.exe" />
+		<application arguments="902" name="infodriver32" />
+		<application arguments="903" name="infodriver32" />
+		<application arguments="904" name="infodriver32" />
+		<application arguments="905" name="infodriver32" />
+		<application arguments="902" name="drivers\KscUeZLabel.exe" />
+		<application arguments="903" name="automatics\BFEUMDLabelAuto.exe" />
+		<application arguments="904" name="drivers\KscUeZLabel.exe" />
+		<application arguments="905" name="automatics\BFEUMDLabelAuto.exe" />
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="6" > <!--?-->
+		<application arguments="998" name="infodriver32.exe" />
+		<application arguments="885" name="grd32.exe" />
+		<application arguments="887" name="grd32.exe" />
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="9" > <!--Studio Fabian-->
+		<application arguments="341" name="infodriver32.exe" />
+		<application arguments="997" name="infodriver32.exe" />
+		<application name="v3fbserv.exe" />
+	</workstation>
+	<workstation csi="csi32" id="18" > <!--PQ TV Server-->
+		<!-- <application arguments="899" name="grd32.exe" /> --> <!--tv_studio_422-->
+		<application arguments="987" name="infodriver32.exe" />
+		<application arguments="998" name="infodriver32.exe" />
+		<application arguments="987" name="WSTracker.exe" />
+		<application name="v3caplog.exe" />
+	</workstation>
+	<workstation csi="csi32" id="53" > <!--STB EM-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="55" > <!--STB Snd-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="61" > <!--STA Router-->
+		<application arguments="882" name="infodriver32" /> <!--rtr_sta_sdi_lock_2020-->
+		<application arguments="884" name="infodriver32" /> <!--rtr_sta_sdi_lock-->
+		<application arguments="888" name="infodriver32" /> <!--rtr_sta_nexus_lock-->
+		<application arguments="902" name="infodriver32" /> <!--studio_a_bfeksc_driver-->
+		<application arguments="885" name="grd32.exe" /> <!--rtr_sta_sdi-->
+		<application arguments="887" name="grd32.exe" /> <!--rtr_sta_nexus-->
+		<!--<application arguments="881" name="drivers\IP_Router.exe" />--> <!--rtr_sta_sdi_2020-->
+		<application arguments="887" name="drivers\nexus" /> <!--rtr_sta_nexus-->
+		<application arguments="902" name="drivers\KscUeZLabel.exe" /> <!--studio_a_bfeksc_driver-->
+	</workstation>
+	<workstation csi="csi32" id="62" > <!--STA Automatics-->
+		<application arguments="880" name="infodriver32" />
+		<application arguments="903" name="infodriver32" />
+		<application arguments="880" name="automatics\MemoryAuto.exe" />
+		<application arguments="889" name="drivers\GGPI_DaqNavi.exe" />
+		<application arguments="903" name="automatics\BFEUMDLabelAuto.exe" />
+	</workstation>
+	<workstation csi="csi32" id="63" > <!--STC Router-->
+		<application arguments="893" name="infodriver32" />
+		<application arguments="894" name="infodriver32" />
+		<application arguments="904" name="infodriver32" />
+		<application arguments="895" name="grd32.exe" />
+		<application arguments="897" name="grd32.exe" />
+		<application arguments="897" name="drivers\nexus" />
+		<application arguments="898" name="grd32.exe" />
+		<application arguments="904" name="drivers\KscUeZLabel.exe" />
+	</workstation>
+	<workstation csi="csi32" id="64" > <!--STC Automatics-->
+		<application arguments="891" name="infodriver32" />
+		<application arguments="905" name="infodriver32" />
+		<application arguments="892" name="infodriver32" />
+		<application arguments="892" name="automatics\MemoryAuto.exe" />
+		<application arguments="890" name="drivers\GGPI_DaqNavi.exe" />
+		<application arguments="905" name="automatics\BFEUMDLabelAuto.exe" />
+	</workstation>
+	<workstation csi="csi32" id="65" > <!--STB Router-->
+		<application name="drivers\rrcs\rrcs" delay="5000"/>
+		<application arguments="331" name="grd32" /><!--Riedel-->
+		<application arguments="332" name="infodriver32" />
+		<application arguments="333" name="infodriver32" />
+		<application arguments="334" name="infodriver32" />
+		<application arguments="335" name="infodriver32" />
+		<application arguments="336" name="infodriver32" />
+		<application arguments="337" name="infodriver32" />
+		<application arguments="338" name="infodriver32" />
+		<application arguments="339" name="infodriver32" />
+		<application arguments="331" name="drivers\RiedelArtistDrv" />  <!--  delay="5000" /> -->
+		<application arguments="864" name="infodriver32" /><!--rtr_stb_sdi_lock-->
+		<!--<application arguments="868" name="infodriver32" />--><!--rtr_stb_calrec_lock-->
+		<application arguments="908" name="infodriver32" /><!--studio_b_bfeksc_driver-->
+		<application arguments="860" name="infodriver32" /><!--stb_sdi_memory-->
+		<application arguments="909" name="infodriver32" /><!--studio_b_bfeumdlabel_auto-->
+		<application arguments="850" name="infodriver32" /><!--studio_b_mv_1-->
+		<application arguments="865" name="grd32.exe" /><!--rtr_stb_sdi-->
+		<application arguments="840" name="grd32.exe" /><!--rtr_ctl_test-->
+		<!--<application arguments="867" name="drivers\IP_Router.exe" />--><!--rtr_stb_calrec-->
+		<application arguments="908" name="drivers\KscUeZLabel.exe" /><!--studio_b_bfeksc_driver-->
+		<application arguments="860" name="automatics\MemoryAuto.exe" /><!--stb_sdi_memory-->
+		<application arguments="909" name="automatics\BFEUMDLabelAuto.exe" /><!--studio_b_bfeumdlabel_auto-->
+		<application arguments="850" name="drivers\Evertz_VIPPRO.exe" /><!--studio_b_mv_1-->
+		<application arguments="201" name="infodriver32" /><!--sony_cna1_driver rcps-->
+		<application arguments="202" name="infodriver32" /><!--sony_cna1_driver ccus-->
+		<application arguments="cna_1_driver_stc" name="drivers\cna1\sony_cna1_driver" />
+	</workstation>
+	<workstation csi="csi32" id="70" > <!--STA VAA Bays-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="71" > <!--STA VAA Desk-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="72" > <!--STA LVCR-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="73" > <!--STA EM-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="74" > <!--STA Vision Mixer-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="75" > <!--STA Snd Sup-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="76" > <!--STA Grams-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="77" > <!--STA Snd Bays-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="80" > <!--STC VAA Bays-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="81" > <!--STC VAA Desk-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="82" > <!--?-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="83" > <!--STC EM-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="85" > <!--STC Snd Sup-->
+		<application arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="86" > <!--STC Grams-->
+		<application arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="87" > <!--STC Snd Bays-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="90" > <!--NCR-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="91" > <!--SIR-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="92" > <!--White Heather-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="93" > <!--FCR-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="100" > <!--Laptop-->
+		<!-- Server -->
+		<application arguments="987" name="infodriver32.exe" /> <!--workstation_tracker-->
+		<application arguments="987" name="WSTracker.exe" />
+		<application arguments="998" name="infodriver32.exe" /> <!--Panel_Navigate-->
+		<application name="v3caplog.exe" />
+		<!-- Fabian -->
+		<application arguments="341" name="infodriver32.exe" /> <!--sncs_interface-->
+		<application name="v3fbserv.exe" />
+		<application arguments="997" name="infodriver32.exe" /> <!--studio_flexdisplay-->
+		<!-- Riedel -->
+		<application name="drivers\rrcs\rrcs" delay="5000"/>
+		<application arguments="331" name="grd32" /><!--Riedel-->
+		<application arguments="332" name="infodriver32" />
+		<application arguments="333" name="infodriver32" />
+		<application arguments="334" name="infodriver32" />
+		<application arguments="335" name="infodriver32" />
+		<application arguments="336" name="infodriver32" />
+		<application arguments="337" name="infodriver32" />
+		<application arguments="338" name="infodriver32" />
+		<application arguments="339" name="infodriver32" />
+		<application arguments="331" name="drivers\RiedelArtistDrv" />  <!--  delay="5000" /> -->
+		<!-- Studio A -->
+		<application arguments="885" name="grd32.exe" /> <!--rtr_sta_sdi-->
+		<application arguments="884" name="infodriver32" /> <!--rtr_sta_sdi_lock-->
+		<application arguments="880" name="infodriver32" /> <!--sta_sdi_memory-->
+		<application arguments="880" name="automatics\MemoryAuto.exe" />
+		<application arguments="881" name="drivers\IP_Router.exe" /> <!--rtr_sta_sdi_2020-->
+		<application arguments="882" name="infodriver32" /> <!--rtr_sta_sdi_lock_2020-->
+		<application arguments="887" name="grd32.exe" /> <!--rtr_sta_nexus-->
+		<application arguments="887" name="drivers\nexus" /> <!--rtr_sta_nexus-->
+		<application arguments="888" name="infodriver32" /> <!--rtr_sta_nexus_lock-->
+		<application arguments="903" name="infodriver32" /> <!--studio_a_bfeumdlabel_auto-->
+		<application arguments="903" name="automatics\BFEUMDLabelAuto.exe" />
+		<application arguments="902" name="infodriver32" /> <!--studio_a_bfeksc_driver-->
+		<application arguments="902" name="drivers\KscUeZLabel.exe" /> <!--studio_a_bfeksc_driver-->
+		<!--<application arguments="889" name="drivers\GGPI_DaqNavi.exe" />-->
+		<!-- Studio B -->
+		<application arguments="865" name="grd32.exe" /> <!--rtr_stb_sdi-->
+		<application arguments="864" name="infodriver32" /> <!--rtr_stb_sdi_lock-->
+		<application arguments="867" name="drivers\IP_Router.exe" /> <!--rtr_stb_calrec-->
+		<application arguments="868" name="infodriver32" /> <!--rtr_stb_calrec_lock-->
+		<application arguments="860" name="infodriver32" /> <!--stb_sdi_memory-->
+		<application arguments="860" name="automatics\MemoryAuto.exe" /> <!--stb_sdi_memory-->
+		<application arguments="909" name="infodriver32" /> <!--studio_b_bfeumdlabel_auto-->
+		<application arguments="909" name="automatics\BFEUMDLabelAuto.exe" /> <!--studio_b_bfeumdlabel_auto-->
+		<application arguments="908" name="infodriver32" /> <!--studio_b_bfeksc_driver-->
+		<application arguments="908" name="drivers\KscUeZLabel.exe" /> <!--studio_b_bfeksc_driver-->
+		<application arguments="850" name="infodriver32" /> <!--studio_b_mv_1-->
+		<application arguments="850" name="drivers\Evertz_VIPPRO.exe" /> <!--studio_b_mv_1-->
+		<!-- Studio C -->
+		<application arguments="895" name="grd32.exe" /> <!--rtr_stc_sdi-->
+		<application arguments="894" name="infodriver32" /> <!--rtr_stc_sdi_lock-->
+		<application arguments="892" name="infodriver32" /> <!--stc_sdi_memory-->
+		<application arguments="892" name="automatics\MemoryAuto.exe" />
+		<application arguments="897" name="grd32.exe" /> <!--rtr_stc_nexus-->
+		<application arguments="897" name="drivers\nexus" />
+		<application arguments="893" name="infodriver32" /> <!--rtr_stc_nexus_lock-->
+		<application arguments="898" name="grd32.exe" /> <!--rtr_stc_prompt-->
+		<application arguments="905" name="infodriver32" /> <!--studio_c_bfeumdlabel_auto-->
+		<application arguments="905" name="automatics\BFEUMDLabelAuto.exe" />
+		<application arguments="904" name="infodriver32" /> <!--studio_c_bfeksc_driver-->
+		<application arguments="904" name="drivers\KscUeZLabel.exe" />
+		<!--<application arguments="890" name="drivers\GGPI_DaqNavi.exe" />-->
+		<application arguments="201" name="infodriver32" /> <!--sony_cna1_driver rcps-->
+		<application arguments="202" name="infodriver32" /> <!--sony_cna1_driver ccus-->
+		<application arguments="cna_1_driver_stc" name="drivers\cna1\sony_cna1_driver" />
+		<application arguments="891" name="infodriver32" /> <!--studio_test_state-->
+		<!--Panelman-->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="777" > <!--?-->
+		<application arguments="885" name="grd32.exe" />
+		<application arguments="895" name="grd32.exe" />
+		<application arguments="901" name="infodriver32.exe" />
+		<application arguments="902" name="infodriver32.exe" />
+		<application arguments="903" name="infodriver32.exe" />
+		<application arguments="904" name="infodriver32.exe" />
+		<application arguments="905" name="infodriver32.exe" />
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+</launch>

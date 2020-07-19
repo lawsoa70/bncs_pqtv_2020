@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <extensions>
+    <add assembly="NlogViewer" />
+  </extensions>
+  <targets>
+    <target xsi:type="NlogViewer" name="DebugWindow" />
+    <target xsi:type="OutputDebugString" name="DebugView" layout="${var:instance}|${level:uppercase=true}|${logger:shortName=false}|${message}" />
+    <target xsi:type="File" name="File"
+        layout="${date} :+: ${callsite} :+: ${message}"
+        deleteOldFileOnStartup="false"
+        fileName="${environment:variable=CC_ROOT}\${environment:variable=CC_SYSTEM}\logs\${processname}\${processname}_${var:instance:default=no_instance_supplied}_${date:format=yyyyMMdd-HH}.log"
+		archiveFileName="${environment:variable=CC_ROOT}\${environment:variable=CC_SYSTEM}\logs\${processname}\archive\${processname}_${var:instance:default=no_instance_supplied}_{#}.log"
+		archiveEvery="Hour"
+		archiveNumbering="Date"
+		archiveDateFormat="yyyyMMdd-HH"
+		archiveOldFileOnStartup="false"
+		maxArchiveFiles="168"
+		keepFileOpen="true"
+        encoding="iso-8859-2" />
+  </targets>
+  <rules>
+    <logger name="*" minlevel="Trace" writeTo="DebugView" />
+    <logger name="*" minlevel="Trace" writeTo="File" />
+    <logger name="always" minlevel="Debug" writeTo="DebugWindow" final="true" />
+    <logger name="*" minlevel="Debug" writeTo="DebugWindow" />
+  </rules>
+</nlog>

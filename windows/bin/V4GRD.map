@@ -1,0 +1,1636 @@
+ V4GRD
+
+ Timestamp is 56ddfdd6 (Mon Mar 07 22:16:54 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000ccf0H .text                   CODE
+ 0001:0000ccf0 000001c5H .text$x                 CODE
+ 0002:00000000 000001f4H .idata$5                DATA
+ 0002:000001f8 00000014H .rdata                  DATA
+ 0002:00000210 000001e8H .xdata$x                DATA
+ 0002:000003f8 00000078H .idata$2                DATA
+ 0002:00000470 00000014H .idata$3                DATA
+ 0002:00000484 000001f4H .idata$4                DATA
+ 0002:00000678 00000ae6H .idata$6                DATA
+ 0002:0000115e 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00001174H .data                   DATA
+ 0003:00001188 000152e4H .bss                    DATA
+ 0004:00000000 00000214H .rsrc$01                DATA
+ 0004:00000220 000015d0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 00401000 f i ccConfig.obj
+ 0001:00000100       ?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 00401100 f   ccConfig.obj
+ 0001:00000370       ?isV4Based@ccConfig@@SA_NXZ 00401370 f   ccConfig.obj
+ 0001:000003d0       ?isV3Based@ccConfig@@SA_NXZ 004013d0 f   ccConfig.obj
+ 0001:00000430       ?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@@Z 00401430 f   ccConfig.obj
+ 0001:00000640       ?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@@Z 00401640 f   ccConfig.obj
+ 0001:00000a70       ??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@XZ 00401a70 f i ccConfig.obj
+ 0001:00000a70       ??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@XZ 00401a70 f i ccConfig.obj
+ 0001:00000ae0       ?insert@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@2@ABU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@Z 00401ae0 f i ccConfig.obj
+ 0001:00000d30       ?erase@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AViterator@12@V312@@Z 00401d30 f i ccConfig.obj
+ 0001:00001190       ?_Erase@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXPAU_Node@12@@Z 00402190 f i ccConfig.obj
+ 0001:000011e0       ?_Init@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXXZ 004021e0 f i ccConfig.obj
+ 0001:00001280       ?_Insert@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@Z 00402280 f i ccConfig.obj
+ 0001:000014f0       ?_Lrotate@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXPAU_Node@12@@Z 004024f0 f i ccConfig.obj
+ 0001:00001550       ?_Rrotate@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXPAU_Node@12@@Z 00402550 f i ccConfig.obj
+ 0001:000015b0       ?_Buynode@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 004025b0 f i ccConfig.obj
+ 0001:000015d0       ?_Dec@const_iterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXXZ 004025d0 f i ccConfig.obj
+ 0001:00001630       ?_Inc@const_iterator@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXXZ 00402630 f i ccConfig.obj
+ 0001:00001680       ?_Construct@std@@YAXPAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@ABU21@@Z 00402680 f i ccConfig.obj
+ 0001:000017e0       ??3@YAXPAX0@Z              004027e0 f i ccConfig.obj
+ 0001:000017f0       ??_G?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAEPAXI@Z 004027f0 f i ccConfig.obj
+ 0001:00001810       ?GRAbout_About@@YAXXZ      00402810 f   GRABOUT.obj
+ 0001:00001830       ?GRAbout_AboutDialogProc@@YGHPAUHWND__@@GGJ@Z 00402830 f   GRABOUT.obj
+ 0001:000018e0       ?GRAdrienne_Interrogate@@YAHH@Z 004028e0 f   GRADRIEN.obj
+ 0001:00001930       ?GRAdrienne_Connect@@YAHHH@Z 00402930 f   GRADRIEN.obj
+ 0001:000019b0       ?GRAdrienne_DataIn@@YAXHE@Z 004029b0 f   GRADRIEN.obj
+ 0001:00001a20       ?GRAdrienne_Decode@@YAXH@Z 00402a20 f   GRADRIEN.obj
+ 0001:00001a80       ?GRAdrienne_BufferClear@@YAXH@Z 00402a80 f   GRADRIEN.obj
+ 0001:00001ab0       ?GRBbcRcp_Interrogate@@YAHH@Z 00402ab0 f   GRBBCRCP.obj
+ 0001:00001b00       ?GRBbcRcp_Connect@@YAHHH@Z 00402b00 f   GRBBCRCP.obj
+ 0001:00001b80       ?GRBbcRcp_DataIn@@YAXHE@Z  00402b80 f   GRBBCRCP.obj
+ 0001:00001c90       ?GRBbcRcp_Decode@@YAXPADH@Z 00402c90 f   GRBBCRCP.obj
+ 0001:00001da0       ?GRBbcRcp_SplitRevertive@@YAHPADQAY0M@D@Z 00402da0 f   GRBBCRCP.obj
+ 0001:00001e60       ?GRBtsAsc_Interrogate@@YAHH@Z 00402e60 f   GRBTSASC.obj
+ 0001:00001ef0       ?GRBtsAsc_Connect@@YAHHH@Z 00402ef0 f   GRBTSASC.obj
+ 0001:00001f70       ?GRBtsAsc_DataIn@@YAXHE@Z  00402f70 f   GRBTSASC.obj
+ 0001:00002080       ?GRBtsAsc_Decode@@YAXPADH@Z 00403080 f   GRBTSASC.obj
+ 0001:00002140       ?GRBtsEs_Init@@YAHXZ       00403140 f   GRBTSES.obj
+ 0001:00002230       ?GRBtsEs_Init2@@YAHXZ      00403230 f   GRBTSES.obj
+ 0001:000022a0       ?GRBtsEs_StartUpChk@@YAXXZ 004032a0 f   GRBTSES.obj
+ 0001:000022c0       ?GRBtsEs_Connect@@YAHHH@Z  004032c0 f   GRBTSES.obj
+ 0001:000023d0       ?GRBtsEs_ACK@@YAXH@Z       004033d0 f   GRBTSES.obj
+ 0001:000023f0       ?GRBtsEs_DataIn@@YAXHE@Z   004033f0 f   GRBTSES.obj
+ 0001:00002550       ?GRBtsEs_Decode@@YAXH@Z    00403550 f   GRBTSES.obj
+ 0001:000026b0       ?GRBtsEs_GetCheckSum@@YAEPADH@Z 004036b0 f   GRBTSES.obj
+ 0001:000026e0       ?GRCmd_RouterConnect@@YAHPAD@Z 004036e0 f   GRCMD.obj
+ 0001:00002c20       ?GRCmd_RouterFile@@YAHPAD@Z 00403c20 f   GRCMD.obj
+ 0001:00002c80       ?GRCmd_RouterLock@@YAHPAD@Z 00403c80 f   GRCMD.obj
+ 0001:00002d20       ?GRCmd_RouterPoll@@YAHPAD@Z 00403d20 f   GRCMD.obj
+ 0001:00002d90       ?GRCmd_RouterQuery@@YAHPAD@Z 00403d90 f   GRCMD.obj
+ 0001:00002e00       ?GRCmd_Debug@@YAXHH@Z      00403e00 f   GRCMD.obj
+ 0001:00002ed0       ?GRComSup_Init@@YAXXZ      00403ed0 f   Grcomsup.obj
+ 0001:00002f60       ?GRComSup_OpenComm@@YAPAXHH@Z 00403f60 f   Grcomsup.obj
+ 0001:00003070       ?GRComSup_Closedown@@YAXXZ 00404070 f   Grcomsup.obj
+ 0001:000030a0       ?GRComSup_SendData@@YAXHPAEH@Z 004040a0 f   Grcomsup.obj
+ 0001:000031b0       ?GRComSup_ClockDataIn@@YAXG@Z 004041b0 f   Grcomsup.obj
+ 0001:00003320       ?GRComSup_IdToPort@@YAHH@Z 00404320 f   Grcomsup.obj
+ 0001:00003350       ?GRComSup_FlagError@@YAXH@Z 00404350 f   Grcomsup.obj
+ 0001:00003430       ?GRComSup_DestToPort@@YAHH@Z 00404430 f   Grcomsup.obj
+ 0001:00003460       ?GRCox_Interrogate@@YAHH@Z 00404460 f   GRCOX.obj
+ 0001:000035e0       ?GRCox_Connect@@YAHHH@Z    004045e0 f   GRCOX.obj
+ 0001:00003730       ?GRCox_GetCheckSum@@YAEPADH@Z 00404730 f   GRCOX.obj
+ 0001:00003760       ?CSISup_Link@@YAHXZ        00404760 f   GRCSISUP.obj
+ 0001:000037f0       ?CSISup_Init@@YAHXZ        004047f0 f   GRCSISUP.obj
+ 0001:00003980       ?CSISup_Closedown@@YAXXZ   00404980 f   GRCSISUP.obj
+ 0001:000039b0       ?CSISup_AssertTxRxMode@@YAHI@Z 004049b0 f   GRCSISUP.obj
+ 0001:000039f0       ?CSISup_DisplayTxRxMode@@YAXI@Z 004049f0 f   GRCSISUP.obj
+ 0001:00003b20       ?CSISup_TxRevertive@@YAXHHHH@Z 00404b20 f   GRCSISUP.obj
+ 0001:00003e30       ?GRDialog_Init@@YAXXZ      00404e30 f   GRDIALOG.obj
+ 0001:00003e80       ?GRDialog_DialogProc@@YGHPAUHWND__@@GGJ@Z 00404e80 f   GRDIALOG.obj
+ 0001:00004050       ?GRDialog_InitDialog@@YAXXZ 00405050 f   GRDIALOG.obj
+ 0001:00004350       ?GRDialog_Closedown@@YAXXZ 00405350 f   GRDIALOG.obj
+ 0001:000043a0       ?GRDialog_SourceSelected@@YAXXZ 004053a0 f   GRDIALOG.obj
+ 0001:00004410       ?GRDialog_DestSelected@@YAXXZ 00405410 f   GRDIALOG.obj
+ 0001:00004490       ?GRDialog_Take@@YAXXZ      00405490 f   GRDIALOG.obj
+ 0001:00004540       ?GRDialog_Tally@@YAXXZ     00405540 f   GRDIALOG.obj
+ 0001:00004770       ?GRDialog_Update@@YAXXZ    00405770 f   GRDIALOG.obj
+ 0001:00004880       ?GRDialog_ToggleLock@@YAXXZ 00405880 f   GRDIALOG.obj
+ 0001:000048f0       ?GRDialog_RevDelayUpdate@@YAXXZ 004058f0 f   GRDIALOG.obj
+ 0001:00004950       ?GRDialog_FillSourceBox@@YAXXZ 00405950 f   GRDIALOG.obj
+ 0001:000049f0       ?GRDialog_FillDestBox@@YAXXZ 004059f0 f   GRDIALOG.obj
+ 0001:00004a90       ?GRDialog_ClearErrors@@YAXXZ 00405a90 f   GRDIALOG.obj
+ 0001:00004ae0       ?GRExt_Connect@@YAXHH@Z    00405ae0 f   GREXT.obj
+ 0001:00004b00       ?GRExt_GetDest@@YAHH@Z     00405b00 f   GREXT.obj
+ 0001:00004b30       ?GRExt_SetDest@@YAXIJ@Z    00405b30 f   GREXT.obj
+ 0001:00004ba0       ?GRExt_SendUserStr@@YAXPAD@Z 00405ba0 f   GREXT.obj
+ 0001:00004bd0       ?GRExt_RouteInternal@@YAXHH@Z 00405bd0 f   GREXT.obj
+ 0001:00004c10       ?FwdBuff_Init@@YAXXZ       00405c10 f   GRFWDBUF.obj
+ 0001:00004c50       ?FwdBuff_Write@@YAXPAD@Z   00405c50 f   GRFWDBUF.obj
+ 0001:00004ca0       ?FwdBuff_Read@@YAXXZ       00405ca0 f   GRFWDBUF.obj
+ 0001:00004d10       ?GRIdxfu_ReadIndex@@YAXXZ  00405d10 f   GRIDXFU.obj
+ 0001:00004e50       ?GRIdxfu_WriteIndex@@YAXXZ 00405e50 f   GRIDXFU.obj
+ 0001:00004f50       ?GRIdxfu_ReadLockFile@@YAXXZ 00405f50 f   GRIDXFU.obj
+ 0001:00005010       ?GRIdxfu_WriteLockFile@@YAXXZ 00406010 f   GRIDXFU.obj
+ 0001:000050e0       ?GRLeitch_Interrogate@@YAHH@Z 004060e0 f   GRLEITCH.obj
+ 0001:00005180       ?GRLeitch_Connect@@YAHHH@Z 00406180 f   GRLEITCH.obj
+ 0001:00005220       ?GRLeitch_DataIn@@YAXHE@Z  00406220 f   GRLEITCH.obj
+ 0001:000052c0       ?GRLeitch_Decode@@YAXH@Z   004062c0 f   GRLEITCH.obj
+ 0001:00005460       _WinMain@16                00406460 f   GRMAIN.obj
+ 0001:00005550       ?InitApplication@@YAHPAUHINSTANCE__@@@Z 00406550 f   GRMAIN.obj
+ 0001:000055d0       ?InitInstance@@YAHPAUHINSTANCE__@@H@Z 004065d0 f   GRMAIN.obj
+ 0001:00005620       ?MainWndProc@@YGJPAUHWND__@@IIJ@Z 00406620 f   GRMAIN.obj
+ 0001:000061c0       ?GRMain_Initialise@@YAXXZ  004071c0 f   GRMAIN.obj
+ 0001:00006250       ?GRMain_Init@@YAXXZ        00407250 f   GRMAIN.obj
+ 0001:00006330       ?GRMain_Closedown@@YAXXZ   00407330 f   GRMAIN.obj
+ 0001:000063a0       ?GRMain_ClientMsg@@YAXJ@Z  004073a0 f   GRMAIN.obj
+ 0001:00006480       ?GRMain_DatabasePoll@@YAXI@Z 00407480 f   GRMAIN.obj
+ 0001:000064b0       ?GRMain_SendDestStr@@YAXIJ@Z 004074b0 f   GRMAIN.obj
+ 0001:00006500       ?GRMain_InquireGoTxRx@@YAHXZ 00407500 f   GRMAIN.obj
+ 0001:00006560       ?GRNetCmd_Parse@@YAHPAD@Z  00407560 f   GRNETCMD.obj
+ 0001:000066f0       ?GRNetwork_Interrogate@@YAHH@Z 004076f0 f   GRNETWRK.obj
+ 0001:00006730       ?GRNetwork_Connect@@YAHHH@Z 00407730 f   GRNETWRK.obj
+ 0001:00006780       ?GRNetwork_DataIn@@YAXHE@Z 00407780 f   GRNETWRK.obj
+ 0001:00006810       ?GRNetwork_Decode@@YAXH@Z  00407810 f   GRNETWRK.obj
+ 0001:00006940       ?GRNtpEq_Interrogate@@YAHH@Z 00407940 f   GRNTPEQ.obj
+ 0001:000069a0       ?GRNtpEq_Connect@@YAHHH@Z  004079a0 f   GRNTPEQ.obj
+ 0001:00006a60       ?GRNtpEq_DataIn@@YAXHE@Z   00407a60 f   GRNTPEQ.obj
+ 0001:00006b50       ?GRNtpEq_Decode@@YAXPADH@Z 00407b50 f   GRNTPEQ.obj
+ 0001:00006db0       ?GRNtpEq_GetEqNum@@YAHH@Z  00407db0 f   GRNTPEQ.obj
+ 0001:00006dd0       ?GRNtpEq_GetEqRange@@YAHH@Z 00407dd0 f   GRNTPEQ.obj
+ 0001:00006df0       ?GRNtpEq_GetDest@@YAHHH@Z  00407df0 f   GRNTPEQ.obj
+ 0001:00006e00       ?GRParser_Parse@@YAXPAD@Z  00407e00 f   GRPARSER.obj
+ 0001:00006ee0       ?GRPesa_Interrogate@@YAHI@Z 00407ee0 f   GRPESA.obj
+ 0001:00006f90       ?GRPesa_Connect@@YAHII@Z   00407f90 f   GRPESA.obj
+ 0001:00007050       ?GRPesa_DataIn@@YAXHE@Z    00408050 f   GRPESA.obj
+ 0001:000070e0       ?GRPesa_Decode@@YAXPADH@Z  004080e0 f   GRPESA.obj
+ 0001:00007180       ?GRPesa_GetCheckSum@@YAXPAD0@Z 00408180 f   GRPESA.obj
+ 0001:000071e0       ?GRProbel_Interrogate@@YAHH@Z 004081e0 f   GRPROBEL.obj
+ 0001:00007260       ?GRProbel_Connect@@YAHHH@Z 00408260 f   GRPROBEL.obj
+ 0001:00007310       ?GRProbel_DataIn@@YAXHE@Z  00408310 f   GRPROBEL.obj
+ 0001:00007400       ?GRProbel_Decode@@YAXH@Z   00408400 f   GRPROBEL.obj
+ 0001:00007580       ?GRProbel_GetCheckSum@@YAEPADH@Z 00408580 f   GRPROBEL.obj
+ 0001:000075b0       ?GRProf_Init@@YAXXZ        004085b0 f   Grprof.obj
+ 0001:00008bd0       ?GRProf_Access@@YAXXZ      00409bd0 f   Grprof.obj
+ 0001:00008de0       ?GRProf_GrantAccess@@YAXH@Z 00409de0 f   Grprof.obj
+ 0001:00008e00       ?GRQuartz_Interrogate@@YAHH@Z 00409e00 f   GRQUARTZ.obj
+ 0001:00008e60       ?GRQuartz_Connect@@YAHHH@Z 00409e60 f   GRQUARTZ.obj
+ 0001:00008ec0       ?GRQuartz_DataIn@@YAXHE@Z  00409ec0 f   GRQUARTZ.obj
+ 0001:00008f80       ?GRQuartz_Decode@@YAXPADH@Z 00409f80 f   GRQUARTZ.obj
+ 0001:00009090       ?GRRouSup_MapTallyTables@@YAXHH@Z 0040a090 f   GRROUSUP.obj
+ 0001:000090f0       ?GRRouSup_SourceValid@@YAHH@Z 0040a0f0 f   GRROUSUP.obj
+ 0001:00009110       ?GRRouSup_DestValid@@YAHH@Z 0040a110 f   GRROUSUP.obj
+ 0001:00009130       ?RRCmd_RouterConnect@@YAXPAD@Z 0040a130 f   GRRRD.obj
+ 0001:00009220       ?RRCmd_Connect_RSRD@@YAXHHH@Z 0040a220 f   GRRRD.obj
+ 0001:00009290       ?RRCmd_Connect_RSVD@@YAXHHH@Z 0040a290 f   GRRRD.obj
+ 0001:000092c0       ?RRCmd_Connect_VSRD@@YAXHHH@Z 0040a2c0 f   GRRRD.obj
+ 0001:00009320       ?RRCmd_Connect_VSVD@@YAXHHH@Z 0040a320 f   GRRRD.obj
+ 0001:00009350       ?RRCmd_Trace@@YAXH@Z       0040a350 f   GRRRD.obj
+ 0001:00009410       ?RRCmd_GetRealSrce@@YAHH@Z 0040a410 f   GRRRD.obj
+ 0001:00009460       ?GRSimple_Interrogate@@YAHH@Z 0040a460 f   GRSIMPLE.obj
+ 0001:000095a0       ?GRSimple_Connect@@YAHHH@Z 0040a5a0 f   GRSIMPLE.obj
+ 0001:00009600       ?GRSMSGPI_Interrogate@@YAHH@Z 0040a600 f   GRSMSGPI.obj
+ 0001:00009650       ?GRSMSGPI_Connect@@YAHHH@Z 0040a650 f   GRSMSGPI.obj
+ 0001:000096c0       ?GRSMSGPI_DataIn@@YAXHE@Z  0040a6c0 f   GRSMSGPI.obj
+ 0001:00009750       ?GRSMSGPI_Decode@@YAXPADH@Z 0040a750 f   GRSMSGPI.obj
+ 0001:000097e0       ?GRSMSRTR_Interrogate@@YAHH@Z 0040a7e0 f   GRSMSRTR.obj
+ 0001:00009840       ?GRSMSRTR_Connect@@YAHHH@Z 0040a840 f   GRSMSRTR.obj
+ 0001:000098a0       ?GRSMSRTR_DataIn@@YAXHE@Z  0040a8a0 f   GRSMSRTR.obj
+ 0001:00009930       ?GRSMSRTR_Decode@@YAXPADH@Z 0040a930 f   GRSMSRTR.obj
+ 0001:00009a10       ?BNCSSendMessage@@YAJPAUHWND__@@0IIJHHHE@Z 0040aa10 f   GRSNDMSG.OBJ
+ 0001:00009a90       ?ODS@@YAXPAD@Z             0040aa90 f   GRSUFU.obj
+ 0001:00009ad0       ?GetMultiplier@@YAEHH@Z    0040aad0 f   GRSUFU.obj
+ 0001:00009af0       ?GetSource@@YAHEE@Z        0040aaf0 f   GRSUFU.obj
+ 0001:00009b10       ?GetDestination@@YAHEE@Z   0040ab10 f   GRSUFU.obj
+ 0001:00009b30       ?GetArguments@@YAXPADH@Z   0040ab30 f   GRSUFU.obj
+ 0001:00009c40       ?SendMsgToLog@@YAXPADH@Z   0040ac40 f   GRSUFU.obj
+ 0001:00009c70       ?DataDump@@YAXPADH@Z       0040ac70 f   GRSUFU.obj
+ 0001:00009d70       ?GRTimer_Delay@@YAXH@Z     0040ad70 f   GRTIMER.obj
+ 0001:00009d80       ?GRVistek_Interrogate@@YAHH@Z 0040ad80 f   GRVISTEK.obj
+ 0001:00009dd0       ?GRVistek_Connect@@YAHHH@Z 0040add0 f   GRVISTEK.obj
+ 0001:00009e30       ?GRVistek_DataIn@@YAXHE@Z  0040ae30 f   GRVISTEK.obj
+ 0001:00009f20       ?GRVistek_Decode@@YAXPADH@Z 0040af20 f   GRVISTEK.obj
+ 0001:0000a090       ??_GindexMapping@@UAEPAXI@Z 0040b090 f i indexMapping.obj
+ 0001:0000a090       ??_EindexMapping@@UAEPAXI@Z 0040b090 f i indexMapping.obj
+ 0001:0000a0b0       ??1?$map@HHU?$less@H@std@@V?$allocator@H@2@@std@@QAE@XZ 0040b0b0 f i indexMapping.obj
+ 0001:0000a1a0       ??0indexMapping@@QAE@H@Z   0040b1a0 f   indexMapping.obj
+ 0001:0000a330       ?load@indexMapping@@QAEXH@Z 0040b330 f   indexMapping.obj
+ 0001:0000a6b0       ??1indexMapping@@UAE@XZ    0040b6b0 f   indexMapping.obj
+ 0001:0000a8a0       ?mapSource@indexMapping@@QAEHH@Z 0040b8a0 f   indexMapping.obj
+ 0001:0000a910       ?unmapSource@indexMapping@@QAEHH@Z 0040b910 f   indexMapping.obj
+ 0001:0000a980       ?mapDest@indexMapping@@QAEHH@Z 0040b980 f   indexMapping.obj
+ 0001:0000a9f0       ?unmapDest@indexMapping@@QAEHH@Z 0040b9f0 f   indexMapping.obj
+ 0001:0000aa60       ?dumpSourceMapToDebug@indexMapping@@QAEXXZ 0040ba60 f   indexMapping.obj
+ 0001:0000ab10       ?begin@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AViterator@12@XZ 0040bb10 f i indexMapping.obj
+ 0001:0000ab10       ?begin@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AViterator@12@XZ 0040bb10 f i indexMapping.obj
+ 0001:0000ab20       ?insert@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@_N@2@ABU?$pair@$$CBHH@2@@Z 0040bb20 f i indexMapping.obj
+ 0001:0000ad60       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAEXXZ 0040bd60 f i indexMapping.obj
+ 0001:0000adb0       ??0?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@ABU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@_NABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z 0040bdb0 f i indexMapping.obj
+ 0001:0000ade0       ?erase@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AViterator@12@V312@0@Z 0040bde0 f i indexMapping.obj
+ 0001:0000aec0       ?clear@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXXZ 0040bec0 f i indexMapping.obj
+ 0001:0000af60       ??0?$pair@Viterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@_N@std@@QAE@ABViterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@1@AB_N@Z 0040bf60 f i indexMapping.obj
+ 0001:0000af80       ?erase@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AViterator@12@V312@@Z 0040bf80 f i indexMapping.obj
+ 0001:0000b380       ?_Erase@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEXPAU_Node@12@@Z 0040c380 f i indexMapping.obj
+ 0001:0000b3c0       ?_Insert@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHH@2@@Z 0040c3c0 f i indexMapping.obj
+ 0001:0000b630       ??Eiterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AV012@H@Z 0040c630 f i indexMapping.obj
+ 0001:0000b690       ?_Min@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@KAPAU_Node@12@PAU312@@Z 0040c690 f i indexMapping.obj
+ 0001:0000b6b0       ?_Lbound@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IBEPAU_Node@12@ABH@Z 0040c6b0 f i indexMapping.obj
+ 0001:0000b6e0       ?_Lrotate@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEXPAU_Node@12@@Z 0040c6e0 f i indexMapping.obj
+ 0001:0000b740       ?_Rrotate@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEXPAU_Node@12@@Z 0040c740 f i indexMapping.obj
+ 0001:0000b7a0       ?_Buynode@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 0040c7a0 f i indexMapping.obj
+ 0001:0000b7c0       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAEXXZ 0040c7c0 f i indexMapping.obj
+ 0001:0000b820       ?_Construct@std@@YAXPAU?$pair@$$CBHH@1@ABU21@@Z 0040c820 f i indexMapping.obj
+ 0001:0000b840       ?GetPrivateINIString@@YAXPBD00PADKQAD@Z 0040c840 f   PROFILE.obj
+ 0001:0000b8d0       ?WritePrivateINIString@@YAXPBD000@Z 0040c8d0 f   PROFILE.obj
+ 0001:0000b950       ?GetEnvironmentType@@YAHXZ 0040c950 f   PROFILE.obj
+ 0001:0000b9c0       ?GetSystemPath@@YAPADXZ    0040c9c0 f   PROFILE.obj
+ 0001:0000bac0       ?GetINIPath@@YAPADPAD@Z    0040cac0 f   PROFILE.obj
+ 0001:0000bb90       ?GetDataPath@@YAPADPAD@Z   0040cb90 f   PROFILE.obj
+ 0001:0000bc00       ?GetLockPath@@YAPADPAD@Z   0040cc00 f   PROFILE.obj
+ 0001:0000bc70       _BNCS32SendMessage         0040cc70 f   bncsWM32:BncsWM32.obj
+ 0001:0000bd60       _BNCS32ReceiveMessage      0040cd60 f   bncsWM32:BncsWM32.obj
+ 0001:0000be70       _CloseComm32               0040ce70 f   com32cm:Comms.obj
+ 0001:0000bf50       _OpenComm32                0040cf50 f   com32cm:Comms.obj
+ 0001:0000c110       _ConfigComm32              0040d110 f   com32cm:Comms.obj
+ 0001:0000c2c0       _EnableCommNotification    0040d2c0 f   com32cm:Comms.obj
+ 0001:0000c380       _GetCommError              0040d380 f   com32cm:Comms.obj
+ 0001:0000c400       _ReadComm                  0040d400 f   com32cm:Comms.obj
+ 0001:0000c480       _WriteComm                 0040d480 f   com32cm:Comms.obj
+ 0001:0000c570       _ComRxThread@4             0040d570 f   com32cm:Comms.obj
+ 0001:0000c6d0       _ProcessCommError          0040d6d0 f   com32cm:Comms.obj
+ 0001:0000c700       _ProcessBytes              0040d700 f   com32cm:Comms.obj
+ 0001:0000c7b0       _bInitBuf                  0040d7b0 f   com32cm:Comms.obj
+ 0001:0000c850       _bKillBufEx                0040d850 f   com32cm:Comms.obj
+ 0001:0000c870       _bKillBuf                  0040d870 f   com32cm:Comms.obj
+ 0001:0000c8c0       _bAddData                  0040d8c0 f   com32cm:Comms.obj
+ 0001:0000c960       _bAddByte                  0040d960 f   com32cm:Comms.obj
+ 0001:0000c9a0       _bGetData                  0040d9a0 f   com32cm:Comms.obj
+ 0001:0000ca30       _bGetByte                  0040da30 f   com32cm:Comms.obj
+ 0001:0000ca80       _iRemainByte               0040da80 f   com32cm:Comms.obj
+ 0001:0000cab0       _iRemainByteEx             0040dab0 f   com32cm:Comms.obj
+ 0001:0000cb20       ??3@YAXPAX@Z               0040db20 f   msvcprt:delop_s.obj
+ 0001:0000cb2c       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z 0040db2c f   msvcprt:MSVCP60.dll
+ 0001:0000cb32       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 0040db32 f   msvcprt:MSVCP60.dll
+ 0001:0000cb38       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 0040db38 f   msvcprt:MSVCP60.dll
+ 0001:0000cb3e       ??2@YAPAXI@Z               0040db3e f   MSVCRT:MSVCRT.dll
+ 0001:0000cb44       ___CxxFrameHandler         0040db44 f   MSVCRT:MSVCRT.dll
+ 0001:0000cb50       _WinMainCRTStartup         0040db50 f   MSVCRT:crtexew.obj
+ 0001:0000ccae       _free                      0040dcae f   MSVCRT:MSVCRT.dll
+ 0001:0000ccb4       __XcptFilter               0040dcb4 f   MSVCRT:MSVCRT.dll
+ 0001:0000ccba       __initterm                 0040dcba f   MSVCRT:MSVCRT.dll
+ 0001:0000ccc0       __setdefaultprecision      0040dcc0 f   MSVCRT:fp8.obj
+ 0001:0000ccd2       __matherr                  0040dcd2 f   MSVCRT:merr.obj
+ 0001:0000ccd5       __setargv                  0040dcd5 f   MSVCRT:dllargv.obj
+ 0001:0000ccd6       __except_handler3          0040dcd6 f   MSVCRT:MSVCRT.dll
+ 0001:0000ccdc       __controlfp                0040dcdc f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__BNCS32RxMessage     0040e000     bncsif32:BNCSIF32.dll
+ 0002:00000004       __imp__BNCS32TxMessage     0040e004     bncsif32:BNCSIF32.dll
+ 0002:00000008       \177BNCSIF32_NULL_THUNK_DATA 0040e008     bncsif32:BNCSIF32.dll
+ 0002:0000000c       __imp__GetStockObject@4    0040e00c     gdi32:GDI32.dll
+ 0002:00000010       \177GDI32_NULL_THUNK_DATA  0040e010     gdi32:GDI32.dll
+ 0002:00000014       __imp__GetModuleHandleA@4  0040e014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GlobalFlags@4       0040e018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetTickCount@0      0040e01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__ReleaseSemaphore@12 0040e020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__ReadFile@20         0040e024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__ResetEvent@4        0040e028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__CreateEventA@16     0040e02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__WriteFile@20        0040e030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetOverlappedResult@16 0040e034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__ClearCommError@12   0040e038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__SetCommTimeouts@8   0040e03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__CreateSemaphoreA@16 0040e040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__CreateThread@24     0040e044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCommProperties@8 0040e048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetStartupInfoA@4   0040e04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCommState@8      0040e050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GlobalAlloc@8       0040e054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__SetLastError@4      0040e058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__CreateFileA@28      0040e05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetLastError@0      0040e060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GlobalLock@4        0040e064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GlobalUnlock@4      0040e068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__PurgeComm@8         0040e06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__WaitForSingleObject@8 0040e070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__CloseHandle@4       0040e074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GlobalFree@4        0040e078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetWindowsDirectoryA@8 0040e07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__lstrcpyA@8          0040e080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__lstrcpynA@12        0040e084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__OutputDebugStringA@4 0040e088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__WritePrivateProfileStringA@16 0040e08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetPrivateProfileStringA@24 0040e090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__SetCommState@8      0040e094     kernel32:KERNEL32.dll
+ 0002:00000098       \177KERNEL32_NULL_THUNK_DATA 0040e098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp_??1_Lockit@std@@QAE@XZ 0040e09c     msvcprt:MSVCP60.dll
+ 0002:000000a0       __imp_??0_Lockit@std@@QAE@XZ 0040e0a0     msvcprt:MSVCP60.dll
+ 0002:000000a4       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 0040e0a4     msvcprt:MSVCP60.dll
+ 0002:000000a8       __imp_?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 0040e0a8     msvcprt:MSVCP60.dll
+ 0002:000000ac       __imp_?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 0040e0ac     msvcprt:MSVCP60.dll
+ 0002:000000b0       __imp_?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 0040e0b0     msvcprt:MSVCP60.dll
+ 0002:000000b4       __imp_?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB 0040e0b4     msvcprt:MSVCP60.dll
+ 0002:000000b8       __imp_?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 0040e0b8     msvcprt:MSVCP60.dll
+ 0002:000000bc       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 0040e0bc     msvcprt:MSVCP60.dll
+ 0002:000000c0       __imp_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 0040e0c0     msvcprt:MSVCP60.dll
+ 0002:000000c4       __imp_??Mstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z 0040e0c4     msvcprt:MSVCP60.dll
+ 0002:000000c8       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z 0040e0c8     msvcprt:MSVCP60.dll
+ 0002:000000cc       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 0040e0cc     msvcprt:MSVCP60.dll
+ 0002:000000d0       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 0040e0d0     msvcprt:MSVCP60.dll
+ 0002:000000d4       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 0040e0d4     msvcprt:MSVCP60.dll
+ 0002:000000d8       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 0040e0d8     msvcprt:MSVCP60.dll
+ 0002:000000dc       \177MSVCP60_NULL_THUNK_DATA 0040e0dc     msvcprt:MSVCP60.dll
+ 0002:000000e0       __imp_??2@YAPAXI@Z         0040e0e0     MSVCRT:MSVCRT.dll
+ 0002:000000e4       __imp____CxxFrameHandler   0040e0e4     MSVCRT:MSVCRT.dll
+ 0002:000000e8       __imp__sprintf             0040e0e8     MSVCRT:MSVCRT.dll
+ 0002:000000ec       __imp__atoi                0040e0ec     MSVCRT:MSVCRT.dll
+ 0002:000000f0       __imp__getenv              0040e0f0     MSVCRT:MSVCRT.dll
+ 0002:000000f4       __imp___strlwr             0040e0f4     MSVCRT:MSVCRT.dll
+ 0002:000000f4       __imp__strlwr              0040e0f4     MSVCRT:MSVCRT.dll
+ 0002:000000f8       __imp__strchr              0040e0f8     MSVCRT:MSVCRT.dll
+ 0002:000000fc       __imp__fgets               0040e0fc     MSVCRT:MSVCRT.dll
+ 0002:00000100       __imp__fopen               0040e100     MSVCRT:MSVCRT.dll
+ 0002:00000104       __imp__sscanf              0040e104     MSVCRT:MSVCRT.dll
+ 0002:00000108       __imp__strncpy             0040e108     MSVCRT:MSVCRT.dll
+ 0002:0000010c       __imp__fgetc               0040e10c     MSVCRT:MSVCRT.dll
+ 0002:00000110       __imp__fputc               0040e110     MSVCRT:MSVCRT.dll
+ 0002:00000114       __imp__strstr              0040e114     MSVCRT:MSVCRT.dll
+ 0002:00000118       __imp__strtok              0040e118     MSVCRT:MSVCRT.dll
+ 0002:0000011c       __imp__free                0040e11c     MSVCRT:MSVCRT.dll
+ 0002:00000120       __imp___exit               0040e120     MSVCRT:MSVCRT.dll
+ 0002:00000124       __imp___XcptFilter         0040e124     MSVCRT:MSVCRT.dll
+ 0002:00000128       __imp__exit                0040e128     MSVCRT:MSVCRT.dll
+ 0002:0000012c       __imp___acmdln             0040e12c     MSVCRT:MSVCRT.dll
+ 0002:00000130       __imp____getmainargs       0040e130     MSVCRT:MSVCRT.dll
+ 0002:00000134       __imp___initterm           0040e134     MSVCRT:MSVCRT.dll
+ 0002:00000138       __imp____setusermatherr    0040e138     MSVCRT:MSVCRT.dll
+ 0002:0000013c       __imp___adjust_fdiv        0040e13c     MSVCRT:MSVCRT.dll
+ 0002:00000140       __imp____p__commode        0040e140     MSVCRT:MSVCRT.dll
+ 0002:00000144       __imp____p__fmode          0040e144     MSVCRT:MSVCRT.dll
+ 0002:00000148       __imp____set_app_type      0040e148     MSVCRT:MSVCRT.dll
+ 0002:0000014c       __imp___except_handler3    0040e14c     MSVCRT:MSVCRT.dll
+ 0002:00000150       __imp___controlfp          0040e150     MSVCRT:MSVCRT.dll
+ 0002:00000154       __imp___strupr             0040e154     MSVCRT:MSVCRT.dll
+ 0002:00000154       __imp__strupr              0040e154     MSVCRT:MSVCRT.dll
+ 0002:00000158       __imp__fclose              0040e158     MSVCRT:MSVCRT.dll
+ 0002:0000015c       \177MSVCRT_NULL_THUNK_DATA 0040e15c     MSVCRT:MSVCRT.dll
+ 0002:00000160       __imp__PostQuitMessage@4   0040e160     user32:USER32.dll
+ 0002:00000164       __imp__GetMenu@4           0040e164     user32:USER32.dll
+ 0002:00000168       __imp__CheckMenuItem@12    0040e168     user32:USER32.dll
+ 0002:0000016c       __imp__EnableMenuItem@12   0040e16c     user32:USER32.dll
+ 0002:00000170       __imp__DrawMenuBar@4       0040e170     user32:USER32.dll
+ 0002:00000174       __imp__SetFocus@4          0040e174     user32:USER32.dll
+ 0002:00000178       __imp__DefWindowProcA@16   0040e178     user32:USER32.dll
+ 0002:0000017c       __imp__CreateWindowExA@48  0040e17c     user32:USER32.dll
+ 0002:00000180       __imp__LoadIconA@8         0040e180     user32:USER32.dll
+ 0002:00000184       __imp__LoadCursorA@8       0040e184     user32:USER32.dll
+ 0002:00000188       __imp__RegisterClassA@4    0040e188     user32:USER32.dll
+ 0002:0000018c       __imp__SetMessageQueue@4   0040e18c     user32:USER32.dll
+ 0002:00000190       __imp__GetMessageA@16      0040e190     user32:USER32.dll
+ 0002:00000194       __imp__TranslateMessage@4  0040e194     user32:USER32.dll
+ 0002:00000198       __imp__DispatchMessageA@4  0040e198     user32:USER32.dll
+ 0002:0000019c       __imp__MessageBeep@4       0040e19c     user32:USER32.dll
+ 0002:000001a0       __imp__EnableWindow@8      0040e1a0     user32:USER32.dll
+ 0002:000001a4       __imp__IsIconic@4          0040e1a4     user32:USER32.dll
+ 0002:000001a8       __imp__wsprintfA           0040e1a8     user32:USER32.dll
+ 0002:000001ac       __imp__LoadMenuA@8         0040e1ac     user32:USER32.dll
+ 0002:000001b0       __imp__SetMenu@8           0040e1b0     user32:USER32.dll
+ 0002:000001b4       __imp__SetWindowPos@28     0040e1b4     user32:USER32.dll
+ 0002:000001b8       __imp__ShowWindow@8        0040e1b8     user32:USER32.dll
+ 0002:000001bc       __imp__GetDlgItem@8        0040e1bc     user32:USER32.dll
+ 0002:000001c0       __imp__GetWindowRect@8     0040e1c0     user32:USER32.dll
+ 0002:000001c4       __imp__MoveWindow@24       0040e1c4     user32:USER32.dll
+ 0002:000001c8       __imp__CreateDialogParamA@20 0040e1c8     user32:USER32.dll
+ 0002:000001cc       __imp__SetWindowTextA@8    0040e1cc     user32:USER32.dll
+ 0002:000001d0       __imp__SendMessageA@16     0040e1d0     user32:USER32.dll
+ 0002:000001d4       __imp__MessageBoxA@16      0040e1d4     user32:USER32.dll
+ 0002:000001d8       __imp__KillTimer@8         0040e1d8     user32:USER32.dll
+ 0002:000001dc       __imp__SetTimer@16         0040e1dc     user32:USER32.dll
+ 0002:000001e0       __imp__PostMessageA@16     0040e1e0     user32:USER32.dll
+ 0002:000001e4       __imp__EndDialog@8         0040e1e4     user32:USER32.dll
+ 0002:000001e8       __imp__SetDlgItemTextA@12  0040e1e8     user32:USER32.dll
+ 0002:000001ec       __imp__DialogBoxParamA@20  0040e1ec     user32:USER32.dll
+ 0002:000001f0       \177USER32_NULL_THUNK_DATA 0040e1f0     user32:USER32.dll
+ 0002:000001f8       ??_7indexMapping@@6B@      0040e1f8     indexMapping.obj
+ 0002:000003f8       __IMPORT_DESCRIPTOR_USER32 0040e3f8     user32:USER32.dll
+ 0002:0000040c       __IMPORT_DESCRIPTOR_BNCSIF32 0040e40c     bncsif32:BNCSIF32.dll
+ 0002:00000420       __IMPORT_DESCRIPTOR_GDI32  0040e420     gdi32:GDI32.dll
+ 0002:00000434       __IMPORT_DESCRIPTOR_MSVCP60 0040e434     msvcprt:MSVCP60.dll
+ 0002:00000448       __IMPORT_DESCRIPTOR_MSVCRT 0040e448     MSVCRT:MSVCRT.dll
+ 0002:0000045c       __IMPORT_DESCRIPTOR_KERNEL32 0040e45c     kernel32:KERNEL32.dll
+ 0002:00000470       __NULL_IMPORT_DESCRIPTOR   0040e470     user32:USER32.dll
+ 0003:00000000       ___xc_a                    00410000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    00410004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    00410008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    0041000c     MSVCRT:cinitexe.obj
+ 0003:00000010       ??_C@_02MECO@?$CFd?$AA@    00410010     ccConfig.obj
+ 0003:00000014       ??_C@_01PCFE@?2?$AA@       00410014     ccConfig.obj
+ 0003:00000018       ??_C@_06EOPM@WINDIR?$AA@   00410018     ccConfig.obj
+ 0003:00000020       ??_C@_06OELI@Config?$AA@   00410020     ccConfig.obj
+ 0003:00000028       ??_C@_0L@HICP@ConfigPath?$AA@ 00410028     ccConfig.obj
+ 0003:00000034       ??_C@_0BD@MFJP@c?3?2bncs_config?4ini?$AA@ 00410034     ccConfig.obj
+ 0003:00000048       ??_C@_07NCHF@?2config?$AA@ 00410048     ccConfig.obj
+ 0003:00000050       ??_C@_09EFEJ@CC_SYSTEM?$AA@ 00410050     ccConfig.obj
+ 0003:0000005c       ??_C@_07FCNI@CC_ROOT?$AA@  0041005c     ccConfig.obj
+ 0003:00000064       ??_C@_07HOMN@csi?4ini?$AA@ 00410064     ccConfig.obj
+ 0003:0000006c       ??_C@_08MDLK@?2system?2?$AA@ 0041006c     ccConfig.obj
+ 0003:00000078       ??_C@_01FIMD@?$FN?$AA@     00410078     ccConfig.obj
+ 0003:0000007c       ??_C@_01KHLB@?$FL?$AA@     0041007c     ccConfig.obj
+ 0003:00000080       ??_C@_01LHO@r?$AA@         00410080     ccConfig.obj
+ 0003:00000084       ??_C@_05DGMO@ABOUT?$AA@    00410084     GRABOUT.obj
+ 0003:0000008c       ??_C@_0BO@DPBA@Version?5?$CFs?5?9?5?$CIc?$CJ?5Siemens?52011?$AA@ 0041008c     GRABOUT.obj
+ 0003:000000ac       ??_C@_07PLKF@4?44?44?40?$AA@ 004100ac     GRABOUT.obj
+ 0003:000000b4       ??_C@_07DAJE@?$CFs?5?9?5?$CFs?$AA@ 004100b4     GRABOUT.obj
+ 0003:000000bc       ??_C@_0M@OFFK@Mar?5?57?52016?$AA@ 004100bc     GRABOUT.obj
+ 0003:000000c8       ??_C@_08CJOO@22?316?343?$AA@ 004100c8     GRABOUT.obj
+ 0003:000000d4       ??_C@_09OJME@?4IA?$CFd?0?9?$CFc?$AA@ 004100d4     GRBBCRCP.obj
+ 0003:000000e0       ??_C@_0M@PPGG@?4S?$CFc?$CFd?0?$CFd?$CFc?$AA@ 004100e0     GRBBCRCP.obj
+ 0003:000000ec       ??_C@_05BBIB@?$CFd?0?$CFd?$AA@ 004100ec     GRBBCRCP.obj
+ 0003:000000f4       ??_C@_08LGNM@ZR?$CF03d?$CFc?$AA@ 004100f4     GRBTSASC.obj
+ 0003:00000100       ??_C@_07NIFJ@ZW999?$CFc?$AA@ 00410100     GRBTSASC.obj
+ 0003:00000108       ??_C@_0N@GMHB@ZS?$CF03d?$CF03d?$CFc?$AA@ 00410108     GRBTSASC.obj
+ 0003:00000118       ??_C@_09JNMG@ZR?$CF03d?$CF3d?$AA@ 00410118     GRBTSASC.obj
+ 0003:00000124       ??_C@_04OJNO@NACK?$AA@     00410124     GRBTSES.obj
+ 0003:0000012c       ??_C@_0BO@GCOO@Unknown?5primary?5response?5?$CF02x?$AA@ 0041012c     GRBTSES.obj
+ 0003:0000014c       ??_C@_0FH@NMIG@Start?9up?5message?5?$CISTUR?$CJ?5received@ 0041014c     GRBTSES.obj
+ 0003:000001a4       ??_C@_0BB@DCLF@ROUTING?5?$CFd?5to?5?$CFd?$AA@ 004101a4     GRCMD.obj
+ 0003:000001b8       ??_C@_0FE@FGPP@Request?5to?5route?5?$CFd?5to?5?$CFd?5change@ 004101b8     GRCMD.obj
+ 0003:0000020c       ??_C@_0CI@GNGI@Request?5to?5route?5?$CFd?5to?5?$CFd?5on?5dev@ 0041020c     GRCMD.obj
+ 0003:00000234       ??_C@_0EO@HENC@Cannot?5route?5because?5dest?5?$CFd?5is?5@ 00410234     GRCMD.obj
+ 0003:00000284       ??_C@_0FC@PIPN@Cannot?5route?5because?5source?5?$CFd?5i@ 00410284     GRCMD.obj
+ 0003:000002d8       ??_C@_0BK@JFFM@Can?8t?5open?5serial?5port?5?$CFd?$AA@ 004102d8     Grcomsup.obj
+ 0003:000002f4       ??_C@_08ELN@COM?$CFd?5?$CFd?$AA@ 004102f4     Grcomsup.obj
+ 0003:00000300       ??_C@_0BN@OFFP@Tx?5Error?5?80x?$CF04x?8?5on?5Port?5?$CFd?$AA@ 00410300     Grcomsup.obj
+ 0003:00000320       ??_C@_0DP@KLAG@?$FLPort?5?$CFd?5?9?5?$CFd?$FN?5Tx?5?$CF02x?5?$CF02x?5?$CF02x@ 00410320     Grcomsup.obj
+ 0003:00000360       ??_C@_0BE@JMII@Comms?5ok?5on?5port?5?$CFd?$AA@ 00410360     Grcomsup.obj
+ 0003:00000374       ??_C@_02CCIF@Ok?$AA@       00410374     Grcomsup.obj
+ 0003:00000378       ??_C@_0BG@MGAP@Comms?5fail?5on?5port?5?$CFd?$AA@ 00410378     Grcomsup.obj
+ 0003:00000390       ??_C@_04MLMN@Fail?$AA@     00410390     Grcomsup.obj
+ 0003:00000398       ??_C@_02MHMJ@?$CFu?$AA@    00410398     Grcomsup.obj
+ 0003:0000039c       ??_C@_0M@FEBH@Byte?5?$DN?5?$CF02x?$AA@ 0041039c     GRCOX.obj
+ 0003:000003a8       ??_C@_0DJ@MBDN@Cannot?5find?5BBC?5Network?5Control?5@ 004103a8     GRCSISUP.obj
+ 0003:000003e4       ??_C@_09BMGO@?$CB?5Error?5?$CB?$AA@ 004103e4     GRCSISUP.obj
+ 0003:000003f0       ??_C@_0BI@KHJC@Trying?5to?5attach?5to?5CSI?$AA@ 004103f0     GRCSISUP.obj
+ 0003:00000408       ??_C@_0CC@OPFF@The?5supplied?5driver?5Id?5is?5invali@ 00410408     GRCSISUP.obj
+ 0003:0000042c       ??_C@_0DK@PGHB@Request?5refused?5?9?5CSI?5has?5not?5be@ 0041042c     GRCSISUP.obj
+ 0003:00000468       ??_C@_0DK@GCL@Request?5refused?5?9?5A?5driver?5has?5a@ 00410468     GRCSISUP.obj
+ 0003:000004a4       ??_C@_0CJ@NAOA@Request?5refused?5?9?5ID?5supplied?5is@ 004104a4     GRCSISUP.obj
+ 0003:000004d0       ??_C@_0CB@DELL@Attempting?5to?5register?5device?5?$CFd@ 004104d0     GRCSISUP.obj
+ 0003:000004f4       ??_C@_0BC@NEJJ@CSI?5handle?50x?$CF04x?$AA@ 004104f4     GRCSISUP.obj
+ 0003:00000508       ??_C@_0DC@DJDN@G?4R?4D?4?5v?$CFs?5?9?5Device?5?$CF03d?5?9?5Unkno@ 00410508     GRCSISUP.obj
+ 0003:0000053c       ??_C@_06CMFN@Error?$CB?$AA@ 0041053c     GRCSISUP.obj
+ 0003:00000544       ??_C@_0CL@MFOI@G?4R?4D?4?5v?$CFs?5?9?5Device?5?$CF03d?5?9?5RxOnl@ 00410544     GRCSISUP.obj
+ 0003:00000570       ??_C@_07DBNN@Rx?5Only?$AA@ 00410570     GRCSISUP.obj
+ 0003:00000578       ??_C@_0CJ@DAIL@G?4R?4D?4?5v?$CFs?5?9?5Device?5?$CF03d?5?9?5TXRX?5@ 00410578     GRCSISUP.obj
+ 0003:000005a4       ??_C@_05IBFC@Tx?1Rx?$AA@   004105a4     GRCSISUP.obj
+ 0003:000005ac       ??_C@_05OFAG@?$CF08ld?$AA@ 004105ac     GRCSISUP.obj
+ 0003:000005b4       ??_C@_0BC@NPHO@RR?5?$CF03d?5?$CF03d?5?$CF03d?$AA@ 004105b4     GRCSISUP.obj
+ 0003:000005c8       ??_C@_0BI@GKGL@Can?8t?5create?5dialog?5box?$AA@ 004105c8     GRDIALOG.obj
+ 0003:000005e0       ??_C@_01PIHH@?$CB?$AA@     004105e0     GRDIALOG.obj
+ 0003:000005e4       ??_C@_0L@GOIO@MAINDIALOG?$AA@ 004105e4     GRDIALOG.obj
+ 0003:000005f0       ??_C@_0BA@EKEI@Creating?5Dialog?$AA@ 004105f0     GRDIALOG.obj
+ 0003:00000600       ??_C@_08FGLH@Disabled?$AA@ 00410600     GRDIALOG.obj
+ 0003:0000060c       ??_C@_08EOLN@External?$AA@ 0041060c     GRDIALOG.obj
+ 0003:00000618       ??_C@_08CBFE@Internal?$AA@ 00410618     GRDIALOG.obj
+ 0003:00000624       ??_C@_01PLJA@0?$AA@        00410624     GRDIALOG.obj
+ 0003:00000628       ??_C@_04KAJP@?$CF03d?$AA@  00410628     GRDIALOG.obj
+ 0003:00000630       ??_C@_04PAPL@Menu?$AA@     00410630     GRDIALOG.obj
+ 0003:00000638       ??_C@_0BF@HDEF@RC?5?$CFd?5?$CFd?5?$CFd?5?8?0?9?9?9?8?50?$AA@ 00410638     GRDIALOG.obj
+ 0003:00000650       ??_C@_08BADN@Unlocked?$AA@ 00410650     GRDIALOG.obj
+ 0003:0000065c       ??_C@_06KBON@Locked?$AA@   0041065c     GRDIALOG.obj
+ 0003:00000664       ??_C@_0BA@ELGE@RL?5?$CFd?5?$CFd?5?$CFd?51?50?$AA@ 00410664     GRDIALOG.obj
+ 0003:00000674       ??_C@_0BA@BJHC@RL?5?$CFd?5?$CFd?5?$CFd?50?50?$AA@ 00410674     GRDIALOG.obj
+ 0003:00000684       ??_C@_0BJ@OOG@wParam?5?$DN?5?$CFd?0?5lParam?5?$DN?5?$CFd?$AA@ 00410684     GREXT.obj
+ 0003:000006a0       ??_C@_0BG@MFKG@RC?5?$CFd?5?$CFd?5?$CFd?5?8?0?9?9?9?8?5?$CFd?$AA@ 004106a0     GREXT.obj
+ 0003:000006b8       ??_C@_02JKAF@rb?$AA@       004106b8     GRIDXFU.obj
+ 0003:000006bc       ??_C@_0N@OKEK@DEV_?$CF03d?4DAT?$AA@ 004106bc     GRIDXFU.obj
+ 0003:000006cc       ??_C@_0CB@IMKD@Couldn?8t?5write?5index?5file?5?9?5?8?$CFs?8@ 004106cc     GRIDXFU.obj
+ 0003:000006f0       ??_C@_02NGAF@wb?$AA@       004106f0     GRIDXFU.obj
+ 0003:000006f4       ??_C@_0N@PPIH@DEV_?$CF03d?4LCK?$AA@ 004106f4     GRIDXFU.obj
+ 0003:00000704       ??_C@_0CA@PKIN@Couldn?8t?5write?5lock?5file?5?9?5?8?$CFs?8?$AA@ 00410704     GRIDXFU.obj
+ 0003:00000724       ??_C@_09NKN@?$EA?5X?$DP?$CFx?$CFx?$AN?$AA@ 00410724     GRLEITCH.obj
+ 0003:00000730       ??_C@_08MPM@?$EA?5?$DP?$ANT?5F?$AN?$AA@ 00410730     GRLEITCH.obj
+ 0003:0000073c       ??_C@_0O@DMAL@?$EA?5X?3?$CFx?1?$CFx?0?$CFx?$AN?$AA@ 0041073c     GRLEITCH.obj
+ 0003:0000074c       ??_C@_0BF@GMND@Router?5Connect?5?$CFd?5?$CFd?$AA@ 0041074c     GRLEITCH.obj
+ 0003:00000764       ??_C@_0BD@IF@Result?5?9?$DO?5?$CFx?1?$CFx?0?$CFx?$AA@ 00410764     GRLEITCH.obj
+ 0003:00000778       ??_C@_02GCKE@?0X?$AA@      00410778     GRLEITCH.obj
+ 0003:0000077c       ??_C@_05KMOM@?$CFx?0?$CFx?$AA@ 0041077c     GRLEITCH.obj
+ 0003:00000784       ??_C@_05HIPL@V4GRD?$AA@    00410784     GRMAIN.obj
+ 0003:0000078c       ??_C@_06FOJK@idicon?$AA@   0041078c     GRMAIN.obj
+ 0003:00000794       ??_C@_0O@MHPE@Sending?5?$CFx?5?$CFx?$AA@ 00410794     GRMAIN.obj
+ 0003:000007a4       ??_C@_07DLOK@?1__1B0_?$AA@ 004107a4     GRMAIN.obj
+ 0003:000007ac       ??_C@_07FFME@Enabled?$AA@  004107ac     GRMAIN.obj
+ 0003:000007b4       ??_C@_0FB@DOHA@The?5driver?5Id?5supplied?5as?5a?5comm@ 004107b4     GRMAIN.obj
+ 0003:00000808       ??_C@_0P@DOAO@GRD?5running?4?4?4?$AA@ 00410808     GRMAIN.obj
+ 0003:00000818       ??_C@_0BO@OFBB@G?4R?4D?4?5v?$CFs?5?9?5Device?5?$CFd?5?9?5?$CC?$CFs?$CC?$AA@ 00410818     GRMAIN.obj
+ 0003:00000838       ??_C@_08BGLC@GRD_?$CF03d?$AA@ 00410838     GRMAIN.obj
+ 0003:00000844       ??_C@_0P@PIHJ@GRD?5closing?4?4?4?$AA@ 00410844     GRMAIN.obj
+ 0003:00000854       ??_C@_07EFBK@Inhibit?$AA@  00410854     GRMAIN.obj
+ 0003:0000085c       ??_C@_0CA@EGGG@NS?5?$CF03d?5?$CF03d?5?8TXRX?$DN?$CFd?8?5?$CFs?5?$CFs?5?$CFs?$AA@ 0041085c     GRNETCMD.obj
+ 0003:0000087c       ??_C@_04HKON@txrx?$AA@     0041087c     GRNETCMD.obj
+ 0003:00000884       ??_C@_05JKGE@?$CFs?5?$CFs?$AA@ 00410884     GRNETCMD.obj
+ 0003:0000088c       ??_C@_04OBKB@?$CF02x?$AA@  0041088c     GRNETWRK.obj
+ 0003:00000894       ??_C@_09HNKF@?4ZM?$CFd?0?9?$CFc?$AA@ 00410894     GRNTPEQ.obj
+ 0003:000008a0       ??_C@_0M@OLG@?4Z?$CFc?$CFd?0?$CFd?$CFc?$AA@ 004108a0     GRNTPEQ.obj
+ 0003:000008ac       ??_C@_0BM@CKO@Tally?5?$DO?5iDest?$DN?$CFd?5iSource?$DN?$CFd?$AA@ 004108ac     GRNTPEQ.obj
+ 0003:000008c8       ??_C@_0BF@BJJE@?$CFd?0?$CFd?0?$CFd?0?$CFd?0?$CFd?0?$CFd?0?$CFd?$AA@ 004108c8     GRNTPEQ.obj
+ 0003:000008e0       ??_C@_0P@LMEE@Parsing?5?9?5?$FL?$CFs?$FN?$AA@ 004108e0     GRPARSER.obj
+ 0003:000008f0       ??_C@_05KJB@Y?$CF03d?$AA@  004108f0     GRPESA.obj
+ 0003:000008f8       ??_C@_09KLPA@H?$CF03d?$CF03d?$AA@ 004108f8     GRPESA.obj
+ 0003:00000904       ??_C@_0N@LFAN@?$CF03d?5?$CFd?5?$CF03d?$AA@ 00410904     GRPESA.obj
+ 0003:00000914       ??_C@_01OAK@N?$AA@         00410914     Grprof.obj
+ 0003:00000918       ??_C@_06JEMF@Parity?$AA@   00410918     Grprof.obj
+ 0003:00000920       ??_C@_08BGMI@StopBits?$AA@ 00410920     Grprof.obj
+ 0003:0000092c       ??_C@_08PKOC@DataBits?$AA@ 0041092c     Grprof.obj
+ 0003:00000938       ??_C@_05PDDA@Speed?$AA@    00410938     Grprof.obj
+ 0003:00000940       ??_C@_04GKOG@PESA?$AA@     00410940     Grprof.obj
+ 0003:00000948       ??_C@_08DNFH@ADRIENNE?$AA@ 00410948     Grprof.obj
+ 0003:00000954       ??_C@_06GNJD@LEITCH?$AA@   00410954     Grprof.obj
+ 0003:0000095c       ??_C@_07KFPJ@NETWORK?$AA@  0041095c     Grprof.obj
+ 0003:00000964       ??_C@_0M@NJFD@BTSESSWITCH?$AA@ 00410964     Grprof.obj
+ 0003:00000970       ??_C@_06GKKA@QUARTZ?$AA@   00410970     Grprof.obj
+ 0003:00000978       ??_C@_08HHB@BTSASCII?$AA@  00410978     Grprof.obj
+ 0003:00000984       ??_C@_08OLJ@SIMOSGPI?$AA@  00410984     Grprof.obj
+ 0003:00000990       ??_C@_08GNEE@SIMOSRTR?$AA@ 00410990     Grprof.obj
+ 0003:0000099c       ??_C@_05LIAP@NTPEQ?$AA@    0041099c     Grprof.obj
+ 0003:000009a4       ??_C@_06INDM@VISTEK?$AA@   004109a4     Grprof.obj
+ 0003:000009ac       ??_C@_03FFDN@COX?$AA@      004109ac     Grprof.obj
+ 0003:000009b0       ??_C@_06KOCP@SIMPLE?$AA@   004109b0     Grprof.obj
+ 0003:000009b8       ??_C@_06GBON@PROBEL?$AA@   004109b8     Grprof.obj
+ 0003:000009c0       ??_C@_06KMCD@BBCRCP?$AA@   004109c0     Grprof.obj
+ 0003:000009c8       ??_C@_03GPHO@NTP?$AA@      004109c8     Grprof.obj
+ 0003:000009cc       ??_C@_08OBCM@Protocol?$AA@ 004109cc     Grprof.obj
+ 0003:000009d8       ??_C@_07MEHJ@MaxDest?$AA@  004109d8     Grprof.obj
+ 0003:000009e0       ??_C@_04MHIC@NONE?$AA@     004109e0     Grprof.obj
+ 0003:000009e8       ??_C@_07KLPC@MinDest?$AA@  004109e8     Grprof.obj
+ 0003:000009f0       ??_C@_04CEAI@Port?$AA@     004109f0     Grprof.obj
+ 0003:000009f8       ??_C@_06JALA@Com_?$CFd?$AA@ 004109f8     Grprof.obj
+ 0003:00000a00       ??_C@_0BC@EKGF@GoRxOnlyOnComFail?$AA@ 00410a00     Grprof.obj
+ 0003:00000a14       ??_C@_02ICLI@?92?$AA@      00410a14     Grprof.obj
+ 0003:00000a18       ??_C@_04LGDF@?$CF02d?$AA@  00410a18     Grprof.obj
+ 0003:00000a20       ??_C@_0BA@LML@AdrienneAddress?$AA@ 00410a20     Grprof.obj
+ 0003:00000a30       ??_C@_0BB@KHFC@NetworkRouterLvl?$AA@ 00410a30     Grprof.obj
+ 0003:00000a44       ??_C@_05HIPJ@AUDIO?$AA@    00410a44     Grprof.obj
+ 0003:00000a4c       ??_C@_05BPFB@VIDEO?$AA@    00410a4c     Grprof.obj
+ 0003:00000a54       ??_C@_0BC@JOHO@NetworkRouterType?$AA@ 00410a54     Grprof.obj
+ 0003:00000a68       ??_C@_03EFG@VAB?$AA@       00410a68     Grprof.obj
+ 0003:00000a6c       ??_C@_0N@BCJL@QuartzLevels?$AA@ 00410a6c     Grprof.obj
+ 0003:00000a7c       ??_C@_0M@MBIL@LeitchLevel?$AA@ 00410a7c     Grprof.obj
+ 0003:00000a88       ??_C@_0N@OMCI@LeitchLevels?$AA@ 00410a88     Grprof.obj
+ 0003:00000a98       ??_C@_08OFCC@OBSOLETE?$AA@ 00410a98     Grprof.obj
+ 0003:00000aa4       ??_C@_0O@FNHC@BBCRCP_Levels?$AA@ 00410aa4     Grprof.obj
+ 0003:00000ab4       ??_C@_0L@PMBM@Simulation?$AA@ 00410ab4     Grprof.obj
+ 0003:00000ac0       ??_C@_01KPCI@8?$AA@        00410ac0     Grprof.obj
+ 0003:00000ac4       ??_C@_0L@FDMM@NameLength?$AA@ 00410ac4     Grprof.obj
+ 0003:00000ad0       ??_C@_0N@IECJ@DestToSource?$AA@ 00410ad0     Grprof.obj
+ 0003:00000ae0       ??_C@_0N@OFCI@SourceToDest?$AA@ 00410ae0     Grprof.obj
+ 0003:00000af0       ??_C@_09KAG@DebugMode?$AA@ 00410af0     Grprof.obj
+ 0003:00000afc       ??_C@_08DNEH@ReAssert?$AA@ 00410afc     Grprof.obj
+ 0003:00000b08       ??_C@_0BG@HNDL@InhibitNetworkOnStart?$AA@ 00410b08     Grprof.obj
+ 0003:00000b20       ??_C@_01FBAH@1?$AA@        00410b20     Grprof.obj
+ 0003:00000b24       ??_C@_0BB@IDCC@NetUpdateOnStart?$AA@ 00410b24     Grprof.obj
+ 0003:00000b38       ??_C@_06NJAJ@DRIVER?$AA@   00410b38     Grprof.obj
+ 0003:00000b40       ??_C@_06JDNA@ROUTER?$AA@   00410b40     Grprof.obj
+ 0003:00000b48       ??_C@_0O@LGEG@RevertiveMode?$AA@ 00410b48     Grprof.obj
+ 0003:00000b58       ??_C@_01PLFL@5?$AA@        00410b58     Grprof.obj
+ 0003:00000b5c       ??_C@_0P@HHBM@CommErrorLimit?$AA@ 00410b5c     Grprof.obj
+ 0003:00000b6c       ??_C@_04JCBD@2000?$AA@     00410b6c     Grprof.obj
+ 0003:00000b74       ??_C@_0L@FDGH@TallyDelay?$AA@ 00410b74     Grprof.obj
+ 0003:00000b80       ??_C@_03IDPJ@200?$AA@      00410b80     Grprof.obj
+ 0003:00000b84       ??_C@_0P@MKKF@InitTallyDelay?$AA@ 00410b84     Grprof.obj
+ 0003:00000b94       ??_C@_08CMGL@INTERNAL?$AA@ 00410b94     Grprof.obj
+ 0003:00000ba0       ??_C@_08EDIC@EXTERNAL?$AA@ 00410ba0     Grprof.obj
+ 0003:00000bac       ??_C@_0L@GPIP@DriverMode?$AA@ 00410bac     Grprof.obj
+ 0003:00000bb8       ??_C@_0P@JJON@RevertiveDelay?$AA@ 00410bb8     Grprof.obj
+ 0003:00000bc8       ??_C@_0N@DMAG@FwdBuffDelay?$AA@ 00410bc8     Grprof.obj
+ 0003:00000bd8       ??_C@_02FCMB@10?$AA@       00410bd8     Grprof.obj
+ 0003:00000bdc       ??_C@_09MBHA@SaveDelay?$AA@ 00410bdc     Grprof.obj
+ 0003:00000be8       ??_C@_0N@GEC@FirstVirtual?$AA@ 00410be8     Grprof.obj
+ 0003:00000bf8       ??_C@_03JFOM@?$CFld?$AA@   00410bf8     Grprof.obj
+ 0003:00000bfc       ??_C@_0L@HDBO@ParkSource?$AA@ 00410bfc     Grprof.obj
+ 0003:00000c08       ??_C@_0BM@FOHJ@INDEXMAPPING?3?5writing?5entry?$AA@ 00410c08     Grprof.obj
+ 0003:00000c24       ??_C@_0BO@LAGL@INDEXMAPPING?3?5writing?5default?$AA@ 00410c24     Grprof.obj
+ 0003:00000c44       ??_C@_0BF@MPBC@DEV_?$CF03d?4destMapping?$AA@ 00410c44     Grprof.obj
+ 0003:00000c5c       ??_C@_04MBMK@?$CF04d?$AA@  00410c5c     Grprof.obj
+ 0003:00000c64       ??_C@_06BMDH@?$DMbncs?$DO?$AA@ 00410c64     Grprof.obj
+ 0003:00000c6c       ??_C@_06EBIB@?$DMreal?$DO?$AA@ 00410c6c     Grprof.obj
+ 0003:00000c74       ??_C@_0BH@OIDA@DEV_?$CF03d?4sourceMapping?$AA@ 00410c74     Grprof.obj
+ 0003:00000c8c       ??_C@_0N@PJLG@IndexMapping?$AA@ 00410c8c     Grprof.obj
+ 0003:00000c9c       ??_C@_0KA@HPCI@A?5device?5profile?5INI?5File?5?8DEV_?$CF@ 00410c9c     Grprof.obj
+ 0003:00000d3c       ??_C@_0P@MONJ@DatabaseSize_1?$AA@ 00410d3c     Grprof.obj
+ 0003:00000d4c       ??_C@_0JL@DNAI@A?5device?5profile?5INI?5File?5?8DEV_?$CF@ 00410d4c     Grprof.obj
+ 0003:00000de8       ??_C@_08PHEC@Database?$AA@ 00410de8     Grprof.obj
+ 0003:00000df4       ??_C@_0P@GEEO@DatabaseSize_0?$AA@ 00410df4     Grprof.obj
+ 0003:00000e04       ??_C@_0N@ICHB@Default?5Name?$AA@ 00410e04     Grprof.obj
+ 0003:00000e14       ??_C@_06NBPC@Device?$AA@   00410e14     Grprof.obj
+ 0003:00000e1c       ??_C@_03NJAO@GRD?$AA@      00410e1c     Grprof.obj
+ 0003:00000e20       ??_C@_04EFNI@Name?$AA@     00410e20     Grprof.obj
+ 0003:00000e28       ??_C@_02HNAB@?91?$AA@      00410e28     Grprof.obj
+ 0003:00000e2c       ??_C@_0N@EJLB@DEV_?$CF03d?4INI?$AA@ 00410e2c     Grprof.obj
+ 0003:00000e3c       ??_C@_05EDJH@?$CFd?9?$CFd?$AA@ 00410e3c     Grprof.obj
+ 0003:00000e44       ??_C@_01GJD@?9?$AA@        00410e44     Grprof.obj
+ 0003:00000e48       ??_C@_01KMAE@?0?$AA@       00410e48     Grprof.obj
+ 0003:00000e4c       ??_C@_08PEMD@Security?$AA@ 00410e4c     Grprof.obj
+ 0003:00000e58       ??_C@_06NDHC@Access?$AA@   00410e58     Grprof.obj
+ 0003:00000e60       ??_C@_03MJMD@ALL?$AA@      00410e60     Grprof.obj
+ 0003:00000e64       ??_C@_08JFBC@?4I?$CFc?$CFd?$CFc?$AA@ 00410e64     GRQUARTZ.obj
+ 0003:00000e70       ??_C@_0M@HNIP@?4S?$CFs?$CFd?0?$CFd?$CFc?$AA@ 00410e70     GRQUARTZ.obj
+ 0003:00000e7c       ??_C@_09IDFE@?$CF03d?0?$CF04d?$AA@ 00410e7c     GRQUARTZ.obj
+ 0003:00000e88       ??_C@_0CF@OOON@Deleting?5virtual?5source?5to?5same?5@ 00410e88     GRRRD.obj
+ 0003:00000eb0       ??_C@_05KMON@I?$CFd?$CFc?$AA@ 00410eb0     GRSMSGPI.obj
+ 0003:00000eb8       ??_C@_06DBAK@S?$CFd0?$CFc?$AA@ 00410eb8     GRSMSGPI.obj
+ 0003:00000ec0       ??_C@_06GDBM@S?$CFd1?$CFc?$AA@ 00410ec0     GRSMSGPI.obj
+ 0003:00000ec8       ??_C@_07OPOA@R?$CFd?$CFd?$CFc?$AA@ 00410ec8     GRSMSRTR.obj
+ 0003:00000ed0       ??_C@_08BDFC@?$DMGR?$DO?9?$CFs?6?$AA@ 00410ed0     GRSUFU.obj
+ 0003:00000edc       ??_C@_0BC@JDFI@?$CF03d?5GRD?5?$CFd?5?9?5?$CFs?5?$AA@ 00410edc     GRSUFU.obj
+ 0003:00000ef0       ??_C@_05OOAB@?$CF02x?5?$AA@ 00410ef0     GRSUFU.obj
+ 0003:00000ef8       ??_C@_0BD@OACI@Bytes?5?$CF02x?9?$CF02x?5?3?5?$AA@ 00410ef8     GRSUFU.obj
+ 0003:00000f0c       ??_C@_0DL@IOLL@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 00410f0c     GRSUFU.obj
+ 0003:00000f48       ??_C@_09HIN@?4IZ?$CFd?0?9?$CFc?$AA@ 00410f48     GRVISTEK.obj
+ 0003:00000f54       ??_C@_0L@EDLL@?4SZ?$CFd?0?$CFd?$CFc?$AA@ 00410f54     GRVISTEK.obj
+ 0003:00000f60       ??_C@_04BJEJ@?4A?$CFc?$AA@ 00410f60     GRVISTEK.obj
+ 0003:00000f68       ??_C@_0BF@MMOK@dev_?$CF03d?4destMapping?$AA@ 00410f68     indexMapping.obj
+ 0003:00000f80       ??_C@_0BH@MNIF@dev_?$CF03d?4sourceMapping?$AA@ 00410f80     indexMapping.obj
+ 0003:00000f98       ??_C@_0DC@PNC@Sources?5not?5mapped?5return?5suppli@ 00410f98     indexMapping.obj
+ 0003:00000fcc       ??_C@_0BO@MHOJ@Sources?5not?5mapped?5return?5?91?6?$AA@ 00410fcc     indexMapping.obj
+ 0003:00000fec       ??_C@_0CJ@CCDC@Real?5source?5?$CFd?5mapped?5to?5BNCS?5so@ 00410fec     indexMapping.obj
+ 0003:00001018       ??_C@_01PKAG@?3?$AA@       00411018     PROFILE.obj
+ 0003:0000101c       ??_C@_0BD@ENIK@C?3?1bncs_config?4ini?$AA@ 0041101c     PROFILE.obj
+ 0003:00001030       ??_C@_06KCPA@?$CFs?2?$CFs?2?$AA@ 00411030     PROFILE.obj
+ 0003:00001038       ??_C@_0BD@PBH@?$CFsconfig?2system?2?$CFs?$AA@ 00411038     PROFILE.obj
+ 0003:0000104c       ??_C@_0BA@KCHE@bncs_system?4ini?$AA@ 0041104c     PROFILE.obj
+ 0003:0000105c       ??_C@_04DCMN@?$CFs?$CFs?$AA@ 0041105c     PROFILE.obj
+ 0003:00001064       ??_C@_09ECJI@?$CFsdata?2?$CFs?$AA@ 00411064     PROFILE.obj
+ 0003:00001070       ??_C@_05LCJC@?$CF08lx?$AA@ 00411070     bncsWM32:BncsWM32.obj
+ 0003:00001078       ??_C@_0BC@EPJM@Closing?5port?5?$CFd?$AN?6?$AA@ 00411078     com32cm:Comms.obj
+ 0003:0000108c       ??_C@_0BP@BIEF@Serial?5Port?5?$CFd?5is?5already?5open?$AA@ 0041108c     com32cm:Comms.obj
+ 0003:000010ac       ??_C@_0BJ@DLEI@CreateFile?$CI?$CJ?5returns?5?$CF?$CDx?$AA@ 004110ac     com32cm:Comms.obj
+ 0003:000010c8       ??_C@_09GLGJ@?2?2?4?2COM?$CFd?$AA@ 004110c8     com32cm:Comms.obj
+ 0003:000010d4       ??_C@_0BC@BNOL@Opening?5port?5?$CFd?$AN?6?$AA@ 004110d4     com32cm:Comms.obj
+ 0003:000010e8       ??_C@_0EA@ONLB@Comms?5library?5very?5serious?5inter@ 004110e8     com32cm:Comms.obj
+ 0003:00001128       ??_C@_0M@BHNG@Comms?5error?$AA@ 00411128     com32cm:Comms.obj
+ 0003:00001134       ??_C@_0CA@PGJH@Creating?5Thread?5for?5hCom?5?$CF?$CDx?4?$AN?6?$AA@ 00411134     com32cm:Comms.obj
+ 0003:00001154       ??_C@_0BO@ECEA@Thread?5Up?5for?5hComPort?5?$CF?$CDx?4?$AN?6?$AA@ 00411154     com32cm:Comms.obj
+ 0003:00001174       ??_C@_08PDKF@?$CFXBUFSEM?$AA@ 00411174     com32cm:Comms.obj
+ 0003:00001180       ___defaultmatherr          00411180     MSVCRT:merr.obj
+ 0003:00001188       ?_Nilrefs@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@1IA 00411188     ccConfig.obj
+ 0003:0000118c       ?_Nil@?$_Tree@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U_Kfn@?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@1PAU_Node@12@A 0041118c     ccConfig.obj
+ 0003:00001190       ??_C@_00A@?$AA@            00411190     ccConfig.obj
+ 0003:00001194       ?bInitTimer@@3HA           00411194     GRBTSES.obj
+ 0003:00001198       ?bDecMsg@@3HA              00411198     GRBTSES.obj
+ 0003:0000119c       ?bInit2@@3HA               0041119c     GRBTSES.obj
+ 0003:000011a0       ?bInit1@@3HA               004111a0     GRBTSES.obj
+ 0003:000011a4       ?iCmdLen@@3HA              004111a4     GRBTSES.obj
+ 0003:000011a8       ?iNetworkRtrInit@@3HA      004111a8     GRMAIN.obj
+ 0003:000011ac       ?lpMainDlgProc@@3P6GHXZA   004111ac     GRMAIN.obj
+ 0003:000011b0       ?iBbcRcpLevels@@3HA        004111b0     GRMAIN.obj
+ 0003:000011b4       ?bAccess@@3PAHA            004111b4     GRMAIN.obj
+ 0003:00002158       ?acFwdBuff@@3PAY0EA@DA     00412158     GRMAIN.obj
+ 0003:00002998       ?acRtrName@@3PADA          00412998     GRMAIN.obj
+ 0003:000029ec       ?acQuartzLvls@@3PADA       004129ec     GRMAIN.obj
+ 0003:000029f4       ?iNetworkRtrType@@3HA      004129f4     GRMAIN.obj
+ 0003:000029f8       ?iFwdBuffDelay@@3HA        004129f8     GRMAIN.obj
+ 0003:000029fc       ?iFwdBuffRPtr@@3HA         004129fc     GRMAIN.obj
+ 0003:00002a00       ?hWndCSI@@3PAUHWND__@@A    00412a00     GRMAIN.obj
+ 0003:00002a04       ?bExtCtlType@@3EA          00412a04     GRMAIN.obj
+ 0003:00002a08       ?bDestToSource@@3HA        00412a08     GRMAIN.obj
+ 0003:00002a0c       ?bExtDrvType@@3EA          00412a0c     GRMAIN.obj
+ 0003:00002a10       ?iTallyDelay@@3HA          00412a10     GRMAIN.obj
+ 0003:00002a14       ?hWndMain@@3PAUHWND__@@A   00412a14     GRMAIN.obj
+ 0003:00002a18       ?acVar@@3PAY0PP@DA         00412a18     GRMAIN.obj
+ 0003:00003410       ?lNetRx@@3JA               00413410     GRMAIN.obj
+ 0003:00003414       ?lNetTx@@3JA               00413414     GRMAIN.obj
+ 0003:00003418       ?bClosedown@@3HA           00413418     GRMAIN.obj
+ 0003:0000341c       ?iAdrienneAddr@@3HA        0041341c     GRMAIN.obj
+ 0003:00003420       ?iSources@@3HA             00413420     GRMAIN.obj
+ 0003:00003424       ?iFirstVirtual@@3HA        00413424     GRMAIN.obj
+ 0003:00003428       ?bNetUpdateOnStart@@3HA    00413428     GRMAIN.obj
+ 0003:0000342c       ?hWndDlg@@3PAUHWND__@@A    0041342c     GRMAIN.obj
+ 0003:00003430       ?uUpdateDelay@@3IA         00413430     GRMAIN.obj
+ 0003:00003434       ?iTallyTable@@3PAHA        00413434     GRMAIN.obj
+ 0003:00007438       ?iRRDTable@@3PAHA          00417438     GRMAIN.obj
+ 0003:0000b43c       ?iFwdBuffWPtr@@3HA         0041b43c     GRMAIN.obj
+ 0003:0000b440       ?iSelectedMappedDest@@3HA  0041b440     GRMAIN.obj
+ 0003:0000b444       ?acDebug@@3PADA            0041b444     GRMAIN.obj
+ 0003:0000b844       ?iNameLength@@3HA          0041b844     GRMAIN.obj
+ 0003:0000b848       ?iMaxNames@@3HA            0041b848     GRMAIN.obj
+ 0003:0000b84c       ?iDests@@3HA               0041b84c     GRMAIN.obj
+ 0003:0000b850       ?uSaveDelay@@3IA           0041b850     GRMAIN.obj
+ 0003:0000b854       ?iInhibitNetworkOnStart@@3HA 0041b854     GRMAIN.obj
+ 0003:0000b858       ?avVar@@3PADA              0041b858     GRMAIN.obj
+ 0003:0000b864       ?iInterfaceMode@@3HA       0041b864     GRMAIN.obj
+ 0003:0000b868       ?iWorkstationId@@3HA       0041b868     GRMAIN.obj
+ 0003:0000b86c       ?pIndexMapping@@3PAVindexMapping@@A 0041b86c     GRMAIN.obj
+ 0003:0000b870       ?iDriverMode@@3HA          0041b870     GRMAIN.obj
+ 0003:0000b874       ?iParkSource@@3HA          0041b874     GRMAIN.obj
+ 0003:0000b878       ?hWndControl@@3PAUHWND__@@A 0041b878     GRMAIN.obj
+ 0003:0000b87c       ?iKbEnabled@@3HA           0041b87c     GRMAIN.obj
+ 0003:0000b880       ?bListBoxMode@@3HA         0041b880     GRMAIN.obj
+ 0003:0000b888       ?GRD@@3UGRDPort@@A         0041b888     GRMAIN.obj
+ 0003:0000c388       ?bLockDest@@3PAHA          0041c388     GRMAIN.obj
+ 0003:0001038c       ?iTallyCount@@3HA          0042038c     GRMAIN.obj
+ 0003:00010390       ?aiVar@@3PAHA              00420390     GRMAIN.obj
+ 0003:000103b8       ?iRevTable@@3PAHA          004203b8     GRMAIN.obj
+ 0003:000143bc       ?hInstBBCDLL@@3PAUHINSTANCE__@@A 004243bc     GRMAIN.obj
+ 0003:000143c0       ?iRtrDrvNum@@3HA           004243c0     GRMAIN.obj
+ 0003:000143c4       ?acApplName@@3PADA         004243c4     GRMAIN.obj
+ 0003:000143d8       ?iCommErrorLimit@@3HA      004243d8     GRMAIN.obj
+ 0003:000143dc       ?iInitTallyDelay@@3HA      004243dc     GRMAIN.obj
+ 0003:000143e0       ?iCurrentSrce@@3HA         004243e0     GRMAIN.obj
+ 0003:000143e4       ?iRevertiveMode@@3HA       004243e4     GRMAIN.obj
+ 0003:000143e8       ?bAdrienneAddrHigh@@3EA    004243e8     GRMAIN.obj
+ 0003:000143ec       ?iNetworkRtrLvl@@3HA       004243ec     GRMAIN.obj
+ 0003:000143f0       ?hInst@@3PAUHINSTANCE__@@A 004243f0     GRMAIN.obj
+ 0003:000143f4       ?hMenuMain@@3PAUHMENU__@@A 004243f4     GRMAIN.obj
+ 0003:000143f8       ?hInstBWCCDLL@@3PAUHINSTANCE__@@A 004243f8     GRMAIN.obj
+ 0003:000143fc       ?iRxEnable@@3HA            004243fc     GRMAIN.obj
+ 0003:00014400       ?iLeitchLevel@@3HA         00424400     GRMAIN.obj
+ 0003:00014404       ?iInitTallyCount@@3HA      00424404     GRMAIN.obj
+ 0003:00014408       ?bLastMsgType@@3EA         00424408     GRMAIN.obj
+ 0003:0001440c       ?iSelectedSrce@@3HA        0042440c     GRMAIN.obj
+ 0003:00014410       ?iReAssert@@3HA            00424410     GRMAIN.obj
+ 0003:00014414       ?hMenu@@3PAUHMENU__@@A     00424414     GRMAIN.obj
+ 0003:00014418       ?iRevDelay@@3HA            00424418     GRMAIN.obj
+ 0003:0001441c       ?lpDialog@@3P6GHXZA        0042441c     GRMAIN.obj
+ 0003:00014420       ?iSelectedDest@@3HA        00424420     GRMAIN.obj
+ 0003:00014424       ?bDebugMode@@3HA           00424424     GRMAIN.obj
+ 0003:00014428       ?bSourceToDest@@3HA        00424428     GRMAIN.obj
+ 0003:0001442c       ?iUseIndexMapping@@3HA     0042442c     GRMAIN.obj
+ 0003:00014430       ?iSimulation@@3HA          00424430     GRMAIN.obj
+ 0003:00014434       ?hWndExternal@@3PAUHWND__@@A 00424434     GRMAIN.obj
+ 0003:00014438       ?bAdrienneAddrLow@@3EA     00424438     GRMAIN.obj
+ 0003:0001443c       ?acClientName@@3PADA       0042443c     GRMAIN.obj
+ 0003:00014450       ?uSaveCount@@3IA           00424450     GRMAIN.obj
+ 0003:00014454       ?iGoRxOnlyOnComFail@@3HA   00424454     GRMAIN.obj
+ 0003:00014458       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@1IA 00424458     indexMapping.obj
+ 0003:0001445c       ?_Nil@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@1PAU_Node@12@A 0042445c     indexMapping.obj
+ 0003:00015860       ?iEnvType@@3HA             00425860     PROFILE.obj
+ 0003:00015b34       _hGPortInfo                00425b34     com32cm:Comms.obj
+ 0003:00015b38       __dowildcard               00425b38     MSVCRT:wildcard.obj
+ 0003:00015b3c       __newmode                  00425b3c     MSVCRT:_newmode.obj
+ 0003:00015b40       __commode                  00425b40     MSVCRT:xncommod.obj
+ 0003:00015b44       __fmode                    00425b44     MSVCRT:xtxtmode.obj
+ 0003:00015b60       _szODS                     00425b60     <common>
+ 0003:00015c60       _iBTR                      00425c60     <common>
+ 0003:00016060       _bReading                  00426060     <common>
+ 0003:00016460       ___onexitend               00426460     <common>
+ 0003:00016464       ___onexitbegin             00426464     <common>
+ 0003:00016468       __adjust_fdiv              00426468     <common>
+
+ entry point at        0001:0000cb50
+
+ Static symbols
+
+
+Line numbers for .\Release\PROFILE.obj(w:\core_svn\Source\windows\bin\v4Grd\PROFILE.cpp) segment .text
+
+    11 0001:0000b840    13 0001:0000b848    14 0001:0000b862    15 0001:0000b871
+    16 0001:0000b873    17 0001:0000b888    18 0001:0000b8c9    21 0001:0000b8d0
+    23 0001:0000b8d8    24 0001:0000b8f2    25 0001:0000b901    26 0001:0000b903
+    27 0001:0000b918    28 0001:0000b949    31 0001:0000b950    33 0001:0000b956
+    34 0001:0000b968    35 0001:0000b96d    40 0001:0000b972    35 0001:0000b979
+    40 0001:0000b9aa    48 0001:0000b9c0    51 0001:0000b9c9    53 0001:0000b9ce
+    62 0001:0000b9e1    63 0001:0000b9f1    66 0001:0000ba19    67 0001:0000ba25
+    58 0001:0000ba26    59 0001:0000ba4a    66 0001:0000ba72    67 0001:0000ba7e
+    55 0001:0000ba7f    66 0001:0000baae    67 0001:0000bab5    76 0001:0000bac0
+    80 0001:0000bac9    82 0001:0000bace    90 0001:0000bad8    93 0001:0000baf6
+    94 0001:0000bafb    84 0001:0000bafe    85 0001:0000bb0d    86 0001:0000bb46
+    87 0001:0000bb67    93 0001:0000bb81    94 0001:0000bb89    97 0001:0000bb90
+   101 0001:0000bb99   103 0001:0000bb9e   109 0001:0000bba8   112 0001:0000bbc6
+   113 0001:0000bbcb   105 0001:0000bbcd   106 0001:0000bbdb   112 0001:0000bbf5
+   113 0001:0000bbfb   116 0001:0000bc00   120 0001:0000bc09   122 0001:0000bc0e
+   128 0001:0000bc18   131 0001:0000bc36   132 0001:0000bc3b   124 0001:0000bc3d
+   125 0001:0000bc4b   131 0001:0000bc65   132 0001:0000bc6b
+
+Line numbers for .\Release\indexMapping.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory) segment .text
+
+    34 0001:0000b820
+
+Line numbers for .\Release\indexMapping.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility) segment .text
+
+    21 0001:0000af60
+
+Line numbers for .\Release\indexMapping.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree) segment .text
+
+   191 0001:0000ab10   217 0001:0000ab20   220 0001:0000ab24   222 0001:0000ab3f
+   223 0001:0000ab49   220 0001:0000ab55   224 0001:0000ab59   225 0001:0000ab64
+   235 0001:0000acde   226 0001:0000ace2   227 0001:0000ace4   229 0001:0000acec
+   230 0001:0000acf0   235 0001:0000ad0f   232 0001:0000ad13   233 0001:0000ad20
+   234 0001:0000ad29   235 0001:0000ad48   103 0001:0000ad60   104 0001:0000ad70
+   110 0001:0000ad81   107 0001:0000ad82   108 0001:0000ad8c   109 0001:0000ad98
+   110 0001:0000ad9f   160 0001:0000adb0   363 0001:0000ade0   368 0001:0000ae00
+   369 0001:0000ae37   370 0001:0000ae3d   371 0001:0000ae4f   364 0001:0000ae61
+   365 0001:0000ae65   366 0001:0000aea9   371 0001:0000aeb3   382 0001:0000aec0
+   261 0001:0000af80   262 0001:0000af8b   264 0001:0000af98   265 0001:0000afa0
+   266 0001:0000afaf   268 0001:0000afb5   269 0001:0000afb7   270 0001:0000afcf
+   271 0001:0000afd9   272 0001:0000afe1   273 0001:0000afe6   274 0001:0000afea
+   275 0001:0000aff0   276 0001:0000aff3   277 0001:0000aff5   278 0001:0000affb
+   279 0001:0000b000   280 0001:0000b005   281 0001:0000b00a   282 0001:0000b016
+   283 0001:0000b019   284 0001:0000b022   285 0001:0000b024   286 0001:0000b026
+   287 0001:0000b029   289 0001:0000b02c   290 0001:0000b03f   291 0001:0000b046
+   292 0001:0000b049   293 0001:0000b058   294 0001:0000b05b   295 0001:0000b064
+   296 0001:0000b066   297 0001:0000b068   298 0001:0000b06b   300 0001:0000b076
+   301 0001:0000b080   302 0001:0000b085   303 0001:0000b087   304 0001:0000b0a3
+   306 0001:0000b0ab   307 0001:0000b0b7   308 0001:0000b0ba   309 0001:0000b0bc
+   290 0001:0000b0d1   310 0001:0000b0d5   311 0001:0000b0e5   312 0001:0000b0fc
+   313 0001:0000b105   314 0001:0000b108   315 0001:0000b10d   316 0001:0000b110
+   317 0001:0000b116   318 0001:0000b154   320 0001:0000b15a   334 0001:0000b171
+   336 0001:0000b173   337 0001:0000b178   338 0001:0000b17b   339 0001:0000b181
+   340 0001:0000b1c1   342 0001:0000b1c6   343 0001:0000b1dd   344 0001:0000b1e3
+   324 0001:0000b1f4   325 0001:0000b1fc   327 0001:0000b201   328 0001:0000b241
+   329 0001:0000b247   330 0001:0000b250   331 0001:0000b256   332 0001:0000b25c
+   333 0001:0000b287   332 0001:0000b28c   333 0001:0000b297   332 0001:0000b29c
+   333 0001:0000b2a1   346 0001:0000b2a6   347 0001:0000b2ad   349 0001:0000b2b3
+   350 0001:0000b2f1   351 0001:0000b2f6   352 0001:0000b2ff   353 0001:0000b305
+   354 0001:0000b30a   356 0001:0000b34a   357 0001:0000b34d   359 0001:0000b357
+   360 0001:0000b361   361 0001:0000b364   444 0001:0000b380   445 0001:0000b394
+   446 0001:0000b39f   448 0001:0000b3a1   462 0001:0000b3c0   464 0001:0000b3d1
+   465 0001:0000b3fc   467 0001:0000b3ff   475 0001:0000b424   476 0001:0000b427
+   477 0001:0000b42f   468 0001:0000b434   469 0001:0000b436   470 0001:0000b43d
+   471 0001:0000b440   472 0001:0000b446   473 0001:0000b44c   479 0001:0000b44e
+   480 0001:0000b46a   481 0001:0000b477   482 0001:0000b47a   483 0001:0000b47f
+   484 0001:0000b487   485 0001:0000b48a   486 0001:0000b493   487 0001:0000b499
+   488 0001:0000b49e   489 0001:0000b4a3   490 0001:0000b4a5   491 0001:0000b4e0
+   492 0001:0000b4ea   493 0001:0000b4f3   494 0001:0000b522   493 0001:0000b527
+   494 0001:0000b535   493 0001:0000b53a   494 0001:0000b53f   496 0001:0000b544
+   497 0001:0000b549   498 0001:0000b551   499 0001:0000b554   500 0001:0000b55d
+   501 0001:0000b563   502 0001:0000b568   503 0001:0000b56c   504 0001:0000b56e
+   505 0001:0000b5ab   506 0001:0000b5b5   507 0001:0000b5be   508 0001:0000b60b
+   509 0001:0000b61a   132 0001:0000b630   134 0001:0000b64f   133 0001:0000b65c
+   134 0001:0000b67b   542 0001:0000b690   543 0001:0000b6a0   544 0001:0000b6a8
+   511 0001:0000b6b0   513 0001:0000b6b3   514 0001:0000b6c1   515 0001:0000b6cc
+   516 0001:0000b6cf   517 0001:0000b6d1   513 0001:0000b6d5   518 0001:0000b6da
+   524 0001:0000b6e0   525 0001:0000b6e8   526 0001:0000b6ed   527 0001:0000b6f7
+   528 0001:0000b6fa   529 0001:0000b700   530 0001:0000b708   535 0001:0000b70b
+   536 0001:0000b70d   531 0001:0000b714   532 0001:0000b71b   535 0001:0000b71d
+   536 0001:0000b71f   534 0001:0000b726   535 0001:0000b729   536 0001:0000b72b
+   554 0001:0000b740   555 0001:0000b747   556 0001:0000b74c   557 0001:0000b757
+   558 0001:0000b75a   559 0001:0000b760   560 0001:0000b768   565 0001:0000b76b
+   566 0001:0000b76e   561 0001:0000b775   562 0001:0000b77d   565 0001:0000b780
+   566 0001:0000b783   564 0001:0000b78a   565 0001:0000b78c   566 0001:0000b78f
+   577 0001:0000b7a0   579 0001:0000b7a7   580 0001:0000b7ab   581 0001:0000b7b8
+    92 0001:0000b7c0    94 0001:0000b7d2   101 0001:0000b7d6    95 0001:0000b7d9
+    96 0001:0000b7e5   101 0001:0000b7f8    99 0001:0000b7f9   100 0001:0000b802
+   101 0001:0000b80d
+
+Line numbers for .\Release\indexMapping.obj(w:\core_svn\Source\windows\bin\v4Grd\indexMapping.cpp) segment .text
+
+    45 0001:0000a1a0    49 0001:0000a2f1    50 0001:0000a310    57 0001:0000a330
+    58 0001:0000a352    62 0001:0000a368    63 0001:0000a38b    65 0001:0000a442
+    68 0001:0000a466    69 0001:0000a475    71 0001:0000a490    74 0001:0000a494
+    76 0001:0000a4da    78 0001:0000a4e3    79 0001:0000a4f4    80 0001:0000a5ab
+    82 0001:0000a5b9    83 0001:0000a5c8    85 0001:0000a5e3    88 0001:0000a5e7
+    90 0001:0000a61a    94 0001:0000a6b0    95 0001:0000a6d9   105 0001:0000a8a0
+   106 0001:0000a8a7   108 0001:0000a8da   110 0001:0000a8e1   111 0001:0000a8e9
+   117 0001:0000a8ed   113 0001:0000a8f4   117 0001:0000a8f7   116 0001:0000a8fd
+   117 0001:0000a902   127 0001:0000a910   129 0001:0000a926   128 0001:0000a93a
+   132 0001:0000a961   133 0001:0000a968   135 0001:0000a96e   130 0001:0000a971
+   135 0001:0000a977   144 0001:0000a980   145 0001:0000a987   147 0001:0000a9ba
+   149 0001:0000a9c1   150 0001:0000a9c9   156 0001:0000a9cd   152 0001:0000a9d4
+   156 0001:0000a9d7   155 0001:0000a9dd   156 0001:0000a9e2   167 0001:0000a9f0
+   169 0001:0000aa06   168 0001:0000aa1a   172 0001:0000aa41   173 0001:0000aa48
+   176 0001:0000aa4e   170 0001:0000aa51   176 0001:0000aa57   212 0001:0000aa60
+   215 0001:0000aa6b   217 0001:0000aa81   218 0001:0000aa98   215 0001:0000aab4
+   221 0001:0000aadd   222 0001:0000aae4   224 0001:0000aae9   225 0001:0000aaee
+   224 0001:0000aaf5   225 0001:0000aaff
+
+Line numbers for .\Release\GRVISTEK.obj(w:\core_svn\Source\windows\bin\v4Grd\GRVISTEK.cpp) segment .text
+
+     8 0001:00009d80    13 0001:00009d85    14 0001:00009d95    15 0001:00009da8
+    16 0001:00009dc5    17 0001:00009dca    20 0001:00009dd0    25 0001:00009dd5
+    26 0001:00009de5    27 0001:00009dfd    28 0001:00009e07    29 0001:00009e24
+    30 0001:00009e29    35 0001:00009e30    39 0001:00009e36    40 0001:00009e6e
+    41 0001:00009e81    44 0001:00009e8a    46 0001:00009e8d    48 0001:00009e8f
+    50 0001:00009e9b    51 0001:00009e9d    55 0001:00009eab    57 0001:00009eb1
+    58 0001:00009eb3    62 0001:00009eb5    63 0001:00009eb9    64 0001:00009ec7
+    65 0001:00009ed3    66 0001:00009ed4    60 0001:00009edb    69 0001:00009edf
+    72 0001:00009ef2    73 0001:00009efe    74 0001:00009f09    77 0001:00009f17
+    80 0001:00009f20    85 0001:00009f27    91 0001:00009f4e    93 0001:00009f58
+    95 0001:00009f70    98 0001:00009f96   100 0001:00009fab   101 0001:00009fc9
+   103 0001:00009fd6   106 0001:00009fe0   124 0001:00009ff7   109 0001:00009fff
+   124 0001:0000a007   117 0001:0000a00e   118 0001:0000a01c   124 0001:0000a03c
+   121 0001:0000a043   124 0001:0000a055
+
+Line numbers for .\Release\GRTIMER.obj(w:\core_svn\Source\windows\bin\v4Grd\GRTIMER.cpp) segment .text
+
+     8 0001:00009d70
+
+Line numbers for .\Release\GRSUFU.obj(w:\core_svn\Source\windows\bin\v4Grd\GRSUFU.cpp) segment .text
+
+     8 0001:00009a90    12 0001:00009a9f    13 0001:00009aba    15 0001:00009ac5
+    18 0001:00009ad0    28 0001:00009ae3    31 0001:00009ae5    34 0001:00009af0
+    40 0001:00009b04    43 0001:00009b10    51 0001:00009b24    71 0001:00009b30
+    74 0001:00009b35    76 0001:00009b44    77 0001:00009b65    79 0001:00009b6b
+    83 0001:00009b83    84 0001:00009b96    88 0001:00009b9d    89 0001:00009bb9
+    90 0001:00009bc1    94 0001:00009bc2    96 0001:00009bc4    97 0001:00009bc6
+    98 0001:00009bdb    99 0001:00009be3   100 0001:00009bee   102 0001:00009bf8
+    77 0001:00009c2d   105 0001:00009c36   122 0001:00009c40   126 0001:00009c67
+   130 0001:00009c70   133 0001:00009c75   135 0001:00009c7f   137 0001:00009c9a
+   139 0001:00009c9e   140 0001:00009ca5   141 0001:00009ca6   142 0001:00009ca8
+   144 0001:00009cbd   145 0001:00009cd7   146 0001:00009d04   147 0001:00009d05
+   149 0001:00009d0c   150 0001:00009d17   151 0001:00009d24   152 0001:00009d2b
+   155 0001:00009d3c   157 0001:00009d40   158 0001:00009d4b   160 0001:00009d58
+   161 0001:00009d67
+
+Line numbers for .\Release\GRSNDMSG.OBJ(w:\core_svn\Source\windows\bin\v4Grd\GRSNDMSG.CPP) segment .text
+
+     5 0001:00009a10     9 0001:00009a18    17 0001:00009a3f    12 0001:00009a40
+    13 0001:00009a44    17 0001:00009a6f    15 0001:00009a70    17 0001:00009a8a
+
+Line numbers for .\Release\GRSMSRTR.obj(w:\core_svn\Source\windows\bin\v4Grd\GRSMSRTR.cpp) segment .text
+
+     8 0001:000097e0    12 0001:000097e5    13 0001:000097f0    14 0001:000097f9
+    15 0001:000097fc    17 0001:0000980f    18 0001:0000982c    19 0001:00009834
+    22 0001:00009840    28 0001:00009852    29 0001:00009861    30 0001:00009862
+    31 0001:00009877    32 0001:00009894    33 0001:0000989c    38 0001:000098a0
+    41 0001:000098d3    42 0001:000098e3    44 0001:000098e8    47 0001:000098f2
+    49 0001:00009908    50 0001:0000991a    51 0001:00009921    53 0001:0000992b
+    56 0001:00009930    82 0001:00009945    83 0001:0000994e    84 0001:00009951
+    85 0001:00009954    72 0001:00009956    73 0001:0000995b    74 0001:00009963
+    75 0001:00009965    76 0001:00009968    77 0001:0000996e    78 0001:00009976
+    79 0001:00009978    80 0001:0000997b    62 0001:0000997d    63 0001:00009982
+    64 0001:0000998a    65 0001:0000998c    66 0001:0000998f    67 0001:00009995
+    68 0001:0000999d    69 0001:0000999f    90 0001:000099a2    92 0001:000099af
+    94 0001:000099b8    97 0001:000099c1    99 0001:000099d6   100 0001:000099d8
+   102 0001:000099df   105 0001:000099e9   108 0001:00009a00
+
+Line numbers for .\Release\GRSMSGPI.obj(w:\core_svn\Source\windows\bin\v4Grd\GRSMSGPI.cpp) segment .text
+
+     8 0001:00009600    13 0001:00009605    14 0001:00009615    16 0001:00009628
+    17 0001:00009645    18 0001:0000964a    21 0001:00009650    26 0001:00009655
+    27 0001:00009665    28 0001:0000966c    29 0001:0000967b    30 0001:0000967d
+    32 0001:0000968d    33 0001:000096ad    34 0001:000096b2    39 0001:000096c0
+    42 0001:000096f3    43 0001:00009703    45 0001:00009708    48 0001:00009712
+    50 0001:00009728    51 0001:0000973a    52 0001:00009741    54 0001:0000974b
+    57 0001:00009750    69 0001:00009762    70 0001:0000976f    71 0001:00009772
+    72 0001:00009775    65 0001:00009777    66 0001:0000977b    77 0001:00009785
+    79 0001:00009792    80 0001:0000979b    82 0001:000097a4    84 0001:000097ad
+    88 0001:000097b5    94 0001:000097cd    91 0001:000097ce    94 0001:000097d7
+
+Line numbers for .\Release\GRSIMPLE.obj(w:\core_svn\Source\windows\bin\v4Grd\GRSIMPLE.cpp) segment .text
+
+    13 0001:00009460    17 0001:00009464    22 0001:00009473    23 0001:00009494
+    24 0001:0000949b    25 0001:000094bd    27 0001:000094c1    58 0001:000094ce
+    59 0001:000094d6    32 0001:000094da    35 0001:000094e4    36 0001:000094f8
+    38 0001:00009503    41 0001:0000950a    43 0001:00009520    46 0001:00009522
+    49 0001:00009537    50 0001:00009558    53 0001:00009570    54 0001:00009585
+    55 0001:0000958d    59 0001:00009593    62 0001:000095a0    65 0001:000095a4
+    66 0001:000095a9    67 0001:000095b1    69 0001:000095b8    70 0001:000095be
+    71 0001:000095da    73 0001:000095e1    74 0001:000095ee    75 0001:000095f2
+
+Line numbers for .\Release\GRRRD.obj(w:\core_svn\Source\windows\bin\v4Grd\GRRRD.Cpp) segment .text
+
+     8 0001:00009130    14 0001:00009154    18 0001:00009168    20 0001:000091b5
+    22 0001:000091c0    26 0001:000091c9    35 0001:000091d5    40 0001:000091db
+    28 0001:000091e2    35 0001:000091e7    40 0001:000091ed    33 0001:000091f4
+    35 0001:00009200    40 0001:00009206    35 0001:0000920d    40 0001:00009218
+    43 0001:00009220    48 0001:00009257    49 0001:0000927a    50 0001:00009288
+    53 0001:00009290    58 0001:00009298    59 0001:000092aa    60 0001:000092b7
+    63 0001:000092c0    67 0001:000092d2    68 0001:000092df    70 0001:00009303
+    72 0001:00009311    75 0001:00009320    79 0001:00009333    80 0001:0000933e
+    81 0001:0000934b    84 0001:00009350    91 0001:00009370    89 0001:00009394
+    93 0001:00009399    97 0001:000093b3    99 0001:000093bb   102 0001:000093c1
+   104 0001:000093ce   105 0001:000093e3   109 0001:00009401   112 0001:00009410
+   116 0001:00009416   119 0001:00009429   124 0001:00009435   125 0001:0000943d
+   127 0001:00009441   128 0001:00009443   119 0001:00009445   135 0001:0000944b
+   134 0001:0000944c   135 0001:00009450
+
+Line numbers for .\Release\GRROUSUP.obj(w:\core_svn\Source\windows\bin\v4Grd\GRROUSUP.cpp) segment .text
+
+     8 0001:00009090    12 0001:000090a2    16 0001:000090ab    17 0001:000090bc
+    18 0001:000090ca    19 0001:000090cc    24 0001:000090e0    12 0001:000090e7
+    27 0001:000090ef    30 0001:000090f0    34 0001:00009107    37 0001:00009110
+    41 0001:00009127
+
+Line numbers for .\Release\GRQUARTZ.obj(w:\core_svn\Source\windows\bin\v4Grd\GRQUARTZ.cpp) segment .text
+
+     8 0001:00008e00    13 0001:00008e05    15 0001:00008e15    17 0001:00008e3a
+    18 0001:00008e57    19 0001:00008e5c    22 0001:00008e60    28 0001:00008e65
+    30 0001:00008e75    32 0001:00008e9a    33 0001:00008eb7    34 0001:00008ebc
+    39 0001:00008ec0    45 0001:00008ed0    46 0001:00008ed7    49 0001:00008ee3
+    51 0001:00008ef3    52 0001:00008efa    55 0001:00008f06    58 0001:00008f16
+    59 0001:00008f39    60 0001:00008f4f    62 0001:00008f54    63 0001:00008f5b
+    64 0001:00008f72    66 0001:00008f7b    69 0001:00008f80    71 0001:00008f81
+    74 0001:00008f8e    86 0001:00008f99    90 0001:00008faa    93 0001:00008fd8
+    75 0001:00008fda    79 0001:00008feb    82 0001:00009007   100 0001:00009009
+   103 0001:00009011   104 0001:00009024   106 0001:00009035   107 0001:00009053
+   109 0001:00009060   112 0001:0000906a   120 0001:0000907f   115 0001:00009081
+   120 0001:00009088
+
+Line numbers for .\Release\Grprof.obj(w:\core_svn\Source\windows\bin\v4Grd\Grprof.cpp) segment .text
+
+     8 0001:000075b0    19 0001:000075be    20 0001:000075ea    23 0001:0000761a
+    24 0001:0000763a    26 0001:0000764e    28 0001:0000766e    30 0001:00007682
+    31 0001:0000769b    35 0001:000076c3    36 0001:000076e3    37 0001:000076fd
+    39 0001:00007712    40 0001:00007724    41 0001:0000773b    44 0001:00007740
+    45 0001:00007763    46 0001:00007774    48 0001:00007780    49 0001:00007793
+    50 0001:000077ab    55 0001:000077b0    56 0001:000077d3    57 0001:000077e4
+    59 0001:000077f5    60 0001:0000780f    61 0001:00007830    62 0001:0000785a
+    65 0001:0000785e    68 0001:00007868    71 0001:0000786a    72 0001:00007886
+    74 0001:0000789d    76 0001:000078ad    79 0001:000078dc    80 0001:000078f6
+    81 0001:00007917    82 0001:0000793b    85 0001:0000793f    88 0001:00007949
+    91 0001:0000794e    92 0001:0000795b    93 0001:00007977    95 0001:0000798e
+    97 0001:0000799e    98 0001:000079c3   102 0001:000079d4   104 0001:000079d6
+   105 0001:000079da   108 0001:000079f6   110 0001:000079ff   112 0001:00007a2f
+   118 0001:00007a49   119 0001:00007a6c   120 0001:00007a7d   122 0001:00007a89
+   123 0001:00007aa5   126 0001:00007aab   127 0001:00007ace   128 0001:00007adf
+   131 0001:00007aeb   132 0001:00007b02   135 0001:00007b1e   136 0001:00007b41
+   137 0001:00007b52   139 0001:00007b5e   140 0001:00007b7a   143 0001:00007b84
+   144 0001:00007ba7   145 0001:00007bb8   147 0001:00007bc4   148 0001:00007be0
+   151 0001:00007be6   152 0001:00007c09   153 0001:00007c1a   155 0001:00007c26
+   156 0001:00007c42   159 0001:00007c48   160 0001:00007c68   161 0001:00007c75
+   163 0001:00007c91   165 0001:00007c9b   166 0001:00007c9d   168 0001:00007cae
+   170 0001:00007cb0   171 0001:00007ccc   174 0001:00007cd6   175 0001:00007cf6
+   176 0001:00007d03   177 0001:00007d14   179 0001:00007d20   180 0001:00007d3c
+   183 0001:00007d46   184 0001:00007d69   185 0001:00007d7a   187 0001:00007d86
+   188 0001:00007da2   191 0001:00007dac   192 0001:00007dcf   193 0001:00007de0
+   195 0001:00007ded   196 0001:00007e09   199 0001:00007e13   200 0001:00007e33
+   202 0001:00007e3a   203 0001:00007e65   204 0001:00007e82   206 0001:00007e8d
+   207 0001:00007ea9   210 0001:00007eaf   211 0001:00007ed2   212 0001:00007ee3
+   214 0001:00007eef   215 0001:00007f0b   218 0001:00007f11   219 0001:00007f34
+   220 0001:00007f45   222 0001:00007f51   223 0001:00007f6d   226 0001:00007f73
+   227 0001:00007f96   228 0001:00007fa7   230 0001:00007fb3   231 0001:00007fcf
+   234 0001:00007fd5   235 0001:00007ff8   236 0001:00008009   238 0001:00008015
+   239 0001:00008031   242 0001:0000803b   243 0001:0000805e   244 0001:0000806f
+   246 0001:0000807b   247 0001:00008097   250 0001:0000809d   251 0001:000080c0
+   252 0001:000080d1   254 0001:000080dd   255 0001:000080f9   258 0001:00008103
+   259 0001:00008126   260 0001:00008137   262 0001:00008143   263 0001:0000815f
+   266 0001:00008169   267 0001:0000818c   268 0001:0000819d   270 0001:000081a9
+   271 0001:000081c5   274 0001:000081cf   275 0001:000081f2   276 0001:00008203
+   278 0001:0000820f   279 0001:0000822b   282 0001:00008231   283 0001:0000824a
+   284 0001:0000826d   285 0001:0000827e   287 0001:0000828a   288 0001:000082a6
+   291 0001:000082ac   292 0001:000082cf   294 0001:00008308   295 0001:00008321
+   297 0001:00008343   298 0001:00008345   300 0001:00008366   301 0001:0000838b
+   303 0001:000083c4   304 0001:000083e0   306 0001:000083ea   308 0001:000083ec
+   314 0001:00008432   315 0001:00008455   316 0001:00008466   318 0001:00008477
+   319 0001:00008493   322 0001:0000849d   323 0001:000084c0   324 0001:000084d1
+   326 0001:000084e2   327 0001:000084fe   329 0001:00008505   330 0001:00008516
+   331 0001:0000851a   333 0001:0000851e   334 0001:0000854c   335 0001:0000855d
+   337 0001:0000856e   338 0001:0000858a   341 0001:00008590   343 0001:0000859d
+   345 0001:000085b5   351 0001:000085b7   352 0001:000085cf   356 0001:000085d2
+   357 0001:00008610   358 0001:00008621   360 0001:0000862a   361 0001:0000863f
+   362 0001:0000865b   365 0001:00008664   366 0001:00008687   367 0001:0000869d
+   369 0001:000086a6   370 0001:000086c5   373 0001:000086cb   374 0001:000086f1
+   375 0001:000086fe   377 0001:00008707   378 0001:00008726   381 0001:0000872c
+   383 0001:0000874f   385 0001:00008765   386 0001:00008781   388 0001:0000878f
+   390 0001:00008794   391 0001:0000879f   392 0001:000087c3   393 0001:000087dd
+   394 0001:000087f7   395 0001:00008811   396 0001:0000882b   397 0001:00008845
+   398 0001:0000885f   399 0001:00008879   400 0001:00008893   401 0001:000088ad
+   402 0001:000088c7   403 0001:000088e1   404 0001:000088fb   405 0001:00008915
+   406 0001:0000892f   409 0001:00008949   411 0001:00008952   412 0001:00008966
+   415 0001:00008973   416 0001:00008999   417 0001:000089ac   419 0001:000089b5
+   420 0001:000089d4   423 0001:000089da   425 0001:000089f3   424 0001:000089f7
+   426 0001:000089ff   423 0001:00008a07   428 0001:00008a15   427 0001:00008a19
+   431 0001:00008a1f   432 0001:00008a45   433 0001:00008a55   435 0001:00008a5e
+   436 0001:00008a7d   439 0001:00008a83   440 0001:00008aa9   441 0001:00008ab9
+   443 0001:00008ac2   444 0001:00008ae1   447 0001:00008ae7   449 0001:00008b0a
+   454 0001:00008b29   457 0001:00008b32   459 0001:00008b3b   460 0001:00008b5a
+   341 0001:00008b61   464 0001:00008b75   465 0001:00008b7a   468 0001:00008bd0
+   474 0001:00008bf0   475 0001:00008c11   476 0001:00008c46   477 0001:00008c9f
+   478 0001:00008cad   480 0001:00008cba   481 0001:00008cc6   482 0001:00008ccd
+   484 0001:00008ced   510 0001:00008cff   488 0001:00008d06   491 0001:00008d0c
+   493 0001:00008d0d   494 0001:00008d1f   495 0001:00008d21   496 0001:00008d46
+   500 0001:00008d5b   502 0001:00008d72   503 0001:00008d8c   505 0001:00008dad
+   506 0001:00008daf   489 0001:00008dc3   510 0001:00008dcf   513 0001:00008de0
+   516 0001:00008def   520 0001:00008dfa
+
+Line numbers for .\Release\GRPROBEL.obj(w:\core_svn\Source\windows\bin\v4Grd\GRPROBEL.cpp) segment .text
+
+     8 0001:000071e0    11 0001:000071e4    12 0001:000071f1    15 0001:000071fe
+    17 0001:0000720c    18 0001:00007213    19 0001:0000721a    20 0001:0000721f
+    22 0001:0000722b    23 0001:0000723e    24 0001:00007252    25 0001:00007256
+    28 0001:00007260    31 0001:00007264    32 0001:00007271    36 0001:0000727e
+    37 0001:0000728e    38 0001:0000729e    41 0001:000072ae    46 0001:000072bc
+    48 0001:000072d5    49 0001:000072d9    50 0001:000072f6    51 0001:00007306
+    52 0001:0000730a    57 0001:00007310    72 0001:00007316    74 0001:00007337
+    77 0001:00007356    81 0001:00007366    78 0001:0000736d    84 0001:00007372
+    87 0001:0000737f    88 0001:00007389    61 0001:0000738a    63 0001:0000738c
+    64 0001:000073b7    67 0001:000073c1    68 0001:000073ce    87 0001:000073e8
+    88 0001:000073f2    91 0001:00007400   100 0001:00007429   105 0001:00007448
+   114 0001:0000744a   116 0001:00007465   117 0001:0000747d   125 0001:0000747f
+   128 0001:00007481   130 0001:0000749c   131 0001:000074af   133 0001:000074c9
+   135 0001:000074cb   136 0001:000074d4   137 0001:000074d6   139 0001:000074d8
+   141 0001:000074da   145 0001:000074eb   148 0001:000074f2   152 0001:00007500
+   153 0001:0000750c   157 0001:0000751c   159 0001:00007529   160 0001:00007539
+   162 0001:00007542   165 0001:0000754b   171 0001:00007563   168 0001:00007564
+   171 0001:0000756e   174 0001:00007580   184 0001:000075a2   185 0001:000075a8
+
+Line numbers for .\Release\GRPESA.obj(w:\core_svn\Source\windows\bin\v4Grd\GRPESA.cpp) segment .text
+
+     9 0001:00006ee0    14 0001:00006ee6    16 0001:00006ef6    17 0001:00006f0f
+    18 0001:00006f1e    21 0001:00006f4b    22 0001:00006f4f    23 0001:00006f63
+    24 0001:00006f80    25 0001:00006f86    29 0001:00006f90    34 0001:00006f96
+    36 0001:00006fa3    37 0001:00006fc6    38 0001:00006fd5    41 0001:00007002
+    42 0001:00007006    43 0001:0000701a    44 0001:00007037    45 0001:0000703d
+    51 0001:00007050    55 0001:00007060    57 0001:00007074    58 0001:00007099
+    59 0001:000070a9    61 0001:000070ae    62 0001:000070b0    63 0001:000070c8
+    65 0001:000070d0    68 0001:000070e0    70 0001:000070e3    73 0001:00007102
+    74 0001:00007115    76 0001:00007126    77 0001:00007144    79 0001:00007151
+    82 0001:0000715b    88 0001:00007170    85 0001:00007174    88 0001:0000717b
+    91 0001:00007180    96 0001:000071b3    97 0001:000071bf    98 0001:000071d2
+    99 0001:000071d7
+
+Line numbers for .\Release\GRPARSER.obj(w:\core_svn\Source\windows\bin\v4Grd\GRPARSER.cpp) segment .text
+
+     8 0001:00006e00    11 0001:00006e13    12 0001:00006e24    13 0001:00006e2e
+    15 0001:00006e44    16 0001:00006e5f    17 0001:00006e64    31 0001:00006e6e
+    35 0001:00006e72    19 0001:00006e73    31 0001:00006e78    35 0001:00006e7c
+    22 0001:00006e7d    31 0001:00006e83    35 0001:00006e87    25 0001:00006e88
+    31 0001:00006e8e    35 0001:00006e92    28 0001:00006e93    31 0001:00006e99
+    35 0001:00006e9d    31 0001:00006e9e    35 0001:00006ea8
+
+Line numbers for .\Release\GRNTPEQ.obj(w:\core_svn\Source\windows\bin\v4Grd\GRNTPEQ.cpp) segment .text
+
+     8 0001:00006940    13 0001:00006945    15 0001:00006955    16 0001:00006971
+    17 0001:0000698e    18 0001:00006993    21 0001:000069a0    26 0001:000069a5
+    27 0001:000069b0    28 0001:000069b8    30 0001:000069c3    31 0001:000069d0
+    32 0001:000069d7    33 0001:000069de    34 0001:000069e5    35 0001:000069ec
+    38 0001:000069f1    39 0001:00006a14    40 0001:00006a1e    41 0001:00006a3b
+    42 0001:00006a40    47 0001:00006a60    51 0001:00006a66    52 0001:00006a9e
+    53 0001:00006ab1    56 0001:00006aba    57 0001:00006abd    59 0001:00006abf
+    61 0001:00006acb    62 0001:00006acd    66 0001:00006adb    68 0001:00006ae1
+    69 0001:00006ae3    73 0001:00006ae5    74 0001:00006ae9    75 0001:00006af7
+    76 0001:00006b03    77 0001:00006b04    71 0001:00006b0b    80 0001:00006b0f
+    83 0001:00006b22    84 0001:00006b2e    85 0001:00006b39    88 0001:00006b47
+    91 0001:00006b50    93 0001:00006b56    95 0001:00006b60    97 0001:00006b6e
+   132 0001:00006b89   134 0001:00006bbc   136 0001:00006bc2   138 0001:00006bdd
+   145 0001:00006bfc   146 0001:00006c43   148 0001:00006c4a   150 0001:00006c56
+   151 0001:00006c5c   152 0001:00006c68   155 0001:00006c72   156 0001:00006c74
+   139 0001:00006c7a   145 0001:00006c81   159 0001:00006c90   166 0001:00006cbf
+   103 0001:00006cc3   104 0001:00006cd5   105 0001:00006cdc   106 0001:00006ce3
+   107 0001:00006cea   108 0001:00006cf1   110 0001:00006cfc   111 0001:00006d15
+   115 0001:00006d20   116 0001:00006d2e   118 0001:00006d3b   119 0001:00006d59
+   121 0001:00006d62   124 0001:00006d6c   166 0001:00006d84   127 0001:00006d88
+   166 0001:00006d92   169 0001:00006db0   173 0001:00006db7   175 0001:00006dc9
+   178 0001:00006dd0   182 0001:00006dd4   184 0001:00006de5   185 0001:00006ded
+   188 0001:00006df0   192 0001:00006dfb   193 0001:00006dff
+
+Line numbers for .\Release\GRNETWRK.obj(w:\core_svn\Source\windows\bin\v4Grd\GRNETWRK.cpp) segment .text
+
+     8 0001:000066f0    11 0001:000066f3    13 0001:000066fd    15 0001:00006703
+    16 0001:0000671c    17 0001:0000671e    20 0001:00006730    23 0001:00006734
+    28 0001:0000673e    31 0001:0000675d    32 0001:00006777    33 0001:0000677a
+    38 0001:00006780    41 0001:0000679f    42 0001:000067b4    43 0001:000067c9
+    45 0001:000067d5    51 0001:000067de    53 0001:000067e5    54 0001:000067ef
+    50 0001:000067f0    51 0001:000067f1    53 0001:00006804    54 0001:0000680e
+    57 0001:00006810    63 0001:00006825    66 0001:00006839    67 0001:0000683b
+    69 0001:0000685e    70 0001:00006860    71 0001:0000687b    73 0001:00006889
+    74 0001:00006899    76 0001:000068a2    79 0001:000068ab    80 0001:000068c8
+    82 0001:000068f7    83 0001:000068f9    86 0001:00006900    88 0001:00006909
+    90 0001:00006912    96 0001:0000691a    98 0001:0000691c   100 0001:00006921
+   101 0001:0000692e   106 0001:00006937
+
+Line numbers for .\Release\GRNETCMD.obj(w:\core_svn\Source\windows\bin\v4Grd\GRNETCMD.cpp) segment .text
+
+     4 0001:00006560     8 0001:00006575    29 0001:0000658a     9 0001:00006594
+    11 0001:000065a9     9 0001:000065b9    13 0001:000065cd    14 0001:000065ea
+    15 0001:000065f8    17 0001:00006636    21 0001:00006660    22 0001:00006672
+    18 0001:00006675    24 0001:0000667f    25 0001:000066b2    26 0001:000066dd
+    28 0001:000066e4    29 0001:000066e8
+
+Line numbers for .\Release\GRMAIN.obj(w:\core_svn\Source\windows\bin\v4Grd\GRMAIN.cpp) segment .text
+
+    17 0001:00005460    21 0001:00005463    22 0001:0000548a    24 0001:00005495
+    25 0001:000054a8    27 0001:000054b6    28 0001:000054c2    47 0001:000054d1
+    33 0001:000054d7    47 0001:000054eb    41 0001:000054f1    43 0001:00005515
+    44 0001:0000551c    46 0001:00005535    47 0001:0000553b    71 0001:00005550
+    82 0001:00005553    83 0001:00005557    84 0001:00005587    85 0001:00005598
+    88 0001:000055a8    89 0001:000055c8    99 0001:000055d0   122 0001:000055d4
+   126 0001:00005602   130 0001:00005606   127 0001:00005607   128 0001:0000560c
+   129 0001:00005611   130 0001:00005616   136 0001:00005620   141 0001:00005627
+   362 0001:0000569f   379 0001:000056aa   380 0001:000056b0   153 0001:000056b9
+   155 0001:000056de   379 0001:000056e3   380 0001:000056f0   141 0001:000056f9
+   300 0001:00005705   301 0001:00005732   304 0001:0000573e   305 0001:0000575c
+   306 0001:00005772   307 0001:00005781   308 0001:00005791   309 0001:000057a1
+   312 0001:000057ad   314 0001:000057be   318 0001:000057c0   319 0001:000057d9
+   320 0001:000057ee   321 0001:000057fe   322 0001:0000580e   323 0001:0000581d
+   325 0001:0000582a   327 0001:00005841   328 0001:00005854   329 0001:0000585b
+   330 0001:00005876   379 0001:00005883   380 0001:00005888   333 0001:00005891
+   337 0001:0000589d   339 0001:0000589f   343 0001:000058ab   345 0001:000058ad
+   379 0001:000058c5   380 0001:000058ca   348 0001:000058d3   379 0001:000058d9
+   380 0001:000058de   355 0001:000058e7   379 0001:000058ed   380 0001:000058f2
+   353 0001:000058fb   379 0001:00005901   380 0001:00005906   369 0001:0000590f
+   371 0001:00005918   372 0001:00005920   373 0001:00005925   377 0001:0000592a
+   380 0001:0000593f   141 0001:00005948   296 0001:0000595f   379 0001:00005966
+   380 0001:0000596b   147 0001:00005974   148 0001:0000599c   380 0001:000059a7
+   142 0001:000059b0   379 0001:000059b8   380 0001:000059c3   292 0001:000059cc
+   380 0001:000059e2   141 0001:000059eb   177 0001:00005a09   379 0001:00005a0f
+   380 0001:00005a14   240 0001:00005a1d   241 0001:00005a2d   379 0001:00005a3e
+   380 0001:00005a43   244 0001:00005a4c   379 0001:00005a5c   380 0001:00005a62
+   253 0001:00005a6b   254 0001:00005a8d   380 0001:00005aa1   265 0001:00005aaa
+   267 0001:00005abe   268 0001:00005ac7   269 0001:00005ad5   270 0001:00005ad7
+   271 0001:00005ade   273 0001:00005ae6   379 0001:00005af0   380 0001:00005b00
+   279 0001:00005b09   281 0001:00005b13   282 0001:00005b36   379 0001:00005b60
+   380 0001:00005b66   285 0001:00005b6f   379 0001:00005b7f   380 0001:00005b85
+   289 0001:00005b8e   379 0001:00005bb9   380 0001:00005bbf   259 0001:00005bc8
+   260 0001:00005be2   380 0001:00005bf6   262 0001:00005bff   380 0001:00005c0a
+   141 0001:00005c13   247 0001:00005c4e   379 0001:00005c55   380 0001:00005c5a
+   158 0001:00005c63   160 0001:00005c6a   379 0001:00005c98   380 0001:00005c9d
+   163 0001:00005ca6   164 0001:00005cb0   168 0001:00005ce4   379 0001:00005ce9
+   380 0001:00005cef   167 0001:00005cf8   168 0001:00005d08   379 0001:00005d0d
+   380 0001:00005d13   250 0001:00005d1c   380 0001:00005d32   141 0001:00005d3b
+   231 0001:00005d52   232 0001:00005d5a   379 0001:00005d72   380 0001:00005d78
+   234 0001:00005d81   379 0001:00005d99   380 0001:00005d9f   192 0001:00005da8
+   194 0001:00005dc9   195 0001:00005de3   379 0001:00005e07   380 0001:00005e16
+   237 0001:00005e1f   380 0001:00005e35   141 0001:00005e3e   171 0001:00005e69
+   379 0001:00005e79   380 0001:00005e7f   200 0001:00005e88   204 0001:00005e9d
+   205 0001:00005ec7   206 0001:00005ee4   207 0001:00005f09   208 0001:00005f23
+   379 0001:00005f43   380 0001:00005f48   174 0001:00005f51   379 0001:00005f69
+   380 0001:00005f6f   141 0001:00005f78   377 0001:00005f91   380 0001:00005fa6
+   223 0001:00005faf   225 0001:00005fd0   226 0001:00005fea   379 0001:0000600e
+   380 0001:0000601d   212 0001:00006026   214 0001:00006040   216 0001:00006047
+   217 0001:00006068   218 0001:0000608e   220 0001:00006098   181 0001:0000609d
+   183 0001:000060ae   184 0001:000060b5   186 0001:000060cc   187 0001:000060ef
+   188 0001:00006115   379 0001:0000612d   380 0001:00006132   383 0001:000061c0
+   386 0001:000061d0   387 0001:000061d5   388 0001:000061da   389 0001:000061f1
+   391 0001:000061fa   392 0001:000061ff   393 0001:00006204   394 0001:00006209
+   395 0001:0000620e   396 0001:00006213   401 0001:00006230   400 0001:00006231
+   401 0001:0000624a   404 0001:00006250   408 0001:0000625d   409 0001:00006262
+   410 0001:00006267   411 0001:00006280   412 0001:000062a0   413 0001:000062b5
+   414 0001:000062c2   415 0001:000062d7   416 0001:000062e6   417 0001:000062f6
+   418 0001:00006306   419 0001:00006312   420 0001:00006322   423 0001:00006330
+   425 0001:0000633f   426 0001:00006344   427 0001:0000636d   428 0001:0000637b
+   429 0001:00006380   430 0001:00006385   431 0001:0000638a   432 0001:00006392
+   435 0001:000063a0   439 0001:000063b3   440 0001:000063cb   442 0001:000063d5
+   443 0001:000063f0   444 0001:000063fa   445 0001:000063fc   446 0001:00006406
+   447 0001:0000640f   448 0001:00006425   453 0001:00006439   455 0001:0000643f
+   452 0001:00006446   453 0001:0000645d   455 0001:00006477   458 0001:00006480
+   460 0001:000064a3   463 0001:000064b0   467 0001:000064c5   468 0001:000064dd
+   470 0001:000064f3   473 0001:00006500   477 0001:0000650f   479 0001:00006514
+   481 0001:0000651e   477 0001:00006525   502 0001:00006530   487 0001:00006531
+   489 0001:00006534   491 0001:00006539   493 0001:00006543   495 0001:00006547
+   489 0001:0000654f   502 0001:0000655b
+
+Line numbers for .\Release\GRLEITCH.obj(w:\core_svn\Source\windows\bin\v4Grd\GRLEITCH.cpp) segment .text
+
+     9 0001:000050e0    12 0001:000050e6    14 0001:000050f1    15 0001:0000510f
+    16 0001:00005129    17 0001:00005140    18 0001:0000514b    19 0001:00005168
+    20 0001:0000516e    23 0001:00005180    27 0001:00005186    29 0001:00005191
+    30 0001:00005197    31 0001:000051b8    32 0001:000051c2    33 0001:000051d9
+    34 0001:000051e4    35 0001:000051ee    36 0001:0000520b    37 0001:00005211
+    42 0001:00005220    54 0001:00005231    55 0001:00005244    56 0001:0000524c
+    58 0001:00005264    60 0001:00005266    62 0001:0000526b    63 0001:00005279
+    64 0001:00005280    65 0001:00005282    66 0001:00005290    69 0001:00005297
+    72 0001:000052a1    74 0001:000052b1    75 0001:000052ba    78 0001:000052c0
+    87 0001:00005304    89 0001:0000531a    90 0001:00005320    92 0001:00005334
+    93 0001:00005349    94 0001:00005365    95 0001:00005369    96 0001:00005381
+    97 0001:00005389    98 0001:0000538b    99 0001:0000538f   100 0001:000053aa
+   101 0001:000053b4   103 0001:000053c5   104 0001:000053e3   106 0001:000053f0
+   109 0001:000053fa   110 0001:00005407   111 0001:0000540d   113 0001:00005436
+   114 0001:00005438   117 0001:0000543f   121 0001:00005455
+
+Line numbers for .\Release\GRIDXFU.obj(w:\core_svn\Source\windows\bin\v4Grd\GRIDXFU.cpp) segment .text
+
+     8 0001:00004d10    14 0001:00004d2e    15 0001:00004d49    17 0001:00004d7b
+    19 0001:00004d87    20 0001:00004d8a    22 0001:00004da5    24 0001:00004db2
+    25 0001:00004db5    26 0001:00004dc2    28 0001:00004df2    40 0001:00004e00
+    34 0001:00004e07    36 0001:00004e26    34 0001:00004e36    38 0001:00004e41
+    40 0001:00004e48    43 0001:00004e50    49 0001:00004e71    50 0001:00004e8c
+    52 0001:00004eb7    54 0001:00004ec2    55 0001:00004ecb    57 0001:00004ee4
+    59 0001:00004ee9    60 0001:00004ef2    62 0001:00004f0c    69 0001:00004f19
+    66 0001:00004f20    67 0001:00004f31    69 0001:00004f41    72 0001:00004f50
+    79 0001:00004f6e    80 0001:00004f89    82 0001:00004fb5    83 0001:00004fd3
+    90 0001:00004fe0    87 0001:00004fe7    88 0001:00004ff5    90 0001:00004ffc
+    93 0001:00005010    99 0001:00005031   100 0001:0000504c   102 0001:00005077
+   103 0001:00005096   110 0001:000050a3   107 0001:000050aa   108 0001:000050bb
+   110 0001:000050cb
+
+Line numbers for .\Release\GRFWDBUF.obj(w:\core_svn\Source\windows\bin\v4Grd\GRFWDBUF.cpp) segment .text
+
+     8 0001:00004c10    12 0001:00004c1c    15 0001:00004c2d    17 0001:00004c49
+    20 0001:00004c50    22 0001:00004c6d    23 0001:00004c7c    24 0001:00004c7d
+    25 0001:00004c93    28 0001:00004ca0    30 0001:00004cae    32 0001:00004cb2
+    34 0001:00004ccb    35 0001:00004cd1    36 0001:00004cdc    38 0001:00004ceb
+    39 0001:00004cec    40 0001:00004ced    30 0001:00004d00    42 0001:00004d09
+
+Line numbers for .\Release\GREXT.obj(w:\core_svn\Source\windows\bin\v4Grd\GREXT.cpp) segment .text
+
+     8 0001:00004ae0    11 0001:00004afc    14 0001:00004b00    16 0001:00004b24
+    17 0001:00004b2f    20 0001:00004b30    23 0001:00004b54    24 0001:00004b66
+    26 0001:00004b70    27 0001:00004b88    29 0001:00004b98    32 0001:00004ba0
+    34 0001:00004bcb    37 0001:00004bd0    40 0001:00004bf9    41 0001:00004c03
+
+Line numbers for .\Release\GRDIALOG.obj(w:\core_svn\Source\windows\bin\v4Grd\GRDIALOG.cpp) segment .text
+
+     8 0001:00003e30    10 0001:00003e3a    11 0001:00003e5c    12 0001:00003e7d
+    15 0001:00003e80    26 0001:00003eaf    27 0001:00003eb8    83 0001:00003ebd
+    84 0001:00003ec0    58 0001:00003ec6    61 0001:00003ed8    83 0001:00003eff
+    84 0001:00003f02    65 0001:00003f08    66 0001:00003f26    83 0001:00003f2b
+    84 0001:00003f2e    69 0001:00003f34    83 0001:00003f39    84 0001:00003f3c
+    72 0001:00003f42    83 0001:00003f47    84 0001:00003f4a    75 0001:00003f50
+    83 0001:00003f55    84 0001:00003f58    25 0001:00003f5e    81 0001:00003f6c
+    83 0001:00003f6e    84 0001:00003f71    34 0001:00003f77    35 0001:00003f94
+    83 0001:00003f99    84 0001:00003f9c    38 0001:00003fa2    39 0001:00003fa7
+    41 0001:00003fb7    42 0001:00003fc1    83 0001:00003fc6    84 0001:00003fc9
+    46 0001:00003fcf    83 0001:00003fd4    84 0001:00003fd7    49 0001:00003fdd
+    83 0001:00003fe2    84 0001:00003fe5    52 0001:00003feb    83 0001:00003ff0
+    84 0001:00003ff3    30 0001:00003ff9    83 0001:0000401a    84 0001:0000401d
+    87 0001:00004050    99 0001:00004064   101 0001:0000407b   103 0001:00004090
+   104 0001:0000409e   106 0001:000040bd   110 0001:000040e2   111 0001:000040f5
+   112 0001:0000410d   114 0001:00004112   115 0001:00004121   116 0001:00004134
+   117 0001:00004149   118 0001:0000415c   119 0001:00004173   125 0001:0000419b
+   126 0001:000041af   127 0001:000041c1   128 0001:000041de   129 0001:000041f3
+   130 0001:000041f8   132 0001:000041fd   133 0001:00004202   134 0001:0000420c
+   139 0001:00004211   143 0001:0000422a   150 0001:00004235   151 0001:0000424b
+   155 0001:0000426a   156 0001:00004284   159 0001:000042a3   161 0001:000042b5
+   164 0001:000042c4   166 0001:000042e1   167 0001:000042e3   168 0001:000042f2
+   169 0001:00004300   170 0001:0000430e   171 0001:00004323   172 0001:00004334
+   173 0001:0000433d   176 0001:00004350   178 0001:0000436a   179 0001:0000437e
+   180 0001:00004392   181 0001:0000439d   184 0001:000043a0   188 0001:000043b4
+   189 0001:000043c4   190 0001:000043c9   191 0001:000043cb   192 0001:000043cd
+   193 0001:000043ce   194 0001:000043e4   195 0001:000043fd   198 0001:00004410
+   203 0001:00004424   205 0001:00004434   207 0001:0000443e   208 0001:0000443f
+   209 0001:00004455   210 0001:0000446e   211 0001:00004481   213 0001:00004486
+   216 0001:00004490   220 0001:000044ad   222 0001:000044be   223 0001:000044d6
+   224 0001:000044e0   225 0001:000044ed   231 0001:00004522   228 0001:00004526
+   231 0001:00004533   234 0001:00004540   238 0001:00004544   240 0001:00004568
+   242 0001:00004576   244 0001:00004586   245 0001:00004595   248 0001:000045a7
+   249 0001:000045c1   250 0001:000045ce   251 0001:000045d8   252 0001:000045e2
+   253 0001:000045ec   254 0001:000045f6   255 0001:00004600   256 0001:0000460a
+   257 0001:00004614   258 0001:0000461e   259 0001:00004628   260 0001:00004632
+   261 0001:0000463c   262 0001:00004646   264 0001:00004651   266 0001:0000465b
+   267 0001:00004660   268 0001:0000466e   270 0001:0000467f   271 0001:0000468e
+   276 0001:000046b3   279 0001:000046c0   281 0001:000046d0   282 0001:000046df
+   284 0001:000046f6   285 0001:0000471e   288 0001:00004728   291 0001:00004770
+   297 0001:00004788   301 0001:0000478e   302 0001:000047b0   305 0001:000047ca
+   307 0001:000047cc   308 0001:000047da   309 0001:000047ed   312 0001:00004806
+   314 0001:00004816   317 0001:00004829   318 0001:00004837   326 0001:00004839
+   328 0001:00004842   322 0001:00004846   325 0001:00004858   326 0001:00004866
+   328 0001:00004871   331 0001:00004880   333 0001:00004883   334 0001:0000488b
+   336 0001:00004894   337 0001:0000489b   338 0001:000048b1   339 0001:000048b3
+   340 0001:000048cd   341 0001:000048da   343 0001:000048df   346 0001:000048f0
+   350 0001:00004902   353 0001:00004912   354 0001:00004923   348 0001:00004934
+   357 0001:00004943   360 0001:00004950   369 0001:00004967   370 0001:0000497b
+   375 0001:00004990   376 0001:000049c3   378 0001:000049e0   381 0001:000049f0
+   389 0001:00004a07   390 0001:00004a1b   395 0001:00004a30   396 0001:00004a63
+   398 0001:00004a80   401 0001:00004a90   406 0001:00004aa3   407 0001:00004aad
+   409 0001:00004ad7
+
+Line numbers for .\Release\GRCSISUP.obj(w:\core_svn\Source\windows\bin\v4Grd\GRCSISUP.cpp) segment .text
+
+     7 0001:00003760    11 0001:00003771    12 0001:0000378e    13 0001:000037ab
+    15 0001:000037b4    16 0001:000037cc    17 0001:000037d2    22 0001:000037d5
+    20 0001:000037d6    21 0001:000037e7    22 0001:000037eb    25 0001:000037f0
+    29 0001:0000380a    30 0001:00003814    32 0001:00003831    33 0001:0000383e
+    35 0001:00003848    37 0001:00003872    39 0001:00003882    64 0001:00003896
+    66 0001:0000389f    42 0001:000038a0    43 0001:000038b8    63 0001:000038be
+    64 0001:000038c3    66 0001:000038cc    46 0001:000038cd    47 0001:000038e5
+    63 0001:000038eb    64 0001:000038f0    66 0001:000038f9    50 0001:000038fa
+    51 0001:00003911    63 0001:00003917    64 0001:0000391c    66 0001:00003925
+    57 0001:00003926    58 0001:0000393e    63 0001:00003943    64 0001:00003948
+    66 0001:00003951    63 0001:00003952    64 0001:0000395b    66 0001:00003964
+    69 0001:00003980    71 0001:000039a1    74 0001:000039b0    76 0001:000039bb
+    77 0001:000039d7    79 0001:000039e4    78 0001:000039e5    79 0001:000039eb
+    82 0001:000039f0    87 0001:00003a0b    88 0001:00003a22    89 0001:00003a43
+   102 0001:00003a52   105 0001:00003a58    92 0001:00003a5f    93 0001:00003a75
+    94 0001:00003a96   102 0001:00003aa5   105 0001:00003aab   100 0001:00003ab2
+   101 0001:00003ac9   102 0001:00003ae9   105 0001:00003afd   108 0001:00003b20
+   119 0001:00003b37   120 0001:00003b5a   124 0001:00003b6e   126 0001:00003b75
+   128 0001:00003b84   131 0001:00003b91   132 0001:00003b93   135 0001:00003bc0
+   137 0001:00003bc9   141 0001:00003bd6   145 0001:00003c14   147 0001:00003c25
+   149 0001:00003c44   150 0001:00003c5c   151 0001:00003c87   154 0001:00003c9f
+   156 0001:00003ca4   158 0001:00003ca8   161 0001:00003cb5   162 0001:00003cb7
+   165 0001:00003ce4   167 0001:00003ced   171 0001:00003cfa   175 0001:00003d38
+   177 0001:00003d49   179 0001:00003d65   180 0001:00003d72   181 0001:00003d8a
+   182 0001:00003db6   175 0001:00003dd2   185 0001:00003dd6   186 0001:00003ded
+   187 0001:00003e07   189 0001:00003e1d
+
+Line numbers for .\Release\GRCOX.obj(w:\core_svn\Source\windows\bin\v4Grd\GRCOX.cpp) segment .text
+
+    15 0001:00003460    23 0001:00003464    27 0001:00003473    30 0001:0000349c
+    31 0001:000034ad    32 0001:000034b4    33 0001:000034d4    35 0001:000034d8
+    37 0001:000034e6    39 0001:000034eb    42 0001:000034f5    43 0001:00003509
+    46 0001:00003514    47 0001:00003529    51 0001:00003531    83 0001:00003535
+    64 0001:00003565    65 0001:00003568    67 0001:00003571    70 0001:0000357a
+    71 0001:0000358f    74 0001:00003594    75 0001:00003596    78 0001:0000359d
+    79 0001:0000359f    82 0001:000035b0    84 0001:000035cf    83 0001:000035d3
+    84 0001:000035d9    87 0001:000035e0    93 0001:000035e4    94 0001:000035f3
+    95 0001:000035f8    97 0001:000035fe    99 0001:00003609   100 0001:00003624
+   101 0001:00003631   102 0001:00003638   103 0001:00003658   105 0001:0000365c
+   107 0001:00003669   110 0001:0000366b   111 0001:0000367b   112 0001:00003685
+   115 0001:00003690   116 0001:00003694   118 0001:000036a0   121 0001:000036aa
+   122 0001:000036bf   125 0001:000036c4   126 0001:000036c6   129 0001:000036cd
+   130 0001:000036cf   132 0001:000036e0   134 0001:000036e4   135 0001:000036f8
+   137 0001:0000370d   138 0001:00003713   137 0001:00003718   138 0001:0000371d
+   142 0001:00003730   150 0001:0000374f   151 0001:00003753
+
+Line numbers for .\Release\Grcomsup.obj(w:\core_svn\Source\windows\bin\v4Grd\Grcomsup.cpp) segment .text
+
+    10 0001:00002ed0    17 0001:00002eed    19 0001:00002ef9    20 0001:00002f03
+    21 0001:00002f10    23 0001:00002f14    24 0001:00002f1a    25 0001:00002f26
+    26 0001:00002f2c    27 0001:00002f42    30 0001:00002f57    33 0001:00002f60
+    38 0001:00002f86    39 0001:00002f8d    40 0001:00002f94    41 0001:00002f98
+    42 0001:00002f9f    47 0001:00002faa    49 0001:00002fc7    50 0001:00002fe0
+    51 0001:00002fed    54 0001:00002ff1    55 0001:00003001    65 0001:0000300e
+    66 0001:00003014    59 0001:00003015    62 0001:0000302a    65 0001:0000303c
+    66 0001:00003042    69 0001:00003070    72 0001:00003076    73 0001:00003097
+    76 0001:000030a0    79 0001:000030a3    80 0001:000030fe    81 0001:00003108
+    82 0001:0000311e    84 0001:00003122    85 0001:00003137    86 0001:00003145
+    88 0001:00003152    89 0001:00003159    91 0001:0000316d    94 0001:00003177
+    95 0001:00003188    98 0001:000031a5   101 0001:000031b0   110 0001:000031c9
+   111 0001:000031e2   113 0001:000031e6   115 0001:000031f8   118 0001:000031fd
+   119 0001:00003216   120 0001:00003226   121 0001:00003236   122 0001:00003246
+   123 0001:00003253   124 0001:00003260   125 0001:0000326d   126 0001:0000327a
+   127 0001:00003287   128 0001:00003294   129 0001:000032a1   130 0001:000032ae
+   131 0001:000032bb   108 0001:000032c9   136 0001:000032d3   139 0001:00003320
+   143 0001:0000332b   145 0001:00003334   146 0001:00003336   149 0001:00003341
+   152 0001:00003350   154 0001:00003355   155 0001:0000335a   156 0001:0000337c
+   158 0001:00003399   165 0001:000033a8   166 0001:000033bd   167 0001:000033ca
+   170 0001:000033dc   159 0001:000033e0   160 0001:000033f4   161 0001:00003401
+   162 0001:00003410   170 0001:0000341e   173 0001:00003430   177 0001:0000343b
+   179 0001:0000344d   180 0001:0000344f   183 0001:0000345a
+
+Line numbers for .\Release\GRCMD.obj(w:\core_svn\Source\windows\bin\v4Grd\GRCMD.cpp) segment .text
+
+     8 0001:000026e0    17 0001:000026ec    18 0001:00002704    19 0001:00002711
+    21 0001:0000273e    23 0001:0000278d    25 0001:000027b8    27 0001:000027be
+    28 0001:000027d8    30 0001:000027e2    31 0001:000027fe    32 0001:00002816
+    33 0001:0000282d    34 0001:00002844    35 0001:0000285c    36 0001:00002873
+    37 0001:0000288a    38 0001:000028a2    39 0001:000028b9    40 0001:000028cd
+    41 0001:000028e2    42 0001:000028f6    43 0001:0000290a    44 0001:0000291f
+    45 0001:00002933    47 0001:00002948    49 0001:00002974    51 0001:00002976
+    54 0001:00002989    56 0001:000029a7    58 0001:000029b5    63 0001:000029c9
+    66 0001:000029d2    75 0001:000029e7    80 0001:000029ec    82 0001:00002a36
+    84 0001:00002a61    87 0001:00002a6f    88 0001:00002a88    76 0001:00002a94
+    89 0001:00002aa0    90 0001:00002aa9    91 0001:00002ab2    92 0001:00002abb
+    93 0001:00002ac4    94 0001:00002acd    95 0001:00002ad6    96 0001:00002adf
+    97 0001:00002ae8    98 0001:00002af1    99 0001:00002afa   100 0001:00002b03
+   101 0001:00002b0c   102 0001:00002b15   105 0001:00002b1c   107 0001:00002b1e
+   110 0001:00002b2d   111 0001:00002b5b   113 0001:00002b79   114 0001:00002b7f
+   118 0001:00002b94   119 0001:00002b99   120 0001:00002b9f   123 0001:00002c20
+   127 0001:00002c2f   129 0001:00002c52   130 0001:00002c57   131 0001:00002c70
+   134 0001:00002c76   133 0001:00002c77   134 0001:00002c7a   137 0001:00002c80
+   144 0001:00002c8e   145 0001:00002c96   147 0001:00002cde   148 0001:00002cfe
+   149 0001:00002d03   150 0001:00002d09   153 0001:00002d0f   152 0001:00002d10
+   153 0001:00002d14   156 0001:00002d20   159 0001:00002d2c   161 0001:00002d62
+   162 0001:00002d78   164 0001:00002d8a   165 0001:00002d8f   168 0001:00002d90
+   171 0001:00002d9c   173 0001:00002dd2   174 0001:00002de8   176 0001:00002dfa
+   177 0001:00002dff   180 0001:00002e00   183 0001:00002e19   184 0001:00002e35
+   186 0001:00002e3c   188 0001:00002e45   189 0001:00002e61   192 0001:00002e68
+   199 0001:00002e7b   203 0001:00002e9e   194 0001:00002e9f   195 0001:00002eb9
+   203 0001:00002ec4
+
+Line numbers for .\Release\GRBTSES.obj(w:\core_svn\Source\windows\bin\v4Grd\GRBTSES.cpp) segment .text
+
+    24 0001:00002140    28 0001:00002146    29 0001:0000214f    30 0001:00002155
+    31 0001:0000215b    32 0001:00002161    34 0001:0000216d    50 0001:00002182
+    51 0001:000021d0    52 0001:000021e1    54 0001:000021ed    55 0001:00002202
+    59 0001:0000221f    60 0001:00002222    63 0001:00002230    67 0001:00002234
+    70 0001:00002245    77 0001:00002253    78 0001:00002278    81 0001:00002299
+    82 0001:0000229c    85 0001:000022a0    87 0001:000022a9    89 0001:000022ae
+    90 0001:000022bc    93 0001:000022c0    96 0001:000022c4    97 0001:000022d1
+    98 0001:000022e2   100 0001:000022f1   102 0001:000022fb   103 0001:00002302
+   105 0001:0000230d   106 0001:0000230f   107 0001:00002321   110 0001:00002355
+   116 0001:0000235f   117 0001:00002365   118 0001:00002369   119 0001:0000236b
+   120 0001:0000236f   122 0001:00002371   123 0001:0000239e   124 0001:000023ae
+   125 0001:000023be   126 0001:000023c2   129 0001:000023d0   135 0001:000023d3
+   136 0001:000023e9   142 0001:000023f0   147 0001:00002402   165 0001:0000241a
+   166 0001:0000242b   190 0001:00002435   191 0001:00002446   156 0001:00002447
+   190 0001:00002451   191 0001:00002462   149 0001:00002463   152 0001:00002475
+   190 0001:00002485   191 0001:0000248f   160 0001:00002490   161 0001:000024af
+   162 0001:000024bc   190 0001:000024c9   191 0001:000024d2   172 0001:000024d3
+   174 0001:000024e6   176 0001:000024ef   180 0001:00002502   181 0001:00002504
+   183 0001:00002528   184 0001:0000252e   185 0001:00002537   186 0001:0000253d
+   190 0001:00002544   191 0001:0000254e   194 0001:00002550   200 0001:00002567
+   201 0001:00002574   255 0001:0000257a   205 0001:0000257b   252 0001:00002584
+   255 0001:0000258e   207 0001:0000258f   209 0001:000025a5   211 0001:000025b3
+   212 0001:000025c5   213 0001:000025d5   214 0001:000025d9   215 0001:000025eb
+   216 0001:000025ed   220 0001:000025f0   221 0001:00002601   222 0001:00002602
+   224 0001:0000260f   225 0001:0000261f   227 0001:00002628   229 0001:00002631
+   238 0001:0000263a   240 0001:0000264f   242 0001:0000267e   244 0001:00002680
+   207 0001:00002687   249 0001:00002699   255 0001:000026ae   258 0001:000026b0
+   266 0001:000026d2   267 0001:000026d6
+
+Line numbers for .\Release\GRBTSASC.obj(w:\core_svn\Source\windows\bin\v4Grd\GRBTSASC.cpp) segment .text
+
+     8 0001:00001e60    13 0001:00001e64    15 0001:00001e71    17 0001:00001e85
+    18 0001:00001e93    20 0001:00001eb0    22 0001:00001ebf    23 0001:00001edc
+    24 0001:00001ee2    27 0001:00001ef0    33 0001:00001ef5    34 0001:00001f15
+    36 0001:00001f20    37 0001:00001f28    39 0001:00001f3e    40 0001:00001f5b
+    41 0001:00001f60    46 0001:00001f70    52 0001:00001f76    53 0001:00001f89
+    54 0001:00001fc0    57 0001:00001fc9    58 0001:00001fcc    60 0001:00001fce
+    62 0001:00001fda    63 0001:00001fdc    67 0001:00001fea    69 0001:00001ff0
+    70 0001:00001ff2    74 0001:00001ff4    75 0001:00001ff8    76 0001:00002006
+    78 0001:0000200d    79 0001:00002011    81 0001:00002016    82 0001:00002017
+    72 0001:0000201e    85 0001:00002022    88 0001:00002035    89 0001:00002041
+    90 0001:00002048    92 0001:00002050    95 0001:0000205a    98 0001:0000206d
+   101 0001:00002080   105 0001:00002081   127 0001:00002096   132 0001:000020a5
+   106 0001:000020a7   107 0001:000020bd   108 0001:000020ce   109 0001:000020d3
+   111 0001:000020e8   112 0001:00002106   114 0001:00002113   117 0001:0000211d
+   132 0001:00002132   121 0001:00002134   132 0001:0000213b
+
+Line numbers for .\Release\GRBBCRCP.obj(w:\core_svn\Source\windows\bin\v4Grd\GRBBCRCP.cpp) segment .text
+
+     8 0001:00001ab0    13 0001:00001ab5    14 0001:00001ac5    15 0001:00001ad8
+    16 0001:00001af5    17 0001:00001afa    20 0001:00001b00    24 0001:00001b04
+    25 0001:00001b12    27 0001:00001b24    28 0001:00001b40    30 0001:00001b6a
+    31 0001:00001b6d    30 0001:00001b73    31 0001:00001b76    36 0001:00001b80
+    40 0001:00001b86    41 0001:00001ba1    42 0001:00001bd0    44 0001:00001bd9
+    47 0001:00001be3    50 0001:00001bf3    52 0001:00001bf6    54 0001:00001bf8
+    56 0001:00001c04    57 0001:00001c06    61 0001:00001c14    63 0001:00001c19
+    64 0001:00001c1b    68 0001:00001c1d    69 0001:00001c21    70 0001:00001c2e
+    71 0001:00001c3a    72 0001:00001c3b    66 0001:00001c43    72 0001:00001c49
+    76 0001:00001c4e    79 0001:00001c65    80 0001:00001c71    81 0001:00001c78
+    84 0001:00001c83    87 0001:00001c90    96 0001:00001cb0    97 0001:00001cbe
+    99 0001:00001cc7   101 0001:00001ce6   102 0001:00001ced   104 0001:00001cfc
+   107 0001:00001d0e   109 0001:00001d1f   110 0001:00001d3d   112 0001:00001d4a
+   115 0001:00001d54   117 0001:00001d69   118 0001:00001d6b   121 0001:00001d72
+   122 0001:00001d74   127 0001:00001d8b   130 0001:00001da0   132 0001:00001da6
+   136 0001:00001db7   138 0001:00001dcd   141 0001:00001dd3   142 0001:00001ded
+   143 0001:00001dfb   144 0001:00001e14   146 0001:00001e21   147 0001:00001e3e
+   152 0001:00001e48   153 0001:00001e50
+
+Line numbers for .\Release\GRADRIEN.obj(w:\core_svn\Source\windows\bin\v4Grd\GRADRIEN.cpp) segment .text
+
+    12 0001:000018e0    15 0001:000018e3    19 0001:000018ed    20 0001:000018f3
+    22 0001:000018fd    23 0001:00001918    24 0001:0000191d    27 0001:00001930
+    30 0001:00001933    32 0001:0000193f    36 0001:00001943    37 0001:00001949
+    42 0001:00001951    43 0001:00001976    46 0001:00001984    48 0001:0000199b
+    49 0001:000019a1    54 0001:000019b0    56 0001:000019c8    57 0001:000019f2
+    59 0001:000019fd    60 0001:00001a03    62 0001:00001a0c    63 0001:00001a18
+    66 0001:00001a20    73 0001:00001a3a    74 0001:00001a4a    76 0001:00001a52
+    79 0001:00001a5b    84 0001:00001a72    82 0001:00001a73    84 0001:00001a7a
+    87 0001:00001a80    90 0001:00001a9a    91 0001:00001aa1
+
+Line numbers for .\Release\GRABOUT.obj(w:\core_svn\Source\windows\bin\v4Grd\GRABOUT.cpp) segment .text
+
+    13 0001:00001810    16 0001:0000182f    20 0001:00001830    36 0001:00001846
+    40 0001:00001848    32 0001:0000184e    33 0001:0000185b    40 0001:00001860
+    25 0001:00001868    26 0001:00001885    27 0001:0000189f    28 0001:000018bd
+    29 0001:000018cc    40 0001:000018d2
+
+Line numbers for .\Release\ccConfig.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\new) segment .text
+
+    45 0001:000017e0
+
+Line numbers for .\Release\ccConfig.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory) segment .text
+
+    34 0001:00001680
+
+Line numbers for .\Release\ccConfig.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree) segment .text
+
+   217 0001:00000ae0   220 0001:00000ae7   222 0001:00000afd   223 0001:00000b0d
+   220 0001:00000b19   224 0001:00000b21   225 0001:00000b2c   234 0001:00000caa
+   235 0001:00000caf   227 0001:00000cb3   229 0001:00000cbb   230 0001:00000cc2
+   232 0001:00000ccc   233 0001:00000cd5   234 0001:00000ceb   235 0001:00000d0a
+   261 0001:00000d30   262 0001:00000d3b   264 0001:00000d48   265 0001:00000d50
+   266 0001:00000d5f   268 0001:00000d65   269 0001:00000d67   270 0001:00000d7f
+   271 0001:00000d89   272 0001:00000d91   273 0001:00000d96   274 0001:00000d9a
+   275 0001:00000da0   276 0001:00000da3   277 0001:00000da5   278 0001:00000dab
+   279 0001:00000db0   280 0001:00000db5   281 0001:00000dba   282 0001:00000dc6
+   283 0001:00000dc9   284 0001:00000dd2   285 0001:00000dd4   286 0001:00000dd6
+   287 0001:00000dd9   289 0001:00000ddc   290 0001:00000def   291 0001:00000df6
+   292 0001:00000df9   293 0001:00000e08   294 0001:00000e0b   295 0001:00000e14
+   296 0001:00000e16   297 0001:00000e18   298 0001:00000e1b   300 0001:00000e26
+   301 0001:00000e30   302 0001:00000e35   303 0001:00000e37   304 0001:00000e53
+   306 0001:00000e5b   307 0001:00000e67   308 0001:00000e6a   309 0001:00000e6c
+   290 0001:00000e81   310 0001:00000e85   311 0001:00000e97   312 0001:00000eac
+   313 0001:00000eb5   314 0001:00000eb8   315 0001:00000ebd   316 0001:00000ec0
+   317 0001:00000ec6   318 0001:00000f04   320 0001:00000f0a   334 0001:00000f21
+   336 0001:00000f23   337 0001:00000f28   338 0001:00000f2b   339 0001:00000f31
+   340 0001:00000f71   342 0001:00000f76   343 0001:00000f8d   344 0001:00000f93
+   358 0001:00000f9f   324 0001:00000fa4   325 0001:00000fac   327 0001:00000fb1
+   328 0001:00000ff1   329 0001:00000ff7   330 0001:00001000   331 0001:00001006
+   332 0001:0000100c   333 0001:00001037   332 0001:0000103c   333 0001:00001047
+   332 0001:0000104c   333 0001:00001051   346 0001:00001056   347 0001:0000105d
+   349 0001:00001063   350 0001:000010a1   351 0001:000010a6   352 0001:000010af
+   353 0001:000010b5   354 0001:000010ba   356 0001:000010fa   357 0001:000010fd
+   358 0001:00001107   359 0001:0000115c   360 0001:0000116b   361 0001:0000116e
+   444 0001:00001190   445 0001:000011a4   446 0001:000011af   447 0001:000011b1
+   448 0001:000011b9   450 0001:000011e0   451 0001:000011f5   452 0001:0000120b
+   453 0001:00001213   455 0001:00001219   456 0001:00001225   457 0001:0000123c
+   458 0001:00001240   459 0001:00001249   460 0001:00001262   462 0001:00001280
+   464 0001:00001291   465 0001:000012bc   467 0001:000012bf   475 0001:000012ed
+   476 0001:000012f0   477 0001:000012f8   468 0001:000012fd   469 0001:000012ff
+   470 0001:00001306   471 0001:00001309   472 0001:0000130f   473 0001:00001315
+   479 0001:00001317   480 0001:00001333   481 0001:00001340   482 0001:00001343
+   483 0001:00001348   484 0001:00001350   485 0001:00001353   486 0001:0000135c
+   487 0001:00001362   488 0001:00001367   489 0001:0000136c   490 0001:0000136e
+   491 0001:000013a9   492 0001:000013b3   493 0001:000013bc   494 0001:000013eb
+   493 0001:000013f0   494 0001:000013fe   493 0001:00001403   494 0001:00001408
+   496 0001:0000140d   497 0001:00001412   498 0001:0000141a   499 0001:0000141d
+   500 0001:00001426   501 0001:0000142c   502 0001:00001431   503 0001:00001435
+   504 0001:00001437   505 0001:00001474   506 0001:0000147e   507 0001:00001487
+   508 0001:000014d4   509 0001:000014e3   524 0001:000014f0   525 0001:000014f8
+   526 0001:000014fd   527 0001:00001507   528 0001:0000150a   529 0001:00001510
+   530 0001:00001518   535 0001:0000151b   536 0001:0000151d   531 0001:00001524
+   532 0001:0000152b   535 0001:0000152d   536 0001:0000152f   534 0001:00001536
+   535 0001:00001539   536 0001:0000153b   554 0001:00001550   555 0001:00001557
+   556 0001:0000155c   557 0001:00001567   558 0001:0000156a   559 0001:00001570
+   560 0001:00001578   565 0001:0000157b   566 0001:0000157e   561 0001:00001585
+   562 0001:0000158d   565 0001:00001590   566 0001:00001593   564 0001:0000159a
+   565 0001:0000159c   566 0001:0000159f   577 0001:000015b0   579 0001:000015b7
+   580 0001:000015bb   581 0001:000015c8    92 0001:000015d0    94 0001:000015e2
+   101 0001:000015e6    95 0001:000015e9    96 0001:000015f5   101 0001:00001608
+    99 0001:00001609   100 0001:00001612   101 0001:0000161d   103 0001:00001630
+   104 0001:00001640   110 0001:00001651   107 0001:00001652   108 0001:0000165c
+   109 0001:00001668   110 0001:0000166f
+
+Line numbers for .\Release\ccConfig.obj(w:\core_svn\Source\windows\bin\v4Grd\ccConfig.cpp) segment .text
+
+   241 0001:00000100   243 0001:0000011e   244 0001:00000259   247 0001:00000266
+   249 0001:0000028a   252 0001:000002ea   253 0001:0000034c   306 0001:00000370
+   310 0001:00000382   311 0001:00000387   322 0001:0000038a   312 0001:0000038b
+   313 0001:0000039a   322 0001:0000039d   315 0001:0000039e   316 0001:000003a8
+   317 0001:000003ad   322 0001:000003b0   318 0001:000003b1   322 0001:000003c2
+   333 0001:000003d0   335 0001:000003d6   338 0001:000003fa   339 0001:00000403
+   344 0001:00000405   341 0001:0000040d   344 0001:0000041f   382 0001:00000430
+   383 0001:00000448   384 0001:00000456   386 0001:00000474   387 0001:00000481
+   389 0001:000004ff   391 0001:000005a9   392 0001:000005bd   419 0001:00000640
+   421 0001:0000064e   422 0001:0000067d   429 0001:00000689   431 0001:000006b0
+   435 0001:000006be   436 0001:000006d7   437 0001:000006da   438 0001:000006ed
+   440 0001:000006f0   442 0001:00000799   443 0001:0000079e   446 0001:000007a3
+   447 0001:000007ad   449 0001:000007b2   454 0001:000007c9   455 0001:000007dc
+   456 0001:000007df   457 0001:000007f2   459 0001:000007f5   462 0001:0000080e
+   463 0001:00000870   464 0001:000008d1   465 0001:000009d7   468 0001:00000a4d
+   470 0001:00000a57
+
+ 128 bytes saved through ICF
+

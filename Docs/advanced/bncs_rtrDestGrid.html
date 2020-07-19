@@ -1,0 +1,415 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Destination Grid Control Reference</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="siemens.css">
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="639" height="91" bgcolor="#A0B6C0">
+		<img border="0" src="header.jpg" width="638" height="91"></td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="36">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+<h1>
+	BNCS Destination Name Grid</h1>
+					<h2>
+	Description</h2>
+					<p>
+	This control is similar to the bncs_sourcegrid component. This control 
+	solely includes the 
+	destination grid functionality.</p>
+					<p>
+	Shown below is an example. Destinations are mapped onto buttons and their 
+	tallies displayed above (or optionally below).</p>
+					<p>
+	<img border="0" src="bncs_rtrDestGrid.jpg"></p>
+					<p>
+	The grid can be used supply parameters to other things or to make routes 
+	directly.</p>
+					<p>
+	There are three route modes:</p>
+					<blockquote>
+						<table border="0" id="table5">
+							<tr>
+								<th>Mode</th>
+								<th>Notes</th>
+							</tr>
+							<tr class="tick">
+								<td>take</td>
+								<td>The source is written to the control on a 
+								take command and the crosspoint is made.</td>
+							</tr>
+							<tr class="tick">
+								<td>autotake.dest</td>
+								<td>When a source value is written to the 
+								control it is stored but nothing else happens.
+								<br>
+								When the user selects a destination on this dest 
+								grid the route is made and the source value 
+								remains valid and may be routed again when the 
+								next destination is selected</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>
+	Button Mapping</h2>
+					<p>
+	Buttons are mapped to router subscribers using an &quot;upper&quot; BNCS database (DB 
+	2-9).<br>
+	An example ini file section is shown here:</p>
+					<blockquote>
+						<table border="0">
+							<tr class="tick" >
+								<td class="inifile">[Database_8]<br>
+								1001=4,0,11,12,13,14,15,16,17,18,19,20,<br>
+								1002=3,2,1,5,6,7,8,9,10,0,0,12,11,</td>
+							</tr>
+						</table>
+					</blockquote>
+					<p>
+	It is definable within the control which database of which is used and what 
+	index is used to select a comma delimited list of numbers. The list of 
+	numbers is then split and used to populate the array of buttons. <br>
+	If a grid control is configured to have 16 buttons and set to look at entry 
+	0001 above and set to show destination names then the top left button will 
+	show the destination 4 name, the top right button destination 12. The second 
+	row will start on the left with the destination 13 name etc. etc. There is 
+	only 12 numbers in this list so buttons 13-16 will be disabled (along with 
+	button 2 which is zero).</p>
+					<h2>
+	Settings</h2>
+					<p>
+	You can pass any of the following settings to this control in the format:</p>
+					<blockquote>
+						<p class="inifile">&lt;parameter&gt;=&lt;value&gt;</p>
+					</blockquote>
+					<p>
+	Default values (those when a new button is created or when a reset command 
+	issued) are shown in <b>bold</b>.</p>
+					<blockquote>
+						<table border="0" bgcolor="#D5DEE3" id="table3">
+							<tr>
+								<th>Parameter</th>
+								<th>Value</th>
+								<th>Notes</th>
+							</tr>
+							<tr class="tick">
+								<td>reset </td>
+								<td>&nbsp;</td>
+								<td>Used to reset all the parameters of this 
+								control back to their default state</td>
+							</tr>
+							<tr class="tock">
+								<td>columns</td>
+								<td><b>5</b></td>
+								<td>The number of columns of buttons for this 
+								grid control</td>
+							</tr>
+							<tr class="tick">
+								<td>rows</td>
+								<td><b>8</b></td>
+								<td>The number of rows of buttons for this grid 
+								control</td>
+							</tr>
+							<tr class="tock">
+								<td>page</td>
+								<td><b>1</b></td>
+								<td>The page to select (added to the pageoffset 
+								value to determine the index within the database 
+								to use for this entry)</td>
+							</tr>
+							<tr class="tick">
+								<td>pageoffset</td>
+								<td><b>0</b></td>
+								<td>The page to select (added to the page value 
+								to determine the index within the database to 
+								use for this entry)</td>
+							</tr>
+							<tr class="tock">
+								<td>mapdb</td>
+								<td><b>8</b></td>
+								<td>The BNCS database number (2-9) to use for 
+								the button mapping information. In theory you 
+								could use database 0/1 but these are limited to 
+								16 characters.</td>
+							</tr>
+							<tr class="tick">
+								<td>mapoffset</td>
+								<td><b>1000</b></td>
+								<td>The offset to apply to the index numbers in 
+								the map database</td>
+							</tr>
+							<tr class="tock">
+								<td>namesdb</td>
+								<td><b>1</b></td>
+								<td>Which database to use to get the names from 
+								(0-9). The default is &quot;0&quot; - sources.</td>
+							</tr>
+							<tr class="tick">
+								<td>namesoffset</td>
+								<td>&nbsp;</td>
+								<td>The offset to apply to the index numbers in 
+								the names database</td>
+							</tr>
+							<tr class="tock">
+								<td>device</td>
+								<td><b>0</b></td>
+								<td>The BNCS device number of the router to 
+								control. This device number is used for both the 
+								names displayed and the button mapping 
+								information. This value is not used if the 
+								&quot;instance&quot; parameter is defined.</td>
+							</tr>
+							<tr class="tick">
+								<td>device.lock</td>
+								<td><b>0</b></td>
+								<td>The BNCS Device number for the lock 
+								infodriver. This value is not used if the &quot;instance.lock&quot; 
+								parameter is defined.</td>
+							</tr>
+							<tr class="tock">
+								<td>notify.pressed<br>
+								notify.released<br>
+								notify.name<br>
+								notify.tally<br>
+								notify.alltally<br>
+								notify.dest<br>
+								notify.lock</td>
+								<td><b>false</b><br>
+								<b>true<br>
+								true</b><br>
+								<b>false</b><br>
+								<b>false</b><br>
+								<b>false<br>
+								false</b></td>
+								<td>Whether to send notification messages for 
+								the relevant events.
+								</td>
+							</tr>
+							<tr class="tick">
+								<td>stylesheet.selected<br>
+								stylesheet.deselected<br>
+								stylesheet.tally<br>
+								stylesheet.background</td>
+								<td><b>dest_selected</b><br>
+								<b>dest_deselected</b><br>
+								<br>
+								&nbsp;</td>
+								<td>The stylesheets used for the various 
+								components of this button - there is no option 
+								to directly set the stylesheet of individual 
+								labels.<br>
+								It is suggested that you try and use the default 
+								entries.</td>
+							</tr>
+							<tr class="tock">
+								<td>sizepolicy</td>
+								<td>setminimum<br>
+								asdesigned<br>
+								<b>shrinktofit</b></td>
+								<td>How to deal with text that doesn't fit on a 
+								button.
+								You can either grow the size of the button until 
+								the text fits, leave it as designed (and might 
+								not fit), or shrink the text until it fits.</td>
+							</tr>
+							<tr class="tick">
+								<td>button.&lt;buttonId&gt;=released</td>
+								<td>&nbsp;</td>
+								<td>A script may emulate the pressing of a 
+								button.<p>The button is of the format:<br>
+								button_xxx<br>
+								where the xxx is the button number starting from 
+								1 at top left and continuing in horizontal rows 
+								to bottom right.</td>
+							</tr>
+							<tr class="tock">
+								<td>instance</td>
+								<td>&nbsp;</td>
+								<td>Instance name for the router</td>
+							</tr>
+							<tr class="tick">
+								<td>instance.lock</td>
+								<td>&nbsp;</td>
+								<td>Instance name for the lock infodriver</td>
+							</tr>
+							<tr class="tock">
+								<td>buttonspacing.h</td>
+								<td><b>10</b></td>
+								<td>Horizontal button spacing</td>
+							</tr>
+							<tr class="tick">
+								<td>buttonspacing.v</td>
+								<td><b>10</b></td>
+								<td>Vertical button spacing</td>
+							</tr>
+							<tr class="tock">
+								<td>buttonspacing</td>
+								<td><b>10</b></td>
+								<td>Sets horizontal and vertical button spacing 
+								simultaneously</td>
+							</tr>
+							<tr class="tick">
+								<td>pixmap.database</td>
+								<td><b>0</b></td>
+								<td>The database to pick up pixmaps for the 
+								buttons.<br>
+								Valid entries are 2-9.<p>A pixmap is a path as 
+								bncs_control would understand it. Extension is 
+								optional - if omitted default is &quot;.png&quot;.This value writes the default (background) pixmap</td>
+							</tr>
+							<tr class="tock">
+								<td>pixmap.lock</td>
+								<td><b>/images/icon_lock.png</b></td>
+								<td>Path to pixmap to use when dest is locked. This value writes to the upper right pixmap and is independent of the background pixmap</td>
+							</tr>
+							<tr class="tick">
+								<td>tally_height</td>
+								<td><b>20</b></td>
+								<td>How high to make the label part of each 
+								destination</td>
+							</tr>
+							<tr class="tock">
+								<td>tally_single_line</td>
+								<td><b>false<br>
+								</b>true</td>
+								<td>Whether to correct | characters in source 
+								names (used in BNCS to mean &quot;new line&quot;) to 
+								spaces so that they don't overflow a single 
+								height tally.</td>
+							</tr>
+							<tr class="tick">
+								<td>tally_under</td>
+								<td><b>false</b><br>
+								true</td>
+								<td>Whether the tally label should appear above 
+								or below the button</td>
+							</tr>
+							<tr class="tock">
+								<td>source.&lt;instance&gt;=&lt;index&gt;</td>
+								<td>&nbsp;</td>
+								<td>Source Value. What happens when this is 
+								written is dependent upon the &quot;auto take mode&quot;.<br>
+								Instance value is optional and compared against 
+								the instance on this control. If they don't 
+								match then the source value is not accepted</td>
+							</tr>
+							<tr class="tick">
+								<td>autotake.dest</td>
+								<td><b>false</b></td>
+								<td>In autotake.dest the source value is stored and 
+								the crosspoint made when the destination is 
+								selected</td>
+							</tr>
+							<tr class="tock">
+								<td>mask</td>
+								<td>&nbsp;</td>
+								<td>The text &quot;mask&quot; used when making crosspoints 
+								- exactly as supplied to the router crosspoint 
+								(RC) command</td>
+							</tr>
+							<tr class="tick">
+								<td>take.&lt;dest_index&gt;.&lt;mask&gt;=&lt;source_index&gt;</td>
+								<td>&nbsp;</td>
+								<td>Initiates a router crosspoint for the 
+								currently selected destination and given source 
+								(unless autotake is enabled in which case it's 
+								ignored)<br>
+								mask is optional<br>
+								dest_index is optional</td>
+							</tr>
+							<tr class="tock">
+								<td>undo</td>
+								<td>&nbsp;</td>
+								<td>Initiates a router cross point to undo the 
+								last take command</td>
+							</tr>
+							<tr class="tick">
+								<td>selected=&lt;index&gt;</td>
+								<td>&nbsp;</td>
+								<td>If index is mapped on the page that is 
+								showing then it is highlighted and the current 
+								destination set appropriately. If the index is 
+								not mapped then the selection is removed and the 
+								current destination cleared.</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>
+	Notifications</h2>
+					<p>
+	Notifications are also in the format:</p>
+					<blockquote>
+						<p class="inifile">&lt;parameter&gt; = &lt;value&gt;</p>
+						<table border="0" id="table4">
+							<tr>
+								<th>Parameter</th>
+								<th>Value</th>
+								<th>Notes</th>
+							</tr>
+							<tr class="tick">
+								<td>button.&lt;id&gt; </td>
+								<td>pressed<br>
+								<b>released</b></td>
+								<td>The notifications are only made if they are 
+								enabled in the settings above.<br>
+								Pressed has to be specifically enabled.<br>
+								Released has to be specifically disabled.</td>
+							</tr>
+							<tr class="tock">
+								<td>name</td>
+								<td>&lt;router name&gt;</td>
+								<td>router name is the value that appears on the 
+								depress-able button</td>
+							</tr>
+							<tr class="tick">
+								<td>dest</td>
+								<td>&lt;router index&gt;</td>
+								<td>index of the name that appears on the 
+								depress-able button</td>
+							</tr>
+							<tr class="tock">
+								<td>tally.&lt;dest index&gt;</td>
+								<td>&lt;source index&gt;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr class="tock">
+								<td>lock.&lt;dest index&gt;</td>
+								<td>0<br>
+								1</td>
+								<td>&nbsp;</td>
+							</tr>
+							</table>
+					</blockquote>
+					<p>
+	<br>
+&nbsp;</p>
+					<!-- #EndEditable --></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright Atos 2012</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
+  

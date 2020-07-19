@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<workstations>
+	<workstation id="11">
+		<setting file="bncs_system.ini" section="Network" key="Channel" value="21"/>
+	</workstation>
+	<workstation id="920">
+		<setting file="bncs_system.ini" section="Network" key="Channel" value="21"/>
+		<setting file="..\..\..\..\Windows\caplog.ini" section="Network" key="Channel" value="21"/>
+		<setting file="dev_101.ini" section="GRD" key="Simulation" value="1"/>
+		<setting file="dev_105.ini" section="GRD" key="Simulation" value="1"/>
+		<setting file="dev_151.ini" section="GRD" key="Simulation" value="1"/>
+		<setting file="dev_161.ini" section="GRD" key="Simulation" value="1"/>
+		<setting file="dev_021.ini" section="v4DeskFx" key="Port" value="2"/>
+	</workstation>
+</workstations>

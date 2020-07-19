@@ -1,0 +1,512 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="50" y="0" w="1230" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="30" y="50" w="1030" h="480">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="10" y="560" w="1210" h="310">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_source_grid" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=40x15_wide" />
+			<setting value="page_offset=0" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_01" x="40" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2033" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="take" x="1090" y="80" w="120" h="340">
+			<setting value="scriptname=/components/legacy/audio_take" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="force_51_stereo=false" />
+			<setting value="source_database=false" />
+			<setting value="treat_dest_as_stereo=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_02" x="170" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2034" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_03" x="300" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2035" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_04" x="430" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2036" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_05" x="560" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2037" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_06" x="690" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2038" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_07" x="820" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2039" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_08" x="950" y="60" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2040" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_09" x="40" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2041" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_10" x="170" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2042" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_11" x="300" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2043" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_12" x="430" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2044" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_13" x="560" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2045" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_14" x="690" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2046" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_15" x="820" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2047" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_16" x="950" y="180" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2048" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_17" x="40" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2049" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_18" x="170" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2050" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_19" x="300" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2051" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_20" x="430" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2052" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_21" x="560" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2053" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_22" x="690" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2054" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_23" x="820" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2055" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_24" x="950" y="300" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2056" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_25" x="40" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2057" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_26" x="170" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2058" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_27" x="300" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2059" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_28" x="430" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2060" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_29" x="560" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2061" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_30" x="690" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2062" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_31" x="820" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2063" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pyramix_32" x="950" y="420" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=M_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2064" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="take" event="index=*" command="source=[value]" name="Set source to take"/>
+		<connection sender="dest_*" receiver="take" event="global_dest=*" command="global_dest=[value]" name="Set dest to take"/>
+		<connection sender="dest_*" receiver="dest_*" event="global_dest=*" command="selected=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="take" receiver="dest_*" event="take.*=*" command="take.[sub0].[sub1]=[value]" name="Send take command to all dests"/>
+		<connection sender="take" receiver="dest_*" event="undo" command="undo" name="Undo last take"/>
+	</connections>
+</control_set>

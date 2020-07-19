@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="40" w="1260" h="520" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="grpBackground" x="10" y="10" w="1240" h="500">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Enter new name and hit Return" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="close" x="1130" y="440" w="100" h="50">
+			<setting value="stylesheet=pixmap_left" />
+			<setting value="text=Close" />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+		<control class="bncs_keyboard_ctrl" name="keyboard" x="30" y="50" w="1200" h="360">
+			<setting value="exceptions=&apos;&quot;" />
+			<setting value="keyboardType=Keypad" />
+			<setting value="numpadValidation=Length" />
+			<setting value="minLength=1" />
+			<setting value="maxLength=16" />
+		</control>
+	</container>
+</control_set>

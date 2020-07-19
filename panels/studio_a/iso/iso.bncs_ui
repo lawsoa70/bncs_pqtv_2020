@@ -1,0 +1,788 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="frame_1" x="26" y="60" w="1045" h="479">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="Label" x="41" y="247" w="1018" h="284">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="textalign=topleft" />
+			<setting value="text=Embedded Audio (View only)" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="70" y="560" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="dest_1" x="70" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=61" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_2" x="195" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=62" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_3" x="320" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=63" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_4" x="445" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=64" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_5" x="570" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=69" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_6" x="695" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=70" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_7" x="820" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=71" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_8" x="945" y="110" w="99" h="130">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=72" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_control" name="frame_2" x="1096" y="60" w="161" h="435">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="take" x="1107" y="130" w="140" h="280">
+			<setting value="scriptname=/components/legacy/take" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_1" x="70" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=349" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_2" x="70" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=350" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_3" x="70" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=351" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_4" x="70" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=352" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_5" x="70" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=353" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_6" x="70" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=354" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_7" x="70" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=355" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_1_8" x="70" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=356" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_1" x="195" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=365" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_2" x="195" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=366" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_3" x="195" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=367" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_4" x="195" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=368" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_5" x="195" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=369" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_6" x="195" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=370" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_7" x="195" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=371" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_2_8" x="195" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=372" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_1" x="320" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=381" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_2" x="320" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=382" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_3" x="320" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=383" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_4" x="320" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=384" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_5" x="320" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=385" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_6" x="320" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=386" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_7" x="320" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=387" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_3_8" x="320" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=388" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_1" x="445" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=397" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_2" x="445" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=398" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_3" x="445" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=399" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_4" x="445" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=400" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_5" x="445" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=401" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_6" x="445" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=402" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_7" x="445" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=403" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_4_8" x="445" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=404" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_1" x="570" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=461" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_2" x="570" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=462" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_3" x="570" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=463" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_4" x="570" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=464" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_5" x="570" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=465" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_6" x="570" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=466" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_7" x="570" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=467" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_5_8" x="570" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=468" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_1" x="695" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=477" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_2" x="695" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=478" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_3" x="695" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=479" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_4" x="695" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=480" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_5" x="695" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=481" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_6" x="695" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=482" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_7" x="695" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=483" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_6_8" x="695" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=484" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_1" x="820" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=493" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_2" x="820" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=494" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_3" x="820" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=495" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_4" x="820" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=496" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_5" x="820" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=497" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_6" x="820" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=498" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_7" x="820" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=499" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_7_8" x="820" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=500" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_1" x="945" y="270" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=509" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_2" x="945" y="300" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=510" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_3" x="945" y="330" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=511" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_4" x="945" y="360" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=512" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_5" x="945" y="390" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=513" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_6" x="945" y="420" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=514" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_7" x="945" y="450" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=515" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+		<control class="bncs_script_loader" name="tally_8_8" x="945" y="480" w="99" h="30">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally60x30.bncs_ui" />
+			<setting value="destindex=516" />
+			<setting value="database=0" />
+			<setting value="singleline=true" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="take" event="index=*" command="source=[value]" name="Send source,take button"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="dest_*" receiver="take" event="selected_index=*" command="dest=[value]" name=""/>
+		<connection sender="take" receiver="dest_*" event="take=*" command="route_source=[value]" name=""/>
+		<connection sender="take" receiver="dest_*" event="undo=*" command="untake" name=""/>
+	</connections>
+</control_set>

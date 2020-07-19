@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE workstation_settings SYSTEM "workstation_settings.dtd" >
+<workstation_settings>
+	<workstation id="53"> <!--STB EM-->
+		<setting id="ops_area" value="studio_b"/>
+		<setting id="ops_position" value="studio_b"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="55"> <!--STB Snd Sup-->
+		<setting id="ops_area" value="studio_b"/>
+		<setting id="ops_position" value="studio_b"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="70"> <!--STA VAA Bays-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="71"> <!--STA VAA Desk-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>	
+	<workstation id="72"> <!--STA LVCR-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="73"> <!--STA EM-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="74"> <!--STA Vision Mixer-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="75"> <!--STA Snd Sup-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="76"> <!--STA Grams-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="77"> <!--STA Snd Bays-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="80"> <!--STC VAA Bays-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="81"> <!--STC VAA Desk-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="83"> <!--STC EM-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="85"> <!--STC Snd Sup-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="86"> <!--STC Grams-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files (x86)\Touchkit\xAuto4PtsCal.exe"/>
+	</workstation>
+	<workstation id="87"> <!--STC Snd Bays-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="90"> <!--NCR-->
+		<setting id="ops_area" value="studio_c"/>
+		<setting id="ops_position" value="studio_c"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>
+	<workstation id="91"> <!--SIR-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>	
+	<workstation id="92"> <!--White Heather-->
+		<setting id="ops_area" value="studio_b"/>
+		<setting id="ops_position" value="studio_b"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>	
+	<workstation id="93"> <!--FCR-->
+		<setting id="ops_area" value="studio_b"/>
+		<setting id="ops_position" value="studio_b"/>
+		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
+	</workstation>	
+	<workstation id="100"> <!--Laptop-->
+		<setting id="ops_area" value="studio_a"/>
+		<setting id="ops_position" value="studio_a"/>
+	</workstation>
+</workstation_settings>

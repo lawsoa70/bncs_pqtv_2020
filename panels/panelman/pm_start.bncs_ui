@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="320" h="540">
+		<control class="bncs_control" name="1" x="8" y="8" w="304" h="524">
+			<setting value="style=label" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="5" x="16" y="16" w="288" h="40">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#ffffff" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=20" />
+			<setting value="font.style=bold " />
+			<setting value="text=Workstation Info" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_version" x="16" y="273" w="84" h="40">
+			<setting value="style=label" />
+			<setting value="text=v0.0.0.0" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="4" x="16" y="112" w="84" h="32">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=WS Number" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="3" x="16" y="152" w="84" h="32">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=WS Name" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="2" x="16" y="192" w="84" h="32">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=User Name" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="6" x="16" y="232" w="84" h="32">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=Panelset" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="7" x="16" y="72" w="84" h="32">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=Address" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_address" x="110" y="72" w="192" h="32">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=address" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_wsnum" x="110" y="112" w="192" h="32">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=WS Num" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_wsname" x="110" y="152" w="192" h="32">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=WS Name" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_user" x="110" y="192" w="192" h="32">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=Username" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_panelset" x="110" y="232" w="192" h="32">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=Panelset" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="start_engmenu" x="110" y="273" w="192" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Switch to Eng Menu" />
+		</control>
+		<control class="bncs_control" name="start_restart" x="20" y="480" w="112" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Clear    " />
+			<setting value="pixmap=restart.png" />
+		</control>
+		<control class="bncs_control" name="start_quit" x="188" y="480" w="112" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Quit     " />
+			<setting value="pixmap=close.png" />
+		</control>
+		<control class="bncs_control" name="start_clean_screen" x="110" y="323" w="192" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Clean Screen  " />
+			<setting value="pixmap=clean_screen.png" />
+		</control>
+		<control class="bncs_control" name="start_calibrate" x="110" y="373" w="192" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Calibrate Screen  " />
+			<setting value="pixmap=calibrate_screen.png" />
+		</control>
+	</container>
+</control_set>

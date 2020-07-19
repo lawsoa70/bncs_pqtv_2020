@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<ConfigNavPages>
+	<page key="Home" desc="Home Page" >
+		<link name="Alarms" target="Home/Alarms" pixmap="alarm.png" />
+		<link name="Developer" target="Home/Developer" pixmap="developer.png" />
+		<link name="User Interface" target="Home/User Interface" pixmap="ui.png"/>
+		<link name="System" target="Home/System" pixmap="system.png"/>
+	</page>
+	<page key="Home/Developer" desc="Developer" >
+		<alink name="Test Plugin 1" target="Home/Developer/Test Plugin 1" pixmap="testplugin.png"/>
+		<alink name="Test Plugin 2" target="Home/Developer/Test Plugin 2" pixmap="testplugin.png"/>
+		<link name="Visual Editor Buttons" target="Home/Developer/Vis. Ed. Buttons" pixmap="buttons.png" />
+		<link name="Generic Text Editor" target="Home/Developer/Generic config text editor" pixmap="textedit.png" />
+		<link name="Generic Navigation Editor" target="Home/Developer/Generic Navigation Plugin" pixmap="textedit.png" />
+	</page>
+	<page key="Home/Alarms/Inputs" desc="Alarm System Inputs" >
+		<link name="BNCS Acquisition" target="Home/Alarms/Inputs/cBNCS acquisition" pixmap="alarm.png" />
+ 		<link name="BNCS Driver Status" target="Home/Alarms/Inputs/BNCS Driver Status" pixmap="alarm.png" />
+	</page>
+	<page key="Home/Alarms" desc="Alarm System Inputs" >
+		<link name="System" target="Home/Alarms/Overview" pixmap="alarm.png" />
+		<link name="Processes" target="Home/Alarms/Processes" pixmap="alarm.png" />
+		<link name="Inputs" target="Home/Alarms/Inputs" pixmap="alarm.png" />
+		<link name="Outputs" target="Home/Alarms/Outputs" pixmap="alarm.png" />
+	</page>
+	<page key="Home/Alarms/Outputs" desc="Alarm System Outputs" >
+		<link name="BNCS Output" target="Home/Alarms/Outputs/Bncs Output" pixmap="alarm.png"/>
+		<link name="Database" target="Home/Alarms/Outputs/Database" pixmap="alarm.png"/>
+	</page>
+	<page key="Home/User Interface" desc="User Interface" >
+		<link name="Users" target="Home/System/Users" pixmap="users.png" />
+		<link name="Applications" target="Home/User Interface/Applications" pixmap="applications.png" />
+		<link name="Default Stylesheet" target="Home/User Interface/Default Stylesheet" pixmap="stylesheet.png" />
+		<link name="Panel Manager" target="Home/User Interface/Panel Manager" pixmap="panelmanager.png" />
+		<link name="Panel Sets" target="Home/User Interface/Panel Sets" pixmap="panelsets.png" />
+		<link name="Type Handlers" target="Home/User Interface/Type Handlers" pixmap="typehandler.png" />
+	</page>
+	<page key="Home/System/Workstation Update" desc="Workstation Update Batch Files" >
+		<link name="No-Sync" target="Home/System/Workstation Update/No-sync update batch" pixmap="workstation.png" />
+		<link name="Post-Sync" target="Home/System/Workstation Update/Post-sync update batch" pixmap="workstation.png" />
+		<link name="Pre-Sync" target="Home/System/Workstation Update/Pre-sync update batch" pixmap="workstation.png" />
+	</page>
+	<page key="Home/System" desc="System" >
+		<link name="Workstations" target="Home/System/Workstation" pixmap="workstations.png" />
+		<link name="Devices/Views (Instances)" target="Home/System/Instances Editor" />
+		<link name="Database Names Editor" target="Home/System/Device Database Editor" />
+		<link name="Object Settings" target="Home/System/Object/Settings" pixmap="settings.png" />
+		<link name="Device Type Editor" target="Home/System/Object/Device Type Edit" />
+		<link name="Workstation Update" target="Home/System/Workstation Update" pixmap="workstation.png" />
+		<link name="Log Delete" target="Home/System/Log Delete" />
+	</page>
+	<page key="Home/System/Workstation" desc="System" >
+		<link name="Workstations" target="Home/System/Workstations/Workstations" pixmap="workstations.png" />
+		<link name="Workstation Launch" target="Home/System/Workstations/Launch" pixmap="workstation.png" />
+		<link name="Workstation Settings" target="Home/System/Workstations/Settings" pixmap="settings.png" />
+	</page>
+</ConfigNavPages>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT device_description (param*)>
+<!ATTLIST device_description
+	name CDATA #REQUIRED
+	family CDATA #IMPLIED
+>
+<!ELEMENT param ((values, display) | (state* | template) | (string))>
+<!ATTLIST param
+	name CDATA #REQUIRED
+	class (enum | range | string | list) #REQUIRED
+	slot CDATA #REQUIRED
+	style CDATA #REQUIRED
+	access (readwrite | readonly | writeonly) #REQUIRED
+>
+<!ELEMENT values EMPTY>
+<!ATTLIST values
+	min CDATA #REQUIRED
+	max CDATA #REQUIRED
+	step CDATA #REQUIRED
+	bigstep CDATA #REQUIRED
+	defaultvalue CDATA #REQUIRED
+>
+<!ELEMENT display EMPTY>
+<!ATTLIST display
+	inoffset CDATA #REQUIRED
+	multiplier CDATA #REQUIRED
+	outoffset CDATA #REQUIRED
+	units CDATA #REQUIRED
+	dp CDATA #REQUIRED
+>
+<!ELEMENT state EMPTY>
+<!ATTLIST state
+	value CDATA #REQUIRED
+	caption CDATA #REQUIRED
+	style CDATA #REQUIRED
+	msg CDATA #REQUIRED
+>
+<!ELEMENT template EMPTY>
+<!ATTLIST template
+	id CDATA #REQUIRED
+>
+<!ELEMENT string EMPTY>
+<!ATTLIST string
+	maxlength CDATA #REQUIRED
+	case (any | lower | upper | title) #REQUIRED
+>

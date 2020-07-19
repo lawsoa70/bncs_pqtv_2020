@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_script_loader" name="tab" x="0" y="0" w="1280" h="884">
+			<setting value="scriptname=/components/custom/tab" />
+			<setting value="layout=2xtabs" />
+			<setting value="panel_location=studio_a/vt_inputs" />
+			<setting value="tab_1=vt_inputs_1-6" />
+			<setting value="tab_1_Name=VTR 1-6" />
+			<setting value="tab_2=vt_inputs_7-12" />
+			<setting value="tab_2_Name=VTR 7-12" />
+			<setting value="first_tab_shown=tab_1" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="take..M-LR=[value]" name="Route Audio"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="take..=[value]" name="Send SDI index to sest and make router"/>
+		<connection sender="dest_*" receiver="dest_*" event="global_dest=*" command="selected=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="dest_*" receiver="lock" event="global_dest=*" command="index=[value]" name="send dest index to lock button"/>
+		<connection sender="default_audio" receiver="dest_*" event="index=*" command="take..M-LR=[value]" name=""/>
+		<connection sender="default_audio" receiver="dest_*" event="index=*" command="take..=[value]" name=""/>
+		<connection sender="sourceGrid" receiver="default_audio" event="index=*" command="deselect" name=""/>
+		<connection sender="default_audio" receiver="sourceGrid" event="index=*" command="index=[value]" name=""/>
+	</connections>
+</control_set>

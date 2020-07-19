@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<!DOCTYPE logdelete SYSTEM "logdelete.dtd">
+<logdelete>
+	<workstation id="global" enable="true" daysback="32">
+	<dir name="c:\bncslogs"/>
+	</workstation>
+</logdelete>

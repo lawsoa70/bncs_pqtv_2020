@@ -1,0 +1,194 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label1" x="280" y="150" w="220" h="250">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Multiviewer 1" />
+		</control>
+		<control class="bncs_control" name="Label6" x="800" y="150" w="220" h="250">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Multiviewer 3" />
+		</control>
+		<control class="bncs_control" name="Label5" x="540" y="150" w="220" h="250">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Multiviewer 2" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="70" y="560" w="1115" h="312">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="dest_1" x="290" y="190" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=41" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_2" x="390" y="190" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=42" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_10" x="290" y="290" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=43" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_11" x="390" y="290" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=44" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_3" x="550" y="190" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=45" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_12" x="550" y="290" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=47" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_4" x="650" y="190" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=46" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_13" x="650" y="290" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=48" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_5" x="810" y="190" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=49" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_6" x="910" y="190" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=50" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_14" x="810" y="290" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=51" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_15" x="910" y="290" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=52" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_small" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="memory" x="30" y="30" w="100" h="100">
+			<setting value="scriptname=/components/custom/router_salvo" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="memory_instance=sta_sdi_memory" />
+			<setting value="layout=sta_mv" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="route_source=*" command="select=[value]" name="Send source,dest to destinations"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="memory" receiver="dest_*" event="fetch" command="getSettings" name="memory fetch"/>
+		<connection sender="dest_*" receiver="memory" event="getSettings=*" command="[command]=[value]" name="fetch response"/>
+	</connections>
+</control_set>

@@ -1,0 +1,116 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>File Format - devicetype</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p class="title">Overview</p>
+<p>The config/devicetype folder contains descriptions for each of the device types 
+  present within the system</p>
+<p>The device contains parameter definitions of the following type:</p>
+<table width="70%" border="1">
+  <tr>
+    <th width="10%">Type</th>
+    <th width="40%">Usage</th>
+    <th width="50%">Comments</th>
+  </tr>
+  <tr>
+    <td>enum</td>
+    <td>a known set of discrete values</td>
+    <td>An enum can have an explicit state list or use a <a href="template.html">template</a></td>
+  </tr>
+  <tr>
+    <td>range</td>
+    <td>values lie within a continuous range</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>list</td>
+    <td>a list of values</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>string</td>
+    <td>any string</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p>Each of the devicetype files in this folder are indexed in /config/<a href="devicetypes.html">devicetypes.xml</a> 
+  - This file contains the additional information that defines the family of which 
+  the devicetype is a member. </p>
+  
+  <p>Note:In the device description file the drivertype is optional. If not present it assumes Infodriver for backwards compatibility, the other options are GPI and Router.</p>
+<!-- note: should the family be an attribute of the devicetype tag? -->
+<p class="title">Sample Contents - /config/devicetypes/v1647.xml</p>
+<pre>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!DOCTYPE device_description SYSTEM &quot;device_description.dtd&quot;&gt;
+&lt;device_description name=&quot;V1647&quot; drivertype=&quot;Infodriver&quot; &gt;
+	&lt;param name=&quot;Comms&quot; class=&quot;enum&quot; style=&quot;label&quot; slot=&quot;0&quot;&gt; 
+		&lt;state value=&quot;0&quot; caption=&quot;OK&quot; state=&quot;alarm_ok&quot;/&gt;
+		&lt;state value=&quot;1&quot; caption=&quot;Fail&quot; state=&quot;alarm_alarm&quot;/&gt;
+	&lt;/param&gt;
+	&lt;param name=&quot;H Pos&quot; class=&quot;range&quot; style=&quot;label&quot; slot=&quot;1&quot;&gt;
+		&lt;values min=&quot;0&quot; max=&quot;431&quot; step=&quot;8&quot; bigstep=&quot;64&quot; /&gt;
+		&lt;display inoffset=&quot;-216&quot; multiplier=&quot;1&quot; outoffset=&quot;&quot; units=&quot;&quot; dp=&quot;&quot; /&gt;
+	&lt;/param&gt;
+	&lt;param name=&quot;H Zoom&quot; class=&quot;range&quot; style=&quot;label&quot; slot=&quot;2&quot;&gt;
+		&lt;values min=&quot;1&quot; max=&quot;16383&quot; step=&quot;8&quot; bigstep=&quot;64&quot; /&gt;
+		&lt;display inoffset=&quot;-8192&quot; multiplier=&quot;1&quot; outoffset=&quot;&quot; units=&quot;&quot; dp=&quot;&quot; /&gt;
+	&lt;/param&gt;
+	&lt;param name=&quot;Bypass&quot; class=&quot;enum&quot; style=&quot;button&quot; slot=&quot;9&quot;&gt;
+		&lt;state value=&quot;0&quot; caption=&quot;Normal&quot; state=&quot;bistate_normal&quot;/&gt;
+		&lt;state value=&quot;1&quot; caption=&quot;Bypass&quot; state=&quot;bistate_warning&quot;/&gt;
+	&lt;/param&gt;
+	&lt;param name=&quot;Test Pattern&quot; class=&quot;enum&quot; style=&quot;button&quot; slot=&quot;12&quot;&gt;
+		&lt;state value=&quot;0&quot; caption=&quot;OFF&quot; state=&quot;bistate_normal&quot;/&gt;
+		&lt;state value=&quot;1&quot; caption=&quot;ON&quot; state=&quot;bistate_warning&quot;/&gt;
+	&lt;/param&gt;
+	&lt;param name=&quot;ARC Mode Pop&quot; class=&quot;enum&quot; style=&quot;popup_list&quot; slot=&quot;54&quot;&gt; 
+		&lt;template id=&quot;arcmodes&quot;/&gt;
+	&lt;/param&gt;
+	&lt;param name=&quot;ARC Mode&quot; class=&quot;enum&quot; style=&quot;list&quot; template=&quot;arcmodes&quot; slot=&quot;54&quot;&gt;
+		&lt;template id=&quot;arcmodes&quot;/&gt; 
+	&lt;/param&gt;
+&lt;/device_description&gt;
+</pre>
+<p class="title">DTD</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+	&lt;!ELEMENT device_description (param+)&gt;
+	&lt;!ATTLIST device_description
+		name CDATA #REQUIRED
+		family CDATA #IMPLIED
+		drivertype CDATA #IMPLIED
+		&gt;
+
+&lt;!ELEMENT param ((values,display)|(state+|template))&gt;
+	&lt;!ATTLIST param name CDATA #REQUIRED&gt;
+	&lt;!ATTLIST param class CDATA #REQUIRED&gt;
+	&lt;!ATTLIST param caption CDATA #REQUIRED&gt;
+	&lt;!ATTLIST param slot CDATA #REQUIRED&gt;
+
+&lt;!ELEMENT values EMPTY&gt;
+	&lt;!ATTLIST values min CDATA #REQUIRED&gt;
+	&lt;!ATTLIST values max CDATA #REQUIRED&gt;
+	&lt;!ATTLIST values step CDATA #REQUIRED&gt;
+	&lt;!ATTLIST values bigstep CDATA #REQUIRED&gt;
+
+&lt;!ELEMENT display EMPTY&gt;
+	&lt;!ATTLIST display inoffset CDATA #REQUIRED&gt;
+	&lt;!ATTLIST display multiplier CDATA #REQUIRED&gt;
+	&lt;!ATTLIST display outoffset CDATA #REQUIRED&gt;
+	&lt;!ATTLIST display units CDATA #REQUIRED&gt;
+	&lt;!ATTLIST display dp CDATA #REQUIRED&gt;
+
+&lt;!ELEMENT state EMPTY&gt;
+	&lt;!ATTLIST state value CDATA #REQUIRED&gt;
+	&lt;!ATTLIST state caption CDATA #REQUIRED&gt;
+	&lt;!ATTLIST state state CDATA #REQUIRED&gt;
+
+&lt;!ELEMENT template EMPTY&gt;
+	&lt;!ATTLIST template id CDATA #REQUIRED&gt;
+</pre>
+<p>&nbsp;</p>
+</body>

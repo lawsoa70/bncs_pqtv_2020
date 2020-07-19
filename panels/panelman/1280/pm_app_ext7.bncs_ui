@@ -1,0 +1,489 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="118" y="558" w="1052" h="466" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="bgnd" x="0" y="0" w="1052" h="464">
+			<setting value="style=label" />
+			<setting value="stylesheet=panman_background" />
+		</control>
+		<control class="bncs_control" name="1001" x="2" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App1" />
+		</control>
+		<control class="bncs_control" name="1002" x="72" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App2" />
+		</control>
+		<control class="bncs_control" name="1003" x="142" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App3" />
+		</control>
+		<control class="bncs_control" name="1004" x="212" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App4" />
+		</control>
+		<control class="bncs_control" name="1005" x="282" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App5" />
+		</control>
+		<control class="bncs_control" name="1006" x="352" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App6" />
+		</control>
+		<control class="bncs_control" name="1007" x="422" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App7" />
+		</control>
+		<control class="bncs_control" name="1008" x="492" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App8" />
+		</control>
+		<control class="bncs_control" name="1009" x="562" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App9" />
+		</control>
+		<control class="bncs_control" name="1010" x="632" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App10" />
+		</control>
+		<control class="bncs_control" name="1011" x="702" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App11" />
+		</control>
+		<control class="bncs_control" name="1012" x="772" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App12" />
+		</control>
+		<control class="bncs_control" name="1013" x="842" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App13" />
+		</control>
+		<control class="bncs_control" name="1014" x="912" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App14" />
+		</control>
+		<control class="bncs_control" name="1015" x="982" y="408" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App15" />
+		</control>
+		<control class="bncs_control" name="1016" x="2" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App16" />
+		</control>
+		<control class="bncs_control" name="1017" x="72" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App17" />
+		</control>
+		<control class="bncs_control" name="1018" x="142" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App18" />
+		</control>
+		<control class="bncs_control" name="1019" x="212" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App19" />
+		</control>
+		<control class="bncs_control" name="1020" x="282" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App20" />
+		</control>
+		<control class="bncs_control" name="1021" x="352" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App21" />
+		</control>
+		<control class="bncs_control" name="1022" x="422" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App22" />
+		</control>
+		<control class="bncs_control" name="1023" x="492" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App23" />
+		</control>
+		<control class="bncs_control" name="1024" x="562" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App24" />
+		</control>
+		<control class="bncs_control" name="1025" x="632" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App25" />
+		</control>
+		<control class="bncs_control" name="1026" x="702" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App26" />
+		</control>
+		<control class="bncs_control" name="1027" x="772" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App27" />
+		</control>
+		<control class="bncs_control" name="1028" x="842" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App28" />
+		</control>
+		<control class="bncs_control" name="1029" x="912" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App29" />
+		</control>
+		<control class="bncs_control" name="1030" x="982" y="350" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App30" />
+		</control>
+		<control class="bncs_control" name="1031" x="2" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App31" />
+		</control>
+		<control class="bncs_control" name="1032" x="72" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App32" />
+		</control>
+		<control class="bncs_control" name="1033" x="142" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App33" />
+		</control>
+		<control class="bncs_control" name="1034" x="212" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App34" />
+		</control>
+		<control class="bncs_control" name="1035" x="282" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App35" />
+		</control>
+		<control class="bncs_control" name="1036" x="352" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App36" />
+		</control>
+		<control class="bncs_control" name="1037" x="422" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App37" />
+		</control>
+		<control class="bncs_control" name="1038" x="492" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App38" />
+		</control>
+		<control class="bncs_control" name="1039" x="562" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App39" />
+		</control>
+		<control class="bncs_control" name="1040" x="632" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App40" />
+		</control>
+		<control class="bncs_control" name="1041" x="702" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App41" />
+		</control>
+		<control class="bncs_control" name="1042" x="772" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App42" />
+		</control>
+		<control class="bncs_control" name="1043" x="842" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App43" />
+		</control>
+		<control class="bncs_control" name="1044" x="912" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App44" />
+		</control>
+		<control class="bncs_control" name="1045" x="982" y="292" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App45" />
+		</control>
+		<control class="bncs_control" name="1046" x="2" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App46" />
+		</control>
+		<control class="bncs_control" name="1047" x="72" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App47" />
+		</control>
+		<control class="bncs_control" name="1048" x="142" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App48" />
+		</control>
+		<control class="bncs_control" name="1049" x="212" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App49" />
+		</control>
+		<control class="bncs_control" name="1050" x="282" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App50" />
+		</control>
+		<control class="bncs_control" name="1051" x="352" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App51" />
+		</control>
+		<control class="bncs_control" name="1052" x="422" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App52" />
+		</control>
+		<control class="bncs_control" name="1053" x="492" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App53" />
+		</control>
+		<control class="bncs_control" name="1054" x="562" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App54" />
+		</control>
+		<control class="bncs_control" name="1055" x="632" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App55" />
+		</control>
+		<control class="bncs_control" name="1056" x="702" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App56" />
+		</control>
+		<control class="bncs_control" name="1057" x="772" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App57" />
+		</control>
+		<control class="bncs_control" name="1058" x="842" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App58" />
+		</control>
+		<control class="bncs_control" name="1059" x="912" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App59" />
+		</control>
+		<control class="bncs_control" name="1060" x="982" y="234" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App60" />
+		</control>
+		<control class="bncs_control" name="1061" x="2" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App61" />
+		</control>
+		<control class="bncs_control" name="1062" x="72" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App62" />
+		</control>
+		<control class="bncs_control" name="1063" x="142" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App63" />
+		</control>
+		<control class="bncs_control" name="1064" x="212" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App64" />
+		</control>
+		<control class="bncs_control" name="1065" x="282" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App65" />
+		</control>
+		<control class="bncs_control" name="1066" x="352" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App66" />
+		</control>
+		<control class="bncs_control" name="1067" x="422" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App67" />
+		</control>
+		<control class="bncs_control" name="1068" x="492" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App68" />
+		</control>
+		<control class="bncs_control" name="1069" x="562" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App69" />
+		</control>
+		<control class="bncs_control" name="1070" x="632" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App70" />
+		</control>
+		<control class="bncs_control" name="1071" x="702" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App71" />
+		</control>
+		<control class="bncs_control" name="1072" x="772" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App72" />
+		</control>
+		<control class="bncs_control" name="1073" x="842" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App73" />
+		</control>
+		<control class="bncs_control" name="1074" x="912" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App74" />
+		</control>
+		<control class="bncs_control" name="1075" x="982" y="176" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App75" />
+		</control>
+		<control class="bncs_control" name="1076" x="2" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App76" />
+		</control>
+		<control class="bncs_control" name="1077" x="72" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App77" />
+		</control>
+		<control class="bncs_control" name="1078" x="142" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App78" />
+		</control>
+		<control class="bncs_control" name="1079" x="212" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App79" />
+		</control>
+		<control class="bncs_control" name="1080" x="282" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App80" />
+		</control>
+		<control class="bncs_control" name="1081" x="352" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App81" />
+		</control>
+		<control class="bncs_control" name="1082" x="422" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App82" />
+		</control>
+		<control class="bncs_control" name="1083" x="492" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App83" />
+		</control>
+		<control class="bncs_control" name="1084" x="562" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App84" />
+		</control>
+		<control class="bncs_control" name="1085" x="632" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App85" />
+		</control>
+		<control class="bncs_control" name="1086" x="702" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App86" />
+		</control>
+		<control class="bncs_control" name="1087" x="772" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App87" />
+		</control>
+		<control class="bncs_control" name="1088" x="842" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App88" />
+		</control>
+		<control class="bncs_control" name="1089" x="912" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App89" />
+		</control>
+		<control class="bncs_control" name="1090" x="982" y="118" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App90" />
+		</control>
+		<control class="bncs_control" name="1091" x="2" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App91" />
+		</control>
+		<control class="bncs_control" name="1092" x="72" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App92" />
+		</control>
+		<control class="bncs_control" name="1093" x="142" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App93" />
+		</control>
+		<control class="bncs_control" name="1094" x="212" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App94" />
+		</control>
+		<control class="bncs_control" name="1095" x="282" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App95" />
+		</control>
+		<control class="bncs_control" name="1096" x="352" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App96" />
+		</control>
+		<control class="bncs_control" name="1097" x="422" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App97" />
+		</control>
+		<control class="bncs_control" name="1098" x="492" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App98" />
+		</control>
+		<control class="bncs_control" name="1099" x="562" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App99" />
+		</control>
+		<control class="bncs_control" name="1100" x="632" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App100" />
+		</control>
+		<control class="bncs_control" name="1101" x="702" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App101" />
+		</control>
+		<control class="bncs_control" name="1102" x="772" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App102" />
+		</control>
+		<control class="bncs_control" name="1103" x="842" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App103" />
+		</control>
+		<control class="bncs_control" name="1104" x="912" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App104" />
+		</control>
+		<control class="bncs_control" name="1105" x="982" y="60" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App105" />
+		</control>
+		<control class="bncs_control" name="1106" x="2" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App106" />
+		</control>
+		<control class="bncs_control" name="1107" x="72" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App107" />
+		</control>
+		<control class="bncs_control" name="1108" x="142" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App108" />
+		</control>
+		<control class="bncs_control" name="1109" x="212" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App109" />
+		</control>
+		<control class="bncs_control" name="1110" x="282" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App110" />
+		</control>
+		<control class="bncs_control" name="1111" x="352" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App111" />
+		</control>
+		<control class="bncs_control" name="1112" x="422" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App112" />
+		</control>
+		<control class="bncs_control" name="1113" x="492" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App113" />
+		</control>
+		<control class="bncs_control" name="1114" x="562" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App114" />
+		</control>
+		<control class="bncs_control" name="1115" x="632" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App115" />
+		</control>
+		<control class="bncs_control" name="1116" x="702" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App116" />
+		</control>
+		<control class="bncs_control" name="1117" x="772" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App117" />
+		</control>
+		<control class="bncs_control" name="1118" x="842" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App118" />
+		</control>
+		<control class="bncs_control" name="1119" x="912" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App119" />
+		</control>
+		<control class="bncs_control" name="1120" x="982" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+			<setting value="text=App120" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,81 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Tab Component</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="..\..\..\..\DOCS\html_help\html_help.css">
+<link rel="stylesheet" type="text/css" href="html_help\html_help.css">
+
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr >
+		<td width="639" height="91" >
+			<div class="header"></div>
+		</td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="50">&nbsp;</td>
+				<td valign="top">
+					<!-- #BeginEditable "main" -->
+					<h1>Tab Component</h1>
+					<p>The Tab component can be used to add tabs to a panel without the need for scripting</p>
+					<p>If your panel has more information than can fit on one page than this component maybe for you.</p>
+					<h2>How to use</h2>
+					<blockquote>
+						<p>Place the tab component on the Main UI page, ensure the UI has the same name as the folder. Stretch the component out to the fill the whole panel, this will be the only thing on the page. Now fill in the parameters for the component, the descriptions for these can be found in the Parameters Section below.</p>
+						<p>Add extra UIs to the folder make sure they are named the same as the names given to them in tab_n_Name parameters, one UI for each page that is needed. Open &quot;Edit Dialog Properties&quot; for each of these extra pages and set the X Pos and Y Pos as necessary to stop panel from hiding the tab when it is shown (In most case setting X Pos to 50 should do it, if the tabs are to appear at the left hand edge). </P>
+					</blockquote>
+										
+					<h2>Parameters</h2>
+					<blockquote>
+						<table>
+							<tr><th>Parameter</th>						<th>Example</th>				<th>Use</th></tr>
+							<tr class="tick"><td>layout</td>			<td>2xtabs</td>					<td>Select which tab layout to use, these can be found in components/tab/tabs. Once selected click Ok to close the paramenters and then open it again, as this will refresh the Parameters with new parameter list for the tab layout you selected.</td></tr>
+							<tr class="tock"><td>panel_location</td>	<td>studio_1\umd_naming</td>	<td>This is the location of the folder that UIs are in. The location starts from Panels\ so only the directory structure after this has to be added. </td></tr>
+							<tr class="tick"><td>tab_N</td>				<td>Main_tab</td>				<td>The Name of the UI to be displayed, must be in the folder specified in panel_location</td></tr>
+							<tr class="tock"><td>tab_N_Name</td>		<td>Main</td>					<td>The Name displayed button for this UI</td></tr>
+							<tr><td class="tick" colspan="3">The Above 2 rows will be shown as many time as there are tab buttons, with N replace with a tab number</td></tr>
+							<tr class="tock"><td>firt_tab_shown</td>	<td>tab_1</td>					<td>The tab number to be shown first of page load</td></tr>
+						</table>
+					</blockquote>
+					
+					<h2>Creating a New Tab Layout</h2>
+					<blockquote>
+						<p>Creating a New Tab Layout with more buttons or a different style is very easy. The easiest way to do this is to copy an already exisiting UI, all the tab UI can be found in panels/components/tab/tabs.</p>
+						<p>Each tab button needs the ID tab_N(where N is the number of the tab), this is also the case for the backgound item for the tab, which is called bg_tab_N. As long as this naming convention is followed the component will be able to display the correct number of parameters needed for the panel.</p>
+						<p>Example: A 3 tab layout, would have IDs named tab_1,tab_2,tab_3 and backgrounds IDs bg_tab_1,bg_tab_2,bg_tab_3</p>
+					</blockquote>
+					
+					
+					<h2>FAQ</h2>
+					<blockquote>
+						<table>
+							<tr><th>Problem</th>						<th>Solution</th></tr>
+							<tr class="tick"><td>I cannot see the tabs, only the first page</td>		<td>The Likely casue of this is X Pos OR Y Pos not being set for the UI being shown, UI is covering the Tabs. Open up the UI that is hidding the tab and right click on background of the UI, you will be presented with a &quot;Edit Dialog Properties&quot; Windows, change the X Pos Or Y Pos in here to stop the tabs beening hidden (In most case setting X Pos to 50 should do it, if the tabs are to appear at the left hand edge).</td></tr>
+							<tr class="tock"><td>Not enough Parameters are shown for the layout I have selected</td>	<td>This is probably because the paramlist has not had a chance to refresh, click OK on the param dialog to close it and than open it again. It should now show the correct number of parameters. If this is not the case click the Layout select follows the instructions for creating a New Tab Layout.</td></tr>
+						</table>
+					</blockquote>
+					<!-- #EndEditable -->
+				</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright ATOS IT Solutions and Services Ltd. 2011</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+</html>

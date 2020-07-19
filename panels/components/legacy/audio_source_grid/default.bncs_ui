@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1260" h="800" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="1" x="0" y="0" w="1260" h="800">
+			<setting value="style=label" />
+			<setting value="textalign=topleft" />
+			<setting value="text=audio_source_grid - component not configured" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

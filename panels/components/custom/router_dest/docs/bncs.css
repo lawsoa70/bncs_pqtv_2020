@@ -1,0 +1,12 @@
+p         { font-family: Arial; font-size: 10pt }
+body         { font-family: Arial; font-size: 10pt }
+th           { background-color: #a0b6c0; color:#000000; text-align=left;  }
+tr           { font-family: Arial; font-size: 10pt }
+.highlight		{background-color: #a0b6c0;}
+.nohighlight	{background-color: ; }
+.system	{font-family: System; font-size: 10pt }
+.inifile {font-family: courier new; font-size: 10pt }
+.examplebox	{ padding: 20px; background-color: #D9E1E6; font-family: courier new; font-size: 10pt;}
+.tick	{ background-color: #e4efed; color:#000000; }
+.tock	{ background-color: #d5e1e3; color:#000000; }
+.bncsTable	{ background-color: #d5e1e3; color:#000000; }

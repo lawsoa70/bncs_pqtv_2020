@@ -1,0 +1,99 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1276" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="none1" x="0" y="10" w="780" h="340">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Destinations" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none3" x="790" y="10" w="325" h="340">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Destination Pages" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none4" x="1120" y="11" w="154" h="829">
+			<setting value="style=label" />
+			<setting value="stylesheet=group_box_stb" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock" x="1150" y="230" w="100" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stb_calrec_lock" />
+			<setting value="index=" />
+			<setting value="lock_instance=rtr_stb_calrec_lock" />
+		</control>
+		<control class="bncs_script_loader" name="detailsSource" x="1170" y="650" w="60" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/routerdetails" />
+			<setting value="instance=rtr_stb_calrec" />
+			<setting value="database=0,2" />
+			<setting value="text=Srce|Details" />
+		</control>
+		<control class="bncs_script_loader" name="detailsDest" x="1170" y="60" w="60" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/routerdetails" />
+			<setting value="instance=rtr_stb_calrec" />
+			<setting value="database=1,3" />
+			<setting value="text=Dest|Details" />
+		</control>
+		<control class="bncs_script_loader" name="take" x="1130" y="290" w="140" h="280">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/take" />
+			<setting value="instance=rtr_stb_calrec" />
+			<setting value="lock_instance=rtr_stb_calrec_lock" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="0" y="530" w="1115" h="309">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_stb_calrec" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="destPage" x="800" y="40" w="300" h="300">
+			<setting value="columns=3" />
+			<setting value="rows=5" />
+			<setting value="instance=rtr_stb_calrec" />
+			<setting value="instance.map=rtr_stb_calrec" />
+			<setting value="namesdb=8" />
+			<setting value="mapoffset=3000" />
+			<setting value="namesoffset=3500" />
+			<setting value="notify.released=false" />
+			<setting value="notify.name=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.button=" />
+			<setting value="stylesheet.selected=destgroup_selected" />
+			<setting value="stylesheet.deselected=destgroup_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_rtrDestGrid" name="destGrid" x="20" y="40" w="750" h="300">
+			<setting value="rows=4" />
+			<setting value="instance=rtr_stb_calrec" />
+			<setting value="instance.lock=rtr_stb_calrec_lock" />
+			<setting value="page=0" />
+			<setting value="mapoffset=1000" />
+			<setting value="notify.dest=true" />
+			<setting value="notify.tally=true" />
+			<setting value="stylesheet.background=groupbox" />
+			<setting value="stylesheet.tally=sourcegrid_tally" />
+			<setting value="tally_under=true" />
+			<setting value="tally_single_line=true" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="destPage" receiver="destGrid" event="index=*" command="page=[value]" name="** NEW CONNECTION! ** PLEASE GIVE ME A COMMENT!"/>
+		<connection sender="take" receiver="destGrid" event="take=*" command="take.[sub0].[sub1]=[value]" name="take"/>
+		<connection sender="take" receiver="destGrid" event="undo=*" command="undo=[value]" name="undo"/>
+		<connection sender="destGrid" receiver="detailsDest" event="dest=*" command="index=[value]" name="Source Details"/>
+		<connection sender="sourceGrid" receiver="detailsSource" event="index=*" command="index=[value]" name="Dest Details"/>
+		<connection sender="destGrid" receiver="lock" event="dest=*" command="index=[value]" name=""/>
+		<connection sender="sourceGrid" receiver="take" event="index=*" command="source=[value]" name="take button source"/>
+		<connection sender="destGrid" receiver="take" event="dest=*" command="dest=[value]" name="take button dest"/>
+		<connection sender="destGrid" receiver="monFollow" event="button=*" command="follow=dest" name=""/>
+		<connection sender="destGrid" receiver="monFollow" event="tally=*" command="dest_source=[sub0],[value]" name=""/>
+		<connection sender="sourceGrid" receiver="monFollow" event="index=*" command="follow=source" name=""/>
+		<connection sender="sourceGrid" receiver="monFollow" event="index=*" command="source=[value]" name=""/>
+		<connection sender="sourcePagePage" receiver="sourcePage" event="index=*" command="page=[value]" name="source page paging"/>
+		<connection sender="destPagePage" receiver="destPage" event="index=*" command="page=[value]" name="dest page paging"/>
+	</connections>
+</control_set>

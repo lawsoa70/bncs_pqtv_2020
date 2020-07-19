@@ -1,0 +1,162 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="20" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="grpInfo" x="30" y="80" w="1210" h="260">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Database Names" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grpRename" x="30" y="360" w="1210" h="520">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Rename" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="1" x="30" y="10" w="1210" h="50">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblNamePreview" x="650" y="90" w="113" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=Name Preview" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblSelectLevel" x="500" y="90" w="145" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=Select Name to Edit" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="save" x="1100" y="90" w="130" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Save &amp;|Close " />
+			<setting value="pixmap=/images/icon_save.png" />
+		</control>
+		<control class="bncs_control" name="cancel" x="1100" y="270" w="130" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Cancel  |Changes" />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+		<control class="bncs_control" name="header_index" x="430" y="20" w="60" h="30">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#f8f8f8" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="header_button_name" x="500" y="20" w="250" h="30">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#f8f8f8" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="header_soft_name" x="760" y="20" w="460" h="30">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#f8f8f8" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="preview_button_name" x="650" y="120" w="90" h="60">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffffff" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblRenameAction" x="110" y="20" w="320" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=black" />
+			<setting value="colour.background=#9a9a9a" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="text=Rename Source" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="preview_hardware_name" x="650" y="260" w="65" h="60">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#f8f8f8" />
+			<setting value="font.face=Courier New" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="hidden_hardware_name" x="730" y="270" w="140" h="40">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#9a9a9a" />
+			<setting value="colour.background=#9a9a9a" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_keyboard_ctrl" name="keyboard" x="40" y="420" w="1190" h="450">
+			<setting value="transparent=true" />
+			<setting value="spacing=10" />
+			<setting value="exceptions=&apos;&quot;" />
+			<setting value="keyboardType=Keypad" />
+		</control>
+		<control class="bncs_control" name="btnButtonName" x="500" y="130" w="140" h="40">
+			<setting value="statesheet=edit_name_deselected" />
+			<setting value="text=Button Name" />
+		</control>
+		<control class="bncs_control" name="btnHardwareName" x="500" y="270" w="140" h="40">
+			<setting value="statesheet=edit_name_deselected" />
+			<setting value="text=Details" />
+		</control>
+		<control class="bncs_control" name="preview_details" x="650" y="270" w="400" h="40">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#f8f8f8" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="preview_soft_name" x="650" y="200" w="400" h="40">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#f8f8f8" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="btnSoftName" x="500" y="200" w="140" h="40">
+			<setting value="statesheet=edit_name_deselected" />
+			<setting value="text=Long Name" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="btnHardwareName" receiver="keyboard" event="button=released" command="exceptions=&apos;&quot;|" name="Disable apostrophe, quation mark and pipe."/>
+		<connection sender="btnButtonName" receiver="keyboard" event="button=released" command="exceptions=&apos;&quot;" name="Disable apostrophe and quation mark."/>
+		<connection sender="btnSoftName" receiver="keyboard" event="button=released" command="exceptions=&apos;&quot;" name="Disable apostrophe and quation mark."/>
+	</connections>
+</control_set>

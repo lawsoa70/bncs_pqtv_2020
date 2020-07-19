@@ -1,0 +1,521 @@
+ bncs_shim_loader
+
+ Timestamp is 56ddfd51 (Mon Mar 07 22:14:41 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000080e6H .text                   CODE
+ 0001:000080e8 00000437H .text$x                 CODE
+ 0002:00000000 0000010cH .idata$5                DATA
+ 0002:00000110 0000009cH .rdata                  DATA
+ 0002:000001b0 000006e0H .xdata$x                DATA
+ 0002:00000890 00000064H .idata$2                DATA
+ 0002:000008f4 00000014H .idata$3                DATA
+ 0002:00000908 0000010cH .idata$4                DATA
+ 0002:00000a14 00000630H .idata$6                DATA
+ 0002:00001050 00001af8H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCU                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 000007b0H .data                   DATA
+ 0003:000007d0 0000029cH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000004c8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ??3@YAXPAX0@Z              10001000 f i bncs_shim.obj
+ 0001:00000000       ?cccConnected@IccClientCallback@@MAEXXZ 10001000 f i bncs_shim.obj
+ 0001:00000000       ?cccDisconnected@IccClientCallback@@MAEXXZ 10001000 f i bncs_shim.obj
+ 0001:00000001       ?cccDeviceMode@IccClientCallback@@MAEXHHW4redundancyState@cc@@@Z 10001001 f i bncs_shim.obj
+ 0001:00000001       ?cccRtrRevertive@IccClientCallback@@MAEXHHH@Z 10001001 f i bncs_shim.obj
+ 0001:00000001       ?cccInfoRevertive@IccClientCallback@@MAEXHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10001001 f i bncs_shim.obj
+ 0001:00000001       ?cccGpiRevertive@IccClientCallback@@MAEXHH_N@Z 10001001 f i bncs_shim.obj
+ 0001:00000001       ?cccDatabaseChange@IccClientCallback@@MAEXHHH@Z 10001001 f i bncs_shim.obj
+ 0001:00000004       ?cccDeviceMessage@IccClientCallback@@MAEXHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z 10001004 f i bncs_shim.obj
+ 0001:00000007       ?cccPollError@IccClientCallback@@MAEXHH@Z 10001007 f i bncs_shim.obj
+ 0001:00000007       ?cccSerialNumberError@IccClientCallback@@MAEXHH@Z 10001007 f i bncs_shim.obj
+ 0001:0000000a       ?cccConfigChangeMessage@IccClientCallback@@MAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 1000100a f i bncs_shim.obj
+ 0001:0000000d       ??0IccClientCallback@@QAE@XZ 1000100d f i bncs_shim.obj
+ 0001:00000016       ??0IccClientCallback@@QAE@ABV0@@Z 10001016 f i bncs_shim.obj
+ 0001:00000021       ??4bncs_shim_loader@@QAEAAV0@ABV0@@Z 10001021 f i bncs_shim.obj
+ 0001:00000021       ??4IccClientCallback@@QAEAAV0@ABV0@@Z 10001021 f i bncs_shim.obj
+ 0001:00000026       ??0ccClient@@QAE@ABV0@@Z   10001026 f i bncs_shim.obj
+ 0001:000000bd       ??4ccClient@@QAEAAV0@ABV0@@Z 100010bd f i bncs_shim.obj
+ 0001:00000142       ??_FccClient@@QAEXXZ       10001142 f i bncs_shim.obj
+ 0001:000001a9       ??_EccClient@@UAEPAXI@Z    100011a9 f i bncs_shim.obj
+ 0001:000001f4       ??0ccCheck@@QAE@ABV0@@Z    100011f4 f i bncs_shim.obj
+ 0001:00000231       ??_GccCheck@@UAEPAXI@Z     10001231 f i bncs_shim.obj
+ 0001:00000231       ??_EccCheck@@UAEPAXI@Z     10001231 f i bncs_shim.obj
+ 0001:0000024d       ??0bncs_dll_client_shim@@QAE@ABV0@@Z 1000124d f i bncs_shim.obj
+ 0001:00000354       ??4bncs_dll_client_shim@@QAEAAV0@ABV0@@Z 10001354 f i bncs_shim.obj
+ 0001:000003d5       ??_Ebncs_dll_client_shim@@UAEPAXI@Z 100013d5 f i bncs_shim.obj
+ 0001:00000423       ??1?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@std@@QAE@XZ 10001423 f i bncs_shim.obj
+ 0001:00000428       ??0bncs_dll_client_shim@@QAE@XZ 10001428 f   bncs_shim.obj
+ 0001:00000569       ??1?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@std@@QAE@XZ 10001569 f i bncs_shim.obj
+ 0001:0000056e       ??1bncs_dll_client_shim@@UAE@XZ 1000156e f   bncs_shim.obj
+ 0001:00000652       ?infoPoll@bncs_dll_client_shim@@QAEXHHH_N@Z 10001652 f   bncs_shim.obj
+ 0001:0000068d       ?gpiPoll@bncs_dll_client_shim@@QAEXHHH_N@Z 1000168d f   bncs_shim.obj
+ 0001:000006c8       ?routerPoll@bncs_dll_client_shim@@QAEXHHH_N@Z 100016c8 f   bncs_shim.obj
+ 0001:00000703       ?cccInfoRevertive@bncs_dll_client_shim@@EAEXHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10001703 f   bncs_shim.obj
+ 0001:0000077b       ?cccRtrRevertive@bncs_dll_client_shim@@EAEXHHH@Z 1000177b f   bncs_shim.obj
+ 0001:000007f3       ?cccGpiRevertive@bncs_dll_client_shim@@EAEXHH_N@Z 100017f3 f   bncs_shim.obj
+ 0001:0000086b       ?cccDatabaseChange@bncs_dll_client_shim@@EAEXHHH@Z 1000186b f   bncs_shim.obj
+ 0001:00000963       ??1?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@QAE@XZ 10001963 f i bncs_shim.obj
+ 0001:00000968       ?regCleanup@bncs_dll_client_shim@@AAEXXZ 10001968 f   bncs_shim.obj
+ 0001:000009c6       ?rereg@bncs_dll_client_shim@@AAEXH@Z 100019c6 f   bncs_shim.obj
+ 0001:00000a6e       ?reg@bncs_dll_client_shim@@QAE_NPAVIccClientCallback@@HHHH@Z 10001a6e f   bncs_shim.obj
+ 0001:00000c0d       ?unreg@bncs_dll_client_shim@@QAEXPAVIccClientCallback@@HH@Z 10001c0d f   bncs_shim.obj
+ 0001:00000ccd       ?addPoll@bncs_dll_client_shim@@AAE_NDHHH_N@Z 10001ccd f   bncs_shim.obj
+ 0001:00000dcc       ?removePoll@bncs_dll_client_shim@@AAEXHH@Z 10001dcc f   bncs_shim.obj
+ 0001:00000e3d       ?timerCallback@bncs_dll_client_shim@@EAEXH@Z 10001e3d f   bncs_shim.obj
+ 0001:000010f2       ?cccConnected@bncs_dll_client_shim@@EAEXXZ 100020f2 f   bncs_shim.obj
+ 0001:000010f3       ?cccDisconnected@bncs_dll_client_shim@@EAEXXZ 100020f3 f   bncs_shim.obj
+ 0001:000011ab       ?cccDeviceMode@bncs_dll_client_shim@@EAEXHHW4redundancyState@cc@@@Z 100021ab f   bncs_shim.obj
+ 0001:000011ae       ?cccDeviceMessage@bncs_dll_client_shim@@EAEXHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z 100021ae f   bncs_shim.obj
+ 0001:000011b1       ?totalRegistrations@bncs_dll_client_shim@@QAEHXZ 100021b1 f   bncs_shim.obj
+ 0001:000011b8       ?deletedRegistrations@bncs_dll_client_shim@@QAEHXZ 100021b8 f   bncs_shim.obj
+ 0001:000011f4       ?dumpRegistrations@bncs_dll_client_shim@@QAEXXZ 100021f4 f   bncs_shim.obj
+ 0001:0000128c       ?counters@bncs_dll_client_shim@@QAEXAAI00@Z 1000228c f   bncs_shim.obj
+ 0001:000012ac       ?resetCounters@bncs_dll_client_shim@@QAEXXZ 100022ac f   bncs_shim.obj
+ 0001:000012bd       ?pollsOutstandingCount@bncs_dll_client_shim@@QAEHXZ 100022bd f   bncs_shim.obj
+ 0001:000012c4       ?pollsOutstandingDeviceList@bncs_dll_client_shim@@QAEHPAHH@Z 100022c4 f   bncs_shim.obj
+ 0001:0000137c       ??1?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@QAE@XZ 1000237c f i bncs_shim.obj
+ 0001:00001381       ?cleanupIfRequired@bncs_dll_client_shim@@QAEXXZ 10002381 f   bncs_shim.obj
+ 0001:00001390       ?cccConfigChangeMessage@bncs_dll_client_shim@@EAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10002390 f   bncs_shim.obj
+ 0001:0000144e       ?isRegistered@bncs_dll_client_shim@@QAE_NHH@Z 1000244e f   bncs_shim.obj
+ 0001:000014b1       ??0?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@ABV01@@Z 100024b1 f i bncs_shim.obj
+ 0001:00001535       ??4?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEAAV01@ABV01@@Z 10002535 f i bncs_shim.obj
+ 0001:000016b1       ??1?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAE@XZ 100026b1 f i bncs_shim.obj
+ 0001:00001712       ??1?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAE@XZ 10002712 f i bncs_shim.obj
+ 0001:00001773       ??1?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAE@XZ 10002773 f i bncs_shim.obj
+ 0001:000017d4       ??1?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@QAE@XZ 100027d4 f i bncs_shim.obj
+ 0001:00001835       ?erase@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AViterator@12@V312@0@Z 10002835 f i bncs_shim.obj
+ 0001:0000194e       ?pop_front@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXXZ 1000294e f i bncs_shim.obj
+ 0001:00001978       ??4?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAEAAV01@ABV01@@Z 10002978 f i bncs_shim.obj
+ 0001:000019a7       ?insert@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@_N@2@ABU?$pair@$$CBHPAVregStruct@@@2@@Z 100029a7 f i bncs_shim.obj
+ 0001:00001a45       ?erase@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAE?AViterator@12@V312@@Z 10002a45 f i bncs_shim.obj
+ 0001:00001cdc       ?erase@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAE?AViterator@12@V312@0@Z 10002cdc f i bncs_shim.obj
+ 0001:00001d73       ?clear@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAEXXZ 10002d73 f i bncs_shim.obj
+ 0001:00001d87       ?find@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAE?AViterator@12@ABH@Z 10002d87 f i bncs_shim.obj
+ 0001:00001dc1       ?_Copy@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAEXABV12@@Z 10002dc1 f i bncs_shim.obj
+ 0001:00001e2b       ?_Init@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAEXXZ 10002e2b f i bncs_shim.obj
+ 0001:00001eb6       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAEXXZ 10002eb6 f i bncs_shim.obj
+ 0001:00001eec       ??4?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAEAAV01@ABV01@@Z 10002eec f i bncs_shim.obj
+ 0001:00001f1b       ?insert@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@_N@2@ABU?$pair@$$CBJPAVpollStruct@@@2@@Z 10002f1b f i bncs_shim.obj
+ 0001:00001fb9       ?erase@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAE?AViterator@12@V312@@Z 10002fb9 f i bncs_shim.obj
+ 0001:00002250       ?erase@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAE?AViterator@12@V312@0@Z 10003250 f i bncs_shim.obj
+ 0001:000022e7       ?find@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAE?AViterator@12@ABJ@Z 100032e7 f i bncs_shim.obj
+ 0001:00002321       ?_Copy@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAEXABV12@@Z 10003321 f i bncs_shim.obj
+ 0001:0000238b       ?_Init@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAEXXZ 1000338b f i bncs_shim.obj
+ 0001:00002416       ?_Inc@const_iterator@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAEXXZ 10003416 f i bncs_shim.obj
+ 0001:0000244c       ??0?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAE@ABU?$less@PAVIccClientCallback@@@1@_NABV?$allocator@PAVIccClientCallback@@@1@@Z 1000344c f i bncs_shim.obj
+ 0001:00002472       ?insert@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAE?AU?$pair@Viterator@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@_N@2@ABQAVIccClientCallback@@@Z 10003472 f i bncs_shim.obj
+ 0001:00002510       ?erase@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAE?AViterator@12@V312@0@Z 10003510 f i bncs_shim.obj
+ 0001:000025a7       ?find@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAE?AViterator@12@ABQAVIccClientCallback@@@Z 100035a7 f i bncs_shim.obj
+ 0001:000025e1       ?_Inc@const_iterator@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAEXXZ 100035e1 f i bncs_shim.obj
+ 0001:00002617       ?insert@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@QAE?AU?$pair@Viterator@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@_N@2@ABH@Z 10003617 f i bncs_shim.obj
+ 0001:000026b5       ?erase@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@QAE?AViterator@12@V312@0@Z 100036b5 f i bncs_shim.obj
+ 0001:0000274c       ?_Inc@const_iterator@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@QAEXXZ 1000374c f i bncs_shim.obj
+ 0001:00002782       ?pop_back@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXXZ 10003782 f i bncs_shim.obj
+ 0001:000027b5       ?_Freefront@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXXZ 100037b5 f i bncs_shim.obj
+ 0001:0000282b       ??Giterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBEHABV012@@Z 1000382b f i bncs_shim.obj
+ 0001:0000286e       ?_Copy@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAEPAU_Node@12@PAU312@0@Z 1000386e f i bncs_shim.obj
+ 0001:000028ec       ?_Erase@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAEXPAU_Node@12@@Z 100038ec f i bncs_shim.obj
+ 0001:00002922       ?_Insert@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHPAVregStruct@@@2@@Z 10003922 f i bncs_shim.obj
+ 0001:00002a73       ?_Lrotate@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAEXPAU_Node@12@@Z 10003a73 f i bncs_shim.obj
+ 0001:00002ab7       ?_Rrotate@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IAEXPAU_Node@12@@Z 10003ab7 f i bncs_shim.obj
+ 0001:00002afd       ?_Copy@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAEPAU_Node@12@PAU312@0@Z 10003afd f i bncs_shim.obj
+ 0001:00002b7b       ?_Erase@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAEXPAU_Node@12@@Z 10003b7b f i bncs_shim.obj
+ 0001:00002bb1       ?_Insert@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBJPAVpollStruct@@@2@@Z 10003bb1 f i bncs_shim.obj
+ 0001:00002d02       ?_Lrotate@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAEXPAU_Node@12@@Z 10003d02 f i bncs_shim.obj
+ 0001:00002d46       ?_Rrotate@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IAEXPAU_Node@12@@Z 10003d46 f i bncs_shim.obj
+ 0001:00002d8c       ?erase@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAE?AViterator@12@V312@@Z 10003d8c f i bncs_shim.obj
+ 0001:00003023       ?_Erase@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@IAEXPAU_Node@12@@Z 10004023 f i bncs_shim.obj
+ 0001:00003059       ?_Init@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@IAEXXZ 10004059 f i bncs_shim.obj
+ 0001:000030e4       ?_Insert@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@IAE?AViterator@12@PAU_Node@12@0ABQAVIccClientCallback@@@Z 100040e4 f i bncs_shim.obj
+ 0001:00003235       ?erase@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@QAE?AViterator@12@V312@@Z 10004235 f i bncs_shim.obj
+ 0001:000034cc       ?_Erase@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@IAEXPAU_Node@12@@Z 100044cc f i bncs_shim.obj
+ 0001:00003502       ?_Init@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@IAEXXZ 10004502 f i bncs_shim.obj
+ 0001:0000358d       ?_Insert@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@IAE?AViterator@12@PAU_Node@12@0ABH@Z 1000458d f i bncs_shim.obj
+ 0001:000036de       ?_Freeback@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXXZ 100046de f i bncs_shim.obj
+ 0001:0000376a       ?_Add@const_iterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXH@Z 1000476a f i bncs_shim.obj
+ 0001:000037c6       ?_Lbound@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@IBEPAU_Node@12@ABH@Z 100047c6 f i bncs_shim.obj
+ 0001:000037f3       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@QAEXXZ 100047f3 f i bncs_shim.obj
+ 0001:0000382f       ?_Lbound@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@IBEPAU_Node@12@ABJ@Z 1000482f f i bncs_shim.obj
+ 0001:0000385c       ?_Dec@const_iterator@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@QAEXXZ 1000485c f i bncs_shim.obj
+ 0001:00003898       ?_Lbound@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@IBEPAU_Node@12@ABQAVIccClientCallback@@@Z 10004898 f i bncs_shim.obj
+ 0001:000038c5       ?_Lrotate@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@IAEXPAU_Node@12@@Z 100048c5 f i bncs_shim.obj
+ 0001:00003909       ?_Rrotate@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@IAEXPAU_Node@12@@Z 10004909 f i bncs_shim.obj
+ 0001:0000394f       ?_Dec@const_iterator@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@QAEXXZ 1000494f f i bncs_shim.obj
+ 0001:0000398b       ?_Lrotate@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@IAEXPAU_Node@12@@Z 1000498b f i bncs_shim.obj
+ 0001:000039cf       ?_Rrotate@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@IAEXPAU_Node@12@@Z 100049cf f i bncs_shim.obj
+ 0001:00003a15       ?_Dec@const_iterator@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@QAEXXZ 10004a15 f i bncs_shim.obj
+ 0001:00003a51       ?copy@std@@YA?AViterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@1@Vconst_iterator@31@0V231@@Z 10004a51 f i bncs_shim.obj
+ 0001:00003a51       ?copy@std@@YA?AViterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@1@V231@00@Z 10004a51 f i bncs_shim.obj
+ 0001:00003a95       ?copy@std@@YA?AV?$insert_iterator@V?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@1@Vconst_iterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@1@0V21@@Z 10004a95 f i bncs_shim.obj
+ 0001:00003aeb       ?copy_backward@std@@YA?AViterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@1@V231@00@Z 10004aeb f i bncs_shim.obj
+ 0001:00003b33       ?_Construct@std@@YAXPAU?$pair@$$CBJPAVpollStruct@@@1@ABU21@@Z 10004b33 f i bncs_shim.obj
+ 0001:00003b33       ?_Construct@std@@YAXPAU?$pair@$$CBHPAVregStruct@@@1@ABU21@@Z 10004b33 f i bncs_shim.obj
+ 0001:00003b4a       ?_Construct@std@@YAXPAHABH@Z 10004b4a f i bncs_shim.obj
+ 0001:00003b4a       ?_Construct@std@@YAXPAPAVIccClientCallback@@ABQAV2@@Z 10004b4a f i bncs_shim.obj
+ 0001:00003b5b       ??Eiterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEAAV012@XZ 10004b5b f i bncs_shim.obj
+ 0001:00003b5b       ??Econst_iterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEAAV012@XZ 10004b5b f i bncs_shim.obj
+ 0001:00003b83       ??Fiterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEAAV012@XZ 10004b83 f i bncs_shim.obj
+ 0001:00003ba8       ?push_back@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 10004ba8 f i bncs_shim.obj
+ 0001:00003bfd       ?insert@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AViterator@12@V312@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 10004bfd f i bncs_shim.obj
+ 0001:00003e13       ??0const_iterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 10004e13 f i bncs_shim.obj
+ 0001:00003e23       ?push_front@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 10004e23 f i bncs_shim.obj
+ 0001:00003e55       ?_Buyback@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXXZ 10004e55 f i bncs_shim.obj
+ 0001:00003f56       ??Giterator@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV012@H@Z 10004f56 f i bncs_shim.obj
+ 0001:00003f87       ?_Buyfront@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXXZ 10004f87 f i bncs_shim.obj
+ 0001:000040c9       ?_Getmap@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXXZ 100050c9 f i bncs_shim.obj
+ 0001:000040e2       ?_Growmap@?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEPAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@I@Z 100050e2 f i bncs_shim.obj
+ 0001:00004146       ?_Construct@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV21@@Z 10005146 f i bncs_shim.obj
+ 0001:00004192       ??0bncs_shim_loader@@QAE@ABV0@@Z 10005192 f i bncs_shim_loader.obj
+ 0001:0000419d       ??_Ebncs_shim_loader@@UAEPAXI@Z 1000519d f i bncs_shim_loader.obj
+ 0001:000041e8       _DllMain@12                100051e8 f   bncs_shim_loader.obj
+ 0001:00004256       ??0bncs_shim_loader@@QAE@XZ 10005256 f   bncs_shim_loader.obj
+ 0001:000042ae       ??1bncs_shim_loader@@UAE@XZ 100052ae f   bncs_shim_loader.obj
+ 0001:000042bb       ?getShim@bncs_shim_loader@@QAEPAVbncs_dll_client_shim@@XZ 100052bb f   bncs_shim_loader.obj
+ 0001:000042c1       ?csiShim@bncs_shim_loader@@SAPAVbncs_dll_client_shim@@XZ 100052c1 f   bncs_shim_loader.obj
+ 0001:000042c7       ??0ccCheck@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100052c7 f   ccCheck.obj
+ 0001:00004301       ??1ccCheck@@UAE@XZ         10005301 f   ccCheck.obj
+ 0001:00004313       ?checkDevice@ccCheck@@QAE_NI@Z 10005313 f   ccCheck.obj
+ 0001:000043d2       ?checkIndex@ccCheck@@QAE_NI@Z 100053d2 f   ccCheck.obj
+ 0001:00004491       ?checkSource@ccCheck@@QAE_NH@Z 10005491 f   ccCheck.obj
+ 0001:00004552       ?checkIndexRange@ccCheck@@QAE_NII@Z 10005552 f   ccCheck.obj
+ 0001:000045eb       ?checkDatabase@ccCheck@@QAE_NII@Z 100055eb f   ccCheck.obj
+ 0001:00004678       ?checkString@ccCheck@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10005678 f   ccCheck.obj
+ 0001:000046d6       ?log@ccCheck@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100056d6 f   ccCheck.obj
+ 0001:00004766       ?checkWorkstation@ccCheck@@QAE_NI@Z 10005766 f   ccCheck.obj
+ 0001:0000484b       ?version@ccClient@@QAEJXZ  1000584b f   ccClient.obj
+ 0001:00004851       ??0ccClient@@QAE@PAVIccClientCallback@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10005851 f   ccClient.obj
+ 0001:0000493d       ??1?$queue@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@@std@@QAE@XZ 1000593d f i ccClient.obj
+ 0001:00004951       ??1ccClient@@UAE@XZ        10005951 f   ccClient.obj
+ 0001:000049bf       ?setCallback@ccClient@@QAEXPAVIccClientCallback@@@Z 100059bf f   ccClient.obj
+ 0001:000049c9       ?connect@ccClient@@QAE_NW4ipcType@cc@@J@Z 100059c9 f   ccClient.obj
+ 0001:00004b60       ?disconnect@ccClient@@QAE_NXZ 10005b60 f   ccClient.obj
+ 0001:00004bb2       ?isConnected@ccClient@@QAE_NXZ 10005bb2 f   ccClient.obj
+ 0001:00004bca       ?databaseName@ccClient@@QAE_NHHHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10005bca f   ccClient.obj
+ 0001:00004c98       ?databaseIndex@ccClient@@QAEHHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10005c98 f   ccClient.obj
+ 0001:00004d98       ?cacheValue@ccClient@@QAE_NHHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10005d98 f   ccClient.obj
+ 0001:00004e67       ?WndProc@ccClient@@CGJPAUHWND__@@IIJ@Z 10005e67 f   ccClient.obj
+ 0001:0000570a       ?BNCSSendMessage@ccClient@@AAEJIIJHHH@Z 1000670a f   ccClient.obj
+ 0001:00005765       ?routerCrosspoint@ccClient@@QAEXHHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 10006765 f   ccClient.obj
+ 0001:00005828       ?devicePoll@ccClient@@AAEXDHHH_N@Z 10006828 f   ccClient.obj
+ 0001:0000593d       ?infoWrite@ccClient@@QAEXHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 1000693d f   ccClient.obj
+ 0001:000059f1       ?revertiveRegister@ccClient@@QAEXHHH_NH@Z 100069f1 f   ccClient.obj
+ 0001:00005a5b       ?revertiveDeregister@ccClient@@QAEXHHH@Z 10006a5b f   ccClient.obj
+ 0001:00005ad6       ?deviceQuery@ccClient@@AAEXDHHH_N@Z 10006ad6 f   ccClient.obj
+ 0001:00005beb       ?deviceLock@ccClient@@AAEXDHHH_N0@Z 10006beb f   ccClient.obj
+ 0001:00005d0f       ?routerFile@ccClient@@QAEXH@Z 10006d0f f   ccClient.obj
+ 0001:00005d23       ?gpiFile@ccClient@@QAEXH@Z 10006d23 f   ccClient.obj
+ 0001:00005d37       ?deviceFile@ccClient@@AAEXDH@Z 10006d37 f   ccClient.obj
+ 0001:00005e12       ?routerPoll@ccClient@@QAEXHHH_N@Z 10006e12 f   ccClient.obj
+ 0001:00005e2c       ?routerQuery@ccClient@@QAEXHHH_N@Z 10006e2c f   ccClient.obj
+ 0001:00005e46       ?routerLock@ccClient@@QAEXHHH_N0@Z 10006e46 f   ccClient.obj
+ 0001:00005e63       ?infoPoll@ccClient@@QAEXHHH_N@Z 10006e63 f   ccClient.obj
+ 0001:00005e7d       ?infoQuery@ccClient@@QAEXHHH_N@Z 10006e7d f   ccClient.obj
+ 0001:00005e97       ?infoLock@ccClient@@QAEXHHH_N0@Z 10006e97 f   ccClient.obj
+ 0001:00005eb4       ?gpiPoll@ccClient@@QAEXHHH_N@Z 10006eb4 f   ccClient.obj
+ 0001:00005ece       ?gpiQuery@ccClient@@QAEXHHH_N@Z 10006ece f   ccClient.obj
+ 0001:00005ee8       ?gpiLock@ccClient@@QAEXHHH_N0@Z 10006ee8 f   ccClient.obj
+ 0001:00005f05       ?gpiSwitch@ccClient@@QAEXHH_N0@Z 10006f05 f   ccClient.obj
+ 0001:00005f96       ?cacheEnable@ccClient@@QAEX_N@Z 10006f96 f   ccClient.obj
+ 0001:00005faf       ?cacheTest@ccClient@@QAE_NHHH@Z 10006faf f   ccClient.obj
+ 0001:0000600a       ?cacheFlush@ccClient@@QAEXH@Z 1000700a f   ccClient.obj
+ 0001:00006032       ?isCacheEnabled@ccClient@@QAE_NXZ 10007032 f   ccClient.obj
+ 0001:0000604a       ?cacheIndex@ccClient@@QAEHHHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 1000704a f   ccClient.obj
+ 0001:000060eb       ?deviceMessage@ccClient@@QAEXHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z 100070eb f   ccClient.obj
+ 0001:00006184       ?deviceProfile@ccClient@@QAEXHAAH00@Z 10007184 f   ccClient.obj
+ 0001:0000625f       ?databaseModify@ccClient@@QAE_NHHHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 1000725f f   ccClient.obj
+ 0001:00006362       ?writeEnable@ccClient@@QAEX_N@Z 10007362 f   ccClient.obj
+ 0001:0000636c       ?isWriteEnabled@ccClient@@QAE_NXZ 1000736c f   ccClient.obj
+ 0001:00006370       ?setCloseHostOnExit@ccClient@@QAEX_N@Z 10007370 f   ccClient.obj
+ 0001:0000637a       ?resetCounters@ccClient@@QAEXXZ 1000737a f   ccClient.obj
+ 0001:0000638b       ?counters@ccClient@@QAE_NAAI0@Z 1000738b f   ccClient.obj
+ 0001:000063be       ?revertiveDeregisterAll@ccClient@@QAEXXZ 100073be f   ccClient.obj
+ 0001:000063d4       ?getClientRegistrationExtent@ccClient@@QAE_NHAAH0@Z 100073d4 f   ccClient.obj
+ 0001:0000640d       ?sendBufferedCommands@ccClient@@QAEXXZ 1000740d f   ccClient.obj
+ 0001:00006420       ?registerForNetMessage@ccClient@@QAEXXZ 10007420 f   ccClient.obj
+ 0001:00006436       ?deregisterForNetMessage@ccClient@@QAEXXZ 10007436 f   ccClient.obj
+ 0001:0000644c       ?registerForConfigChangeMessage@ccClient@@QAEXXZ 1000744c f   ccClient.obj
+ 0001:00006462       ?deregisterForConfigChangeMessage@ccClient@@QAEXXZ 10007462 f   ccClient.obj
+ 0001:00006478       ?flushDatabaseCache@ccClient@@QAEXH@Z 10007478 f   ccClient.obj
+ 0001:0000648f       ?sendConfigChangeMessage@ccClient@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 1000748f f   ccClient.obj
+ 0001:000064b6       ??0?$deque@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z 100074b6 f i ccClient.obj
+ 0001:000064e6       ?getInt@ccConfig@@SAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H_N@Z 100074e6 f   ccConfig.obj
+ 0001:000065f2       ?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 100075f2 f   ccConfig.obj
+ 0001:00006757       ?isV4Based@ccConfig@@SA_NXZ 10007757 f   ccConfig.obj
+ 0001:00006793       ?isV3Based@ccConfig@@SA_NXZ 10007793 f   ccConfig.obj
+ 0001:000067e3       ?workstation@ccConfig@@SAHXZ 100077e3 f   ccConfig.obj
+ 0001:00006ad8       ??1?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@std@@QAE@XZ 10007ad8 f i timer.obj
+ 0001:00006add       ??0timer@@QAE@PAVItimerCallback@@@Z 10007add f   timer.obj
+ 0001:00006aef       ??_Gtimer@@UAEPAXI@Z       10007aef f i timer.obj
+ 0001:00006aef       ??_Etimer@@UAEPAXI@Z       10007aef f i timer.obj
+ 0001:00006b0b       ??1timer@@UAE@XZ           10007b0b f   timer.obj
+ 0001:00006b6a       ?timerStart@timer@@QAEHHH@Z 10007b6a f   timer.obj
+ 0001:00006bb9       ?timerStop@timer@@QAEHH@Z  10007bb9 f   timer.obj
+ 0001:00006c1a       ?timerProc@@YGXPAUHWND__@@IKK@Z 10007c1a f   timer.obj
+ 0001:00006c50       ??0?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@std@@QAE@ABU?$less@H@1@ABV?$allocator@Vclient@@@1@@Z 10007c50 f i timer.obj
+ 0001:00006c73       ??1?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAE@XZ 10007c73 f i timer.obj
+ 0001:00006cd4       ?insert@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@_N@2@ABU?$pair@$$CBHVclient@@@2@@Z 10007cd4 f i timer.obj
+ 0001:00006d72       ?erase@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAE?AViterator@12@V312@@Z 10007d72 f i timer.obj
+ 0001:00007009       ?erase@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAE?AViterator@12@V312@0@Z 10008009 f i timer.obj
+ 0001:000070a0       ?find@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAE?AViterator@12@ABH@Z 100080a0 f i timer.obj
+ 0001:000070da       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAEXXZ 100080da f i timer.obj
+ 0001:00007110       ?_Erase@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@IAEXPAU_Node@12@@Z 10008110 f i timer.obj
+ 0001:00007146       ?_Init@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@IAEXXZ 10008146 f i timer.obj
+ 0001:000071d1       ?_Insert@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHVclient@@@2@@Z 100081d1 f i timer.obj
+ 0001:00007322       ?_Lrotate@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@IAEXPAU_Node@12@@Z 10008322 f i timer.obj
+ 0001:00007366       ?_Rrotate@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@IAEXPAU_Node@12@@Z 10008366 f i timer.obj
+ 0001:000073ac       ?_Lbound@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@IBEPAU_Node@12@ABH@Z 100083ac f i timer.obj
+ 0001:000073d9       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@QAEXXZ 100083d9 f i timer.obj
+ 0001:00007415       ?_Construct@std@@YAXPAU?$pair@$$CBHVclient@@@1@ABU21@@Z 10008415 f i timer.obj
+ 0001:00007430       ??_Gbncs_disklog@@UAEPAXI@Z 10008430 f i bncs_disklog:bncs_disklog.obj
+ 0001:00007430       ??_Ebncs_disklog@@UAEPAXI@Z 10008430 f i bncs_disklog:bncs_disklog.obj
+ 0001:00007450       ??0bncs_disklog@@QAE@PBDW4filetype@0@@Z 10008450 f   bncs_disklog:bncs_disklog.obj
+ 0001:00007480       ?initVars@bncs_disklog@@AAEXXZ 10008480 f   bncs_disklog:bncs_disklog.obj
+ 0001:00007490       ?openLogFile@bncs_disklog@@AAEXPBDW4filetype@1@@Z 10008490 f   bncs_disklog:bncs_disklog.obj
+ 0001:000076a0       ?cleanup@bncs_disklog@@AAEXXZ 100086a0 f   bncs_disklog:bncs_disklog.obj
+ 0001:000076c0       ??1bncs_disklog@@UAE@XZ    100086c0 f   bncs_disklog:bncs_disklog.obj
+ 0001:000076d0       ?write@bncs_disklog@@QAEXPBD00000@Z 100086d0 f   bncs_disklog:bncs_disklog.obj
+ 0001:00007900       ?createDirectory@bncs_disklog@@AAEXPBD@Z 10008900 f   bncs_disklog:bncs_disklog.obj
+ 0001:00007a20       _BNCS32SendMessage         10008a20 f   bncsWM32:BncsWM32.obj
+ 0001:00007b10       _BNCS32ReceiveMessage      10008b10 f   bncsWM32:BncsWM32.obj
+ 0001:00007c20       ??0decodeBNCSString@@QAE@PBDD@Z 10008c20 f   decodecaptionstring:decodeBNCSString.obj
+ 0001:00007d70       ??_EdecodeBNCSString@@UAEPAXI@Z 10008d70 f i decodecaptionstring:decodeBNCSString.obj
+ 0001:00007d70       ??_GdecodeBNCSString@@UAEPAXI@Z 10008d70 f i decodecaptionstring:decodeBNCSString.obj
+ 0001:00007d90       ??1decodeBNCSString@@UAE@XZ 10008d90 f   decodecaptionstring:decodeBNCSString.obj
+ 0001:00007db0       ??3@YAXPAX@Z               10008db0 f   msvcprt:delop_s.obj
+ 0001:00007dbc       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 10008dbc f   msvcprt:MSVCP60.dll
+ 0001:00007dc2       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z 10008dc2 f   msvcprt:MSVCP60.dll
+ 0001:00007dc8       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 10008dc8 f   msvcprt:MSVCP60.dll
+ 0001:00007dce       ___CxxFrameHandler         10008dce f   MSVCRT:MSVCRT.dll
+ 0001:00007de0       __EH_prolog                10008de0 f   MSVCRT:ehprolog.obj
+ 0001:00007e00       _strlen                    10008e00 f   MSVCRT:MSVCRT.dll
+ 0001:00007e06       ??_M@YGXPAXIHP6EX0@Z@Z     10008e06 f   MSVCRT:ehvecdtr.obj
+ 0001:00007e86       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10008e86 f   MSVCRT:ehvecdtr.obj
+ 0001:00007efa       __purecall                 10008efa f   MSVCRT:MSVCRT.dll
+ 0001:00007f00       ??2@YAPAXI@Z               10008f00 f   MSVCRT:MSVCRT.dll
+ 0001:00007f06       _sprintf                   10008f06 f   MSVCRT:MSVCRT.dll
+ 0001:00007f0c       _memset                    10008f0c f   MSVCRT:MSVCRT.dll
+ 0001:00007f12       _strncpy                   10008f12 f   MSVCRT:MSVCRT.dll
+ 0001:00007f18       _strcpy                    10008f18 f   MSVCRT:MSVCRT.dll
+ 0001:00007f1e       _strcmp                    10008f1e f   MSVCRT:MSVCRT.dll
+ 0001:00007f24       _getenv                    10008f24 f   MSVCRT:MSVCRT.dll
+ 0001:00007f2a       __mkdir                    10008f2a f   MSVCRT:MSVCRT.dll
+ 0001:00007f30       __onexit                   10008f30 f   MSVCRT:atonexit.obj
+ 0001:00007f5c       _atexit                    10008f5c f   MSVCRT:atonexit.obj
+ 0001:00007f6e       __CRT_INIT@12              10008f6e f   MSVCRT:crtdll.obj
+ 0001:00008019       __DllMainCRTStartup@12     10009019 f   MSVCRT:crtdll.obj
+ 0001:000080b6       _localtime                 100090b6 f   MSVCRT:MSVCRT.dll
+ 0001:000080bc       _time                      100090bc f   MSVCRT:MSVCRT.dll
+ 0001:000080c2       _strtok                    100090c2 f   MSVCRT:MSVCRT.dll
+ 0001:000080c8       _free                      100090c8 f   MSVCRT:MSVCRT.dll
+ 0001:000080ce       __except_handler3          100090ce f   MSVCRT:MSVCRT.dll
+ 0001:000080d4       ?terminate@@YAXXZ          100090d4 f   MSVCRT:MSVCRT.dll
+ 0001:000080da       ___dllonexit               100090da f   MSVCRT:MSVCRT.dll
+ 0001:000080e0       __initterm                 100090e0 f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__BNCS32TxMessage     1000a000     bncsif32:BNCSIF32.dll
+ 0002:00000004       __imp__BNCS32RxMessage     1000a004     bncsif32:BNCSIF32.dll
+ 0002:00000008       \177BNCSIF32_NULL_THUNK_DATA 1000a008     bncsif32:BNCSIF32.dll
+ 0002:0000000c       __imp__WriteFile@20        1000a00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__CloseHandle@4       1000a010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__CreateFileA@28      1000a014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetLastError@0      1000a018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__SetFilePointer@16   1000a01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetPrivateProfileIntA@16 1000a020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetPrivateProfileStringA@24 1000a024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__WritePrivateProfileStringA@16 1000a028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__LoadLibraryA@4      1000a02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetProcAddress@8    1000a030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__FreeLibrary@4       1000a034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__OutputDebugStringA@4 1000a038     kernel32:KERNEL32.dll
+ 0002:0000003c       \177KERNEL32_NULL_THUNK_DATA 1000a03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 1000a040     msvcprt:MSVCP60.dll
+ 0002:00000044       __imp_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 1000a044     msvcprt:MSVCP60.dll
+ 0002:00000048       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000a048     msvcprt:MSVCP60.dll
+ 0002:0000004c       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 1000a04c     msvcprt:MSVCP60.dll
+ 0002:00000050       __imp_?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 1000a050     msvcprt:MSVCP60.dll
+ 0002:00000054       __imp_??1_Lockit@std@@QAE@XZ 1000a054     msvcprt:MSVCP60.dll
+ 0002:00000058       __imp_??0_Lockit@std@@QAE@XZ 1000a058     msvcprt:MSVCP60.dll
+ 0002:0000005c       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 1000a05c     msvcprt:MSVCP60.dll
+ 0002:00000060       __imp_?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB 1000a060     msvcprt:MSVCP60.dll
+ 0002:00000064       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z 1000a064     msvcprt:MSVCP60.dll
+ 0002:00000068       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 1000a068     msvcprt:MSVCP60.dll
+ 0002:0000006c       \177MSVCP60_NULL_THUNK_DATA 1000a06c     msvcprt:MSVCP60.dll
+ 0002:00000070       __imp____CxxFrameHandler   1000a070     MSVCRT:MSVCRT.dll
+ 0002:00000074       __imp__strlen              1000a074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp___purecall           1000a078     MSVCRT:MSVCRT.dll
+ 0002:0000007c       __imp_??2@YAPAXI@Z         1000a07c     MSVCRT:MSVCRT.dll
+ 0002:00000080       __imp__sprintf             1000a080     MSVCRT:MSVCRT.dll
+ 0002:00000084       __imp__memset              1000a084     MSVCRT:MSVCRT.dll
+ 0002:00000088       __imp__strncpy             1000a088     MSVCRT:MSVCRT.dll
+ 0002:0000008c       __imp__strcpy              1000a08c     MSVCRT:MSVCRT.dll
+ 0002:00000090       __imp__atoi                1000a090     MSVCRT:MSVCRT.dll
+ 0002:00000094       __imp__getenv              1000a094     MSVCRT:MSVCRT.dll
+ 0002:00000098       __imp___mkdir              1000a098     MSVCRT:MSVCRT.dll
+ 0002:0000009c       __imp__localtime           1000a09c     MSVCRT:MSVCRT.dll
+ 0002:000000a0       __imp__time                1000a0a0     MSVCRT:MSVCRT.dll
+ 0002:000000a4       __imp__strtok              1000a0a4     MSVCRT:MSVCRT.dll
+ 0002:000000a8       __imp__sscanf              1000a0a8     MSVCRT:MSVCRT.dll
+ 0002:000000ac       __imp__free                1000a0ac     MSVCRT:MSVCRT.dll
+ 0002:000000b0       __imp___except_handler3    1000a0b0     MSVCRT:MSVCRT.dll
+ 0002:000000b4       __imp_?terminate@@YAXXZ    1000a0b4     MSVCRT:MSVCRT.dll
+ 0002:000000b8       __imp____dllonexit         1000a0b8     MSVCRT:MSVCRT.dll
+ 0002:000000bc       __imp___onexit             1000a0bc     MSVCRT:MSVCRT.dll
+ 0002:000000c0       __imp___initterm           1000a0c0     MSVCRT:MSVCRT.dll
+ 0002:000000c4       __imp__malloc              1000a0c4     MSVCRT:MSVCRT.dll
+ 0002:000000c8       __imp___adjust_fdiv        1000a0c8     MSVCRT:MSVCRT.dll
+ 0002:000000cc       __imp__strcmp              1000a0cc     MSVCRT:MSVCRT.dll
+ 0002:000000d0       \177MSVCRT_NULL_THUNK_DATA 1000a0d0     MSVCRT:MSVCRT.dll
+ 0002:000000d4       __imp__wsprintfA           1000a0d4     user32:USER32.dll
+ 0002:000000d8       __imp__SetTimer@16         1000a0d8     user32:USER32.dll
+ 0002:000000dc       __imp__KillTimer@8         1000a0dc     user32:USER32.dll
+ 0002:000000e0       __imp__GetWindowLongA@8    1000a0e0     user32:USER32.dll
+ 0002:000000e4       __imp__SetWindowLongA@12   1000a0e4     user32:USER32.dll
+ 0002:000000e8       __imp__DefWindowProcA@16   1000a0e8     user32:USER32.dll
+ 0002:000000ec       __imp__IsWindow@4          1000a0ec     user32:USER32.dll
+ 0002:000000f0       __imp__SendMessageA@16     1000a0f0     user32:USER32.dll
+ 0002:000000f4       __imp__PostMessageA@16     1000a0f4     user32:USER32.dll
+ 0002:000000f8       __imp__DestroyWindow@4     1000a0f8     user32:USER32.dll
+ 0002:000000fc       __imp__RegisterClassA@4    1000a0fc     user32:USER32.dll
+ 0002:00000100       __imp__CreateWindowExA@48  1000a100     user32:USER32.dll
+ 0002:00000104       __imp__MessageBoxA@16      1000a104     user32:USER32.dll
+ 0002:00000108       \177USER32_NULL_THUNK_DATA 1000a108     user32:USER32.dll
+ 0002:00000110       ??_7IccClientCallback@@6B@ 1000a110     bncs_shim.obj
+ 0002:0000013c       ??_7ccClient@@6B@          1000a13c     bncs_shim.obj
+ 0002:00000140       ??_7ccCheck@@6B@           1000a140     bncs_shim.obj
+ 0002:00000144       ??_7bncs_dll_client_shim@@6BItimerCallback@@@ 1000a144     bncs_shim.obj
+ 0002:00000148       ??_7bncs_dll_client_shim@@6BIccClientCallback@@@ 1000a148     bncs_shim.obj
+ 0002:00000174       ??_7bncs_dll_client_shim@@6BccClient@@@ 1000a174     bncs_shim.obj
+ 0002:00000178       ??_7ItimerCallback@@6B@    1000a178     bncs_shim.obj
+ 0002:0000017c       ??_7bncs_shim_loader@@6B@  1000a17c     bncs_shim_loader.obj
+ 0002:00000180       ??_7timer@@6B@             1000a180     timer.obj
+ 0002:00000184       ??_7bncs_disklog@@6B@      1000a184     bncs_disklog:bncs_disklog.obj
+ 0002:00000188       ??_7decodeBNCSString@@6B@  1000a188     decodecaptionstring:decodeBNCSString.obj
+ 0002:00000890       __IMPORT_DESCRIPTOR_BNCSIF32 1000a890     bncsif32:BNCSIF32.dll
+ 0002:000008a4       __IMPORT_DESCRIPTOR_USER32 1000a8a4     user32:USER32.dll
+ 0002:000008b8       __IMPORT_DESCRIPTOR_MSVCP60 1000a8b8     msvcprt:MSVCP60.dll
+ 0002:000008cc       __IMPORT_DESCRIPTOR_MSVCRT 1000a8cc     MSVCRT:MSVCRT.dll
+ 0002:000008e0       __IMPORT_DESCRIPTOR_KERNEL32 1000a8e0     kernel32:KERNEL32.dll
+ 0002:000008f4       __NULL_IMPORT_DESCRIPTOR   1000a8f4     bncsif32:BNCSIF32.dll
+ 0003:00000000       ___xc_a                    1000d000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    1000d008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    1000d00c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    1000d010     MSVCRT:cinitexe.obj
+ 0003:00000020       ??_C@_08ONKI@ccClient?$AA@ 1000d020     bncs_shim.obj
+ 0003:0000002c       ??_C@_0EO@KHOE@?$DMbncs_shim?$DO?3?5Not?5adding?5duplicat@ 1000d02c     bncs_shim.obj
+ 0003:0000007c       ??_C@_0CO@CFCM@?$DMbncs_shim?$DO?3bncs_dll_client_shim@ 1000d07c     bncs_shim.obj
+ 0003:000000ac       ??_C@_0CI@LNPE@Whooaa?5?9?5bncs_shim?5safety?5valve?5@ 1000d0ac     bncs_shim.obj
+ 0003:000000d4       ??_C@_0EJ@LJDE@?$DMbncs_shim?$DO?3?5Device?5?$CFd?5slot?5?$CFd?5f@ 1000d0d4     bncs_shim.obj
+ 0003:00000120       ??_C@_0FN@BJLN@bncs_dll_client_shim?3?5removing?5p@ 1000d120     bncs_shim.obj
+ 0003:00000180       ??_C@_0FB@PLEF@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 1000d180     bncs_shim.obj
+ 0003:000001d4       ??_C@_09BKKG@bncs_shim?$AA@ 1000d1d4     bncs_shim.obj
+ 0003:000001e0       ??_C@_0CL@IAMJ@Device?5Number?5of?5out?5range?5?$CI?$DO?5MA@ 1000d1e0     ccCheck.obj
+ 0003:0000020c       ??_C@_0CJ@IHGM@Device?5Number?5of?5out?5range?5?$CIless@ 1000d20c     ccCheck.obj
+ 0003:00000238       ??_C@_0CI@KKGG@Index?5Number?5of?5out?5range?5?$CI?$DO?5MAX@ 1000d238     ccCheck.obj
+ 0003:00000260       ??_C@_0CI@DGHK@Index?5Number?5of?5out?5range?5?$CIless?5@ 1000d260     ccCheck.obj
+ 0003:00000288       ??_C@_0CJ@DBLE@Source?5Number?5of?5out?5range?5?$CI?$DO?5MA@ 1000d288     ccCheck.obj
+ 0003:000002b4       ??_C@_0CK@MIBK@Source?5Number?5of?5out?5range?5?$CIless@ 1000d2b4     ccCheck.obj
+ 0003:000002e0       ??_C@_0BK@DBMP@Invalid?5range?5?$CIstart?$DOend?$CJ?$AA@ 1000d2e0     ccCheck.obj
+ 0003:000002fc       ??_C@_0BK@IHCK@Invalid?5database?5?$CI?$CFd?$DO?$DN?$CFd?$CJ?$AA@ 1000d2fc     ccCheck.obj
+ 0003:00000318       ??_C@_0BJ@GKOP@String?5too?5long?5?$CI?$DO255?$CJ?3?5?$AA@ 1000d318     ccCheck.obj
+ 0003:00000334       ??_C@_01BJG@?6?$AA@        1000d334     ccCheck.obj
+ 0003:00000338       ??_C@_02HFBK@?3?5?$AA@     1000d338     ccCheck.obj
+ 0003:0000033c       ??_C@_0CH@GMMA@Workstation?5number?5invalid?5?$CI?$DO?599@ 1000d33c     ccCheck.obj
+ 0003:00000364       ??_C@_0CF@BHFH@Workstation?5number?5invalid?5?$CI?$DM?51?$CJ@ 1000d364     ccCheck.obj
+ 0003:000003e0       ??_C@_0CE@MFHI@Cannot?5create?5ccClientMessageWin@ 1000d3e0     ccClient.obj
+ 0003:00000404       ??_C@_0BE@LCFJ@Very?5Serious?5Error?$CB?$AA@ 1000d404     ccClient.obj
+ 0003:00000418       ??_C@_0BJ@GIGK@ccClientMessageWindow_?$CFp?$AA@ 1000d418     ccClient.obj
+ 0003:00000434       ??_C@_0BN@INPK@?$CL?$CL?5number?5of?5databases?5is?5?$CFd?$AA@ 1000d434     ccClient.obj
+ 0003:00000454       ??_C@_0DE@MALN@ccClient?3?5CSI?5handle?5from?5Broadc@ 1000d454     ccClient.obj
+ 0003:00000488       ??_C@_0CK@LDNF@ccClient?3?5CSI?5handle?5from?5handle@ 1000d488     ccClient.obj
+ 0003:000004b4       ??_C@_07FGDN@csiHwnd?$AA@  1000d4b4     ccClient.obj
+ 0003:000004bc       ??_C@_0BA@KGDC@handleShare?4dll?$AA@ 1000d4bc     ccClient.obj
+ 0003:000004cc       ??_C@_05JEJP@?9?5?9?5?9?$AA@ 1000d4cc     ccClient.obj
+ 0003:000004d4       ??_C@_08DKPF@DG?5?$CFd?5?$CFd?$AA@ 1000d4d4     ccClient.obj
+ 0003:000004e0       ??_C@_02KKHG@DC?$AA@       1000d4e0     ccClient.obj
+ 0003:000004e4       ??_C@_02MECO@?$CFd?$AA@    1000d4e4     ccClient.obj
+ 0003:000004e8       ??_C@_02JLAH@NS?$AA@       1000d4e8     ccClient.obj
+ 0003:000004ec       ??_C@_02JCGO@GR?$AA@       1000d4ec     ccClient.obj
+ 0003:000004f0       ??_C@_02LEMH@RR?$AA@       1000d4f0     ccClient.obj
+ 0003:000004f4       ??_C@_02FAMF@IR?$AA@       1000d4f4     ccClient.obj
+ 0003:000004f8       ??_C@_02JIOA@NB?$AA@       1000d4f8     ccClient.obj
+ 0003:000004fc       ??_C@_02DDOB@NI?$AA@       1000d4fc     ccClient.obj
+ 0003:00000500       ??_C@_02GHFJ@NA?$AA@       1000d500     ccClient.obj
+ 0003:00000504       ??_C@_0DG@IEAF@shim?3?5database?5modify?5index?5?$DM1?5o@ 1000d504     ccClient.obj
+ 0003:0000053c       ??_C@_0M@PNLI@DC?5?$CFd?5?$CFd?5?$CFd?$AA@ 1000d53c     ccClient.obj
+ 0003:00000548       ??_C@_0BE@OPAJ@RC?5?$CFd?5?$CFd?5?$CFd?5?8?$CFs?8?5?$CFd?$AA@ 1000d548     ccClient.obj
+ 0003:0000055c       ??_C@_0BA@CAGC@?$CFcP?5?$CFd?5?$CFd?5?$CFd?5?$CFd?$AA@ 1000d55c     ccClient.obj
+ 0003:0000056c       ??_C@_0BG@PKPK@Bum?5device?5query?5type?$AA@ 1000d56c     ccClient.obj
+ 0003:00000584       ??_C@_0BB@GFFF@IW?5?$CFd?5?8?$CFs?8?5?$CFd?5?$CFd?$AA@ 1000d584     ccClient.obj
+ 0003:00000598       ??_C@_0BA@HBAP@?$CFcQ?5?$CFd?5?$CFd?5?$CFd?5?$CFd?$AA@ 1000d598     ccClient.obj
+ 0003:000005a8       ??_C@_0BD@NGBG@?$CFcL?5?$CFd?5?$CFd?5?$CFd?5?$CFd?5?$CFd?$AA@ 1000d5a8     ccClient.obj
+ 0003:000005bc       ??_C@_06JHCH@?$CFcF?5?$CFd?$AA@ 1000d5bc     ccClient.obj
+ 0003:000005c4       ??_C@_0P@MEJH@GS?5?$CFd?5?$CFd?5?$CFd?5?$CFd?$AA@ 1000d5c4     ccClient.obj
+ 0003:000005d4       ??_C@_0BB@OMBB@DI?5?$CFd?5?$CFd?5?$CFd?5?8?$CFs?8?$AA@ 1000d5d4     ccClient.obj
+ 0003:000005e8       ??_C@_0BH@JIOP@NS?5?$CFd?5?$CFd?5?8?$CFs?8?5?$CFd?5?$CFd?5?$CFd?$AA@ 1000d5e8     ccClient.obj
+ 0003:00000600       ??_C@_0DA@KCLL@database?5modify?5index?5?$DM0?5or?5?$DO?5ma@ 1000d600     ccClient.obj
+ 0003:00000630       ??_C@_0BH@MNJL@RM?5?$CFd?5?$CFd?5?$CFd?5?8?$CFs?8?5?$CFd?5?$CFd?$AA@ 1000d630     ccClient.obj
+ 0003:00000648       ??_C@_01PCFE@?2?$AA@       1000d648     ccConfig.obj
+ 0003:0000064c       ??_C@_06EOPM@WINDIR?$AA@   1000d64c     ccConfig.obj
+ 0003:00000654       ??_C@_06OELI@Config?$AA@   1000d654     ccConfig.obj
+ 0003:0000065c       ??_C@_0L@HICP@ConfigPath?$AA@ 1000d65c     ccConfig.obj
+ 0003:00000668       ??_C@_0BD@MFJP@c?3?2bncs_config?4ini?$AA@ 1000d668     ccConfig.obj
+ 0003:0000067c       ??_C@_07NCHF@?2config?$AA@ 1000d67c     ccConfig.obj
+ 0003:00000684       ??_C@_09EFEJ@CC_SYSTEM?$AA@ 1000d684     ccConfig.obj
+ 0003:00000690       ??_C@_07FCNI@CC_ROOT?$AA@  1000d690     ccConfig.obj
+ 0003:00000698       ??_C@_0N@LGFB@applcore?4ini?$AA@ 1000d698     ccConfig.obj
+ 0003:000006a8       ??_C@_06NILE@System?$AA@   1000d6a8     ccConfig.obj
+ 0003:000006b0       ??_C@_07HOMN@csi?4ini?$AA@ 1000d6b0     ccConfig.obj
+ 0003:000006b8       ??_C@_0BO@CMKB@config?2system?2bncs_system?4ini?$AA@ 1000d6b8     ccConfig.obj
+ 0003:000006d8       ??_C@_0P@NIEE@CC_WORKSTATION?$AA@ 1000d6d8     ccConfig.obj
+ 0003:000006e8       ??_C@_07HKHC@Network?$AA@  1000d6e8     ccConfig.obj
+ 0003:000006f0       ??_C@_0M@PHEL@Workstation?$AA@ 1000d6f0     ccConfig.obj
+ 0003:000006fc       ??_C@_0CE@MPPH@bncs_disklog?3?5Can?8t?5open?5log?5fil@ 1000d6fc     bncs_disklog:bncs_disklog.obj
+ 0003:00000720       ??_C@_0N@MKOM@?$CFs?2?$CFs?2?$CFs?4log?$AA@ 1000d720     bncs_disklog:bncs_disklog.obj
+ 0003:00000730       ??_C@_0BH@JOFC@?$CFs?2?$CFs?2?$CF04d?$CF02d?$CF02d?4log?$AA@ 1000d730     bncs_disklog:bncs_disklog.obj
+ 0003:00000748       ??_C@_0BM@GACA@?$CFs?2?$CFs?2?$CF04d?$CF02d?$CF02d?9?$CF02d?4log?$AA@ 1000d748     bncs_disklog:bncs_disklog.obj
+ 0003:00000764       ??_C@_0BG@KLKP@localtime?5has?5failed?6?$AA@ 1000d764     bncs_disklog:bncs_disklog.obj
+ 0003:0000077c       ??_C@_0M@OFHL@c?3?2bncslogs?$AA@ 1000d77c     bncs_disklog:bncs_disklog.obj
+ 0003:00000788       ??_C@_0L@PKIN@?$CFs?2?$CFs?2logs?$AA@ 1000d788     bncs_disklog:bncs_disklog.obj
+ 0003:00000794       ??_C@_02PIMC@?$AN?6?$AA@   1000d794     bncs_disklog:bncs_disklog.obj
+ 0003:00000798       ??_C@_02GIEM@?0?5?$AA@     1000d798     bncs_disklog:bncs_disklog.obj
+ 0003:0000079c       ??_C@_0BP@LJGD@?$CF02d?1?$CF02d?1?$CF04d?5?$CF02d?3?$CF02d?3?$CF02d?5?$AA@ 1000d79c     bncs_disklog:bncs_disklog.obj
+ 0003:000007bc       ??_C@_05LCJC@?$CF08lx?$AA@ 1000d7bc     bncsWM32:BncsWM32.obj
+ 0003:000007d0       ?_Nil@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@1PAU_Node@12@A 1000d7d0     bncs_shim.obj
+ 0003:000007d4       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHPAVregStruct@@@std@@U_Kfn@?$multimap@HPAVregStruct@@U?$less@H@std@@V?$allocator@PAVregStruct@@@3@@2@U?$less@H@2@V?$allocator@PAVregStruct@@@2@@std@@1IA 1000d7d4     bncs_shim.obj
+ 0003:000007d8       ?_Nil@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@1PAU_Node@12@A 1000d7d8     bncs_shim.obj
+ 0003:000007dc       ?_Nilrefs@?$_Tree@JU?$pair@$$CBJPAVpollStruct@@@std@@U_Kfn@?$map@JPAVpollStruct@@U?$less@J@std@@V?$allocator@PAVpollStruct@@@3@@2@U?$less@J@2@V?$allocator@PAVpollStruct@@@2@@std@@1IA 1000d7dc     bncs_shim.obj
+ 0003:000007e0       ?_Nil@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@1PAU_Node@12@A 1000d7e0     bncs_shim.obj
+ 0003:000007e4       ?_Nilrefs@?$_Tree@PAVIccClientCallback@@PAV1@U_Kfn@?$set@PAVIccClientCallback@@U?$less@PAVIccClientCallback@@@std@@V?$allocator@PAVIccClientCallback@@@3@@std@@U?$less@PAVIccClientCallback@@@4@V?$allocator@PAVIccClientCallback@@@4@@std@@1IA 1000d7e4     bncs_shim.obj
+ 0003:000007e8       ?_Nil@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@1PAU_Node@12@A 1000d7e8     bncs_shim.obj
+ 0003:000007ec       ?_Nilrefs@?$_Tree@HHU_Kfn@?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@U?$less@H@3@V?$allocator@H@3@@std@@1IA 1000d7ec     bncs_shim.obj
+ 0003:000007f0       ?lock@bncs_shim_loader@@0HA 1000d7f0     bncs_shim_loader.obj
+ 0003:000007f8       ??_C@_00A@?$AA@            1000d7f8     ccClient.obj
+ 0003:00000800       ?m_timers@timer@@0V?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@std@@A 1000d800     timer.obj
+ 0003:00000814       ?_Nil@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@1PAU_Node@12@A 1000d814     timer.obj
+ 0003:00000818       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHVclient@@@std@@U_Kfn@?$map@HVclient@@U?$less@H@std@@V?$allocator@Vclient@@@3@@2@U?$less@H@2@V?$allocator@Vclient@@@2@@std@@1IA 1000d818     timer.obj
+ 0003:00000a5c       __adjust_fdiv              1000da5c     <common>
+ 0003:00000a60       __pRawDllMain              1000da60     <common>
+ 0003:00000a64       ___onexitend               1000da64     <common>
+ 0003:00000a68       ___onexitbegin             1000da68     <common>
+
+ entry point at        0001:00008019
+
+ Static symbols
+
+ 0001:00006a8f       _$E8                       10007a8f f   timer.obj
+ 0001:00006a99       _$E4                       10007a99 f   timer.obj
+ 0001:00006ab1       _$E7                       10007ab1 f   timer.obj
+ 0001:00006abd       _$E5                       10007abd f   timer.obj
+ 0001:00007ee4       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 10008ee4 f   MSVCRT:ehvecdtr.obj
+
+ 170 bytes saved through ICF
+

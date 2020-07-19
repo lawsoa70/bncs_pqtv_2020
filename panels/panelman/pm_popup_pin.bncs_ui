@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="40" w="245" h="395">
+		<control class="bncs_control" name="background" x="10" y="10" w="225" h="375">
+			<setting value="style=label" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_1" x="20" y="100" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=1" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_2" x="90" y="100" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=2" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_3" x="160" y="100" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=3" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_4" x="20" y="170" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=4" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_5" x="90" y="170" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=5" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_6" x="160" y="170" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=6" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_7" x="20" y="240" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=7" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_8" x="90" y="240" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=8" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_9" x="160" y="240" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=9" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="pin_0" x="90" y="310" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=0" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="cancel_eng_pin" x="160" y="310" w="60" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=C" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="display_pin" x="20" y="60" w="200" h="30">
+			<setting value="style=label" />
+			<setting value="font.face=Courier New" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text= _ _ _ _ " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="enter_pin" x="20" y="20" w="200" h="30">
+			<setting value="stylesheet=pm_timedate" />
+			<setting value="text=Enter Eng Menu PIN" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

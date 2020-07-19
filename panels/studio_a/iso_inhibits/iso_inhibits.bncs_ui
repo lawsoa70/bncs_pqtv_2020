@@ -1,0 +1,171 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label5" x="360" y="460" w="590" h="180">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="Label4" x="360" y="220" w="590" h="180">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_enum" name="2" x="380" y="280" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO1 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO1 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_enum" name="4" x="530" y="280" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO2 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO2 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_enum" name="6" x="680" y="280" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO3 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO3 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_enum" name="8" x="830" y="280" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO4 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO4 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_control" name="Label" x="380" y="240" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 1" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Label1" x="530" y="240" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 2" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Label2" x="680" y="240" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 3" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Label3" x="830" y="240" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 4" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_enum" name="9" x="380" y="510" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO4 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO5 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_enum" name="10" x="530" y="510" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO4 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO6 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_enum" name="11" x="680" y="510" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO4 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO7 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_enum" name="12" x="830" y="510" w="100" h="100">
+			<setting value="style=button" />
+			<setting value="name=ISO4 Inhibit" />
+			<setting value="doublepush=true" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO8 Inhibit" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Cues On" />
+			<setting value="state.0.value=1" />
+			<setting value="state.0.style=enum_normal" />
+			<setting value="state.1.caption=Cues Off" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=enum_notnormal" />
+		</control>
+		<control class="bncs_control" name="Label9" x="830" y="480" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 8" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Label6" x="380" y="480" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 5" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Label8" x="680" y="480" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 7" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Label7" x="530" y="480" w="100" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 6" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

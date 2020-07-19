@@ -1,0 +1,107 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="0" y="0" w="1091" h="868">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="edit_src_range" x="19" y="91" w="184" h="35">
+			<setting value="stylesheet=string_value" />
+		</control>
+		<control class="bncs_control" name="edit_dest_range" x="228" y="91" w="184" h="35">
+			<setting value="stylesheet=string_value" />
+		</control>
+		<control class="bncs_control" name="edit_src_from" x="52" y="135" w="118" h="35">
+			<setting value="stylesheet=string_value" />
+		</control>
+		<control class="bncs_control" name="edit_src_to" x="52" y="181" w="118" h="35">
+			<setting value="stylesheet=string_value" />
+		</control>
+		<control class="bncs_control" name="edit_dest_from" x="260" y="130" w="118" h="35">
+			<setting value="stylesheet=string_value" />
+		</control>
+		<control class="bncs_control" name="edit_dest_to" x="261" y="181" w="118" h="35">
+			<setting value="stylesheet=string_value" />
+		</control>
+		<control class="bncs_control" name="Label1" x="137" y="61" w="159" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=Allowed range" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label2" x="175" y="138" w="82" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=FROM" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label3" x="179" y="184" w="75" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=TO" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label4" x="70" y="31" w="82" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=SOURCES" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label5" x="259" y="31" w="123" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=DESTINATIONS" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label6" x="70" y="241" w="82" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=CURRENT" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_src_current" x="38" y="281" w="146" h="63">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="btn_reset" x="270" y="251" w="100" h="49">
+		</control>
+		<control class="bncs_control" name="btn_next" x="270" y="321" w="100" h="49">
+			<setting value="text=Step to|next source" />
+		</control>
+		<control class="bncs_control" name="btn_auto_stop" x="592" y="250" w="100" h="49">
+			<setting value="text=STOP" />
+		</control>
+		<control class="bncs_control" name="btn_auto_start" x="452" y="250" w="100" h="49">
+			<setting value="text=START" />
+		</control>
+		<control class="bncs_control" name="Label8" x="486" y="161" w="166" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=Auto step time (mS)" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_edittext" name="edit_step_time" x="510" y="194" w="118" h="35">
+			<setting value="colour.background=#ffffff" />
+		</control>
+		<control class="bncs_control" name="Label9" x="508" y="129" w="123" h="28">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="text=AUTO STEP" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_keyboard_ctrl" name="keyboard" x="40" y="410" w="588" h="282">
+			<setting value="exceptions=abcdefghijklmnopqrstuvwxyz=[];&apos;#\/.ABCDEFGHIJKLMNOPQRSTUVWXYZ!&quot;£$%^&amp;*()_+{}:@~|&lt;&gt;?`¬" />
+			<setting value="keyboardType=Keypad" />
+		</control>
+		<control class="bncs_control" name="lbl_progress" x="455" y="317" w="250" h="25">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#00ff00" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_progress_mask" x="455" y="307" w="250" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

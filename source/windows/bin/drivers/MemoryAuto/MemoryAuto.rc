@@ -1,0 +1,291 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+109 ACCELERATORS
+BEGIN
+    VK_F1,          104,                    VIRTKEY, NOINVERT
+    VK_F10,         105,                    VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+103 DIALOGEX 22, 17, 178, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System", 0, 0, 0x0
+BEGIN
+    ICON            1,2,14,11,16,16
+    LTEXT           "BNCS Memory Automatic",IDC_STATIC,49,6,119,8,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "Copyright © 2016 Atos",IDC_STATIC,49,19,119,8
+    DEFPUSHBUTTON   "OK",1,6,42,38,11,WS_GROUP
+    LTEXT           "Written by Paul Wilkins",IDC_STATIC,49,31,119,8
+    LTEXT           "",IDC_COMPID,49,42,119,8
+    LTEXT           "",IDC_VERSION,49,53,119,8
+END
+
+IDD_STATUS DIALOGEX 0, 0, 490, 159
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 10, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "Status:",IDC_STATIC,368,15,25,10
+    GROUPBOX        "Client Comms",IDC_STATIC,2,5,228,25
+    GROUPBOX        "Infodriver",IDC_STATIC,235,5,227,25
+    LTEXT           "Status :",IDC_STATIC,55,48,26,10
+    CTEXT           "",IDC_AUTO_STATUS,83,48,61,10,SS_SUNKEN
+    CTEXT           "",IDC_INFO_STATUS,395,15,60,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_IDRX,28,15,35,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_IDTX,86,15,35,10,SS_SUNKEN
+    LTEXT           "Rx:",IDC_STATIC,12,15,15,10
+    LTEXT           "Tx:",IDC_STATIC,72,15,10,10
+    LTEXT           "00000000",IDC_DEVRX,265,15,35,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_DEVTX,325,15,35,10,SS_SUNKEN
+    LTEXT           "Rx:",IDC_STATIC,245,15,15,10
+    LTEXT           "Tx:",IDC_STATIC,310,15,10,10
+    GROUPBOX        "Automatic",IDC_STATIC,3,32,482,118
+    LTEXT           "Status :",IDC_STATIC,136,15,25,10
+    CTEXT           "",IDC_CSI_STATUS,165,15,55,10,SS_SUNKEN
+    LTEXT           "Records :",IDC_STATIC,151,48,34,10
+    CTEXT           "0 ",IDC_DB_RECORDS,186,48,31,10,SS_SUNKEN
+    CTEXT           "100 percent",IDC_DB_PERCENTUSED,251,48,47,10,SS_SUNKEN
+    LTEXT           "Fields :",IDC_STATIC,13,70,34,10
+    CTEXT           "",IDC_DB_FIELDS,47,70,314,10,SS_SUNKEN
+    LTEXT           "Last Record retrieved :",IDC_STATIC,11,89,74,10
+    LTEXT           "",IDC_DB_RETRIEVED,254,89,228,10,SS_SUNKEN
+    CTEXT           "",IDC_DB_REC_ENTRY,89,89,31,10,SS_SUNKEN
+    LTEXT           "",IDC_DB_REC_KEY,122,89,129,10,SS_SUNKEN
+    LTEXT           "Last Record Stored :",IDC_STATIC,11,106,74,10
+    LTEXT           "",IDC_DB_STORED,254,106,228,10,SS_SUNKEN
+    CTEXT           "",IDC_DB_REC_ENTRY2,89,106,31,10,SS_SUNKEN
+    LTEXT           "",IDC_DB_REC_KEY2,122,106,129,10,SS_SUNKEN
+    LTEXT           "Ver:",IDC_STATIC,7,49,14,10
+    CTEXT           "1.6.0",IDC_VERSION,23,48,24,10,SS_SUNKEN
+    CTEXT           "/ 4000",IDC_DB_RECORDS2,216,48,31,10,SS_SUNKEN
+    LTEXT           "Defaults :",IDC_STATIC,9,130,74,10
+    LTEXT           "",IDC_DB_DEF_DATA1,254,130,227,10,SS_SUNKEN
+    CTEXT           "81",IDC_DB_DEF_ENTRY1,88,130,31,10,SS_SUNKEN
+    LTEXT           "DEFAULT",IDC_DB_DEF_KEY1,121,130,129,10,SS_SUNKEN
+    LTEXT           "Free Slot No:",IDC_STATIC,366,48,44,10
+    CTEXT           "0 ",IDC_DB_FREESLOT,410,48,31,10,SS_SUNKEN
+    LTEXT           "Circ Buff:",IDC_STATIC,449,38,31,10
+    CTEXT           "0 ",IDC_CIRC_BUFF,448,48,31,10,SS_SUNKEN
+    LTEXT           "Size :",IDC_STATIC,307,48,20,10
+    CTEXT           "0 ",IDC_DB_SAVESIZE,331,48,31,10,SS_SUNKEN
+    LTEXT           "FIFO Buff:",IDC_STATIC,449,60,34,10
+    CTEXT           "0 ",IDC_FIFO_BUFF,449,70,31,10,SS_SUNKEN
+    LTEXT           "De-limiter",IDC_STATIC,397,70,29,10
+    CTEXT           "",IDC_DB_DELIMITER,430,70,10,10,SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON                    "MEMORYAUTO.ICO"
+108                     ICON                    "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+109 MENUEX
+BEGIN
+    POPUP "&File",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "E&xit",                       105,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "D&ebug",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "On",                          ID_DEBUG_ON,MFT_STRING,MFS_ENABLED
+        MENUITEM "Hide",                        ID_DEBUG_HIDE,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Clear",                       32771,MFT_STRING,MFS_ENABLED
+        MENUITEM "Show All Messages",           ID_DEBUG_SHOWALLMESSAGES,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Options",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&RELOAD",                     ID_OPTIONS_RELOAD,MFT_STRING,MFS_ENABLED
+        MENUITEM "Force TXRX",                  ID_OPTIONS_FORCETXRX,MFT_STRING,MFS_ENABLED
+        MENUITEM "Force RXOnly",                ID_OPTIONS_FORCERXONLY,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Help",                          65535,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "&About ...",                  104,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,6,0,2
+ PRODUCTVERSION 1,6,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Author", "Paul Wilkins"
+            VALUE "Comments", "Rebuild for vs2013, upgrade of TXRX failover"
+            VALUE "CompanyName", "Atos"
+            VALUE "FileDescription", "Colledia Control Automatic"
+            VALUE "FileVersion", "1.6.0.2"
+            VALUE "LegalCopyright", "Copyright © 2016 Atos"
+            VALUE "OriginalFilename", "MemoryAuto.exe"
+            VALUE "ProductName", "MemoryAuto"
+            VALUE "ProductVersion", "1.6.0.2"
+            VALUE "SpecialBuild", "Project generated by Colledia Control Wizard Version 3.0 "
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    103, DIALOG
+    BEGIN
+    END
+
+    IDD_STATUS, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    103                     "BNCS MemoryAuto - Device %d"
+    107                     "CLASS_MEMORYAUTO"
+    110                     "MemoryAuto"
+END
+
+STRINGTABLE
+BEGIN
+    65535                   "Wizard by Tim Alden, Chris Gil"
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,8 @@
+[Database_8]
+Name=Button Mapping
+;0000=Source Page Contents
+;-------------------------
+
+
+;0001=Prompt Sources
+0001=1,2,3,4,5,6,7,8,10

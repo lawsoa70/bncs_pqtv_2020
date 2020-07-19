@@ -1,0 +1,70 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="957" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="6" y="10" w="1269" h="547">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_line" name="Line" x="240" y="420" w="69" h="17">
+			<setting value="penwidth=10" />
+			<setting value="colour=#0000ff" />
+			<setting value="points=0,0,100,0" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="160" y="570" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pv1" x="300" y="360" w="229" h="159">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="dest_index=81" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_large" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_clock" name="Clock" x="120" y="143" w="103" h="103">
+			<setting value="colour.background=#ffffff" />
+			<setting value="colour.seconds=#ff0000" />
+		</control>
+		<control class="bncs_control" name="plasma2" x="610" y="80" w="304" h="186">
+			<setting value="style=label" />
+			<setting value="text=Mix Out" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/monitor_locked.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="speakers" x="160" y="390" w="100" h="100">
+			<setting value="style=label" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/dual_speaker.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_pv2" x="301" y="80" w="302" h="229">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="dest_index=82" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_large" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="route_source=*" command="select=[value]" name="Send source,dest to destinations"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+	</connections>
+</control_set>

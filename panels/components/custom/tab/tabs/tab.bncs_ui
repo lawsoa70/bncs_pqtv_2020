@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="tab1" x="0" y="60" w="96" h="149">
+			<setting value="text=1" />
+		</control>
+		<control class="bncs_control" name="tab2" x="0" y="209" w="96" h="149">
+			<setting value="text=2" />
+		</control>
+		<control class="bncs_control" name="tab3" x="0" y="358" w="96" h="149">
+			<setting value="text=3" />
+		</control>
+	</container>
+</control_set>

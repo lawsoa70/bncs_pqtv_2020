@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1040" h="80" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="0" y="0" w="1040" h="80">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_title_background" />
+		</control>
+	</container>
+</control_set>

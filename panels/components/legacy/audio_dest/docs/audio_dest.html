@@ -1,0 +1,214 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Audio Destination Component</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="bncs.css">
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="639" height="91" bgcolor="#A0B6C0">
+		<img border="0" src="header.jpg" width="638" height="91"></td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="50">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+					<h1>Audio Destination Component</h1>
+					<h2>Description</h2>
+					<p>This is a custom take component to router mono, 
+					stereo or surround (5.1) audio.</p>
+					<p>The image below shows 4 possible presentations for this 
+					control - though the exact layout is determined by the UI 
+					file loaded:</p>
+					<blockquote>
+						<p><img border="0" src="audio_1.jpg"></p>
+					</blockquote>
+					<p>Tallies are shown as either normal state or mixed 
+					depending upon certain business rules defined elsewhere.</p>
+					<p>There are three possible modes for tally - single line 
+					for mono destinations, two line for stereo, 6 line for 5.1 
+					and single line/double height for certain stereo routes.</p>
+					<p><b>Note: </b>This control works with global destination 
+					numbers. The instance (and lock instance) supplied defined 
+					the base infodriver number from which the appropriate device 
+					number is calculated. In practice this is an easy 
+					calculation</p>
+					<blockquote>
+						<p>device = base_device + ( global_dest / 4096 );</p>
+						<p>destination = global_dest % 4096</p>
+					</blockquote>
+					<p>This control is optimised for use with UI &quot;connections&quot;.</p>
+					<h2>Commands</h2>
+					<blockquote>
+						<table border="0" id="table3">
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>instance</td>
+								<td>mandatory</td>
+								<td>Instance of the device to take router 
+								source names 
+								from<br>
+								The destination device is calculated by offset 
+								from this number (see above)</td>
+							</tr>
+							<tr class="tick">
+								<td>lock_instance</td>
+								<td>optional</td>
+								<td>The instance of the device to get lock 
+								information from. If it isn't supplied then the 
+								take button is always enabled with valid source/dest/take 
+								mode</td>
+							</tr>
+							<tr class="tock">
+								<td>global_dest=&lt;dest_index&gt;</td>
+								<td>mandatory</td>
+								<td>The destination index<br>
+								e.g.<br>
+&nbsp;&nbsp; global_dest=57382</td>
+							</tr>
+							<tr class="tick">
+								<td>take.&lt;global_dest_index&gt;.&lt;mask&gt;=&lt;source_index&gt;</td>
+								<td>runtime</td>
+								<td>when the take button is pressed<br>
+								&lt;dest_index&gt; is optional and checked if present 
+								or ignored if not supplied<br>
+								&lt;mask&gt; is &quot;how&quot; to make the route for the given 
+								indices<br>
+								&lt;source_index&gt; is the source number<br>
+								e.g.<br>
+&nbsp;&nbsp; take.57381.M-M=12345</td>
+							</tr>
+							<tr class="tock">
+								<td>undo</td>
+								<td>&nbsp;</td>
+								<td>when the undo button is pressed</td>
+							</tr>
+							<tr class="tick">
+								<td>panel</td>
+								<td>mandatory</td>
+								<td>name of the &quot;.bncs_ui&quot; file to load (note 
+								that only the name is required - the &quot;.bncs_ui&quot; 
+								bit is not needed and should not be provided</td>
+							</tr>
+							<tr class="tock">
+								<td>initially_selected</td>
+								<td>optional</td>
+								<td>if true the dest button is created selected 
+								and the dest event is sent</td>
+							</tr>
+							<tr class="tick">
+								<td>selected=&lt;global_dest_index&gt;</td>
+								<td>runtime</td>
+								<td>Incoming notification of dest button 
+								selection changed. If the dest index matches 
+								ours then we'll show ourselves as selected. 
+								Otherwise we'll show ourselves as deselected. 
+								This is to allow for multiple dest controls 
+								working as a group.</td>
+							</tr>
+							<tr class="tock">
+								<td>default</td>
+								<td>runtime</td>
+								<td>Routes the default sources</td>
+							</tr>
+							<tr class="tick">
+								<td>defaultSourceList</td>
+								<td>optional</td>
+								<td>Comma delimited source list - this must 
+								contain exactly the right number of sources for 
+								the dest type (1 for mono, 2 for stereo and 6 
+								for surround)</td>
+							</tr>
+							<tr class="tick">
+								<td>poll_GRD</td>
+								<td>mandatory</td>
+								<td>Accepts either "true" or "false", "false"
+								by default, it defines whether the component
+								will make its routes by sending router crosspoints
+								(if set to "true") or sending info writes
+								(if set to "false").</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Notifications</h2>
+					<blockquote>
+						<table border="0" id="table4">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>global_dest=&lt;global_dest_index&gt;</td>
+								<td>notification this button has been selected 
+								and the current destination</td>
+							</tr>
+							</table>
+					</blockquote>
+					<h2>Stylesheets</h2>
+					<blockquote>
+						<table border="0" id="table2">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>dest_selected</td>
+								<td>Shown on the dest pre-select tally when the 
+								destination is set</td>
+							</tr>
+							<tr class="tock">
+								<td>dest_deselected</td>
+								<td>When the destination is not set</td>
+							</tr>
+							<tr class="tick">
+								<td>groupbox</td>
+								<td>background to the control</td>
+							</tr>
+							<tr class="tock">
+								<td>tally_audio_normal</td>
+								<td>shown on the tallies if it's been determined 
+								this is in &quot;normal&quot; state</td>
+							</tr>
+							<tr class="tick">
+								<td>tally_audio_mixed</td>
+								<td>shown on the tallies if it's been determined 
+								this is in &quot;mixed&quot; state</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Developers Notes</h2>
+					<p>There are two sets of tally components - 2 x single 
+					height, and 1 double height. Both are written to but which 
+					is shown is determined by source/dest type and defined 
+					business rules.</p>
+					<p>&nbsp;</p>
+					<!-- #EndEditable --></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright Atos BNCS Ltd. 2015</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
+  

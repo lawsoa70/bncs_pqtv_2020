@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="120" h="220" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="level_1" x="10" y="10" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=HD" />
+		</control>
+		<control class="bncs_control" name="level_2" x="10" y="80" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=HD(E)" />
+		</control>
+		<control class="bncs_control" name="level_3" x="10" y="150" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=18" />
+			<setting value="font.style=bold " />
+			<setting value="text=SD" />
+		</control>
+	</container>
+</control_set>

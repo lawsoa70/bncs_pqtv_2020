@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="45" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_script_loader" name="Script" x="0" y="0" w="1280" h="884">
+			<setting value="scriptname=/components/custom/router_mapping" />
+			<setting value="instance=rtr_sta_sdi_2020" />
+			<setting value="sourcePanel=32x15_wide_source" />
+			<setting value="destPanel=32x15_wide_dest" />
+		</control>
+	</container>
+</control_set>

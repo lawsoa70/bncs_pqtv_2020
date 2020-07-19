@@ -1,0 +1,201 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label2" x="604" y="287" w="581" h="255">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Studio C Vision Mixer inputs 7 - 10" />
+		</control>
+		<control class="bncs_control" name="Label1" x="79" y="20" w="250" h="250">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Lock selected destination" />
+		</control>
+		<control class="bncs_control" name="Label" x="350" y="20" w="835" h="250">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Studio C Vision Mixer inputs 1 - 6" />
+		</control>
+		<control class="bncs_script_loader" name="dest_1" x="393" y="80" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=231" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_2" x="523" y="80" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=232" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_3" x="653" y="80" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=233" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_4" x="783" y="80" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=234" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_5" x="913" y="80" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=235" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_6" x="1043" y="80" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=236" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock" x="159" y="115" w="100" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stc_sdi_lock" />
+			<setting value="index=" />
+			<setting value="lock_instance=rtr_stc_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="70" y="560" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="dest_7" x="648" y="352" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=237" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_8" x="778" y="352" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=238" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_9" x="908" y="352" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=239" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_10" x="1038" y="352" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=240" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_control" name="Label3" x="80" y="287" w="479" h="255">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=AR Viz Inputs" />
+		</control>
+		<control class="bncs_script_loader" name="dest_129" x="160" y="352" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=129" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_130" x="340" y="352" w="99" h="120">
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=130" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="route_source=*" command="select=[value]" name="Send source,dest to destinations"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="dest_*" receiver="lock" event="selected_index=*" command="index=[value]" name="send dest index to lock button"/>
+		<connection sender="memory" receiver="dest_*" event="fetch" command="getSettings" name=""/>
+		<connection sender="dest_*" receiver="memory" event="getSettings=*" command="[command]=[value]" name=""/>
+	</connections>
+</control_set>

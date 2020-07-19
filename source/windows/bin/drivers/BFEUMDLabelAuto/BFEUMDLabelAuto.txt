@@ -1,0 +1,92 @@
+========================================================================
+      COLLEDIA CONTROL DRIVER APPLICATION : BFEUMDLabelAuto
+========================================================================
+
+This is the information file for the Colledia Control Project BFEUMDLabelAuto 
+which the Colledia Control Driver AppWizard has created for you.
+
+The project may require the pre-installation of some of the libraries and header files pertaining
+to the serial port class, network client class, external infodriver class, CSI connection classes,
+external grd class:
+
+csicln.lib [csiclndb.lib] <csiclient.h>
+
+and also the standard Colledia header files:
+
+<bbc_mxc.h>   <bncs.h>	<bncs32.h>	<bncsdef.h>
+
+This text file contains a summary of what you will find in each of the files that
+make up your BFEUMDLabelAuto application.
+
+////////////
+main.cpp 
+////////////
+	Functions within this application set up the following standard .ini file settings:
+			debug flag for on-screen diagnostics
+
+You can use the (global) function void Debug(LPCSTR szFmt, ...) to print to the debug window.
+
+////////////////////
+BFEUMDLabelAuto.cpp 
+////////////////////
+	Callback functions are provided in this .cpp file:
+
+	The other library functions are described in the documentation for the respective classes.
+
+////////////////////
+BFEUMDLabelAuto_x.cpp 
+////////////////////
+	Sample extra .cpp file for additional driver-specific functions
+	If you don't need it, delete it.
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+BFEUMDLabelAuto.dsp
+    This file (the project file) contains information at the project level and
+    is used to build a single project or subproject. Other users can share the
+    project (.dsp) file, but they should export the makefiles locally.
+
+BFEUMDLabelAuto.dsw
+	This file is the workspace file and it references the project file.
+	
+/////////////////////////////////////////////////////////////////////////////
+Colledia Control Driver Wizard has created the following resources:
+
+BFEUMDLabelAuto.rc
+    This is a listing of all of the Windows resources that the program uses.
+	It includes the icons, bitmaps, etc. This file can be directly edited in 
+	Visual C++. It contains	VERSIONINFO data with the author name supplied 
+	during the creation of this project. The author name is also inserted 
+	into the ABOUT dialog.
+
+BFEUMDLabelAuto.ico
+    This is an icon file, which is used as the application's icon (32x32).
+    This icon is included by the main resource file BFEUMDLabelAuto.rc.
+
+small.ico
+    This is an icon file, which contains a smaller version (16x16)
+	of the application's icon. This icon is included by the main resource
+	file BFEUMDLabelAuto.rc.
+
+/////////////////////////////////////////////////////////////////////////////
+Other standard files:
+
+StdAfx.h, StdAfx.cpp
+    These files are used to build a precompiled header (PCH) file
+    named BFEUMDLabelAuto.pch and a precompiled types file named StdAfx.obj.
+
+BFEUMDLabelAuto.h
+	This file is the header file for the application, containing function 
+	prototypes, and macro definitions, constant #defines etc.
+	Place all global variables and global function prototypes here.
+
+Resource.h
+    This is the standard header file, which defines new resource IDs.
+    Microsoft Visual C++ reads and updates this file.
+
+/////////////////////////////////////////////////////////////////////////////
+Other notes:
+
+Please contact Mark Baldry x69599 (mark.baldry@siemens.com) with comments about this AppWizard
+or Richard Kerry x59063 (richard.kerry@siemens.com).

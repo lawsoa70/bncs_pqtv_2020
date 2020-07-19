@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT instances (instance+)>
+<!ELEMENT instance EMPTY>
+<!ATTLIST instance
+	id CDATA #REQUIRED
+	type CDATA #REQUIRED
+	device CDATA #REQUIRED
+	offset CDATA #REQUIRED
+	info CDATA #REQUIRED
+	alt_id CDATA #IMPLIED
+>

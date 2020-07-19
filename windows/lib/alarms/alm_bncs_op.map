@@ -1,0 +1,604 @@
+ alm_bncs_op
+
+ Timestamp is 56de0056 (Mon Mar 07 22:27:34 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00007018H .text                   CODE
+ 0001:00007020 00000802H .text$x                 CODE
+ 0002:00000000 000001ccH .idata$5                DATA
+ 0002:000001cc 00000130H .rdata                  DATA
+ 0002:00000300 00000274H .rdata$r                DATA
+ 0002:00000578 00000a90H .xdata$x                DATA
+ 0002:00001008 000000a0H .idata$2                DATA
+ 0002:000010a8 00000014H .idata$3                DATA
+ 0002:000010bc 000001ccH .idata$4                DATA
+ 0002:00001288 00000c02H .idata$6                DATA
+ 0002:00001e90 00000052H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000018H .CRT$XCU                DATA
+ 0003:0000001c 00000004H .CRT$XCZ                DATA
+ 0003:00000020 00000004H .CRT$XIA                DATA
+ 0003:00000024 00000004H .CRT$XIZ                DATA
+ 0003:00000030 00000990H .data                   DATA
+ 0003:000009c0 0000016cH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000004b0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _DllMain@12                10001000 f   alm_bncs_op.obj
+ 0001:00000030       _createNewOutput           10001030 f   alm_bncs_op.obj
+ 0001:00000120       ??0bncsOutput@@QAE@PAUIDebug@@ABVQString@@PAUIAlarmEvent@@@Z 10001120 f   bncsOutput.obj
+ 0001:000003f0       ??_GbncsOutput@@UAEPAXI@Z  100013f0 f i bncsOutput.obj
+ 0001:000003f0       ??_EbncsOutput@@UAEPAXI@Z  100013f0 f i bncsOutput.obj
+ 0001:00000420       ??1?$map@HHU?$less@H@std@@V?$allocator@H@2@@std@@QAE@XZ 10001420 f i bncsOutput.obj
+ 0001:00000550       ??1?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@std@@QAE@XZ 10001550 f i bncsOutput.obj
+ 0001:00000690       ??_GQSemaphore@@UAEPAXI@Z  10001690 f i bncsOutput.obj
+ 0001:00000690       ??_EQSemaphore@@UAEPAXI@Z  10001690 f i bncsOutput.obj
+ 0001:000006b0       ??1bncsOutput@@UAE@XZ      100016b0 f   bncsOutput.obj
+ 0001:00000920       ?AppendLog@bncsOutput@@AAEXABVQString@@@Z 10001920 f   bncsOutput.obj
+ 0001:00000940       ?initOutput@bncsOutput@@QAE_NABVQString@@ABVQStringList@@H@Z 10001940 f   bncsOutput.obj
+ 0001:000013a0       ??1?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@QAE@XZ 100023a0 f i bncsOutput.obj
+ 0001:000014e0       ??1?$pair@VQString@@V1@@std@@QAE@XZ 100024e0 f i bncsOutput.obj
+ 0001:00001560       ??1?$pair@$$CBVQString@@V1@@std@@QAE@XZ 10002560 f i bncsOutput.obj
+ 0001:000015e0       ?FinishedSection@bncsOutput@@AAEXABVQString@@ABV?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@ABVQStringList@@AAH@Z 100025e0 f   bncsOutput.obj
+ 0001:000019a0       ??1?$pair@HVQString@@@std@@QAE@XZ 100029a0 f i bncsOutput.obj
+ 0001:000019f0       ??1?$pair@$$CBHVQString@@@std@@QAE@XZ 100029f0 f i bncsOutput.obj
+ 0001:00001a40       ?DataChange@bncsOutput@@AAEXHH@Z 10002a40 f   bncsOutput.obj
+ 0001:00001ce0       ?notify@bncsOutput@@EAEHPAVcXInfo@@IPBD@Z 10002ce0 f   bncsOutput.obj
+ 0001:00002130       ?Debug@bncsOutput@@AAAXPADZZ 10003130 f   bncsOutput.obj
+ 0001:00002300       ?newData@bncsOutput@@QAE_NPAHH@Z 10003300 f   bncsOutput.obj
+ 0001:00002470       ?LoadData@bncsOutput@@AAEXXZ 10003470 f   bncsOutput.obj
+ 0001:00002610       ?getTxMode@bncsOutput@@QAE_NXZ 10003610 f   bncsOutput.obj
+ 0001:00002630       ?setTxMode@bncsOutput@@QAE_N_N0@Z 10003630 f   bncsOutput.obj
+ 0001:00002900       ?setOverrideList@bncsOutput@@QAEXPAV?$list@PAVCalarm_Process@@V?$allocator@PAVCalarm_Process@@@std@@@std@@PAVQSemaphore@@@Z 10003900 f   bncsOutput.obj
+ 0001:00002920       ?checkInfoDriverConnection@bncsOutput@@AAEXXZ 10003920 f   bncsOutput.obj
+ 0001:00002bb0       ?run@bncsOutput@@EAEXXZ    10003bb0 f   bncsOutput.obj
+ 0001:00002f50       ?setDebugMode@bncsOutput@@QAE_N_N@Z 10003f50 f   bncsOutput.obj
+ 0001:00002f60       ?getDebugMode@bncsOutput@@QBE_NXZ 10003f60 f   bncsOutput.obj
+ 0001:00002f70       ?setLogMode@bncsOutput@@QAEHH@Z 10003f70 f   bncsOutput.obj
+ 0001:00002f80       ?getLogMode@bncsOutput@@QBEHXZ 10003f80 f   bncsOutput.obj
+ 0001:00002f90       ??1?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE@XZ 10003f90 f i bncsOutput.obj
+ 0001:000030a0       ??1?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAE@XZ 100040a0 f i bncsOutput.obj
+ 0001:000031c0       ??1?$list@PAVinfoDataItem@@V?$allocator@PAVinfoDataItem@@@std@@@std@@QAE@XZ 100041c0 f i bncsOutput.obj
+ 0001:00003210       ??1?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE@XZ 10004210 f i bncsOutput.obj
+ 0001:00003330       ??_G?$QMemArray@H@@UAEPAXI@Z 10004330 f i bncsOutput.obj
+ 0001:00003350       ??_G?$QMemArray@_N@@UAEPAXI@Z 10004350 f i bncsOutput.obj
+ 0001:00003370       ??_G?$QMemArray@D@@UAEPAXI@Z 10004370 f i bncsOutput.obj
+ 0001:00003390       ??_G?$QMemArray@VQPoint@@@@UAEPAXI@Z 10004390 f i bncsOutput.obj
+ 0001:000033b0       ??_G?$QPtrList@D@@UAEPAXI@Z 100043b0 f i bncsOutput.obj
+ 0001:000033d0       ??_G?$QPtrList@VQObject@@@@UAEPAXI@Z 100043d0 f i bncsOutput.obj
+ 0001:000033f0       ??_G?$QPtrList@VQWidget@@@@UAEPAXI@Z 100043f0 f i bncsOutput.obj
+ 0001:00003410       ?begin@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AViterator@12@XZ 10004410 f i bncsOutput.obj
+ 0001:00003420       ?insert@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@_N@2@ABU?$pair@$$CBHH@2@@Z 10004420 f i bncsOutput.obj
+ 0001:00003660       ?erase@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AViterator@12@V312@@Z 10004660 f i bncsOutput.obj
+ 0001:00003ab0       ?erase@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AViterator@12@V312@0@Z 10004ab0 f i bncsOutput.obj
+ 0001:00003b80       ?find@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAE?AViterator@12@ABH@Z 10004b80 f i bncsOutput.obj
+ 0001:00003bf0       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAEXXZ 10004bf0 f i bncsOutput.obj
+ 0001:00003c40       ?begin@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAE?AViterator@12@XZ 10004c40 f i bncsOutput.obj
+ 0001:00003c50       ?insert@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@_N@2@ABU?$pair@$$CBHVQString@@@2@@Z 10004c50 f i bncsOutput.obj
+ 0001:00003e90       ?erase@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAE?AViterator@12@V312@@Z 10004e90 f i bncsOutput.obj
+ 0001:00004310       ?find@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAE?AViterator@12@ABH@Z 10005310 f i bncsOutput.obj
+ 0001:00004380       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAEXXZ 10005380 f i bncsOutput.obj
+ 0001:000043d0       ?erase@?$list@PAVinfoDataItem@@V?$allocator@PAVinfoDataItem@@@std@@@std@@QAE?AViterator@12@V312@@Z 100053d0 f i bncsOutput.obj
+ 0001:00004410       ?_Buynode@?$list@PAVinfoDataItem@@V?$allocator@PAVinfoDataItem@@@std@@@std@@IAEPAU_Node@12@PAU312@0@Z 10005410 f i bncsOutput.obj
+ 0001:00004440       ??0?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE@ABU?$less@VQString@@@1@_NABV?$allocator@VQString@@@1@@Z 10005440 f i bncsOutput.obj
+ 0001:00004470       ?begin@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AViterator@12@XZ 10005470 f i bncsOutput.obj
+ 0001:00004480       ?insert@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AU?$pair@Viterator@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@_N@2@ABU?$pair@$$CBVQString@@V1@@2@@Z 10005480 f i bncsOutput.obj
+ 0001:000046d0       ?erase@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AViterator@12@V312@0@Z 100056d0 f i bncsOutput.obj
+ 0001:000047b0       ?find@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QBE?AVconst_iterator@12@ABVQString@@@Z 100057b0 f i bncsOutput.obj
+ 0001:00004840       ?derefAndDelete@?$QValueListPrivate@VQString@@@@QAEXXZ 10005840 f i bncsOutput.obj
+ 0001:00004860       ?_Erase@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEXPAU_Node@12@@Z 10005860 f i bncsOutput.obj
+ 0001:000048a0       ?_Insert@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHH@2@@Z 100058a0 f i bncsOutput.obj
+ 0001:00004b10       ?_Lrotate@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEXPAU_Node@12@@Z 10005b10 f i bncsOutput.obj
+ 0001:00004b70       ?_Min@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@KAPAU_Node@12@PAU312@@Z 10005b70 f i bncsOutput.obj
+ 0001:00004b90       ?_Rrotate@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEXPAU_Node@12@@Z 10005b90 f i bncsOutput.obj
+ 0001:00004bf0       ?_Erase@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@IAEXPAU_Node@12@@Z 10005bf0 f i bncsOutput.obj
+ 0001:00004c40       ?_Insert@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHVQString@@@2@@Z 10005c40 f i bncsOutput.obj
+ 0001:00004eb0       ?_Lrotate@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@IAEXPAU_Node@12@@Z 10005eb0 f i bncsOutput.obj
+ 0001:00004f10       ?_Rrotate@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@IAEXPAU_Node@12@@Z 10005f10 f i bncsOutput.obj
+ 0001:00004f70       ??Eiterator@?$list@PAVinfoDataItem@@V?$allocator@PAVinfoDataItem@@@std@@@std@@QAE?AV012@H@Z 10005f70 f i bncsOutput.obj
+ 0001:00004f80       ?erase@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AViterator@12@V312@@Z 10005f80 f i bncsOutput.obj
+ 0001:00005420       ?_Erase@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXPAU_Node@12@@Z 10006420 f i bncsOutput.obj
+ 0001:00005470       ?_Init@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXXZ 10006470 f i bncsOutput.obj
+ 0001:00005540       ?_Insert@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBVQString@@V1@@2@@Z 10006540 f i bncsOutput.obj
+ 0001:000057b0       ?_Lbound@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IBEPAU_Node@12@ABH@Z 100067b0 f i bncsOutput.obj
+ 0001:000057e0       ?_Buynode@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 100067e0 f i bncsOutput.obj
+ 0001:00005800       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@QAEXXZ 10006800 f i bncsOutput.obj
+ 0001:00005860       ?_Buynode@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 10006860 f i bncsOutput.obj
+ 0001:00005880       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@QAEXXZ 10006880 f i bncsOutput.obj
+ 0001:000058e0       ?_Lrotate@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXPAU_Node@12@@Z 100068e0 f i bncsOutput.obj
+ 0001:00005940       ?_Min@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@KAPAU_Node@12@PAU312@@Z 10006940 f i bncsOutput.obj
+ 0001:00005960       ?_Rrotate@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXPAU_Node@12@@Z 10006960 f i bncsOutput.obj
+ 0001:000059c0       ?_Buynode@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 100069c0 f i bncsOutput.obj
+ 0001:000059e0       ?_Dec@const_iterator@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAEXXZ 100069e0 f i bncsOutput.obj
+ 0001:00005a40       ?_Inc@const_iterator@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAEXXZ 10006a40 f i bncsOutput.obj
+ 0001:00005a90       ?make_pair@std@@YA?AU?$pair@VQString@@V1@@1@ABVQString@@0@Z 10006a90 f i bncsOutput.obj
+ 0001:00005b00       ?at@?$QValueListPrivate@VQString@@@@QBEPAV?$QValueListNode@VQString@@@@I@Z 10006b00 f i bncsOutput.obj
+ 0001:00005b40       ?_Construct@std@@YAXPAPAVinfoDataItem@@ABQAV2@@Z 10006b40 f i bncsOutput.obj
+ 0001:00005b60       ?_Construct@std@@YAXPAU?$pair@$$CBHH@1@ABU21@@Z 10006b60 f i bncsOutput.obj
+ 0001:00005b80       ?_Construct@std@@YAXPAU?$pair@$$CBHVQString@@@1@ABU21@@Z 10006b80 f i bncsOutput.obj
+ 0001:00005be0       ??3@YAXPAX0@Z              10006be0 f i bncsOutput.obj
+ 0001:00005bf0       ?_Construct@std@@YAXPAU?$pair@$$CBVQString@@V1@@1@ABU21@@Z 10006bf0 f i bncsOutput.obj
+ 0001:00005c80       ??_G?$pair@$$CBHVQString@@@std@@QAEPAXI@Z 10006c80 f i bncsOutput.obj
+ 0001:00005ca0       ??_G?$pair@$$CBVQString@@V1@@std@@QAEPAXI@Z 10006ca0 f i bncsOutput.obj
+ 0001:00005d40       ??0structured_exception@@QAE@ABU_EXCEPTION_POINTERS@@@Z 10006d40 f   except.obj
+ 0001:00005d60       ?install@structured_exception@@SAXXZ 10006d60 f   except.obj
+ 0001:00005da0       ?what@structured_exception@@QBEIXZ 10006da0 f   except.obj
+ 0001:00005db0       ?where@structured_exception@@QBEPBXXZ 10006db0 f   except.obj
+ 0001:00005dc0       ??0infoDataItem@@QAE@HH@Z  10006dc0 f   infoDataItem.obj
+ 0001:00005de0       ??_GinfoDataItem@@UAEPAXI@Z 10006de0 f i infoDataItem.obj
+ 0001:00005de0       ??_EinfoDataItem@@UAEPAXI@Z 10006de0 f i infoDataItem.obj
+ 0001:00005e00       ??1infoDataItem@@UAE@XZ    10006e00 f   infoDataItem.obj
+ 0001:00005e10       ?getSlot@infoDataItem@@QAEHXZ 10006e10 f   infoDataItem.obj
+ 0001:00005e20       ?getData@infoDataItem@@QAEHXZ 10006e20 f   infoDataItem.obj
+ 0001:00005eb0       ??0logic_interface@@QAE@PAUIDebug@@QBDPAUIAlarmEvent@@@Z 10006eb0 f   logic_interface.obj
+ 0001:00005fb0       ??1alarms_base@@UAE@XZ     10006fb0 f i logic_interface.obj
+ 0001:00005fc0       ?getTxCount@alarms_base@@UAEJXZ 10006fc0 f i logic_interface.obj
+ 0001:00005fd0       ?getRxCount@alarms_base@@UAEJXZ 10006fd0 f i logic_interface.obj
+ 0001:00005fe0       ??_Ealarms_base@@UAEPAXI@Z 10006fe0 f i logic_interface.obj
+ 0001:00005fe0       ??_Galarms_base@@UAEPAXI@Z 10006fe0 f i logic_interface.obj
+ 0001:00006000       ??1alarms_output_base@@UAE@XZ 10007000 f i logic_interface.obj
+ 0001:00006040       ?setIntialStates@alarms_output_base@@UAEXPBHH@Z 10007040 f i logic_interface.obj
+ 0001:00006050       ??_Ealarms_output_base@@UAEPAXI@Z 10007050 f i logic_interface.obj
+ 0001:00006050       ??_Galarms_output_base@@UAEPAXI@Z 10007050 f i logic_interface.obj
+ 0001:00006070       ??_Elogic_interface@@UAEPAXI@Z 10007070 f i logic_interface.obj
+ 0001:00006070       ??_Glogic_interface@@UAEPAXI@Z 10007070 f i logic_interface.obj
+ 0001:00006090       ??1logic_interface@@UAE@XZ 10007090 f   logic_interface.obj
+ 0001:00006100       ?dataReady@logic_interface@@UAE_NPAHH@Z 10007100 f   logic_interface.obj
+ 0001:00006120       ?getStatusOk@logic_interface@@UAE_NXZ 10007120 f   logic_interface.obj
+ 0001:00006150       ?getConfigFileDate@logic_interface@@UAE?AVQDateTime@@XZ 10007150 f   logic_interface.obj
+ 0001:00006180       ?getClassName@logic_interface@@UAEPBDXZ 10007180 f   logic_interface.obj
+ 0001:00006190       ?setDebugMode@logic_interface@@UAE_N_N@Z 10007190 f   logic_interface.obj
+ 0001:000061b0       ?getDebugMode@logic_interface@@UAE_NXZ 100071b0 f   logic_interface.obj
+ 0001:000061c0       ?setLogMode@logic_interface@@UAEHH@Z 100071c0 f   logic_interface.obj
+ 0001:000061e0       ?getLogMode@logic_interface@@UAEHXZ 100071e0 f   logic_interface.obj
+ 0001:000061f0       ?setRxOnly@logic_interface@@UAE_NXZ 100071f0 f   logic_interface.obj
+ 0001:00006210       ?setTxRx@logic_interface@@UAE_NXZ 10007210 f   logic_interface.obj
+ 0001:00006230       ?forceTxRx@logic_interface@@UAE_NXZ 10007230 f   logic_interface.obj
+ 0001:00006250       ?getTxMode@logic_interface@@UAE_NXZ 10007250 f   logic_interface.obj
+ 0001:00006260       ?init@logic_interface@@UAE_NABVQString@@00ABVQStringList@@H_NQAUIAlarmEvent@@@Z 10007260 f   logic_interface.obj
+ 0001:00006280       ?aboutToClose@logic_interface@@UAEXXZ 10007280 f   logic_interface.obj
+ 0001:00006290       ?Debug@logic_interface@@QAAXPADZZ 10007290 f   logic_interface.obj
+ 0001:000063e0       ?getTxCount@logic_interface@@UAEJXZ 100073e0 f   logic_interface.obj
+ 0001:000063f0       ?getRxCount@logic_interface@@UAEJXZ 100073f0 f   logic_interface.obj
+ 0001:00006400       ?setOverrideList@logic_interface@@UAEXQAV?$list@PAVCalarm_Process@@V?$allocator@PAVCalarm_Process@@@std@@@std@@QAVQSemaphore@@@Z 10007400 f   logic_interface.obj
+ 0001:00006420       ?SetNetworkOutput@logic_interface@@UAEX_N@Z 10007420 f   logic_interface.obj
+ 0001:00006430       ?retryConnnection@logic_interface@@UAEXXZ 10007430 f   logic_interface.obj
+ 0001:00006440       ??0cXInfo@@QAE@I@Z         10007440 f   cxinfo:CXINFO.OBJ
+ 0001:000064a0       ?connect@cXInfo@@QAEHIIIII@Z 100074a0 f   cxinfo:CXINFO.OBJ
+ 0001:000065b0       ??1cXInfo@@QAE@XZ          100075b0 f   cxinfo:CXINFO.OBJ
+ 0001:000065f0       ?incrx@cXInfo@@QAEXXZ      100075f0 f   cxinfo:CXINFO.OBJ
+ 0001:00006600       ?setcounters@cXInfo@@QAEXPAK0@Z 10007600 f   cxinfo:CXINFO.OBJ
+ 0001:00006620       ?updateslot@cXInfo@@QAA_NHPBDZZ 10007620 f   cxinfo:CXINFO.OBJ
+ 0001:000066e0       ?setslot@cXInfo@@QAAXHPBDZZ 100076e0 f   cxinfo:CXINFO.OBJ
+ 0001:00006760       ?getslot@cXInfo@@QAEXHPAD@Z 10007760 f   cxinfo:CXINFO.OBJ
+ 0001:00006790       ?sendslots@cXInfo@@QAEXHH@Z 10007790 f   cxinfo:CXINFO.OBJ
+ 0001:000067d0       ?getmode@cXInfo@@QAEHXZ    100077d0 f   cxinfo:CXINFO.OBJ
+ 0001:000067f0       ?setmode@cXInfo@@QAEHH@Z   100077f0 f   cxinfo:CXINFO.OBJ
+ 0001:00006810       ?InfoWndProc@cXInfo@@CGJPAUHWND__@@IIJ@Z 10007810 f   cxinfo:CXINFO.OBJ
+ 0001:00006a60       ?getdbname@cXInfo@@QAEXGGGPADH@Z 10007a60 f   cxinfo:CXINFO.OBJ
+ 0001:00006aa0       ?getdbindex@cXInfo@@QAEHGGPBD@Z 10007aa0 f   cxinfo:CXINFO.OBJ
+ 0001:00006b00       ?setdbname@cXInfo@@QAEXGGGPBDH@Z 10007b00 f   cxinfo:CXINFO.OBJ
+ 0001:00006ba0       _BNCS32TxMessage           10007ba0 f   bncsif32:BNCSIF32.dll
+ 0001:00006ba6       _BNCS32RxMessage           10007ba6 f   bncsif32:BNCSIF32.dll
+ 0001:00006bac       ?Override@Calarm_Process@@QAEXHH@Z 10007bac f   calarm_process:Calarm_Process.dll
+ 0001:00006bb2       ?ProcName@Calarm_Process@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 10007bb2 f   calarm_process:Calarm_Process.dll
+ 0001:00006bb8       ??1QString@@QAE@XZ         10007bb8 f   qt-mt323:qt-mt323.dll
+ 0001:00006bbe       ??1QThread@@UAE@XZ         10007bbe f   qt-mt323:qt-mt323.dll
+ 0001:00006bc4       ?latin1@QString@@QBEPBDXZ  10007bc4 f   qt-mt323:qt-mt323.dll
+ 0001:00006bca       ??0QSemaphore@@QAE@H@Z     10007bca f   qt-mt323:qt-mt323.dll
+ 0001:00006bd0       ??0QString@@QAE@ABV0@@Z    10007bd0 f   qt-mt323:qt-mt323.dll
+ 0001:00006bd6       ?makeSharedNull@QString@@CAPAUQStringData@@XZ 10007bd6 f   qt-mt323:qt-mt323.dll
+ 0001:00006bdc       ??0QThread@@QAE@XZ         10007bdc f   qt-mt323:qt-mt323.dll
+ 0001:00006be2       ??1QSemaphore@@UAE@XZ      10007be2 f   qt-mt323:qt-mt323.dll
+ 0001:00006be8       ?deleteSelf@QStringData@@QAEXXZ 10007be8 f   qt-mt323:qt-mt323.dll
+ 0001:00006bee       ?running@QThread@@QBE_NXZ  10007bee f   qt-mt323:qt-mt323.dll
+ 0001:00006bf4       ?terminate@QThread@@QAEXXZ 10007bf4 f   qt-mt323:qt-mt323.dll
+ 0001:00006bfa       ?wait@QThread@@QAE_NK@Z    10007bfa f   qt-mt323:qt-mt323.dll
+ 0001:00006c00       ??1?$QValueList@VQString@@@@QAE@XZ 10007c00 f   qt-mt323:qt-mt323.dll
+ 0001:00006c06       ??1QStringList@@QAE@XZ     10007c06 f   qt-mt323:qt-mt323.dll
+ 0001:00006c0c       ??1QFileInfo@@QAE@XZ       10007c0c f   qt-mt323:qt-mt323.dll
+ 0001:00006c12       ?start@QThread@@QAEXXZ     10007c12 f   qt-mt323:qt-mt323.dll
+ 0001:00006c18       ?number@QString@@SA?AV1@HH@Z 10007c18 f   qt-mt323:qt-mt323.dll
+ 0001:00006c1e       ?lastModified@QFileInfo@@QBE?AVQDateTime@@XZ 10007c1e f   qt-mt323:qt-mt323.dll
+ 0001:00006c24       ??0QFileInfo@@QAE@ABVQString@@@Z 10007c24 f   qt-mt323:qt-mt323.dll
+ 0001:00006c2a       ??H@YA?BVQString@@ABV0@0@Z 10007c2a f   qt-mt323:qt-mt323.dll
+ 0001:00006c30       ??1QRegExp@@QAE@XZ         10007c30 f   qt-mt323:qt-mt323.dll
+ 0001:00006c36       ??1QTextStream@@UAE@XZ     10007c36 f   qt-mt323:qt-mt323.dll
+ 0001:00006c3c       ?close@QFile@@UAEXXZ       10007c3c f   qt-mt323:qt-mt323.dll
+ 0001:00006c42       ?detachInternal@?$QValueList@VQString@@@@AAEXXZ 10007c42 f   qt-mt323:qt-mt323.dll
+ 0001:00006c48       ?split@QStringList@@SA?AV1@ABVQString@@0_N@Z 10007c48 f   qt-mt323:qt-mt323.dll
+ 0001:00006c4e       ?cap@QRegExp@@QAE?AVQString@@H@Z 10007c4e f   qt-mt323:qt-mt323.dll
+ 0001:00006c54       ?search@QRegExp@@QBEHABVQString@@H@Z 10007c54 f   qt-mt323:qt-mt323.dll
+ 0001:00006c5a       ?readLine@QTextStream@@QAE?AVQString@@XZ 10007c5a f   qt-mt323:qt-mt323.dll
+ 0001:00006c60       ??4QString@@QAEAAV0@ABV0@@Z 10007c60 f   qt-mt323:qt-mt323.dll
+ 0001:00006c66       ??0QTextStream@@QAE@PAVQIODevice@@@Z 10007c66 f   qt-mt323:qt-mt323.dll
+ 0001:00006c6c       ??0QRegExp@@QAE@ABVQString@@_N1@Z 10007c6c f   qt-mt323:qt-mt323.dll
+ 0001:00006c72       ??0QString@@QAE@PBD@Z      10007c72 f   qt-mt323:qt-mt323.dll
+ 0001:00006c78       ?open@QFile@@UAE_NH@Z      10007c78 f   qt-mt323:qt-mt323.dll
+ 0001:00006c7e       ??1QFile@@UAE@XZ           10007c7e f   qt-mt323:qt-mt323.dll
+ 0001:00006c84       ?exists@QFile@@QBE_NXZ     10007c84 f   qt-mt323:qt-mt323.dll
+ 0001:00006c8a       ??0QFile@@QAE@ABVQString@@@Z 10007c8a f   qt-mt323:qt-mt323.dll
+ 0001:00006c90       ?toInt@QString@@QBEHPA_NH@Z 10007c90 f   qt-mt323:qt-mt323.dll
+ 0001:00006c96       ??8@YA_NABVQString@@PBD@Z  10007c96 f   qt-mt323:qt-mt323.dll
+ 0001:00006c9c       ??FQSemaphore@@QAEHH@Z     10007c9c f   qt-mt323:qt-mt323.dll
+ 0001:00006ca2       ??EQSemaphore@@QAEHH@Z     10007ca2 f   qt-mt323:qt-mt323.dll
+ 0001:00006ca8       ??4QString@@QAEAAV0@PBD@Z  10007ca8 f   qt-mt323:qt-mt323.dll
+ 0001:00006cae       ?ascii@QString@@QBEPBDXZ   10007cae f   qt-mt323:qt-mt323.dll
+ 0001:00006cb4       ?qDebug@@YAXPBDZZ          10007cb4 f   qt-mt323:qt-mt323.dll
+ 0001:00006cba       ??H@YA?BVQString@@ABV0@PBD@Z 10007cba f   qt-mt323:qt-mt323.dll
+ 0001:00006cc0       ??H@YA?BVQString@@PBDABV0@@Z 10007cc0 f   qt-mt323:qt-mt323.dll
+ 0001:00006cc6       ?arg@QString@@QBE?AV1@HHH@Z 10007cc6 f   qt-mt323:qt-mt323.dll
+ 0001:00006ccc       ?sleep@QThread@@KAXK@Z     10007ccc f   qt-mt323:qt-mt323.dll
+ 0001:00006cd2       ?usleep@QThread@@KAXK@Z    10007cd2 f   qt-mt323:qt-mt323.dll
+ 0001:00006cd8       ??1?$QMemArray@H@@UAE@XZ   10007cd8 f   qt-mt323:qt-mt323.dll
+ 0001:00006cde       ??1?$QMemArray@_N@@UAE@XZ  10007cde f   qt-mt323:qt-mt323.dll
+ 0001:00006ce4       ??1?$QMemArray@D@@UAE@XZ   10007ce4 f   qt-mt323:qt-mt323.dll
+ 0001:00006cea       ??1?$QMemArray@VQPoint@@@@UAE@XZ 10007cea f   qt-mt323:qt-mt323.dll
+ 0001:00006cf0       ??1?$QPtrList@D@@UAE@XZ    10007cf0 f   qt-mt323:qt-mt323.dll
+ 0001:00006cf6       ??1?$QPtrList@VQObject@@@@UAE@XZ 10007cf6 f   qt-mt323:qt-mt323.dll
+ 0001:00006cfc       ??1?$QPtrList@VQWidget@@@@UAE@XZ 10007cfc f   qt-mt323:qt-mt323.dll
+ 0001:00006d02       ??M@YA_NABVQString@@0@Z    10007d02 f   qt-mt323:qt-mt323.dll
+ 0001:00006d08       ?qWarning@@YAXPBDZZ        10007d08 f   qt-mt323:qt-mt323.dll
+ 0001:00006d0e       ??3@YAXPAX@Z               10007d0e f   msvcprt:delop_s.obj
+ 0001:00006d1a       ??0Init@ios_base@std@@QAE@XZ 10007d1a f   msvcprt:MSVCP60.dll
+ 0001:00006d20       ??1Init@ios_base@std@@QAE@XZ 10007d20 f   msvcprt:MSVCP60.dll
+ 0001:00006d26       ??0_Winit@std@@QAE@XZ      10007d26 f   msvcprt:MSVCP60.dll
+ 0001:00006d2c       ??1_Winit@std@@QAE@XZ      10007d2c f   msvcprt:MSVCP60.dll
+ 0001:00006d32       ??1_Lockit@std@@QAE@XZ     10007d32 f   msvcprt:MSVCP60.dll
+ 0001:00006d38       ??0_Lockit@std@@QAE@XZ     10007d38 f   msvcprt:MSVCP60.dll
+ 0001:00006d3e       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10007d3e f   msvcprt:MSVCP60.dll
+ 0001:00006d44       ??8std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z 10007d44 f   msvcprt:MSVCP60.dll
+ 0001:00006d4a       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 10007d4a f   msvcprt:MSVCP60.dll
+ 0001:00006d50       ?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 10007d50 f   msvcprt:MSVCP60.dll
+ 0001:00006d56       ??2@YAPAXI@Z               10007d56 f   MSVCRT:MSVCRT.dll
+ 0001:00006d5c       ___CxxFrameHandler         10007d5c f   MSVCRT:MSVCRT.dll
+ 0001:00006d70       __onexit                   10007d70 f   MSVCRT:atonexit.obj
+ 0001:00006d9c       _atexit                    10007d9c f   MSVCRT:atonexit.obj
+ 0001:00006dae       ??0type_info@@AAE@ABV0@@Z  10007dae f   MSVCRT:ti_inst.obj
+ 0001:00006db9       ??_Gtype_info@@UAEPAXI@Z   10007db9 f i MSVCRT:ti_inst.obj
+ 0001:00006db9       ??_Etype_info@@UAEPAXI@Z   10007db9 f i MSVCRT:ti_inst.obj
+ 0001:00006dd5       ??4type_info@@AAEAAV0@ABV0@@Z 10007dd5 f   MSVCRT:ti_inst.obj
+ 0001:00006dda       _free                      10007dda f   MSVCRT:MSVCRT.dll
+ 0001:00006de0       __CxxThrowException@8      10007de0 f   MSVCRT:MSVCRT.dll
+ 0001:00006de6       _atoi                      10007de6 f   MSVCRT:MSVCRT.dll
+ 0001:00006dec       _strtok                    10007dec f   MSVCRT:MSVCRT.dll
+ 0001:00006df2       _vsprintf                  10007df2 f   MSVCRT:MSVCRT.dll
+ 0001:00006e00       __chkstk                   10007e00 f   MSVCRT:chkstk.obj
+ 0001:00006e00       __alloca_probe             10007e00 f   MSVCRT:chkstk.obj
+ 0001:00006e30       _malloc                    10007e30 f   MSVCRT:MSVCRT.dll
+ 0001:00006e36       ?_set_se_translator@@YAP6AXIPAU_EXCEPTION_POINTERS@@@ZP6AXI0@Z@Z 10007e36 f   MSVCRT:MSVCRT.dll
+ 0001:00006e3c       __purecall                 10007e3c f   MSVCRT:MSVCRT.dll
+ 0001:00006e42       __CRT_INIT@12              10007e42 f   MSVCRT:crtdll.obj
+ 0001:00006eed       __DllMainCRTStartup@12     10007eed f   MSVCRT:crtdll.obj
+ 0001:00006f8a       ___dllonexit               10007f8a f   MSVCRT:MSVCRT.dll
+ 0001:00006f90       ??1type_info@@UAE@XZ       10007f90 f   MSVCRT:MSVCRT.dll
+ 0001:00006f96       __initterm                 10007f96 f   MSVCRT:MSVCRT.dll
+ 0001:00006fa0       _GetModuleFileNameA@12     10007fa0 f   kernel32:KERNEL32.dll
+ 0001:00006fa6       _LocalFree@4               10007fa6 f   kernel32:KERNEL32.dll
+ 0001:00006fac       _FormatMessageA@28         10007fac f   kernel32:KERNEL32.dll
+ 0001:00006fb2       _GetLastError@0            10007fb2 f   kernel32:KERNEL32.dll
+ 0001:00006fb8       _WritePrivateProfileStringA@16 10007fb8 f   kernel32:KERNEL32.dll
+ 0001:00006fbe       _lstrlenA@4                10007fbe f   kernel32:KERNEL32.dll
+ 0001:00006fc4       _lstrcmpA@8                10007fc4 f   kernel32:KERNEL32.dll
+ 0001:00006fca       _lstrcpynA@12              10007fca f   kernel32:KERNEL32.dll
+ 0001:00006fd0       _GetStockObject@4          10007fd0 f   gdi32:GDI32.dll
+ 0001:00006fd6       _MessageBoxA@16            10007fd6 f   user32:USER32.dll
+ 0001:00006fdc       _CreateWindowExA@48        10007fdc f   user32:USER32.dll
+ 0001:00006fe2       _RegisterClassA@4          10007fe2 f   user32:USER32.dll
+ 0001:00006fe8       _UnregisterClassA@8        10007fe8 f   user32:USER32.dll
+ 0001:00006fee       _DestroyWindow@4           10007fee f   user32:USER32.dll
+ 0001:00006ff4       _SendMessageA@16           10007ff4 f   user32:USER32.dll
+ 0001:00006ffa       _DefWindowProcA@16         10007ffa f   user32:USER32.dll
+ 0001:00007000       _SetWindowLongA@12         10008000 f   user32:USER32.dll
+ 0001:00007006       _GetWindowLongA@8          10008006 f   user32:USER32.dll
+ 0001:0000700c       _wsprintfA                 1000800c f   user32:USER32.dll
+ 0001:00007012       __itoa                     10008012 f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__BNCS32RxMessage     10009000     bncsif32:BNCSIF32.dll
+ 0002:00000004       __imp__BNCS32TxMessage     10009004     bncsif32:BNCSIF32.dll
+ 0002:00000008       \177BNCSIF32_NULL_THUNK_DATA 10009008     bncsif32:BNCSIF32.dll
+ 0002:0000000c       __imp_?ProcName@Calarm_Process@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 1000900c     calarm_process:Calarm_Process.dll
+ 0002:00000010       __imp_?Override@Calarm_Process@@QAEXHH@Z 10009010     calarm_process:Calarm_Process.dll
+ 0002:00000014       \177Calarm_Process_NULL_THUNK_DATA 10009014     calarm_process:Calarm_Process.dll
+ 0002:00000018       __imp__GetStockObject@4    10009018     gdi32:GDI32.dll
+ 0002:0000001c       \177GDI32_NULL_THUNK_DATA  1000901c     gdi32:GDI32.dll
+ 0002:00000020       __imp__lstrcpynA@12        10009020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__lstrcmpA@8          10009024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__lstrlenA@4          10009028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__WritePrivateProfileStringA@16 1000902c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetLastError@0      10009030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__FormatMessageA@28   10009034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__LocalFree@4         10009038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetModuleFileNameA@12 1000903c     kernel32:KERNEL32.dll
+ 0002:00000040       \177KERNEL32_NULL_THUNK_DATA 10009040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp_??1Init@ios_base@std@@QAE@XZ 10009044     msvcprt:MSVCP60.dll
+ 0002:00000048       __imp_??0_Winit@std@@QAE@XZ 10009048     msvcprt:MSVCP60.dll
+ 0002:0000004c       __imp_??1_Winit@std@@QAE@XZ 1000904c     msvcprt:MSVCP60.dll
+ 0002:00000050       __imp_??1_Lockit@std@@QAE@XZ 10009050     msvcprt:MSVCP60.dll
+ 0002:00000054       __imp_??0_Lockit@std@@QAE@XZ 10009054     msvcprt:MSVCP60.dll
+ 0002:00000058       __imp_??0Init@ios_base@std@@QAE@XZ 10009058     msvcprt:MSVCP60.dll
+ 0002:0000005c       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000905c     msvcprt:MSVCP60.dll
+ 0002:00000060       __imp_??8std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z 10009060     msvcprt:MSVCP60.dll
+ 0002:00000064       __imp_?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 10009064     msvcprt:MSVCP60.dll
+ 0002:00000068       __imp_?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 10009068     msvcprt:MSVCP60.dll
+ 0002:0000006c       \177MSVCP60_NULL_THUNK_DATA 1000906c     msvcprt:MSVCP60.dll
+ 0002:00000070       __imp__atoi                10009070     MSVCRT:MSVCRT.dll
+ 0002:00000074       __imp___CxxThrowException@8 10009074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp__free                10009078     MSVCRT:MSVCRT.dll
+ 0002:0000007c       __imp____CxxFrameHandler   1000907c     MSVCRT:MSVCRT.dll
+ 0002:00000080       __imp_??2@YAPAXI@Z         10009080     MSVCRT:MSVCRT.dll
+ 0002:00000084       __imp__strtok              10009084     MSVCRT:MSVCRT.dll
+ 0002:00000088       __imp__vsprintf            10009088     MSVCRT:MSVCRT.dll
+ 0002:0000008c       __imp__malloc              1000908c     MSVCRT:MSVCRT.dll
+ 0002:00000090       __imp_?_set_se_translator@@YAP6AXIPAU_EXCEPTION_POINTERS@@@ZP6AXI0@Z@Z 10009090     MSVCRT:MSVCRT.dll
+ 0002:00000094       __imp___purecall           10009094     MSVCRT:MSVCRT.dll
+ 0002:00000098       __imp___onexit             10009098     MSVCRT:MSVCRT.dll
+ 0002:0000009c       __imp_??1type_info@@UAE@XZ 1000909c     MSVCRT:MSVCRT.dll
+ 0002:000000a0       __imp___initterm           100090a0     MSVCRT:MSVCRT.dll
+ 0002:000000a4       __imp___adjust_fdiv        100090a4     MSVCRT:MSVCRT.dll
+ 0002:000000a8       __imp____dllonexit         100090a8     MSVCRT:MSVCRT.dll
+ 0002:000000ac       __imp___itoa               100090ac     MSVCRT:MSVCRT.dll
+ 0002:000000ac       __imp__itoa                100090ac     MSVCRT:MSVCRT.dll
+ 0002:000000b0       \177MSVCRT_NULL_THUNK_DATA 100090b0     MSVCRT:MSVCRT.dll
+ 0002:000000b4       __imp__GetWindowLongA@8    100090b4     user32:USER32.dll
+ 0002:000000b8       __imp__SetWindowLongA@12   100090b8     user32:USER32.dll
+ 0002:000000bc       __imp__DefWindowProcA@16   100090bc     user32:USER32.dll
+ 0002:000000c0       __imp__SendMessageA@16     100090c0     user32:USER32.dll
+ 0002:000000c4       __imp__DestroyWindow@4     100090c4     user32:USER32.dll
+ 0002:000000c8       __imp__UnregisterClassA@8  100090c8     user32:USER32.dll
+ 0002:000000cc       __imp__RegisterClassA@4    100090cc     user32:USER32.dll
+ 0002:000000d0       __imp__CreateWindowExA@48  100090d0     user32:USER32.dll
+ 0002:000000d4       __imp__MessageBoxA@16      100090d4     user32:USER32.dll
+ 0002:000000d8       __imp__wsprintfA           100090d8     user32:USER32.dll
+ 0002:000000dc       \177USER32_NULL_THUNK_DATA 100090dc     user32:USER32.dll
+ 0002:000000e0       __imp_??1?$QMemArray@_N@@UAE@XZ 100090e0     qt-mt323:qt-mt323.dll
+ 0002:000000e4       __imp_??8@YA_NABVQString@@PBD@Z 100090e4     qt-mt323:qt-mt323.dll
+ 0002:000000e8       __imp_??1?$QMemArray@VQPoint@@@@UAE@XZ 100090e8     qt-mt323:qt-mt323.dll
+ 0002:000000ec       __imp_??1?$QPtrList@D@@UAE@XZ 100090ec     qt-mt323:qt-mt323.dll
+ 0002:000000f0       __imp_??1?$QPtrList@VQObject@@@@UAE@XZ 100090f0     qt-mt323:qt-mt323.dll
+ 0002:000000f4       __imp_??1?$QPtrList@VQWidget@@@@UAE@XZ 100090f4     qt-mt323:qt-mt323.dll
+ 0002:000000f8       __imp_??M@YA_NABVQString@@0@Z 100090f8     qt-mt323:qt-mt323.dll
+ 0002:000000fc       __imp_?qWarning@@YAXPBDZZ  100090fc     qt-mt323:qt-mt323.dll
+ 0002:00000100       __imp_?toInt@QString@@QBEHPA_NH@Z 10009100     qt-mt323:qt-mt323.dll
+ 0002:00000104       __imp_??0QFile@@QAE@ABVQString@@@Z 10009104     qt-mt323:qt-mt323.dll
+ 0002:00000108       __imp_?exists@QFile@@QBE_NXZ 10009108     qt-mt323:qt-mt323.dll
+ 0002:0000010c       __imp_??1QFile@@UAE@XZ     1000910c     qt-mt323:qt-mt323.dll
+ 0002:00000110       __imp_?open@QFile@@UAE_NH@Z 10009110     qt-mt323:qt-mt323.dll
+ 0002:00000114       __imp_??0QString@@QAE@PBD@Z 10009114     qt-mt323:qt-mt323.dll
+ 0002:00000118       __imp_??0QRegExp@@QAE@ABVQString@@_N1@Z 10009118     qt-mt323:qt-mt323.dll
+ 0002:0000011c       __imp_??0QTextStream@@QAE@PAVQIODevice@@@Z 1000911c     qt-mt323:qt-mt323.dll
+ 0002:00000120       __imp_??4QString@@QAEAAV0@ABV0@@Z 10009120     qt-mt323:qt-mt323.dll
+ 0002:00000124       __imp_?readLine@QTextStream@@QAE?AVQString@@XZ 10009124     qt-mt323:qt-mt323.dll
+ 0002:00000128       __imp_?search@QRegExp@@QBEHABVQString@@H@Z 10009128     qt-mt323:qt-mt323.dll
+ 0002:0000012c       __imp_?cap@QRegExp@@QAE?AVQString@@H@Z 1000912c     qt-mt323:qt-mt323.dll
+ 0002:00000130       __imp_?split@QStringList@@SA?AV1@ABVQString@@0_N@Z 10009130     qt-mt323:qt-mt323.dll
+ 0002:00000134       __imp_?detachInternal@?$QValueList@VQString@@@@AAEXXZ 10009134     qt-mt323:qt-mt323.dll
+ 0002:00000138       __imp_??1?$QMemArray@H@@UAE@XZ 10009138     qt-mt323:qt-mt323.dll
+ 0002:0000013c       __imp_??1QTextStream@@UAE@XZ 1000913c     qt-mt323:qt-mt323.dll
+ 0002:00000140       __imp_??1QRegExp@@QAE@XZ   10009140     qt-mt323:qt-mt323.dll
+ 0002:00000144       __imp_??H@YA?BVQString@@ABV0@0@Z 10009144     qt-mt323:qt-mt323.dll
+ 0002:00000148       __imp_??0QFileInfo@@QAE@ABVQString@@@Z 10009148     qt-mt323:qt-mt323.dll
+ 0002:0000014c       __imp_?lastModified@QFileInfo@@QBE?AVQDateTime@@XZ 1000914c     qt-mt323:qt-mt323.dll
+ 0002:00000150       __imp_?number@QString@@SA?AV1@HH@Z 10009150     qt-mt323:qt-mt323.dll
+ 0002:00000154       __imp_?start@QThread@@QAEXXZ 10009154     qt-mt323:qt-mt323.dll
+ 0002:00000158       __imp_??1QFileInfo@@QAE@XZ 10009158     qt-mt323:qt-mt323.dll
+ 0002:0000015c       __imp_??1QStringList@@QAE@XZ 1000915c     qt-mt323:qt-mt323.dll
+ 0002:00000160       __imp_??1?$QValueList@VQString@@@@QAE@XZ 10009160     qt-mt323:qt-mt323.dll
+ 0002:00000164       __imp_?wait@QThread@@QAE_NK@Z 10009164     qt-mt323:qt-mt323.dll
+ 0002:00000168       __imp_?terminate@QThread@@QAEXXZ 10009168     qt-mt323:qt-mt323.dll
+ 0002:0000016c       __imp_?running@QThread@@QBE_NXZ 1000916c     qt-mt323:qt-mt323.dll
+ 0002:00000170       __imp_?deleteSelf@QStringData@@QAEXXZ 10009170     qt-mt323:qt-mt323.dll
+ 0002:00000174       __imp_??1QSemaphore@@UAE@XZ 10009174     qt-mt323:qt-mt323.dll
+ 0002:00000178       __imp_??0QThread@@QAE@XZ   10009178     qt-mt323:qt-mt323.dll
+ 0002:0000017c       __imp_?makeSharedNull@QString@@CAPAUQStringData@@XZ 1000917c     qt-mt323:qt-mt323.dll
+ 0002:00000180       __imp_?shared_null@QString@@0PAUQStringData@@A 10009180     qt-mt323:qt-mt323.dll
+ 0002:00000184       __imp_??0QString@@QAE@ABV0@@Z 10009184     qt-mt323:qt-mt323.dll
+ 0002:00000188       __imp_??0QSemaphore@@QAE@H@Z 10009188     qt-mt323:qt-mt323.dll
+ 0002:0000018c       __imp_?latin1@QString@@QBEPBDXZ 1000918c     qt-mt323:qt-mt323.dll
+ 0002:00000190       __imp_??1QThread@@UAE@XZ   10009190     qt-mt323:qt-mt323.dll
+ 0002:00000194       __imp_??1QString@@QAE@XZ   10009194     qt-mt323:qt-mt323.dll
+ 0002:00000198       __imp_?usleep@QThread@@KAXK@Z 10009198     qt-mt323:qt-mt323.dll
+ 0002:0000019c       __imp_?sleep@QThread@@KAXK@Z 1000919c     qt-mt323:qt-mt323.dll
+ 0002:000001a0       __imp_?arg@QString@@QBE?AV1@HHH@Z 100091a0     qt-mt323:qt-mt323.dll
+ 0002:000001a4       __imp_??H@YA?BVQString@@PBDABV0@@Z 100091a4     qt-mt323:qt-mt323.dll
+ 0002:000001a8       __imp_??H@YA?BVQString@@ABV0@PBD@Z 100091a8     qt-mt323:qt-mt323.dll
+ 0002:000001ac       __imp_?qDebug@@YAXPBDZZ    100091ac     qt-mt323:qt-mt323.dll
+ 0002:000001b0       __imp_?ascii@QString@@QBEPBDXZ 100091b0     qt-mt323:qt-mt323.dll
+ 0002:000001b4       __imp_??4QString@@QAEAAV0@PBD@Z 100091b4     qt-mt323:qt-mt323.dll
+ 0002:000001b8       __imp_??EQSemaphore@@QAEHH@Z 100091b8     qt-mt323:qt-mt323.dll
+ 0002:000001bc       __imp_?close@QFile@@UAEXXZ 100091bc     qt-mt323:qt-mt323.dll
+ 0002:000001c0       __imp_??FQSemaphore@@QAEHH@Z 100091c0     qt-mt323:qt-mt323.dll
+ 0002:000001c4       __imp_??1?$QMemArray@D@@UAE@XZ 100091c4     qt-mt323:qt-mt323.dll
+ 0002:000001c8       \177qt-mt323_NULL_THUNK_DATA 100091c8     qt-mt323:qt-mt323.dll
+ 0002:000001f0       ??_SQSemaphore@@6B@        100091f0     bncsOutput.obj
+ 0002:000001f8       ??_7bncsOutput@@6BQThread@@@ 100091f8     bncsOutput.obj
+ 0002:00000204       ??_7bncsOutput@@6BcXInfo@@@ 10009204     bncsOutput.obj
+ 0002:0000020c       ??_7infoDataItem@@6B@      1000920c     infoDataItem.obj
+ 0002:00000214       ??_7logic_interface@@6B@   10009214     logic_interface.obj
+ 0002:0000026c       ??_7alarms_output_base@@6B@ 1000926c     logic_interface.obj
+ 0002:000002c4       ??_7alarms_base@@6B@       100092c4     logic_interface.obj
+ 0002:000002f0       ??_7cXInfo@@6B@            100092f0     cxinfo:CXINFO.OBJ
+ 0002:000002f8       ??_7type_info@@6B@         100092f8     MSVCRT:ti_inst.obj
+ 0002:00000300       ??_R1A@?0A@A@QSemaphore@@8 10009300     bncsOutput.obj
+ 0002:00000318       ??_R2QSemaphore@@8         10009318     bncsOutput.obj
+ 0002:00000320       ??_R3QSemaphore@@8         10009320     bncsOutput.obj
+ 0002:00000330       ??_R4QSemaphore@@6B@       10009330     bncsOutput.obj
+ 0002:00000348       ??_R4bncsOutput@@6BQThread@@@ 10009348     bncsOutput.obj
+ 0002:00000360       ??_R1EE@?0A@8Qt@@8         10009360     bncsOutput.obj
+ 0002:00000378       ??_R1EA@?0A@8QThread@@8    10009378     bncsOutput.obj
+ 0002:00000390       ??_R1A@?0A@A@cXInfo@@8     10009390     bncsOutput.obj
+ 0002:000003a8       ??_R1A@?0A@A@bncsOutput@@8 100093a8     bncsOutput.obj
+ 0002:000003c0       ??_R2bncsOutput@@8         100093c0     bncsOutput.obj
+ 0002:000003d8       ??_R3bncsOutput@@8         100093d8     bncsOutput.obj
+ 0002:000003e8       ??_R4bncsOutput@@6BcXInfo@@@ 100093e8     bncsOutput.obj
+ 0002:00000400       ??_R1A@?0A@A@infoDataItem@@8 10009400     infoDataItem.obj
+ 0002:00000418       ??_R2infoDataItem@@8       10009418     infoDataItem.obj
+ 0002:00000420       ??_R3infoDataItem@@8       10009420     infoDataItem.obj
+ 0002:00000430       ??_R4infoDataItem@@6B@     10009430     infoDataItem.obj
+ 0002:00000448       ??_R1A@?0A@A@logic_interface@@8 10009448     logic_interface.obj
+ 0002:00000460       ??_R2logic_interface@@8    10009460     logic_interface.obj
+ 0002:00000470       ??_R3logic_interface@@8    10009470     logic_interface.obj
+ 0002:00000480       ??_R4logic_interface@@6B@  10009480     logic_interface.obj
+ 0002:00000498       ??_R1A@?0A@A@alarms_output_base@@8 10009498     logic_interface.obj
+ 0002:000004b0       ??_R2alarms_output_base@@8 100094b0     logic_interface.obj
+ 0002:000004c0       ??_R3alarms_output_base@@8 100094c0     logic_interface.obj
+ 0002:000004d0       ??_R4alarms_output_base@@6B@ 100094d0     logic_interface.obj
+ 0002:000004e8       ??_R1A@?0A@A@alarms_base@@8 100094e8     logic_interface.obj
+ 0002:00000500       ??_R2alarms_base@@8        10009500     logic_interface.obj
+ 0002:00000508       ??_R3alarms_base@@8        10009508     logic_interface.obj
+ 0002:00000518       ??_R4alarms_base@@6B@      10009518     logic_interface.obj
+ 0002:00000530       ??_R1A@?0A@A@type_info@@8  10009530     MSVCRT:ti_inst.obj
+ 0002:00000548       ??_R2type_info@@8          10009548     MSVCRT:ti_inst.obj
+ 0002:00000550       ??_R3type_info@@8          10009550     MSVCRT:ti_inst.obj
+ 0002:00000560       ??_R4type_info@@6B@        10009560     MSVCRT:ti_inst.obj
+ 0002:00000ef8       __CT??_R0?AVstructured_exception@@@88 10009ef8     except.obj
+ 0002:00000f18       __CTA1?AVstructured_exception@@ 10009f18     except.obj
+ 0002:00000f20       __TI1?AVstructured_exception@@ 10009f20     except.obj
+ 0002:00001008       __IMPORT_DESCRIPTOR_BNCSIF32 1000a008     bncsif32:BNCSIF32.dll
+ 0002:0000101c       __IMPORT_DESCRIPTOR_Calarm_Process 1000a01c     calarm_process:Calarm_Process.dll
+ 0002:00001030       __IMPORT_DESCRIPTOR_qt-mt323 1000a030     qt-mt323:qt-mt323.dll
+ 0002:00001044       __IMPORT_DESCRIPTOR_MSVCP60 1000a044     msvcprt:MSVCP60.dll
+ 0002:00001058       __IMPORT_DESCRIPTOR_MSVCRT 1000a058     MSVCRT:MSVCRT.dll
+ 0002:0000106c       __IMPORT_DESCRIPTOR_KERNEL32 1000a06c     kernel32:KERNEL32.dll
+ 0002:00001080       __IMPORT_DESCRIPTOR_GDI32  1000a080     gdi32:GDI32.dll
+ 0002:00001094       __IMPORT_DESCRIPTOR_USER32 1000a094     user32:USER32.dll
+ 0002:000010a8       __NULL_IMPORT_DESCRIPTOR   1000a0a8     bncsif32:BNCSIF32.dll
+ 0003:00000000       ___xc_a                    1000b000     MSVCRT:cinitexe.obj
+ 0003:0000001c       ___xc_z                    1000b01c     MSVCRT:cinitexe.obj
+ 0003:00000020       ___xi_a                    1000b020     MSVCRT:cinitexe.obj
+ 0003:00000024       ___xi_z                    1000b024     MSVCRT:cinitexe.obj
+ 0003:00000030       ??_R0?AVQSemaphore@@@8     1000b030     bncsOutput.obj
+ 0003:00000050       ??_R0?AVQt@@@8             1000b050     bncsOutput.obj
+ 0003:00000068       ??_R0?AVQThread@@@8        1000b068     bncsOutput.obj
+ 0003:00000080       ??_R0?AVcXInfo@@@8         1000b080     bncsOutput.obj
+ 0003:00000098       ??_R0?AVbncsOutput@@@8     1000b098     bncsOutput.obj
+ 0003:000000b4       ??_C@_0BN@LPKO@constructor?5?9?5this?5dll?5is?5?$CFs?$AA@ 1000b0b4     bncsOutput.obj
+ 0003:000000d4       ??_C@_0DE@BBCN@Thread?5is?5still?5running?5despite?5@ 1000b0d4     bncsOutput.obj
+ 0003:00000108       ??_C@_0BL@PENA@Thread?5failed?5to?5terminate?$AA@ 1000b108     bncsOutput.obj
+ 0003:00000128       ??_R0?AVstructured_exception@@@8 1000b128     bncsOutput.obj
+ 0003:0000014c       ??_C@_0CP@CFLO@BNCS_OutputBNCS_Acq?3init?$CI?$CJ?5?3?3Unk@ 1000b14c     bncsOutput.obj
+ 0003:0000017c       ??_C@_0DC@HKOA@BNCS_Output?3init?$CI?$CJ?5?3?3thrown?5exce@ 1000b17c     bncsOutput.obj
+ 0003:000001b0       ??_C@_0BN@MEJA@Can?8t?5Connect?5to?5infodriver?5?$AA@ 1000b1b0     bncsOutput.obj
+ 0003:000001d0       ??_C@_0BE@FGNO@Finished?5loading?5?$CFs?$AA@ 1000b1d0     bncsOutput.obj
+ 0003:000001e4       ??_C@_0BO@NIDM@Connected?5OK?5to?5infodriver?5?$CFd?$AA@ 1000b1e4     bncsOutput.obj
+ 0003:00000204       ??_C@_0DG@GBEG@Infodriver?5connection?5?$CK?$CK?5Error?5?$CK@ 1000b204     bncsOutput.obj
+ 0003:0000023c       ??_C@_0DI@MDFI@Infodriver?5connection?5?$CK?$CK?5Error?5?$CK@ 1000b23c     bncsOutput.obj
+ 0003:00000274       ??_C@_0M@CDEO@BNCS_CONFIG?$AA@ 1000b274     bncsOutput.obj
+ 0003:00000280       ??_C@_06LCIG@Driver?$AA@   1000b280     bncsOutput.obj
+ 0003:00000288       ??_C@_01PLJA@0?$AA@        1000b288     bncsOutput.obj
+ 0003:0000028c       ??_C@_0BD@LMGI@Driver?5not?5set?5in?5?$AA@ 1000b28c     bncsOutput.obj
+ 0003:000002a0       ??_C@_0BF@LLPD@Driver?5not?5set?5in?5?$CFs?$AA@ 1000b2a0     bncsOutput.obj
+ 0003:000002b8       ??_C@_01KPOD@?$DN?$AA@     1000b2b8     bncsOutput.obj
+ 0003:000002bc       ??_C@_08ECMI@?2?$FL?$CI?4?$CK?$CJ?2?$FN?$AA@ 1000b2bc     bncsOutput.obj
+ 0003:000002c8       ??_C@_0BJ@IDGM@File?5?8?$CFs?8?5does?5not?5exist?$AA@ 1000b2c8     bncsOutput.obj
+ 0003:000002e4       ??_C@_0CA@OFEN@Initialising?5Output?5module?5?9?5?$CFs?$AA@ 1000b2e4     bncsOutput.obj
+ 0003:00000304       ??_C@_07EOBJ@Process?$AA@  1000b304     bncsOutput.obj
+ 0003:0000030c       ??_C@_09HAPM@AlmSystem?$AA@ 1000b30c     bncsOutput.obj
+ 0003:00000318       ??_C@_04EFNI@Name?$AA@     1000b318     bncsOutput.obj
+ 0003:00000320       ??_C@_06NILE@System?$AA@   1000b320     bncsOutput.obj
+ 0003:00000328       ??_C@_0FF@FHLC@bncsOutput?3?3DataChange?$CI?$CJ?5thrown?5@ 1000b328     bncsOutput.obj
+ 0003:00000380       ??_C@_0BP@GNJO@Buffer?5full?0?5data?5will?5be?5lost?$AA@ 1000b380     bncsOutput.obj
+ 0003:000003a0       ??_C@_0BD@FLPL@Item?5added?5to?5list?$AA@ 1000b3a0     bncsOutput.obj
+ 0003:000003b4       ??_C@_0BB@LIGB@Add?5item?5to?5list?$AA@ 1000b3b4     bncsOutput.obj
+ 0003:000003c8       ??_C@_0DD@EHJD@bncsOutput?3?3DataChange?$CI?$CJ?5failed?5@ 1000b3c8     bncsOutput.obj
+ 0003:000003fc       ??_C@_0BI@FALO@Create?5new?5infoDataItem?$AA@ 1000b3fc     bncsOutput.obj
+ 0003:00000414       ??_C@_0BO@GHKG@Get?5Slot?5we?5have?5found?5in?5map?$AA@ 1000b414     bncsOutput.obj
+ 0003:00000434       ??_C@_09DIAM@Find?5proc?$AA@ 1000b434     bncsOutput.obj
+ 0003:00000440       ??_C@_0CD@POJJ@bncsOutput?3?3DataChange?5count?5is?5@ 1000b440     bncsOutput.obj
+ 0003:00000464       ??_C@_0DB@DKIO@bncsOutput?3?3notify?$CI?$CJ?5thrown?5exce@ 1000b464     bncsOutput.obj
+ 0003:00000498       ??_C@_0CJ@CHPN@status?5?$DN?5BBC_REQDEVGOTXRX?5?$CI?$CFd?$CJ?0?5@ 1000b498     bncsOutput.obj
+ 0003:000004c4       ??_C@_0CJ@DDBC@status?5?$DN?5BBC_INQDEVGOTXRX?5?$CI?$CFd?$CJ?0?5@ 1000b4c4     bncsOutput.obj
+ 0003:000004f0       ??_C@_0CK@IKCD@status?5?$DN?5BBC_DEVICEIDINUSE?5?$CI?$CFd?$CJ?0@ 1000b4f0     bncsOutput.obj
+ 0003:0000051c       ??_C@_0BF@IPFJ@iStatus?$DN?$CFd?0?5msg?5?8?$CFs?8?$AA@ 1000b51c     bncsOutput.obj
+ 0003:00000534       ??_C@_0CL@OCIM@status?5?$DN?5BBC_REQDEVGORXONLY?5?$CI?$CFd?$CJ@ 1000b534     bncsOutput.obj
+ 0003:00000560       ??_C@_0BM@PALA@Infodriver?5has?5disconnected?$AA@ 1000b560     bncsOutput.obj
+ 0003:0000057c       ??_C@_0BP@OPMA@Infodriver?5?$CFd?5has?5disconnected?$AA@ 1000b57c     bncsOutput.obj
+ 0003:0000059c       ??_C@_01KMAE@?0?$AA@       1000b59c     bncsOutput.obj
+ 0003:000005a0       ??_C@_01GJD@?9?$AA@        1000b5a0     bncsOutput.obj
+ 0003:000005a4       ??_C@_0M@HEIM@bncsOutput?9?$AA@ 1000b5a4     bncsOutput.obj
+ 0003:000005b0       ??_C@_0DA@OKCL@bncsOutput?3?3newData?5thrown?5excep@ 1000b5b0     bncsOutput.obj
+ 0003:000005e0       ??_C@_0BJ@IBBB@setTxMode?$CI?$CJ?5returning?5?$CFd?$AA@ 1000b5e0     bncsOutput.obj
+ 0003:000005fc       ??_C@_0BE@KOK@Going?5to?5Rx?5Only?5?$CF1?$AA@ 1000b5fc     bncsOutput.obj
+ 0003:00000610       ??_C@_0BB@NFCL@Going?5to?5TxRx?5?$CF1?$AA@ 1000b610     bncsOutput.obj
+ 0003:00000624       ??_C@_0BI@GGGF@Going?5to?5force?5TxRx?4?5?$CF1?$AA@ 1000b624     bncsOutput.obj
+ 0003:0000063c       ??_C@_0BM@CINL@setTxMode?$CI?$CJ?5current_mode?$DN?$CFd?$AA@ 1000b63c     bncsOutput.obj
+ 0003:00000658       ??_C@_0CK@CLKO@setTxMode?$CI?$CJ?5returning?5false?4not?5@ 1000b658     bncsOutput.obj
+ 0003:00000684       ??_C@_0CI@FHHJ@setTxMode?$CI?$CJ?5set?5Mode?$DN?$CFs?$CFs?4?5conne@ 1000b684     bncsOutput.obj
+ 0003:000006ac       ??_C@_06PBJJ@FORCE?5?$AA@  1000b6ac     bncsOutput.obj
+ 0003:000006b4       ??_C@_06BIKK@RxOnly?$AA@   1000b6b4     bncsOutput.obj
+ 0003:000006bc       ??_C@_04FPN@TxRx?$AA@      1000b6bc     bncsOutput.obj
+ 0003:000006c4       ??_C@_0BL@DLOJ@Connected?5OK?5to?5infodriver?$AA@ 1000b6c4     bncsOutput.obj
+ 0003:000006e0       ??_C@_0BP@IMHE@Not?5connected?5to?5?$CFd?4?5Trying?4?4?4?$AA@ 1000b6e0     bncsOutput.obj
+ 0003:00000700       ??_C@_0CJ@KOAP@bncsOutput?3?3run?$CI?$CJ?5thrown?5other?5e@ 1000b700     bncsOutput.obj
+ 0003:0000072c       ??_C@_0EG@ONLL@bncsOutput?3?3run?$CI?$CJ?5thrown?5excepti@ 1000b72c     bncsOutput.obj
+ 0003:00000774       ??_C@_0BD@EIHF@run?$CI?$CJ?5has?5finished?$AA@ 1000b774     bncsOutput.obj
+ 0003:00000788       ??_C@_0CB@MEOB@Sleeping?5between?5500?5settings?$CB?$CB?$CB@ 1000b788     bncsOutput.obj
+ 0003:000007ac       ??_C@_0BB@HCAC@infoItem?5deleted?$AA@ 1000b7ac     bncsOutput.obj
+ 0003:000007c0       ??_C@_08MBAI@Slot?5Set?$AA@ 1000b7c0     bncsOutput.obj
+ 0003:000007cc       ??_C@_08EIDN@Set?5Slot?$AA@ 1000b7cc     bncsOutput.obj
+ 0003:000007d8       ??_C@_0BF@GKNB@get?5item?5from?5buffer?$AA@ 1000b7d8     bncsOutput.obj
+ 0003:000007f0       ??_C@_0BL@NAAN@Deleting?5items?5from?5buffer?$AA@ 1000b7f0     bncsOutput.obj
+ 0003:0000080c       ??_C@_09PHGC@Connected?$AA@ 1000b80c     bncsOutput.obj
+ 0003:00000818       ??_C@_09IIFG@Start?5Run?$AA@ 1000b818     bncsOutput.obj
+ 0003:00000824       ??_C@_0BI@PHJO@ASSERT?3?5?$CC?$CFs?$CC?5in?5?$CFs?5?$CI?$CFd?$CJ?$AA@ 1000b824     bncsOutput.obj
+ 0003:0000083c       ??_C@_0L@MGKG@i?5?$DM?$DN?5nodes?$AA@ 1000b83c     bncsOutput.obj
+ 0003:00000848       ??_C@_0CB@GILJ@C?3?2Qt?23?42?43?2include?2qvaluelist?4h@ 1000b848     bncsOutput.obj
+ 0003:00000870       ??_R0?AVinfoDataItem@@@8   1000b870     infoDataItem.obj
+ 0003:00000890       ??_R0?AVlogic_interface@@@8 1000b890     logic_interface.obj
+ 0003:000008b0       ??_R0?AValarms_output_base@@@8 1000b8b0     logic_interface.obj
+ 0003:000008d8       ??_R0?AValarms_base@@@8    1000b8d8     logic_interface.obj
+ 0003:000008f4       ??_C@_0BA@MHB@logic_interface?$AA@ 1000b8f4     logic_interface.obj
+ 0003:00000904       ??_C@_0BN@PNDO@aboutToClose?5?9?5Data?5is?5ready?$AA@ 1000b904     logic_interface.obj
+ 0003:00000924       ??_C@_0M@IIBJ@bncsOutput?3?$AA@ 1000b924     logic_interface.obj
+ 0003:00000930       ??_C@_0BN@OOPG@Header?5doesn?8t?5match?5library?$AA@ 1000b930     cxinfo:CXINFO.OBJ
+ 0003:00000950       ??_C@_05CKBG@Error?$AA@    1000b950     cxinfo:CXINFO.OBJ
+ 0003:00000958       ??_C@_0O@BJKA@cxextinfospwn?$AA@ 1000b958     cxinfo:CXINFO.OBJ
+ 0003:00000968       ??_C@_0BB@JCLM@Device?5ID?5in?5use?$AA@ 1000b968     cxinfo:CXINFO.OBJ
+ 0003:0000097c       ??_C@_08KLDB@OOB?5Data?$AA@ 1000b97c     cxinfo:CXINFO.OBJ
+ 0003:00000988       ??_C@_0BH@MNJL@RM?5?$CFd?5?$CFd?5?$CFd?5?8?$CFs?8?5?$CFd?5?$CFd?$AA@ 1000b988     cxinfo:CXINFO.OBJ
+ 0003:000009a0       ??_R0?AVtype_info@@@8      1000b9a0     MSVCRT:ti_inst.obj
+ 0003:000009c0       ?g_szModFileName@@3PADA    1000b9c0     alm_bncs_op.obj
+ 0003:00000ac4       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@1IA 1000bac4     bncsOutput.obj
+ 0003:00000ac8       ?_Nil@?$_Tree@HU?$pair@$$CBHVQString@@@std@@U_Kfn@?$map@HVQString@@U?$less@H@std@@V?$allocator@VQString@@@3@@2@U?$less@H@2@V?$allocator@VQString@@@2@@std@@1PAU_Node@12@A 1000bac8     bncsOutput.obj
+ 0003:00000acc       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@1IA 1000bacc     bncsOutput.obj
+ 0003:00000ad0       ?_Nil@?$_Tree@HU?$pair@$$CBHH@std@@U_Kfn@?$map@HHU?$less@H@std@@V?$allocator@H@2@@2@U?$less@H@2@V?$allocator@H@2@@std@@1PAU_Node@12@A 1000bad0     bncsOutput.obj
+ 0003:00000ad4       ?_Nilrefs@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@1IA 1000bad4     bncsOutput.obj
+ 0003:00000ad8       ?_Nil@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@1PAU_Node@12@A 1000bad8     bncsOutput.obj
+ 0003:00000adc       ??_C@_00A@?$AA@            1000badc     bncsOutput.obj
+ 0003:00000b1c       __adjust_fdiv              1000bb1c     <common>
+ 0003:00000b20       __pRawDllMain              1000bb20     <common>
+ 0003:00000b24       ___onexitend               1000bb24     <common>
+ 0003:00000b28       ___onexitbegin             1000bb28     <common>
+
+ entry point at        0001:00006eed
+
+ Static symbols
+
+ 0001:00005e30       _$E78                      10006e30 f   logic_interface.obj
+ 0001:00005e40       _$E75                      10006e40 f   logic_interface.obj
+ 0001:00005e50       _$E77                      10006e50 f   logic_interface.obj
+ 0001:00005e60       _$E76                      10006e60 f   logic_interface.obj
+ 0001:00005e70       _$E84                      10006e70 f   logic_interface.obj
+ 0001:00005e80       _$E81                      10006e80 f   logic_interface.obj
+ 0001:00005e90       _$E83                      10006e90 f   logic_interface.obj
+ 0001:00005ea0       _$E82                      10006ea0 f   logic_interface.obj
+ 0001:00005cc0       _$E25                      10006cc0 f   except.obj
+ 0001:00005cd0       _$E22                      10006cd0 f   except.obj
+ 0001:00005ce0       _$E24                      10006ce0 f   except.obj
+ 0001:00005cf0       _$E23                      10006cf0 f   except.obj
+ 0001:00005d00       _$E31                      10006d00 f   except.obj
+ 0001:00005d10       _$E28                      10006d10 f   except.obj
+ 0001:00005d20       _$E30                      10006d20 f   except.obj
+ 0001:00005d30       _$E29                      10006d30 f   except.obj
+ 0001:00005d70       ?my_translator@@YAXIPAU_EXCEPTION_POINTERS@@@Z 10006d70 f   except.obj
+ 0001:000000a0       _$E130                     100010a0 f   bncsOutput.obj
+ 0001:000000b0       _$E127                     100010b0 f   bncsOutput.obj
+ 0001:000000c0       _$E129                     100010c0 f   bncsOutput.obj
+ 0001:000000d0       _$E128                     100010d0 f   bncsOutput.obj
+ 0001:000000e0       _$E136                     100010e0 f   bncsOutput.obj
+ 0001:000000f0       _$E133                     100010f0 f   bncsOutput.obj
+ 0001:00000100       _$E135                     10001100 f   bncsOutput.obj
+ 0001:00000110       _$E134                     10001110 f   bncsOutput.obj

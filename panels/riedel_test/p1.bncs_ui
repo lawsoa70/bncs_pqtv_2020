@@ -1,0 +1,84 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="957" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="lblBackground" x="10" y="10" w="1257" h="869">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="lblStatus" x="136" y="30" w="347" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl1" x="47" y="30" w="83" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Status" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblMessage" x="136" y="67" w="347" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl2" x="47" y="67" w="83" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Button|Message" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="sourceGrid" x="50" y="160" w="443" h="195">
+			<setting value="columns=4" />
+			<setting value="rows=4" />
+			<setting value="instance=riedel_grd" />
+			<setting value="instance.map=riedel_grd" />
+			<setting value="notify.released=false" />
+			<setting value="notify.name=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_control" name="lbl3" x="50" y="120" w="83" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Sources" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblSourceUse" x="136" y="363" w="347" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl4" x="47" y="363" w="83" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Source|Use" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_rtrDestGrid" name="destGrid" x="50" y="420" w="443" h="264">
+			<setting value="columns=4" />
+			<setting value="rows=4" />
+			<setting value="instance=riedel_grd" />
+			<setting value="mapoffset=1000" />
+			<setting value="notify.released=false" />
+			<setting value="notify.name=false" />
+			<setting value="notify.dest=true" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_control" name="lblDestUse" x="136" y="691" w="347" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl5" x="47" y="691" w="83" h="33">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Dest|Use" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

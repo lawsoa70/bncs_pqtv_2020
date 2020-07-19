@@ -1,0 +1,352 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Router Name Grid Control Reference</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="siemens.css">
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="639" height="91" bgcolor="#A0B6C0">
+		<img border="0" src="header.jpg" width="638" height="91"></td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="36">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+<h1>
+	BNCS Router Name Grid</h1>
+					<h2>
+	Description</h2>
+					<p>
+	This control is similar to the bncs_sourcegrid component. It's simpler and 
+	is only a router name grid (aka source grid) and does not include the 
+	destination grid functionality.</p>
+					<h2>
+	Button Mapping</h2>
+					<p>
+	Buttons are mapped to router subscribers using an &quot;upper&quot; BNCS database (DB 
+	2-9).<br>
+	An example ini file section is shown here:</p>
+					<blockquote>
+						<table border="0" bgcolor="#D5E1E3" id="table2">
+							<tr>
+								<td class="inifile">[Database_8]<br>
+								0001=4,0,11,12,13,14,15,16,17,18,19,20,<br>
+								0002=3,2,1,5,6,7,8,9,10,0,0,12,11,</td>
+							</tr>
+						</table>
+					</blockquote>
+					<p>
+	It is definable within the control which database of which is used and what 
+	index is used to select a comma delimited list of numbers. The list of 
+	numbers is then split and used to populate the array of buttons. <br>
+	If a grid control is configured to have 16 buttons and set to look at entry 
+	0001 above and set to show destination names then the top left button will 
+	show the destination 4 name, the top right button destination 12. The second 
+	row will start on the left with the destination 13 name etc. etc. There is 
+	only 12 numbers in this list so buttons 13-16 will be disabled (along with 
+	button 2 which is zero).</p>
+					<h2>
+	Edit Mode</h2>
+					<p>
+	Edit mode changes the operation of this control from &quot;runtime&quot; mode to 
+	&quot;configure&quot; mode. </p>
+					<p>
+	Edit mode allows changes to the button mapping and naming - in edit mode 
+	additional commands become available and the action taken when a button is 
+	pressed changes. </p>
+					<p>Edit mode can be changed on the fly to allow in-panel 
+					editing.</p>
+					<p>There are two edit modes - they cannot be active at the 
+					same time as their operation is not compatible.</p>
+					<h3>Map Edit Mode</h3>
+					<p>In this mode buttons sending command &quot;index=&quot; presets the 
+					value in the control so that the next time a button is 
+					pressed this value is assigned to that button. The control 
+					continues to emit the notifications (if enabled) but does 
+					not show the button as selected.</p>
+					<p>
+	Unlike runtime (where buttons disable if not mapped) no buttons are ever 
+	disabled in map edit mode.</p>
+					<h3>Name Edit Mode</h3>
+					<p>In this mode buttons select in the normal way. However if 
+					a &quot;rename=&quot; command is received the currently selected 
+					button changes name and all the other buttons disable (this 
+					is to indicate that &quot;save&quot; is required).</p>
+					<p>Buttons are enabled/disabled in the normal way (if there 
+					is nothing mapped then you cannot change the name anyway so 
+					the button must stay disabled).</p>
+					<h2>
+	Settings</h2>
+					<p>
+	You can pass any of the following settings to this control in the format:</p>
+					<blockquote>
+						<p class="inifile">&lt;parameter&gt;=&lt;value&gt;</p>
+					</blockquote>
+					<p>
+	Default values (those when a new button is created or when a reset command 
+	issued) are shown in <b>bold</b>.</p>
+					<blockquote>
+<table border="0" bgcolor="#D5DEE3" id="table3">
+							<tr>
+								<th>Parameter</th>
+								<th>Value</th>
+								<th>Notes</th>
+							</tr>
+							<tr class="tick">
+								<td>reset </td>
+								<td>&nbsp;</td>
+								<td>Used to reset all the parameters of this 
+								control back to their default state</td>
+							</tr>
+							<tr class="tock">
+								<td>columns</td>
+								<td><b>5</b></td>
+								<td>The number of columns of buttons for this 
+								grid control</td>
+							</tr>
+							<tr class="tick">
+								<td>rows</td>
+								<td><b>3</b></td>
+								<td>The number of rows of buttons for this grid 
+								control</td>
+							</tr>
+							<tr class="tock">
+								<td>page</td>
+								<td><b>1</b></td>
+								<td>The page to select (added to the pageoffset 
+								value to determine the index within the database 
+								to use for this entry)</td>
+							</tr>
+							<tr class="tick">
+								<td>pageoffset</td>
+								<td><b>0</b></td>
+								<td>The page to select (added to the page value 
+								to determine the index within the database to 
+								use for this entry)</td>
+							</tr>
+							<tr class="tock">
+								<td>mapdb</td>
+								<td><b>8</b></td>
+								<td>The BNCS database number (2-9) to use for 
+								the button mapping information. In theory you 
+								could use database 0/1 but these are limited to 
+								16 characters.</td>
+							</tr>
+							<tr class="tick">
+								<td>mapoffset</td>
+								<td>&nbsp;</td>
+								<td>The offset to apply to the index numbers in 
+								the map database</td>
+							</tr>
+							<tr class="tock">
+								<td>namesdb</td>
+								<td><b>0</b></td>
+								<td>Which database to use to get the names from 
+								(0-9). The default is &quot;0&quot; - sources.</td>
+							</tr>
+							<tr class="tick">
+								<td>namesoffset</td>
+								<td>&nbsp;</td>
+								<td>The offset to apply to the index numbers in 
+								the names database</td>
+							</tr>
+							<tr class="tock">
+								<td>instance.map</td>
+								<td>&nbsp;</td>
+								<td>The instance to use for button mapping</td>
+							</tr>
+							<tr class="tock">
+								<td>instance</td>
+								<td>&nbsp;</td>
+								<td>The instance to use for names</td>
+							</tr>
+							<tr class="tick">
+								<td>device.map</td>
+								<td>0</td>
+								<td>This device number is used for the mapping 
+								database. This value is not used if an &quot;instance.map&quot; name is specified</td>
+							</tr>
+							<tr class="tick">
+								<td>device</td>
+								<td><b>0</b></td>
+								<td>This device number is used for both the 
+								names displayed. This value is not used if an 
+								&quot;instance&quot; name is specified</td>
+							</tr>
+							<tr class="tock">
+								<td>notify.pressed<br>
+								notify.released<br>
+								notify.name<br>
+								notify.index </td>
+								<td><b>false</b><br>
+								<b>true<br>
+								true</b><br>
+								<b>false</b></td>
+								<td>Whether to send notification messages for 
+								the relevant events.
+								</td>
+							</tr>
+							<tr class="tick">
+								<td>stylesheet.selected<br>
+								stylesheet.deselected<br>
+								stylesheet.background</td>
+								<td><b>source_selected</b><br>
+								<b>source_deselected<br>
+&nbsp;</b></td>
+								<td>The stylesheets used for the various 
+								components of this button - there is no option 
+								to directly set the stylesheet of individual 
+								labels.<br>
+								It is suggested that you try and use the default 
+								entries.</td>
+							</tr>
+							<tr class="tock">
+								<td>sizepolicy</td>
+								<td>setminimum<br>
+								asdesigned<br>
+								<b>shrinktofit</b></td>
+								<td>How to deal with text that doesn't fit on a 
+								button.
+								<p>See the bncs_control documentation for more 
+								information.</td>
+							</tr>
+							<tr class="tick">
+								<td>button.&lt;buttonId&gt;=released</td>
+								<td>&nbsp;</td>
+								<td>A script may emulate the pressing of a 
+								button.<p>The button is of the format:<br>
+								button_xxx<br>
+								where the xxx is the button number starting from 
+								1 at top left and continuing in horizontal rows 
+								to bottom right.</td>
+							</tr>
+							<tr class="tock">
+								<td>pixmap.database</td>
+								<td>0</td>
+								<td>The database to pick up pixmaps for the 
+								buttons.<br>
+								Valid entries are 2-9.</td>
+							</tr>
+							<tr class="tick">
+								<td>buttonspacing.h</td>
+								<td><b>10</b></td>
+								<td>Horizontal button spacing</td>
+							</tr>
+							<tr class="tock">
+								<td>buttonspacing.v</td>
+								<td><b>10</b></td>
+								<td>Vertical button spacing</td>
+							</tr>
+							<tr class="tick">
+								<td>buttonspacing</td>
+								<td><b>10</b></td>
+								<td>Sets horizontal and vertical button spacing 
+								simultaneously</td>
+							</tr>
+							<tr class="tock">
+								<td>index</td>
+								<td><b>0</b></td>
+								<td>This command has two modes of operation:<br>
+								<b>Runtime</b>: If the supplied index is mapped on this 
+								control then it is selected, otherwise the 
+								selection is removed.<br>
+								<b>Map edit mode</b>: This sets the source to map next time 
+								a control is pressed</td>
+							</tr>
+							<tr class="tick">
+								<td>map_mode</td>
+								<td><b>false<br>
+								</b>true</td>
+								<td>Whether this control is in map edit mode</td>
+							</tr>
+							<tr class="tick">
+								<td>rename_mode</td>
+								<td><b>false<br>
+								</b>true</td>
+								<td>Whether this control is in rename edit mode</td>
+							</tr>
+							<tr class="tick">
+								<td>save</td>
+								<td>&nbsp;</td>
+								<td><b>Edit mode only</b>. Save the current 
+								changes to mapping and/or name change</td>
+							</tr>
+							<tr class="tock">
+								<td>cancel</td>
+								<td>&nbsp;</td>
+								<td><b>Edit mode only</b>. Revert any changes 
+								back to the configured state.</td>
+							</tr>
+							<tr class="tick">
+								<td>rename</td>
+								<td>&nbsp;</td>
+								<td><b>Rename edit mode only</b>. Change the 
+								name on the currently selected </td>
+							</tr>
+						</table>						
+					</blockquote>
+					<h2>
+	Notifications</h2>
+					<p>
+	Notifications are also in the format:</p>
+					<blockquote>
+						<p class="inifile">&lt;parameter&gt; = &lt;value&gt;</p>
+						<table border="0" bgcolor="#E4EAED" id="table4">
+							<tr>
+								<th>Parameter</th>
+								<th>Value</th>
+								<th>Notes</th>
+							</tr>
+							<tr>
+								<td>button.&lt;id&gt; </td>
+								<td>pressed<br>
+								<b>released</b></td>
+								<td>The notifications are only made if they are 
+								enabled in the settings above.<br>
+								Pressed has to be specifically enabled.<br>
+								Released has to be specifically disabled.</td>
+							</tr>
+							<tr>
+								<td>name</td>
+								<td>&lt;router name&gt;</td>
+								<td>router name is the value that appears on the 
+								depress-able button</td>
+							</tr>
+							<tr>
+								<td>index</td>
+								<td>&lt;router index&gt;</td>
+								<td>index of the name that appears on the 
+								depress-able button</td>
+							</tr>
+							</table>
+					</blockquote>
+					<p>
+	<br>
+&nbsp;</p>
+					<!-- #EndEditable --></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright Atos 2012</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
+  

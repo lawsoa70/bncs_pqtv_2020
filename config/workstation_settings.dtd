@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT workstation_settings (workstation+)>
+<!ELEMENT workstation (setting+)>
+<!ATTLIST workstation
+	id CDATA #REQUIRED
+>
+<!ELEMENT setting EMPTY>
+<!ATTLIST setting
+	id CDATA #REQUIRED
+	value CDATA #REQUIRED
+>

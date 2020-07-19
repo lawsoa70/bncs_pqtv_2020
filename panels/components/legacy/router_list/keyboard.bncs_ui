@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1000" h="530" gridSize="10" gridEnabled="0" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="grpEnterName" x="0" y="0" w="1000" h="447">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Enter search criteria" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Reset" x="840" y="461" w="150" h="60">
+			<setting value="text=Reset" />
+		</control>
+		<control class="bncs_keyboard_ctrl" name="keyboard" x="0" y="46" w="1001" h="409">
+			<setting value="exceptions=,|" />
+			<setting value="keyboardType=Keypad" />
+			<setting value="numpadValidation=Length" />
+			<setting value="maxLength=10" />
+		</control>
+		<control class="bncs_control" name="Cancel" x="10" y="466" w="110" h="50">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Cancel " />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+	</container>
+</control_set>

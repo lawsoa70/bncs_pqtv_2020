@@ -1,0 +1,359 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1040" h="80" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1040" showTestDialog="0">
+		<control class="bncs_control" name="20" x="0" y="0" w="1040" h="80">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_title_background" />
+		</control>
+		<control class="bncs_control" name="4" x="779" y="2" w="124" h="76">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="5" x="911" y="2" w="124" h="76">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="lblSound" x="919" y="53" w="110" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_background" />
+			<setting value="text=Sound" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblVision" x="786" y="53" w="110" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_background" />
+			<setting value="text=Vision" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="13" x="619" y="0" w="152" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="panel=tally150x15.bncs_ui" />
+			<setting value="destindex=65" />
+			<setting value="database=0" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="1" x="537" y="16" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1509" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="2" x="537" y="32" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1510" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="6" x="537" y="48" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1511" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="7" x="537" y="64" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1512" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="8" x="689" y="16" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1513" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="9" x="689" y="32" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1514" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="10" x="689" y="48" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1515" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_script_loader" name="12" x="689" y="64" w="82" h="15">
+			<setting value="scriptname=/components/legacy/tally" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=tally80x15.bncs_ui" />
+			<setting value="destindex=1516" />
+			<setting value="database=2" />
+			<setting value="singleline=" />
+		</control>
+		<control class="bncs_enum" name="23" x="786" y="8" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=VisionEcut" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=VisionEcut" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=E-CUT" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=E-CUT" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_ecut_on" />
+		</control>
+		<control class="bncs_enum" name="27" x="844" y="8" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=VisionBypass" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=VisionBypass" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=BYPASS" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=BYPASS" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_bypass_on" />
+		</control>
+		<control class="bncs_enum" name="31" x="919" y="8" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=SoundEcut" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=SoundEcut" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=E-CUT" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=E-CUT" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_ecut_on" />
+		</control>
+		<control class="bncs_enum" name="36" x="977" y="8" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=SoundBypass" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=SoundBypass" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=BYPASS" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=BYPASS" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_bypass_on" />
+		</control>
+		<control class="bncs_enum" name="19" x="230" y="2" w="70" h="36">
+			<setting value="style=label" />
+			<setting value="name=TB Mics" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TB Mics" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=TB Mics ON" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TB Mics OFF" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_red_on" />
+		</control>
+		<control class="bncs_enum" name="21" x="230" y="41" w="70" h="36">
+			<setting value="style=label" />
+			<setting value="name=ReserveCleanDirty" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ReserveCleanDirty" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Mons|Lineup" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Mons|Lineup" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_yellow_on" />
+		</control>
+		<control class="bncs_enum" name="16" x="2" y="2" w="73" h="75">
+			<setting value="style=label" />
+			<setting value="name=REH" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=REH" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=REH" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=REH" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_reh_on" />
+		</control>
+		<control class="bncs_enum" name="15" x="80" y="2" w="73" h="75">
+			<setting value="style=label" />
+			<setting value="name=TX" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TX" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=TX" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TX" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_tx_on" />
+		</control>
+		<control class="bncs_enum" name="17" x="158" y="2" w="70" h="36">
+			<setting value="style=label" />
+			<setting value="name=RedLights" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=RedLights" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=RED lights" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=RED lights" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_red_on" />
+		</control>
+		<control class="bncs_enum" name="22" x="306" y="2" w="36" h="36">
+			<setting value="style=label" />
+			<setting value="name=MainLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=MainLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Main|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Main|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="24" x="346" y="2" w="36" h="36">
+			<setting value="style=label" />
+			<setting value="name=ResLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ResLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Clean|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Clean|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="26" x="386" y="2" w="36" h="36">
+			<setting value="style=label" />
+			<setting value="name=CleanLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=CleanLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Res|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Res|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="28" x="426" y="2" w="36" h="36">
+			<setting value="style=label" />
+			<setting value="name=RingLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=RingLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Ring|main|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Ring|main|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="30" x="306" y="41" w="36" h="36">
+			<setting value="style=label" />
+			<setting value="name=ISO1LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO1LU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=ISO1|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO1|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="32" x="346" y="41" w="36" h="36">
+			<setting value="style=label" />
+			<setting value="name=ISO2LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO2LU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=ISO2|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO2|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="18" x="158" y="41" w="70" h="36">
+			<setting value="style=label" />
+			<setting value="name=FloorLights" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=FloorLights" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Floor Lights|Enabled" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Floor Lights|Disabled" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_yellow_on" />
+		</control>
+		<control class="bncs_control" name="Label" x="467" y="17" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A1" />
+		</control>
+		<control class="bncs_control" name="Label1" x="467" y="32" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A2" />
+		</control>
+		<control class="bncs_control" name="Label2" x="467" y="48" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A3" />
+		</control>
+		<control class="bncs_control" name="Label3" x="467" y="64" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A4" />
+		</control>
+		<control class="bncs_control" name="Label4" x="620" y="16" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A5" />
+		</control>
+		<control class="bncs_control" name="Label5" x="620" y="32" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A6" />
+		</control>
+		<control class="bncs_control" name="Label6" x="620" y="48" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A7" />
+		</control>
+		<control class="bncs_control" name="Label7" x="620" y="64" w="70" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass A8" />
+		</control>
+		<control class="bncs_control" name="Label8" x="466" y="0" w="150" h="15">
+			<setting value="style=label" />
+			<setting value="text=Bypass Video" />
+		</control>
+	</container>
+</control_set>

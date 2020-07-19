@@ -1,0 +1,173 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="60" y="50" w="470" h="410" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Index1" x="0" y="10" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index2" x="0" y="50" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index3" x="0" y="90" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index4" x="0" y="130" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index5" x="0" y="170" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index6" x="0" y="210" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index7" x="0" y="250" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source1" x="80" y="10" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source2" x="80" y="50" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source3" x="80" y="90" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source4" x="80" y="130" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source5" x="80" y="170" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source6" x="80" y="210" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source7" x="80" y="250" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source8" x="80" y="290" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="2" x="220" y="50" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="3" x="220" y="90" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="4" x="220" y="130" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="5" x="220" y="170" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="6" x="220" y="210" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="7" x="220" y="250" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="8" x="220" y="290" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="1" x="220" y="10" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index8" x="0" y="290" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index9" x="0" y="330" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index10" x="-1" y="371" w="70" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index11" x="-3" y="425" w="70" h="30">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Index12" x="-3" y="459" w="70" h="30">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source9" x="80" y="330" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source10" x="80" y="370" w="130" h="35">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source12" x="77" y="459" w="130" h="30">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="Source11" x="77" y="425" w="130" h="30">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="9" x="220" y="330" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="10" x="220" y="370" w="250" h="35">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="11" x="217" y="425" w="250" h="30">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+		<control class="bncs_control" name="12" x="217" y="459" w="250" h="30">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+		</control>
+	</container>
+</control_set>

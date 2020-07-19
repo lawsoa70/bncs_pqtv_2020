@@ -1,0 +1,31 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="120" h="130" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="background" x="0" y="0" w="120" h="130">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblSource" x="10" y="100" w="100" h="18">
+			<setting value="style=label" />
+			<setting value="colour.text=black" />
+			<setting value="colour.background=white" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="btnTest" x="10" y="10" w="100" h="50">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+		</control>
+		<control class="bncs_control" name="btnSelect" x="10" y="70" w="100" h="32">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="text=Select|Test Source" />
+		</control>
+	</container>
+</control_set>

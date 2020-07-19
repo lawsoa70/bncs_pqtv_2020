@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<driver_config>
+  <driver id="cna_1_driver_stc">
+    <setting id="DeviceNo" value="90" />
+    <setting id="IP_Address" value="10.84.250.130" />
+    <setting id="Port" value="7800" />
+    <setting id="MasterIP" value="10.84.250.141" />
+    <setting id="HttpStatus" value="OK" />
+    <setting id="GatewayEnabled" value="True" />
+    <setting id="Mode" value="msu" /> <!-- msu or cna ? -->
+    <setting id="CnsMode" value="mcs" />
+    <setting id="BridgeConMode" value="active" />
+    <setting id="DebugLevel" value="Normal" />
+    <setting id="LogLevel" value="Normal" />
+  </driver>
+</driver_config>

@@ -1,0 +1,892 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="logdelete_files/filelist.xml">
+<title>File Format - logdelete.xml</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Mark Baldry</o:Author>
+  <o:LastAuthor>Richard Kerry</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>13</o:TotalTime>
+  <o:Created>2005-03-22T17:54:00Z</o:Created>
+  <o:LastSaved>2006-09-07T10:20:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>147</o:Words>
+  <o:Characters>844</o:Characters>
+  <o:Company>BBC Technology</o:Company>
+  <o:Lines>7</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>990</o:CharactersWithSpaces>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href="../Style.css">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.title, li.title, div.title
+	{mso-style-name:title;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.plain, li.plain, div.plain
+	{mso-style-name:plain;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#000033;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.grey, li.grey, div.grey
+	{mso-style-name:grey;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:silver;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.ltblue, li.ltblue, div.ltblue
+	{mso-style-name:ltblue;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#9C9CFF;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.inv, li.inv, div.inv
+	{mso-style-name:inv;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.invb, li.invb, div.invb
+	{mso-style-name:invb;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:white;
+	border:none;
+	mso-border-alt:solid blue .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.path, li.path, div.path
+	{mso-style-name:path;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:110%;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.menutop, li.menutop, div.menutop
+	{mso-style-name:menutop;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#000033;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.lk, li.lk, div.lk
+	{mso-style-name:lk;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:110%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.menu, li.menu, div.menu
+	{mso-style-name:menu;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:120%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.menlist, li.menlist, div.menlist
+	{mso-style-name:menlist;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:110%;
+	mso-pagination:widow-orphan;
+	background:#000099;
+	font-size:9.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.menuhead, li.menuhead, div.menuhead
+	{mso-style-name:menuhead;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:110%;
+	mso-pagination:widow-orphan;
+	background:#000099;
+	font-size:8.5pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.menugreen, li.menugreen, div.menugreen
+	{mso-style-name:menu_green;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:110%;
+	mso-pagination:widow-orphan;
+	background:darkgreen;
+	font-size:8.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.menured, li.menured, div.menured
+	{mso-style-name:menu_red;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:110%;
+	mso-pagination:widow-orphan;
+	background:#660000;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.menulink, li.menulink, div.menulink
+	{mso-style-name:menulink;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.gn, li.gn, div.gn
+	{mso-style-name:gn;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.white, li.white, div.white
+	{mso-style-name:white;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.hr, li.hr, div.hr
+	{mso-style-name:hr;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:blue;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.framemenu, li.framemenu, div.framemenu
+	{mso-style-name:framemenu;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-top-alt:three-d-emboss #000099 6.0pt;
+	mso-border-right-alt:three-d-emboss #000099 6.0pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.highgn, li.highgn, div.highgn
+	{mso-style-name:highgn;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.highrd, li.highrd, div.highrd
+	{mso-style-name:highrd;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.highyl, li.highyl, div.highyl
+	{mso-style-name:highyl;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.highbl, li.highbl, div.highbl
+	{mso-style-name:highbl;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.lowbl, li.lowbl, div.lowbl
+	{mso-style-name:lowbl;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.lowrd, li.lowrd, div.lowrd
+	{mso-style-name:lowrd;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.lowyl, li.lowyl, div.lowyl
+	{mso-style-name:lowyl;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.lowpr, li.lowpr, div.lowpr
+	{mso-style-name:lowpr;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.lastmod, li.lastmod, div.lastmod
+	{mso-style-name:last_mod;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:7.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#66CCFF;}
+p.url, li.url, div.url
+	{mso-style-name:url;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.results, li.results, div.results
+	{mso-style-name:results;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.buttonred, li.buttonred, div.buttonred
+	{mso-style-name:button_red;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	background:#990000;
+	border:none;
+	mso-border-alt:three-d-emboss yellow 3.0pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt;
+	font-size:9.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:white;}
+p.buttonamber, li.buttonamber, div.buttonamber
+	{mso-style-name:button_amber;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	background:#FFCC00;
+	border:none;
+	mso-border-alt:three-d-emboss yellow 3.0pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt;
+	font-size:9.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.buttongreen, li.buttongreen, div.buttongreen
+	{mso-style-name:button_green;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	background:darkgreen;
+	border:none;
+	mso-border-alt:three-d-emboss yellow 3.0pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt;
+	font-size:9.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:white;}
+p.buttonblue, li.buttonblue, div.buttonblue
+	{mso-style-name:button_blue;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	background:navy;
+	border:none;
+	mso-border-alt:three-d-emboss yellow 3.0pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt;
+	font-size:9.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:white;}
+p.required, li.required, div.required
+	{mso-style-name:required;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:white;
+	border:none;
+	mso-border-alt:inset #3399CC 3.0pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.fixed, li.fixed, div.fixed
+	{mso-style-name:fixed;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#9C9CFF;
+	border:none;
+	mso-border-alt:inset #3399CC 3.0pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.green, li.green, div.green
+	{mso-style-name:green;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#33CC00;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.amber, li.amber, div.amber
+	{mso-style-name:amber;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#FFCC33;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.red, li.red, div.red
+	{mso-style-name:red;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:red;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.blue, li.blue, div.blue
+	{mso-style-name:blue;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:blue;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.black, li.black, div.black
+	{mso-style-name:black;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:12.0pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.viewby, li.viewby, div.viewby
+	{mso-style-name:viewby;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#3399CC;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.driver, li.driver, div.driver
+	{mso-style-name:driver;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:8.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.device, li.device, div.device
+	{mso-style-name:device;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:10.5pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.pagetitle, li.pagetitle, div.pagetitle
+	{mso-style-name:pagetitle;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:13.5pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.listhead, li.listhead, div.listhead
+	{mso-style-name:listhead;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#3399CC;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.pagetitledetail, li.pagetitledetail, div.pagetitledetail
+	{mso-style-name:pagetitledetail;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:13.5pt;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.notes, li.notes, div.notes
+	{mso-style-name:notes;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.edit, li.edit, div.edit
+	{mso-style-name:edit;
+	margin:6.0pt;
+	mso-pagination:widow-orphan;
+	background:#CCCCCC;
+	border:none;
+	mso-border-alt:outset yellow 1.5pt;
+	padding:0cm;
+	mso-padding-alt:0cm 3.0pt 0cm 3.0pt;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.callgrey, li.callgrey, div.callgrey
+	{mso-style-name:call_grey;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:silver;
+	font-size:9.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#000066;}
+p.callltblue, li.callltblue, div.callltblue
+	{mso-style-name:call_ltblue;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#9C9CFF;
+	font-size:9.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#000066;}
+p.calllisthead, li.calllisthead, div.calllisthead
+	{mso-style-name:call_listhead;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#3399CC;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:white;
+	font-weight:bold;}
+p.page, li.page, div.page
+	{mso-style-name:page;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:7.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#000033" lang=EN-US link="#FFCC00" vlink="#FFCC00"
+style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=title><span lang=EN-GB style='mso-ansi-language:EN-GB'>Overview<o:p></o:p></span></p>
+
+<p><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>The
+logdelete.xml file details what folders the delete functionality will act upon.
+If there is not a workstation specific setting the global settings will be used
+instead.<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:1.5pt;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:white'>Attribute<o:p></o:p></span></b></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:white'>Usage<o:p></o:p></span></b></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:white'>Comments<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>id<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>Either the workstation or glabal<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>enable<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>If not true the logdelete
+  function will not be used.<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>daysback<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>Files older than this number of
+  days will be deleted<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>default<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>If false the default files will
+  not be deleted, these are the current logs directory and the caplogs
+  directory.<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>name<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>The name of additional
+  directories to have old files that require deleting, if they are not fully
+  qualified they will be assumed to be in the current system.<o:p></o:p></span></p>
+  </td>
+  <td style='background:#000099;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='color:white'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=title><span lang=EN-GB style='mso-ansi-language:EN-GB'>Sample Contents
+- /config/logdelete.xml<o:p></o:p></span></p>
+
+<pre><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></pre>
+
+<p class=title><span lang=EN-GB style='mso-ansi-language:EN-GB'>DTD<o:p></o:p></span></p>
+
+<pre><span class=GramE><span lang=EN-GB style='color:white;mso-ansi-language:
+EN-GB'>&lt;?xml</span></span><span lang=EN-GB style='color:white;mso-ansi-language:
+EN-GB'> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<o:p></o:p></span></pre><pre><span
+class=GramE><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&lt;!ELEMENT</span></span><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'> logdelete (workstation*)&gt;<o:p></o:p></span></pre><pre><span
+class=GramE><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&lt;!ELEMENT</span></span><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'> workstation (dir*)&gt;<o:p></o:p></span></pre><pre><span
+class=GramE><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&lt;!ATTLIST</span></span><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'> workstation<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'><span style='mso-tab-count:
+1'>        </span><span class=GramE>id</span> CDATA #REQUIRED<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'><span style='mso-tab-count:
+1'>        </span><span class=GramE>enable</span> CDATA #REQUIRED<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'><span style='mso-tab-count:
+1'>        </span><span class=GramE>daysback</span> CDATA #REQUIRED<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'><span style='mso-tab-count:
+1'>        </span><span class=GramE>default</span> CDATA #IMPLIED<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&gt;<o:p>&nbsp;</o:p></span></pre><pre><span
+class=GramE><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&lt;!ELEMENT</span></span><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'> dir EMPTY&gt;<o:p></o:p></span></pre><pre><span
+class=GramE><span lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&lt;!ATTLIST</span></span><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'> dir<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'><span style='mso-tab-count:
+1'>        </span><span class=GramE>name</span> CDATA #REQUIRED<o:p></o:p></span></pre><pre><span
+lang=EN-GB style='color:white;mso-ansi-language:EN-GB'>&gt;<o:p>&nbsp;</o:p></span></pre></div>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT logdelete (workstation*)>
+<!ELEMENT workstation (dir*)>
+<!ATTLIST workstation
+	id CDATA #REQUIRED
+	enable CDATA #REQUIRED
+	daysback CDATA #REQUIRED
+	default CDATA #IMPLIED
+>
+<!ELEMENT dir EMPTY>
+<!ATTLIST dir
+	name CDATA #REQUIRED
+>

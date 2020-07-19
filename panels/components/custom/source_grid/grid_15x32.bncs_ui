@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="510" h="900" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="0" y="0" w="510" h="640">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Sources" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none2" x="0" y="650" w="510" h="250">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Source Pages" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="sourcePage" x="10" y="679" w="490" h="200">
+			<setting value="device=401" />
+			<setting value="namesdb=8" />
+			<setting value="mapoffset=2000" />
+			<setting value="namesoffset=2500" />
+			<setting value="notify.name=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.selected=sourcepage_selected" />
+			<setting value="stylesheet.deselected=sourcepage_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="sourceGrid" x="10" y="30" w="490" h="580">
+			<setting value="columns=4" />
+			<setting value="rows=8" />
+			<setting value="instance=packager_router" />
+			<setting value="instance.map=packager_router" />
+			<setting value="page=0" />
+			<setting value="notify.released=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourcePage" receiver="sourceGrid" event="index=*" command="page=[value]" name="Select Page"/>
+		<connection sender="sourceGroup" receiver="sourcePage" event="index=*" command="page=[value]" name="Select Group"/>
+	</connections>
+</control_set>

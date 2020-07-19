@@ -1,0 +1,45 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>File Format - applications.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p class="title">Overview</p>
+<p>applications.xml contains the settings for each application</p>
+<p>Each application element defines the caption, title and icon used for the app 
+  specified in the id attribute</p>
+<p class="title">Sample Contents - /config/applications.xml</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE applications SYSTEM &quot;applications.dtd&quot;&gt;
+&lt;applications&gt;
+	&lt;app id=&quot;ALTEIAP&quot; caption=&quot;ALTEIA&quot; title=&quot;ALTIEA IRD&quot; icon=&quot;ird&quot;/&gt;
+	&lt;app id=&quot;arc20p&quot; caption=&quot;Arc&quot; title=&quot;Arc Control&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;browser&quot; caption=&quot;Browser&quot; title=&quot;Browser&quot; icon=&quot;icon_browser&quot;/&gt;
+	&lt;app id=&quot;ibcxy&quot; caption=&quot;Main Router&quot; title=&quot;Main Router&quot; icon=&quot;icon_router&quot;/&gt;
+	&lt;app id=&quot;iqdsigp&quot; caption=&quot;AFD Ins&quot; title=&quot;AFD Inserter&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;iqdsynp&quot; caption=&quot;Sync&quot; title=&quot;Synchroniser&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;NDS3000P&quot; caption=&quot;NDS3000&quot; title=&quot;NDS3000 IRD&quot; icon=&quot;ird&quot;/&gt;
+	&lt;app id=&quot;tt1260p&quot; caption=&quot;TT1260&quot; title=&quot;TT1260 IRD&quot; icon=&quot;ird&quot;/&gt;
+	&lt;app id=&quot;v1642p&quot; caption=&quot;Proc Amp&quot; title=&quot;Proc Amp&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;v1647p&quot; caption=&quot;Arc&quot; title=&quot;Arc Control&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;al_chain&quot; caption=&quot;Net Chain&quot; title=&quot;Network Chain&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;al_sat&quot; caption=&quot;Sat Oview&quot; title=&quot;Sat Alarms&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;almover&quot; caption=&quot;Alarms&quot; title=&quot;Alarm Overview&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;almexecpt&quot; caption=&quot;Alarms&quot; title=&quot;Alarm Except&quot; icon=&quot;default&quot;/&gt;
+	&lt;app id=&quot;uplink&quot; caption=&quot;Uplink&quot; title=&quot;Uplink Chain&quot; icon=&quot;icon_sat&quot;/&gt;
+	&lt;app id=&quot;shuffler&quot; caption=&quot;Shuffler&quot; title=&quot;Audio Shuffler&quot; icon=&quot;icon_shuffler&quot;/&gt;
+&lt;/applications&gt;</pre>
+<p class="title">DTD</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+  &lt;!ELEMENT applications (app+)&gt;
+
+&lt;!ELEMENT app EMPTY&gt;
+  &lt;!ATTLIST app id CDATA #REQUIRED&gt;
+  &lt;!ATTLIST app caption CDATA #REQUIRED&gt;
+  &lt;!ATTLIST app title CDATA #REQUIRED&gt;
+  &lt;!ATTLIST app icon CDATA #REQUIRED&gt;
+</pre>
+</body>

@@ -1,0 +1,207 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="lblPanel" x="11" y="0" w="1260" h="882">
+			<setting value="stylesheet=pmsn_blue_background" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblBackground" x="40" y="565" w="1200" h="290">
+			<setting value="stylesheet=stc_group_background" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none14" x="875" y="385" w="365" h="160">
+			<setting value="style=label" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="1005" x="1052" y="630" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1006" x="1142" y="630" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1008" x="1052" y="685" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1009" x="1142" y="685" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1011" x="1052" y="740" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1012" x="1142" y="740" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1014" x="1052" y="795" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1015" x="1142" y="795" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1013" x="962" y="795" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="10" x="172" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="11" x="282" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="12" x="392" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="13" x="502" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="14" x="612" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="15" x="722" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="16" x="832" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="1004" x="962" y="630" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="18" x="172" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="19" x="282" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="20" x="392" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="21" x="502" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="22" x="612" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="23" x="722" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="24" x="832" y="685" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="1007" x="962" y="685" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1010" x="962" y="740" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="26" x="172" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="27" x="282" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="28" x="392" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="29" x="502" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="30" x="612" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="31" x="722" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="35" x="282" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="36" x="392" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="37" x="502" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="38" x="612" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="39" x="722" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="40" x="832" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="32" x="832" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="33" x="62" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="34" x="172" y="795" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="2" x="172" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="3" x="282" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="4" x="392" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="5" x="502" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="6" x="612" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="7" x="722" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="8" x="832" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="1001" x="962" y="575" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1002" x="1052" y="575" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="1003" x="1142" y="575" w="80" h="50">
+		</control>
+		<control class="bncs_control" name="lblSources" x="45" y="18" w="310" h="33">
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Source Names" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_listbox" name="list" x="45" y="55" w="310" h="500">
+			<setting value="colour.text=ARIAL" />
+			<setting value="font.face=Arial" />
+			<setting value="font.style=bold " />
+			<setting value="font.size=18" />
+		</control>
+		<control class="bncs_control" name="none8" x="370" y="150" w="450" h="40">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=- Select a source group or destination group to begin" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none7" x="370" y="190" w="450" h="40">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=- Select a source or destination from the list, press one of the source| or destination buttons to assign that source" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none12" x="370" y="230" w="450" h="40">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=- Hit save to commit the changes, or Cancel to abandon" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none10" x="370" y="290" w="450" h="40">
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=To rename a source or destination group:" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none11" x="370" y="330" w="450" h="40">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text= - Select &quot;Edit&quot; for the associated source or destination group." />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none13" x="370" y="370" w="450" h="40">
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=- Hit save to commit the changes, or Cancel to abandon" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none9" x="370" y="110" w="450" h="40">
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=To remap a source or destination:" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="noselection" x="370" y="470" w="100" h="64">
+			<setting value="font.face=ARIAL" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="text=No|Selection" />
+		</control>
+		<control class="bncs_control" name="2001" x="890" y="400" w="100" h="130">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=bottom" />
+			<setting value="text=EDIT|PAGE|NAME" />
+			<setting value="pixmap=icon_rename.png" />
+		</control>
+		<control class="bncs_control" name="save" x="1010" y="400" w="100" h="130">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=bottom" />
+			<setting value="text=SAVE" />
+			<setting value="pixmap=icon_save.png" />
+		</control>
+		<control class="bncs_control" name="cancel" x="1130" y="400" w="100" h="130">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=bottom" />
+			<setting value="text=CANCEL" />
+			<setting value="pixmap=icon_delete.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="25" x="62" y="740" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="1" x="62" y="575" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="9" x="62" y="630" w="100" h="50">
+		</control>
+		<control class="bncs_control" name="17" x="62" y="685" w="100" h="50">
+		</control>
+	</container>
+</control_set>

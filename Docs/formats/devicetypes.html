@@ -1,0 +1,48 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>File Format - workstations.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p class="title">Overview</p>
+<p>devicetypes.xml contains the table of all device types present within the system</p>
+<p>The detail for each type is stored in the corresponding <a href="devicetype.html">devicetype</a> 
+  file in /config/devicetypes/???.xml</p>
+<table width="70%" border="1">
+  <tr> 
+    <th>Attribute</th>
+    <th>Usage</th>
+    <th>Comments</th>
+  </tr>
+  <tr> 
+    <td>id</td>
+    <td>unique identifier string </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td>family</td>
+    <td>family to which type belongs</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p class="title">Sample Contents - /config/devicetypes.xml</p>
+<pre>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!DOCTYPE devicetypes SYSTEM &quot;devicetypes.dtd&quot;&gt;
+&lt;devicetypes&gt;
+	&lt;type id=&quot;SCP1121&quot; family=&quot;GLUE_SIGMON&quot;/&gt;
+	&lt;type id=&quot;V1642&quot; family=&quot;GLUE_PROC&quot;/&gt;
+	&lt;type id=&quot;IQDSIG&quot; family=&quot;GLUE_INSERTER&quot;/&gt;
+&lt;/devicetypes&gt;</pre>
+<p class="title">DTD</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!ELEMENT devicetypes (type+)&gt;
+&lt;!ELEMENT type EMPTY&gt;
+&lt;!ATTLIST type
+	id CDATA #REQUIRED
+	family CDATA #REQUIRE
+&gt;
+</pre>
+</body>

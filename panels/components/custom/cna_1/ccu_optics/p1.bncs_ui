@@ -1,0 +1,50 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="98" h="21" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lbl_background" x="0" y="0" w="98" h="21">
+			<setting value="style=label" />
+			<setting value="colour.background=#000000" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_1" x="2" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#ff0000" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_2" x="14" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#ff0000" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_3" x="26" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffff00" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_4" x="38" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffff00" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_5" x="50" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffff00" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_6" x="62" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#00ff00" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_7" x="74" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#00ff00" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_led_8" x="86" y="1" w="10" h="19">
+			<setting value="style=label" />
+			<setting value="colour.background=#00ff00" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="140" h="130" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lblTally" x="0" y="100" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="140" h="100">
+			<setting value="style=label" />
+			<setting value="colour.text=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/mon_trans_medium.png" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

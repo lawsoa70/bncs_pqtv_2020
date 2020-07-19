@@ -1,0 +1,60 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1260" h="640" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lblGroupBackground" x="0" y="0" w="1260" h="640">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="3" x="430" y="20" w="820" h="540">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="text= | |   To Recall an existing Salvo - select an item from the list then press RECALL. | |   You can&apos;t save or delete salvos from here - they are all created and managed in the PCR Stack page.|   When you save a salvo there it saves the whole matrix, not just the stack monitors." />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="7" x="20" y="20" w="390" h="540">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="lblSalvoList" x="30" y="30" w="280" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Salvo List" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="btnClose" x="1090" y="570" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Close  " />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+		<control class="bncs_listbox" name="lstSalvo" x="30" y="70" w="280" h="480">
+			<setting value="font.face=Arial" />
+			<setting value="font.style=bold " />
+			<setting value="font.size=16" />
+			<setting value="sort=true" />
+		</control>
+		<control class="bncs_control" name="lblMemoryAutoMessage" x="440" y="530" w="800" h="20">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="textalign=left" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="btnRecall" x="320" y="466" w="80" h="80">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=bottom" />
+			<setting value="text=RECALL" />
+			<setting value="pixmap=icon_recall.png" />
+		</control>
+	</container>
+</control_set>

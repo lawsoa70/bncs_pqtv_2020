@@ -1,0 +1,111 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="170" h="240" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lblBackground" x="0" y="0" w="170" h="240">
+			<setting value="style=label" />
+			<setting value="labelstyle=blackbox" />
+			<setting value="colour.background=#4d4d4d" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblTally_2" x="30" y="30" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_3" x="30" y="60" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_4" x="30" y="90" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_5" x="30" y="120" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_6" x="30" y="150" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_7" x="30" y="180" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_8" x="30" y="210" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_2" x="0" y="30" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A2" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_3" x="0" y="60" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A3" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_4" x="0" y="90" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A4" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_5" x="0" y="120" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A5" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_6" x="0" y="150" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A6" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_7" x="0" y="180" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A7" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_1" x="0" y="0" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A1" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblTally_1" x="30" y="0" w="140" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lblLevel_8" x="0" y="210" w="30" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= A8" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

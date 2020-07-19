@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE launch SYSTEM "launch.dtd">
+<launch>
+ <workstation csi="v4csi" id="8" >
+  <application arguments="899" name="v4grd.exe" />
+  <application arguments="998" name="v4infdrv.exe" />
+  <application name="config_server.exe" />
+  <application name="v3caplog.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="9" >
+  <application arguments="341" name="v4infdrv.exe" />
+  <application arguments="997" name="v4infdrv.exe" />
+  <application name="v3fbserv.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="61" >
+  <application arguments="884" name="v4infdrv" />
+  <application arguments="888" name="v4infdrv" />
+  <application arguments="902" name="v4infdrv" />
+  <application arguments="885" name="v4grd.exe" />
+  <application arguments="886" name="drivers\sonyAuxBus.exe" />
+  <application arguments="887" name="v4grd.exe" />
+  <application arguments="887" name="drivers\nexus" />
+  <application arguments="902" name="drivers\KscUeZLabel.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="62" >
+  <application arguments="880" name="v4infdrv" />
+  <application arguments="903" name="v4infdrv" />
+  <application arguments="880" name="drivers\MemoryAuto.exe" />
+  <application arguments="889" name="drivers\GGPIv2.exe" />
+  <application arguments="903" name="drivers\BFEUMDLabelAuto.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="63" >
+  <application arguments="893" name="v4infdrv" />
+  <application arguments="894" name="v4infdrv" />
+  <application arguments="904" name="v4infdrv" />
+  <application arguments="895" name="v4grd.exe" />
+  <application arguments="897" name="v4grd.exe" />
+  <application arguments="897" name="drivers\nexus" />
+  <application arguments="898" name="v4grd.exe" />
+  <application arguments="904" name="drivers\KscUeZLabel.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="64" >
+  <application arguments="891" name="v4infdrv" />
+  <application arguments="904" name="v4infdrv" />
+  <application arguments="905" name="v4infdrv" />
+  <application arguments="892" name="v4infdrv" />
+  <application arguments="892" name="drivers\MemoryAuto.exe" />
+  <application arguments="890" name="drivers\GGPIv2.exe" />
+  <application arguments="905" name="drivers\BFEUMDLabelAuto.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="70" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="71" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="72" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="73" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="74" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="75" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="76" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="77" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="80" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="81" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="82" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="83" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="87" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="90" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="91" >
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="92" >
+  <application arguments="884" name="v4infdrv.exe" />
+  <application arguments="885" name="v4grd.exe" />
+  <application arguments="887" name="v4grd.exe" />
+  <application arguments="888" name="v4infdrv.exe" />
+  <application arguments="895" name="v4grd.exe" />
+  <application arguments="894" name="v4infdrv.exe" />
+  <application arguments="896" name="v4grd.exe" />
+  <application arguments="897" name="v4grd.exe" />
+  <application arguments="893" name="v4infdrv.exe" />
+  <application arguments="892" name="v4infdrv.exe" />
+  <application arguments="892" name="drivers\MemoryAuto.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="86" >
+  <application arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="85" >
+  <application arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="v4csi" id="777" >
+  <application arguments="885" name="v4grd.exe" />
+  <application arguments="895" name="v4grd.exe" />
+  <application arguments="901" name="v4infdrv.exe" />
+  <application arguments="902" name="v4infdrv.exe" />
+  <application arguments="903" name="v4infdrv.exe" />
+  <application arguments="904" name="v4infdrv.exe" />
+  <application arguments="905" name="v4infdrv.exe" />
+  <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+ </workstation>
+ <workstation csi="" id="0" />
+</launch>

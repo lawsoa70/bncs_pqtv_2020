@@ -1,0 +1,1882 @@
+ alm_acq_bncs_drv_stat
+
+ Timestamp is 56de004a (Mon Mar 07 22:27:22 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000f64cH .text                   CODE
+ 0001:0000f650 00001220H .text$x                 CODE
+ 0002:00000000 00000350H .idata$5                DATA
+ 0002:00000350 00000304H .rdata                  DATA
+ 0002:00000658 00000574H .rdata$r                DATA
+ 0002:00000bd0 00001638H .xdata$x                DATA
+ 0002:00002208 0000008cH .idata$2                DATA
+ 0002:00002294 00000014H .idata$3                DATA
+ 0002:000022a8 00000350H .idata$4                DATA
+ 0002:000025f8 000018e8H .idata$6                DATA
+ 0002:00003ee0 0000005bH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 0000003cH .CRT$XCU                DATA
+ 0003:00000040 00000004H .CRT$XCZ                DATA
+ 0003:00000044 00000004H .CRT$XIA                DATA
+ 0003:00000048 00000004H .CRT$XIZ                DATA
+ 0003:00000050 000017e0H .data                   DATA
+ 0003:00001830 00000184H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000004a8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000080       _DllMain@12                10001080 f   alm_acq_bncs_drv_stat.obj
+ 0001:000000b0       _createNewInput            100010b0 f   alm_acq_bncs_drv_stat.obj
+ 0001:000000e0       ??_G?$QMemArray@H@@UAEPAXI@Z 100010e0 f i alm_acq_bncs_drv_stat.obj
+ 0001:00000100       ??_G?$QMemArray@_N@@UAEPAXI@Z 10001100 f i alm_acq_bncs_drv_stat.obj
+ 0001:00000120       ??_G?$QMemArray@D@@UAEPAXI@Z 10001120 f i alm_acq_bncs_drv_stat.obj
+ 0001:00000140       ??_G?$QMemArray@VQPoint@@@@UAEPAXI@Z 10001140 f i alm_acq_bncs_drv_stat.obj
+ 0001:00000160       ??_G?$QPtrList@D@@UAEPAXI@Z 10001160 f i alm_acq_bncs_drv_stat.obj
+ 0001:00000180       ??_G?$QPtrList@VQObject@@@@UAEPAXI@Z 10001180 f i alm_acq_bncs_drv_stat.obj
+ 0001:00000220       ??0bncs_input@@QAE@PAUIDebug@@PAD@Z 10001220 f   bncs_input.obj
+ 0001:00000430       ?getTxCount@alarms_base@@UAEJXZ 10001430 f i bncs_input.obj
+ 0001:00000440       ?getRxCount@alarms_base@@UAEJXZ 10001440 f i bncs_input.obj
+ 0001:00000450       ??1alarms_input_base@@UAE@XZ 10001450 f i bncs_input.obj
+ 0001:00000460       ??_Galarms_base@@UAEPAXI@Z 10001460 f i bncs_input.obj
+ 0001:00000460       ??_Ealarms_base@@UAEPAXI@Z 10001460 f i bncs_input.obj
+ 0001:00000480       ??_Galarms_input_base@@UAEPAXI@Z 10001480 f i bncs_input.obj
+ 0001:00000480       ??_Ealarms_input_base@@UAEPAXI@Z 10001480 f i bncs_input.obj
+ 0001:000004a0       ??_Ebncs_input@@UAEPAXI@Z  100014a0 f i bncs_input.obj
+ 0001:000004a0       ??_Gbncs_input@@UAEPAXI@Z  100014a0 f i bncs_input.obj
+ 0001:000004c0       ??1?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@std@@QAE@XZ 100014c0 f i bncs_input.obj
+ 0001:000005b0       ?AppendLog@bncs_input@@QAEXVQString@@@Z 100015b0 f   bncs_input.obj
+ 0001:00000620       ?CSIRegister@bncs_input@@AAE_NXZ 10001620 f   bncs_input.obj
+ 0001:000006b0       ??1bncs_input@@UAE@XZ      100016b0 f   bncs_input.obj
+ 0001:00000960       ?getTxCount@bncs_input@@UAEJXZ 10001960 f   bncs_input.obj
+ 0001:00000970       ?getRxCount@bncs_input@@UAEJXZ 10001970 f   bncs_input.obj
+ 0001:00000980       ?getData@bncs_input@@UAE_NPAPAHPAH@Z 10001980 f   bncs_input.obj
+ 0001:00000a70       ?getStatusOk@bncs_input@@UAE_NXZ 10001a70 f   bncs_input.obj
+ 0001:00000a80       ?getStartupProgress@bncs_input@@UAEXAAH0@Z 10001a80 f   bncs_input.obj
+ 0001:00000aa0       ?aboutToClose@bncs_input@@UAEXXZ 10001aa0 f   bncs_input.obj
+ 0001:00000ab0       ?getConfigFileDate@bncs_input@@UAE?AVQDateTime@@XZ 10001ab0 f   bncs_input.obj
+ 0001:00000ac0       ?getClassName@bncs_input@@UAEPBDXZ 10001ac0 f   bncs_input.obj
+ 0001:00000ad0       ?setDebugMode@bncs_input@@UAE_N_N@Z 10001ad0 f   bncs_input.obj
+ 0001:00000ae0       ?getDebugMode@bncs_input@@UAE_NXZ 10001ae0 f   bncs_input.obj
+ 0001:00000af0       ?setLogMode@bncs_input@@UAEHH@Z 10001af0 f   bncs_input.obj
+ 0001:00000b00       ?getLogMode@bncs_input@@UAEHXZ 10001b00 f   bncs_input.obj
+ 0001:00000b10       ?init@bncs_input@@UAE_NABVQString@@0HW4EAlarmTestMode@alarms_input_base@@_NQAUIAlarmEvent@@@Z 10001b10 f   bncs_input.obj
+ 0001:000015e0       ??8@YA_NVQChar@@D@Z        100025e0 f i bncs_input.obj
+ 0001:00001600       ??1?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@QAE@XZ 10002600 f i bncs_input.obj
+ 0001:00001700       ??1?$pair@VQString@@V1@@std@@QAE@XZ 10002700 f i bncs_input.obj
+ 0001:00001780       ??1?$pair@$$CBVQString@@V1@@std@@QAE@XZ 10002780 f i bncs_input.obj
+ 0001:00001800       ?AddOneInput@bncs_input@@AAEXAAV?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@AAVQRegExp@@VQString@@@Z 10002800 f   bncs_input.obj
+ 0001:00001940       ?ProcRevertive@bncs_input@@AAEXH@Z 10002940 f   bncs_input.obj
+ 0001:00001d50       ?SetNormal@bncs_input@@AAEXPAVBncsStore@@H@Z 10002d50 f   bncs_input.obj
+ 0001:00001d80       ?CheckStatus@bncs_input@@QAEXXZ 10002d80 f   bncs_input.obj
+ 0001:00001fd0       ?timerEvent@bncs_input@@UAEXPAVQTimerEvent@@@Z 10002fd0 f   bncs_input.obj
+ 0001:00002020       ?notify@bncs_input@@EAEJPAVcPanel@@PBD@Z 10003020 f   bncs_input.obj
+ 0001:00002480       ?MapPrint@bncs_input@@QAEXXZ 10003480 f   bncs_input.obj
+ 0001:00002530       ?Debug@bncs_input@@QAAXPADZZ 10003530 f   bncs_input.obj
+ 0001:000026c0       ?registerInputs@bncs_input@@AAE_NXZ 100036c0 f   bncs_input.obj
+ 0001:00002780       ?setAlarmTestMode@bncs_input@@UAEXW4EAlarmTestMode@alarms_input_base@@_N@Z 10003780 f   bncs_input.obj
+ 0001:000027a0       ?startGreening@bncs_input@@AAEXXZ 100037a0 f   bncs_input.obj
+ 0001:000027b0       ?stopGreening@bncs_input@@AAEXXZ 100037b0 f   bncs_input.obj
+ 0001:000027c0       ?regtally@bncs_input@@QAEXHH@Z 100037c0 f   bncs_input.obj
+ 0001:000027e0       ?restartPoll@bncs_input@@UAEXXZ 100037e0 f   bncs_input.obj
+ 0001:000027f0       ?nextPollNow@bncs_input@@UAEXXZ 100037f0 f   bncs_input.obj
+ 0001:00002800       ?begin@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@QAE?AViterator@12@XZ 10003800 f i bncs_input.obj
+ 0001:00002810       ?insert@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@_N@2@ABU?$pair@$$CBHPAVBncsStore@@@2@@Z 10003810 f i bncs_input.obj
+ 0001:00002a50       ?erase@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@QAE?AViterator@12@V312@0@Z 10003a50 f i bncs_input.obj
+ 0001:00002b20       ?begin@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AViterator@12@XZ 10003b20 f i bncs_input.obj
+ 0001:00002b30       ?insert@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AU?$pair@Viterator@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@_N@2@ABU?$pair@$$CBVQString@@V1@@2@@Z 10003b30 f i bncs_input.obj
+ 0001:00002d80       ?erase@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AViterator@12@V312@0@Z 10003d80 f i bncs_input.obj
+ 0001:00002e60       ?erase@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@QAE?AViterator@12@V312@@Z 10003e60 f i bncs_input.obj
+ 0001:00003260       ?_Erase@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@IAEXPAU_Node@12@@Z 10004260 f i bncs_input.obj
+ 0001:000032a0       ?_Init@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@IAEXXZ 100042a0 f i bncs_input.obj
+ 0001:00003340       ?_Insert@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHPAVBncsStore@@@2@@Z 10004340 f i bncs_input.obj
+ 0001:000035b0       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@QAEXXZ 100045b0 f i bncs_input.obj
+ 0001:00003610       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@QAEXXZ 10004610 f i bncs_input.obj
+ 0001:00003660       ?erase@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAE?AViterator@12@V312@@Z 10004660 f i bncs_input.obj
+ 0001:00003ad0       ?_Erase@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXPAU_Node@12@@Z 10004ad0 f i bncs_input.obj
+ 0001:00003b20       ?_Init@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXXZ 10004b20 f i bncs_input.obj
+ 0001:00003bc0       ?_Insert@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBVQString@@V1@@2@@Z 10004bc0 f i bncs_input.obj
+ 0001:00003e30       ?_Lrotate@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@IAEXPAU_Node@12@@Z 10004e30 f i bncs_input.obj
+ 0001:00003e90       ?_Min@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@KAPAU_Node@12@PAU312@@Z 10004e90 f i bncs_input.obj
+ 0001:00003eb0       ?_Rrotate@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@IAEXPAU_Node@12@@Z 10004eb0 f i bncs_input.obj
+ 0001:00003f10       ?_Buynode@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 10004f10 f i bncs_input.obj
+ 0001:00003f30       ?_Lrotate@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXPAU_Node@12@@Z 10004f30 f i bncs_input.obj
+ 0001:00003f90       ?_Min@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@KAPAU_Node@12@PAU312@@Z 10004f90 f i bncs_input.obj
+ 0001:00003fb0       ?_Rrotate@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEXPAU_Node@12@@Z 10004fb0 f i bncs_input.obj
+ 0001:00004010       ?_Buynode@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IAEPAU_Node@12@PAU312@W4_Redbl@12@@Z 10005010 f i bncs_input.obj
+ 0001:00004030       ?_Dec@const_iterator@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAEXXZ 10005030 f i bncs_input.obj
+ 0001:00004090       ?_Inc@const_iterator@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@QAEXXZ 10005090 f i bncs_input.obj
+ 0001:000040e0       ?make_pair@std@@YA?AU?$pair@VQString@@V1@@1@ABVQString@@0@Z 100050e0 f i bncs_input.obj
+ 0001:00004140       ?at@?$QValueListPrivate@VQString@@@@QBEPAV?$QValueListNode@VQString@@@@I@Z 10005140 f i bncs_input.obj
+ 0001:00004180       ?_Construct@std@@YAXPAU?$pair@$$CBHPAVBncsStore@@@1@ABU21@@Z 10005180 f i bncs_input.obj
+ 0001:000041a0       ?_Construct@std@@YAXPAU?$pair@$$CBVQString@@V1@@1@ABU21@@Z 100051a0 f i bncs_input.obj
+ 0001:00004200       ??3@YAXPAX0@Z              10005200 f i bncs_input.obj
+ 0001:00004210       ??_G?$pair@$$CBVQString@@V1@@std@@QAEPAXI@Z 10005210 f i bncs_input.obj
+ 0001:00004230       ??_Ebncs_input@@W3AEPAXI@Z 10005230 f i bncs_input.obj
+ 0001:00004240       ??_Ebncs_input@@WHI@AEPAXI@Z 10005240 f i bncs_input.obj
+ 0001:000042d0       ??0BncsStore@@QAE@AAV?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@PAVbncs_input@@@Z 100052d0 f   BncsStore.obj
+ 0001:00004400       ??_EBncsStore@@UAEPAXI@Z   10005400 f i BncsStore.obj
+ 0001:00004400       ??_GBncsStore@@UAEPAXI@Z   10005400 f i BncsStore.obj
+ 0001:00004420       ??1BncsStore@@UAE@XZ       10005420 f   BncsStore.obj
+ 0001:000044d0       ?Debug@BncsStore@@AAAXPBDZZ 100054d0 f   BncsStore.obj
+ 0001:00004550       ?LoadSettings@BncsStore@@AAE_NABV?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@@Z 10005550 f   BncsStore.obj
+ 0001:00004710       ?LoadAlarmSettings@BncsStore@@AAE_NABV?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@@Z 10005710 f   BncsStore.obj
+ 0001:00005bb0       ?FindEntry@BncsStore@@AAE?AVQString@@ABV?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@std@@ABV2@@Z 10006bb0 f   BncsStore.obj
+ 0001:00005ca0       ?GetTrueState@BncsStore@@QAEHPAD@Z 10006ca0 f   BncsStore.obj
+ 0001:00006070       ?Show@BncsStore@@QAEXH@Z   10007070 f   BncsStore.obj
+ 0001:000060b0       ?Register@BncsStore@@QAEXPAVcBNCSPoll@@@Z 100070b0 f   BncsStore.obj
+ 0001:000061c0       ?UpdateOutput@BncsStore@@QAEXPAH@Z 100071c0 f   BncsStore.obj
+ 0001:00006220       ?CheckMissed@BncsStore@@QAEXPAHPAVcBNCSPoll@@@Z 10007220 f   BncsStore.obj
+ 0001:00006270       ?getAnOKState@BncsStore@@QAE?AVQString@@XZ 10007270 f   BncsStore.obj
+ 0001:00006300       ?getName@BncsStore@@QAE?AVQString@@XZ 10007300 f   BncsStore.obj
+ 0001:00006330       ?Sort@BncsStore@@ABEXABV?$QValueVector@H@@AAV2@@Z 10007330 f   BncsStore.obj
+ 0001:00006540       ?AnyNotInList@BncsStore@@AAE_NABV?$QValueVector@H@@0@Z 10007540 f   BncsStore.obj
+ 0001:000065a0       ?getValid@BncsStore@@QBE_NXZ 100075a0 f   BncsStore.obj
+ 0001:000065b0       ??1?$QValueVector@H@@QAE@XZ 100075b0 f i BncsStore.obj
+ 0001:000065d0       ?push_back@?$QValueVector@H@@QAEXABH@Z 100075d0 f i BncsStore.obj
+ 0001:00006690       ?detach@?$QValueVector@H@@IAEXXZ 10007690 f i BncsStore.obj
+ 0001:000066a0       ??_G?$QValueVectorPrivate@H@@UAEPAXI@Z 100076a0 f i BncsStore.obj
+ 0001:000066a0       ??_E?$QValueVectorPrivate@H@@UAEPAXI@Z 100076a0 f i BncsStore.obj
+ 0001:000066d0       ?_Lbound@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@IBEPAU_Node@12@ABVQString@@@Z 100076d0 f i BncsStore.obj
+ 0001:00006720       ?detachInternal@?$QValueVector@H@@IAEXXZ 10007720 f i BncsStore.obj
+ 0001:00006810       ?find@?$QValueListPrivate@VQString@@@@QBEPAV?$QValueListNode@VQString@@@@PAV2@ABVQString@@@Z 10007810 f i BncsStore.obj
+ 0001:00006850       ?reserve@?$QValueVectorPrivate@H@@QAEXI@Z 10007850 f i BncsStore.obj
+ 0001:000068c0       ?insert@?$QValueVectorPrivate@H@@QAEXPAHABH@Z 100078c0 f i BncsStore.obj
+ 0001:000069f0       ??0cBNCSPoll@@QAE@PAVbncs_input@@@Z 100079f0 f   cBNCSPoll.obj
+ 0001:00006b70       ??_GcBNCSPoll@@UAEPAXI@Z   10007b70 f i cBNCSPoll.obj
+ 0001:00006b70       ??_EcBNCSPoll@@UAEPAXI@Z   10007b70 f i cBNCSPoll.obj
+ 0001:00006b90       ?start@cBNCSPoll@@QAEXXZ   10007b90 f   cBNCSPoll.obj
+ 0001:00006c50       ??1cBNCSPoll@@UAE@XZ       10007c50 f   cBNCSPoll.obj
+ 0001:00006e80       ??1?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@std@@QAE@XZ 10007e80 f i cBNCSPoll.obj
+ 0001:00006f70       ?Debug@cBNCSPoll@@AAAXPADZZ 10007f70 f   cBNCSPoll.obj
+ 0001:00006ff0       ?addToPollList@cBNCSPoll@@QAE_NDHH@Z 10007ff0 f   cBNCSPoll.obj
+ 0001:000072a0       ?CSIRegister@cBNCSPoll@@AAE_NXZ 100082a0 f   cBNCSPoll.obj
+ 0001:00007300       ?notify@cBNCSPoll@@EAEJPAVcPanel@@PBD@Z 10008300 f   cBNCSPoll.obj
+ 0001:00007540       ?timerEvent@cBNCSPoll@@EAEXPAVQTimerEvent@@@Z 10008540 f   cBNCSPoll.obj
+ 0001:00007630       ?PrintStoreMap@cBNCSPoll@@AAEXXZ 10008630 f   cBNCSPoll.obj
+ 0001:000076d0       ?getFirstDeviceAndRange@cBNCSPoll@@AAEHH@Z 100086d0 f   cBNCSPoll.obj
+ 0001:00007770       ?getFirstValidRange@cBNCSPoll@@AAE_NAAHAAUstRange@@AAD@Z 10008770 f   cBNCSPoll.obj
+ 0001:00007810       ?getNextRange@cBNCSPoll@@AAEHXZ 10008810 f   cBNCSPoll.obj
+ 0001:00007dc0       ?pollCurrentDeviceRange@cBNCSPoll@@AAEXXZ 10008dc0 f   cBNCSPoll.obj
+ 0001:00007ec0       ?createInitialMissedLists@cBNCSPoll@@AAEXXZ 10008ec0 f   cBNCSPoll.obj
+ 0001:00007fa0       ?calculateRanges@cBNCSPoll@@AAE_NXZ 10008fa0 f   cBNCSPoll.obj
+ 0001:00008080       ?pollTimeout@cBNCSPoll@@AAEXXZ 10009080 f   cBNCSPoll.obj
+ 0001:00008090       ?checkRangeCompleted@cBNCSPoll@@AAE_NHABUstRange@@@Z 10009090 f   cBNCSPoll.obj
+ 0001:00008100       ?addToMissedList@cBNCSPoll@@QAE_NDHH@Z 10009100 f   cBNCSPoll.obj
+ 0001:000082a0       ?begin@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@QAE?AViterator@12@XZ 100092a0 f i cBNCSPoll.obj
+ 0001:000082b0       ?erase@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@QAE?AViterator@12@V312@0@Z 100092b0 f i cBNCSPoll.obj
+ 0001:00008380       ?_Inc@const_iterator@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@QAEXXZ 10009380 f i cBNCSPoll.obj
+ 0001:000083d0       ??0?$pair@Viterator@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@_N@std@@QAE@ABViterator@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@1@AB_N@Z 100093d0 f i cBNCSPoll.obj
+ 0001:000083f0       ?erase@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@QAE?AViterator@12@V312@@Z 100093f0 f i cBNCSPoll.obj
+ 0001:000087f0       ?lower_bound@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@QAE?AViterator@12@ABH@Z 100097f0 f i cBNCSPoll.obj
+ 0001:00008830       ?_Erase@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@IAEXPAU_Node@12@@Z 10009830 f i cBNCSPoll.obj
+ 0001:00008870       ?_Insert@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBHPAVcPollStore@@@2@@Z 10009870 f i cBNCSPoll.obj
+ 0001:00008ae0       ?_Min@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@KAPAU_Node@12@PAU312@@Z 10009ae0 f i cBNCSPoll.obj
+ 0001:00008b00       ?_Lbound@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@IBEPAU_Node@12@ABH@Z 10009b00 f i cBNCSPoll.obj
+ 0001:00008b30       ?_Dec@const_iterator@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@QAEXXZ 10009b30 f i cBNCSPoll.obj
+ 0001:00008b90       ?_Construct@std@@YAXPAU?$pair@$$CBHPAVcPollStore@@@1@ABU21@@Z 10009b90 f i cBNCSPoll.obj
+ 0001:00008bb0       ??_EcBNCSPoll@@WHE@AEPAXI@Z 10009bb0 f i cBNCSPoll.obj
+ 0001:00008cc0       ?setLocalConfig@cDocument@@SAX_NABVQString@@@Z 10009cc0 f   cDocument.obj
+ 0001:00008ce0       ??0cDocument@@QAE@PAVbncs_input@@@Z 10009ce0 f   cDocument.obj
+ 0001:00008f80       ??_EcDocument@@UAEPAXI@Z   10009f80 f i cDocument.obj
+ 0001:00008f80       ??_GcDocument@@UAEPAXI@Z   10009f80 f i cDocument.obj
+ 0001:00008fa0       ??1cDocument@@UAE@XZ       10009fa0 f   cDocument.obj
+ 0001:000090b0       ?Debug@cDocument@@AAAXPADZZ 1000a0b0 f   cDocument.obj
+ 0001:00009130       ?readDomDoc@cDocument@@AAE_NABVQString@@AAVQDomDocument@@@Z 1000a130 f   cDocument.obj
+ 0001:000091f0       ?loadInstances@cDocument@@AAE_NABVQString@@@Z 1000a1f0 f   cDocument.obj
+ 0001:00009c80       ??_GQDomElement@@UAEPAXI@Z 1000ac80 f i cDocument.obj
+ 0001:00009c80       ??_EQDomElement@@UAEPAXI@Z 1000ac80 f i cDocument.obj
+ 0001:00009ca0       ?getDeviceAndSlot@cDocument@@QAE_NPAH0PADABVQString@@2@Z 1000aca0 f   cDocument.obj
+ 0001:00009fc0       ?loadDeviceFile@cDocument@@AAEPAVQDomElement@@ABVQString@@@Z 1000afc0 f   cDocument.obj
+ 0001:0000a170       ?doInstanceSearch@cDocument@@QAE_NABVQString@@PAH1PAV2@@Z 1000b170 f   cDocument.obj
+ 0001:0000a270       ?getComplex@cDocument@@AAE?AVQString@@ABV2@@Z 1000b270 f   cDocument.obj
+ 0001:0000a2c0       ?doDeviceTypeSearch@cDocument@@AAE_NABVQString@@0PAHPAD@Z 1000b2c0 f   cDocument.obj
+ 0001:0000a860       ?doComplexSearch@cDocument@@AAE_NABVQString@@00PAV2@1@Z 1000b860 f   cDocument.obj
+ 0001:0000afd0       ?loadComplexFile@cDocument@@AAEPAVQDomElement@@ABVQString@@@Z 1000bfd0 f   cDocument.obj
+ 0001:0000b0f0       ?loadLaunch@cDocument@@AAE_NABVQString@@@Z 1000c0f0 f   cDocument.obj
+ 0001:0000baf0       ??1?$QPair@VQString@@V1@@@QAE@XZ 1000caf0 f i cDocument.obj
+ 0001:0000bb70       ?doLaunchSearch@cDocument@@QAE_NABVQString@@0AAV?$QValueVector@H@@@Z 1000cb70 f   cDocument.obj
+ 0001:0000bde0       ??1?$QDict@VQDomElement@@@@UAE@XZ 1000cde0 f i cDocument.obj
+ 0001:0000be40       ?count@?$QDict@VQDomElement@@@@UBEIXZ 1000ce40 f i cDocument.obj
+ 0001:0000be50       ?clear@?$QDict@VQDomElement@@@@UAEXXZ 1000ce50 f i cDocument.obj
+ 0001:0000be60       ??1?$QDict@VcInstanceInfo@@@@UAE@XZ 1000ce60 f i cDocument.obj
+ 0001:0000bec0       ?count@?$QDict@VcInstanceInfo@@@@UBEIXZ 1000cec0 f i cDocument.obj
+ 0001:0000bed0       ?clear@?$QDict@VcInstanceInfo@@@@UAEXXZ 1000ced0 f i cDocument.obj
+ 0001:0000bee0       ??1?$QMap@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAE@XZ 1000cee0 f i cDocument.obj
+ 0001:0000bf80       ??4?$QValueVector@H@@QAEAAV0@ABV0@@Z 1000cf80 f i cDocument.obj
+ 0001:0000bfc0       ??_G?$QDict@VQDomElement@@@@UAEPAXI@Z 1000cfc0 f i cDocument.obj
+ 0001:0000bfc0       ??_E?$QDict@VQDomElement@@@@UAEPAXI@Z 1000cfc0 f i cDocument.obj
+ 0001:0000bfe0       ??_G?$QDict@VcInstanceInfo@@@@UAEPAXI@Z 1000cfe0 f i cDocument.obj
+ 0001:0000bfe0       ??_E?$QDict@VcInstanceInfo@@@@UAEPAXI@Z 1000cfe0 f i cDocument.obj
+ 0001:0000c000       ?derefAndDelete@?$QValueListPrivate@VQString@@@@QAEXXZ 1000d000 f i cDocument.obj
+ 0001:0000c020       ?derefAndDelete@?$QValueVectorPrivate@H@@QAEXXZ 1000d020 f i cDocument.obj
+ 0001:0000c040       ?clear@?$QValueVectorPrivate@H@@QAEXXZ 1000d040 f i cDocument.obj
+ 0001:0000c060       ??1?$QMapNode@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAE@XZ 1000d060 f i cDocument.obj
+ 0001:0000c100       ?deleteItem@?$QDict@VQDomElement@@@@EAEXPAX@Z 1000d100 f i cDocument.obj
+ 0001:0000c120       ?deleteItem@?$QDict@VcInstanceInfo@@@@EAEXPAX@Z 1000d120 f i cDocument.obj
+ 0001:0000c140       ?detachInternal@?$QMap@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@AAEXXZ 1000d140 f i cDocument.obj
+ 0001:0000c310       ??0?$QValueVectorPrivate@H@@QAE@XZ 1000d310 f i cDocument.obj
+ 0001:0000c330       ?qMakePair@@YA?AU?$QPair@VQString@@V1@@@ABVQString@@0@Z 1000d330 f i cDocument.obj
+ 0001:0000c390       ??0?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAE@XZ 1000d390 f i cDocument.obj
+ 0001:0000c470       ?clear@?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAEXXZ 1000d470 f i cDocument.obj
+ 0001:0000c4e0       ?find@?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QBE?AV?$QMapConstIterator@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@ABU?$QPair@VQString@@V1@@@@Z 1000d4e0 f i cDocument.obj
+ 0001:0000c5a0       ?clear@?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAEXPAU?$QMapNode@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@@Z 1000d5a0 f i cDocument.obj
+ 0001:0000c5e0       ?insertSingle@?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAE?AV?$QMapIterator@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@ABU?$QPair@VQString@@V1@@@@Z 1000d5e0 f i cDocument.obj
+ 0001:0000c720       ?copy@?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAEPAU?$QMapNode@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@PAU2@@Z 1000d720 f i cDocument.obj
+ 0001:0000c8a0       ?insert@?$QMapPrivate@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAE?AV?$QMapIterator@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@PAUQMapNodeBase@@0ABU?$QPair@VQString@@V1@@@@Z 1000d8a0 f i cDocument.obj
+ 0001:0000ca00       ??0?$QMapNode@U?$QPair@VQString@@V1@@@V?$QValueVector@H@@@@QAE@ABU0@@Z 1000da00 f i cDocument.obj
+ 0001:0000caf0       ??0cInstanceInfo@@QAE@XZ   1000daf0 f   cInstanceInfo.obj
+ 0001:0000cb70       ??_GcInstanceInfo@@UAEPAXI@Z 1000db70 f i cInstanceInfo.obj
+ 0001:0000cb70       ??_EcInstanceInfo@@UAEPAXI@Z 1000db70 f i cInstanceInfo.obj
+ 0001:0000cb90       ??1cInstanceInfo@@UAE@XZ   1000db90 f   cInstanceInfo.obj
+ 0001:0000cc90       ??0cPollStore@@QAE@QAVbncs_input@@@Z 1000dc90 f   cPollStore.obj
+ 0001:0000cd30       ??_GcPollStore@@UAEPAXI@Z  1000dd30 f i cPollStore.obj
+ 0001:0000cd30       ??_EcPollStore@@UAEPAXI@Z  1000dd30 f i cPollStore.obj
+ 0001:0000cd50       ??1cPollStore@@UAE@XZ      1000dd50 f   cPollStore.obj
+ 0001:0000ce40       ??0cPollStore@@QAE@QAVbncs_input@@DHH@Z 1000de40 f   cPollStore.obj
+ 0001:0000cf30       ?Debug@cPollStore@@AAAXPADZZ 1000df30 f   cPollStore.obj
+ 0001:0000cfb0       ?Print@cPollStore@@QAEXH@Z 1000dfb0 f   cPollStore.obj
+ 0001:0000cfd0       ?addRawSlot@cPollStore@@QAEXH@Z 1000dfd0 f   cPollStore.obj
+ 0001:0000d020       ?addMissedSlot@cPollStore@@QAEXH@Z 1000e020 f   cPollStore.obj
+ 0001:0000d070       ?removeSlotFromMissedList@cPollStore@@QAE_NH@Z 1000e070 f   cPollStore.obj
+ 0001:0000d0c0       ?getFirstRange@cPollStore@@QAE_NAAUstRange@@AAD@Z 1000e0c0 f   cPollStore.obj
+ 0001:0000d0f0       ?getFirstValidRange@cPollStore@@QAE_NAAHAADAAUstRange@@@Z 1000e0f0 f   cPollStore.obj
+ 0001:0000d150       ?findCurrentRange@cPollStore@@AAEXABUstRange@@AAVconst_iterator@?$list@PAUstRange@@V?$allocator@PAUstRange@@@std@@@std@@@Z 1000e150 f   cPollStore.obj
+ 0001:0000d190       ?moreRangesOnThisDevice@cPollStore@@QAE_NABUstRange@@AAU2@@Z 1000e190 f   cPollStore.obj
+ 0001:0000d1e0       ?copyRawToMissed@cPollStore@@QAEXXZ 1000e1e0 f   cPollStore.obj
+ 0001:0000d2c0       ?calculateRange@cPollStore@@QAEXAA_N@Z 1000e2c0 f   cPollStore.obj
+ 0001:0000d5c0       ?checkRangeCompleted@cPollStore@@QAE_NABUstRange@@@Z 1000e5c0 f   cPollStore.obj
+ 0001:0000d600       ?getRange@cPollStore@@QAEXAAUstRange@@AAD@Z 1000e600 f   cPollStore.obj
+ 0001:0000d630       ??1?$list@PAUstRange@@V?$allocator@PAUstRange@@@std@@@std@@QAE@XZ 1000e630 f i cPollStore.obj
+ 0001:0000d680       ??0?$list@HV?$allocator@H@std@@@std@@QAE@ABV?$allocator@H@1@@Z 1000e680 f i cPollStore.obj
+ 0001:0000d6b0       ??1?$list@HV?$allocator@H@std@@@std@@QAE@XZ 1000e6b0 f i cPollStore.obj
+ 0001:0000d700       ?begin@?$list@HV?$allocator@H@std@@@std@@QAE?AViterator@12@XZ 1000e700 f i cPollStore.obj
+ 0001:0000d710       ?erase@?$list@HV?$allocator@H@std@@@std@@QAE?AViterator@12@V312@@Z 1000e710 f i cPollStore.obj
+ 0001:0000d750       ?sort@?$list@HV?$allocator@H@std@@@std@@QAEXXZ 1000e750 f i cPollStore.obj
+ 0001:0000da20       ??_F?$list@HV?$allocator@H@std@@@std@@QAEXXZ 1000ea20 f i cPollStore.obj
+ 0001:0000da50       ?insert@?$list@PAUstRange@@V?$allocator@PAUstRange@@@std@@@std@@QAE?AViterator@12@V312@ABQAUstRange@@@Z 1000ea50 f i cPollStore.obj
+ 0001:0000dab0       ?erase@?$list@PAUstRange@@V?$allocator@PAUstRange@@@std@@@std@@QAE?AViterator@12@V312@0@Z 1000eab0 f i cPollStore.obj
+ 0001:0000db00       ?erase@?$list@HV?$allocator@H@std@@@std@@QAE?AViterator@12@V312@0@Z 1000eb00 f i cPollStore.obj
+ 0001:0000db50       ?swap@?$list@HV?$allocator@H@std@@@std@@QAEXAAV12@@Z 1000eb50 f i cPollStore.obj
+ 0001:0000db80       ?splice@?$list@HV?$allocator@H@std@@@std@@QAEXViterator@12@AAV12@0@Z 1000eb80 f i cPollStore.obj
+ 0001:0000dbe0       ?merge@?$list@HV?$allocator@H@std@@@std@@QAEXAAV12@@Z 1000ebe0 f i cPollStore.obj
+ 0001:0000dcb0       ?erase@?$list@PAUstRange@@V?$allocator@PAUstRange@@@std@@@std@@QAE?AViterator@12@V312@@Z 1000ecb0 f i cPollStore.obj
+ 0001:0000dcf0       ?_Splice@?$list@HV?$allocator@H@std@@@std@@IAEXViterator@12@AAV12@00@Z 1000ecf0 f i cPollStore.obj
+ 0001:0000ddb0       ??0structured_exception@@QAE@ABU_EXCEPTION_POINTERS@@@Z 1000edb0 f   except.obj
+ 0001:0000ddd0       ?install@structured_exception@@SAXXZ 1000edd0 f   except.obj
+ 0001:0000de10       ?what@structured_exception@@QBEIXZ 1000ee10 f   except.obj
+ 0001:0000de20       ?where@structured_exception@@QBEPBXXZ 1000ee20 f   except.obj
+ 0001:0000de30       ??0CPollRange@@QAE@XZ      1000ee30 f   PollRange.obj
+ 0001:0000de50       ??_GCPollRange@@UAEPAXI@Z  1000ee50 f i PollRange.obj
+ 0001:0000de50       ??_ECPollRange@@UAEPAXI@Z  1000ee50 f i PollRange.obj
+ 0001:0000de70       ??1CPollRange@@UAE@XZ      1000ee70 f   PollRange.obj
+ 0001:0000de80       ??1?$QMemArray@H@@UAE@XZ   1000ee80 f   qt-mt323:qt-mt323.dll
+ 0001:0000de86       ??1?$QMemArray@_N@@UAE@XZ  1000ee86 f   qt-mt323:qt-mt323.dll
+ 0001:0000de8c       ??1?$QMemArray@D@@UAE@XZ   1000ee8c f   qt-mt323:qt-mt323.dll
+ 0001:0000de92       ??1?$QMemArray@VQPoint@@@@UAE@XZ 1000ee92 f   qt-mt323:qt-mt323.dll
+ 0001:0000de98       ??1?$QPtrList@D@@UAE@XZ    1000ee98 f   qt-mt323:qt-mt323.dll
+ 0001:0000de9e       ??1?$QPtrList@VQObject@@@@UAE@XZ 1000ee9e f   qt-mt323:qt-mt323.dll
+ 0001:0000dea4       ?checkConnectArgs@QObject@@MAE_NPBDPBV1@0@Z 1000eea4 f   qt-mt323:qt-mt323.dll
+ 0001:0000deaa       ?disconnectNotify@QObject@@MAEXPBD@Z 1000eeaa f   qt-mt323:qt-mt323.dll
+ 0001:0000deb0       ?connectNotify@QObject@@MAEXPBD@Z 1000eeb0 f   qt-mt323:qt-mt323.dll
+ 0001:0000deb6       ?customEvent@QObject@@MAEXPAVQCustomEvent@@@Z 1000eeb6 f   qt-mt323:qt-mt323.dll
+ 0001:0000debc       ?childEvent@QObject@@MAEXPAVQChildEvent@@@Z 1000eebc f   qt-mt323:qt-mt323.dll
+ 0001:0000dec2       ?property@QObject@@UBE?AVQVariant@@PBD@Z 1000eec2 f   qt-mt323:qt-mt323.dll
+ 0001:0000dec8       ?setProperty@QObject@@UAE_NPBDABVQVariant@@@Z 1000eec8 f   qt-mt323:qt-mt323.dll
+ 0001:0000dece       ?removeChild@QObject@@UAEXPAV1@@Z 1000eece f   qt-mt323:qt-mt323.dll
+ 0001:0000ded4       ?insertChild@QObject@@UAEXPAV1@@Z 1000eed4 f   qt-mt323:qt-mt323.dll
+ 0001:0000deda       ?setName@QObject@@UAEXPBD@Z 1000eeda f   qt-mt323:qt-mt323.dll
+ 0001:0000dee0       ?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z 1000eee0 f   qt-mt323:qt-mt323.dll
+ 0001:0000dee6       ?event@QObject@@UAE_NPAVQEvent@@@Z 1000eee6 f   qt-mt323:qt-mt323.dll
+ 0001:0000deec       ?qt_property@QObject@@UAE_NHHPAVQVariant@@@Z 1000eeec f   qt-mt323:qt-mt323.dll
+ 0001:0000def2       ?qt_emit@QObject@@UAE_NHPAUQUObject@@@Z 1000eef2 f   qt-mt323:qt-mt323.dll
+ 0001:0000def8       ?qt_invoke@QObject@@UAE_NHPAUQUObject@@@Z 1000eef8 f   qt-mt323:qt-mt323.dll
+ 0001:0000defe       ?qt_cast@QObject@@UAEPAXPBD@Z 1000eefe f   qt-mt323:qt-mt323.dll
+ 0001:0000df04       ?className@QObject@@UBEPBDXZ 1000ef04 f   qt-mt323:qt-mt323.dll
+ 0001:0000df0a       ?metaObject@QObject@@UBEPAVQMetaObject@@XZ 1000ef0a f   qt-mt323:qt-mt323.dll
+ 0001:0000df10       ??1QString@@QAE@XZ         1000ef10 f   qt-mt323:qt-mt323.dll
+ 0001:0000df16       ??1QObject@@UAE@XZ         1000ef16 f   qt-mt323:qt-mt323.dll
+ 0001:0000df1c       ?latin1@QString@@QBEPBDXZ  1000ef1c f   qt-mt323:qt-mt323.dll
+ 0001:0000df22       ??0QString@@QAE@PBD@Z      1000ef22 f   qt-mt323:qt-mt323.dll
+ 0001:0000df28       ?makeSharedNull@QString@@CAPAUQStringData@@XZ 1000ef28 f   qt-mt323:qt-mt323.dll
+ 0001:0000df2e       ??0QObject@@QAE@PAV0@PBD@Z 1000ef2e f   qt-mt323:qt-mt323.dll
+ 0001:0000df34       ?deleteSelf@QStringData@@QAEXXZ 1000ef34 f   qt-mt323:qt-mt323.dll
+ 0001:0000df3a       ?killTimer@QObject@@QAEXH@Z 1000ef3a f   qt-mt323:qt-mt323.dll
+ 0001:0000df40       ??1QStringList@@QAE@XZ     1000ef40 f   qt-mt323:qt-mt323.dll
+ 0001:0000df46       ?startTimer@QObject@@QAEHH@Z 1000ef46 f   qt-mt323:qt-mt323.dll
+ 0001:0000df4c       ??1QRegExp@@QAE@XZ         1000ef4c f   qt-mt323:qt-mt323.dll
+ 0001:0000df52       ??1QTextStream@@UAE@XZ     1000ef52 f   qt-mt323:qt-mt323.dll
+ 0001:0000df58       ?close@QFile@@UAEXXZ       1000ef58 f   qt-mt323:qt-mt323.dll
+ 0001:0000df5e       ?qWarning@@YAXPBDZZ        1000ef5e f   qt-mt323:qt-mt323.dll
+ 0001:0000df64       ?detachInternal@?$QValueList@VQString@@@@AAEXXZ 1000ef64 f   qt-mt323:qt-mt323.dll
+ 0001:0000df6a       ?split@QStringList@@SA?AV1@ABVQString@@0_N@Z 1000ef6a f   qt-mt323:qt-mt323.dll
+ 0001:0000df70       ?cap@QRegExp@@QAE?AVQString@@H@Z 1000ef70 f   qt-mt323:qt-mt323.dll
+ 0001:0000df76       ??0QString@@QAE@ABV0@@Z    1000ef76 f   qt-mt323:qt-mt323.dll
+ 0001:0000df7c       ?search@QRegExp@@QBEHABVQString@@H@Z 1000ef7c f   qt-mt323:qt-mt323.dll
+ 0001:0000df82       ??BQCharRef@@QBE?AVQChar@@XZ 1000ef82 f   qt-mt323:qt-mt323.dll
+ 0001:0000df88       ??AQString@@QAE?AVQCharRef@@H@Z 1000ef88 f   qt-mt323:qt-mt323.dll
+ 0001:0000df8e       ?readLine@QTextStream@@QAE?AVQString@@XZ 1000ef8e f   qt-mt323:qt-mt323.dll
+ 0001:0000df94       ??0QTextStream@@QAE@PAVQIODevice@@@Z 1000ef94 f   qt-mt323:qt-mt323.dll
+ 0001:0000df9a       ??0QRegExp@@QAE@ABVQString@@_N1@Z 1000ef9a f   qt-mt323:qt-mt323.dll
+ 0001:0000dfa0       ?open@QFile@@UAE_NH@Z      1000efa0 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfa6       ??1QFileInfo@@QAE@XZ       1000efa6 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfac       ??1QDir@@UAE@XZ            1000efac f   qt-mt323:qt-mt323.dll
+ 0001:0000dfb2       ??1QFile@@UAE@XZ           1000efb2 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfb8       ?exists@QFile@@QBE_NXZ     1000efb8 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfbe       ??0QFile@@QAE@ABVQString@@@Z 1000efbe f   qt-mt323:qt-mt323.dll
+ 0001:0000dfc4       ?dirName@QDir@@UBE?AVQString@@XZ 1000efc4 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfca       ??0QDir@@QAE@ABVQString@@0HH@Z 1000efca f   qt-mt323:qt-mt323.dll
+ 0001:0000dfd0       ??YQString@@QAEAAV0@PBD@Z  1000efd0 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfd6       ?dirPath@QFileInfo@@QBE?AVQString@@_N@Z 1000efd6 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfdc       ??0QFileInfo@@QAE@ABVQString@@@Z 1000efdc f   qt-mt323:qt-mt323.dll
+ 0001:0000dfe2       ?mid@QString@@QBE?AV1@II@Z 1000efe2 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfe8       ?right@QString@@QBE?AV1@I@Z 1000efe8 f   qt-mt323:qt-mt323.dll
+ 0001:0000dfee       ??4QString@@QAEAAV0@ABV0@@Z 1000efee f   qt-mt323:qt-mt323.dll
+ 0001:0000dff4       ?toInt@QString@@QBEHPA_NH@Z 1000eff4 f   qt-mt323:qt-mt323.dll
+ 0001:0000dffa       ?section@QString@@QBE?AV1@DHHH@Z 1000effa f   qt-mt323:qt-mt323.dll
+ 0001:0000e000       ??4QString@@QAEAAV0@PBD@Z  1000f000 f   qt-mt323:qt-mt323.dll
+ 0001:0000e006       ?arg@QString@@QBE?AV1@IHH@Z 1000f006 f   qt-mt323:qt-mt323.dll
+ 0001:0000e00c       ?arg@QString@@QBE?AV1@HHH@Z 1000f00c f   qt-mt323:qt-mt323.dll
+ 0001:0000e012       ?arg@QString@@QBE?AV1@ABV1@H@Z 1000f012 f   qt-mt323:qt-mt323.dll
+ 0001:0000e018       ?qDebug@@YAXPBDZZ          1000f018 f   qt-mt323:qt-mt323.dll
+ 0001:0000e01e       ?ascii@QString@@QBEPBDXZ   1000f01e f   qt-mt323:qt-mt323.dll
+ 0001:0000e024       ??H@YA?BVQString@@ABV0@PBD@Z 1000f024 f   qt-mt323:qt-mt323.dll
+ 0001:0000e02a       ?debug@@YAXPBDZZ           1000f02a f   qt-mt323:qt-mt323.dll
+ 0001:0000e030       ??M@YA_NABVQString@@0@Z    1000f030 f   qt-mt323:qt-mt323.dll
+ 0001:0000e036       ?number@QString@@SA?AV1@HH@Z 1000f036 f   qt-mt323:qt-mt323.dll
+ 0001:0000e03c       ??8@YA_NABVQString@@PBD@Z  1000f03c f   qt-mt323:qt-mt323.dll
+ 0001:0000e042       ?upper@QString@@QBE?AV1@XZ 1000f042 f   qt-mt323:qt-mt323.dll
+ 0001:0000e048       ??H@YA?BVQString@@PBDABV0@@Z 1000f048 f   qt-mt323:qt-mt323.dll
+ 0001:0000e04e       ??8@YA_NABVQString@@0@Z    1000f04e f   qt-mt323:qt-mt323.dll
+ 0001:0000e054       ?write@QGDict@@MBEAAVQDataStream@@AAV2@PAX@Z 1000f054 f   qt-mt323:qt-mt323.dll
+ 0001:0000e05a       ?read@QGDict@@MAEAAVQDataStream@@AAV2@AAPAX@Z 1000f05a f   qt-mt323:qt-mt323.dll
+ 0001:0000e060       ?newItem@QPtrCollection@@MAEPAXPAX@Z 1000f060 f   qt-mt323:qt-mt323.dll
+ 0001:0000e066       ??YQString@@QAEAAV0@ABV0@@Z 1000f066 f   qt-mt323:qt-mt323.dll
+ 0001:0000e06c       ??H@YA?BVQString@@ABV0@0@Z 1000f06c f   qt-mt323:qt-mt323.dll
+ 0001:0000e072       ??0QGDict@@IAE@IW4KeyType@0@_N1@Z 1000f072 f   qt-mt323:qt-mt323.dll
+ 0001:0000e078       ??1QGDict@@MAE@XZ          1000f078 f   qt-mt323:qt-mt323.dll
+ 0001:0000e07e       ?clear@QGDict@@MAEXXZ      1000f07e f   qt-mt323:qt-mt323.dll
+ 0001:0000e084       ?setContent@QDomDocument@@QAE_NPAVQIODevice@@PAVQString@@PAH2@Z 1000f084 f   qt-mt323:qt-mt323.dll
+ 0001:0000e08a       ?elementsByTagNameNS@QDomElement@@UBE?AVQDomNodeList@@ABVQString@@0@Z 1000f08a f   qt-mt323:qt-mt323.dll
+ 0001:0000e090       ?elementsByTagName@QDomElement@@UBE?AVQDomNodeList@@ABVQString@@@Z 1000f090 f   qt-mt323:qt-mt323.dll
+ 0001:0000e096       ?isComment@QDomNode@@UBE_NXZ 1000f096 f   qt-mt323:qt-mt323.dll
+ 0001:0000e09c       ?isCharacterData@QDomNode@@UBE_NXZ 1000f09c f   qt-mt323:qt-mt323.dll
+ 0001:0000e0a2       ?isProcessingInstruction@QDomNode@@UBE_NXZ 1000f0a2 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0a8       ?isNotation@QDomNode@@UBE_NXZ 1000f0a8 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0ae       ?isEntity@QDomNode@@UBE_NXZ 1000f0ae f   qt-mt323:qt-mt323.dll
+ 0001:0000e0b4       ?isText@QDomNode@@UBE_NXZ  1000f0b4 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0ba       ?isEntityReference@QDomNode@@UBE_NXZ 1000f0ba f   qt-mt323:qt-mt323.dll
+ 0001:0000e0c0       ?isElement@QDomElement@@UBE_NXZ 1000f0c0 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0c6       ?isDocumentType@QDomNode@@UBE_NXZ 1000f0c6 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0cc       ?isDocument@QDomNode@@UBE_NXZ 1000f0cc f   qt-mt323:qt-mt323.dll
+ 0001:0000e0d2       ?isDocumentFragment@QDomNode@@UBE_NXZ 1000f0d2 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0d8       ?isCDATASection@QDomNode@@UBE_NXZ 1000f0d8 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0de       ?isAttr@QDomNode@@UBE_NXZ  1000f0de f   qt-mt323:qt-mt323.dll
+ 0001:0000e0e4       ?setPrefix@QDomNode@@UAEXABVQString@@@Z 1000f0e4 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0ea       ?prefix@QDomNode@@UBE?AVQString@@XZ 1000f0ea f   qt-mt323:qt-mt323.dll
+ 0001:0000e0f0       ?setNodeValue@QDomNode@@UAEXABVQString@@@Z 1000f0f0 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0f6       ?nodeValue@QDomNode@@UBE?AVQString@@XZ 1000f0f6 f   qt-mt323:qt-mt323.dll
+ 0001:0000e0fc       ?hasAttributes@QDomNode@@UBE_NXZ 1000f0fc f   qt-mt323:qt-mt323.dll
+ 0001:0000e102       ?localName@QDomNode@@UBE?AVQString@@XZ 1000f102 f   qt-mt323:qt-mt323.dll
+ 0001:0000e108       ?namespaceURI@QDomNode@@UBE?AVQString@@XZ 1000f108 f   qt-mt323:qt-mt323.dll
+ 0001:0000e10e       ?ownerDocument@QDomNode@@UBE?AVQDomDocument@@XZ 1000f10e f   qt-mt323:qt-mt323.dll
+ 0001:0000e114       ?attributes@QDomElement@@UBE?AVQDomNamedNodeMap@@XZ 1000f114 f   qt-mt323:qt-mt323.dll
+ 0001:0000e11a       ?nextSibling@QDomNode@@UBE?AV1@XZ 1000f11a f   qt-mt323:qt-mt323.dll
+ 0001:0000e120       ?previousSibling@QDomNode@@UBE?AV1@XZ 1000f120 f   qt-mt323:qt-mt323.dll
+ 0001:0000e126       ?lastChild@QDomNode@@UBE?AV1@XZ 1000f126 f   qt-mt323:qt-mt323.dll
+ 0001:0000e12c       ?firstChild@QDomNode@@UBE?AV1@XZ 1000f12c f   qt-mt323:qt-mt323.dll
+ 0001:0000e132       ?childNodes@QDomNode@@UBE?AVQDomNodeList@@XZ 1000f132 f   qt-mt323:qt-mt323.dll
+ 0001:0000e138       ?parentNode@QDomNode@@UBE?AV1@XZ 1000f138 f   qt-mt323:qt-mt323.dll
+ 0001:0000e13e       ?nodeType@QDomElement@@UBE?AW4NodeType@QDomNode@@XZ 1000f13e f   qt-mt323:qt-mt323.dll
+ 0001:0000e144       ?nodeName@QDomNode@@UBE?AVQString@@XZ 1000f144 f   qt-mt323:qt-mt323.dll
+ 0001:0000e14a       ?isSupported@QDomNode@@UBE_NABVQString@@0@Z 1000f14a f   qt-mt323:qt-mt323.dll
+ 0001:0000e150       ?normalize@QDomNode@@UAEXXZ 1000f150 f   qt-mt323:qt-mt323.dll
+ 0001:0000e156       ?cloneNode@QDomNode@@UBE?AV1@_N@Z 1000f156 f   qt-mt323:qt-mt323.dll
+ 0001:0000e15c       ?hasChildNodes@QDomNode@@UBE_NXZ 1000f15c f   qt-mt323:qt-mt323.dll
+ 0001:0000e162       ?appendChild@QDomNode@@UAE?AV1@ABV1@@Z 1000f162 f   qt-mt323:qt-mt323.dll
+ 0001:0000e168       ?removeChild@QDomNode@@UAE?AV1@ABV1@@Z 1000f168 f   qt-mt323:qt-mt323.dll
+ 0001:0000e16e       ?replaceChild@QDomNode@@UAE?AV1@ABV1@0@Z 1000f16e f   qt-mt323:qt-mt323.dll
+ 0001:0000e174       ?insertAfter@QDomNode@@UAE?AV1@ABV1@0@Z 1000f174 f   qt-mt323:qt-mt323.dll
+ 0001:0000e17a       ?insertBefore@QDomNode@@UAE?AV1@ABV1@0@Z 1000f17a f   qt-mt323:qt-mt323.dll
+ 0001:0000e180       ??1QDomElement@@UAE@XZ     1000f180 f   qt-mt323:qt-mt323.dll
+ 0001:0000e186       ??1QDomNode@@UAE@XZ        1000f186 f   qt-mt323:qt-mt323.dll
+ 0001:0000e18c       ??4QDomNode@@QAEAAV0@ABV0@@Z 1000f18c f   qt-mt323:qt-mt323.dll
+ 0001:0000e192       ?look_string@QGDict@@QAEPAXABVQString@@PAXH@Z 1000f192 f   qt-mt323:qt-mt323.dll
+ 0001:0000e198       ?section@QString@@QBE?AV1@PBDHHH@Z 1000f198 f   qt-mt323:qt-mt323.dll
+ 0001:0000e19e       ?startsWith@QString@@QBE_NABV1@@Z 1000f19e f   qt-mt323:qt-mt323.dll
+ 0001:0000e1a4       ?attribute@QDomElement@@QBE?AVQString@@ABV2@0@Z 1000f1a4 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1aa       ?toElement@QDomNode@@QAE?AVQDomElement@@XZ 1000f1aa f   qt-mt323:qt-mt323.dll
+ 0001:0000e1b0       ?isNull@QDomNode@@QBE_NXZ  1000f1b0 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1b6       ??1QDomDocument@@UAE@XZ    1000f1b6 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1bc       ??9@YA_NABVQString@@PBD@Z  1000f1bc f   qt-mt323:qt-mt323.dll
+ 0001:0000e1c2       ?tagName@QDomElement@@QBE?AVQString@@XZ 1000f1c2 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1c8       ?documentElement@QDomDocument@@QBE?AVQDomElement@@XZ 1000f1c8 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1ce       ??0?$QValueList@VQString@@@@QAE@XZ 1000f1ce f   qt-mt323:qt-mt323.dll
+ 0001:0000e1d4       ??0QDomDocument@@QAE@XZ    1000f1d4 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1da       ?lower@QString@@QBE?AV1@XZ 1000f1da f   qt-mt323:qt-mt323.dll
+ 0001:0000e1e0       ??0QString@@QAE@XZ         1000f1e0 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1e6       ?rebalance@QMapPrivateBase@@QAEXPAUQMapNodeBase@@AAPAU2@@Z 1000f1e6 f   qt-mt323:qt-mt323.dll
+ 0001:0000e1f0       ??0cPanel@@QAE@XZ          1000f1f0 f   panel:panelif.obj
+ 0001:0000e250       ??_EcPanel@@UAEPAXI@Z      1000f250 f i panel:panelif.obj
+ 0001:0000e250       ??_GcPanel@@UAEPAXI@Z      1000f250 f i panel:panelif.obj
+ 0001:0000e270       ?connect@cPanel@@QAEIPBD@Z 1000f270 f   panel:panelif.obj
+ 0001:0000e3b0       ??1cPanel@@UAE@XZ          1000f3b0 f   panel:panelif.obj
+ 0001:0000e400       ?showError@cPanel@@AAEXKQBD@Z 1000f400 f   panel:panelif.obj
+ 0001:0000e480       ?getstate@cPanel@@QAEIXZ   1000f480 f   panel:panelif.obj
+ 0001:0000e490       ?setstate@cPanel@@QAEII@Z  1000f490 f   panel:panelif.obj
+ 0001:0000e4a0       ?incrx@cPanel@@AAEXXZ      1000f4a0 f   panel:panelif.obj
+ 0001:0000e4b0       ?setcounters@cPanel@@QAEXPAK0@Z 1000f4b0 f   panel:panelif.obj
+ 0001:0000e4d0       ?tokenize@cPanel@@AAEIXZ   1000f4d0 f   panel:panelif.obj
+ 0001:0000e5b0       ?setcachestate@cPanel@@QAEXI@Z 1000f5b0 f   panel:panelif.obj
+ 0001:0000e5d0       ?getcachestate@cPanel@@QAEIXZ 1000f5d0 f   panel:panelif.obj
+ 0001:0000e5f0       ?cachetest@cPanel@@QAEHIII@Z 1000f5f0 f   panel:panelif.obj
+ 0001:0000e630       ?cacheflush@cPanel@@QAEXI@Z 1000f630 f   panel:panelif.obj
+ 0001:0000e650       ?getdbname@cPanel@@QAEXGGGPADH@Z 1000f650 f   panel:panelif.obj
+ 0001:0000e690       ?getdbindex@cPanel@@QAEHGGPBD@Z 1000f690 f   panel:panelif.obj
+ 0001:0000e6e0       ?setdbname@cPanel@@QAEXGGGPBDH@Z 1000f6e0 f   panel:panelif.obj
+ 0001:0000e780       ?regtallyrange@cPanel@@QAEJIIIH@Z 1000f780 f   panel:panelif.obj
+ 0001:0000e7e0       ?unregtallyrange@cPanel@@QAEJIII@Z 1000f7e0 f   panel:panelif.obj
+ 0001:0000e870       ?txrtrcmd@cPanel@@QAEJPBDH@Z 1000f870 f   panel:panelif.obj
+ 0001:0000e950       ?txinfocmd@cPanel@@QAEJPBDH@Z 1000f950 f   panel:panelif.obj
+ 0001:0000ea10       ?txgpicmd@cPanel@@QAEJPBDH@Z 1000fa10 f   panel:panelif.obj
+ 0001:0000eac0       ?getparamcount@cPanel@@QAEIXZ 1000fac0 f   panel:panelif.obj
+ 0001:0000ead0       ?getparam@cPanel@@QAEPADI@Z 1000fad0 f   panel:panelif.obj
+ 0001:0000eae0       ?ClientWndProcInt@cPanel@@EAGJPAUHWND__@@IIJ@Z 1000fae0 f   panel:panelif.obj
+ 0001:0000ef30       ?ClientWndProc@cPanel@@CGJPAUHWND__@@IIJ@Z 1000ff30 f   panel:panelif.obj
+ 0001:0000ef90       ?getcachedata@cPanel@@QAEHIIPADI@Z 1000ff90 f   panel:panelif.obj
+ 0001:0000f000       ?getcacheindex@cPanel@@QAEHIIIPBD@Z 10010000 f   panel:panelif.obj
+ 0001:0000f070       ?txnetcmd@cPanel@@QAEJPBD@Z 10010070 f   panel:panelif.obj
+ 0001:0000f0e0       _BNCS32TxMessage           100100e0 f   bncsif32:BNCSIF32.dll
+ 0001:0000f0e6       _BNCS32RxMessage           100100e6 f   bncsif32:BNCSIF32.dll
+ 0001:0000f0f0       ??0asyncPost@@QAE@IJH@Z    100100f0 f   asyncpost:asyncPost.obj
+ 0001:0000f140       ??_GasyncPost@@UAEPAXI@Z   10010140 f i asyncpost:asyncPost.obj
+ 0001:0000f140       ??_EasyncPost@@UAEPAXI@Z   10010140 f i asyncpost:asyncPost.obj
+ 0001:0000f160       ??1asyncPost@@UAE@XZ       10010160 f   asyncpost:asyncPost.obj
+ 0001:0000f180       ?lParam@asyncPost@@QAEJXZ  10010180 f   asyncpost:asyncPost.obj
+ 0001:0000f190       ?wParam@asyncPost@@QAEIXZ  10010190 f   asyncpost:asyncPost.obj
+ 0001:0000f1a0       ??0Init@ios_base@std@@QAE@XZ 100101a0 f   msvcprt:MSVCP60.dll
+ 0001:0000f1a6       ??1Init@ios_base@std@@QAE@XZ 100101a6 f   msvcprt:MSVCP60.dll
+ 0001:0000f1ac       ??0_Winit@std@@QAE@XZ      100101ac f   msvcprt:MSVCP60.dll
+ 0001:0000f1b2       ??1_Winit@std@@QAE@XZ      100101b2 f   msvcprt:MSVCP60.dll
+ 0001:0000f1b8       ??3@YAXPAX@Z               100101b8 f   msvcprt:delop_s.obj
+ 0001:0000f1c4       ??1_Lockit@std@@QAE@XZ     100101c4 f   msvcprt:MSVCP60.dll
+ 0001:0000f1ca       ??0_Lockit@std@@QAE@XZ     100101ca f   msvcprt:MSVCP60.dll
+ 0001:0000f1d0       __onexit                   100101d0 f   MSVCRT:atonexit.obj
+ 0001:0000f1fc       _atexit                    100101fc f   MSVCRT:atonexit.obj
+ 0001:0000f20e       ??2@YAPAXI@Z               1001020e f   MSVCRT:MSVCRT.dll
+ 0001:0000f214       __purecall                 10010214 f   MSVCRT:MSVCRT.dll
+ 0001:0000f21a       ??0type_info@@AAE@ABV0@@Z  1001021a f   MSVCRT:ti_inst.obj
+ 0001:0000f225       ??_Gtype_info@@UAEPAXI@Z   10010225 f i MSVCRT:ti_inst.obj
+ 0001:0000f225       ??_Etype_info@@UAEPAXI@Z   10010225 f i MSVCRT:ti_inst.obj
+ 0001:0000f241       ??4type_info@@AAEAAV0@ABV0@@Z 10010241 f   MSVCRT:ti_inst.obj
+ 0001:0000f246       _clock                     10010246 f   MSVCRT:MSVCRT.dll
+ 0001:0000f24c       _time                      1001024c f   MSVCRT:MSVCRT.dll
+ 0001:0000f252       ___CxxFrameHandler         10010252 f   MSVCRT:MSVCRT.dll
+ 0001:0000f260       __CxxThrowException@8      10010260 f   MSVCRT:MSVCRT.dll
+ 0001:0000f266       _sprintf                   10010266 f   MSVCRT:MSVCRT.dll
+ 0001:0000f26c       _atoi                      1001026c f   MSVCRT:MSVCRT.dll
+ 0001:0000f272       _vsprintf                  10010272 f   MSVCRT:MSVCRT.dll
+ 0001:0000f280       __alloca_probe             10010280 f   MSVCRT:chkstk.obj
+ 0001:0000f280       __chkstk                   10010280 f   MSVCRT:chkstk.obj
+ 0001:0000f2b0       _getenv                    100102b0 f   MSVCRT:MSVCRT.dll
+ 0001:0000f2b6       ??_M@YGXPAXIHP6EX0@Z@Z     100102b6 f   MSVCRT:ehvecdtr.obj
+ 0001:0000f336       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10010336 f   MSVCRT:ehvecdtr.obj
+ 0001:0000f3aa       ??_L@YGXPAXIHP6EX0@Z1@Z    100103aa f   MSVCRT:ehvecctr.obj
+ 0001:0000f42c       ?_set_se_translator@@YAP6AXIPAU_EXCEPTION_POINTERS@@@ZP6AXI0@Z@Z 1001042c f   MSVCRT:MSVCRT.dll
+ 0001:0000f432       __CRT_INIT@12              10010432 f   MSVCRT:crtdll.obj
+ 0001:0000f4dd       __DllMainCRTStartup@12     100104dd f   MSVCRT:crtdll.obj
+ 0001:0000f57a       _free                      1001057a f   MSVCRT:MSVCRT.dll
+ 0001:0000f580       ___dllonexit               10010580 f   MSVCRT:MSVCRT.dll
+ 0001:0000f586       ??1type_info@@UAE@XZ       10010586 f   MSVCRT:MSVCRT.dll
+ 0001:0000f58c       __except_handler3          1001058c f   MSVCRT:MSVCRT.dll
+ 0001:0000f592       ?terminate@@YAXXZ          10010592 f   MSVCRT:MSVCRT.dll
+ 0001:0000f598       __initterm                 10010598 f   MSVCRT:MSVCRT.dll
+ 0001:0000f59e       _malloc                    1001059e f   MSVCRT:MSVCRT.dll
+ 0001:0000f5a4       _GetModuleFileNameA@12     100105a4 f   kernel32:KERNEL32.dll
+ 0001:0000f5aa       _CreateMutexA@12           100105aa f   kernel32:KERNEL32.dll
+ 0001:0000f5b0       _CloseHandle@4             100105b0 f   kernel32:KERNEL32.dll
+ 0001:0000f5b6       _ReleaseMutex@4            100105b6 f   kernel32:KERNEL32.dll
+ 0001:0000f5bc       _WaitForSingleObject@8     100105bc f   kernel32:KERNEL32.dll
+ 0001:0000f5c2       _GetPrivateProfileStringA@24 100105c2 f   kernel32:KERNEL32.dll
+ 0001:0000f5c8       _GetPrivateProfileIntA@16  100105c8 f   kernel32:KERNEL32.dll
+ 0001:0000f5ce       _GetLastError@0            100105ce f   kernel32:KERNEL32.dll
+ 0001:0000f5d4       _lstrcpynA@12              100105d4 f   kernel32:KERNEL32.dll
+ 0001:0000f5da       _LocalFree@4               100105da f   kernel32:KERNEL32.dll
+ 0001:0000f5e0       _OutputDebugStringA@4      100105e0 f   kernel32:KERNEL32.dll
+ 0001:0000f5e6       _FormatMessageA@28         100105e6 f   kernel32:KERNEL32.dll
+ 0001:0000f5ec       _lstrlenA@4                100105ec f   kernel32:KERNEL32.dll
+ 0001:0000f5f2       _lstrcatA@8                100105f2 f   kernel32:KERNEL32.dll
+ 0001:0000f5f8       _lstrcpyA@8                100105f8 f   kernel32:KERNEL32.dll
+ 0001:0000f5fe       _lstrcmpA@8                100105fe f   kernel32:KERNEL32.dll
+ 0001:0000f604       _CreateWindowExA@48        10010604 f   user32:USER32.dll
+ 0001:0000f60a       _RegisterClassA@4          1001060a f   user32:USER32.dll
+ 0001:0000f610       _DestroyWindow@4           10010610 f   user32:USER32.dll
+ 0001:0000f616       _IsWindow@4                10010616 f   user32:USER32.dll
+ 0001:0000f61c       _SendMessageA@16           1001061c f   user32:USER32.dll
+ 0001:0000f622       _wsprintfA                 10010622 f   user32:USER32.dll
+ 0001:0000f628       _DefWindowProcA@16         10010628 f   user32:USER32.dll
+ 0001:0000f62e       _PostMessageA@16           1001062e f   user32:USER32.dll
+ 0001:0000f634       _FindWindowA@8             10010634 f   user32:USER32.dll
+ 0001:0000f63a       _SetWindowLongA@12         1001063a f   user32:USER32.dll
+ 0001:0000f640       _GetWindowLongA@8          10010640 f   user32:USER32.dll
+ 0001:0000f646       _GetStockObject@4          10010646 f   gdi32:GDI32.dll
+ 0002:00000000       __imp__BNCS32RxMessage     10012000     bncsif32:BNCSIF32.dll
+ 0002:00000004       __imp__BNCS32TxMessage     10012004     bncsif32:BNCSIF32.dll
+ 0002:00000008       \177BNCSIF32_NULL_THUNK_DATA 10012008     bncsif32:BNCSIF32.dll
+ 0002:0000000c       __imp__GetStockObject@4    1001200c     gdi32:GDI32.dll
+ 0002:00000010       \177GDI32_NULL_THUNK_DATA  10012010     gdi32:GDI32.dll
+ 0002:00000014       __imp__lstrcatA@8          10012014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__CreateMutexA@12     10012018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__CloseHandle@4       1001201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__ReleaseMutex@4      10012020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__WaitForSingleObject@8 10012024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetPrivateProfileStringA@24 10012028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetPrivateProfileIntA@16 1001202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetLastError@0      10012030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__lstrcpynA@12        10012034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__LocalFree@4         10012038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__OutputDebugStringA@4 1001203c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__lstrcmpA@8          10012040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__lstrcpyA@8          10012044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetModuleFileNameA@12 10012048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__lstrlenA@4          1001204c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__FormatMessageA@28   10012050     kernel32:KERNEL32.dll
+ 0002:00000054       \177KERNEL32_NULL_THUNK_DATA 10012054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_??0_Lockit@std@@QAE@XZ 10012058     msvcprt:MSVCP60.dll
+ 0002:0000005c       __imp_??1Init@ios_base@std@@QAE@XZ 1001205c     msvcprt:MSVCP60.dll
+ 0002:00000060       __imp_??0_Winit@std@@QAE@XZ 10012060     msvcprt:MSVCP60.dll
+ 0002:00000064       __imp_??1_Winit@std@@QAE@XZ 10012064     msvcprt:MSVCP60.dll
+ 0002:00000068       __imp_??0Init@ios_base@std@@QAE@XZ 10012068     msvcprt:MSVCP60.dll
+ 0002:0000006c       __imp_??1_Lockit@std@@QAE@XZ 1001206c     msvcprt:MSVCP60.dll
+ 0002:00000070       \177MSVCP60_NULL_THUNK_DATA 10012070     msvcprt:MSVCP60.dll
+ 0002:00000074       __imp___purecall           10012074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp__clock               10012078     MSVCRT:MSVCRT.dll
+ 0002:0000007c       __imp__time                1001207c     MSVCRT:MSVCRT.dll
+ 0002:00000080       __imp_??2@YAPAXI@Z         10012080     MSVCRT:MSVCRT.dll
+ 0002:00000084       __imp___adjust_fdiv        10012084     MSVCRT:MSVCRT.dll
+ 0002:00000088       __imp__malloc              10012088     MSVCRT:MSVCRT.dll
+ 0002:0000008c       __imp___initterm           1001208c     MSVCRT:MSVCRT.dll
+ 0002:00000090       __imp_?terminate@@YAXXZ    10012090     MSVCRT:MSVCRT.dll
+ 0002:00000094       __imp___except_handler3    10012094     MSVCRT:MSVCRT.dll
+ 0002:00000098       __imp_??1type_info@@UAE@XZ 10012098     MSVCRT:MSVCRT.dll
+ 0002:0000009c       __imp___onexit             1001209c     MSVCRT:MSVCRT.dll
+ 0002:000000a0       __imp____dllonexit         100120a0     MSVCRT:MSVCRT.dll
+ 0002:000000a4       __imp__free                100120a4     MSVCRT:MSVCRT.dll
+ 0002:000000a8       __imp_?_set_se_translator@@YAP6AXIPAU_EXCEPTION_POINTERS@@@ZP6AXI0@Z@Z 100120a8     MSVCRT:MSVCRT.dll
+ 0002:000000ac       __imp__getenv              100120ac     MSVCRT:MSVCRT.dll
+ 0002:000000b0       __imp__vsprintf            100120b0     MSVCRT:MSVCRT.dll
+ 0002:000000b4       __imp__atoi                100120b4     MSVCRT:MSVCRT.dll
+ 0002:000000b8       __imp__sprintf             100120b8     MSVCRT:MSVCRT.dll
+ 0002:000000bc       __imp___CxxThrowException@8 100120bc     MSVCRT:MSVCRT.dll
+ 0002:000000c0       __imp____CxxFrameHandler   100120c0     MSVCRT:MSVCRT.dll
+ 0002:000000c4       \177MSVCRT_NULL_THUNK_DATA 100120c4     MSVCRT:MSVCRT.dll
+ 0002:000000c8       __imp__CreateWindowExA@48  100120c8     user32:USER32.dll
+ 0002:000000cc       __imp__RegisterClassA@4    100120cc     user32:USER32.dll
+ 0002:000000d0       __imp__DestroyWindow@4     100120d0     user32:USER32.dll
+ 0002:000000d4       __imp__IsWindow@4          100120d4     user32:USER32.dll
+ 0002:000000d8       __imp__SendMessageA@16     100120d8     user32:USER32.dll
+ 0002:000000dc       __imp__wsprintfA           100120dc     user32:USER32.dll
+ 0002:000000e0       __imp__DefWindowProcA@16   100120e0     user32:USER32.dll
+ 0002:000000e4       __imp__PostMessageA@16     100120e4     user32:USER32.dll
+ 0002:000000e8       __imp__FindWindowA@8       100120e8     user32:USER32.dll
+ 0002:000000ec       __imp__SetWindowLongA@12   100120ec     user32:USER32.dll
+ 0002:000000f0       __imp__GetWindowLongA@8    100120f0     user32:USER32.dll
+ 0002:000000f4       \177USER32_NULL_THUNK_DATA 100120f4     user32:USER32.dll
+ 0002:000000f8       __imp_?right@QString@@QBE?AV1@I@Z 100120f8     qt-mt323:qt-mt323.dll
+ 0002:000000fc       __imp_??4QString@@QAEAAV0@ABV0@@Z 100120fc     qt-mt323:qt-mt323.dll
+ 0002:00000100       __imp_?toInt@QString@@QBEHPA_NH@Z 10012100     qt-mt323:qt-mt323.dll
+ 0002:00000104       __imp_?section@QString@@QBE?AV1@DHHH@Z 10012104     qt-mt323:qt-mt323.dll
+ 0002:00000108       __imp_??4QString@@QAEAAV0@PBD@Z 10012108     qt-mt323:qt-mt323.dll
+ 0002:0000010c       __imp_?arg@QString@@QBE?AV1@IHH@Z 1001210c     qt-mt323:qt-mt323.dll
+ 0002:00000110       __imp_?arg@QString@@QBE?AV1@HHH@Z 10012110     qt-mt323:qt-mt323.dll
+ 0002:00000114       __imp_?arg@QString@@QBE?AV1@ABV1@H@Z 10012114     qt-mt323:qt-mt323.dll
+ 0002:00000118       __imp_?qDebug@@YAXPBDZZ    10012118     qt-mt323:qt-mt323.dll
+ 0002:0000011c       __imp_?ascii@QString@@QBEPBDXZ 1001211c     qt-mt323:qt-mt323.dll
+ 0002:00000120       __imp_??H@YA?BVQString@@ABV0@PBD@Z 10012120     qt-mt323:qt-mt323.dll
+ 0002:00000124       __imp_?debug@@YAXPBDZZ     10012124     qt-mt323:qt-mt323.dll
+ 0002:00000128       __imp_??M@YA_NABVQString@@0@Z 10012128     qt-mt323:qt-mt323.dll
+ 0002:0000012c       __imp_?number@QString@@SA?AV1@HH@Z 1001212c     qt-mt323:qt-mt323.dll
+ 0002:00000130       __imp_??8@YA_NABVQString@@PBD@Z 10012130     qt-mt323:qt-mt323.dll
+ 0002:00000134       __imp_?upper@QString@@QBE?AV1@XZ 10012134     qt-mt323:qt-mt323.dll
+ 0002:00000138       __imp_?null@QChar@@2V1@A   10012138     qt-mt323:qt-mt323.dll
+ 0002:0000013c       __imp_??H@YA?BVQString@@PBDABV0@@Z 1001213c     qt-mt323:qt-mt323.dll
+ 0002:00000140       __imp_??8@YA_NABVQString@@0@Z 10012140     qt-mt323:qt-mt323.dll
+ 0002:00000144       __imp_?write@QGDict@@MBEAAVQDataStream@@AAV2@PAX@Z 10012144     qt-mt323:qt-mt323.dll
+ 0002:00000148       __imp_?read@QGDict@@MAEAAVQDataStream@@AAV2@AAPAX@Z 10012148     qt-mt323:qt-mt323.dll
+ 0002:0000014c       __imp_?newItem@QPtrCollection@@MAEPAXPAX@Z 1001214c     qt-mt323:qt-mt323.dll
+ 0002:00000150       __imp_??YQString@@QAEAAV0@ABV0@@Z 10012150     qt-mt323:qt-mt323.dll
+ 0002:00000154       __imp_??H@YA?BVQString@@ABV0@0@Z 10012154     qt-mt323:qt-mt323.dll
+ 0002:00000158       __imp_??0QGDict@@IAE@IW4KeyType@0@_N1@Z 10012158     qt-mt323:qt-mt323.dll
+ 0002:0000015c       __imp_??1QGDict@@MAE@XZ    1001215c     qt-mt323:qt-mt323.dll
+ 0002:00000160       __imp_?clear@QGDict@@MAEXXZ 10012160     qt-mt323:qt-mt323.dll
+ 0002:00000164       __imp_?setContent@QDomDocument@@QAE_NPAVQIODevice@@PAVQString@@PAH2@Z 10012164     qt-mt323:qt-mt323.dll
+ 0002:00000168       __imp_?elementsByTagNameNS@QDomElement@@UBE?AVQDomNodeList@@ABVQString@@0@Z 10012168     qt-mt323:qt-mt323.dll
+ 0002:0000016c       __imp_?elementsByTagName@QDomElement@@UBE?AVQDomNodeList@@ABVQString@@@Z 1001216c     qt-mt323:qt-mt323.dll
+ 0002:00000170       __imp_?isComment@QDomNode@@UBE_NXZ 10012170     qt-mt323:qt-mt323.dll
+ 0002:00000174       __imp_?isCharacterData@QDomNode@@UBE_NXZ 10012174     qt-mt323:qt-mt323.dll
+ 0002:00000178       __imp_?isProcessingInstruction@QDomNode@@UBE_NXZ 10012178     qt-mt323:qt-mt323.dll
+ 0002:0000017c       __imp_?isNotation@QDomNode@@UBE_NXZ 1001217c     qt-mt323:qt-mt323.dll
+ 0002:00000180       __imp_?isEntity@QDomNode@@UBE_NXZ 10012180     qt-mt323:qt-mt323.dll
+ 0002:00000184       __imp_?isText@QDomNode@@UBE_NXZ 10012184     qt-mt323:qt-mt323.dll
+ 0002:00000188       __imp_?isEntityReference@QDomNode@@UBE_NXZ 10012188     qt-mt323:qt-mt323.dll
+ 0002:0000018c       __imp_?isElement@QDomElement@@UBE_NXZ 1001218c     qt-mt323:qt-mt323.dll
+ 0002:00000190       __imp_?isDocumentType@QDomNode@@UBE_NXZ 10012190     qt-mt323:qt-mt323.dll
+ 0002:00000194       __imp_?isDocument@QDomNode@@UBE_NXZ 10012194     qt-mt323:qt-mt323.dll
+ 0002:00000198       __imp_?isDocumentFragment@QDomNode@@UBE_NXZ 10012198     qt-mt323:qt-mt323.dll
+ 0002:0000019c       __imp_?isCDATASection@QDomNode@@UBE_NXZ 1001219c     qt-mt323:qt-mt323.dll
+ 0002:000001a0       __imp_?isAttr@QDomNode@@UBE_NXZ 100121a0     qt-mt323:qt-mt323.dll
+ 0002:000001a4       __imp_??1?$QPtrList@D@@UAE@XZ 100121a4     qt-mt323:qt-mt323.dll
+ 0002:000001a8       __imp_?prefix@QDomNode@@UBE?AVQString@@XZ 100121a8     qt-mt323:qt-mt323.dll
+ 0002:000001ac       __imp_?mid@QString@@QBE?AV1@II@Z 100121ac     qt-mt323:qt-mt323.dll
+ 0002:000001b0       __imp_?nodeValue@QDomNode@@UBE?AVQString@@XZ 100121b0     qt-mt323:qt-mt323.dll
+ 0002:000001b4       __imp_?hasAttributes@QDomNode@@UBE_NXZ 100121b4     qt-mt323:qt-mt323.dll
+ 0002:000001b8       __imp_?localName@QDomNode@@UBE?AVQString@@XZ 100121b8     qt-mt323:qt-mt323.dll
+ 0002:000001bc       __imp_?namespaceURI@QDomNode@@UBE?AVQString@@XZ 100121bc     qt-mt323:qt-mt323.dll
+ 0002:000001c0       __imp_?ownerDocument@QDomNode@@UBE?AVQDomDocument@@XZ 100121c0     qt-mt323:qt-mt323.dll
+ 0002:000001c4       __imp_?attributes@QDomElement@@UBE?AVQDomNamedNodeMap@@XZ 100121c4     qt-mt323:qt-mt323.dll
+ 0002:000001c8       __imp_?nextSibling@QDomNode@@UBE?AV1@XZ 100121c8     qt-mt323:qt-mt323.dll
+ 0002:000001cc       __imp_?previousSibling@QDomNode@@UBE?AV1@XZ 100121cc     qt-mt323:qt-mt323.dll
+ 0002:000001d0       __imp_?lastChild@QDomNode@@UBE?AV1@XZ 100121d0     qt-mt323:qt-mt323.dll
+ 0002:000001d4       __imp_?firstChild@QDomNode@@UBE?AV1@XZ 100121d4     qt-mt323:qt-mt323.dll
+ 0002:000001d8       __imp_?childNodes@QDomNode@@UBE?AVQDomNodeList@@XZ 100121d8     qt-mt323:qt-mt323.dll
+ 0002:000001dc       __imp_?parentNode@QDomNode@@UBE?AV1@XZ 100121dc     qt-mt323:qt-mt323.dll
+ 0002:000001e0       __imp_?nodeType@QDomElement@@UBE?AW4NodeType@QDomNode@@XZ 100121e0     qt-mt323:qt-mt323.dll
+ 0002:000001e4       __imp_?nodeName@QDomNode@@UBE?AVQString@@XZ 100121e4     qt-mt323:qt-mt323.dll
+ 0002:000001e8       __imp_?isSupported@QDomNode@@UBE_NABVQString@@0@Z 100121e8     qt-mt323:qt-mt323.dll
+ 0002:000001ec       __imp_?normalize@QDomNode@@UAEXXZ 100121ec     qt-mt323:qt-mt323.dll
+ 0002:000001f0       __imp_?cloneNode@QDomNode@@UBE?AV1@_N@Z 100121f0     qt-mt323:qt-mt323.dll
+ 0002:000001f4       __imp_?hasChildNodes@QDomNode@@UBE_NXZ 100121f4     qt-mt323:qt-mt323.dll
+ 0002:000001f8       __imp_?appendChild@QDomNode@@UAE?AV1@ABV1@@Z 100121f8     qt-mt323:qt-mt323.dll
+ 0002:000001fc       __imp_?removeChild@QDomNode@@UAE?AV1@ABV1@@Z 100121fc     qt-mt323:qt-mt323.dll
+ 0002:00000200       __imp_?replaceChild@QDomNode@@UAE?AV1@ABV1@0@Z 10012200     qt-mt323:qt-mt323.dll
+ 0002:00000204       __imp_?insertAfter@QDomNode@@UAE?AV1@ABV1@0@Z 10012204     qt-mt323:qt-mt323.dll
+ 0002:00000208       __imp_?insertBefore@QDomNode@@UAE?AV1@ABV1@0@Z 10012208     qt-mt323:qt-mt323.dll
+ 0002:0000020c       __imp_??1QDomElement@@UAE@XZ 1001220c     qt-mt323:qt-mt323.dll
+ 0002:00000210       __imp_??1QDomNode@@UAE@XZ  10012210     qt-mt323:qt-mt323.dll
+ 0002:00000214       __imp_??4QDomNode@@QAEAAV0@ABV0@@Z 10012214     qt-mt323:qt-mt323.dll
+ 0002:00000218       __imp_?look_string@QGDict@@QAEPAXABVQString@@PAXH@Z 10012218     qt-mt323:qt-mt323.dll
+ 0002:0000021c       __imp_?section@QString@@QBE?AV1@PBDHHH@Z 1001221c     qt-mt323:qt-mt323.dll
+ 0002:00000220       __imp_?startsWith@QString@@QBE_NABV1@@Z 10012220     qt-mt323:qt-mt323.dll
+ 0002:00000224       __imp_?attribute@QDomElement@@QBE?AVQString@@ABV2@0@Z 10012224     qt-mt323:qt-mt323.dll
+ 0002:00000228       __imp_?toElement@QDomNode@@QAE?AVQDomElement@@XZ 10012228     qt-mt323:qt-mt323.dll
+ 0002:0000022c       __imp_?isNull@QDomNode@@QBE_NXZ 1001222c     qt-mt323:qt-mt323.dll
+ 0002:00000230       __imp_??1QDomDocument@@UAE@XZ 10012230     qt-mt323:qt-mt323.dll
+ 0002:00000234       __imp_??9@YA_NABVQString@@PBD@Z 10012234     qt-mt323:qt-mt323.dll
+ 0002:00000238       __imp_?tagName@QDomElement@@QBE?AVQString@@XZ 10012238     qt-mt323:qt-mt323.dll
+ 0002:0000023c       __imp_?documentElement@QDomDocument@@QBE?AVQDomElement@@XZ 1001223c     qt-mt323:qt-mt323.dll
+ 0002:00000240       __imp_??0?$QValueList@VQString@@@@QAE@XZ 10012240     qt-mt323:qt-mt323.dll
+ 0002:00000244       __imp_??0QDomDocument@@QAE@XZ 10012244     qt-mt323:qt-mt323.dll
+ 0002:00000248       __imp_?lower@QString@@QBE?AV1@XZ 10012248     qt-mt323:qt-mt323.dll
+ 0002:0000024c       __imp_??0QString@@QAE@XZ   1001224c     qt-mt323:qt-mt323.dll
+ 0002:00000250       __imp_?rebalance@QMapPrivateBase@@QAEXPAUQMapNodeBase@@AAPAU2@@Z 10012250     qt-mt323:qt-mt323.dll
+ 0002:00000254       __imp_??1?$QMemArray@VQPoint@@@@UAE@XZ 10012254     qt-mt323:qt-mt323.dll
+ 0002:00000258       __imp_??1?$QMemArray@D@@UAE@XZ 10012258     qt-mt323:qt-mt323.dll
+ 0002:0000025c       __imp_??1?$QMemArray@_N@@UAE@XZ 1001225c     qt-mt323:qt-mt323.dll
+ 0002:00000260       __imp_??0QFileInfo@@QAE@ABVQString@@@Z 10012260     qt-mt323:qt-mt323.dll
+ 0002:00000264       __imp_?dirPath@QFileInfo@@QBE?AVQString@@_N@Z 10012264     qt-mt323:qt-mt323.dll
+ 0002:00000268       __imp_??YQString@@QAEAAV0@PBD@Z 10012268     qt-mt323:qt-mt323.dll
+ 0002:0000026c       __imp_?null@QString@@2V1@A 1001226c     qt-mt323:qt-mt323.dll
+ 0002:00000270       __imp_??0QDir@@QAE@ABVQString@@0HH@Z 10012270     qt-mt323:qt-mt323.dll
+ 0002:00000274       __imp_?dirName@QDir@@UBE?AVQString@@XZ 10012274     qt-mt323:qt-mt323.dll
+ 0002:00000278       __imp_??0QFile@@QAE@ABVQString@@@Z 10012278     qt-mt323:qt-mt323.dll
+ 0002:0000027c       __imp_?exists@QFile@@QBE_NXZ 1001227c     qt-mt323:qt-mt323.dll
+ 0002:00000280       __imp_??1QFile@@UAE@XZ     10012280     qt-mt323:qt-mt323.dll
+ 0002:00000284       __imp_??1QDir@@UAE@XZ      10012284     qt-mt323:qt-mt323.dll
+ 0002:00000288       __imp_??1QFileInfo@@QAE@XZ 10012288     qt-mt323:qt-mt323.dll
+ 0002:0000028c       __imp_?open@QFile@@UAE_NH@Z 1001228c     qt-mt323:qt-mt323.dll
+ 0002:00000290       __imp_??0QRegExp@@QAE@ABVQString@@_N1@Z 10012290     qt-mt323:qt-mt323.dll
+ 0002:00000294       __imp_??0QTextStream@@QAE@PAVQIODevice@@@Z 10012294     qt-mt323:qt-mt323.dll
+ 0002:00000298       __imp_?readLine@QTextStream@@QAE?AVQString@@XZ 10012298     qt-mt323:qt-mt323.dll
+ 0002:0000029c       __imp_??AQString@@QAE?AVQCharRef@@H@Z 1001229c     qt-mt323:qt-mt323.dll
+ 0002:000002a0       __imp_??BQCharRef@@QBE?AVQChar@@XZ 100122a0     qt-mt323:qt-mt323.dll
+ 0002:000002a4       __imp_?search@QRegExp@@QBEHABVQString@@H@Z 100122a4     qt-mt323:qt-mt323.dll
+ 0002:000002a8       __imp_??0QString@@QAE@ABV0@@Z 100122a8     qt-mt323:qt-mt323.dll
+ 0002:000002ac       __imp_?cap@QRegExp@@QAE?AVQString@@H@Z 100122ac     qt-mt323:qt-mt323.dll
+ 0002:000002b0       __imp_?split@QStringList@@SA?AV1@ABVQString@@0_N@Z 100122b0     qt-mt323:qt-mt323.dll
+ 0002:000002b4       __imp_?detachInternal@?$QValueList@VQString@@@@AAEXXZ 100122b4     qt-mt323:qt-mt323.dll
+ 0002:000002b8       __imp_?qWarning@@YAXPBDZZ  100122b8     qt-mt323:qt-mt323.dll
+ 0002:000002bc       __imp_?close@QFile@@UAEXXZ 100122bc     qt-mt323:qt-mt323.dll
+ 0002:000002c0       __imp_??1QTextStream@@UAE@XZ 100122c0     qt-mt323:qt-mt323.dll
+ 0002:000002c4       __imp_??1QRegExp@@QAE@XZ   100122c4     qt-mt323:qt-mt323.dll
+ 0002:000002c8       __imp_?startTimer@QObject@@QAEHH@Z 100122c8     qt-mt323:qt-mt323.dll
+ 0002:000002cc       __imp_??1QStringList@@QAE@XZ 100122cc     qt-mt323:qt-mt323.dll
+ 0002:000002d0       __imp_?killTimer@QObject@@QAEXH@Z 100122d0     qt-mt323:qt-mt323.dll
+ 0002:000002d4       __imp_?deleteSelf@QStringData@@QAEXXZ 100122d4     qt-mt323:qt-mt323.dll
+ 0002:000002d8       __imp_??0QObject@@QAE@PAV0@PBD@Z 100122d8     qt-mt323:qt-mt323.dll
+ 0002:000002dc       __imp_?makeSharedNull@QString@@CAPAUQStringData@@XZ 100122dc     qt-mt323:qt-mt323.dll
+ 0002:000002e0       __imp_?shared_null@QString@@0PAUQStringData@@A 100122e0     qt-mt323:qt-mt323.dll
+ 0002:000002e4       __imp_??0QString@@QAE@PBD@Z 100122e4     qt-mt323:qt-mt323.dll
+ 0002:000002e8       __imp_?latin1@QString@@QBEPBDXZ 100122e8     qt-mt323:qt-mt323.dll
+ 0002:000002ec       __imp_??1QObject@@UAE@XZ   100122ec     qt-mt323:qt-mt323.dll
+ 0002:000002f0       __imp_??1QString@@QAE@XZ   100122f0     qt-mt323:qt-mt323.dll
+ 0002:000002f4       __imp_?metaObject@QObject@@UBEPAVQMetaObject@@XZ 100122f4     qt-mt323:qt-mt323.dll
+ 0002:000002f8       __imp_?className@QObject@@UBEPBDXZ 100122f8     qt-mt323:qt-mt323.dll
+ 0002:000002fc       __imp_?qt_cast@QObject@@UAEPAXPBD@Z 100122fc     qt-mt323:qt-mt323.dll
+ 0002:00000300       __imp_?qt_invoke@QObject@@UAE_NHPAUQUObject@@@Z 10012300     qt-mt323:qt-mt323.dll
+ 0002:00000304       __imp_?qt_emit@QObject@@UAE_NHPAUQUObject@@@Z 10012304     qt-mt323:qt-mt323.dll
+ 0002:00000308       __imp_?qt_property@QObject@@UAE_NHHPAVQVariant@@@Z 10012308     qt-mt323:qt-mt323.dll
+ 0002:0000030c       __imp_?event@QObject@@UAE_NPAVQEvent@@@Z 1001230c     qt-mt323:qt-mt323.dll
+ 0002:00000310       __imp_?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z 10012310     qt-mt323:qt-mt323.dll
+ 0002:00000314       __imp_?setName@QObject@@UAEXPBD@Z 10012314     qt-mt323:qt-mt323.dll
+ 0002:00000318       __imp_?insertChild@QObject@@UAEXPAV1@@Z 10012318     qt-mt323:qt-mt323.dll
+ 0002:0000031c       __imp_?removeChild@QObject@@UAEXPAV1@@Z 1001231c     qt-mt323:qt-mt323.dll
+ 0002:00000320       __imp_?setProperty@QObject@@UAE_NPBDABVQVariant@@@Z 10012320     qt-mt323:qt-mt323.dll
+ 0002:00000324       __imp_?property@QObject@@UBE?AVQVariant@@PBD@Z 10012324     qt-mt323:qt-mt323.dll
+ 0002:00000328       __imp_?childEvent@QObject@@MAEXPAVQChildEvent@@@Z 10012328     qt-mt323:qt-mt323.dll
+ 0002:0000032c       __imp_?customEvent@QObject@@MAEXPAVQCustomEvent@@@Z 1001232c     qt-mt323:qt-mt323.dll
+ 0002:00000330       __imp_?connectNotify@QObject@@MAEXPBD@Z 10012330     qt-mt323:qt-mt323.dll
+ 0002:00000334       __imp_?disconnectNotify@QObject@@MAEXPBD@Z 10012334     qt-mt323:qt-mt323.dll
+ 0002:00000338       __imp_?checkConnectArgs@QObject@@MAE_NPBDPBV1@0@Z 10012338     qt-mt323:qt-mt323.dll
+ 0002:0000033c       __imp_?setNodeValue@QDomNode@@UAEXABVQString@@@Z 1001233c     qt-mt323:qt-mt323.dll
+ 0002:00000340       __imp_??1?$QPtrList@VQObject@@@@UAE@XZ 10012340     qt-mt323:qt-mt323.dll
+ 0002:00000344       __imp_?setPrefix@QDomNode@@UAEXABVQString@@@Z 10012344     qt-mt323:qt-mt323.dll
+ 0002:00000348       __imp_??1?$QMemArray@H@@UAE@XZ 10012348     qt-mt323:qt-mt323.dll
+ 0002:0000034c       \177qt-mt323_NULL_THUNK_DATA 1001234c     qt-mt323:qt-mt323.dll
+ 0002:00000370       ??_7bncs_input@@6BQObject@@@ 10012370     bncs_input.obj
+ 0002:000003c4       ??_7bncs_input@@6BcPanel@@@ 100123c4     bncs_input.obj
+ 0002:000003d4       ??_7bncs_input@@6Balarms_input_base@@@ 100123d4     bncs_input.obj
+ 0002:0000041c       ??_7alarms_input_base@@6B@ 1001241c     bncs_input.obj
+ 0002:00000464       ??_7alarms_base@@6B@       10012464     bncs_input.obj
+ 0002:00000494       ??_7BncsStore@@6B@         10012494     BncsStore.obj
+ 0002:0000049c       ??_7?$QValueVectorPrivate@H@@6B@ 1001249c     BncsStore.obj
+ 0002:000004a4       ??_7cBNCSPoll@@6BQObject@@@ 100124a4     cBNCSPoll.obj
+ 0002:000004f8       ??_7cBNCSPoll@@6BcPanel@@@ 100124f8     cBNCSPoll.obj
+ 0002:00000508       ??_7cDocument@@6B@         10012508     cDocument.obj
+ 0002:00000510       ??_7?$QDict@VcInstanceInfo@@@@6B@ 10012510     cDocument.obj
+ 0002:00000530       ??_7?$QDict@VQDomElement@@@@6B@ 10012530     cDocument.obj
+ 0002:00000550       ??_SQDomElement@@6B@       10012550     cDocument.obj
+ 0002:000005fc       ??_7cInstanceInfo@@6B@     100125fc     cInstanceInfo.obj
+ 0002:00000604       ??_7cPollStore@@6B@        10012604     cPollStore.obj
+ 0002:0000060c       ??_7CPollRange@@6B@        1001260c     PollRange.obj
+ 0002:00000610       ??_7cPanel@@6B@            10012610     panel:panelif.obj
+ 0002:0000061c       ??_7asyncPost@@6B@         1001261c     asyncpost:asyncPost.obj
+ 0002:00000624       ??_7type_info@@6B@         10012624     MSVCRT:ti_inst.obj
+ 0002:00000658       ??_R4bncs_input@@6BQObject@@@ 10012658     bncs_input.obj
+ 0002:00000670       ??_R4bncs_input@@6BcPanel@@@ 10012670     bncs_input.obj
+ 0002:00000688       ??_R1HM@?0A@8Qt@@8         10012688     bncs_input.obj
+ 0002:000006a0       ??_R1HI@?0A@8QObject@@8    100126a0     bncs_input.obj
+ 0002:000006b8       ??_R13?0A@8cPanel@@8       100126b8     bncs_input.obj
+ 0002:000006d0       ??_R1A@?0A@A@bncs_input@@8 100126d0     bncs_input.obj
+ 0002:000006e8       ??_R2bncs_input@@8         100126e8     bncs_input.obj
+ 0002:00000708       ??_R3bncs_input@@8         10012708     bncs_input.obj
+ 0002:00000718       ??_R4bncs_input@@6Balarms_input_base@@@ 10012718     bncs_input.obj
+ 0002:00000730       ??_R1A@?0A@A@alarms_base@@8 10012730     bncs_input.obj
+ 0002:00000748       ??_R1A@?0A@A@alarms_input_base@@8 10012748     bncs_input.obj
+ 0002:00000760       ??_R2alarms_input_base@@8  10012760     bncs_input.obj
+ 0002:00000770       ??_R3alarms_input_base@@8  10012770     bncs_input.obj
+ 0002:00000780       ??_R4alarms_input_base@@6B@ 10012780     bncs_input.obj
+ 0002:00000794       ??_R2alarms_base@@8        10012794     bncs_input.obj
+ 0002:000007a0       ??_R3alarms_base@@8        100127a0     bncs_input.obj
+ 0002:000007b0       ??_R4alarms_base@@6B@      100127b0     bncs_input.obj
+ 0002:000007c8       ??_R1A@?0A@A@BncsStore@@8  100127c8     BncsStore.obj
+ 0002:000007e0       ??_R2BncsStore@@8          100127e0     BncsStore.obj
+ 0002:000007e8       ??_R3BncsStore@@8          100127e8     BncsStore.obj
+ 0002:000007f8       ??_R4BncsStore@@6B@        100127f8     BncsStore.obj
+ 0002:00000810       ??_R13?0A@A@QShared@@8     10012810     BncsStore.obj
+ 0002:00000828       ??_R1A@?0A@A@?$QValueVectorPrivate@H@@8 10012828     BncsStore.obj
+ 0002:00000840       ??_R2?$QValueVectorPrivate@H@@8 10012840     BncsStore.obj
+ 0002:00000850       ??_R3?$QValueVectorPrivate@H@@8 10012850     BncsStore.obj
+ 0002:00000860       ??_R4?$QValueVectorPrivate@H@@6B@ 10012860     BncsStore.obj
+ 0002:00000878       ??_R4cBNCSPoll@@6BQObject@@@ 10012878     cBNCSPoll.obj
+ 0002:00000890       ??_R1HI@?0A@8Qt@@8         10012890     cBNCSPoll.obj
+ 0002:000008a8       ??_R1HE@?0A@8QObject@@8    100128a8     cBNCSPoll.obj
+ 0002:000008c0       ??_R1A@?0A@8cPanel@@8      100128c0     cBNCSPoll.obj
+ 0002:000008d8       ??_R1A@?0A@A@cBNCSPoll@@8  100128d8     cBNCSPoll.obj
+ 0002:000008f0       ??_R2cBNCSPoll@@8          100128f0     cBNCSPoll.obj
+ 0002:00000908       ??_R3cBNCSPoll@@8          10012908     cBNCSPoll.obj
+ 0002:00000918       ??_R4cBNCSPoll@@6BcPanel@@@ 10012918     cBNCSPoll.obj
+ 0002:00000930       ??_R1A@?0A@A@?$QDict@VQDomElement@@@@8 10012930     cDocument.obj
+ 0002:00000948       ??_R2?$QDict@VQDomElement@@@@8 10012948     cDocument.obj
+ 0002:00000958       ??_R3?$QDict@VQDomElement@@@@8 10012958     cDocument.obj
+ 0002:00000968       ??_R4?$QDict@VQDomElement@@@@6B@ 10012968     cDocument.obj
+ 0002:00000980       ??_R1A@?0A@A@cDocument@@8  10012980     cDocument.obj
+ 0002:00000998       ??_R2cDocument@@8          10012998     cDocument.obj
+ 0002:000009a0       ??_R3cDocument@@8          100129a0     cDocument.obj
+ 0002:000009b0       ??_R4cDocument@@6B@        100129b0     cDocument.obj
+ 0002:000009c8       ??_R1A@?0A@A@QPtrCollection@@8 100129c8     cDocument.obj
+ 0002:000009e0       ??_R1A@?0A@A@QGDict@@8     100129e0     cDocument.obj
+ 0002:000009f8       ??_R1A@?0A@A@?$QDict@VcInstanceInfo@@@@8 100129f8     cDocument.obj
+ 0002:00000a10       ??_R2?$QDict@VcInstanceInfo@@@@8 10012a10     cDocument.obj
+ 0002:00000a20       ??_R3?$QDict@VcInstanceInfo@@@@8 10012a20     cDocument.obj
+ 0002:00000a30       ??_R4?$QDict@VcInstanceInfo@@@@6B@ 10012a30     cDocument.obj
+ 0002:00000a48       ??_R1A@?0A@A@QDomNode@@8   10012a48     cDocument.obj
+ 0002:00000a60       ??_R1A@?0A@A@QDomElement@@8 10012a60     cDocument.obj
+ 0002:00000a78       ??_R2QDomElement@@8        10012a78     cDocument.obj
+ 0002:00000a88       ??_R3QDomElement@@8        10012a88     cDocument.obj
+ 0002:00000a98       ??_R4QDomElement@@6B@      10012a98     cDocument.obj
+ 0002:00000ab0       ??_R1A@?0A@A@cInstanceInfo@@8 10012ab0     cInstanceInfo.obj
+ 0002:00000ac8       ??_R2cInstanceInfo@@8      10012ac8     cInstanceInfo.obj
+ 0002:00000ad0       ??_R3cInstanceInfo@@8      10012ad0     cInstanceInfo.obj
+ 0002:00000ae0       ??_R4cInstanceInfo@@6B@    10012ae0     cInstanceInfo.obj
+ 0002:00000af8       ??_R1A@?0A@A@cPollStore@@8 10012af8     cPollStore.obj
+ 0002:00000b10       ??_R2cPollStore@@8         10012b10     cPollStore.obj
+ 0002:00000b18       ??_R3cPollStore@@8         10012b18     cPollStore.obj
+ 0002:00000b28       ??_R4cPollStore@@6B@       10012b28     cPollStore.obj
+ 0002:00000b40       ??_R1A@?0A@A@CPollRange@@8 10012b40     PollRange.obj
+ 0002:00000b58       ??_R2CPollRange@@8         10012b58     PollRange.obj
+ 0002:00000b60       ??_R3CPollRange@@8         10012b60     PollRange.obj
+ 0002:00000b70       ??_R4CPollRange@@6B@       10012b70     PollRange.obj
+ 0002:00000b88       ??_R1A@?0A@A@type_info@@8  10012b88     MSVCRT:ti_inst.obj
+ 0002:00000ba0       ??_R2type_info@@8          10012ba0     MSVCRT:ti_inst.obj
+ 0002:00000ba8       ??_R3type_info@@8          10012ba8     MSVCRT:ti_inst.obj
+ 0002:00000bb8       ??_R4type_info@@6B@        10012bb8     MSVCRT:ti_inst.obj
+ 0002:000021a0       __CT??_R0?AVstructured_exception@@@88 100141a0     except.obj
+ 0002:000021c0       __CTA1?AVstructured_exception@@ 100141c0     except.obj
+ 0002:000021c8       __TI1?AVstructured_exception@@ 100141c8     except.obj
+ 0002:00002208       __IMPORT_DESCRIPTOR_qt-mt323 10014208     qt-mt323:qt-mt323.dll
+ 0002:0000221c       __IMPORT_DESCRIPTOR_BNCSIF32 1001421c     bncsif32:BNCSIF32.dll
+ 0002:00002230       __IMPORT_DESCRIPTOR_MSVCP60 10014230     msvcprt:MSVCP60.dll
+ 0002:00002244       __IMPORT_DESCRIPTOR_MSVCRT 10014244     MSVCRT:MSVCRT.dll
+ 0002:00002258       __IMPORT_DESCRIPTOR_KERNEL32 10014258     kernel32:KERNEL32.dll
+ 0002:0000226c       __IMPORT_DESCRIPTOR_USER32 1001426c     user32:USER32.dll
+ 0002:00002280       __IMPORT_DESCRIPTOR_GDI32  10014280     gdi32:GDI32.dll
+ 0002:00002294       __NULL_IMPORT_DESCRIPTOR   10014294     qt-mt323:qt-mt323.dll
+ 0003:00000000       ___xc_a                    10016000     MSVCRT:cinitexe.obj
+ 0003:00000040       ___xc_z                    10016040     MSVCRT:cinitexe.obj
+ 0003:00000044       ___xi_a                    10016044     MSVCRT:cinitexe.obj
+ 0003:00000048       ___xi_z                    10016048     MSVCRT:cinitexe.obj
+ 0003:00000050       ??_R0?AVQt@@@8             10016050     bncs_input.obj
+ 0003:00000068       ??_R0?AVQObject@@@8        10016068     bncs_input.obj
+ 0003:00000080       ??_R0?AVcPanel@@@8         10016080     bncs_input.obj
+ 0003:00000098       ??_R0?AVbncs_input@@@8     10016098     bncs_input.obj
+ 0003:000000b8       ??_R0?AValarms_base@@@8    100160b8     bncs_input.obj
+ 0003:000000d8       ??_R0?AValarms_input_base@@@8 100160d8     bncs_input.obj
+ 0003:000000f8       ??_C@_0BN@LPKO@constructor?5?9?5this?5dll?5is?5?$CFs?$AA@ 100160f8     bncs_input.obj
+ 0003:00000118       ??_C@_0P@MIJP@constructor?5?$CFx?$AA@ 10016118     bncs_input.obj
+ 0003:00000128       ??_C@_0P@FPHM@CSI?5HAS?5CLOSED?$AA@ 10016128     bncs_input.obj
+ 0003:00000138       ??_C@_0BF@GLNE@Can?8t?5connect?5to?5CSI?$AA@ 10016138     bncs_input.obj
+ 0003:00000150       ??_C@_0P@DKGD@Can?8t?5find?5CSI?$AA@ 10016150     bncs_input.obj
+ 0003:00000160       ??_C@_0BL@MGAP@CSI?5status?5default?5?9?5error?$AA@ 10016160     bncs_input.obj
+ 0003:0000017c       ??_C@_0BC@KJPF@End?5of?5destructor?$AA@ 1001617c     bncs_input.obj
+ 0003:00000190       ??_C@_0CD@CDEG@failed?5to?5get?5IMutex?5in?5destruct@ 10016190     bncs_input.obj
+ 0003:000001b4       ??_C@_0L@LCGC@Destructor?$AA@ 100161b4     bncs_input.obj
+ 0003:000001c0       ??_C@_0CC@MGH@Failed?5to?5get?5IMutex?5in?5getData?$CI@ 100161c0     bncs_input.obj
+ 0003:000001e4       ??_C@_0O@OMLO@BNCS_DRV_STAT?$AA@ 100161e4     bncs_input.obj
+ 0003:000001f8       ??_R0?AVstructured_exception@@@8 100161f8     bncs_input.obj
+ 0003:0000021c       ??_C@_0BJ@PHLO@init?$CI?$CJ?3Unknown?5Exception?$AA@ 1001621c     bncs_input.obj
+ 0003:00000238       ??_C@_0CE@PPJI@init?$CI?$CJ?3thrown?5exception?5?$CFx?5from?5@ 10016238     bncs_input.obj
+ 0003:0000025c       ??_C@_0BL@NCAC@init?5?9?5finished?5loading?5?$CFs?$AA@ 1001625c     bncs_input.obj
+ 0003:00000278       ??_C@_0BG@HBPN@No?5Inputs?5in?5Config?$CB?$CB?$AA@ 10016278     bncs_input.obj
+ 0003:00000290       ??_C@_0CA@JJAH@FAILED?5TO?5REGISTER?5WITH?5CSI?$CB?$CB?$CB?$CB?$AA@ 10016290     bncs_input.obj
+ 0003:000002b0       ??_C@_0BO@LHAB@Failed?5to?5get?5hIMutex?5in?5init?$AA@ 100162b0     bncs_input.obj
+ 0003:000002d0       ??_C@_0BI@PHJO@ASSERT?3?5?$CC?$CFs?$CC?5in?5?$CFs?5?$CI?$CFd?$CJ?$AA@ 100162d0     bncs_input.obj
+ 0003:000002e8       ??_C@_0L@MGKG@i?5?$DM?$DN?5nodes?$AA@ 100162e8     bncs_input.obj
+ 0003:000002f4       ??_C@_0CB@GILJ@C?3?2Qt?23?42?43?2include?2qvaluelist?4h@ 100162f4     bncs_input.obj
+ 0003:00000318       ??_C@_01KPOD@?$DN?$AA@     10016318     bncs_input.obj
+ 0003:0000031c       ??_C@_0M@MAJG@Input_?$CI?2d?$CL?$CJ?$AA@ 1001631c     bncs_input.obj
+ 0003:00000328       ??_C@_0BA@JAA@?2?$FLInput_?$CI?2d?$CL?$CJ?2?$FN?$AA@ 10016328     bncs_input.obj
+ 0003:00000338       ??_C@_08ECMI@?2?$FL?$CI?4?$CK?$CJ?2?$FN?$AA@ 10016338     bncs_input.obj
+ 0003:00000344       ??_C@_0BJ@IDGM@File?5?8?$CFs?8?5does?5not?5exist?$AA@ 10016344     bncs_input.obj
+ 0003:00000360       ??_C@_0CM@CMHD@Failed?5to?5get?5hImutex?5in?5first?5p@ 10016360     bncs_input.obj
+ 0003:0000038c       ??_C@_03ICNC@?1?4?4?$AA@   1001638c     bncs_input.obj
+ 0003:00000390       ??_C@_0BC@IMIM@init?5?9?5loading?5?$CFs?$AA@ 10016390     bncs_input.obj
+ 0003:000003a4       ??_C@_0CC@CAEE@ProcRevertive?$CI?$CJ?3Unknown?5Exceptio@ 100163a4     bncs_input.obj
+ 0003:000003c8       ??_C@_0CN@CFC@ProcRevertive?$CI?$CJ?3thrown?5exception@ 100163c8     bncs_input.obj
+ 0003:000003f8       ??_C@_0CI@FGHH@failed?5to?5get?5hIMutex?5in?5Proc?5Re@ 100163f8     bncs_input.obj
+ 0003:00000420       ??_C@_02MECO@?$CFd?$AA@    10016420     bncs_input.obj
+ 0003:00000424       ??_C@_0DC@OIFC@Revertive?5?$CI?$CFx?$CJ?5params?51?5?8?$CFs?8?52?5?8@ 10016424     bncs_input.obj
+ 0003:00000458       ??_C@_0CA@MJMP@CheckStatus?$CI?$CJ?3Unknown?5Exception?$AA@ 10016458     bncs_input.obj
+ 0003:00000478       ??_C@_0CL@EEHN@CheckStatus?$CI?$CJ?3thrown?5exception?5?$CF@ 10016478     bncs_input.obj
+ 0003:000004a4       ??_C@_0CE@GNNF@failed?5to?5get?5IMutex?5in?5CheckSta@ 100164a4     bncs_input.obj
+ 0003:000004c8       ??_C@_0CF@NFAL@failed?5to?5get?5hRMutex?5in?5CheckSt@ 100164c8     bncs_input.obj
+ 0003:000004f0       ??_C@_0BM@GFLI@There?5are?5?$CFd?5missed?5from?5?$CFd?$AA@ 100164f0     bncs_input.obj
+ 0003:0000050c       ??_C@_0BP@DPBF@All?5Valid?5Inputs?5Received?5?9?5?$CFd?$AA@ 1001650c     bncs_input.obj
+ 0003:0000052c       ??_C@_0BK@JEGH@All?5Valid?5Inputs?5Received?$AA@ 1001652c     bncs_input.obj
+ 0003:00000548       ??_C@_0BH@FPOA@Unknown?5timer?5event?5?$CFd?$AA@ 10016548     bncs_input.obj
+ 0003:00000560       ??_C@_0BL@DMBO@notify?$CI?$CJ?3Unknown?5Exception?$AA@ 10016560     bncs_input.obj
+ 0003:0000057c       ??_C@_0CK@EDKD@notify?$CI?$CJ?3thrown?5exception?5?$CFx?5fro@ 1001657c     bncs_input.obj
+ 0003:000005a8       ??_C@_0CA@DGDO@CSI?5Error?5?9?5incomplete?5message?5?$AA@ 100165a8     bncs_input.obj
+ 0003:000005c8       ??_C@_0CP@KMAI@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CKCSI?5ERROR?5?9?5INCO@ 100165c8     bncs_input.obj
+ 0003:000005f8       ??_C@_0CM@JLBJ@LPCSTR?5?3?5?$CF1?5?$CGLPCSTR?3?5?$CF2?5strlen?3?5@ 100165f8     bncs_input.obj
+ 0003:00000624       ??_C@_0N@GDLF@revertive?5?$CF1?$AA@ 10016624     bncs_input.obj
+ 0003:00000634       ??_C@_0BE@CCI@unknown?5csi?5message?$AA@ 10016634     bncs_input.obj
+ 0003:00000648       ??_C@_09NND@status?5?$CFs?$AA@ 10016648     bncs_input.obj
+ 0003:00000654       ??_C@_0BE@ONJO@CSI?5has?5Closed?5Down?$AA@ 10016654     bncs_input.obj
+ 0003:00000668       ??_C@_0BE@BGCE@CSI?5has?5closed?5down?$AA@ 10016668     bncs_input.obj
+ 0003:0000067c       ??_C@_0BL@ONFL@?9?9?9?9End?5of?5Inputs?5Map?9?9?9?9?9?$AA@ 1001667c     bncs_input.obj
+ 0003:00000698       ??_C@_0BE@CANB@?9?9?9?9Inputs?5Map?9?9?9?9?9?$AA@ 10016698     bncs_input.obj
+ 0003:000006ac       ??_C@_0BD@IIC@No?5entries?5in?5map?$CB?$AA@ 100166ac     bncs_input.obj
+ 0003:000006c0       ??_C@_0BA@DOKH@?3BNCS_DRV_STAT?3?$AA@ 100166c0     bncs_input.obj
+ 0003:000006d0       ??_C@_0CK@IPGI@failed?5to?5get?5hIMutex?5in?5Registe@ 100166d0     bncs_input.obj
+ 0003:000006fc       ??_C@_0BM@GCHI@bncs_input?3?3startGreening?$CI?$CJ?$AA@ 100166fc     bncs_input.obj
+ 0003:00000718       ??_C@_0BL@LGNH@bncs_input?3?3stopGreening?$CI?$CJ?$AA@ 10016718     bncs_input.obj
+ 0003:00000734       ?sm_iCsiDeviceStatusInfodriverId@BncsStore@@0HA 10016734     BncsStore.obj
+ 0003:00000738       ??_R0?AVBncsStore@@@8      10016738     BncsStore.obj
+ 0003:00000750       ??_R0?AUQShared@@@8        10016750     BncsStore.obj
+ 0003:00000768       ??_R0?AV?$QValueVectorPrivate@H@@@8 10016768     BncsStore.obj
+ 0003:00000790       ??_C@_0BF@FBLI@Load?5Settings?5Failed?$AA@ 10016790     BncsStore.obj
+ 0003:000007a8       ??_C@_0N@LHDE@section?5NULL?$AA@ 100167a8     BncsStore.obj
+ 0003:000007b8       ??_C@_06KGPF@Store?3?$AA@  100167b8     BncsStore.obj
+ 0003:000007c0       ??_C@_0BJ@DPJO@LoadAlarmSettings?5failed?$AA@ 100167c0     BncsStore.obj
+ 0003:000007dc       ??_C@_07OOKG@No?5Name?$AA@ 100167dc     BncsStore.obj
+ 0003:000007e4       ??_C@_04EFNI@Name?$AA@     100167e4     BncsStore.obj
+ 0003:000007ec       ??_C@_0FB@GABL@Warning?5?9?5Configuration?5alarms?5r@ 100167ec     BncsStore.obj
+ 0003:00000840       ??_C@_0BG@OELJ@TreatRxBrokenAsRxOnly?$AA@ 10016840     BncsStore.obj
+ 0003:00000858       ??_C@_0O@IAAH@BreakageAlarm?$AA@ 10016858     BncsStore.obj
+ 0003:00000868       ??_C@_0M@EAFP@ConfigAlarm?$AA@ 10016868     BncsStore.obj
+ 0003:00000874       ??_C@_0BA@IJAA@ResilienceAlarm?$AA@ 10016874     BncsStore.obj
+ 0003:00000884       ??_C@_0O@ELLI@PresenceAlarm?$AA@ 10016884     BncsStore.obj
+ 0003:00000894       ??_C@_06IPDH@CONFIG?$AA@   10016894     BncsStore.obj
+ 0003:0000089c       ??_C@_0L@PGEL@RESILIENCE?$AA@ 1001689c     BncsStore.obj
+ 0003:000008a8       ??_C@_08PBLE@PRESENCE?$AA@ 100168a8     BncsStore.obj
+ 0003:000008b4       ??_C@_01PJOB@?$CL?$AA@     100168b4     BncsStore.obj
+ 0003:000008b8       ??_C@_03MJMD@ALL?$AA@      100168b8     BncsStore.obj
+ 0003:000008bc       ??_C@_09LFHH@AlarmType?$AA@ 100168bc     BncsStore.obj
+ 0003:000008c8       ??_C@_0GH@HOHM@Warning?4?5Number?5of?5workstations?5@ 100168c8     BncsStore.obj
+ 0003:00000930       ??_C@_0O@FGLE@Workstation?$CF1?$AA@ 10016930     BncsStore.obj
+ 0003:00000940       ??_C@_0EJ@GMPH@Warning?4?5Too?5many?5launches?5found@ 10016940     BncsStore.obj
+ 0003:0000098c       ??_C@_0CB@KEMD@ERROR?4?5Failed?5to?5look?9up?5launch?4@ 1001698c     BncsStore.obj
+ 0003:000009b0       ??_C@_0L@NPEF@DriverName?$AA@ 100169b0     BncsStore.obj
+ 0003:000009bc       ??_C@_0BK@PJBM@Can?8t?5read?5driver?5number?4?$AA@ 100169bc     BncsStore.obj
+ 0003:000009d8       ??_C@_0N@MENO@DriverNumber?$AA@ 100169d8     BncsStore.obj
+ 0003:000009e8       ??_C@_0BJ@BBFO@Can?8t?5find?5instance?5?8?$CFs?8?$AA@ 100169e8     BncsStore.obj
+ 0003:00000a04       ??_C@_0P@PGKB@DriverInstance?$AA@ 10016a04     BncsStore.obj
+ 0003:00000a14       ??_C@_0EL@PEKO@?$FLNetwork?$FNHeartbeatEnable?5is?5not?5@ 10016a14     BncsStore.obj
+ 0003:00000a60       ??_C@_01FBAH@1?$AA@        10016a60     BncsStore.obj
+ 0003:00000a64       ??_C@_07HKHC@Network?$AA@  10016a64     BncsStore.obj
+ 0003:00000a6c       ??_C@_0BA@EKCN@HeartbeatEnable?$AA@ 10016a6c     BncsStore.obj
+ 0003:00000a7c       ??_C@_0CA@JBC@Failed?5to?5read?5Device?5Status?5ID?$AA@ 10016a7c     BncsStore.obj
+ 0003:00000a9c       ??_C@_06IOLI@Status?$AA@   10016a9c     BncsStore.obj
+ 0003:00000aa4       ??_C@_0BD@DEJL@DeviceInfodriverId?$AA@ 10016aa4     BncsStore.obj
+ 0003:00000ab8       ??_C@_02HNAB@?91?$AA@      10016ab8     BncsStore.obj
+ 0003:00000abc       ??_C@_0BP@ODIG@?1config?1system?1bncs_system?4ini?$AA@ 10016abc     BncsStore.obj
+ 0003:00000adc       ??_C@_01FDLN@?1?$AA@       10016adc     BncsStore.obj
+ 0003:00000ae0       ??_C@_0N@PHFB@No?5CC_SYSTEM?$AA@ 10016ae0     BncsStore.obj
+ 0003:00000af0       ??_C@_0L@HPLA@No?5CC_ROOT?$AA@ 10016af0     BncsStore.obj
+ 0003:00000afc       ??_C@_09EFEJ@CC_SYSTEM?$AA@ 10016afc     BncsStore.obj
+ 0003:00000b08       ??_C@_07FCNI@CC_ROOT?$AA@  10016b08     BncsStore.obj
+ 0003:00000b10       ??_C@_0DP@FCFI@ERROR?5?9?5Resilience?5key?5should?5be@ 10016b10     BncsStore.obj
+ 0003:00000b50       ??_C@_02MMJD@NO?$AA@       10016b50     BncsStore.obj
+ 0003:00000b54       ??_C@_03HDMP@YES?$AA@      10016b54     BncsStore.obj
+ 0003:00000b58       ??_C@_0EF@KEEP@Warning?5?9?5No?5Resilience?5key?5for?5@ 10016b58     BncsStore.obj
+ 0003:00000ba0       ??_C@_0L@LHKD@Resilience?$AA@ 10016ba0     BncsStore.obj
+ 0003:00000bac       ??_C@_0BH@PNCG@?$FO?$CI?2d?$CL?$CJ?$CIT?$HMR?$HMB?$CJ?$CI?0?$DP?$CJ?$CI?4?$CK?$CJ$?$AA@ 10016bac     BncsStore.obj
+ 0003:00000bc4       ??_C@_0EG@KGHL@Number?5?$CFd?0?5name?5?8?$CFs?8?0Type?5?$CFc?0Dev@ 10016bc4     BncsStore.obj
+ 0003:00000c0c       ??_C@_0CG@KNMB@?8?5has?5invalid?5device?5or?5slot?5num@ 10016c0c     BncsStore.obj
+ 0003:00000c34       ??_C@_0BI@FGPJ@Invalid?5Config?5?3Input?5?8?$AA@ 10016c34     BncsStore.obj
+ 0003:00000c4c       ??_C@_0EB@GCO@CheckMissed?3?5Misconfiguration?4?5D@ 10016c4c     BncsStore.obj
+ 0003:00000c90       ??_R0?AVcBNCSPoll@@@8      10016c90     cBNCSPoll.obj
+ 0003:00000ca8       ??_C@_0CA@LDPA@constructor?$CI?$CJ?3Unknown?5Exception?$AA@ 10016ca8     cBNCSPoll.obj
+ 0003:00000cc8       ??_C@_0CL@DDCJ@constructor?$CI?$CJ?3thrown?5exception?5?$CF@ 10016cc8     cBNCSPoll.obj
+ 0003:00000cf4       ??_C@_05FAHH@Poll?3?$AA@   10016cf4     cBNCSPoll.obj
+ 0003:00000cfc       ??_C@_0CC@NFHB@addToPollList?$CI?$CJ?3Unknown?5Exceptio@ 10016cfc     cBNCSPoll.obj
+ 0003:00000d20       ??_C@_0CN@CAIB@addToPollList?$CI?$CJ?3thrown?5exception@ 10016d20     cBNCSPoll.obj
+ 0003:00000d50       ??_C@_0CM@ECBC@failed?5to?5get?5hPollMutex?5in?5addT@ 10016d50     cBNCSPoll.obj
+ 0003:00000d7c       ??_C@_0BI@IIKP@Device?5or?5Slot?5ZERO?$CB?$CB?$CB?$CB?$AA@ 10016d7c     cBNCSPoll.obj
+ 0003:00000d94       ??_C@_0BI@KJJI@ONE?5INPUT?5HAS?5NO?5DEVICE?$AA@ 10016d94     cBNCSPoll.obj
+ 0003:00000dac       ??_C@_0CG@HGFK@notify?$CI?$CJ?3thrown?5exception?5?$CFx?5fro@ 10016dac     cBNCSPoll.obj
+ 0003:00000dd4       ??_C@_0CB@FNDC@?$CK?$CKCSI?5ERROR?5?9?5INCOMPLETE?5MESSAGE@ 10016dd4     cBNCSPoll.obj
+ 0003:00000df8       ??_C@_0CG@KINE@failed?5to?5get?5hPollMutex?5on?5noti@ 10016df8     cBNCSPoll.obj
+ 0003:00000e20       ??_C@_0CC@ELGM@timerEvent?$CI?$CJ?5?5?3?3Unknown?5Exceptio@ 10016e20     cBNCSPoll.obj
+ 0003:00000e44       ??_C@_0CM@OPMH@timerEvent?$CI?$CJ?5?3?3thrown?5exception?5@ 10016e44     cBNCSPoll.obj
+ 0003:00000e70       ??_C@_0BF@GKFN@?$CK?$CK?$CK?$CK?$CK?$CKEND?5of?5MAP?$CK?$CK?$CK?$CK?$AA@ 10016e70     cBNCSPoll.obj
+ 0003:00000e88       ??_C@_0CE@BKOO@?$CK?$CK?$CK?$CK?$CKPOLL?5PRINTING?5MAP?5TO?5DEBUG?$CK@ 10016e88     cBNCSPoll.obj
+ 0003:00000eac       ??_C@_0BA@IMLH@STORE?5MAP?5EMPTY?$AA@ 10016eac     cBNCSPoll.obj
+ 0003:00000ebc       ??_C@_0CD@MCKB@getFirstDeviceAndRange?4?5No?5store@ 10016ebc     cBNCSPoll.obj
+ 0003:00000ee0       ??_C@_0CG@JMGG@Got?5first?5device?5?$CFd?5?$CI?$CFc?$CJ?0?5range?5@ 10016ee0     cBNCSPoll.obj
+ 0003:00000f08       ??_C@_0CN@BAH@no?5ranges?5for?5device?5?$CFd?5?9?5go?5to?5@ 10016f08     cBNCSPoll.obj
+ 0003:00000f38       ??_C@_0CB@MKB@getNextRange?$CI?$CJ?3Unknown?5Exception@ 10016f38     cBNCSPoll.obj
+ 0003:00000f5c       ??_C@_0DH@LDLF@getNextRange?$CI?$CJ?3thrown?5exception?5@ 10016f5c     cBNCSPoll.obj
+ 0003:00000f94       ??_C@_0DE@GNLH@Get?5next?5range?3?5New?5?9?5device?5is?5@ 10016f94     cBNCSPoll.obj
+ 0003:00000fc8       ??_C@_0CK@HEON@failed?5to?5get?5hPoll?5Mutex?5in?5get@ 10016fc8     cBNCSPoll.obj
+ 0003:00000ff4       ??_C@_0EK@KGEJ@device?5zero?5?$DN?5subsequent?5pass?5?9?5@ 10016ff4     cBNCSPoll.obj
+ 0003:00001040       ??_C@_0BB@PKLE@We?5have?5finished?$AA@ 10017040     cBNCSPoll.obj
+ 0003:00001054       ??_C@_0CI@BJMF@We?5have?5missed?5inputs?5?9?5go?5aroun@ 10017054     cBNCSPoll.obj
+ 0003:0000107c       ??_C@_0BI@FIAK@End?5of?5the?5device?5list?4?$AA@ 1001707c     cBNCSPoll.obj
+ 0003:00001094       ??_C@_0CC@BJKB@next?5device?5?$CFd?5?$CI?$CFc?$CJ?0?5range?5?$CFd?9?$CFd@ 10017094     cBNCSPoll.obj
+ 0003:000010b8       ??_C@_0BJ@IELC@there?5is?5another?5device?4?$AA@ 100170b8     cBNCSPoll.obj
+ 0003:000010d4       ??_C@_0CN@NGMM@ranges?5for?5dev?5?$CFd?5exhausted?4?5nee@ 100170d4     cBNCSPoll.obj
+ 0003:00001104       ??_C@_0CJ@CLOP@Old?5?9?5device?5is?5?$CFd?5?$CI?$CFc?$CJ?0?5range?5i@ 10017104     cBNCSPoll.obj
+ 0003:00001130       ??_C@_0L@OEDK@Subsequent?$AA@ 10017130     cBNCSPoll.obj
+ 0003:0000113c       ??_C@_0DM@ODOC@registering?5for?5current?5device?5?$CF@ 1001713c     cBNCSPoll.obj
+ 0003:00001178       ??_C@_0CF@HFGE@calculateRanges?5returned?5true?5?9?5@ 10017178     cBNCSPoll.obj
+ 0003:000011a0       ??_C@_0L@LEPM@First?5time?$AA@ 100171a0     cBNCSPoll.obj
+ 0003:000011ac       ??_C@_0DA@HPDO@get?5next?5range?3?5first?5time?4?5dev?5@ 100171ac     cBNCSPoll.obj
+ 0003:000011dc       ??_C@_05COLM@error?$AA@    100171dc     cBNCSPoll.obj
+ 0003:000011e4       ??_C@_0O@NCCF@GP?5?$CF03d?5?$CFd?5?$CFd?$AA@ 100171e4     cBNCSPoll.obj
+ 0003:000011f4       ??_C@_0O@LOCG@IP?5?$CF03d?5?$CFd?5?$CFd?$AA@ 100171f4     cBNCSPoll.obj
+ 0003:00001204       ??_C@_0O@NACB@RP?5?$CF03d?5?$CFd?5?$CFd?$AA@ 10017204     cBNCSPoll.obj
+ 0003:00001214       ??_C@_0DE@BIEA@polling?5current?5device?5?$CFd?5?$CI?$CFc?$CJ?0?5@ 10017214     cBNCSPoll.obj
+ 0003:00001248       ??_C@_0CE@HNKP@calculateRanges?$CI?$CJ?3Unknown?5Except@ 10017248     cBNCSPoll.obj
+ 0003:0000126c       ??_C@_0CP@CCKH@calculateRanges?$CI?$CJ?3thrown?5excepti@ 1001726c     cBNCSPoll.obj
+ 0003:0000129c       ??_C@_0CF@KLLB@createInitialMissedLists?4?5?$CFd?5dev@ 1001729c     cBNCSPoll.obj
+ 0003:000012c4       ??_C@_0CE@IOGI@addToMissedList?$CI?$CJ?3Unknown?5Except@ 100172c4     cBNCSPoll.obj
+ 0003:000012e8       ??_C@_0CP@EFJM@addToMissedList?$CI?$CJ?3thrown?5excepti@ 100172e8     cBNCSPoll.obj
+ 0003:00001318       ??_C@_0CP@PEFE@failed?5to?5get?5poll?5mutex?5in?5add?5@ 10017318     cBNCSPoll.obj
+ 0003:00001348       ??_C@_0BK@PKFM@ERROR?5INPUT?5HAS?5NO?5DEVICE?$AA@ 10017348     cBNCSPoll.obj
+ 0003:00001368       ??_R0?AV?$QDict@VQDomElement@@@@@8 10017368     cDocument.obj
+ 0003:00001390       ??_R0?AVcDocument@@@8      10017390     cDocument.obj
+ 0003:000013a8       ??_R0?AVQPtrCollection@@@8 100173a8     cDocument.obj
+ 0003:000013c8       ??_R0?AVQGDict@@@8         100173c8     cDocument.obj
+ 0003:000013e0       ??_R0?AV?$QDict@VcInstanceInfo@@@@@8 100173e0     cDocument.obj
+ 0003:00001408       ??_C@_0O@HDKP@?1local_config?$AA@ 10017408     cDocument.obj
+ 0003:00001418       ??_C@_08LOKJ@?1alarms?1?$AA@ 10017418     cDocument.obj
+ 0003:00001424       ??_C@_07DPEN@?1config?$AA@ 10017424     cDocument.obj
+ 0003:0000142c       ??_C@_04JGGI@Doc?3?$AA@    1001742c     cDocument.obj
+ 0003:00001438       ??_R0?AVQDomNode@@@8       10017438     cDocument.obj
+ 0003:00001450       ??_R0?AVQDomElement@@@8    10017450     cDocument.obj
+ 0003:0000146c       ??_C@_08DCNP@complex?$DN?$AA@ 1001746c     cDocument.obj
+ 0003:00001478       ??_C@_07FPEB@offset?$DN?$AA@ 10017478     cDocument.obj
+ 0003:00001480       ??_C@_07EBIG@device?$DN?$AA@ 10017480     cDocument.obj
+ 0003:00001488       ??_C@_01KMAE@?0?$AA@       10017488     cDocument.obj
+ 0003:0000148c       ??_C@_03HJJN@ref?$AA@      1001748c     cDocument.obj
+ 0003:00001490       ??_C@_04PIKN@type?$AA@     10017490     cDocument.obj
+ 0003:00001498       ??_C@_02IBHF@id?$AA@       10017498     cDocument.obj
+ 0003:0000149c       ??_C@_02ELCB@no?$AA@       1001749c     cDocument.obj
+ 0003:000014a0       ??_C@_09COFM@composite?$AA@ 100174a0     cDocument.obj
+ 0003:000014ac       ??_C@_08IHDL@instance?$AA@ 100174ac     cDocument.obj
+ 0003:000014b8       ??_C@_09MMGO@instances?$AA@ 100174b8     cDocument.obj
+ 0003:000014c4       ??_C@_0CD@OOBH@GetDeviceAndSlot?3GOT?5STUCK?5IN?5LO@ 100174c4     cDocument.obj
+ 0003:000014e8       ??_C@_0BP@HKGA@?$CB?$CB?5it?8s?5not?5device?5description?$AA@ 100174e8     cDocument.obj
+ 0003:00001508       ??_C@_0BD@LKLG@device_description?$AA@ 10017508     cDocument.obj
+ 0003:0000151c       ??_C@_0BN@KLP@Failed?5to?5load?5instances?4xml?$AA@ 1001751c     cDocument.obj
+ 0003:0000153c       ??_C@_0P@BLEO@?1instances?4xml?$AA@ 1001753c     cDocument.obj
+ 0003:0000154c       ??_C@_04IEHK@slot?$AA@     1001754c     cDocument.obj
+ 0003:00001554       ??_C@_04OPJK@name?$AA@     10017554     cDocument.obj
+ 0003:0000155c       ??_C@_05FMAI@param?$AA@    1001755c     cDocument.obj
+ 0003:00001564       ??_C@_03NJAO@GRD?$AA@      10017564     cDocument.obj
+ 0003:00001568       ??_C@_06JDNA@ROUTER?$AA@   10017568     cDocument.obj
+ 0003:00001570       ??_C@_03KACI@GPI?$AA@      10017570     cDocument.obj
+ 0003:00001574       ??_C@_0L@JKHJ@drivertype?$AA@ 10017574     cDocument.obj
+ 0003:00001580       ??_C@_04KGPJ@?4xml?$AA@    10017580     cDocument.obj
+ 0003:00001588       ??_C@_0O@ENLP@?1devicetypes?1?$AA@ 10017588     cDocument.obj
+ 0003:00001598       ??_C@_06GFPG@device?$AA@   10017598     cDocument.obj
+ 0003:000015a0       ??_C@_0BE@NIHG@?1complex_instances?1?$AA@ 100175a0     cDocument.obj
+ 0003:000015b4       ??_C@_09MIPE@autostart?$AA@ 100175b4     cDocument.obj
+ 0003:000015c0       ??_C@_09MJIH@arguments?$AA@ 100175c0     cDocument.obj
+ 0003:000015cc       ??_C@_0M@FCPB@application?$AA@ 100175cc     cDocument.obj
+ 0003:000015d8       ??_C@_0BP@DICA@Faulty?5launch?4?5Workstation?5?91?4?$AA@ 100175d8     cDocument.obj
+ 0003:000015f8       ??_C@_05LLOB@FALSE?$AA@    100175f8     cDocument.obj
+ 0003:00001600       ??_C@_0N@OKDE@autostart_ws?$AA@ 10017600     cDocument.obj
+ 0003:00001610       ??_C@_0M@KGLD@workstation?$AA@ 10017610     cDocument.obj
+ 0003:0000161c       ??_C@_0M@HELB@Not?5launch?4?$AA@ 1001761c     cDocument.obj
+ 0003:00001628       ??_C@_06MNIG@launch?$AA@   10017628     cDocument.obj
+ 0003:00001630       ??_C@_0BK@LLCD@Failed?5to?5load?5launch?4xml?$AA@ 10017630     cDocument.obj
+ 0003:0000164c       ??_C@_0M@IGJ@?1launch?4xml?$AA@ 1001764c     cDocument.obj
+ 0003:00001658       ??_R0?AVcInstanceInfo@@@8  10017658     cInstanceInfo.obj
+ 0003:00001678       ??_R0?AVcPollStore@@@8     10017678     cPollStore.obj
+ 0003:00001694       ??_C@_0M@FNHH@Poll?9store?3?$AA@ 10017694     cPollStore.obj
+ 0003:000016a0       ??_C@_0CF@OCPG@Device?5is?5?$CFd?0?5type?5is?5?$CFc?0?5list?5i@ 100176a0     cPollStore.obj
+ 0003:000016c8       ??_C@_0CE@PECG@ERROR?5?9?5no?5range?5for?5this?5device@ 100176c8     cPollStore.obj
+ 0003:000016ec       ??_C@_0BL@DFAC@?$CBPANIC?5NOTHING?5IN?5RAW?5LIST?$AA@ 100176ec     cPollStore.obj
+ 0003:00001708       ??_C@_0CO@DAMG@Device?5?$CFd?5?$CI?$CFc?$CJ?5has?5?$CFd?5ranges?0?5?$CFd@ 10017708     cPollStore.obj
+ 0003:00001738       ??_R0?AVCPollRange@@@8     10017738     PollRange.obj
+ 0003:00001754       ??_C@_0M@PHEL@Workstation?$AA@ 10017754     panel:panelif.obj
+ 0003:00001760       ??_C@_07NJLA@CSI?4INI?$AA@ 10017760     panel:panelif.obj
+ 0003:00001768       ??_C@_0P@NIEE@CC_WORKSTATION?$AA@ 10017768     panel:panelif.obj
+ 0003:00001778       ??_C@_0BD@DGL@Registering?5class?3?$AA@ 10017778     panel:panelif.obj
+ 0003:0000178c       ??_C@_07JODG@panelif?$AA@  1001778c     panel:panelif.obj
+ 0003:00001794       ??_C@_04DCMN@?$CFs?$CFs?$AA@ 10017794     panel:panelif.obj
+ 0003:0000179c       ??_C@_0BH@MNJL@RM?5?$CFd?5?$CFd?5?$CFd?5?8?$CFs?8?5?$CFd?5?$CFd?$AA@ 1001779c     panel:panelif.obj
+ 0003:000017b4       ??_C@_07NICC@?5?8?0?9?9?9?8?$AA@ 100177b4     panel:panelif.obj
+ 0003:000017bc       ??_C@_03IGPL@?5?$CFd?$AA@  100177bc     panel:panelif.obj
+ 0003:000017c0       ??_C@_0BF@PBKI@_?$CL_?$CL_?$CL_?$CL_?$CL_?$CL_?$CL?5NO?5P?6?$AA@ 100177c0     panel:panelif.obj
+ 0003:000017d8       ??_C@_0M@HEPL@RM?5?$CFd?5?$CFd?5?$CFd?$AA@ 100177d8     panel:panelif.obj
+ 0003:000017e4       ??_C@_0M@NGNF@CSI?5closing?$AA@ 100177e4     panel:panelif.obj
+ 0003:000017f0       ??_C@_0N@GAKB@DG?5?$CF03d?5?$CF03d?$AA@ 100177f0     panel:panelif.obj
+ 0003:00001800       ??_C@_0BF@EIHN@DI?5?$CF03d?5?$CF03d?5?$CF03d?5?$CFs?$AA@ 10017800     panel:panelif.obj
+ 0003:00001818       ??_R0?AVtype_info@@@8      10017818     MSVCRT:ti_inst.obj
+ 0003:00001834       ?g_szModFileName@@3PADA    10017834     alm_acq_bncs_drv_stat.obj
+ 0003:00001938       ?sm_pPoll@bncs_input@@0PAVcBNCSPoll@@A 10017938     bncs_input.obj
+ 0003:0000193c       ?sm_iPollClassCount@bncs_input@@0HA 1001793c     bncs_input.obj
+ 0003:00001940       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@1IA 10017940     bncs_input.obj
+ 0003:00001944       ?_Nil@?$_Tree@HU?$pair@$$CBHPAVBncsStore@@@std@@U_Kfn@?$map@HPAVBncsStore@@U?$less@H@std@@V?$allocator@PAVBncsStore@@@3@@2@U?$less@H@2@V?$allocator@PAVBncsStore@@@2@@std@@1PAU_Node@12@A 10017944     bncs_input.obj
+ 0003:00001948       ??_C@_00A@?$AA@            10017948     bncs_input.obj
+ 0003:0000194c       ?_Nil@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@1PAU_Node@12@A 1001794c     bncs_input.obj
+ 0003:00001950       ?_Nilrefs@?$_Tree@VQString@@U?$pair@$$CBVQString@@V1@@std@@U_Kfn@?$map@VQString@@V1@U?$less@VQString@@@std@@V?$allocator@VQString@@@3@@3@U?$less@VQString@@@3@V?$allocator@VQString@@@3@@std@@1IA 10017950     bncs_input.obj
+ 0003:00001958       ?pDocument@BncsStore@@0PAVcDocument@@A 10017958     BncsStore.obj
+ 0003:0000195c       ?iDocClassCount@BncsStore@@0HA 1001795c     BncsStore.obj
+ 0003:00001964       ?_Nilrefs@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@1IA 10017964     cBNCSPoll.obj
+ 0003:00001968       ?_Nil@?$_Tree@HU?$pair@$$CBHPAVcPollStore@@@std@@U_Kfn@?$map@HPAVcPollStore@@U?$less@H@std@@V?$allocator@PAVcPollStore@@@3@@2@U?$less@H@2@V?$allocator@PAVcPollStore@@@2@@std@@1PAU_Node@12@A 10017968     cBNCSPoll.obj
+ 0003:0000196c       ?sm_sAlarmSystem@cDocument@@0VQString@@A 1001796c     cDocument.obj
+ 0003:00001973       ?sm_bLocalConfig@cDocument@@0_NA 10017973     cDocument.obj
+ 0003:000019a4       __adjust_fdiv              100179a4     <common>
+ 0003:000019a8       __pRawDllMain              100179a8     <common>
+ 0003:000019ac       ___onexitend               100179ac     <common>
+ 0003:000019b0       ___onexitbegin             100179b0     <common>
+
+ entry point at        0001:0000f4dd
+
+ Static symbols
+
+ 0001:0000dd30       _$E25                      1000ed30 f   except.obj
+ 0001:0000dd40       _$E22                      1000ed40 f   except.obj
+ 0001:0000dd50       _$E24                      1000ed50 f   except.obj
+ 0001:0000dd60       _$E23                      1000ed60 f   except.obj
+ 0001:0000dd70       _$E31                      1000ed70 f   except.obj
+ 0001:0000dd80       _$E28                      1000ed80 f   except.obj
+ 0001:0000dd90       _$E30                      1000ed90 f   except.obj
+ 0001:0000dda0       _$E29                      1000eda0 f   except.obj
+ 0001:0000dde0       ?my_translator@@YAXIPAU_EXCEPTION_POINTERS@@@Z 1000ede0 f   except.obj
+ 0001:0000cc10       _$E77                      1000dc10 f   cPollStore.obj
+ 0001:0000cc20       _$E74                      1000dc20 f   cPollStore.obj
+ 0001:0000cc30       _$E76                      1000dc30 f   cPollStore.obj
+ 0001:0000cc40       _$E75                      1000dc40 f   cPollStore.obj
+ 0001:0000cc50       _$E83                      1000dc50 f   cPollStore.obj
+ 0001:0000cc60       _$E80                      1000dc60 f   cPollStore.obj
+ 0001:0000cc70       _$E82                      1000dc70 f   cPollStore.obj
+ 0001:0000cc80       _$E81                      1000dc80 f   cPollStore.obj
+ 0001:00008bc0       _$E79                      10009bc0 f   cDocument.obj
+ 0001:00008bd0       _$E76                      10009bd0 f   cDocument.obj
+ 0001:00008be0       _$E78                      10009be0 f   cDocument.obj
+ 0001:00008bf0       _$E77                      10009bf0 f   cDocument.obj
+ 0001:00008c00       _$E85                      10009c00 f   cDocument.obj
+ 0001:00008c10       _$E82                      10009c10 f   cDocument.obj
+ 0001:00008c20       _$E84                      10009c20 f   cDocument.obj
+ 0001:00008c30       _$E83                      10009c30 f   cDocument.obj
+ 0001:00008c40       _$E97                      10009c40 f   cDocument.obj
+ 0001:00008c50       _$E93                      10009c50 f   cDocument.obj
+ 0001:00008c70       _$E96                      10009c70 f   cDocument.obj
+ 0001:00008c80       _$E94                      10009c80 f   cDocument.obj
+ 0001:00006970       _$E77                      10007970 f   cBNCSPoll.obj
+ 0001:00006980       _$E74                      10007980 f   cBNCSPoll.obj
+ 0001:00006990       _$E76                      10007990 f   cBNCSPoll.obj
+ 0001:000069a0       _$E75                      100079a0 f   cBNCSPoll.obj
+ 0001:000069b0       _$E83                      100079b0 f   cBNCSPoll.obj
+ 0001:000069c0       _$E80                      100079c0 f   cBNCSPoll.obj
+ 0001:000069d0       _$E82                      100079d0 f   cBNCSPoll.obj
+ 0001:000069e0       _$E81                      100079e0 f   cBNCSPoll.obj
+ 0001:00004250       _$E79                      10005250 f   BncsStore.obj
+ 0001:00004260       _$E76                      10005260 f   BncsStore.obj
+ 0001:00004270       _$E78                      10005270 f   BncsStore.obj
+ 0001:00004280       _$E77                      10005280 f   BncsStore.obj
+ 0001:00004290       _$E85                      10005290 f   BncsStore.obj
+ 0001:000042a0       _$E82                      100052a0 f   BncsStore.obj
+ 0001:000042b0       _$E84                      100052b0 f   BncsStore.obj
+ 0001:000042c0       _$E83                      100052c0 f   BncsStore.obj
+ 0001:000001a0       _$E77                      100011a0 f   bncs_input.obj
+ 0001:000001b0       _$E74                      100011b0 f   bncs_input.obj
+ 0001:000001c0       _$E76                      100011c0 f   bncs_input.obj
+ 0001:000001d0       _$E75                      100011d0 f   bncs_input.obj
+ 0001:000001e0       _$E83                      100011e0 f   bncs_input.obj
+ 0001:000001f0       _$E80                      100011f0 f   bncs_input.obj
+ 0001:00000200       _$E82                      10001200 f   bncs_input.obj
+ 0001:00000210       _$E81                      10001210 f   bncs_input.obj
+ 0001:00000000       _$E77                      10001000 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000010       _$E74                      10001010 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000020       _$E76                      10001020 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000030       _$E75                      10001030 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000040       _$E83                      10001040 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000050       _$E80                      10001050 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000060       _$E82                      10001060 f   alm_acq_bncs_drv_stat.obj
+ 0001:00000070       _$E81                      10001070 f   alm_acq_bncs_drv_stat.obj
+ 0001:0000f394       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 10010394 f   MSVCRT:ehvecdtr.obj
+
+Line numbers for .\Release\PollRange.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\PollRange.cpp) segment .text
+
+    12 0001:0000de30    13 0001:0000de32    14 0001:0000de3d    15 0001:0000de40
+    18 0001:0000de70    20 0001:0000de76
+
+Line numbers for .\Release\except.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\except.cpp) segment .text
+
+    14 0001:0000ddb0    15 0001:0000ddb2    16 0001:0000ddb8    17 0001:0000ddbd
+    18 0001:0000ddc2    21 0001:0000ddd0    23 0001:0000dddc     5 0001:0000dde0
+     6 0001:0000dde3    26 0001:0000de10    28 0001:0000de13    31 0001:0000de20
+    33 0001:0000de22
+
+Line numbers for .\Release\except.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:0000dd40    29 0001:0000dd80
+
+Line numbers for .\Release\cPollStore.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\list) segment .text
+
+   151 0001:0000d630   152 0001:0000d665   153 0001:0000d671   131 0001:0000d680
+   151 0001:0000d6b0   152 0001:0000d6e5   153 0001:0000d6f1   166 0001:0000d700
+   235 0001:0000d710   236 0001:0000d718   239 0001:0000d71f   240 0001:0000d72f
+   241 0001:0000d739   341 0001:0000d750   343 0001:0000d77c   345 0001:0000d7bc
+   346 0001:0000d7d3   348 0001:0000d80b   349 0001:0000d828   350 0001:0000d8b8
+   351 0001:0000d8e0   352 0001:0000d8e9   353 0001:0000d97c   354 0001:0000d995
+   355 0001:0000d9a6   356 0001:0000d9aa   345 0001:0000d9b3   357 0001:0000d9be
+   358 0001:0000d9c9   218 0001:0000da50   221 0001:0000da7e   222 0001:0000da83
+   223 0001:0000da92   224 0001:0000da9b   243 0001:0000dab0   244 0001:0000dac1
+   245 0001:0000dae8   243 0001:0000db00   244 0001:0000db11   245 0001:0000db38
+   249 0001:0000db50   251 0001:0000db61   255 0001:0000db6e   264 0001:0000db80
+   266 0001:0000db93   268 0001:0000dbc2   310 0001:0000dbe0   312 0001:0000dbf5
+   313 0001:0000dc01   314 0001:0000dc0d   316 0001:0000dc15   318 0001:0000dc45
+   319 0001:0000dc54   313 0001:0000dc56   320 0001:0000dc5a   321 0001:0000dc5e
+   322 0001:0000dc8f   323 0001:0000dc9c   235 0001:0000dcb0   236 0001:0000dcb8
+   239 0001:0000dcbf   240 0001:0000dccf   241 0001:0000dcd9   394 0001:0000dcf0
+   398 0001:0000dcfe   400 0001:0000dd07   403 0001:0000dd10   405 0001:0000dd19
+   406 0001:0000dd23   409 0001:0000dd27
+
+Line numbers for .\Release\cPollStore.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\cPollStore.cpp) segment .text
+
+    17 0001:0000cc90    18 0001:0000ccfc    21 0001:0000cd50    23 0001:0000cd78
+    28 0001:0000ce40    29 0001:0000ced1    30 0001:0000cf11    33 0001:0000cf30
+    36 0001:0000cf36    40 0001:0000cf52    41 0001:0000cf87    43 0001:0000cfa4
+    46 0001:0000cfb0    49 0001:0000cfcc    52 0001:0000cfd0    53 0001:0000cfd5
+    54 0001:0000d019    57 0001:0000d020    58 0001:0000d025    59 0001:0000d069
+    63 0001:0000d070    64 0001:0000d075    68 0001:0000d077    70 0001:0000d07c
+    72 0001:0000d086    74 0001:0000d093    79 0001:0000d095    83 0001:0000d099
+    84 0001:0000d0b8    88 0001:0000d0bd    92 0001:0000d0c0    99 0001:0000d0c9
+   100 0001:0000d0ce   102 0001:0000d0d2   103 0001:0000d0e3   109 0001:0000d0e5
+   107 0001:0000d0e8   109 0001:0000d0ea   112 0001:0000d0f0   118 0001:0000d0f7
+   119 0001:0000d0fc   121 0001:0000d100   122 0001:0000d10a   123 0001:0000d114
+   125 0001:0000d125   135 0001:0000d127   129 0001:0000d12a   134 0001:0000d13f
+   135 0001:0000d141   139 0001:0000d150   141 0001:0000d15d   143 0001:0000d162
+   146 0001:0000d166   153 0001:0000d17d   149 0001:0000d180   153 0001:0000d184
+   158 0001:0000d190   162 0001:0000d193   164 0001:0000d1a4   166 0001:0000d1a8
+   169 0001:0000d1b6   171 0001:0000d1c7   177 0001:0000d1c9   175 0001:0000d1cc
+   177 0001:0000d1ce   180 0001:0000d1e0   181 0001:0000d1ed   182 0001:0000d1f4
+   184 0001:0000d202   185 0001:0000d20c   186 0001:0000d23c   191 0001:0000d252
+   193 0001:0000d257   196 0001:0000d25b   198 0001:0000d2b0   201 0001:0000d2c0
+   202 0001:0000d2e4   204 0001:0000d2e9   206 0001:0000d2ed   208 0001:0000d302
+   211 0001:0000d316   213 0001:0000d31a   216 0001:0000d325   217 0001:0000d459
+   221 0001:0000d49f   223 0001:0000d4aa   227 0001:0000d4b2   229 0001:0000d4bb
+   230 0001:0000d4db   232 0001:0000d4e3   235 0001:0000d4f3   237 0001:0000d4f5
+   238 0001:0000d509   242 0001:0000d510   244 0001:0000d51a   246 0001:0000d51c
+   247 0001:0000d53c   250 0001:0000d544   223 0001:0000d55e   256 0001:0000d56b
+   260 0001:0000d56d   263 0001:0000d571   264 0001:0000d578   268 0001:0000d582
+   269 0001:0000d59e   274 0001:0000d5c0   279 0001:0000d5ca   282 0001:0000d5ce
+   279 0001:0000d5e0   291 0001:0000d5e9   285 0001:0000d5ec   291 0001:0000d5f1
+   294 0001:0000d600   300 0001:0000d609   301 0001:0000d60e   303 0001:0000d612
+   308 0001:0000d623
+
+Line numbers for .\Release\cPollStore.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:0000cc20    29 0001:0000cc60
+
+Line numbers for .\Release\cInstanceInfo.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\cInstanceInfo.cpp) segment .text
+
+    14 0001:0000caf0    15 0001:0000cb55    18 0001:0000cb90    20 0001:0000cbb4
+
+Line numbers for .\Release\cDocument.obj(C:\Qt\3.2.3\include\qpair.h) segment .text
+
+    76 0001:0000c330    77 0001:0000c346    78 0001:0000c375
+
+Line numbers for .\Release\cDocument.obj(C:\Qt\3.2.3\include\qvaluelist.h) segment .text
+
+   233 0001:0000c000   235 0001:0000c009   236 0001:0000c013
+
+Line numbers for .\Release\cDocument.obj(C:\Qt\3.2.3\include\qvaluevector.h) segment .text
+
+   282 0001:0000bf80   284 0001:0000bf92   285 0001:0000bfa7   286 0001:0000bfa9
+   287 0001:0000bfaf    65 0001:0000c020    67 0001:0000c029    68 0001:0000c033
+    99 0001:0000c040   100 0001:0000c043   101 0001:0000c04f   102 0001:0000c054
+   103 0001:0000c057   104 0001:0000c05b    58 0001:0000c310    59 0001:0000c32a
+
+Line numbers for .\Release\cDocument.obj(C:\Qt\3.2.3\include\qmap.h) segment .text
+
+   642 0001:0000bee0   644 0001:0000beee   645 0001:0000bf73   839 0001:0000c140
+   840 0001:0000c15d   841 0001:0000c22b   840 0001:0000c23a   841 0001:0000c2e4
+   431 0001:0000c390   432 0001:0000c3b5   433 0001:0000c444   434 0001:0000c447
+   435 0001:0000c44e   436 0001:0000c45c   476 0001:0000c470   477 0001:0000c474
+   478 0001:0000c4a7   479 0001:0000c4b1   480 0001:0000c4bb   481 0001:0000c4c9
+   482 0001:0000c4d2   497 0001:0000c4e0   501 0001:0000c4e6   503 0001:0000c503
+   504 0001:0000c52d   505 0001:0000c531   506 0001:0000c533   507 0001:0000c535
+   501 0001:0000c538   513 0001:0000c544   515 0001:0000c573   516 0001:0000c57d
+   513 0001:0000c583   514 0001:0000c587   516 0001:0000c594   486 0001:0000c5a0
+   488 0001:0000c5ad   489 0001:0000c5b8   490 0001:0000c5ba   491 0001:0000c5d0
+   493 0001:0000c5d7   520 0001:0000c5e0   525 0001:0000c5e3   526 0001:0000c5f9
+   528 0001:0000c62f   525 0001:0000c63c   532 0001:0000c644   534 0001:0000c64c
+   535 0001:0000c653   546 0001:0000c666   538 0001:0000c66a   542 0001:0000c6ac
+   543 0001:0000c6e6   546 0001:0000c6fd   545 0001:0000c701   546 0001:0000c70f
+   454 0001:0000c720   455 0001:0000c73a   456 0001:0000c74d   472 0001:0000c750
+   457 0001:0000c762   458 0001:0000c841   459 0001:0000c84f   460 0001:0000c856
+   461 0001:0000c860   462 0001:0000c863   463 0001:0000c865   465 0001:0000c867
+   466 0001:0000c86e   467 0001:0000c879   468 0001:0000c87c   469 0001:0000c87e
+   472 0001:0000c881   551 0001:0000c8a0   552 0001:0000c8bc   553 0001:0000c939
+   561 0001:0000c98d   562 0001:0000c990   563 0001:0000c998   554 0001:0000c99d
+   555 0001:0000c99f   556 0001:0000c9a6   557 0001:0000c9a9   558 0001:0000c9af
+   559 0001:0000c9b5   565 0001:0000c9b7   566 0001:0000c9ba   567 0001:0000c9c0
+   568 0001:0000c9c7   569 0001:0000c9d7   571 0001:0000c9da    87 0001:0000ca00
+
+Line numbers for .\Release\cDocument.obj(C:\Qt\3.2.3\include\qdict.h) segment .text
+
+    57 0001:0000bde0    60 0001:0000be40    75 0001:0000be50    57 0001:0000be60
+    60 0001:0000bec0    75 0001:0000bed0    96 0001:0000c100    98 0001:0000c115
+    96 0001:0000c120    98 0001:0000c135
+
+Line numbers for .\Release\cDocument.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\cDocument.cpp) segment .text
+
+    19 0001:00008c50    26 0001:00008cc0    29 0001:00008cd9    32 0001:00008ce0
+    33 0001:00008da4    34 0001:00008dbc    36 0001:00008dc8    38 0001:00008dd8
+    40 0001:00008efd    42 0001:00008f06    52 0001:00008f60    55 0001:00008fa0
+    56 0001:00008fc8    59 0001:000090b0    62 0001:000090b6    66 0001:000090d2
+    67 0001:00009107    69 0001:00009124    72 0001:00009130    73 0001:00009148
+    74 0001:00009157    75 0001:0000916d    76 0001:0000916f    78 0001:00009186
+    79 0001:00009192    84 0001:000091a6    81 0001:000091b7    83 0001:000091bd
+    84 0001:000091cf    87 0001:000091f0    90 0001:00009211    92 0001:0000921e
+    93 0001:00009283    95 0001:00009295    97 0001:000092ad    99 0001:000092cc
+   102 0001:00009374   104 0001:000093a8   106 0001:0000940f   107 0001:0000941b
+   110 0001:000094ce   112 0001:000094da   114 0001:00009500   115 0001:0000950f
+   117 0001:00009529   119 0001:0000957f   121 0001:0000961f   122 0001:00009646
+   123 0001:000096e8   125 0001:00009775   129 0001:00009809   130 0001:000098a0
+   132 0001:000098e7   134 0001:000098f7   135 0001:0000994c   136 0001:0000999c
+   137 0001:000099f0   139 0001:00009a4e   138 0001:00009a5d   139 0001:00009aac
+   130 0001:00009b03   141 0001:00009b0c   145 0001:00009b28   146 0001:00009b62
+   147 0001:00009b86   148 0001:00009b92   149 0001:00009c61   153 0001:00009ca0
+   164 0001:00009cb8   165 0001:00009cf2   166 0001:00009d07   167 0001:00009d17
+   168 0001:00009d32   169 0001:00009d4e   172 0001:00009d6a   174 0001:00009d90
+   176 0001:00009daf   179 0001:00009db3   182 0001:00009df7   184 0001:00009e16
+   187 0001:00009e1a   197 0001:00009e22   199 0001:00009e46   203 0001:00009e4a
+   204 0001:00009e55   205 0001:00009e60   206 0001:00009e6b   189 0001:00009e7c
+   212 0001:00009e84   218 0001:00009ea1   219 0001:00009ea6   221 0001:00009eb4
+   222 0001:00009f9a   225 0001:00009fc0   226 0001:00009fdd   227 0001:00009feb
+   229 0001:0000a00f   231 0001:0000a029   234 0001:0000a052   235 0001:0000a080
+   237 0001:0000a0d8   238 0001:0000a0e7   242 0001:0000a11b   241 0001:0000a12c
+   242 0001:0000a158   245 0001:0000a170   246 0001:0000a18a   248 0001:0000a192
+   249 0001:0000a1ee   252 0001:0000a1fc   253 0001:0000a210   254 0001:0000a212
+   255 0001:0000a214   257 0001:0000a21b   259 0001:0000a234   261 0001:0000a245
+   262 0001:0000a248   265 0001:0000a270   266 0001:0000a271   267 0001:0000a28c
+   268 0001:0000a290   269 0001:0000a2a1   270 0001:0000a2a4   269 0001:0000a2a8
+   270 0001:0000a2bb   274 0001:0000a2c0   279 0001:0000a2d9   280 0001:0000a2f4
+   287 0001:0000a2fc   288 0001:0000a310   289 0001:0000a3a2   290 0001:0000a3a6
+   291 0001:0000a3b2   292 0001:0000a3d9   294 0001:0000a3dd   297 0001:0000a3ea
+   298 0001:0000a404   302 0001:0000a492   303 0001:0000a4ed   304 0001:0000a4ef
+   305 0001:0000a543   306 0001:0000a545   310 0001:0000a596   315 0001:0000a59a
+   317 0001:0000a5d2   318 0001:0000a5e1   320 0001:0000a5f4   322 0001:0000a64e
+   324 0001:0000a6ee   326 0001:0000a771   330 0001:0000a776   331 0001:0000a7c7
+   333 0001:0000a7cf   335 0001:0000a817   336 0001:0000a849   341 0001:0000a860
+   342 0001:0000a87e   343 0001:0000a895   344 0001:0000a8ba   347 0001:0000a8d5
+   348 0001:0000a8f6   355 0001:0000a8fe   356 0001:0000a992   357 0001:0000a996
+   359 0001:0000a9a2   361 0001:0000a9a4   366 0001:0000a9fc   368 0001:0000aa4a
+   369 0001:0000aa59   371 0001:0000aa6c   373 0001:0000aac4   376 0001:0000ab5d
+   378 0001:0000ab94   379 0001:0000aba3   381 0001:0000abb6   383 0001:0000ac0e
+   385 0001:0000aca7   386 0001:0000ad35   387 0001:0000adb5   388 0001:0000adc3
+   389 0001:0000add1   394 0001:0000add9   395 0001:0000ae2d   398 0001:0000ae3c
+   399 0001:0000ae90   402 0001:0000aea5   405 0001:0000af29   406 0001:0000afb5
+   409 0001:0000afd0   411 0001:0000afec   412 0001:0000aff6   414 0001:0000b01a
+   416 0001:0000b034   422 0001:0000b066   419 0001:0000b077   421 0001:0000b0a5
+   422 0001:0000b0d5   425 0001:0000b0f0   426 0001:0000b110   428 0001:0000b11e
+   430 0001:0000b13d   433 0001:0000b143   434 0001:0000b155   436 0001:0000b1b7
+   437 0001:0000b1c5   440 0001:0000b1f6   441 0001:0000b209   443 0001:0000b22b
+   444 0001:0000b23a   446 0001:0000b250   448 0001:0000b2aa   449 0001:0000b309
+   452 0001:0000b316   453 0001:0000b371   456 0001:0000b3d1   459 0001:0000b42d
+   461 0001:0000b434   464 0001:0000b443   467 0001:0000b4a2   468 0001:0000b4b1
+   470 0001:0000b4c7   471 0001:0000b4d6   473 0001:0000b4ec   475 0001:0000b54a
+   476 0001:0000b5b3   479 0001:0000b604   480 0001:0000b653   483 0001:0000b6ad
+   487 0001:0000b72d   488 0001:0000b73e   490 0001:0000b751   492 0001:0000b77d
+   494 0001:0000b7b1   497 0001:0000b7ca   498 0001:0000b7f6   499 0001:0000b80c
+   500 0001:0000b842   501 0001:0000b863   505 0001:0000b865   507 0001:0000b872
+   509 0001:0000b979   510 0001:0000b9db   512 0001:0000ba3e   514 0001:0000ba94
+   515 0001:0000bad2   519 0001:0000bb70   520 0001:0000bb8e   522 0001:0000bb9b
+   523 0001:0000bbf5   526 0001:0000bc03   529 0001:0000bc23   530 0001:0000bc34
+   532 0001:0000bc43   534 0001:0000bc5f   536 0001:0000bc84   539 0001:0000bc9f
+   541 0001:0000bcad   542 0001:0000bcc3   545 0001:0000bd50   546 0001:0000bdc2
+
+Line numbers for .\Release\cDocument.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:00008bd0    29 0001:00008c10
+
+Line numbers for .\Release\cBNCSPoll.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory) segment .text
+
+    34 0001:00008b90
+
+Line numbers for .\Release\cBNCSPoll.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility) segment .text
+
+    21 0001:000083d0
+
+Line numbers for .\Release\cBNCSPoll.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree) segment .text
+
+   191 0001:000082a0   363 0001:000082b0   368 0001:000082d0   369 0001:000082ff
+   370 0001:00008305   371 0001:00008317   364 0001:00008329   365 0001:0000832d
+   366 0001:00008371   371 0001:0000837b   103 0001:00008380   104 0001:00008390
+   110 0001:000083a1   107 0001:000083a2   108 0001:000083ac   109 0001:000083b8
+   110 0001:000083bf   261 0001:000083f0   262 0001:000083fb   264 0001:00008408
+   265 0001:00008410   266 0001:0000841f   268 0001:00008425   269 0001:00008427
+   270 0001:0000843f   271 0001:00008449   272 0001:00008451   273 0001:00008456
+   274 0001:0000845a   275 0001:00008460   276 0001:00008463   277 0001:00008465
+   278 0001:0000846b   279 0001:00008470   280 0001:00008475   281 0001:0000847a
+   282 0001:00008486   283 0001:00008489   284 0001:00008492   285 0001:00008494
+   286 0001:00008496   287 0001:00008499   289 0001:0000849c   290 0001:000084af
+   291 0001:000084b6   292 0001:000084b9   293 0001:000084c8   294 0001:000084cb
+   295 0001:000084d4   296 0001:000084d6   297 0001:000084d8   298 0001:000084db
+   300 0001:000084e6   301 0001:000084f0   302 0001:000084f5   303 0001:000084f7
+   304 0001:00008513   306 0001:0000851b   307 0001:00008527   308 0001:0000852a
+   309 0001:0000852c   290 0001:00008541   310 0001:00008545   311 0001:00008555
+   312 0001:0000856c   313 0001:00008575   314 0001:00008578   315 0001:0000857d
+   316 0001:00008580   317 0001:00008586   318 0001:000085c4   320 0001:000085ca
+   334 0001:000085e1   336 0001:000085e3   337 0001:000085e8   338 0001:000085eb
+   339 0001:000085f1   340 0001:00008631   342 0001:00008636   343 0001:0000864d
+   344 0001:00008653   324 0001:00008664   325 0001:0000866c   327 0001:00008671
+   328 0001:000086b1   329 0001:000086b7   330 0001:000086c0   331 0001:000086c6
+   332 0001:000086cc   333 0001:000086f7   332 0001:000086fc   333 0001:00008707
+   332 0001:0000870c   333 0001:00008711   346 0001:00008716   347 0001:0000871d
+   349 0001:00008723   350 0001:00008761   351 0001:00008766   352 0001:0000876f
+   353 0001:00008775   354 0001:0000877a   356 0001:000087ba   357 0001:000087bd
+   359 0001:000087c7   360 0001:000087d1   361 0001:000087d4   399 0001:000087f0
+   444 0001:00008830   445 0001:00008844   446 0001:0000884f   448 0001:00008851
+   462 0001:00008870   464 0001:00008881   465 0001:000088ac   467 0001:000088af
+   475 0001:000088d4   476 0001:000088d7   477 0001:000088df   468 0001:000088e4
+   469 0001:000088e6   470 0001:000088ed   471 0001:000088f0   472 0001:000088f6
+   473 0001:000088fc   479 0001:000088fe   480 0001:0000891a   481 0001:00008927
+   482 0001:0000892a   483 0001:0000892f   484 0001:00008937   485 0001:0000893a
+   486 0001:00008943   487 0001:00008949   488 0001:0000894e   489 0001:00008953
+   490 0001:00008955   491 0001:00008990   492 0001:0000899a   493 0001:000089a3
+   494 0001:000089d2   493 0001:000089d7   494 0001:000089e5   493 0001:000089ea
+   494 0001:000089ef   496 0001:000089f4   497 0001:000089f9   498 0001:00008a01
+   499 0001:00008a04   500 0001:00008a0d   501 0001:00008a13   502 0001:00008a18
+   503 0001:00008a1c   504 0001:00008a1e   505 0001:00008a5b   506 0001:00008a65
+   507 0001:00008a6e   508 0001:00008abb   509 0001:00008aca   542 0001:00008ae0
+   543 0001:00008af0   544 0001:00008af8   511 0001:00008b00   513 0001:00008b03
+   514 0001:00008b11   515 0001:00008b1c   516 0001:00008b1f   517 0001:00008b21
+   513 0001:00008b25   518 0001:00008b2a    92 0001:00008b30    94 0001:00008b42
+   101 0001:00008b46    95 0001:00008b49    96 0001:00008b55   101 0001:00008b68
+    99 0001:00008b69   100 0001:00008b72   101 0001:00008b7d
+
+Line numbers for .\Release\cBNCSPoll.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\cBNCSPoll.cpp) segment .text
+
+    31 0001:000069f0    32 0001:00006b24    34 0001:00006b46    37 0001:00006b90
+    42 0001:00006bb6    44 0001:00006bc7    45 0001:00006bd0    46 0001:00006be4
+    59 0001:00006beb    51 0001:00006bfc    52 0001:00006c20    56 0001:00006c29
+    57 0001:00006c3a    62 0001:00006c50    66 0001:00006c81    68 0001:00006c93
+    69 0001:00006ca3    70 0001:00006ca8    71 0001:00006cb2    72 0001:00006cb7
+    73 0001:00006cc1    76 0001:00006cc6    77 0001:00006cd5    79 0001:00006cdd
+    83 0001:00006ce9    85 0001:00006cf1    87 0001:00006cf5    88 0001:00006cf8
+    89 0001:00006cfc    85 0001:00006d1a    91 0001:00006d3b    94 0001:00006dbb
+    96 0001:00006dc8    97 0001:00006dd2    99 0001:00006dd9   102 0001:00006f70
+   105 0001:00006f76   109 0001:00006f92   110 0001:00006fc7   112 0001:00006fe7
+   115 0001:00006ff0   128 0001:00007013   129 0001:00007030   133 0001:00007038
+   142 0001:00007052   143 0001:00007086   146 0001:00007090   147 0001:00007093
+   164 0001:0000709b   186 0001:000070a8   187 0001:000070aa   152 0001:000070bd
+   155 0001:000070c4   138 0001:000070d2   187 0001:000070d4   159 0001:000070e7
+   161 0001:00007117   164 0001:000071c5   186 0001:000071d2   187 0001:000071d4
+   135 0001:000071e7   136 0001:000071f2   138 0001:00007202   168 0001:00007207
+   187 0001:00007212   172 0001:0000722a   174 0001:0000724b   175 0001:00007255
+   176 0001:00007262   180 0001:0000726b   182 0001:00007279   183 0001:00007283
+   184 0001:00007290   190 0001:000072a0   194 0001:000072a4   196 0001:000072b0
+   213 0001:000072c6   216 0001:000072d4   217 0001:000072d8   200 0001:000072da
+   217 0001:000072dd   205 0001:000072df   217 0001:000072e2   209 0001:000072e3
+   216 0001:000072f1   217 0001:000072f5   220 0001:00007300   221 0001:00007326
+   225 0001:0000732a   226 0001:00007331   228 0001:00007336   237 0001:0000734f
+   239 0001:0000735a   241 0001:00007399   242 0001:000073ae   245 0001:000073c2
+   246 0001:000073d1   251 0001:000073d9   252 0001:0000740f   257 0001:00007419
+   259 0001:0000741c   266 0001:00007428   271 0001:0000743d   274 0001:00007450
+   275 0001:0000745a   278 0001:00007464   282 0001:0000747b   288 0001:00007486
+   289 0001:00007488   291 0001:00007495   292 0001:00007497   294 0001:0000749c
+   296 0001:0000749e   333 0001:000074ac   317 0001:000074c4   319 0001:000074e5
+   320 0001:000074ef   321 0001:000074fc   325 0001:00007505   327 0001:00007513
+   328 0001:0000751d   329 0001:0000752a   336 0001:00007540   339 0001:0000755b
+   342 0001:00007578   343 0001:00007581   346 0001:00007584   376 0001:0000758c
+   348 0001:0000759f   352 0001:000075a6   355 0001:000075af   376 0001:000075ba
+   357 0001:000075cd   360 0001:000075d4   361 0001:000075dd   363 0001:000075e0
+   368 0001:000075e2   369 0001:00007609   373 0001:00007612   374 0001:00007626
+   379 0001:00007630   380 0001:00007633   382 0001:0000763d   393 0001:0000764c
+   386 0001:0000764e   387 0001:00007659   390 0001:00007668   387 0001:00007689
+   392 0001:000076b4   393 0001:000076c4   396 0001:000076d0   397 0001:000076d6
+   398 0001:000076de   400 0001:000076e2   405 0001:000076e5   407 0001:00007707
+   419 0001:0000771c   420 0001:00007722   412 0001:00007725   419 0001:00007749
+   420 0001:0000774f   417 0001:00007752   419 0001:0000775d   420 0001:00007768
+   423 0001:00007770   424 0001:00007775   426 0001:00007783   428 0001:00007797
+   429 0001:0000779a   426 0001:000077bb   435 0001:000077ea   436 0001:000077f3
+   437 0001:000077f6   431 0001:000077fd   437 0001:00007800   440 0001:00007810
+   448 0001:00007833   452 0001:0000784c   453 0001:00007864   460 0001:0000786c
+   462 0001:000078a4   463 0001:000078b2   465 0001:000078c0   467 0001:000078c8
+   470 0001:000078cf   472 0001:000078da   473 0001:000078e5   475 0001:000078f5
+   479 0001:00007928   481 0001:00007936   485 0001:0000795c   486 0001:00007978
+   491 0001:00007995   493 0001:0000799a   495 0001:000079a8   497 0001:000079d2
+   498 0001:000079d7   503 0001:000079e2   504 0001:00007a10   508 0001:00007a1e
+   513 0001:00007a21   520 0001:00007a39   524 0001:00007a48   527 0001:00007a59
+   528 0001:00007a83   531 0001:00007a8b   533 0001:00007a96   536 0001:00007a9c
+   538 0001:00007ab4   540 0001:00007ad6   543 0001:00007adb   545 0001:00007ae6
+   547 0001:00007aee   549 0001:00007af4   552 0001:00007afb   554 0001:00007b10
+   555 0001:00007b1b   556 0001:00007b2a   557 0001:00007b36   560 0001:00007b3c
+   561 0001:00007b42   562 0001:00007b49   564 0001:00007b55   565 0001:00007b6b
+   566 0001:00007b78   570 0001:00007b80   572 0001:00007b8d   655 0001:00007bb9
+   576 0001:00007bcc   577 0001:00007bda   584 0001:00007bde   588 0001:00007be3
+   589 0001:00007bf3   592 0001:00007c03   594 0001:00007c0a   595 0001:00007c0d
+   597 0001:00007c25   600 0001:00007c43   601 0001:00007c5f   607 0001:00007c80
+   609 0001:00007c89   610 0001:00007c96   613 0001:00007c9a   614 0001:00007c9c
+   616 0001:00007cae   619 0001:00007cb5   622 0001:00007cdd   624 0001:00007cf2
+   626 0001:00007cf9   628 0001:00007d0d   630 0001:00007d0f   654 0001:00007d16
+   639 0001:00007d3e   641 0001:00007d69   642 0001:00007d73   643 0001:00007d80
+   647 0001:00007d89   649 0001:00007d97   650 0001:00007da1   651 0001:00007dae
+   658 0001:00007dc0   660 0001:00007dc6   662 0001:00007dee   682 0001:00007e0f
+   684 0001:00007e37   688 0001:00007e46   674 0001:00007e4a   676 0001:00007e72
+   688 0001:00007e81   666 0001:00007e85   668 0001:00007ead   688 0001:00007ebc
+   691 0001:00007ec0   697 0001:00007ee6   701 0001:00007eff   705 0001:00007f12
+   701 0001:00007f27   710 0001:00007f46   712 0001:00007f6a   716 0001:00007f73
+   718 0001:00007f84   720 0001:00007f8d   723 0001:00007fa0   729 0001:00007fc0
+   736 0001:00007fc7   739 0001:00007fe1   740 0001:00007fe4   736 0001:00007ffa
+   745 0001:00008019   747 0001:0000803d   751 0001:00008046   753 0001:00008057
+   761 0001:00008060   764 0001:00008080   772 0001:00008090   783 0001:00008098
+   784 0001:000080d2   786 0001:000080dc   787 0001:000080df   791 0001:000080ee
+   790 0001:000080f5   791 0001:000080f9   794 0001:00008100   801 0001:00008123
+   802 0001:0000813c   806 0001:00008144   816 0001:0000815a   818 0001:0000818c
+   821 0001:00008196   822 0001:00008199   836 0001:000081a1   859 0001:000081ae
+   860 0001:000081b0   827 0001:000081c3   829 0001:000081ca   831 0001:000081d5
+   810 0001:000081df   812 0001:000081e5   860 0001:000081e7   808 0001:000081fa
+   810 0001:00008205   812 0001:0000820f   839 0001:00008211   860 0001:0000821c
+   844 0001:00008234   847 0001:00008255   848 0001:00008265   852 0001:0000826e
+   855 0001:0000827c   856 0001:0000828c
+
+Line numbers for .\Release\cBNCSPoll.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:00006980    29 0001:000069c0
+
+Line numbers for .\Release\BncsStore.obj(C:\Qt\3.2.3\include\qvaluelist.h) segment .text
+
+   313 0001:00006810   315 0001:00006818   316 0001:0000681b   317 0001:00006829
+   319 0001:00006837   321 0001:0000683e   322 0001:00006844   318 0001:00006847
+   322 0001:0000684d
+
+Line numbers for .\Release\BncsStore.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree) segment .text
+
+   511 0001:000066d0   512 0001:000066d5   513 0001:000066da   514 0001:000066ef
+   515 0001:000066fd   516 0001:00006700   517 0001:00006702   518 0001:0000670f
+
+Line numbers for .\Release\BncsStore.obj(C:\Qt\3.2.3\include\qvaluevector.h) segment .text
+
+   277 0001:000065b0   279 0001:000065c5   393 0001:000065d0   394 0001:000065db
+   395 0001:000065ea   396 0001:000065f6   398 0001:00006670   399 0001:0000667d
+   400 0001:00006685   478 0001:00006690   480 0001:0000669d   497 0001:00006720
+   499 0001:0000673a   500 0001:000067be   499 0001:000067cd   500 0001:000067dc
+   212 0001:00006850   214 0001:00006852   215 0001:0000689b   217 0001:0000689f
+   218 0001:000068b8   155 0001:000068c0   156 0001:000068c7   157 0001:000068d6
+   158 0001:000068e1   159 0001:000068e9   161 0001:000068ff   162 0001:00006919
+   163 0001:0000691d   164 0001:0000693d   166 0001:00006946   167 0001:0000694a
+   168 0001:00006964
+
+Line numbers for .\Release\BncsStore.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\BncsStore.cpp) segment .text
+
+    40 0001:000042d0    42 0001:00004342    43 0001:00004365    45 0001:00004373
+    46 0001:00004376    48 0001:00004379    49 0001:0000437c    50 0001:0000437f
+    52 0001:00004382    53 0001:00004385    54 0001:00004388    55 0001:0000438b
+    58 0001:0000438e    59 0001:00004397    60 0001:000043ba    61 0001:000043c8
+    63 0001:000043ce    64 0001:000043da    65 0001:000043e8    68 0001:00004420
+    69 0001:00004443    70 0001:00004456    72 0001:00004458    73 0001:00004468
+    75 0001:00004472    78 0001:000044d0    81 0001:000044d6    85 0001:000044f2
+    86 0001:00004527    88 0001:00004544    91 0001:00004550   103 0001:0000456b
+   105 0001:00004578   124 0001:00004586   140 0001:0000458b   109 0001:0000459c
+   111 0001:000045b6   112 0001:00004645   114 0001:00004652   115 0001:00004657
+   117 0001:00004659   121 0001:00004663   123 0001:0000466f   124 0001:0000467a
+   115 0001:000046a8   124 0001:000046aa   140 0001:000046ad   133 0001:000046be
+   134 0001:000046c1   135 0001:000046c8   139 0001:000046cb   140 0001:000046f5
+   143 0001:00004710   171 0001:0000471e   172 0001:0000474b   173 0001:000047ee
+   175 0001:00004801   176 0001:00004815   191 0001:00004824   192 0001:00004868
+   194 0001:00004881   196 0001:00004888   198 0001:0000489d   200 0001:000048a4
+   204 0001:000048a6   206 0001:000048bc   209 0001:000048c4   210 0001:000048df
+   213 0001:000048ef   221 0001:000048f2   223 0001:000048ff   224 0001:0000490c
+   226 0001:0000491a   228 0001:0000491e   229 0001:00004929   231 0001:00004960
+   233 0001:00004964   234 0001:0000496f   237 0001:000049a7   240 0001:00004a7d
+   242 0001:00004aa5   243 0001:00004ab8   245 0001:00004abc   247 0001:00004ac7
+   252 0001:00004b26   253 0001:00004b45   255 0001:00004b7b   257 0001:00004b8a
+   258 0001:00004b9f   259 0001:00004bbb   260 0001:00004be6   265 0001:00004c10
+   266 0001:00004cae   268 0001:00004cbf   271 0001:00004cce   273 0001:00004cf1
+   274 0001:00004d17   276 0001:00004d1f   277 0001:00004d35   279 0001:00004dbd
+   280 0001:00004e15   283 0001:00004e1a   284 0001:00004eb8   286 0001:00004ec5
+   287 0001:00004ed0   289 0001:00004f04   295 0001:00004f15   296 0001:00004fb5
+   297 0001:00004fe1   300 0001:00004ffa   302 0001:0000500e   304 0001:00005038
+   305 0001:00005043   308 0001:000050bd   309 0001:000050c7   313 0001:000050d3
+   317 0001:000050e3   318 0001:00005110   321 0001:00005115   323 0001:00005122
+   324 0001:00005131   326 0001:00005185   327 0001:000051d6   335 0001:000051e3
+   336 0001:000051f1   337 0001:00005203   321 0001:0000522d   333 0001:00005233
+   340 0001:0000525e   341 0001:00005268   345 0001:00005274   348 0001:00005291
+   350 0001:000052a1   351 0001:00005343   363 0001:00005354   364 0001:00005398
+   366 0001:000053af   367 0001:000053b3   368 0001:000053b7   370 0001:000053bb
+   372 0001:000053bf   383 0001:000053c4   384 0001:00005418   386 0001:000054a1
+   388 0001:000054a5   390 0001:00005532   392 0001:00005536   394 0001:000055c3
+   396 0001:000055c7   399 0001:000055e8   400 0001:00005684   402 0001:00005691
+   403 0001:000056d5   405 0001:000056ec   409 0001:000056f0   410 0001:00005786
+   412 0001:00005793   413 0001:000057d7   415 0001:000057ee   419 0001:000057f2
+   420 0001:00005888   422 0001:00005895   423 0001:000058d9   425 0001:000058f0
+   429 0001:000058f4   430 0001:0000598a   432 0001:00005997   433 0001:000059db
+   435 0001:000059f2   439 0001:000059f6   440 0001:00005a8c   442 0001:00005a99
+   443 0001:00005add   445 0001:00005af4   451 0001:00005af8   454 0001:00005b12
+   458 0001:00005b2a   459 0001:00005b2f   462 0001:00005b35   463 0001:00005b88
+   466 0001:00005bb0   468 0001:00005bca   470 0001:00005be1   471 0001:00005c29
+   473 0001:00005c30   475 0001:00005c3e   476 0001:00005c7f   479 0001:00005ca0
+   514 0001:00005cbd   519 0001:00005cbf   527 0001:00005cff   528 0001:00005d24
+   529 0001:00005d73   531 0001:00005da4   535 0001:00005dbc   536 0001:00005dc9
+   537 0001:00005ddb   538 0001:00005ded   540 0001:00005e32   541 0001:00005e3f
+   544 0001:00005e82   546 0001:00005e9f   548 0001:00005ebf   549 0001:00005ec4
+   551 0001:00005ec6   552 0001:00005ecb   555 0001:00005ecd   567 0001:00005edb
+   568 0001:00005ee4   529 0001:00005f62   588 0001:00005f7c   594 0001:00005f86
+   597 0001:00005f8b   603 0001:00005f97   610 0001:00005f9c   615 0001:00005fae
+   618 0001:00005fb6   620 0001:00005fba   624 0001:00005fc4   625 0001:00005fc6
+   627 0001:00005fcb   629 0001:00005fd1   632 0001:00005fd3   634 0001:00005fd8
+   636 0001:00005fde   639 0001:00005fe0   641 0001:00005fe5   643 0001:00005fe9
+   646 0001:00005feb   648 0001:00005ff0   654 0001:00005ff2   656 0001:00005ff8
+   658 0001:00005ffd   660 0001:00005fff   663 0001:00006001   664 0001:00006056
+   667 0001:00006070   670 0001:00006073   671 0001:000060a8   674 0001:000060b0
+   675 0001:000060cc   679 0001:000060da   682 0001:000060e4   690 0001:000060f9
+   687 0001:0000610c   688 0001:00006165   689 0001:0000617f   690 0001:000061a5
+   693 0001:000061c0   699 0001:000061cb   706 0001:000061ce   716 0001:000061e4
+   712 0001:000061e6   713 0001:000061f0   708 0001:000061f2   724 0001:000061f8
+   726 0001:000061fc   730 0001:00006200   731 0001:00006206   730 0001:00006209
+   731 0001:0000620f   730 0001:00006212   731 0001:0000621c   734 0001:00006220
+   738 0001:00006227   739 0001:00006230   741 0001:0000623e   748 0001:0000624d
+   745 0001:00006250   748 0001:00006263   753 0001:00006270   754 0001:00006289
+   756 0001:000062a0   757 0001:000062e9   761 0001:00006300   762 0001:00006302
+   763 0001:0000631d   766 0001:00006330   767 0001:00006333   769 0001:00006353
+   772 0001:00006356   776 0001:00006389   772 0001:00006393   778 0001:00006398
+   784 0001:00006470   786 0001:00006475   789 0001:00006533   792 0001:00006540
+   799 0001:00006554   803 0001:0000656a   805 0001:0000656e   799 0001:00006570
+   811 0001:00006577   817 0001:00006585   818 0001:00006588   813 0001:0000658e
+   818 0001:00006591   821 0001:000065a0   823 0001:000065a3
+
+Line numbers for .\Release\BncsStore.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:00004260    29 0001:000042a0
+
+Line numbers for .\Release\bncs_input.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\new) segment .text
+
+    45 0001:00004200
+
+Line numbers for .\Release\bncs_input.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory) segment .text
+
+    34 0001:00004180    34 0001:000041a0
+
+Line numbers for .\Release\bncs_input.obj(C:\Qt\3.2.3\include\qvaluelist.h) segment .text
+
+   371 0001:00004140   372 0001:00004144   373 0001:0000416a   374 0001:0000416d
+   375 0001:00004174   377 0001:0000417c
+
+Line numbers for .\Release\bncs_input.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility) segment .text
+
+    55 0001:000040e0
+
+Line numbers for .\Release\bncs_input.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree) segment .text
+
+   191 0001:00002800   217 0001:00002810   220 0001:00002814   222 0001:0000282f
+   223 0001:00002839   220 0001:00002845   224 0001:00002849   225 0001:00002854
+   235 0001:000029ce   226 0001:000029d2   227 0001:000029d4   229 0001:000029dc
+   230 0001:000029e0   235 0001:000029ff   232 0001:00002a03   233 0001:00002a10
+   234 0001:00002a19   235 0001:00002a38   363 0001:00002a50   368 0001:00002a70
+   369 0001:00002a9f   370 0001:00002aa5   371 0001:00002ab7   364 0001:00002ac9
+   365 0001:00002acd   366 0001:00002b11   371 0001:00002b1b   191 0001:00002b20
+   217 0001:00002b30   220 0001:00002b37   222 0001:00002b4d   223 0001:00002b5d
+   220 0001:00002b69   224 0001:00002b71   225 0001:00002b7c   234 0001:00002cfa
+   235 0001:00002cff   227 0001:00002d03   229 0001:00002d0b   230 0001:00002d12
+   232 0001:00002d1c   233 0001:00002d25   234 0001:00002d3b   235 0001:00002d5a
+   363 0001:00002d80   368 0001:00002da0   369 0001:00002dd7   370 0001:00002ddd
+   371 0001:00002def   364 0001:00002e01   365 0001:00002e05   366 0001:00002e49
+   371 0001:00002e53   261 0001:00002e60   262 0001:00002e6b   264 0001:00002e78
+   265 0001:00002e80   266 0001:00002e8f   268 0001:00002e95   269 0001:00002e97
+   270 0001:00002eaf   271 0001:00002eb9   272 0001:00002ec1   273 0001:00002ec6
+   274 0001:00002eca   275 0001:00002ed0   276 0001:00002ed3   277 0001:00002ed5
+   278 0001:00002edb   279 0001:00002ee0   280 0001:00002ee5   281 0001:00002eea
+   282 0001:00002ef6   283 0001:00002ef9   284 0001:00002f02   285 0001:00002f04
+   286 0001:00002f06   287 0001:00002f09   289 0001:00002f0c   290 0001:00002f1f
+   291 0001:00002f26   292 0001:00002f29   293 0001:00002f38   294 0001:00002f3b
+   295 0001:00002f44   296 0001:00002f46   297 0001:00002f48   298 0001:00002f4b
+   300 0001:00002f56   301 0001:00002f60   302 0001:00002f65   303 0001:00002f67
+   304 0001:00002f83   306 0001:00002f8b   307 0001:00002f97   308 0001:00002f9a
+   309 0001:00002f9c   290 0001:00002fb1   310 0001:00002fb5   311 0001:00002fc5
+   312 0001:00002fdc   313 0001:00002fe5   314 0001:00002fe8   315 0001:00002fed
+   316 0001:00002ff0   317 0001:00002ff6   318 0001:00003034   320 0001:0000303a
+   334 0001:00003051   336 0001:00003053   337 0001:00003058   338 0001:0000305b
+   339 0001:00003061   340 0001:000030a1   342 0001:000030a6   343 0001:000030bd
+   344 0001:000030c3   324 0001:000030d4   325 0001:000030dc   327 0001:000030e1
+   328 0001:00003121   329 0001:00003127   330 0001:00003130   331 0001:00003136
+   332 0001:0000313c   333 0001:00003167   332 0001:0000316c   333 0001:00003177
+   332 0001:0000317c   333 0001:00003181   346 0001:00003186   347 0001:0000318d
+   349 0001:00003193   350 0001:000031d1   351 0001:000031d6   352 0001:000031df
+   353 0001:000031e5   354 0001:000031ea   356 0001:0000322a   357 0001:0000322d
+   359 0001:00003237   360 0001:00003241   361 0001:00003244   444 0001:00003260
+   445 0001:00003274   446 0001:0000327f   448 0001:00003281   450 0001:000032a0
+   451 0001:000032b5   452 0001:000032cb   453 0001:000032d3   455 0001:000032d9
+   456 0001:000032e5   457 0001:000032fc   458 0001:00003300   459 0001:00003309
+   460 0001:00003322   462 0001:00003340   464 0001:00003351   465 0001:0000337c
+   467 0001:0000337f   475 0001:000033a4   476 0001:000033a7   477 0001:000033af
+   468 0001:000033b4   469 0001:000033b6   470 0001:000033bd   471 0001:000033c0
+   472 0001:000033c6   473 0001:000033cc   479 0001:000033ce   480 0001:000033ea
+   481 0001:000033f7   482 0001:000033fa   483 0001:000033ff   484 0001:00003407
+   485 0001:0000340a   486 0001:00003413   487 0001:00003419   488 0001:0000341e
+   489 0001:00003423   490 0001:00003425   491 0001:00003460   492 0001:0000346a
+   493 0001:00003473   494 0001:000034a2   493 0001:000034a7   494 0001:000034b5
+   493 0001:000034ba   494 0001:000034bf   496 0001:000034c4   497 0001:000034c9
+   498 0001:000034d1   499 0001:000034d4   500 0001:000034dd   501 0001:000034e3
+   502 0001:000034e8   503 0001:000034ec   504 0001:000034ee   505 0001:0000352b
+   506 0001:00003535   507 0001:0000353e   508 0001:0000358b   509 0001:0000359a
+    92 0001:000035b0    94 0001:000035c2   101 0001:000035c6    95 0001:000035c9
+    96 0001:000035d5   101 0001:000035e8    99 0001:000035e9   100 0001:000035f2
+   101 0001:000035fd   103 0001:00003610   104 0001:00003620   110 0001:00003631
+   107 0001:00003632   108 0001:0000363c   109 0001:00003648   110 0001:0000364f
+   261 0001:00003660   262 0001:00003680   264 0001:0000368d   265 0001:00003695
+   266 0001:000036a4   268 0001:000036aa   269 0001:000036ac   270 0001:000036c4
+   271 0001:000036ce   272 0001:000036d6   273 0001:000036db   274 0001:000036df
+   275 0001:000036e5   276 0001:000036e8   277 0001:000036ea   278 0001:000036f0
+   279 0001:000036f5   280 0001:000036fa   281 0001:000036ff   282 0001:0000370b
+   283 0001:0000370e   284 0001:00003717   285 0001:00003719   286 0001:0000371b
+   287 0001:0000371e   289 0001:00003721   290 0001:00003734   291 0001:0000373b
+   292 0001:0000373e   293 0001:0000374d   294 0001:00003750   295 0001:00003759
+   296 0001:0000375b   297 0001:0000375d   298 0001:00003760   300 0001:0000376b
+   301 0001:00003775   302 0001:0000377a   303 0001:0000377c   304 0001:00003798
+   306 0001:000037a0   307 0001:000037ac   308 0001:000037af   309 0001:000037b1
+   290 0001:000037c6   310 0001:000037ca   311 0001:000037dc   312 0001:000037f1
+   313 0001:000037f8   314 0001:000037fb   315 0001:00003800   316 0001:00003803
+   317 0001:00003809   318 0001:00003847   320 0001:0000384d   334 0001:00003864
+   335 0001:00003866   336 0001:00003868   337 0001:0000386d   338 0001:00003870
+   339 0001:00003876   340 0001:000038b6   342 0001:000038bb   343 0001:000038d2
+   344 0001:000038d8   324 0001:000038e9   325 0001:000038f1   327 0001:000038f6
+   328 0001:00003936   329 0001:0000393c   330 0001:00003945   331 0001:0000394b
+   332 0001:00003951   333 0001:0000397c   332 0001:00003981   333 0001:0000398c
+   332 0001:00003991   333 0001:00003996   346 0001:0000399b   347 0001:000039a2
+   349 0001:000039a8   350 0001:000039e6   351 0001:000039eb   352 0001:000039f4
+   353 0001:000039fa   354 0001:000039ff   356 0001:00003a3f   357 0001:00003a42
+   358 0001:00003a4c   359 0001:00003a98   360 0001:00003a9e   361 0001:00003aa1
+   444 0001:00003ad0   445 0001:00003ae4   446 0001:00003aef   447 0001:00003af1
+   448 0001:00003af9   450 0001:00003b20   451 0001:00003b35   452 0001:00003b4b
+   453 0001:00003b53   455 0001:00003b59   456 0001:00003b65   457 0001:00003b7c
+   458 0001:00003b80   459 0001:00003b89   460 0001:00003ba2   462 0001:00003bc0
+   464 0001:00003bd1   465 0001:00003bfc   467 0001:00003bff   475 0001:00003c2d
+   476 0001:00003c30   477 0001:00003c38   468 0001:00003c3d   469 0001:00003c3f
+   470 0001:00003c46   471 0001:00003c49   472 0001:00003c4f   473 0001:00003c55
+   479 0001:00003c57   480 0001:00003c73   481 0001:00003c80   482 0001:00003c83
+   483 0001:00003c88   484 0001:00003c90   485 0001:00003c93   486 0001:00003c9c
+   487 0001:00003ca2   488 0001:00003ca7   489 0001:00003cac   490 0001:00003cae
+   491 0001:00003ce9   492 0001:00003cf3   493 0001:00003cfc   494 0001:00003d2b
+   493 0001:00003d30   494 0001:00003d3e   493 0001:00003d43   494 0001:00003d48
+   496 0001:00003d4d   497 0001:00003d52   498 0001:00003d5a   499 0001:00003d5d
+   500 0001:00003d66   501 0001:00003d6c   502 0001:00003d71   503 0001:00003d75
+   504 0001:00003d77   505 0001:00003db4   506 0001:00003dbe   507 0001:00003dc7
+   508 0001:00003e14   509 0001:00003e23   524 0001:00003e30   525 0001:00003e38
+   526 0001:00003e3d   527 0001:00003e47   528 0001:00003e4a   529 0001:00003e50
+   530 0001:00003e58   535 0001:00003e5b   536 0001:00003e5d   531 0001:00003e64
+   532 0001:00003e6b   535 0001:00003e6d   536 0001:00003e6f   534 0001:00003e76
+   535 0001:00003e79   536 0001:00003e7b   542 0001:00003e90   543 0001:00003ea0
+   544 0001:00003ea8   554 0001:00003eb0   555 0001:00003eb7   556 0001:00003ebc
+   557 0001:00003ec7   558 0001:00003eca   559 0001:00003ed0   560 0001:00003ed8
+   565 0001:00003edb   566 0001:00003ede   561 0001:00003ee5   562 0001:00003eed
+   565 0001:00003ef0   566 0001:00003ef3   564 0001:00003efa   565 0001:00003efc
+   566 0001:00003eff   577 0001:00003f10   579 0001:00003f17   580 0001:00003f1b
+   581 0001:00003f28   524 0001:00003f30   525 0001:00003f38   526 0001:00003f3d
+   527 0001:00003f47   528 0001:00003f4a   529 0001:00003f50   530 0001:00003f58
+   535 0001:00003f5b   536 0001:00003f5d   531 0001:00003f64   532 0001:00003f6b
+   535 0001:00003f6d   536 0001:00003f6f   534 0001:00003f76   535 0001:00003f79
+   536 0001:00003f7b   542 0001:00003f90   543 0001:00003fa0   544 0001:00003fa8
+   554 0001:00003fb0   555 0001:00003fb7   556 0001:00003fbc   557 0001:00003fc7
+   558 0001:00003fca   559 0001:00003fd0   560 0001:00003fd8   565 0001:00003fdb
+   566 0001:00003fde   561 0001:00003fe5   562 0001:00003fed   565 0001:00003ff0
+   566 0001:00003ff3   564 0001:00003ffa   565 0001:00003ffc   566 0001:00003fff
+   577 0001:00004010   579 0001:00004017   580 0001:0000401b   581 0001:00004028
+    92 0001:00004030    94 0001:00004042   101 0001:00004046    95 0001:00004049
+    96 0001:00004055   101 0001:00004068    99 0001:00004069   100 0001:00004072
+   101 0001:0000407d   103 0001:00004090   104 0001:000040a0   110 0001:000040b1
+   107 0001:000040b2   108 0001:000040bc   109 0001:000040c8   110 0001:000040cf
+
+Line numbers for .\Release\bncs_input.obj(C:\Qt\3.2.3\include\qstring.h) segment .text
+
+   304 0001:000015e0   306 0001:000015f2
+
+Line numbers for .\Release\bncs_input.obj(..\..\..\..\include\alarms_input_base.h) segment .text
+
+    30 0001:00000450
+
+Line numbers for .\Release\bncs_input.obj(..\..\..\..\include\alarms_base.h) segment .text
+
+    38 0001:00000430    40 0001:00000440
+
+Line numbers for .\Release\bncs_input.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\bncs_input.cpp) segment .text
+
+    40 0001:00000220    42 0001:00000342    43 0001:00000380    44 0001:0000038c
+    45 0001:000003b2    46 0001:000003c0    49 0001:000003c6    50 0001:000003d6
+    52 0001:000003dc    53 0001:000003e7    56 0001:000003f2    57 0001:0000040c
+    60 0001:000005b0    61 0001:000005c5    63 0001:000005d7    65 0001:000005e1
+    68 0001:00000620    71 0001:00000626    74 0001:00000637    91 0001:0000064d
+    94 0001:0000065b    95 0001:0000065d    77 0001:00000662    95 0001:00000664
+    81 0001:00000669    82 0001:00000674    83 0001:0000068f    95 0001:00000691
+    87 0001:00000696    94 0001:000006a4    95 0001:000006a6    98 0001:000006b0
+    99 0001:000006eb   102 0001:00000701   105 0001:0000070d   106 0001:00000717
+   110 0001:00000720   111 0001:0000072f   113 0001:00000733   116 0001:0000073b
+   118 0001:0000074b   119 0001:0000074e   120 0001:00000752   122 0001:0000076f
+   125 0001:00000789   127 0001:00000796   128 0001:00000798   130 0001:000007a6
+   131 0001:000007b6   132 0001:000007b9   133 0001:000007c3   138 0001:000007c6
+   141 0001:000007d1   142 0001:000007d3   143 0001:000007e3   144 0001:000007ee
+   147 0001:00000960   150 0001:00000966   153 0001:00000970   156 0001:00000976
+   165 0001:00000980   170 0001:00000983   172 0001:0000099f   173 0001:000009ae
+   177 0001:000009b6   201 0001:000009c3   177 0001:000009ee   185 0001:00000a19
+   188 0001:00000a25   194 0001:00000a32   196 0001:00000a3d   205 0001:00000a42
+   191 0001:00000a45   194 0001:00000a50   196 0001:00000a5d   205 0001:00000a62
+   201 0001:00000a65   205 0001:00000a68   208 0001:00000a70   210 0001:00000a76
+   213 0001:00000a80   215 0001:00000a8c   216 0001:00000a98   219 0001:00000aa0
+   223 0001:00000ab0   226 0001:00000abd   229 0001:00000ac0   232 0001:00000ac5
+   235 0001:00000ad0   238 0001:00000ada   241 0001:00000ae0   243 0001:00000ae6
+   246 0001:00000af0   249 0001:00000afa   252 0001:00000b00   254 0001:00000b06
+   262 0001:00000b10   263 0001:00000b2f   265 0001:00000b50   268 0001:00000b56
+   269 0001:00000b6b   270 0001:00000bb7   272 0001:00000c03   275 0001:00000c1a
+   276 0001:00000c24   278 0001:00000c3a   280 0001:00000c4c   281 0001:00000c67
+   282 0001:00000c7b   289 0001:00000c8f   302 0001:00000c9c   303 0001:00000cb5
+   306 0001:00000cb9   309 0001:00000cc3   311 0001:00000cd2   312 0001:00000cd5
+   313 0001:00000cd9   315 0001:00000cf4   318 0001:00000d0d   319 0001:00000d1a
+   321 0001:00000d1e   322 0001:00000d20   324 0001:00000d2e   326 0001:00000d38
+   329 0001:00000d41   331 0001:00000d55   332 0001:00000d6c   473 0001:00000de7
+   336 0001:00000dfa   338 0001:00000e14   339 0001:00000e25   340 0001:00000e30
+   342 0001:00000e38   343 0001:00000e52   346 0001:00000e6e   347 0001:00000eca
+   348 0001:00000f0d   351 0001:00000f4d   352 0001:00000f6a   354 0001:00000f86
+   355 0001:00000f9f   357 0001:00000fe4   360 0001:00001011   363 0001:00001017
+   365 0001:00001026   368 0001:0000102b   372 0001:0000104a   373 0001:00001083
+   375 0001:0000108c   377 0001:0000109f   380 0001:000010a4   382 0001:000010ed
+   383 0001:00001226   384 0001:00001242   387 0001:00001270   389 0001:0000128f
+   392 0001:0000129b   395 0001:000012a5   396 0001:000012ab   397 0001:000012c5
+   400 0001:000012ce   402 0001:000012db   403 0001:0000139e   396 0001:000013a0
+   404 0001:000013ca   411 0001:000013d8   413 0001:000013e6   415 0001:000013fc
+   417 0001:00001406   419 0001:00001417   422 0001:00001422   425 0001:0000142d
+   428 0001:00001434   431 0001:0000143f   434 0001:00001453   436 0001:00001455
+   438 0001:00001457   439 0001:00001465   441 0001:0000146c   444 0001:0000146e
+   447 0001:00001470   448 0001:0000147e   451 0001:00001499   470 0001:000014c0
+   472 0001:000014df   473 0001:00001558   455 0001:0000156d   457 0001:00001591
+   458 0001:0000159b   459 0001:000015a8   463 0001:000015b1   465 0001:000015bf
+   466 0001:000015c9   467 0001:000015d6   476 0001:00001800   477 0001:0000181d
+   479 0001:00001834   481 0001:00001847   483 0001:00001850   485 0001:00001876
+   487 0001:00001886   489 0001:00001892   491 0001:00001894   493 0001:000018a3
+   495 0001:000018b6   496 0001:000018d3   499 0001:000018fa   502 0001:00001940
+   507 0001:0000195e   512 0001:0000198d   520 0001:000019cb   531 0001:000019f7
+   532 0001:00001a0c   535 0001:00001a1e   536 0001:00001a4f   537 0001:00001a5f
+   539 0001:00001aa6   541 0001:00001ab6   543 0001:00001abd   549 0001:00001ac2
+   550 0001:00001ad7   551 0001:00001ae9   552 0001:00001b1a   553 0001:00001b2a
+   554 0001:00001b71   556 0001:00001b9f   523 0001:00001ba1   524 0001:00001bb6
+   525 0001:00001bc8   562 0001:00001bf0   563 0001:00001bff   568 0001:00001c07
+   571 0001:00001c21   573 0001:00001c24   576 0001:00001c2c   584 0001:00001c36
+   591 0001:00001c48   568 0001:00001c5e   652 0001:00001c7d   655 0001:00001c8a
+   656 0001:00001c8c   679 0001:00001c9a   662 0001:00001cd5   664 0001:00001cf6
+   665 0001:00001d00   666 0001:00001d0d   670 0001:00001d16   672 0001:00001d24
+   673 0001:00001d2e   674 0001:00001d3b   682 0001:00001d50   685 0001:00001d59
+   687 0001:00001d64   688 0001:00001d69   690 0001:00001d6f   698 0001:00001d80
+   707 0001:00001d9d   708 0001:00001dc6   712 0001:00001dce   713 0001:00001ddd
+   715 0001:00001de5   717 0001:00001deb   719 0001:00001dee   722 0001:00001dfe
+   719 0001:00001e1e   725 0001:00001e3d   727 0001:00001e44   728 0001:00001e52
+   729 0001:00001e6d   730 0001:00001e79   731 0001:00001ea0   733 0001:00001ea2
+   734 0001:00001eb2   740 0001:00001ec6   743 0001:00001ee2   744 0001:00001ee4
+   746 0001:00001ef2   774 0001:00001eff   750 0001:00001f10   774 0001:00001f1b
+   754 0001:00001f2f   756 0001:00001f50   757 0001:00001f5a   759 0001:00001f67
+   760 0001:00001f6e   761 0001:00001f7b   765 0001:00001f84   767 0001:00001f92
+   768 0001:00001f9c   770 0001:00001fa9   771 0001:00001fb0   772 0001:00001fbd
+   777 0001:00001fd0   779 0001:00001fd3   782 0001:00001fe1   784 0001:00001fea
+   788 0001:00001ffa   787 0001:00001ffd   788 0001:00002010   791 0001:00002020
+   793 0001:00002046   794 0001:0000204d   795 0001:0000206f   800 0001:00002090
+   829 0001:000020a8   830 0001:000020b6   831 0001:000020d0   832 0001:000020d7
+   825 0001:000020dc   826 0001:000020f1   800 0001:000020f6   834 0001:00002106
+   835 0001:00002117   804 0001:0000211c   809 0001:000021ca   811 0001:000021d2
+   813 0001:00002214   814 0001:0000221a   815 0001:0000238d   817 0001:00002398
+   819 0001:0000239d   820 0001:000023ab   817 0001:000023c5   849 0001:000023c8
+   850 0001:0000240f   840 0001:00002427   841 0001:00002458   845 0001:00002461
+   846 0001:00002475   853 0001:00002480   858 0001:00002483   859 0001:0000248d
+   878 0001:0000249c   863 0001:0000249f   864 0001:000024aa   865 0001:000024b3
+   868 0001:000024c1   872 0001:000024cd   876 0001:00002510   878 0001:00002521
+   881 0001:00002530   882 0001:0000254b   885 0001:0000256b   887 0001:00002588
+   891 0001:000025b5   892 0001:000025bf   893 0001:000025d0   896 0001:00002620
+   900 0001:0000262a   902 0001:00002634   904 0001:0000263c   906 0001:0000263e
+   909 0001:00002651   912 0001:0000265a   914 0001:00002664   917 0001:0000266f
+   920 0001:000026c0   924 0001:000026c4   925 0001:000026d5   928 0001:000026dd
+   948 0001:000026ea   949 0001:000026f9   928 0001:0000271b   951 0001:00002746
+   952 0001:00002751   953 0001:00002753   959 0001:00002760   960 0001:00002764
+   956 0001:00002765   959 0001:00002773   960 0001:00002777   963 0001:00002780
+   967 0001:00002787   969 0001:0000278f   981 0001:00002794   973 0001:00002797
+   981 0001:0000279c   986 0001:000027a0  1026 0001:000027ac  1032 0001:000027b0
+  1048 0001:000027bc  1057 0001:000027c0  1059 0001:000027d5  1062 0001:000027e0
+  1067 0001:000027f0
+
+Line numbers for .\Release\bncs_input.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:000001b0    29 0001:000001f0
+
+Line numbers for .\Release\alm_acq_bncs_drv_stat.obj(w:\core_svn\Source\windows\lib\alarms\alm_acq_bncs_drv_stat\alm_acq_bncs_drv_stat.cpp) segment .text
+
+    15 0001:00000080    20 0001:00000087    28 0001:0000009c    29 0001:000000a1
+    34 0001:000000b0    36 0001:000000d2    35 0001:000000d3    36 0001:000000d5
+
+Line numbers for .\Release\alm_acq_bncs_drv_stat.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:00000010    29 0001:00000050
+
+ Exports
+
+  ordinal    name
+
+        1    _createNewInput
+               exported name: createNewInput

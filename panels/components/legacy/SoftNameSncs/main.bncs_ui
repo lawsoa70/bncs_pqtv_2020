@@ -1,0 +1,179 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1285" h="915" gridSize="10" gridEnabled="0" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label3" x="490" y="89" w="770" h="90">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="Label2" x="10" y="750" w="1255" h="120">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="Label1" x="491" y="185" w="770" h="470">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="Label" x="10" y="90" w="470" h="650">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="debug2" x="405" y="909" w="163" h="25">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="debug3" x="575" y="909" w="163" h="25">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="debug1" x="228" y="910" w="163" h="25">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="ERRORMESSAGE" x="702" y="695" w="558" h="26">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#ff0000" />
+			<setting value="colour.background=#70dbf7" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="ChosenSoftName9" x="23" y="20" w="103" h="17">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=FABIAN Status" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenSource1" x="23" y="38" w="103" h="29">
+			<setting value="statesheet=enum_deselected" />
+			<setting value="text=Fabian ??" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="CreateLabel" x="39" y="781" w="108" h="45">
+			<setting value="text=CREATE  NEW|Label" />
+		</control>
+		<control class="bncs_control" name="LABELCOUNT" x="39" y="834" w="107" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=200 / 200 Labels" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="DeleteLabel" x="155" y="780" w="115" h="45">
+			<setting value="text=DELETE|Label" />
+		</control>
+		<control class="bncs_control" name="ClearAlias" x="280" y="780" w="115" h="45">
+			<setting value="text=CLEAR|Alias" />
+		</control>
+		<control class="bncs_control" name="ClearDown" x="408" y="780" w="115" h="45">
+			<setting value="text=CLEAR DOWN|ALL  Aliases" />
+		</control>
+		<control class="bncs_control" name="ChosenSoftName1" x="762" y="615" w="174" h="29">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="CLOSEPANEL" x="767" y="780" w="134" h="59">
+			<setting value="text=Abandon Edit" />
+		</control>
+		<control class="bncs_control" name="ChosenAlias2" x="1053" y="615" w="174" h="29">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="SAVECLOSEPANEL" x="1109" y="780" w="134" h="59">
+			<setting value="text=Save Edit" />
+		</control>
+		<control class="bncs_control" name="LabelOrAlias" x="967" y="615" w="87" h="29">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= New Alias : " />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenLabel1" x="693" y="136" w="138" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenAlias1" x="852" y="136" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenSoftName3" x="689" y="615" w="73" h="29">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Current : " />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenSoftName4" x="570" y="137" w="118" h="29">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Chosen Entry :" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenForm" x="1004" y="135" w="59" h="29">
+		</control>
+		<control class="bncs_control" name="ChosenSoftName7" x="1004" y="116" w="59" h="18">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Form" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenSoftName8" x="693" y="117" w="139" h="18">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=SNCS Label" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="ChosenSoftName12" x="853" y="118" w="139" h="18">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Soft Name Alias" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl5" x="188" y="103" w="285" h="36">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Current Alias Assigments" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_listbox" name="List3" x="188" y="523" w="285" h="205">
+			<setting value="font.face=Lucida Console" />
+			<setting value="font.size=14" />
+			<setting value="sort=true" />
+		</control>
+		<control class="bncs_listbox" name="List2" x="188" y="139" w="285" h="340">
+			<setting value="font.face=Lucida Console" />
+			<setting value="font.size=14" />
+			<setting value="sort=true" />
+		</control>
+		<control class="bncs_control" name="lbl6" x="188" y="487" w="285" h="36">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Permanent Alias Assigments" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl7" x="20" y="102" w="160" h="36">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Unassigned Labels" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_listbox" name="List1" x="20" y="139" w="160" h="590">
+			<setting value="font.face=Lucida Console" />
+			<setting value="font.size=14" />
+			<setting value="sort=true" />
+		</control>
+		<control class="bncs_keyboard_ctrl" name="KEYBOARD" x="509" y="209" w="731" h="383">
+			<setting value="showText=false" />
+			<setting value="notify.released=true" />
+			<setting value="transparent=true" />
+			<setting value="exceptions=~&lt;&gt;" />
+			<setting value="keyboardType=Keypad" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users SYSTEM "users.dtd"><users>
+	<user id="server" password="" panelset="sta_all" engset="sta_all" level="" system="0" config="0" />
+	<!-- Studio A -->
+	<user id="STA_Eng_Man"  password="" panelset="sta_Eng_Man" engset="sta_Eng_Man_eng" level="" system="0" config="0" />
+	<user id="STA_Snd_Sup"  password="" panelset="sta_Snd_Sup" engset="sta_Snd_eng"     level="" system="0" config="0" />
+	<user id="STA_Grams"    password="" panelset="sta_Grams"   engset="sta_Snd_eng"     level="" system="0" config="0" />
+	<user id="STA_Snd_Bay"  password="" panelset="sta_Snd_Bay" engset="sta_Snd_eng"     level="" system="0" config="0" />
+	<user id="STA_LVCR"     password="" panelset="sta_LVCR"    engset="sta_LVCR_eng"    level="" system="0" config="0" />
+	<user id="STA_Vis_Mix"  password="" panelset="sta_Vis_Mix" engset="sta_Vis_Mix_eng" level="" system="0" config="0" />
+	<user id="STA_VAA"      password="" panelset="sta_VAA"     engset="sta_all"         level="" system="0" config="0" />
+	<!-- Studio B -->
+	<user id="STB_Eng_Man"  password="" panelset="stb_Eng_Man" engset="stb_Eng_Man_eng" level="" system="0" config="0" />
+	<user id="STB_Snd_Sup"  password="" panelset="stb_Snd_Sup" engset="stb_Snd_eng"     level="" system="0" config="0" />
+	<!-- Studio C -->
+	<user id="STC_Eng_Man"  password="" panelset="stc_Eng_Man" engset="stc_Eng_Man_eng" level="" system="0" config="0" />
+	<user id="STC_Snd_Sup"  password="" panelset="stc_Snd_Sup" engset="stc_Snd_eng"     level="" system="0" config="0" />
+	<user id="STC_Grams"    password="" panelset="stc_Grams"   engset="stc_Snd_eng"     level="" system="0" config="0" />
+	<user id="STC_Snd_Bay"  password="" panelset="stc_Snd_Bay" engset="stc_Snd_eng"     level="" system="0" config="0" />
+	<user id="STC_VAA"      password="" panelset="stc_VAA"     engset="stc_all"         level="" system="0" config="0" />
+	<!-- etc -->
+	<user id="SIR"          password="" panelset="SIR"         engset="SIR_eng"         level="" system="0" config="0" />
+	<user id="STB_Rec"      password="" panelset="STB_Rec"     engset="STB_Rec_eng"     level="" system="0" config="0" />
+	<user id="NCR"          password="" panelset="NCR"         engset="NCR_eng"         level="" system="0" config="0" />
+	<user id="Laptop"       password="" panelset="laptop"      engset="laptop_eng"      level="" system="0" config="0" />
+</users>

@@ -1,0 +1,5 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="80" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+	</container>
+</control_set>

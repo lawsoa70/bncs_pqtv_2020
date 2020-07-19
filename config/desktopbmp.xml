@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DesktopBmp>
+	<setting id="Box" X="690" Y="560" W="320" H="190"/>
+	<setting id="WSNumber" bold="true" font="Arial" size="28" x="34"  y="130"/>
+	<setting id="WSName"   bold="true" font="Arial" size="12" x="102" y="118"/>
+	<setting id="WSIP"     bold="true" font="Arial" size="10" x="290" y ="148"/>
+</DesktopBmp>

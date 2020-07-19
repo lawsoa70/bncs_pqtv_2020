@@ -1,0 +1,6 @@
+#ifndef BUILDID_INCLUDED
+#define BUILDID_INCLUDED
+
+#define SIGBUILD	"not set"
+
+#endif // BUILDID_INCLUDED

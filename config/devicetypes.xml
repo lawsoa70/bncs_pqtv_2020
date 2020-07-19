@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE devicetypes SYSTEM "devicetypes.dtd">
+<devicetypes>
+    <type family="Memory" id="MemoryVisionFunctions" />
+    <type family="GPID"   id="ksc_gpi_inputs" />
+</devicetypes>

@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="140" h="80" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="0" y="0" w="140" h="80">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="source_2" x="75" y="0" w="65" h="80">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=bottom" />
+			<setting value="pixmapalign=centre" />
+			<setting value="text=PARK" />
+			<setting value="pixmap=/images/icon_park.png" />
+		</control>
+		<control class="bncs_control" name="source_1" x="0" y="0" w="65" h="80">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=bottom" />
+			<setting value="pixmapalign=centre" />
+			<setting value="text=HD BARS" />
+			<setting value="pixmap=/images/icon_colour_bars.png" />
+		</control>
+	</container>
+</control_set>

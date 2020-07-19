@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT panelsets (set+)>
+<!ELEMENT set (item+)>
+<!ATTLIST set
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+>
+<!ELEMENT item EMPTY>
+<!ATTLIST item
+	id CDATA #REQUIRED
+	param CDATA #REQUIRED
+>

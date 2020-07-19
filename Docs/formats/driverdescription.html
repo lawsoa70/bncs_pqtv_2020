@@ -1,0 +1,59 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>File Format - driverconfig</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p class="title">Overview</p>
+<p>The config/driverdescription? folder contains descriptions for each of the 
+  driver modules known within bncsi/this system</p>
+<p>This is NOT finished</p>
+<p class="title">Sample Contents </p>
+<pre>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!DOCTYPE driverdescription SYSTEM &quot;driverdescription.dtd&quot;&gt;
+&lt;driverdescription id=&quot;RollCall&quot; type=&quot;RollDrv&quot;&gt;
+	&lt;paramgroup id=&quot;general&quot; min=&quot;6&quot; max=&quot;6&quot;&gt;
+		&lt;param id=&quot;DebugMode&quot; type=&quot;INTEGER&quot; default=&quot;1&quot;/&gt;
+		&lt;param id=&quot;LogMode&quot; type=&quot;INTEGER&quot; default=&quot;0&quot;/&gt;
+		&lt;param id=&quot;RollIP Port&quot; type=&quot;INTEGER&quot; default=&quot;2050&quot;/&gt;
+		&lt;param id=&quot;RollLog Port&quot; type=&quot;INTEGER&quot; default=&quot;2052&quot;/&gt;
+		&lt;param id=&quot;Server&quot; type=&quot;IP_ADDRESS&quot; default=&quot;192.168.0.100&quot;/&gt;
+		&lt;param id=&quot;LogServer&quot; type=&quot;IP_ADDRESS&quot; default=&quot;127.0.0.1&quot;/&gt;
+	&lt;/paramgroup&gt;
+	&lt;paramgroup id=&quot;device_id&quot; min=&quot;1&quot; max=&quot;99&quot;&gt;
+		&lt;param id=&quot;device_%DEV_ID%&quot; type=&quot;DEV_ID&quot; default=&quot;&quot;/&gt;
+	&lt;/paramgroup&gt;
+	&lt;paramgroup id=&quot;device_type&quot; min=&quot;1&quot; max=&quot;99&quot;&gt;
+		&lt;param id=&quot;device_%DEV_ID%&quot; type=&quot;STRING&quot; default=&quot;&quot;/&gt;
+	&lt;/paramgroup&gt;
+	&lt;paramgroup id=&quot;device_spacing&quot; min=&quot;1&quot; max=&quot;99&quot;&gt;
+		&lt;param id=&quot;device_%DEV_ID%&quot; type=&quot;INTEGER&quot; default=&quot;10&quot;/&gt;
+	&lt;/paramgroup&gt;
+	&lt;sectiongroup &gt;
+		&lt;paramgroup id=&quot;?device_001?&quot; min=&quot;1&quot; max=&quot;99&quot;&gt;
+			&lt;param id=&quot;?card_001?&quot; type=&quot;STRING&quot; default=&quot;%04x:%02x:%02x&quot;/&gt;
+		&lt;/paramgroup&gt;
+	&lt;/sectiongroup&gt;
+&lt;/driverconfig&gt;
+</pre>
+<p class="title">DTD</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+
+&lt;!ELEMENT driverdescription (paramgroup+)&gt;
+	&lt;!ATTLIST driverdescription id CDATA #REQUIRED&gt;
+	&lt;!ATTLIST driverdescription type CDATA #REQUIRED&gt;
+	&lt;!ATTLIST driverdescription deviceid CDATA #REQUIRED&gt;
+
+&lt;!ELEMENT paramgroup (param+)&gt;
+	&lt;!ATTLIST paramgroup id CDATA #REQUIRED&gt;
+
+&lt;!ELEMENT param EMPTY&gt;
+	&lt;!ATTLIST param id CDATA #REQUIRED&gt;
+	&lt;!ATTLIST param type CDATA #REQUIRED&gt;
+	&lt;!ATTLIST param default CDATA #REQUIRED&gt;
+</pre>
+<p>&nbsp;</p>
+</body>

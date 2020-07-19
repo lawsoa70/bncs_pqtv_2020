@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<template>
+	<setting value="buttontext=list" />
+	<setting value="defaultstyle=alarm_style" />
+	<setting value="stylesheet.list=2statealarm" />
+	<setting value="state.0.caption=Fail" />
+	<setting value="state.0.value=1" />
+	<setting value="state.0.style=alarm_alarm" />
+	<setting value="state.0.enabled=false" />
+	<setting value="state.1.caption=OK" />
+	<setting value="state.1.value=0" />
+	<setting value="state.1.style=alarm_ok" />
+	<setting value="state.1.enabled=false" />
+	<setting value="state.2.caption=Forced On" />
+	<setting value="state.2.value=3" />
+	<setting value="state.2.style=alarm_forceon" />
+	<setting value="state.3.caption=Forced Off" />
+	<setting value="state.3.value=2" />
+	<setting value="state.3.style=alarm_forceoff" />
+	<setting value="state.4.caption=Ack." />
+	<setting value="state.4.value=4" />
+	<setting value="state.4.style=alarm_ack" />
+	<setting value="state.5.caption=Ignored" />
+	<setting value="state.5.value=5" />
+	<setting value="state.5.style=alarm_ignore" />
+	<setting value="state.6.caption=Latched" />
+	<setting value="state.6.value=6" />
+	<setting value="state.6.style=alarm_latched" />
+	<setting value="state.6.enabled=false" />
+	<setting value="state.7.caption=Normal" />
+	<setting value="state.7.value=0" />
+	<setting value="state.7.style=enum_selected" />
+	<setting value="state.8.caption=Unknown" />
+	<setting value="state.8.value=-1" />
+	<setting value="state.8.style=alarm_unknown" />
+	<setting value="state.8.enabled=false" />
+</template>

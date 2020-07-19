@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="60" h="30" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="tally" x="0" y="0" w="60" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=destgrid_tally_small" />
+		</control>
+	</container>
+</control_set>

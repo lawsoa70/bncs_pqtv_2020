@@ -1,0 +1,183 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="50" y="0" w="1230" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_script_loader" name="sourceGrid" x="40" y="560" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="dest_1" x="20" y="90" w="180" h="170">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=105" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=dest_vtr" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock_1" x="20" y="40" w="180" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_sta_sdi_lock" />
+			<setting value="index=105" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="dest_2" x="220" y="90" w="180" h="170">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=106" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=dest_vtr" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock_2" x="220" y="40" w="180" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_sta_sdi_lock" />
+			<setting value="index=106" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="dest_3" x="420" y="90" w="180" h="170">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=107" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=dest_vtr" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock_3" x="420" y="40" w="180" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_sta_sdi_lock" />
+			<setting value="index=107" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="dest_4" x="620" y="90" w="180" h="170">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=108" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=dest_vtr" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock_4" x="620" y="40" w="180" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_sta_sdi_lock" />
+			<setting value="index=108" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="dest_5" x="820" y="90" w="180" h="170">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=109" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=dest_vtr" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock_5" x="820" y="40" w="180" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_sta_sdi_lock" />
+			<setting value="index=109" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="dest_6" x="1020" y="90" w="180" h="170">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=110" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=dest_vtr" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="lock_6" x="1020" y="40" w="180" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_sta_sdi_lock" />
+			<setting value="index=110" />
+			<setting value="lock_instance=rtr_sta_sdi_lock" />
+		</control>
+		<control class="bncs_script_loader" name="embed_info_1" x="20" y="270" w="180" h="270">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_embedded_audio" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="video_dest_index=105" />
+			<setting value="audio_instance=rtr_sta_nexus" />
+			<setting value="panel=default" />
+		</control>
+		<control class="bncs_script_loader" name="embed_info_2" x="220" y="270" w="180" h="270">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_embedded_audio" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="video_dest_index=106" />
+			<setting value="audio_instance=rtr_sta_nexus" />
+			<setting value="panel=default" />
+		</control>
+		<control class="bncs_script_loader" name="embed_info_3" x="420" y="270" w="180" h="270">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_embedded_audio" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="video_dest_index=107" />
+			<setting value="audio_instance=rtr_sta_nexus" />
+			<setting value="panel=default" />
+		</control>
+		<control class="bncs_script_loader" name="embed_info_4" x="620" y="270" w="180" h="270">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_embedded_audio" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="video_dest_index=108" />
+			<setting value="audio_instance=rtr_sta_nexus" />
+			<setting value="panel=default" />
+		</control>
+		<control class="bncs_script_loader" name="embed_info_5" x="820" y="270" w="180" h="270">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_embedded_audio" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="video_dest_index=109" />
+			<setting value="audio_instance=rtr_sta_nexus" />
+			<setting value="panel=default" />
+		</control>
+		<control class="bncs_script_loader" name="embed_info_6" x="1020" y="270" w="180" h="270">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_embedded_audio" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="video_dest_index=110" />
+			<setting value="audio_instance=rtr_sta_nexus" />
+			<setting value="panel=default" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="route_source=*" command="select=[value]" name="Send source,dest to destinations"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+	</connections>
+</control_set>

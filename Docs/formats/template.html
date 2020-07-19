@@ -1,0 +1,59 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>File Format - template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p class="title">Overview</p>
+<p>The config/template folder contains templates that are used within devicetype 
+  files</p>
+<p>This is not really XML and could do with looking at and may end up like this...</p>
+<pre>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!DOCTYPE template SYSTEM &quot;template.dtd&quot;&gt;
+&lt;template&gt;
+	&lt;state id=&quot;default&quot;&gt;
+		&lt;setting id=&quot;stylesheet.list&quot; value=&quot;enum_toppixmap&quot;/&gt;
+	&lt;/state&gt;
+	&lt;state id=&quot;0&quot;&gt;
+		&lt;setting id=&quot;enabled&quot; value=&quot;false&quot;/&gt;
+		&lt;setting id=&quot;caption&quot; value=&quot;Pass&quot;/&gt;
+		&lt;setting id=&quot;value&quot; value=&quot;0&quot;/&gt;
+		&lt;setting id=&quot;state&quot; value=&quot;enum_selected&quot;/&gt;
+		&lt;setting id=&quot;pixmap&quot; value=&quot;arcmode0.png&quot;/&gt;
+	&lt;/state&gt;
+&lt;/template&gt; </pre>
+<p class="title">Sample Contents </p>
+<pre>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!DOCTYPE template SYSTEM &quot;template.dtd&quot;&gt;
+&lt;template&gt;
+	&lt;setting value=&quot;stylesheet.list=enum_toppixmap&quot; /&gt;
+	<br>	&lt;setting value=&quot;state.0.enabled=false&quot;  /&gt;
+	&lt;setting value=&quot;state.0.caption=Pass&quot;  /&gt;
+	&lt;setting value=&quot;state.0.value=0&quot; /&gt;
+	&lt;setting value=&quot;state.0.style=enum_selected&quot;  /&gt;
+	&lt;setting value=&quot;state.0.pixmap=arcmode0.png&quot;  /&gt;
+
+	&lt;setting value=&quot;state.1.enabled=false&quot;  /&gt;
+	&lt;setting value=&quot;state.1.caption=Full Zoom 4:3&quot;  /&gt;
+	&lt;setting value=&quot;state.1.value=1&quot; /&gt;
+	&lt;setting value=&quot;state.1.style=enum_selected&quot;  /&gt;
+	&lt;setting value=&quot;state.1.pixmap=arcmode1.png&quot;  /&gt;
+
+	&lt;state id=&quot;0&quot;&gt;
+		&lt;setting id=&quot;enabled&quot; value=&quot;false&quot;/&gt;
+	&lt;/state&gt;
+
+
+&lt;/template&gt; </pre>
+<p class="title">DTD</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+	&lt;!ELEMENT template (setting+)&gt;
+
+&lt;!ELEMENT setting EMPTY&gt;
+	&lt;!ATTLIST setting value CDATA #REQUIRED&gt;
+</pre>
+<p>&nbsp;</p>
+</body>

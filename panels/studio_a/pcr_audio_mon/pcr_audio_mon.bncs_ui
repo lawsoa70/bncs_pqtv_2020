@@ -1,0 +1,158 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label1" x="10" y="425" w="1258" h="80">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="70" y="560" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid_audio" x="10" y="10" w="1253" h="312">
+			<setting value="scriptname=/components/legacy/audio_source_grid" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=40x15_wide" />
+			<setting value="page_offset=0" />
+		</control>
+		<control class="bncs_script_loader" name="dest_1" x="530" y="510" w="351" h="40">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_sta_sdi" />
+			<setting value="dest_index=66" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=wide" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=true" />
+		</control>
+		<control class="bncs_script_loader" name="audio_dest_1" x="910" y="330" w="80" h="90">
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=LR_V_SMALL" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2221" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="audio_dest_2" x="1030" y="330" w="80" h="90">
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=LR_V_SMALL" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=2223" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_control" name="Label" x="20" y="439" w="500" h="60">
+			<setting value="style=label" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bd17_10_buttons.png" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_script_loader" name="shortcut_01" x="530" y="440" w="80" h="60">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#0000ff" />
+			<setting value="source_index_1=429" />
+			<setting value="source_alias_1=1/2" />
+		</control>
+		<control class="bncs_script_loader" name="shortcut_02" x="620" y="440" w="80" h="60">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#C0C000" />
+			<setting value="source_index_1=431" />
+			<setting value="source_alias_1=3/4" />
+		</control>
+		<control class="bncs_script_loader" name="shortcut_03" x="710" y="440" w="80" h="60">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#C0C000" />
+			<setting value="source_index_1=433" />
+			<setting value="source_alias_1=5/6" />
+		</control>
+		<control class="bncs_script_loader" name="shortcut_04" x="800" y="440" w="80" h="60">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#C0C000" />
+			<setting value="source_index_1=435" />
+			<setting value="source_alias_1=7/8" />
+		</control>
+		<control class="bncs_script_loader" name="shortcut_05" x="910" y="440" w="80" h="60">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#C0C000" />
+			<setting value="source_index_1=2221" />
+			<setting value="source_alias_1=PCRMSC1" />
+		</control>
+		<control class="bncs_script_loader" name="shortcut_06" x="1030" y="440" w="80" h="60">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#C0C000" />
+			<setting value="source_index_1=2223" />
+			<setting value="source_alias_1=PCRMSC2" />
+		</control>
+		<control class="bncs_script_loader" name="audio_selector" x="1140" y="450" w="120" h="40">
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=tally_only" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=true" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=115" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_line" name="line_01" x="941" y="420" w="20" h="20">
+			<setting value="penwidth=5" />
+			<setting value="colour=#ff0000" />
+			<setting value="points=50,0,50,100" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_line" name="line_02" x="1060" y="420" w="20" h="20">
+			<setting value="penwidth=5" />
+			<setting value="colour=#ff0000" />
+			<setting value="points=50,0,50,100" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid_audio" receiver="audio_dest_*" event="index=*" command="take..M-LR=[value]" name="Route Audio"/>
+		<connection sender="sourceGrid_audio" receiver="audio_dest_*" event="index=*" command="take..=[value]" name="Send SDI index to sest and make router"/>
+		<connection sender="audio_dest_*" receiver="audio_dest_*" event="global_dest=*" command="selected=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="route_source=*" command="select=[value]" name=""/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name=""/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name=""/>
+		<connection sender="shortcut_*" receiver="audio_selector" event="index=*" command="take.[value]" name="** NEW CONNECTION! ** PLEASE GIVE ME A COMMENT!"/>
+		<connection sender="shortcut_*" receiver="audio_selector" event="index=*" command="take..M-LR=[value]" name=""/>
+		<connection sender="shortcut_*" receiver="audio_selector" event="index=*" command="take..=[value]" name=""/>
+		<connection sender="shortcut_*" receiver="shortcut_*" event="index=*" command="source=[value]" name=""/>
+	</connections>
+</control_set>

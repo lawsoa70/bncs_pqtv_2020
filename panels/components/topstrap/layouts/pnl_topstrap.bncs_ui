@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1040" h="80" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="20" x="0" y="0" w="1040" h="80">
+			<setting value="stylesheet=pm_background" />
+			<setting value="background=true" />
+		</control>
+		<control class="bncs_control" name="1" x="270" y="20" w="490" h="40">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffaa00" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="text=Topstrap error - studio not defined in workstation settings" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c007543f-d13c-4131-aec3-ed69bff18e2b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ce471d7f-7fe6-44b6-b562-253411ab9192}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{2c172a0b-2176-4b16-b201-ed6ad3847f59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio_dest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="audio_dest.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\include\audio_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_dest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="docs\audio_dest.hhp">
+      <Filter>Docs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="51_H.bncs_ui" />
+    <CustomBuild Include="configError.bncs_ui" />
+    <CustomBuild Include="LR_H.bncs_ui" />
+    <CustomBuild Include="LR_V.bncs_ui" />
+    <CustomBuild Include="M_V.bncs_ui" />
+  </ItemGroup>
+</Project>

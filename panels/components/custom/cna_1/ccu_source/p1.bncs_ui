@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="99" h="140" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="btn_name" x="0" y="20" w="97" h="64">
+			<setting value="textalign=top" />
+		</control>
+		<control class="bncs_control" name="lbl_others" x="0" y="80" w="96" h="58">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffaa00" />
+			<setting value="textalign=top" />
+		</control>
+		<control class="bncs_control" name="lbl_available" x="0" y="0" w="96" h="21">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

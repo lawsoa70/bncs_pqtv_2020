@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="240" h="60" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="background" x="0" y="0" w="240" h="60">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally" x="100" y="0" w="140" h="60">
+			<setting value="style=label" />
+			<setting value="colour.text=#00ff00" />
+			<setting value="colour.background=#000000" />
+			<setting value="textalign=left" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="tally_1" x="100" y="0" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#00ff00" />
+			<setting value="colour.background=#000000" />
+			<setting value="textalign=left" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="tally_2" x="100" y="30" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#00ff00" />
+			<setting value="colour.background=#000000" />
+			<setting value="textalign=left" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="dest" x="0" y="0" w="100" h="60">
+		</control>
+	</container>
+</control_set>

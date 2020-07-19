@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="420" h="830" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="10" y="10" w="400" h="810">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Take 5.1 to 5.1" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="FL-FLFR" x="30" y="40" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FL - FL FR" />
+			<setting value="pixmap=audio_take_mode_FL-FLFR.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FL-C" x="30" y="170" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FL - C" />
+			<setting value="pixmap=audio_take_mode_FL-C.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FLFR-FLFR" x="30" y="300" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FLFR - FLFR" />
+			<setting value="pixmap=audio_take_mode_FLFR-FLFR.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FLFR-CE" x="30" y="430" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FLFR - CE" />
+			<setting value="pixmap=audio_take_mode_FLFR-CE.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FLFR-LSRS" x="30" y="560" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FLFR - LsRs" />
+			<setting value="pixmap=audio_take_mode_FLFR-LSRS.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FLFR-FRFL" x="30" y="690" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FLFR - FRFL" />
+			<setting value="pixmap=audio_take_mode_FLFR-FRFL.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FR-C" x="160" y="170" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FR - C" />
+			<setting value="pixmap=audio_take_mode_FR-C.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="CE-FLFR" x="160" y="300" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=CE - FLFR" />
+			<setting value="pixmap=audio_take_mode_CE-FLFR.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="CE-CE" x="160" y="430" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=CE - CE" />
+			<setting value="pixmap=audio_take_mode_CE-CE.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="CE-LSRS" x="160" y="560" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=CE - LsRs" />
+			<setting value="pixmap=audio_take_mode_CE-LSRS.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="C-C" x="290" y="170" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=C - C" />
+			<setting value="pixmap=audio_take_mode_C-C.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="LSRS-FLFR" x="290" y="300" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LsRs - FLFR" />
+			<setting value="pixmap=audio_take_mode_LSRS-FLFR.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="LSRS-CE" x="290" y="430" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LsRs - CE" />
+			<setting value="pixmap=audio_take_mode_LSRS-CE.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="LSRS-LSRS" x="290" y="560" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LsRs - LsRs" />
+			<setting value="pixmap=audio_take_mode_LSRS-LSRS.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FR-FLFR" x="160" y="40" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FR - FLFR" />
+			<setting value="pixmap=audio_take_mode_FR-FLFR.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="C-FLFR" x="290" y="40" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=C - FLFR" />
+			<setting value="pixmap=audio_take_mode_C-FLFR.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FLFRLSRS-FLFRLSRS" x="290" y="690" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=All except C/E" />
+			<setting value="pixmap=audio_take_mode_FLFRLSRS-FLFRLSRS.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

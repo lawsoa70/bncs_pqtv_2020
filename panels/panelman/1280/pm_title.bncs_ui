@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="1040" y="0" w="240" h="80" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<setting value="colour.background=#001a38"/>
+		<control class="bncs_control" name="title_caption1" x="0" y="-3" w="240" h="85">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_title_background" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="title_caption" x="5" y="49" w="234" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_title_background" />
+			<setting value="text=Panelman Title" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="title_time_local" x="150" y="5" w="88" h="25">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_title_background" />
+			<setting value="text=hh:mm:ss" />
+		</control>
+		<control class="bncs_script_loader" name="2" x="5" y="5" w="100" h="25">
+			<setting value="scriptname=area_name" />
+		</control>
+	</container>
+</control_set>

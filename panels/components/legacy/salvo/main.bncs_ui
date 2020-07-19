@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="100" h="60" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="salvo" x="0" y="0" w="100" h="60">
+			<setting value="pixmapalign=centre" />
+			<setting value="text=Salvo" />
+			<setting value="doublepush=true" />
+		</control>
+	</container>
+</control_set>

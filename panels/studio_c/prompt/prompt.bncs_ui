@@ -1,0 +1,367 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="lblPresets" x="40" y="20" w="368" h="540">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text= Presets" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_dests" x="427" y="20" w="834" h="541">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Destinations" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_1" x="477" y="430" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=1" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_control" name="lblSources" x="40" y="580" w="1219" h="290">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Sources" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="sourceGrid" x="95" y="630" w="1106" h="215">
+			<setting value="columns=8" />
+			<setting value="rows=2" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="instance.map=rtr_stc_prompt" />
+			<setting value="notify.released=false" />
+			<setting value="notify.name=false" />
+			<setting value="notify.index=true" />
+			<setting value="buttonspacing.h=20" />
+			<setting value="buttonspacing.v=20" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="dest_6" x="477" y="260" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=6" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_control" name="lbl_others" x="476" y="60" w="181" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Others" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bg_title_fill.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_street" x="480" y="230" w="242" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Level 3 Cameras" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bg_title_fill.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_stc" x="476" y="400" w="181" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Studio C Cameras" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bg_title_fill.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_2" x="587" y="430" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=2" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_3" x="697" y="430" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=3" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_4" x="807" y="430" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=4" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_5" x="917" y="430" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=5" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_14" x="1115" y="430" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=14" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_16" x="1005" y="90" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=16" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_7" x="587" y="260" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=7" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_13" x="1115" y="90" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=13" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_11" x="1115" y="260" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=11" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_10" x="477" y="90" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=10" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_12" x="587" y="90" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=12" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_8" x="697" y="260" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=8" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_9" x="807" y="260" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=9" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="salvo1" x="60" y="50" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=PCR C, STUDIO C WITH WEATHER.|Prompt A to Cams 1-4, Mixer to Cam 5,|Prompt A to SCR." />
+			<setting value="salvo=stc_prompt_pcr_stc_with_weather" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_script_loader" name="salvo2" x="60" y="122" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=PCR C, STUDIO C, NO WEATHER.|Prompt A to Cams 1-4, Cam 5 unchanged,|Prompt A to SCR." />
+			<setting value="salvo=stc_prompt_pcr_stc_no_weather" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_script_loader" name="salvo3" x="60" y="194" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=NCR USING STUDIO C FLOOR.|Prompt B to Cams 1-4 and Sound Mon,|NCR Mix to Cam 5." />
+			<setting value="salvo=stc_prompt_ncr_stc" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_script_loader" name="salvo4" x="60" y="266" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=PCR C, THIRD FLOOR STREET.|Prompt A to CCUs 6-9,|Prompt A to SCR." />
+			<setting value="salvo=stc_prompt_pcr_street" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_script_loader" name="salvo5" x="60" y="338" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=NCR, THIRD FLOOR STREET.|Prompt B to CCUs 6-9,|Prompt B to NCR Sound Mon." />
+			<setting value="salvo=stc_prompt_ncr_street" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_script_loader" name="salvo6" x="60" y="410" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=PCR C, RIVERSIDE SPORT.|Prompt A to CCUs 11-14,|Prompt A to SCR." />
+			<setting value="salvo=stc_prompt_pcr_riverside" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_script_loader" name="salvo7" x="60" y="482" w="331" h="64">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/salvo" />
+			<setting value="label=NCR USING NEWSCAM.|Prompt B to News Cam and Sound Mon." />
+			<setting value="salvo=stc_prompt_ncr_ncam" />
+			<setting value="pixmap.active=" />
+			<setting value="pixmap.inactive=" />
+		</control>
+		<control class="bncs_control" name="lbl_riverside" x="1115" y="230" w="115" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Riverside" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bg_title_fill.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_monitors" x="890" y="60" w="181" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Monitors" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bg_title_fill.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_newsroom" x="1115" y="400" w="115" h="26">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Newsroom" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/bg_title_fill.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_15" x="890" y="90" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_prompt" />
+			<setting value="dest_index=15" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=default" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+	</connections>
+</control_set>

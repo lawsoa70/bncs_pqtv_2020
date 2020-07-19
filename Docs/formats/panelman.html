@@ -1,0 +1,50 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>File Format - panelman.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p class="title">Overview</p>
+<p>panelman.xml contains the settings for the PanelMan application</p>
+<p>The default settings are stored for the following parameters:</p>
+<p>Alarms - AlarmDevice, AlarmSlot and AlarmApp are used to configure the behaviour 
+  of the Alarm button</p>
+<p>Style - the default style to use for all applications</p>
+<p>KnobsDevice - the Knobs device ID for this system</p>
+<p>For each user an override can be specified. For example a different style may 
+  be used or the user may need to monitor a different alarm.</p>
+<p class="title">Sample Contents </p>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE users SYSTEM &quot;panelman.dtd&quot;&gt;
+&lt;panelman&gt;
+	&lt;user id=&quot;default&quot;/&gt;
+		&lt;setting name=&quot;AlarmDevice&quot; value=&quot;301&quot;/&gt;
+		&lt;setting name=&quot;AlarmSlot&quot; value=&quot;205&quot;/&gt;
+		&lt;setting name=&quot;AlarmApp&quot; value=&quot;almover&quot;/&gt;
+		&lt;setting name=&quot;Style&quot; value=&quot;bncs_style3&quot;/&gt;
+		&lt;setting name=&quot;KnobsDevice&quot; value=&quot;303&quot;/&gt;
+	&lt;/user&gt;
+	&lt;user id=&quot;chris&quot;&gt;
+		&lt;setting name=&quot;AlarmApp&quot; value=&quot;&quot;/&gt;
+	&lt;/user&gt;
+	&lt;user id=&quot;satops&quot;&gt;
+		&lt;setting name=&quot;AlarmDevice&quot; value=&quot;301&quot;/&gt;
+		&lt;setting name=&quot;AlarmSlot&quot; value=&quot;322&quot;/&gt;
+		&lt;setting name=&quot;AlarmApp&quot; value=&quot;almsat&quot;/&gt;
+	&lt;/user&gt;
+&lt;/panelman&gt;
+</pre>
+<p class="title">DTD</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+  &lt;!ELEMENT panelman (user+)&gt;
+
+&lt;!ELEMENT user (setting+)&gt;
+  &lt;!ATTLIST user name CDATA #REQUIRED&gt;
+  &lt;!ATTLIST user value CDATA #REQUIRED&gt;
+
+</pre>
+</body>

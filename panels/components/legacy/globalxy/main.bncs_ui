@@ -1,0 +1,254 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="2280" h="924" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="grpDestinations" x="780" y="20" w="480" h="830">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Destinations" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grpSources" x="20" y="20" w="480" h="830">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Sources" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none3" x="520" y="20" w="240" h="830">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="14" x="560" y="150" w="160" h="120">
+			<setting value="style=label" />
+			<setting value="stylesheet=takeBackground" />
+			<setting value="background=true" />
+		</control>
+		<control class="bncs_control" name="bg_numpad" x="530" y="480" w="220" h="290">
+			<setting value="style=label" />
+			<setting value="colour.background=black" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="numpad_1" x="540" y="490" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=1" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_2" x="610" y="490" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=2" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_3" x="680" y="490" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=3" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_4" x="540" y="560" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=4" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_5" x="610" y="560" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=5" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_6" x="680" y="560" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=6" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_7" x="540" y="630" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=7" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_8" x="610" y="630" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=8" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_9" x="680" y="630" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=9" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_0" x="610" y="700" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=0" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="numpad_clear" x="680" y="700" w="60" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=CLR" />
+		</control>
+		<control class="bncs_control" name="lblNumpad" x="610" y="440" w="130" h="30">
+			<setting value="style=label" />
+			<setting value="colour.text=black" />
+			<setting value="colour.background=white" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none8" x="560" y="440" w="50" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Index" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="numpad_dest" x="660" y="780" w="90" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=DEST|INDEX" />
+		</control>
+		<control class="bncs_control" name="sourceJump_2" x="30" y="170" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_3" x="30" y="230" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_4" x="30" y="290" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_5" x="30" y="350" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_6" x="30" y="410" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_7" x="30" y="470" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_8" x="30" y="530" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_9" x="30" y="590" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_10" x="30" y="650" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="lastSource" x="910" y="70" w="240" h="30">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none6" x="790" y="70" w="120" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Current Source" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="destNo" x="840" y="780" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="colour.background=white" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none5" x="790" y="780" w="50" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Index" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none4" x="130" y="780" w="50" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Index" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_listbox" name="dests" x="790" y="110" w="360" h="664">
+			<setting value="font.face=Arial" />
+			<setting value="font.style=bold " />
+			<setting value="font.size=18" />
+		</control>
+		<control class="bncs_control" name="numpad_source" x="530" y="780" w="90" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=SOURCE|INDEX" />
+		</control>
+		<control class="bncs_control" name="takeSource" x="560" y="110" w="160" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=take_preset" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="takeDest" x="560" y="270" w="160" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=take_preset" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="btnUndo" x="570" y="340" w="140" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=UNTAKE" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="btnUnlock" x="940" y="780" w="90" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=LOCK" />
+		</control>
+		<control class="bncs_control" name="btnToggleUnused" x="570" y="40" w="140" h="50">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=Show|Unused Ports" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="sortSource" x="30" y="50" w="90" h="50">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=ALPHA|SORT" />
+		</control>
+		<control class="bncs_control" name="sortDest" x="1160" y="50" w="90" h="50">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=ALPHA|SORT" />
+		</control>
+		<control class="bncs_control" name="sourceJump_11" x="30" y="710" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceJump_1" x="30" y="110" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="sourceNo" x="180" y="780" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="colour.background=white" />
+		</control>
+		<control class="bncs_control" name="destJump_1" x="1160" y="110" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_2" x="1160" y="170" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_3" x="1160" y="230" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_4" x="1160" y="290" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_5" x="1160" y="350" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_6" x="1160" y="410" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_7" x="1160" y="470" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_8" x="1160" y="530" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_9" x="1160" y="590" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_10" x="1160" y="650" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="destJump_11" x="1160" y="710" w="90" h="50">
+		</control>
+		<control class="bncs_control" name="btnTake" x="570" y="160" w="140" h="100">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=TAKE" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_listbox" name="sources" x="130" y="110" w="360" h="664">
+			<setting value="font.face=Arial" />
+			<setting value="font.style=bold " />
+			<setting value="font.size=18" />
+		</control>
+		<control class="bncs_control" name="renameDest" x="1160" y="780" w="90" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=RENAME" />
+		</control>
+		<control class="bncs_control" name="renameSource" x="30" y="780" w="90" h="60">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=RENAME" />
+		</control>
+		<control class="bncs_control" name="source_details" x="20" y="860" w="480" h="30">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="dest_details" x="780" y="860" w="480" h="30">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

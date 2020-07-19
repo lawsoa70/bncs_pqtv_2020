@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device_description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="cna_1_camera">
+	<param class="enum" access="readonly" style="button" name="status" slot="1" >
+		<state value="Available" caption="Available"/>
+		<state value="NotAvailable" caption="NotAvailable"/>		
+	</param>
+
+	<param name="rcps_list" class="string" style="label" slot="2" access="readonly">		
+	</param>	
+	
+	<param name="Master Black" msg="Master Black" class="range" style="button" subclass="integer" slot="3" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Black Red" msg="Black Red" class="range" style="button" subclass="integer" slot="4" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Black Green" msg="Black Green" class="range" style="button" subclass="integer" slot="5" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Black Blue" msg="Black Blue" class="range" style="button" subclass="integer" slot="6" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="White Red" msg="White Red" class="range" style="button" subclass="integer" slot="7" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="White Green" msg="White Green" class="range" style="button" subclass="integer" slot="8" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="White Blue" msg="White Blue" class="range" style="button" subclass="integer" slot="9" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Saturation" msg="Saturation" class="range" style="button" subclass="integer" slot="10" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Detail" msg="Detail" class="range" style="button" subclass="integer" slot="11" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Master Knee" msg="Master Knee" class="range" style="button" subclass="integer" slot="12" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Master Gamma" msg="Master Gamma" class="range" style="button" subclass="integer" slot="13" slotWithOffset="0" access="readwrite">
+		<values min="-99" max="99" defaultvalue="0" step="1" units="db" value="0"/>
+		<display inoffset="0" units="ln" outoffset="0" dp="" multiplier="1" />
+	</param>
+	
+	<param name="Iris" msg="Iris" class="range" style="button" subclass="float" slot="14" slotWithOffset="0" access="readwrite">
+		<values min="1.8" max="22.5" defaultvalue="0" step="0.1" units="db" value="0" bigstep="1"/>
+		<display inoffset="0" units="" outoffset="0" dp="1" multiplier="1" />
+	</param>
+	
+	<param class="enum" access="writeonly" style="button" name="Auto White Balance" slot="15" >
+        <state caption="Start" value="1" style="" msg="Start" />
+        <state caption="Idle" value="0" style="" msg="Idle" />
+	</param>
+	
+	<param class="enum" access="writeonly" style="button" name="Auto Black Balance" slot="16" >
+        <state caption="Start" value="1" style="" msg="Start" />
+        <state caption="Idle" value="0" style="" msg="Idle" />
+	</param>
+	
+	<param name="Shutter" msg="Shutter" class="enum" style="button" slot="17" access="readwrite">
+		<state value="0" caption="1/60"/>
+		<state value="1" caption="1/100"/>
+		<state value="2" caption="1/125"/>
+		<state value="3" caption="1/250"/>
+		<state value="4" caption="1/500"/>
+		<state value="5" caption="1/1000"/>
+		<state value="6" caption="1/2000"/>
+		<state value="7" caption="1/3000"/>
+		<state value="8" caption="1/4000"/>
+		<state value="9" caption="1/5000"/>
+		<state value="10" caption="1/10000"/>
+		<state value="11" caption="1/32"/>
+		<state value="12" caption="1/33"/>
+		<state value="13" caption="1/40"/>
+		<state value="14" caption="1/48"/>
+		<state value="15" caption="1/50"/>
+		<state value="16" caption="1/96"/>
+		<state value="17" caption="1/120"/>		
+	</param>
+	
+	<param name="Scene recall" msg="Shutter" class="enum" style="button" slot="18" access="readwrite">		
+		<state value="1" caption="Scene 1"/>
+		<state value="2" caption="Scene 2"/>
+		<state value="3" caption="Scene 3"/>
+		<state value="4" caption="Scene 4"/>
+		<state value="5" caption="Scene 5"/>		
+	</param>
+	
+	<param name="Scene store" msg="Shutter" class="enum" style="button" slot="19" access="readwrite">		
+		<state value="1" caption="Scene 1"/>
+		<state value="2" caption="Scene 2"/>
+		<state value="3" caption="Scene 3"/>
+		<state value="4" caption="Scene 4"/>
+		<state value="5" caption="Scene 5"/>		
+	</param>
+	
+	<param name="Chu Optical Level" class="string" style="label" slot="20" access="readonly">		
+	</param>
+	
+	<param name="CCU Optical Level" class="string" style="label" slot="21" access="readonly">		
+	</param>
+</device_description>

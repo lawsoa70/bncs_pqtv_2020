@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Automatically Generated Configuration-->
+<!--Exported from C:\Users\princar0\Dropbox\Steve and Andrew\PQTV_2016\PQTV_2016_SY03_Config_Model.xlsm-->
+<salvoes>
+	<salvo id="stc_aux_bus_to_proj" instance="rtr_stc_sdi">
+		<item source="81" dest="102" />
+		<item source="82" dest="103" />
+		<item source="83" dest="104" />
+	</salvo>
+	<salvo id="stc_ncr_rep_to_proj" instance="rtr_stc_sdi">
+		<item source="111" dest="102" />
+		<item source="96" dest="103" />
+	</salvo>
+	<salvo id="stc_restore_breakfast" instance="rtr_stc_sdi">
+		<item source="97" dest="102" />
+		<item source="98" dest="103" />
+		<item source="107" dest="104" />
+		<item source="3" dest="100" />
+		<item source="80" dest="101" />
+		<item source="112" dest="95" />
+		<item source="4" dest="96" />
+		<item source="94" dest="97" />
+		<item source="63" dest="98" />
+	</salvo>
+	<salvo id="stc_restore_stc_mons" instance="rtr_stc_sdi">
+		<item source="3" dest="100" />
+		<item source="70" dest="101" />
+		<item source="112" dest="95" />
+		<item source="26" dest="96" />
+		<item source="68" dest="97" />
+		<item source="31" dest="98" />
+	</salvo>
+	<salvo id="sta_default_cf_to_comms" instance="rtr_sta_nexus">
+		<item source="2235" dest="149" />
+		<item source="2236" dest="150" />
+		<item source="2237" dest="151" />
+		<item source="2238" dest="152" />
+		<item source="2239" dest="153" />
+		<item source="2240" dest="154" />
+		<item source="2241" dest="155" />
+		<item source="2242" dest="156" />
+		<item source="2243" dest="157" />
+		<item source="2244" dest="158" />
+		<item source="2245" dest="159" />
+		<item source="2246" dest="160" />
+	</salvo>
+	<salvo id="sta_default_os_listen_mono_conv" instance="rtr_sta_nexus">
+		<item source="701" dest="1333" />
+		<item source="717" dest="1335" />
+		<item source="733" dest="1337" />
+		<item source="749" dest="1339" />
+		<item source="765" dest="1341" />
+		<item source="781" dest="1343" />
+		<item source="797" dest="1345" />
+		<item source="813" dest="1347" />
+		<item source="149" dest="1349" />
+		<item source="151" dest="1351" />
+		<item source="153" dest="1353" />
+		<item source="155" dest="1355" />
+		<item source="702" dest="1334" />
+		<item source="718" dest="1336" />
+		<item source="734" dest="1338" />
+		<item source="750" dest="1340" />
+		<item source="766" dest="1342" />
+		<item source="782" dest="1344" />
+		<item source="798" dest="1346" />
+		<item source="814" dest="1348" />
+		<item source="150" dest="1350" />
+		<item source="152" dest="1352" />
+		<item source="154" dest="1354" />
+		<item source="156" dest="1356" />
+	</salvo>
+	<salvo id="sta_default_mono_os_listen_to_comms" instance="rtr_sta_nexus">
+		<item source="1333" dest="101" />
+		<item source="1334" dest="102" />
+		<item source="1335" dest="103" />
+		<item source="1336" dest="104" />
+		<item source="1337" dest="105" />
+		<item source="1338" dest="106" />
+		<item source="1339" dest="107" />
+		<item source="1340" dest="108" />
+		<item source="1341" dest="109" />
+		<item source="1342" dest="110" />
+		<item source="1343" dest="111" />
+		<item source="1344" dest="112" />
+	</salvo>
+	<salvo id="stc_cam3_cam5" instance="rtr_stc_sdi">
+		<item source="3" dest="76" />
+		<item source="5" dest="77" />
+	</salvo>
+	<salvo id="stc_rep4_rep5" instance="rtr_stc_sdi">
+		<item source="110" dest="76" />
+		<item source="111" dest="77" />
+	</salvo>
+	<salvo id="stc_default_cf_to_comms" instance="rtr_stc_nexus">
+		<item source="1535" dest="149" />
+		<item source="1536" dest="150" />
+		<item source="1537" dest="151" />
+		<item source="1538" dest="152" />
+		<item source="1539" dest="153" />
+		<item source="1540" dest="154" />
+		<item source="1541" dest="155" />
+		<item source="1542" dest="156" />
+		<item source="1543" dest="157" />
+		<item source="1544" dest="158" />
+		<item source="1545" dest="159" />
+		<item source="1546" dest="160" />
+	</salvo>
+	<salvo id="stc_default_os_listen_mono_conv" instance="rtr_stc_nexus">
+		<item source="701" dest="1333" />
+		<item source="717" dest="1335" />
+		<item source="733" dest="1337" />
+		<item source="749" dest="1339" />
+		<item source="765" dest="1341" />
+		<item source="781" dest="1343" />
+		<item source="797" dest="1345" />
+		<item source="813" dest="1347" />
+		<item source="149" dest="1349" />
+		<item source="151" dest="1351" />
+		<item source="153" dest="1353" />
+		<item source="155" dest="1355" />
+		<item source="702" dest="1334" />
+		<item source="718" dest="1336" />
+		<item source="734" dest="1338" />
+		<item source="750" dest="1340" />
+		<item source="766" dest="1342" />
+		<item source="782" dest="1344" />
+		<item source="798" dest="1346" />
+		<item source="814" dest="1348" />
+		<item source="150" dest="1350" />
+		<item source="152" dest="1352" />
+		<item source="154" dest="1354" />
+		<item source="156" dest="1356" />
+	</salvo>
+	<salvo id="stc_default_mono_os_listen_to_comms" instance="rtr_stc_nexus">
+		<item source="1333" dest="101" />
+		<item source="1334" dest="102" />
+		<item source="1335" dest="103" />
+		<item source="1336" dest="104" />
+		<item source="1337" dest="105" />
+		<item source="1338" dest="106" />
+		<item source="1339" dest="107" />
+		<item source="1340" dest="108" />
+		<item source="1341" dest="109" />
+		<item source="1342" dest="110" />
+		<item source="1343" dest="111" />
+		<item source="1344" dest="112" />
+	</salvo>
+	<salvo id="stc_weather" instance="rtr_stc_sdi">
+		<item source="4" dest="76" />
+		<item source="111" dest="77" />
+	</salvo>
+	<salvo id="stc_bulletin_read" instance="rtr_stc_sdi">
+		<item source="127" dest="85" />
+		<item source="80" dest="86" />
+		<item source="173" dest="87" />
+		<item source="190" dest="88" />
+		<item source="117" dest="105" />
+		<item source="173" dest="106" />
+		<item source="148" dest="107" />
+	</salvo>
+	<salvo id="stc_contribution" instance="rtr_stc_sdi">
+		<item source="127" dest="85" />
+		<item source="70" dest="86" />
+		<item source="126" dest="87" />
+		<item source="45" dest="88" />
+		<item source="117" dest="105" />
+		<item source="127" dest="106" />
+		<item source="45" dest="107" />
+	</salvo>
+	<salvo id="stc_anla" instance="rtr_stc_sdi">
+		<item source="127" dest="85" />
+		<item source="70" dest="86" />
+		<item source="126" dest="87" />
+		<item source="128" dest="88" />
+		<item source="117" dest="105" />
+		<item source="127" dest="106" />
+		<item source="128" dest="107" />
+	</salvo>
+	<salvo id="stc_remote" instance="rtr_stc_sdi">
+		<item source="127" dest="85" />
+		<item source="128" dest="86" />
+		<item source="126" dest="87" />
+		<item source="80" dest="88" />
+		<item source="117" dest="105" />
+		<item source="127" dest="106" />
+		<item source="128" dest="107" />
+	</salvo>
+	<salvo id="stc_aux_bus_to_plasmas" instance="rtr_stc_sdi">
+		<item source="81" dest="45" />
+		<item source="82" dest="46" />
+		<item source="83" dest="47" />
+		<item source="84" dest="48" />
+		<item source="85" dest="93" />
+		<item source="86" dest="94" />
+		<item source="87" dest="95" />
+		<item source="88" dest="96" />
+		<item source="89" dest="97" />
+		<item source="90" dest="98" />
+	</salvo>
+	<salvo id="ncr_aux_bus_to_plasmas" instance="rtr_stc_sdi">
+		<item source="158" dest="45" />
+		<item source="159" dest="46" />
+		<item source="160" dest="47" />
+		<item source="161" dest="48" />
+		<item source="162" dest="93" />
+		<item source="163" dest="94" />
+		<item source="164" dest="95" />
+		<item source="165" dest="96" />
+		<item source="166" dest="97" />
+		<item source="167" dest="98" />
+	</salvo>
+	<salvo id="stc_rep_shuffler_default" instance="rtr_stc_sdi">
+		<item source="21" dest="71" />
+		<item source="22" dest="72" />
+		<item source="23" dest="73" />
+		<item source="24" dest="74" />
+	</salvo>
+	
+	<!-- STUDIO C PROMPT SALVOS -->
+	<salvo id="stc_prompt_pcr_stc_with_weather" instance="rtr_stc_prompt">
+		<item source="1" dest="1" /> <!-- Prompt A to CCUs 1-4 -->
+		<item source="1" dest="2" />
+		<item source="1" dest="3" />
+		<item source="1" dest="4" />
+		<item source="5" dest="5" /> <!-- Mix to CCU 5 -->
+		<item source="1" dest="15" /> <!-- Prompt A to SCR -->
+	</salvo>
+	<salvo id="stc_prompt_pcr_stc_no_weather" instance="rtr_stc_prompt">
+		<item source="1" dest="1" /> <!-- Prompt A to CCUs 1-4 -->
+		<item source="1" dest="2" />
+		<item source="1" dest="3" />
+		<item source="1" dest="4" />
+		<item source="1" dest="15" /> <!-- Prompt A to SCR -->
+	</salvo>
+	<salvo id="stc_prompt_pcr_street" instance="rtr_stc_prompt">
+		<item source="1" dest="6" /> <!-- Prompt A to CCUs 6-9 -->
+		<item source="1" dest="7" />
+		<item source="1" dest="8" />
+		<item source="1" dest="9" />
+		<item source="1" dest="15" /> <!-- Prompt A to SCR -->
+	</salvo>
+	<salvo id="stc_prompt_ncr_street" instance="rtr_stc_prompt">
+		<item source="2" dest="6" /> <!-- Prompt B to CCUs 6-9 -->
+		<item source="2" dest="7" />
+		<item source="2" dest="8" />
+		<item source="2" dest="9" />
+		<item source="2" dest="13" /> <!-- Prompt B to NCR Sound Mon -->
+	</salvo>
+	<salvo id="stc_prompt_pcr_riverside" instance="rtr_stc_prompt">
+		<item source="1" dest="11" /> <!-- Prompt A to CCUs 11-14 -->
+		<item source="1" dest="15" /> <!-- Prompt A to SCR -->
+	</salvo>
+	<salvo id="stc_prompt_anla_spors" instance="rtr_stc_prompt">
+		<item source="3" dest="14" /> <!-- Prompt IV to Newscam -->
+	</salvo>
+	<salvo id="stc_prompt_ncr_stc" instance="rtr_stc_prompt">
+		<item source="2" dest="1" /> <!-- Prompt B to CCUs 1-4 -->
+		<item source="2" dest="2" />
+		<item source="2" dest="3" />
+		<item source="2" dest="4" />
+		<item source="6" dest="5" /> <!-- NCR Mix to Cam 5 -->
+		<item source="2" dest="13" /> <!-- Prompt B to NCR Sound Mon -->
+	</salvo>
+	<salvo id="stc_prompt_ncr_ncam" instance="rtr_stc_prompt">
+		<item source="2" dest="14" /> <!-- Prompt B to Newscam -->
+		<item source="2" dest="13" /> <!-- Prompt B to Sound Mon -->
+	</salvo>
+	<!-- Kahuna Channel Salvos -->
+	<salvo id="ncr_channels_stc" instance="rtr_stc_sdi">
+		<item source="129" dest="225" />
+		<item source="130" dest="226" />
+		<item source="131" dest="227" />
+		<item source="132" dest="228" />
+		<item source="133" dest="229" />
+		<item source="126" dest="230" />
+	</salvo>
+	<salvo id="ncr_channels_level_3" instance="rtr_stc_sdi">
+		<item source="134" dest="225" />
+		<item source="135" dest="226" />
+		<item source="136" dest="227" />
+		<item source="137" dest="228" />
+		<item source="126" dest="229" />
+		<item source="126" dest="230" />
+	</salvo>
+	
+</salvoes>
+

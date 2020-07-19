@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device_description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="cna_1">	
+	<param name="Comms" slot="1" access="readonly" style="label" class="enum" description="CNA-1 Comms">
+		<state value="0" caption="Fail" style="label" msg="" />
+		<state value="1" caption="OK" style="label" msg="" />
+	</param>
+	
+	<param name="Active CNA-1" slot="2" access="readonly" style="label" class="string" description="Active CNA-1 Device No">		
+	</param>
+</device_description>

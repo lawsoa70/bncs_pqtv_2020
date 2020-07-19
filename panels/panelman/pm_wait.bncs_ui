@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="caption" type="widget" name="Visual Editor Dialog" x="0" y="0" w="245" h="89">
+		<control class="bncs_control" name="1" x="4" y="6" w="236" h="78">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#ffffff" />
+			<setting value="font.face=arial bold" />
+			<setting value="font.size=20" />
+			<setting value="text=Loading..." />
+		</control>
+	</container>
+</control_set>

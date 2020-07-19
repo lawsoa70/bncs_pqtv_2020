@@ -1,0 +1,40 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="550" h="740" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="0" y="0" w="550" h="740">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_listbox" name="list" x="0" y="0" w="550" h="665">
+			<setting value="stylesheet=listbox_default" />
+		</control>
+		<control class="bncs_control" name="selectNone" x="0" y="690" w="60" h="40">
+			<setting value="colour.background=#1bff13" />
+			<setting value="text=Select|None" />
+		</control>
+		<control class="bncs_control" name="sort" x="230" y="690" w="80" h="40">
+			<setting value="text=Sort" />
+		</control>
+		<control class="bncs_control" name="btnToggleUnused" x="80" y="690" w="130" h="40">
+			<setting value="text=Show | Unused Ports" />
+		</control>
+		<control class="bncs_control" name="btnSearch" x="350" y="680" w="60" h="60">
+			<setting value="pixmapalign=centre" />
+			<setting value="led.align=topleft" />
+			<setting value="pixmap=icon_preview.png" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="search_criteria" x="410" y="700" w="140" h="40">
+			<setting value="style=label" />
+			<setting value="textalign=left" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblSearchCriteria" x="410" y="680" w="140" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=  Search Criteria" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

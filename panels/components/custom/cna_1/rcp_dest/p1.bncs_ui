@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="160" h="302" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="btn_dest" x="0" y="22" w="159" h="76">
+			<setting value="colour.text=black" />
+			<setting value="text=text" />
+			<setting value="pixmapstretch=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl_available" x="0" y="0" w="159" h="21">
+			<setting value="style=label" />
+			<setting value="text=RCP Unvailable" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="comp_ccu" x="0" y="97" w="160" h="204">
+			<setting value="scriptname=/components/custom/cna_1/ccu_in_rcp" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,45 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="70" y="193" w="1115" h="311">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="Label1" x="560" y="210" w="148" h="30">
+			<setting value="style=label" />
+			<setting value="text=VAA Audio" />
+		</control>
+		<control class="bncs_script_loader" name="dest_3" x="560" y="250" w="150" h="130">
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V_w150_h130" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=true" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=161" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="70" y="560" w="1115" h="310">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_source_grid" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="layout=40x15_wide" />
+			<setting value="page_offset=0" />
+		</control>
+		<control class="bncs_control" name="Label3" x="410" y="400" w="454" h="87">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="pixmap=\images\amu2_2mhd.png" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="take..M-LR=[value]" name="Send source to dest 1 Mono &gt; Left Right"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="take..=[value]" name="Send source to dest 1"/>
+		<connection sender="dest_*" receiver="dest_*" event="global_dest=*" command="selected=[value]" name="Deselect other dest when this is selected"/>
+	</connections>
+</control_set>

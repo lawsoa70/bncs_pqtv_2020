@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="220" h="160" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="220" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="pixmap=/images/hdw-2000.png" />
+		</control>
+		<control class="bncs_control" name="lblTally" x="0" y="120" w="220" h="40">
+			<setting value="stylesheet=umd_large" />
+		</control>
+	</container>
+</control_set>

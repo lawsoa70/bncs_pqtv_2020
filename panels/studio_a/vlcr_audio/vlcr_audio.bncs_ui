@@ -1,0 +1,49 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="10" y="140" w="1260" h="320">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=VLCR Audio" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="10" y="480" w="1260" h="320">
+			<setting value="scriptname=/components/legacy/audio_source_grid" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="layout=40x15_wide" />
+			<setting value="page_offset=0" />
+		</control>
+		<control class="bncs_script_loader" name="dest_07" x="980" y="170" w="120" h="90">
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_sta_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_sta_nexus_lock" />
+			<setting value="initially_selected=true" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=1413" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="default_audio" x="260" y="180" w="129" h="90">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/router_shortcuts" />
+			<setting value="layout=one" />
+			<setting value="background_colour=#9a9a9a" />
+			<setting value="source_index_1=2219" />
+			<setting value="source_alias_1=Prog|Sound" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="take..M-LR=[value]" name="Route Audio"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="take..=[value]" name="Send SDI index to sest and make router"/>
+		<connection sender="dest_*" receiver="dest_*" event="global_dest=*" command="selected=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="dest_*" receiver="lock" event="global_dest=*" command="index=[value]" name="send dest index to lock button"/>
+		<connection sender="default_audio" receiver="dest_*" event="index=*" command="take..M-LR=[value]" name=""/>
+		<connection sender="default_audio" receiver="dest_*" event="index=*" command="take..=[value]" name=""/>
+		<connection sender="sourceGrid" receiver="default_audio" event="index=*" command="deselect" name=""/>
+		<connection sender="default_audio" receiver="sourceGrid" event="index=*" command="index=[value]" name=""/>
+	</connections>
+</control_set>

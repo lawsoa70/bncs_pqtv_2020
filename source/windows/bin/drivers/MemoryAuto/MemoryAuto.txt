@@ -1,0 +1,103 @@
+========================================================================
+      BNCS DRIVER APPLICATION : MemoryAuto
+========================================================================
+
+This is the information file for the BNCS Project MemoryAuto which the BNCS Driver AppWizard
+has created for you.
+
+The project may require the pre-installation of some of the libraries and header files pertaining
+to the serial port class, network client class, external infodriver class, CSI connection classes,
+external grd class:
+
+extinfo.lib	[extinfodb.lib] <extinfo.h>
+csicln.lib [csiclndb.lib] <csiclient.h>
+
+and also the standard BNCS header files:
+
+<bbc_mxc.h>   <bncs.h>	<bncs32.h>	<bncsdef.h>
+
+This text file contains a summary of what you will find in each of the files that
+make up your MemoryAuto application.
+
+////////////
+main.cpp 
+////////////
+	This contains the shell Win32 application for a BNCS Infodriver external driver
+	Functions within this application set up the following standard .ini file settings:
+			debug flag for on-screen diagnostics
+
+You can use the (global) function void Debug(LPCSTR szFmt, ...) to print to the debug window.
+
+////////////////////
+MemoryAuto.cpp 
+////////////////////
+	Callback functions are provided in this .cpp file:
+
+	For infodriver events:
+		void InfoNotify(extinfo* pex,UINT iSlot,LPCSTR szSlot);
+		
+		If the connection is valid, this function calls:
+
+		BOOL SlotChange(UINT iDevice,UINT iSlot, LPCSTR szSlot);
+
+		You should insert code here pertaining to the processing of slot change messages.
+		There is some example code already present, which can be used/removed as required.
+
+	The other library functions are described in the documentation for the respective classes.
+
+////////////////////
+MemoryAuto_x.cpp 
+////////////////////
+	Sample extra .cpp file for additional driver-specific functions
+	If you don't need it, delete it.
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+MemoryAuto.dsp
+    This file (the project file) contains information at the project level and
+    is used to build a single project or subproject. Other users can share the
+    project (.dsp) file, but they should export the makefiles locally.
+
+MemoryAuto.dsw
+	This file is the workspace file and it references the project file.
+	
+/////////////////////////////////////////////////////////////////////////////
+BNCS Driver Wizard has created the following resources:
+
+MemoryAuto.rc
+    This is a listing of all of the Windows resources that the program uses.
+	It includes the icons, bitmaps, etc. This file can be directly edited in 
+	Visual C++. It contains	VERSIONINFO data with the author name supplied 
+	during the creation of this project. The author name is also inserted 
+	into the ABOUT dialog.
+
+MemoryAuto.ico
+    This is an icon file, which is used as the application's icon (32x32).
+    This icon is included by the main resource file MemoryAuto.rc.
+
+small.ico
+    This is an icon file, which contains a smaller version (16x16)
+	of the application's icon. This icon is included by the main resource
+	file MemoryAuto.rc.
+
+/////////////////////////////////////////////////////////////////////////////
+Other standard files:
+
+StdAfx.h, StdAfx.cpp
+    These files are used to build a precompiled header (PCH) file
+    named MemoryAuto.pch and a precompiled types file named StdAfx.obj.
+
+MemoryAuto.h
+	This file is the header file for the application, containing function 
+	prototypes, and macro definitions, constant #defines etc.
+	Place all global variables and global function prototypes here.
+
+Resource.h
+    This is the standard header file, which defines new resource IDs.
+    Microsoft Visual C++ reads and updates this file.
+
+/////////////////////////////////////////////////////////////////////////////
+Other notes:
+
+Please contact Tim Alden x60586 (tim.alden@bbc.co.uk) with comments about this AppWizard

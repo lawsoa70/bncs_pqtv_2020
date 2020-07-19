@@ -1,0 +1,35 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="50" y="0" w="1230" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="lbl_layouts1" x="10" y="10" w="198" h="410">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Multiviewer" />
+		</control>
+		<control class="bncs_control" name="lbl_layouts" x="960" y="10" w="262" h="535">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Layout" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="10" y="560" w="1119" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="multiviewer" x="220" y="10" w="730" h="400">
+			<setting value="scriptname=/components/custom/multiviewer" />
+			<setting value="layout=12_way" />
+		</control>
+		<control class="bncs_listbox" name="list_mv" x="20" y="40" w="175" h="362">
+			<setting value="font.face=arial" />
+			<setting value="font.style=bold " />
+			<setting value="font.size=16" />
+		</control>
+		<control class="bncs_script_loader" name="memory" x="12" y="440" w="100" h="100">
+			<setting value="scriptname=/components/custom/multiviewer/router_salvo_multiviewer" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="multiviewer" event="route_source=*" command="select=[value]" name="Send source,dest to destinations"/>
+		<connection sender="sourceGrid" receiver="multiviewer" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+	</connections>
+</control_set>

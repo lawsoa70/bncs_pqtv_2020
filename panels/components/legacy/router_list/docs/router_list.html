@@ -1,0 +1,123 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Take Component</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="siemens.css">
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="639" height="91" bgcolor="#A0B6C0">
+		<img border="0" src="header.jpg" width="638" height="91"></td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="50">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+					<h1>Router List Component</h1>
+					<p>This is a simple control to show a list of router names. 
+					This was designed for use on simple XY panels or mapping 
+					applications.</p>
+					<p>The first column is always an index value calculated from 
+					route name with optional offset applied.</p>
+					<p>
+					<img border="0" src="router1.jpg" width="185" height="370"></p>
+					<p>
+					It is database change aware so that the list is updated when 
+					a name changes on the network.</p>
+					<h2>Commands</h2>
+					<blockquote>
+						<table border="0" id="table3">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>instance</td>
+								<td>Instance of the device to take router names 
+								from</td>
+							</tr>
+							<tr class="tock">
+								<td>database</td>
+								<td>the router database number</td>
+							</tr>
+							<tr class="tick">
+								<td>panel</td>
+								<td>the &quot;.bncs_ui&quot; file to use. The extension is 
+								added by the component and should not be 
+								supplied as a parameter</td>
+							</tr>
+							<tr class="tock">
+								<td>range</td>
+								<td>This has two forms: &quot;all&quot; uses the database 
+								size to work out the maximum number of names to 
+								load.<br>
+								The second form is &lt;min&gt;-&lt;max&gt; for example to 
+								load names 10 to 20 you'd use &quot;10-20&quot;</td>
+							</tr>
+							<tr class="tick">
+								<td>selected</td>
+								<td>Values are &quot;next&quot;, &quot;previous&quot; or &quot;none&quot;</td>
+							</tr>
+							<tr class="tock">
+								<td>offset</td>
+								<td>Value to add to the displayed index and 
+								index returned by the notification.<br>
+								e.g.<br>
+&nbsp;with range of 2501-2548 and offset of -2500 the displayed index starts at 
+								1. The notifications also start at 1</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Notifications</h2>
+					<blockquote>
+						<table border="0" id="table4">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>index=&lt;router index&gt;</td>
+								<td>The selected router index or 0 if nothing is 
+								selected</td>
+							</tr>
+							</table>
+					</blockquote>
+					<h2>Stylesheets</h2>
+					<blockquote>
+						<table border="0" id="table5">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tock">
+								<td>groupbox</td>
+								<td>background to the control</td>
+							</tr>
+						</table>
+					</blockquote>
+					<!-- #EndEditable --></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright Siemens IT Solutions and Services Ltd. 2010</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
+  

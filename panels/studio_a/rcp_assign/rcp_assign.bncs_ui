@@ -1,0 +1,134 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1024" showTestDialog="0">
+		<control class="bncs_control" name="Label1" x="10" y="400" w="1106" h="395">
+			<setting value="style=label" />
+			<setting value="colour.text=White" />
+			<setting value="textalign=topleft" />
+			<setting value="text=RCPs" />
+		</control>
+		<control class="bncs_control" name="Label" x="10" y="26" w="1106" h="360">
+			<setting value="style=label" />
+			<setting value="colour.text=White" />
+			<setting value="textalign=topleft" />
+			<setting value="text=RCPs" />
+		</control>
+		<control class="bncs_script_loader" name="rcp_01" x="20" y="50" w="160" h="302">
+			<setting value="scriptname=/components/custom/cna_1/rcp_dest" />
+			<setting value="instance=cna_1/rcp/07" />
+		</control>
+		<control class="bncs_script_loader" name="rcp_02" x="185" y="50" w="160" h="302">
+			<setting value="scriptname=/components/custom/cna_1/rcp_dest" />
+			<setting value="instance=cna_1/rcp/08" />
+		</control>
+		<control class="bncs_script_loader" name="rcp_03" x="350" y="50" w="160" h="302">
+			<setting value="scriptname=/components/custom/cna_1/rcp_dest" />
+			<setting value="instance=cna_1/rcp/09" />
+		</control>
+		<control class="bncs_script_loader" name="rcp_04" x="515" y="50" w="160" h="302">
+			<setting value="scriptname=/components/custom/cna_1/rcp_dest" />
+			<setting value="instance=cna_1/rcp/10" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_01" x="34" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/01" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_02" x="134" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/02" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_03" x="234" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/03" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_04" x="334" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/04" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_06" x="34" y="607" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/06" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_07" x="134" y="607" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/07" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_09" x="334" y="607" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/09" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_08" x="234" y="607" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/08" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_05" x="434" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/05" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_11" x="551" y="609" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/11" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_12" x="651" y="609" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/12" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_14" x="851" y="609" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/14" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_13" x="751" y="609" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/13" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_15" x="601" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/15" />
+		</control>
+		<control class="bncs_control" name="1" x="890" y="810" w="100" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=Active CNA-1" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_smart_string" name="2" x="890" y="830" w="100" h="48">
+			<setting value="style=label" />
+			<setting value="name=Active CNA-1" />
+			<setting value="parameter=Active CNA-1" />
+			<setting value="instance=cna_1" />
+		</control>
+		<control class="bncs_control" name="3" x="1015" y="810" w="100" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabel" />
+			<setting value="text=Comms" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_enum" name="4" x="1015" y="830" w="100" h="48">
+			<setting value="style=label" />
+			<setting value="name=Comms" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=Comms" />
+			<setting value="instance=cna_1" />
+			<setting value="state.1.caption=Fail" />
+			<setting value="state.1.value=0" />
+			<setting value="state.1.style=label" />
+			<setting value="state.1.enabled=false" />
+			<setting value="state.2.caption=OK" />
+			<setting value="state.2.value=1" />
+			<setting value="state.2.style=label" />
+			<setting value="state.2.enabled=false" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_16" x="700" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/16" />
+		</control>
+		<control class="bncs_script_loader" name="ccu_10" x="860" y="430" w="99" h="140">
+			<setting value="scriptname=/components/custom/cna_1/ccu_source" />
+			<setting value="instance=cna_1/cam/10" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="rcp_*" receiver="rcp_*" event="selected_rcp=*" command="select=[value]" name=""/>
+		<connection sender="ccu_*" receiver="rcp_*" event="selected_ccu=*" command="route_ccu=[value]" name=""/>
+	</connections>
+</control_set>

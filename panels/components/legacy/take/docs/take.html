@@ -1,0 +1,133 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Take Component</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="siemens.css">
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="639" height="91" bgcolor="#A0B6C0">
+		<img border="0" src="header.jpg" width="638" height="91"></td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="50">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+					<h1>Take Component</h1>
+					<p>This is a simple control to show take sources and 
+					destinations and provide take and undo events for another 
+					component to make routes. It doesn't make any routes itself.</p>
+					<p>There is &quot;lock&quot; inhibit - which disables the lock button 
+					when the destination is locked. Lock is simply a 0 or 1 in a 
+					slot directly corresponding to the destination number. When 
+					targeted with instance and index this control goes off and 
+					polls for the lock state.</p>
+					<p>Undo is only available immediately after pressing the 
+					take button and disables when the next index value is set.</p>
+					<h2>Commands</h2>
+					<blockquote>
+						<table border="0" id="table3">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>instance</td>
+								<td>Instance of the device to take router names 
+								from</td>
+							</tr>
+							<tr class="tock">
+								<td>dest</td>
+								<td>The destination index - this is used to put 
+								the router dest name in the pre-select label</td>
+							</tr>
+							<tr class="tick">
+								<td>source</td>
+								<td>The source index - this is used to put the 
+								router source name in the pre-select label</td>
+							</tr>
+							<tr class="tock">
+								<td>lock_instance</td>
+								<td>The instance of the device to get lock 
+								information from</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Notifications</h2>
+					<blockquote>
+						<table border="0" id="table4">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>take.&lt;dest_index&gt;=&lt;source_index&gt;</td>
+								<td>when the take button is pressed</td>
+							</tr>
+							<tr class="tock">
+								<td>undo</td>
+								<td>when the undo button is pressed</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Stylesheets</h2>
+					<blockquote>
+						<table border="0" id="table2">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>dest_selected</td>
+								<td>Shown on the dest pre-select tally when the 
+								destination is set</td>
+							</tr>
+							<tr class="tock">
+								<td>dest_deselected</td>
+								<td>When the destination is not set</td>
+							</tr>
+							<tr class="tick">
+								<td>source_selected</td>
+								<td>Shown on the source pre-select tally when 
+								the source is set</td>
+							</tr>
+							<tr class="tock">
+								<td>source_deselected</td>
+								<td>When the source is not set</td>
+							</tr>
+							<tr class="tick">
+								<td>takeBackground</td>
+								<td>Background to the take button</td>
+							</tr>
+							<tr class="tock">
+								<td>groupbox</td>
+								<td>background to the control</td>
+							</tr>
+						</table>
+					</blockquote>
+					<p>&nbsp;<!-- #EndEditable --></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright Siemens IT Solutions and Services Ltd. 2010</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
+  

@@ -1,0 +1,42 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1115" h="310" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="none2" x="790" y="0" w="325" h="310">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=NCR Source Pages" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none" x="0" y="0" w="780" h="310">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Sources" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="sourceGrid" x="10" y="30" w="750" h="260">
+			<setting value="columns=8" />
+			<setting value="rows=4" />
+			<setting value="page=0" />
+			<setting value="notify.released=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="sourcePage" x="810" y="30" w="290" h="260">
+			<setting value="columns=3" />
+			<setting value="rows=5" />
+			<setting value="namesdb=8" />
+			<setting value="page=2" />
+			<setting value="mapoffset=2000" />
+			<setting value="namesoffset=2500" />
+			<setting value="notify.name=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.selected=sourcepage_selected" />
+			<setting value="stylesheet.deselected=sourcepage_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourcePage" receiver="sourceGrid" event="index=*" command="page=[value]" name="Select Page"/>
+		<connection sender="sourceGroup" receiver="sourcePage" event="index=*" command="page=[value]" name="Select Group"/>
+	</connections>
+</control_set>

@@ -1,0 +1,17 @@
+[Database_2]
+0001=Prompt A
+0002=Prompt B
+0003=Inverness Prompt
+0004=Black
+0005=STC Mixer Out
+0006=BCR Iso
+0007=Countdown Clock
+0008=N_U_0008
+0009=N_U_0009
+0010=N_U_0010
+0011=N_U_0011
+0012=N_U_0012
+0013=N_U_0013
+0014=N_U_0014
+0015=N_U_0015
+0016=N_U_0016

@@ -1,0 +1,111 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="957" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="lbl_stack" x="20" y="0" w="658" h="551">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Stack" />
+		</control>
+		<control class="bncs_control" name="lbl_side" x="700" y="80" w="533" h="472">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Routable De-embedder and AMU" />
+		</control>
+		<control class="bncs_line" name="Line1" x="960" y="450" w="100" h="19">
+			<setting value="penwidth=10" />
+			<setting value="colour=#0000ff" />
+			<setting value="points=0,0,100,0" />
+		</control>
+		<control class="bncs_line" name="Line2" x="970" y="370" w="100" h="19">
+			<setting value="penwidth=10" />
+			<setting value="colour=#0000ff" />
+			<setting value="points=0,0,100,0" />
+		</control>
+		<control class="bncs_control" name="lbl_speakers" x="1050" y="290" w="130" h="108">
+			<setting value="style=label" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/dual_speaker.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_amu" x="1027" y="410" w="177" h="68">
+			<setting value="style=label" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/amu.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="160" y="570" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+		<control class="bncs_script_loader" name="dest_69" x="111" y="10" w="355" h="261">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="dest_index=69" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_large" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_70" x="111" y="270" w="355" h="261">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="dest_index=70" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_large" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_clock" name="Clock" x="514" y="70" w="103" h="103">
+			<setting value="colour.background=#ffffff" />
+			<setting value="colour.seconds=#ff0000" />
+		</control>
+		<control class="bncs_script_loader" name="dest_71" x="800" y="180" w="197" h="167">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="dest_index=71" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_large" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_72" x="800" y="350" w="197" h="167">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stb_sdi" />
+			<setting value="dest_index=72" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=monitor_large" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="label_database=2" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="mv_edit" x="473" y="240" w="186" h="62">
+			<setting value="scriptname=/components/custom/multiviewer/mv_edit" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="dest_*" event="route_source=*" command="select=[value]" name="Send source,dest to destinations"/>
+		<connection sender="sourceGrid" receiver="dest_*" event="index=*" command="route_source=[value]" name="Send source,dest to destinations"/>
+		<connection sender="dest_*" receiver="dest_*" event="selected_index=*" command="select=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="dest_*" receiver="mv_edit" event="command=selected" command="selected_dest=[intid]" name="Tell edit which dest selected"/>
+	</connections>
+</control_set>

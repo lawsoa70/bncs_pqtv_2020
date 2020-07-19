@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ops_positions>
+
+<!-- 
+	These are "typical" settings used in other BNCS systems - they may not be in use here....
+	<position id="{as defined in workstation settings}">
+		<setting id="name" value="{used used for reference}" />
+		<setting id="mon_dest_packager" instance="{ packager instance }" dest_index="{nnn}" />
+		<setting id="mon_dest_{anything}" instance="{ router instance name }" dest_index="{nnn}" />
+		<setting id="comms_panel_port" value="" /> The port that is used for the assign my comms button on the topstrap
+		<setting id="mon_dest_tb" value="413" /> The port that is used for monitoring of the comms system, not that the ports are shared amongst the galleries and MCR
+		<setting id="enable_port_probe" value="true" /> allows probing of IFBs
+	</position>
+-->
+
+	<position id="studio_a_vaa_bays">
+		<setting id="name" value="Studio A VAA Bays" />
+	</position>	
+	<position id="studio_a_vaa">
+		<setting id="name" value="Studio A VAA Desk" />
+	</position>	
+	<position id="studio_a_em">
+		<setting id="name" value="Studio A EM" />
+	</position>	
+	<position id="studio_a_vm">
+		<setting id="name" value="Studio A Vision Mixer" />
+	</position>
+	<position id="studio_a_ss">
+		<setting id="name" value="Studio A Sound Supervisor" />
+	</position>
+	<position id="studio_a_grams">
+		<setting id="name" value="Studio A Grams Desk" />
+	</position>
+	<position id="studio_a_snd_bays">
+		<setting id="name" value="Studio A Sound Bays" />
+	</position>
+	<position id="studio_c_vaa_bays">
+		<setting id="name" value="Studio C VAA Bays" />
+	</position>	
+	<position id="studio_c_vaa">
+		<setting id="name" value="Studio C VAA Desk" />
+	</position>	
+	<position id="studio_c_em">
+		<setting id="name" value="Studio C EM" />
+	</position>	
+	<position id="studio_c_vm">
+		<setting id="name" value="Studio C Vision Mixer" />
+	</position>
+	<position id="studio_c_ss">
+		<setting id="name" value="Studio C Sound Supervisor" />
+	</position>
+	<position id="studio_c_grams">
+		<setting id="name" value="Studio C Grams Desk" />
+	</position>
+	<position id="studio_c_snd_bays">
+		<setting id="name" value="Studio C Sound Bays" />
+	</position>
+	<position id="engineering">
+		<setting id="name" value="Engineering" />
+	</position>
+	
+</ops_positions>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="879" h="41" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="Label" x="0" y="-30" w="898" h="100">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+		</control>
+		<control class="bncs_control" name="source_2" x="90" y="0" w="80" h="40">
+			<setting value="text=source_2" />
+		</control>
+		<control class="bncs_control" name="source_3" x="178" y="0" w="80" h="40">
+			<setting value="text=source_3" />
+		</control>
+		<control class="bncs_control" name="source_4" x="268" y="0" w="80" h="40">
+			<setting value="text=source_4" />
+		</control>
+		<control class="bncs_control" name="source_5" x="356" y="0" w="80" h="40">
+			<setting value="text=source_5" />
+		</control>
+		<control class="bncs_control" name="source_6" x="444" y="0" w="80" h="40">
+			<setting value="text=source_6" />
+		</control>
+		<control class="bncs_control" name="source_7" x="532" y="0" w="80" h="40">
+			<setting value="text=source_7" />
+		</control>
+		<control class="bncs_control" name="source_8" x="620" y="0" w="80" h="40">
+			<setting value="text=source_8" />
+		</control>
+		<control class="bncs_control" name="source_9" x="710" y="0" w="80" h="40">
+			<setting value="text=source_9" />
+		</control>
+		<control class="bncs_control" name="source_10" x="796" y="0" w="80" h="40">
+			<setting value="text=source_10" />
+		</control>
+		<control class="bncs_control" name="source_1" x="0" y="0" w="80" h="40">
+			<setting value="text=source_1" />
+		</control>
+	</container>
+</control_set>

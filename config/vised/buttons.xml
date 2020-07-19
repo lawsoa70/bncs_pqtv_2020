@@ -1,0 +1,43 @@
+<?xml version = '1.0'?>
+<buttons>
+  <control w="100" h="40" class="bncs_control" name="Button" >
+    <setting value="style=button" />
+  </control>
+  <control class="bncs_control" name="Label" >
+    <setting value="style=label" />
+  </control>
+  <control class="bncs_enum" name="Enum" >
+    <setting value="style=button" />
+  </control>
+  <control class="bncs_range" name="Range" >
+    <setting value="style=updown" />
+  </control>
+  <control class="bncs_ie" name="Browser" />
+  <control class="bncs_enum" name="Simple Navigate" >
+    <setting value="style=button" />
+    <setting value="nextstate=false" />
+    <setting value="navigatedest=dummy" />
+    <setting value="navigate=true" />
+    <setting value="colour.background=green" />
+  </control>
+  <control class="bncs_script_loader" name="Script" />
+  <control class="bncs_sourcegrid" name="Router" />
+  <control class="bncs_line" name="Line" />
+  <control class="bncs_listbox" name="Listbox" />
+  <control class="bncs_edittext" name="Line Edit" />
+  <control class="bncs_log" name="Log" />
+  <control class="bncs_data_form" name="db Form" />
+  <control class="bncs_data_Table" name="db Table" />
+  <control class="bncs_instance" name="Instance Viewer" />
+  <control class="bncs_keyboard_ctrl" name="Keyboard" />
+  <control class="bncs_smart_string" name="String" >
+    <setting value="style=button" />
+  </control>
+  <control class="bncs_clock" style="Analogue" name="Clock" />
+  <control class="bncs_rtrNameGrid" name="Name Grid" />
+  <control class="bncs_rtrDestGrid" name="Dest Grid" />
+  <control class="bncs_script_loader" name="adjust" >
+    <setting value="scriptname=/components/adjust" />
+  </control>
+  <control class="bncs_shimStatus" name="Shim status" />
+</buttons>

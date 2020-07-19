@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="319" h="135">
+		<control class="bncs_control" name="1" x="8" y="8" w="304" h="120">
+			<setting value="style=label" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="2" x="13" y="13" w="294" h="51">
+			<setting value="style=label" />
+			<setting value="colour.text=black" />
+			<setting value="colour.background=white" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="text=Do you really want to exit?" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="confirm_yes" x="20" y="79" w="112" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Yes" />
+		</control>
+		<control class="bncs_control" name="confirm_cancel" x="188" y="79" w="112" h="40">
+			<setting value="labelstyle=none" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Cancel" />
+		</control>
+	</container>
+</control_set>

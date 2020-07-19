@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="290" h="450" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="10" y="10" w="270" h="430">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Take Stereo - Stereo" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="R-LR" x="160" y="50" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=R - LR" />
+			<setting value="pixmap=audio_take_mode_R-LR.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="R-R" x="160" y="180" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=R - R" />
+			<setting value="pixmap=audio_take_mode_R-R.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="L-L" x="30" y="180" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=L - L" />
+			<setting value="pixmap=audio_take_mode_L-L.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="L-R" x="30" y="310" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=L - R" />
+			<setting value="pixmap=audio_take_mode_L-R.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="R-L" x="160" y="310" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=R - L" />
+			<setting value="pixmap=audio_take_mode_R-L.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="L-LR" x="30" y="50" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=L - LR" />
+			<setting value="pixmap=audio_take_mode_L-LR.png" />
+			<setting value="doublepush=true" />
+		</control>
+	</container>
+</control_set>

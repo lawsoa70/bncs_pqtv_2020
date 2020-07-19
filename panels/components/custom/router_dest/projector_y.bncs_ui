@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="205" h="158" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="lblTally" x="1" y="118" w="202" h="40">
+			<setting value="stylesheet=umd" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="203" h="119">
+			<setting value="pixmap=/images/screen_y.png" />
+		</control>
+	</container>
+</control_set>

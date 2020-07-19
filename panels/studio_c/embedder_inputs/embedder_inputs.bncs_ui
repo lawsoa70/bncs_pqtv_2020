@@ -1,0 +1,427 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="50" y="0" w="1230" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label1" x="1050" y="70" w="158" h="380">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="Label" x="240" y="5" w="741" h="550">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="sourceGrid" x="10" y="560" w="1210" h="310">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_source_grid" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="layout=40x15_wide" />
+			<setting value="page_offset=0" />
+		</control>
+		<control class="bncs_script_loader" name="dest_main_1" x="250" y="65" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=301" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_control" name="Label_main" x="250" y="15" w="100" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Main" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_script_loader" name="dest_main_2" x="250" y="175" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=303" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_main_3" x="250" y="285" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=305" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_main_4" x="250" y="395" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=307" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="lock_main_5" x="250" y="505" w="100" h="40">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stc_nexus_lock" />
+			<setting value="index=301,303,305,307" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+		</control>
+		<control class="bncs_script_loader" name="dest_clean_1" x="390" y="65" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=333" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_clean_2" x="390" y="175" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=335" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_clean_3" x="390" y="285" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=337" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_clean_4" x="390" y="395" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=339" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="lock_clean" x="390" y="505" w="100" h="40">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stc_nexus_lock" />
+			<setting value="index=333,335,337,339" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+		</control>
+		<control class="bncs_control" name="Label_clean" x="390" y="15" w="100" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Clean" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_script_loader" name="dest_res_1" x="530" y="65" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=1257" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_res_2" x="530" y="175" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=1259" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_res_3" x="530" y="285" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=1261" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_res_4" x="530" y="395" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=1263" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="lock_res" x="530" y="505" w="100" h="40">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stc_nexus_lock" />
+			<setting value="index=1289,1291,1293,1295" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+		</control>
+		<control class="bncs_control" name="Label_res" x="530" y="15" w="100" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Reserve" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso1_1" x="710" y="65" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=349" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_control" name="Label_iso1" x="710" y="15" w="100" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 1" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso1_2" x="710" y="175" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=351" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso1_3" x="710" y="285" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=353" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso1_4" x="710" y="395" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=355" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="lock_iso1" x="710" y="505" w="100" h="40">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stc_nexus_lock" />
+			<setting value="index=349,351,353,355" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+		</control>
+		<control class="bncs_script_loader" name="tally_iso1" x="710" y="35" w="100" h="20">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=61" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=tally" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso2_1" x="840" y="65" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=365" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_control" name="Label_iso2" x="840" y="15" w="100" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=ISO 2" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso2_2" x="840" y="175" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=367" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso2_3" x="840" y="285" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=369" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="dest_iso2_4" x="840" y="395" w="100" h="100">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/audio_dest" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="panel=LR_V" />
+			<setting value="alias=" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="initially_selected=false" />
+			<setting value="force_51_stereo=false" />
+			<setting value="global_dest=371" />
+			<setting value="dynamic_tallies=false" />
+			<setting value="defaultSourceList=" />
+			<setting value="read_only=false" />
+			<setting value="poll_GRD=true" />
+		</control>
+		<control class="bncs_script_loader" name="lock_iso2" x="840" y="505" w="100" h="40">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/legacy/lock" />
+			<setting value="instance=rtr_stc_nexus_lock" />
+			<setting value="index=365,367,369,371" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+		</control>
+		<control class="bncs_script_loader" name="tally_iso2" x="840" y="35" w="100" h="20">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/custom/router_dest" />
+			<setting value="instance=rtr_stc_sdi" />
+			<setting value="dest_index=62" />
+			<setting value="dest_database=1" />
+			<setting value="dest_instance_database=7" />
+			<setting value="panel=tally" />
+			<setting value="default_source=0" />
+			<setting value="alias=" />
+			<setting value="tally_database=0" />
+			<setting value="initially_selected=false" />
+		</control>
+		<control class="bncs_script_loader" name="take" x="1070" y="80" w="120" h="340">
+			<setting value="scriptname=/components/legacy/audio_take" />
+			<setting value="instance=rtr_stc_nexus" />
+			<setting value="lock_instance=rtr_stc_nexus_lock" />
+			<setting value="force_51_stereo=false" />
+			<setting value="source_database=false" />
+			<setting value="treat_dest_as_stereo=true" />
+		</control>
+	</container>
+	<connections>
+		<connection sender="sourceGrid" receiver="take" event="index=*" command="source=[value]" name="Set source to take"/>
+		<connection sender="dest_*" receiver="take" event="global_dest=*" command="global_dest=[value]" name="Set dest to take"/>
+		<connection sender="dest_*" receiver="dest_*" event="global_dest=*" command="selected=[value]" name="Send selected dest to all other dests"/>
+		<connection sender="take" receiver="dest_*" event="take.*=*" command="take.[sub0].[sub1]=[value]" name="Send take command to all dests"/>
+		<connection sender="take" receiver="dest_*" event="undo" command="undo" name="ujndo last take"/>
+	</connections>
+</control_set>

@@ -1,0 +1,355 @@
+ V4InfDrv
+
+ Timestamp is 56ddfdca (Mon Mar 07 22:16:42 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00003560H .text                   CODE
+ 0002:00000000 00000160H .idata$5                DATA
+ 0002:00000160 0000000cH .rdata                  DATA
+ 0002:0000016c 00000078H .idata$2                DATA
+ 0002:000001e4 00000014H .idata$3                DATA
+ 0002:000001f8 00000160H .idata$4                DATA
+ 0002:00000358 000004a4H .idata$6                DATA
+ 0002:000007fc 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00000680H .data                   DATA
+ 0003:00000690 000086ccH .bss                    DATA
+ 0004:00000000 000001e4H .rsrc$01                DATA
+ 0004:000001f0 00000ca0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ?IDAbout_About@@YAXXZ      00401000 f   IDABOUT.obj
+ 0001:00000020       ?IDAbout_DialogProc@@YGHPAUHWND__@@GGJ@Z 00401020 f   IDABOUT.obj
+ 0001:000000e0       ?IDCmd_File@@YAHPAD@Z      004010e0 f   IDCMD.obj
+ 0001:00000220       ?IDCmd_Hardcopy@@YAHPAD@Z  00401220 f   IDCMD.obj
+ 0001:000002b0       ?IDCmd_Lock@@YAHPAD@Z      004012b0 f   IDCMD.obj
+ 0001:00000340       ?IDCmd_Poll@@YAHPAD@Z      00401340 f   IDCMD.obj
+ 0001:000003b0       ?IDCmd_Query@@YAHPAD@Z     004013b0 f   IDCMD.obj
+ 0001:00000420       ?IDCmd_Write@@YAHPAD@Z     00401420 f   IDCMD.obj
+ 0001:00000550       ?IDCSISup_Init@@YAXXZ      00401550 f   IDCSISUP.obj
+ 0001:000006e0       ?IDCSISup_Closedown@@YAXXZ 004016e0 f   IDCSISUP.obj
+ 0001:00000700       ?IDCSISup_AssertTxRxMode@@YAHI@Z 00401700 f   IDCSISUP.obj
+ 0001:00000740       ?IDCSISup_DisplayTxRxMode@@YAXI@Z 00401740 f   IDCSISUP.obj
+ 0001:00000860       ?IDCSISup_TxRevertive@@YAXHHHH@Z 00401860 f   IDCSISUP.obj
+ 0001:00000a60       ?IDDialog_Init@@YAXXZ      00401a60 f   IDDIALOG.obj
+ 0001:00000ab0       ?IDDialog_DialogProc@@YGHPAUHWND__@@GGJ@Z 00401ab0 f   IDDIALOG.obj
+ 0001:00000bc0       ?IDDialog_InitDialog@@YAXXZ 00401bc0 f   IDDIALOG.obj
+ 0001:00000d50       ?IDDialog_InfoLB@@YAXXZ    00401d50 f   IDDIALOG.obj
+ 0001:00000d90       ?IDDialog_Store@@YAXXZ     00401d90 f   IDDIALOG.obj
+ 0001:00000e90       ?IDDialog_ToggleLock@@YAXXZ 00401e90 f   IDDIALOG.obj
+ 0001:00000f00       ?IDDialog_Update@@YAXH@Z   00401f00 f   IDDIALOG.obj
+ 0001:00000fd0       ?IDExt_SetSlot@@YAXIJE@Z   00401fd0 f   IDEXT.obj
+ 0001:00001080       ?IDExt_GetSlot@@YAXIJ@Z    00402080 f   IDEXT.obj
+ 0001:000010c0       ?IDExt_SendUserStr@@YAXPAD@Z 004020c0 f   IDEXT.obj
+ 0001:00001100       ?IDIdxfu_ReadLockFile@@YAXXZ 00402100 f   IDIDXFU.obj
+ 0001:000011d0       ?IDIdxfu_WriteLockFile@@YAXXZ 004021d0 f   IDIDXFU.obj
+ 0001:000012a0       _WinMain@16                004022a0 f   IDMAIN.obj
+ 0001:00001390       ?InitApplication@@YAHPAUHINSTANCE__@@@Z 00402390 f   IDMAIN.obj
+ 0001:00001410       ?InitInstance@@YAHPAUHINSTANCE__@@H@Z 00402410 f   IDMAIN.obj
+ 0001:00001460       ?MainWndProc@@YGJPAUHWND__@@IIJ@Z 00402460 f   IDMAIN.obj
+ 0001:00001e70       ?IDMain_Initialise@@YAXXZ  00402e70 f   IDMAIN.obj
+ 0001:00001e90       ?IDMain_Init@@YAXXZ        00402e90 f   IDMAIN.obj
+ 0001:00001f50       ?IDMain_Closedown@@YAXXZ   00402f50 f   IDMAIN.obj
+ 0001:00001fa0       ?IDMain_ClientMsg@@YAXJ@Z  00402fa0 f   IDMAIN.obj
+ 0001:00002010       ?IDMain_SendDestStr@@YAXIJ@Z 00403010 f   IDMAIN.obj
+ 0001:00002050       ?IDMemory_Init@@YAXXZ      00403050 f   IDMEMORY.obj
+ 0001:000022d0       ?IDMemory_Closedown@@YAXXZ 004032d0 f   IDMEMORY.obj
+ 0001:00002300       ?IDMemory_InfoWrite@@YAXHHPAD@Z 00403300 f   IDMEMORY.obj
+ 0001:00002340       ?IDMemory_InfoRead@@YAXHPAD@Z 00403340 f   IDMEMORY.obj
+ 0001:00002380       ?IDNetCmd_Parse@@YAHPAD@Z  00403380 f   IDNETCMD.obj
+ 0001:000025e0       ?IDParser_Parse@@YAXPAD@Z  004035e0 f   IDPARSER.obj
+ 0001:00002690       ?IDPrfu_PrintBuffer@@YAXXZ 00403690 f   IDPRFU.obj
+ 0001:00002760       ?IDPrfu_ClearBuffer@@YAXXZ 00403760 f   IDPRFU.obj
+ 0001:000027a0       ?IDProf_Init@@YAXXZ        004037a0 f   IDPROF.obj
+ 0001:00002d20       ?IDProf_GrantAccess@@YAXH@Z 00403d20 f   IDPROF.obj
+ 0001:00002d40       ?BNCSSendMessage@@YAJPAUHWND__@@0IIJHHHE@Z 00403d40 f   idsndmsg.obj
+ 0001:00002dc0       ?ODS@@YAXPAD@Z             00403dc0 f   IDSUFU.obj
+ 0001:00002e00       ?OSM@@YAXPAD@Z             00403e00 f   IDSUFU.obj
+ 0001:00002e20       ?GetArguments@@YAXPADH@Z   00403e20 f   IDSUFU.obj
+ 0001:00002f30       ?GetPrivateINIString@@YAXPBD00PADKQAD@Z 00403f30 f   PROFILE.obj
+ 0001:00002fc0       ?WritePrivateINIString@@YAXPBD000@Z 00403fc0 f   PROFILE.obj
+ 0001:00003040       ?GetEnvironmentType@@YAHXZ 00404040 f   PROFILE.obj
+ 0001:00003060       ?GetSystemPath@@YAPADXZ    00404060 f   PROFILE.obj
+ 0001:000030a0       ?GetINIPath@@YAPADPAD@Z    004040a0 f   PROFILE.obj
+ 0001:00003170       ?GetDataPath@@YAPADPAD@Z   00404170 f   PROFILE.obj
+ 0001:000031a0       ?GetLockPath@@YAPADPAD@Z   004041a0 f   PROFILE.obj
+ 0001:000031d0       _BNCS32SendMessage         004041d0 f   bncsWM32:BncsWM32.obj
+ 0001:000032c0       _BNCS32ReceiveMessage      004042c0 f   bncsWM32:BncsWM32.obj
+ 0001:000033d0       _WinMainCRTStartup         004043d0 f   MSVCRT:crtexew.obj
+ 0001:0000352e       __XcptFilter               0040452e f   MSVCRT:MSVCRT.dll
+ 0001:00003534       __initterm                 00404534 f   MSVCRT:MSVCRT.dll
+ 0001:0000353a       __setdefaultprecision      0040453a f   MSVCRT:fp8.obj
+ 0001:0000354c       __matherr                  0040454c f   MSVCRT:merr.obj
+ 0001:0000354f       __setargv                  0040454f f   MSVCRT:dllargv.obj
+ 0001:00003550       __except_handler3          00404550 f   MSVCRT:MSVCRT.dll
+ 0001:00003556       __controlfp                00404556 f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__BNCS32RxMessage     00405000     bncsif32:BNCSIF32.dll
+ 0002:00000004       __imp__BNCS32TxMessage     00405004     bncsif32:BNCSIF32.dll
+ 0002:00000008       \177BNCSIF32_NULL_THUNK_DATA 00405008     bncsif32:BNCSIF32.dll
+ 0002:0000000c       __imp__EndDoc@4            0040500c     gdi32:GDI32.dll
+ 0002:00000010       __imp__EndPage@4           00405010     gdi32:GDI32.dll
+ 0002:00000014       __imp__StartPage@4         00405014     gdi32:GDI32.dll
+ 0002:00000018       __imp__StartDocA@8         00405018     gdi32:GDI32.dll
+ 0002:0000001c       __imp__TextOutA@20         0040501c     gdi32:GDI32.dll
+ 0002:00000020       __imp__GetStockObject@4    00405020     gdi32:GDI32.dll
+ 0002:00000024       \177GDI32_NULL_THUNK_DATA  00405024     gdi32:GDI32.dll
+ 0002:00000028       __imp__lstrcpyA@8          00405028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__OutputDebugStringA@4 0040502c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__WinExec@8           00405030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp___lcreat@8           00405034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp___lclose@4           00405038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp___lopen@8            0040503c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp___lwrite@12          00405040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp___llseek@12          00405044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp___lread@12           00405048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetPrivateProfileStringA@24 0040504c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__WritePrivateProfileStringA@16 00405050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetModuleHandleA@4  00405054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetStartupInfoA@4   00405058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__lstrcpynA@12        0040505c     kernel32:KERNEL32.dll
+ 0002:00000060       \177KERNEL32_NULL_THUNK_DATA 00405060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp___exit               00405064     MSVCRT:MSVCRT.dll
+ 0002:00000068       __imp___controlfp          00405068     MSVCRT:MSVCRT.dll
+ 0002:0000006c       __imp___except_handler3    0040506c     MSVCRT:MSVCRT.dll
+ 0002:00000070       __imp____set_app_type      00405070     MSVCRT:MSVCRT.dll
+ 0002:00000074       __imp____p__fmode          00405074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp____p__commode        00405078     MSVCRT:MSVCRT.dll
+ 0002:0000007c       __imp___adjust_fdiv        0040507c     MSVCRT:MSVCRT.dll
+ 0002:00000080       __imp____setusermatherr    00405080     MSVCRT:MSVCRT.dll
+ 0002:00000084       __imp___initterm           00405084     MSVCRT:MSVCRT.dll
+ 0002:00000088       __imp____getmainargs       00405088     MSVCRT:MSVCRT.dll
+ 0002:0000008c       __imp___acmdln             0040508c     MSVCRT:MSVCRT.dll
+ 0002:00000090       __imp__exit                00405090     MSVCRT:MSVCRT.dll
+ 0002:00000094       __imp___XcptFilter         00405094     MSVCRT:MSVCRT.dll
+ 0002:00000098       __imp__strupr              00405098     MSVCRT:MSVCRT.dll
+ 0002:00000098       __imp___strupr             00405098     MSVCRT:MSVCRT.dll
+ 0002:0000009c       __imp___strlwr             0040509c     MSVCRT:MSVCRT.dll
+ 0002:0000009c       __imp__strlwr              0040509c     MSVCRT:MSVCRT.dll
+ 0002:000000a0       __imp__getenv              004050a0     MSVCRT:MSVCRT.dll
+ 0002:000000a4       __imp__sprintf             004050a4     MSVCRT:MSVCRT.dll
+ 0002:000000a8       __imp__fclose              004050a8     MSVCRT:MSVCRT.dll
+ 0002:000000ac       __imp__fprintf             004050ac     MSVCRT:MSVCRT.dll
+ 0002:000000b0       __imp__fopen               004050b0     MSVCRT:MSVCRT.dll
+ 0002:000000b4       __imp__strncpy             004050b4     MSVCRT:MSVCRT.dll
+ 0002:000000b8       __imp__fgetc               004050b8     MSVCRT:MSVCRT.dll
+ 0002:000000bc       __imp__fputc               004050bc     MSVCRT:MSVCRT.dll
+ 0002:000000c0       __imp__atoi                004050c0     MSVCRT:MSVCRT.dll
+ 0002:000000c4       __imp__sscanf              004050c4     MSVCRT:MSVCRT.dll
+ 0002:000000c8       __imp__strtok              004050c8     MSVCRT:MSVCRT.dll
+ 0002:000000cc       __imp__strstr              004050cc     MSVCRT:MSVCRT.dll
+ 0002:000000d0       \177MSVCRT_NULL_THUNK_DATA 004050d0     MSVCRT:MSVCRT.dll
+ 0002:000000d4       __imp__DialogBoxParamA@20  004050d4     user32:USER32.dll
+ 0002:000000d8       __imp__DispatchMessageA@4  004050d8     user32:USER32.dll
+ 0002:000000dc       __imp__TranslateMessage@4  004050dc     user32:USER32.dll
+ 0002:000000e0       __imp__GetMessageA@16      004050e0     user32:USER32.dll
+ 0002:000000e4       __imp__RegisterClassA@4    004050e4     user32:USER32.dll
+ 0002:000000e8       __imp__LoadCursorA@8       004050e8     user32:USER32.dll
+ 0002:000000ec       __imp__LoadIconA@8         004050ec     user32:USER32.dll
+ 0002:000000f0       __imp__CreateWindowExA@48  004050f0     user32:USER32.dll
+ 0002:000000f4       __imp__DefWindowProcA@16   004050f4     user32:USER32.dll
+ 0002:000000f8       __imp__IsWindow@4          004050f8     user32:USER32.dll
+ 0002:000000fc       __imp__SetFocus@4          004050fc     user32:USER32.dll
+ 0002:00000100       __imp__DrawMenuBar@4       00405100     user32:USER32.dll
+ 0002:00000104       __imp__EnableMenuItem@12   00405104     user32:USER32.dll
+ 0002:00000108       __imp__CheckMenuItem@12    00405108     user32:USER32.dll
+ 0002:0000010c       __imp__GetMenu@4           0040510c     user32:USER32.dll
+ 0002:00000110       __imp__EnableWindow@8      00405110     user32:USER32.dll
+ 0002:00000114       __imp__GetDlgItemTextA@16  00405114     user32:USER32.dll
+ 0002:00000118       __imp__LoadMenuA@8         00405118     user32:USER32.dll
+ 0002:0000011c       __imp__SetMenu@8           0040511c     user32:USER32.dll
+ 0002:00000120       __imp__SetWindowPos@28     00405120     user32:USER32.dll
+ 0002:00000124       __imp__ShowWindow@8        00405124     user32:USER32.dll
+ 0002:00000128       __imp__GetWindowRect@8     00405128     user32:USER32.dll
+ 0002:0000012c       __imp__MoveWindow@24       0040512c     user32:USER32.dll
+ 0002:00000130       __imp__CreateDialogParamA@20 00405130     user32:USER32.dll
+ 0002:00000134       __imp__SetWindowTextA@8    00405134     user32:USER32.dll
+ 0002:00000138       __imp__MessageBoxA@16      00405138     user32:USER32.dll
+ 0002:0000013c       __imp__GetDlgItem@8        0040513c     user32:USER32.dll
+ 0002:00000140       __imp__SendMessageA@16     00405140     user32:USER32.dll
+ 0002:00000144       __imp__EndDialog@8         00405144     user32:USER32.dll
+ 0002:00000148       __imp__SetDlgItemTextA@12  00405148     user32:USER32.dll
+ 0002:0000014c       __imp__PostQuitMessage@4   0040514c     user32:USER32.dll
+ 0002:00000150       __imp__wsprintfA           00405150     user32:USER32.dll
+ 0002:00000154       \177USER32_NULL_THUNK_DATA 00405154     user32:USER32.dll
+ 0002:00000158       __imp__setInfoHwnd         00405158     info32fix:info32fix.dll
+ 0002:0000015c       \177info32fix_NULL_THUNK_DATA 0040515c     info32fix:info32fix.dll
+ 0002:0000016c       __IMPORT_DESCRIPTOR_USER32 0040516c     user32:USER32.dll
+ 0002:00000180       __IMPORT_DESCRIPTOR_GDI32  00405180     gdi32:GDI32.dll
+ 0002:00000194       __IMPORT_DESCRIPTOR_BNCSIF32 00405194     bncsif32:BNCSIF32.dll
+ 0002:000001a8       __IMPORT_DESCRIPTOR_info32fix 004051a8     info32fix:info32fix.dll
+ 0002:000001bc       __IMPORT_DESCRIPTOR_MSVCRT 004051bc     MSVCRT:MSVCRT.dll
+ 0002:000001d0       __IMPORT_DESCRIPTOR_KERNEL32 004051d0     kernel32:KERNEL32.dll
+ 0002:000001e4       __NULL_IMPORT_DESCRIPTOR   004051e4     user32:USER32.dll
+ 0003:00000000       ___xc_a                    00406000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    00406004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    00406008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    0040600c     MSVCRT:cinitexe.obj
+ 0003:00000010       ??_C@_05DGMO@ABOUT?$AA@    00406010     IDABOUT.obj
+ 0003:00000018       ??_C@_0BK@IJLE@Version?5?$CFs?5?9?5?$CIc?$CJ?5SBS?52005?$AA@ 00406018     IDABOUT.obj
+ 0003:00000034       ??_C@_08NFMP@4?41?41?425?$AA@ 00406034     IDABOUT.obj
+ 0003:00000040       ??_C@_07DAJE@?$CFs?5?9?5?$CFs?$AA@ 00406040     IDABOUT.obj
+ 0003:00000048       ??_C@_0M@OFFK@Mar?5?57?52016?$AA@ 00406048     IDABOUT.obj
+ 0003:00000054       ??_C@_08EJCN@22?316?339?$AA@ 00406054     IDABOUT.obj
+ 0003:00000060       ??_C@_03HHKO@?$CFs?6?$AA@  00406060     IDCMD.obj
+ 0003:00000064       ??_C@_01FNLH@a?$AA@        00406064     IDCMD.obj
+ 0003:00000068       ??_C@_01LLF@w?$AA@         00406068     IDCMD.obj
+ 0003:0000006c       ??_C@_0BA@CILG@IF?5?$CFd?5?$CFd?5?$CFs?5?$CFs?5?$AA@ 0040606c     IDCMD.obj
+ 0003:0000007c       ??_C@_0EA@JFHN@Cannot?5find?5BBC?5Network?5Control?5@ 0040607c     IDCSISUP.obj
+ 0003:000000bc       ??_C@_0DK@PGHB@Request?5refused?5?9?5CSI?5has?5not?5be@ 004060bc     IDCSISUP.obj
+ 0003:000000f8       ??_C@_0DK@GCL@Request?5refused?5?9?5A?5driver?5has?5a@ 004060f8     IDCSISUP.obj
+ 0003:00000134       ??_C@_0CJ@NAOA@Request?5refused?5?9?5ID?5supplied?5is@ 00406134     IDCSISUP.obj
+ 0003:00000160       ??_C@_09BMGO@?$CB?5Error?5?$CB?$AA@ 00406160     IDCSISUP.obj
+ 0003:0000016c       ??_C@_0CB@DELL@Attempting?5to?5register?5device?5?$CFd@ 0040616c     IDCSISUP.obj
+ 0003:00000190       ??_C@_0BC@NEJJ@CSI?5handle?50x?$CF04x?$AA@ 00406190     IDCSISUP.obj
+ 0003:000001a4       ??_C@_0BI@KHJC@Trying?5to?5attach?5to?5CSI?$AA@ 004061a4     IDCSISUP.obj
+ 0003:000001bc       ??_C@_0BO@EFBA@ID_?$CF03d?5?9?5Unknown?5Mode?$CB?5?9?5V?$CFs?$AA@ 004061bc     IDCSISUP.obj
+ 0003:000001dc       ??_C@_06CMFN@Error?$CB?$AA@ 004061dc     IDCSISUP.obj
+ 0003:000001e4       ??_C@_0BH@HLAK@ID_?$CF03d?5?9?5RxOnly?5?9?5V?$CFs?$AA@ 004061e4     IDCSISUP.obj
+ 0003:000001fc       ??_C@_07DBNN@Rx?5Only?$AA@ 004061fc     IDCSISUP.obj
+ 0003:00000204       ??_C@_0BF@JBDJ@ID_?$CF03d?5?9?5TXRX?5?9?5V?$CFs?$AA@ 00406204     IDCSISUP.obj
+ 0003:0000021c       ??_C@_05IBFC@Tx?1Rx?$AA@   0040621c     IDCSISUP.obj
+ 0003:00000224       ??_C@_05OFAG@?$CF08ld?$AA@ 00406224     IDCSISUP.obj
+ 0003:0000022c       ??_C@_05ONBE@?$CFd?0?$CFs?$AA@ 0040622c     IDCSISUP.obj
+ 0003:00000234       ??_C@_0BC@KBFA@IR?5?$CF03d?5?$CF03d?5?8?$CFs?8?$AA@ 00406234     IDCSISUP.obj
+ 0003:00000248       ??_C@_0BI@GKGL@Can?8t?5create?5dialog?5box?$AA@ 00406248     IDDIALOG.obj
+ 0003:00000260       ??_C@_0L@GOIO@MAINDIALOG?$AA@ 00406260     IDDIALOG.obj
+ 0003:0000026c       ??_C@_0BA@EKEI@Creating?5Dialog?$AA@ 0040626c     IDDIALOG.obj
+ 0003:0000027c       ??_C@_08EOLN@External?$AA@ 0040627c     IDDIALOG.obj
+ 0003:00000288       ??_C@_08CBFE@Internal?$AA@ 00406288     IDDIALOG.obj
+ 0003:00000294       ??_C@_07FEBM@?1__2B0_?$AA@ 00406294     IDDIALOG.obj
+ 0003:0000029c       ??_C@_04KAJP@?$CF03d?$AA@  0040629c     IDDIALOG.obj
+ 0003:000002a4       ??_C@_04DFJM@MENU?$AA@     004062a4     IDDIALOG.obj
+ 0003:000002ac       ??_C@_0O@LPNL@IW?5?$CFd?5?8?$CFs?8?5?$CFd?$AA@ 004062ac     IDDIALOG.obj
+ 0003:000002bc       ??_C@_0O@DENL@IL?5?$CFd?5?$CFd?5?$CFd?51?$AA@ 004062bc     IDDIALOG.obj
+ 0003:000002cc       ??_C@_0O@JOEM@IL?5?$CFd?5?$CFd?5?$CFd?50?$AA@ 004062cc     IDDIALOG.obj
+ 0003:000002dc       ??_C@_08BADN@Unlocked?$AA@ 004062dc     IDDIALOG.obj
+ 0003:000002e8       ??_C@_06KBON@Locked?$AA@   004062e8     IDDIALOG.obj
+ 0003:000002f0       ??_C@_08FGLH@Disabled?$AA@ 004062f0     IDDIALOG.obj
+ 0003:000002fc       ??_C@_02JKAF@rb?$AA@       004062fc     IDIDXFU.obj
+ 0003:00000300       ??_C@_0N@PPIH@DEV_?$CF03d?4LCK?$AA@ 00406300     IDIDXFU.obj
+ 0003:00000310       ??_C@_0CB@IMKD@Couldn?8t?5write?5index?5file?5?9?5?8?$CFs?8@ 00406310     IDIDXFU.obj
+ 0003:00000334       ??_C@_02NGAF@wb?$AA@       00406334     IDIDXFU.obj
+ 0003:00000338       ??_C@_0JN@KKNA@V4InfDrv?5requires?5inf32fix?4exe?5i@ 00406338     IDMAIN.obj
+ 0003:000003d8       ??_C@_0N@KHBF@inf32fix?4exe?$AA@ 004063d8     IDMAIN.obj
+ 0003:000003e8       ??_C@_08FBEC@V4InfDrv?$AA@ 004063e8     IDMAIN.obj
+ 0003:000003f4       ??_C@_04PAPL@Menu?$AA@     004063f4     IDMAIN.obj
+ 0003:000003fc       ??_C@_06OODE@IDicon?$AA@   004063fc     IDMAIN.obj
+ 0003:00000404       ??_C@_07DLOK@?1__1B0_?$AA@ 00406404     IDMAIN.obj
+ 0003:0000040c       ??_C@_07LJH@ID_?$CF03d?$AA@ 0040640c     IDMAIN.obj
+ 0003:00000414       ??_C@_0CP@LF@InfoDriver?5?$CFd?5opening?5secondary?5@ 00406414     IDMEMORY.obj
+ 0003:00000444       ??_C@_0EA@LLMG@?$CB?5Error?5?9?5InfoDriver?5?$CFd?5unable?5t@ 00406444     IDMEMORY.obj
+ 0003:00000484       ??_C@_0BA@OIO@?$CFs?2DEV_?$CF03d?4DAT?$AA@ 00406484     IDMEMORY.obj
+ 0003:00000494       ??_C@_04MHIC@NONE?$AA@     00406494     IDMEMORY.obj
+ 0003:0000049c       ??_C@_0DA@CFJJ@Unable?5to?5create?5or?5open?5primary@ 0040649c     IDMEMORY.obj
+ 0003:000004cc       ??_C@_0N@OKEK@DEV_?$CF03d?4DAT?$AA@ 004064cc     IDMEMORY.obj
+ 0003:000004dc       ??_C@_0CA@EGGG@NS?5?$CF03d?5?$CF03d?5?8TXRX?$DN?$CFd?8?5?$CFs?5?$CFs?5?$CFs?$AA@ 004064dc     IDNETCMD.obj
+ 0003:000004fc       ??_C@_0BD@FGIE@ID_?$CF03d?5?9?5?$CFs?5?9?5V?$CFs?$AA@ 004064fc     IDNETCMD.obj
+ 0003:00000510       ??_C@_04FPN@TxRx?$AA@      00406510     IDNETCMD.obj
+ 0003:00000518       ??_C@_04HKON@txrx?$AA@     00406518     IDNETCMD.obj
+ 0003:00000520       ??_C@_05JKGE@?$CFs?5?$CFs?$AA@ 00406520     IDNETCMD.obj
+ 0003:00000528       ??_C@_0BC@DMJD@Printing?5?$CFd?5lines?$AA@ 00406528     IDPRFU.obj
+ 0003:0000053c       ??_C@_05EDJH@?$CFd?9?$CFd?$AA@ 0040653c     IDPROF.obj
+ 0003:00000544       ??_C@_01GJD@?9?$AA@        00406544     IDPROF.obj
+ 0003:00000548       ??_C@_01KMAE@?0?$AA@       00406548     IDPROF.obj
+ 0003:0000054c       ??_C@_08PEMD@Security?$AA@ 0040654c     IDPROF.obj
+ 0003:00000558       ??_C@_06NDHC@Access?$AA@   00406558     IDPROF.obj
+ 0003:00000560       ??_C@_03MJMD@ALL?$AA@      00406560     IDPROF.obj
+ 0003:00000564       ??_C@_01PLJA@0?$AA@        00406564     IDPROF.obj
+ 0003:00000568       ??_C@_0M@FDJB@EnableLocks?$AA@ 00406568     IDPROF.obj
+ 0003:00000574       ??_C@_01FBAH@1?$AA@        00406574     IDPROF.obj
+ 0003:00000578       ??_C@_0BH@JJKI@GoRXOnlyOnExternalFail?$AA@ 00406578     IDPROF.obj
+ 0003:00000590       ??_C@_04BFMI@TXRX?$AA@     00406590     IDPROF.obj
+ 0003:00000598       ??_C@_0M@GBKJ@StartupMode?$AA@ 00406598     IDPROF.obj
+ 0003:000005a4       ??_C@_08CMGL@INTERNAL?$AA@ 004065a4     IDPROF.obj
+ 0003:000005b0       ??_C@_0BC@PLA@DefaultDriverMode?$AA@ 004065b0     IDPROF.obj
+ 0003:000005c4       ??_C@_0BF@GHNP@SecondaryDATFilePath?$AA@ 004065c4     IDPROF.obj
+ 0003:000005dc       ??_C@_09EFCI@Device?5?$CFd?$AA@ 004065dc     IDPROF.obj
+ 0003:000005e8       ??_C@_06NBPC@Device?$AA@   004065e8     IDPROF.obj
+ 0003:000005f0       ??_C@_04EFNI@Name?$AA@     004065f0     IDPROF.obj
+ 0003:000005f8       ??_C@_02HNAB@?91?$AA@      004065f8     IDPROF.obj
+ 0003:000005fc       ??_C@_0N@EJLB@DEV_?$CF03d?4INI?$AA@ 004065fc     IDPROF.obj
+ 0003:0000060c       ??_C@_08KHEA@?$DMID?$DO?9?$CFs?6?$AA@ 0040660c     IDSUFU.obj
+ 0003:00000618       ??_C@_01PKAG@?3?$AA@       00406618     PROFILE.obj
+ 0003:0000061c       ??_C@_07FCNI@CC_ROOT?$AA@  0040661c     PROFILE.obj
+ 0003:00000624       ??_C@_06KCPA@?$CFs?2?$CFs?2?$AA@ 00406624     PROFILE.obj
+ 0003:0000062c       ??_C@_09EFEJ@CC_SYSTEM?$AA@ 0040662c     PROFILE.obj
+ 0003:00000638       ??_C@_04DCMN@?$CFs?$CFs?$AA@ 00406638     PROFILE.obj
+ 0003:00000640       ??_C@_0BD@PBH@?$CFsconfig?2system?2?$CFs?$AA@ 00406640     PROFILE.obj
+ 0003:00000654       ??_C@_0BA@KCHE@bncs_system?4ini?$AA@ 00406654     PROFILE.obj
+ 0003:00000664       ??_C@_07HOMN@csi?4ini?$AA@ 00406664     PROFILE.obj
+ 0003:0000066c       ??_C@_09ECJI@?$CFsdata?2?$CFs?$AA@ 0040666c     PROFILE.obj
+ 0003:00000678       ??_C@_05LCJC@?$CF08lx?$AA@ 00406678     bncsWM32:BncsWM32.obj
+ 0003:00000680       ___defaultmatherr          00406680     MSVCRT:merr.obj
+ 0003:00000690       ?f1@@3PAU_iobuf@@A         00406690     IDCMD.obj
+ 0003:00000694       ?lpMainDlgProc@@3P6GHXZA   00406694     IDMAIN.obj
+ 0003:00000698       ?bAccess@@3PAHA            00406698     IDMAIN.obj
+ 0003:0000163c       ?iCtrlType@@3HA            0040763c     IDMAIN.obj
+ 0003:00001640       ?iGoRXOnlyOnExternalFail@@3HA 00407640     IDMAIN.obj
+ 0003:00001644       ?hWndCSI@@3PAUHWND__@@A    00407644     IDMAIN.obj
+ 0003:00001648       ?bExtCtlType@@3EA          00407648     IDMAIN.obj
+ 0003:00001649       ?bExtDrvType@@3EA          00407649     IDMAIN.obj
+ 0003:0000164c       ?hWndMain@@3PAUHWND__@@A   0040764c     IDMAIN.obj
+ 0003:00001650       ?acVar@@3PAY0BAE@DA        00407650     IDMAIN.obj
+ 0003:00002078       ?lNetRx@@3JA               00408078     IDMAIN.obj
+ 0003:0000207c       ?lNetTx@@3JA               0040807c     IDMAIN.obj
+ 0003:00002080       ?bClosedown@@3HA           00408080     IDMAIN.obj
+ 0003:00002084       ?hWndDlg@@3PAUHWND__@@A    00408084     IDMAIN.obj
+ 0003:00002088       ?acPrintStore@@3PAY0ED@DA  00408088     IDMAIN.obj
+ 0003:000032dc       ?acDebug@@3PADA            004092dc     IDMAIN.obj
+ 0003:000034e0       ?hWndExt@@3PAUHWND__@@A    004094e0     IDMAIN.obj
+ 0003:000034e4       ?hMemFile@@3HA             004094e4     IDMAIN.obj
+ 0003:000034e8       ?iPrintPtr@@3HA            004094e8     IDMAIN.obj
+ 0003:000034ec       ?avVar@@3PADA              004094ec     IDMAIN.obj
+ 0003:000034f8       ?iInterfaceMode@@3HA       004094f8     IDMAIN.obj
+ 0003:000034fc       ?bStatusChanged@@3HA       004094fc     IDMAIN.obj
+ 0003:00003500       ?iInfoDrvNum@@3HA          00409500     IDMAIN.obj
+ 0003:00003504       ?iExtType@@3HA             00409504     IDMAIN.obj
+ 0003:00003508       ?iAppClosing@@3HA          00409508     IDMAIN.obj
+ 0003:0000350c       ?iDriverMode@@3HA          0040950c     IDMAIN.obj
+ 0003:00003510       ?iKbEnabled@@3HA           00409510     IDMAIN.obj
+ 0003:00003514       ?iWorkstation@@3HA         00409514     IDMAIN.obj
+ 0003:00003518       ?hMemory@@3PAXA            00409518     IDMAIN.obj
+ 0003:0000351c       ?aiVar@@3PAHA              0040951c     IDMAIN.obj
+ 0003:00003544       ?bLockEnabled@@3HA         00409544     IDMAIN.obj
+ 0003:00003548       ?acApplName@@3PADA         00409548     IDMAIN.obj
+ 0003:0000355c       ?acAltMemFilePath@@3PADA   0040955c     IDMAIN.obj
+ 0003:0000365c       ?hAltMemFile@@3HA          0040965c     IDMAIN.obj
+ 0003:00003660       ?bLockedSlot@@3PAHA        00409660     IDMAIN.obj
+ 0003:00007664       ?iStartupMode@@3HA         0040d664     IDMAIN.obj
+ 0003:00007668       ?hInst@@3PAUHINSTANCE__@@A 0040d668     IDMAIN.obj
+ 0003:0000766c       ?hMenuMain@@3PAUHMENU__@@A 0040d66c     IDMAIN.obj
+ 0003:00007670       ?bLastMsgType@@3EA         0040d670     IDMAIN.obj
+ 0003:00007674       ?hWndCtrl@@3PAUHWND__@@A   0040d674     IDMAIN.obj
+ 0003:00007678       ?hMenu@@3PAUHMENU__@@A     0040d678     IDMAIN.obj
+ 0003:0000767c       ?lMemorySize@@3JA          0040d67c     IDMAIN.obj
+ 0003:00007680       ?lpDialog@@3P6GHXZA        0040d680     IDMAIN.obj
+ 0003:00007684       ?bDebugMode@@3HA           0040d684     IDMAIN.obj
+ 0003:00007688       ?bCSIMsgType@@3EA          0040d688     IDMAIN.obj
+ 0003:0000768c       ?acClientName@@3PADA       0040d68c     IDMAIN.obj
+ 0003:000076a0       ?iSelectedSlot@@3HA        0040d6a0     IDMAIN.obj
+ 0003:000076a4       ?uSaveCount@@3IA           0040d6a4     IDMAIN.obj
+ 0003:000076a8       ?iLinesPerPage@@3HA        0040d6a8     IDPRFU.obj
+ 0003:000076ac       ?iLineSpace@@3HA           0040d6ac     IDPRFU.obj
+ 0003:000076b0       ?DocInfo@@3U_DOCINFOA@@A   0040d6b0     IDPRFU.obj
+ 0003:000076c4       ?hPdc@@3PAUHDC__@@A        0040d6c4     IDPRFU.obj
+ 0003:000076c8       ?TextMetric@@3UtagTEXTMETRICA@@A 0040d6c8     IDPRFU.obj
+ 0003:00007700       ??_C@_00A@?$AA@            0040d700     IDPRFU.obj
+ 0003:00008b04       ?iEnvType@@3HA             0040eb04     PROFILE.obj
+ 0003:00008d40       __dowildcard               0040ed40     MSVCRT:wildcard.obj
+ 0003:00008d44       __newmode                  0040ed44     MSVCRT:_newmode.obj
+ 0003:00008d48       __commode                  0040ed48     MSVCRT:xncommod.obj
+ 0003:00008d4c       __fmode                    0040ed4c     MSVCRT:xtxtmode.obj
+ 0003:00008d50       ___onexitend               0040ed50     <common>
+ 0003:00008d54       ___onexitbegin             0040ed54     <common>
+ 0003:00008d58       __adjust_fdiv              0040ed58     <common>
+
+ entry point at        0001:000033d0
+
+ Static symbols
+

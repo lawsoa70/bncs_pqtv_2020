@@ -1,0 +1,97 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="540" w="1240" h="50" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="1" x="0" y="0" w="1240" h="50">
+			<setting value="style=label" />
+			<setting value="labelstyle=blackbox" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="bg_tab_2" x="260" y="0" w="240" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=\images\htab400_deselected.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="bg_tab_1" x="20" y="0" w="240" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=\images\htab400_selected.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="bg_tab_3" x="500" y="0" w="240" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=\images\htab400_deselected.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tab_3" x="520" y="0" w="200" h="45">
+			<setting value="style=label" />
+			<setting value="stylesheet=tab_button_h" />
+			<setting value="statesheet=tab_deselected" />
+			<setting value="text=tab 3" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="tab_2" x="280" y="0" w="200" h="45">
+			<setting value="style=label" />
+			<setting value="stylesheet=tab_button_h" />
+			<setting value="statesheet=tab_deselected" />
+			<setting value="text=tab 2" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="tab_1" x="40" y="0" w="200" h="45">
+			<setting value="style=label" />
+			<setting value="stylesheet=tab_button_h" />
+			<setting value="statesheet=tab_selected" />
+			<setting value="text=tab 1" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="bg_tab_4" x="740" y="0" w="240" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=\images\htab400_deselected.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tab_4" x="760" y="0" w="200" h="45">
+			<setting value="style=label" />
+			<setting value="stylesheet=tab_button_h" />
+			<setting value="statesheet=tab_deselected" />
+			<setting value="text=tab 4" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="bg_tab_5" x="980" y="0" w="240" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=\images\htab400_deselected.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tab_5" x="1000" y="0" w="200" h="45">
+			<setting value="style=label" />
+			<setting value="stylesheet=tab_button_h" />
+			<setting value="statesheet=tab_deselected" />
+			<setting value="text=tab 5" />
+			<setting value="notify.pressed=true" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

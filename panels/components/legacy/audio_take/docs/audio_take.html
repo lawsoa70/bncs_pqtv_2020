@@ -1,0 +1,175 @@
+<html>
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- #BeginEditable "doctitle" -->
+<title>Take Component</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="siemens.css">
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" width="100%" height="100%" id="table1" bordercolor="#A0B6C0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="639" height="91" bgcolor="#A0B6C0">
+		<img border="0" src="header.jpg" width="638" height="91"></td>
+		<td height="91" valign="bottom" bgcolor="#A0B6C0">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td width="50">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+					<h1>Audio Take Component</h1>
+					<p>This component is the implementation of what's defined in 
+					Sky project SF03 section 8.2.1 and 8.2.2.</p>
+					<h2>Description</h2>
+					<p>This is a custom take component for Sky to router mono, 
+					stereo or surround (5.1) audio.</p>
+					<p>This actually uses age-old BNCS principles of &quot;route with 
+					mask&quot; where the mask defines how the route should be made. 
+					You'll see various references to &quot;mask&quot; in the code for this 
+					reason.</p>
+					<p>This is the default presentation (with source and 
+					destination values having been set to &quot;5.1&quot; sources.</p>
+					<blockquote>
+						<p><img border="0" src="audio_1.jpg"></p>
+					</blockquote>
+					<p>...and this a sample set of &quot;Take Special&quot; options:</p>
+					<blockquote>
+						<p>
+						<img border="0" src="audio_2.jpg"></p>
+					</blockquote>
+					<p>This control uses router databases to determine whether a 
+					source/destination is mono, stereo, 5.1 or 7/8.</p>
+					<p>This control does not make routes itself, but it does 
+					provide a &quot;take&quot; event for other controls to make routes.</p>
+					<p><b>Note: </b>This control works with global destination 
+					numbers. The instance (and lock instance) supplied defined 
+					the base infodriver number from which the appropriate device 
+					number is calculated. In practice this is an easy 
+					calculation</p>
+					<blockquote>
+						<p>device = base_device + ( global_dest / 4096 );</p>
+						<p>destination = global_dest % 4096</p>
+					</blockquote>
+					<p>This control is optimised for use with UI &quot;connections&quot;.</p>
+					<h2>Commands</h2>
+					<blockquote>
+						<table border="0" id="table3">
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>instance</td>
+								<td>mandatory</td>
+								<td>Instance of the device to take router source names 
+								from<br>
+								This is also used to determine the destination 
+								device which is calculated as above</td>
+							</tr>
+							<tr class="tick">
+								<td>lock_instance</td>
+								<td>optional</td>
+								<td>The base instance of the device to get lock 
+								information from. If it isn't supplied then the 
+								take button is always enabled with valid source/dest/take 
+								mode.<br>
+								This isn't an absolute device - device number is 
+								determined by the current destination</td>
+							</tr>
+							<tr class="tock">
+								<td>global_dest</td>
+								<td>runtime</td>
+								<td>The global destination index - this is used to put 
+								the router dest name in the pre-select label</td>
+							</tr>
+							<tr class="tick">
+								<td>source</td>
+								<td>runtime</td>
+								<td>The source index - this is used to put the 
+								router source name in the pre-select label</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Notifications</h2>
+					<blockquote>
+						<table border="0" id="table4">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>take.&lt;global_dest_index.&lt;mask&gt;=&lt;source&gt;</td>
+								<td>when the take button is pressed<br>
+								&lt;global_dest_index&gt; is the global dest index<br>
+								&lt;mask&gt; is &quot;how&quot; to make the route for the given 
+								indices<br>
+								&lt;source is the source index</td>
+							</tr>
+							<tr class="tock">
+								<td>undo</td>
+								<td>when the undo button is pressed</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Stylesheets</h2>
+					<blockquote>
+						<table border="0" id="table2">
+							<tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>dest_selected</td>
+								<td>Shown on the dest pre-select tally when the 
+								destination is set</td>
+							</tr>
+							<tr class="tock">
+								<td>dest_deselected</td>
+								<td>When the destination is not set</td>
+							</tr>
+							<tr class="tick">
+								<td>source_selected</td>
+								<td>Shown on the source pre-select tally when 
+								the source is set</td>
+							</tr>
+							<tr class="tock">
+								<td>source_deselected</td>
+								<td>When the source is not set</td>
+							</tr>
+							<tr class="tick">
+								<td>takeBackground</td>
+								<td>Background to the take button</td>
+							</tr>
+							<tr class="tock">
+								<td>groupbox</td>
+								<td>background to the control</td>
+							</tr>
+						</table>
+					</blockquote>
+					<h2>Developers Notes</h2>
+					<p>Internally the control makes consistent use of the &quot;mask&quot; 
+					- so that the value passed as &quot;mask&quot; is also the name of the 
+					buttons on the popup window.</p>
+					<!-- #EndEditable --></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+	<td valign="bottom" colspan="2" align="right">Copyright Siemens IT Solutions and Services Ltd. 2010</td>
+	</tr>
+</table>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
+  

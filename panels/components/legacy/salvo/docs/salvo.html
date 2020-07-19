@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><!-- #BeginTemplate "master.dwt" -->
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><!-- #BeginEditable "doctitle" --><title>salvo Component</title><!-- #EndEditable -->
+
+
+
+<link rel="stylesheet" type="text/css" href="bncs.css"></head><body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
+
+<table id="table1" border="0" bordercolor="#a0b6c0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+	<tbody><tr>
+		<td bgcolor="#a0b6c0" height="91" width="639">
+		<img src="header.jpg" border="0" height="91" width="638"></td>
+		<td bgcolor="#a0b6c0" height="91" valign="bottom">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top">
+		<table border="0" height="100%" width="100%">
+			<tbody><tr>
+				<td width="38">&nbsp;</td>
+					<td valign="top">
+					<!-- #BeginEditable "main" -->
+					<h1>Salvo</h1>
+					<h2>Description</h2>
+					<p>This component is used to send a sequence of crosspoint commands defined in the config file <b><tt>/config/salvoes.xml</tt></b>
+					</p>
+					<p>The format of the XML file is as follows:</p>
+					<blockquote>
+					<p style="background-color: rgb(255, 255, 153);"><tt>
+					&lt;salvoes&gt;<br>&nbsp;&nbsp;&nbsp; &lt;salvo id="jf_misc_1-1_2-2" 
+					instance="rtr_audio_analogue" &gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="172" dest="66" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="173" dest="67" /&gt;<br>&nbsp;&nbsp;&nbsp; 
+					&lt;/salvo&gt;<br>&nbsp;&nbsp;&nbsp; &lt;salvo id="jf_misc_3-1_4-2" 
+					instance="rtr_audio_analogue"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="174" dest="66" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="175" dest="67" /&gt;<br>&nbsp;&nbsp;&nbsp; 
+					&lt;/salvo&gt;<br>&nbsp;&nbsp;&nbsp; &lt;salvo id="jf_misc_1-3_2-4" 
+					instance="rtr_audio_analogue" &gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="172" dest="68" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="173" dest="69" /&gt;<br>&nbsp;&nbsp;&nbsp; 
+					&lt;/salvo&gt;<br>&nbsp;&nbsp;&nbsp; &lt;salvo id="jf_misc_3-3_4-4" 
+					instance="rtr_audio_analogue"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="174" dest="68" /&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					&lt;item source="175" dest="69" /&gt;<br>&nbsp;&nbsp;&nbsp; 
+					&lt;/salvo&gt;<br>&lt;/salvoes&gt;</tt></p>
+					</blockquote>
+					<ul>
+						<li>Each <strong>salvo</strong> element must have a 
+						unique id attribute and this is used by the component as 
+						a reference</li>
+						<li>The instance attribute defines which router device 
+						instance the crosspoint commands should be sent to</li>
+						
+              <li>The <strong>item</strong> child elements have two 
+						attributes that contain the source and destination for 
+						each crosspoint</li>
+
+					</ul>The component works with a packager, router or a router
+driven via an infodriver. This operation is determined by the "type" of
+the instance as per the following:<br>
+            <br>
+            <div style="margin-left: 40px;">
+            <table style="width: 668px; height: 100px;" id="table3" border="0">
+<tbody><tr class="tick"><th style="width: 240px;">Instance</th><th style="width: 139px;">Type</th><th style="width: 267px;">Crosspoint<br>
+</th></tr><tr>
+                  <td style="vertical-align: top; width: 240px;">Router</td>
+                  <td style="vertical-align: top; width: 139px;">Router<br>
+                  </td>
+                  <td style="vertical-align: top; width: 267px;">Router Crosspoint<br>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top; width: 240px;">Packager</td>
+                  <td style="vertical-align: top; width: 139px;">PackagerAuto</td>
+                  <td style="vertical-align: top; width: 267px;">Infodriver Write "index=&lt;source&gt;"<br>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top; width: 240px;">Router via Infodriver</td>
+                  <td style="vertical-align: top; width: 139px;">RouterInfodriver<br>
+                  </td>
+                  <td style="vertical-align: top; width: 267px;">Infodriver Write "&lt;source&gt;"<br>
+                  </td>
+                </tr>
+</tbody>
+            </table>
+            </div>
+            <br>
+
+					<h2>Commands</h2>
+					<blockquote>
+						<table style="width: 668px; height: 125px;" id="table3" border="0">
+							<tbody><tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>label</td>
+								<td>mandatory</td>
+								<td>The text to be shown on the salvo button</td>
+							</tr>
+							<tr class="tock">
+								<td style="height: 20px;">salvo</td>
+								<td style="height: 20px;">mandatory</td>
+								<td style="height: 20px;">The ID of the salvo as defined in <b><tt>salvoes.xml</tt></b></td>
+							</tr>
+							<tr class="tick">
+								<td>fire</td>
+								<td>run-time method</td>
+								<td>This command may be issued via connections 
+								to cause the salvo to fire<br>e.g. when a slave 
+								salvo should fire after a master salvo has fired 
+								- see Developers Notes below</td>
+							</tr>
+						</tbody></table>
+					</blockquote>
+					<h2>Notifications</h2>
+					<blockquote>
+						<table id="table4" border="0">
+							<tbody><tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>fired=&lt;salvo&gt;</td>
+								<td>notification&nbsp;that the salvo has been 
+								fired</td>
+							</tr>
+							</tbody></table>
+					</blockquote>
+					<h2>Stylesheets</h2>
+					<blockquote>
+						<table id="table2" border="0">
+							<tbody><tr>
+								<th>Name</th>
+								<th>Use</th>
+							</tr>
+							<tr class="tick">
+								<td>salvo_active</td>
+								<td>appearance when active <br>- indicates that 
+								all destinations have the source defined in the 
+								salvo currently routed </td>
+							</tr>
+							<tr class="tock">
+								<td>salvo_inactive</td>
+								<td>appearance when inactive<br>- indicates that 
+								one or more destinations do not have the source 
+								defined in the salvo</td>
+							</tr>
+							</tbody></table>
+					</blockquote>
+					<h2>Developers Notes</h2>
+					<p>To fire a salvo when another salvo fires the recommended 
+					connection is shown below:</p>
+					<p>
+					<span class="tick"><strong>Sender:</strong> another_salvo&nbsp;&nbsp;&nbsp;</span>
+					<span class="tock"><strong>Receiver:</strong> this_salvo&nbsp;&nbsp;&nbsp;</span>
+					<span class="tick"><strong>Event:</strong> fired=*&nbsp;&nbsp;&nbsp;</span>
+					<span class="tock"><strong>Command:</strong> fire=[value]</span>
+					</p>
+					<p>In addition to the salvo_active/salvo_inactive states are 
+					applied to the button it may also be useful to show the 
+					current source on each of the destinations that are routed 
+					by the salvo.<br>The tally component can be used to show the 
+					source that is currently routed to any destination and these 
+					can be added to the panel then arranged and labelled as 
+					required.</p>
+					<p>&nbsp;</p>
+					<!-- #EndEditable --></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr>
+	<td colspan="2" align="right" valign="bottom">Copyright Atos 2012</td>
+	</tr>
+</tbody></table>
+<!-- #EndTemplate -->
+
+</body></html>

@@ -1,0 +1,35 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="50" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="1" x="0" y="0" w="50" h="1002">
+			<setting value="style=label" />
+			<setting value="labelstyle=blackbox" />
+			<setting value="colour.background=black" />
+			<setting value="pixmapstretch=true" />
+		</control>
+		<control class="bncs_control" name="bg_tab_1" x="0" y="0" w="50" h="300">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmap=\images\vtab300.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="bg_tab_2" x="0" y="300" w="50" h="300">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=black" />
+			<setting value="pixmap=\images\vtab300.png" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tab_1" x="10" y="30" w="32" h="227">
+			<setting value="statesheet=tab_selected" />
+			<setting value="text=Page View" />
+			<setting value="textOrientation=-90" />
+		</control>
+		<control class="bncs_control" name="tab_2" x="10" y="340" w="32" h="227">
+			<setting value="statesheet=tab_deselected" />
+			<setting value="text=Group View" />
+			<setting value="textOrientation=-90" />
+		</control>
+	</container>
+</control_set>

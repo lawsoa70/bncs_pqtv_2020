@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT object_settings (object+)>
+<!ELEMENT object (setting+)>
+<!ATTLIST object
+	id CDATA #REQUIRED
+>
+<!ELEMENT setting EMPTY>
+<!ATTLIST setting
+	id CDATA #REQUIRED
+	value CDATA #REQUIRED
+>

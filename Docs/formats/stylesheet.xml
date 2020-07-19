@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<stylesheet>
+	<style name="default">
+		<setting value="colour.background=#c0c0c0" />
+		<setting value="colour.text=#000000" />
+	</style>
+	<style name="alarm_alarm">
+		<setting value="colour.background=#ff0000" />
+		<setting value="colour.text=#ffffff" />
+	</style>
+	<style name="alarm_forceon">
+		<setting value="colour.background=#ff0000" />
+		<setting value="colour.text=#ffff00" />
+	</style>
+	<style name="alarm_forceoff">
+		<setting value="colour.background=#008000" />
+		<setting value="colour.text=#ffff00" />
+	</style>
+	<style name="alarm_ack">
+		<setting value="colour.background=#800000" />
+		<setting value="colour.text=#ffffff" />
+	</style>
+	<style name="alarm_ok">
+		<setting value="colour.background=#008000" />
+		<setting value="colour.text=#ffffff" />
+	</style>
+	<style name="paramlabel">
+		<setting value="style=label" />
+		<setting value="colour.background=#000080" />
+		<setting value="colour.text=#ffffff" />
+	</style>
+	<style name="dialog title">
+		<setting value="style=label" />
+		<setting value="colour.background=#ffffff" />
+		<setting value="colour.text=#000000" />
+		<setting value="font=arial bold" />
+		<setting value="fontsize=20" />
+	</style>
+	<style name="heading-group">
+		<setting value="style=label" />
+		<setting value="labelstyle=lowered" />
+		<setting value="colour.background=#000070" />
+		<setting value="colour.text=#ffffff" />
+		<setting value="font=arial bold" />
+		<setting value="fontsize=14" />
+		<setting value="height=40" />
+	</style>
+	<style name="enum_list">
+		<setting value="width=120" />
+		<setting value="height=40" />
+	</style>
+	<style name="enum_button">
+		<setting value="font=arial bold" />
+		<setting value="fontsize=12" />
+	</style>
+	<style name="enum_selected">
+		<setting value="colour.background=#00c000" />
+		<setting value="colour.text=#ffffff" />
+	</style>
+	<style name="enum_deselected">
+		<setting value="colour.background=#c0c0c0" />
+		<setting value="colour.text=#000000" />
+	</style>
+	<style name="enum_toppixmap">
+		<setting value="pixmapstretch=false" />
+		<setting value="pixmapalign=top" />
+		<setting value="textalign=bottom" />
+		<setting value="width=188" />
+		<setting value="height=80" />
+	</style>
+	<style name="bistate_normal">
+		<setting value="colour.background=#ffffff" />
+		<setting value="colour.text=#000080" />
+	</style>
+	<style name="bistate_warning">
+		<setting value="colour.background=#ffc000" />
+		<setting value="colour.text=black" />
+	</style>
+	<style name="close">
+		<setting value="font=arial bold" />
+		<setting value="fontsize=18" />
+		<setting value="colour.text=white" />
+		<setting value="pixmap=close.png"  />
+		<setting value="pixmapstretch=false" />
+		<setting value="pixmapalign=left" />
+		<setting value="textalign=right" />
+	</style>
+	<style name="knobs">
+		<setting value="font=arial bold" />
+		<setting value="fontsize=18" />
+		<setting value="colour.text=white" />
+		<setting value="pixmap=icon_knobs.png"  />
+		<setting value="pixmapstretch=false" />
+		<setting value="pixmapalign=left" />
+		<setting value="textalign=right" />
+	</style>
+	<style name="keypad_button">
+		<setting value="style=button" />
+		<setting value="colour.background=#c0c0c0" />
+		<setting value="colour.text=#000000" />
+		<setting value="font=arial bold" />
+		<setting value="fontsize=14" />
+	</style>
+	<style name="keypad_label">
+		<setting value="style=label" />
+		<setting value="colour.background=#000000" />
+		<setting value="colour.text=#ffffff" />
+		<setting value="font=arial bold" />
+		<setting value="fontsize=14" />
+		<setting value="textalign=left" />
+	</style>
+	<style name="destgrid_tally">
+		<setting value="colour.background=white" />
+		<setting value="colour.text=black" />
+	</style>
+	<style name="sourcegrid_tally">
+		<setting value="colour.background=#37354d" />
+		<setting value="colour.text=white" />
+	</style>
+	<style name="sourcegroup_deselected">
+		<setting value="colour.background=#808000" />
+		<setting value="colour.text=white" />
+	</style>
+	<style name="sourcegroup_selected">
+		<setting value="colour.background=#ffff00" />
+		<setting value="colour.text=black" />
+	</style>
+	<style name="destgroup_deselected">
+		<setting value="colour.background=#008000" />
+		<setting value="colour.text=white" />
+	</style>
+	<style name="destgroup_selected">
+		<setting value="colour.background=#00ff00" />
+		<setting value="colour.text=black" />
+	</style>
+	<style name="source_deselected">
+		<setting value="colour.background=" />
+		<setting value="colour.text=" />
+		<setting value="fontsize=4" />
+	</style>
+	<style name="source_selected">
+		<setting value="colour.background=#ffff00" />
+		<setting value="colour.text=black" />
+	</style>
+	<style name="dest_deselected">
+		<setting value="colour.background=" />
+		<setting value="colour.text=" />
+		<setting value="fontsize=4" />
+	</style>
+	<style name="dest_selected">
+		<setting value="colour.background=#00ff00" />
+		<setting value="colour.text=black" />
+		<setting value="fontsize=4" />
+	</style>
+	<style name="plainpixmap">
+		<setting value="style=label" />
+		<setting value="pixmapstretch=false" />
+		<setting value="labelstyle=none" />
+	</style>
+</stylesheet>

@@ -1,0 +1,71 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="964" w="1280" h="60" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<setting value="colour.background=#000080"/>
+		<setting value="pixmap=panelman/pm_appbar.png"/>
+		<control class="bncs_control" name="bgnd" x="-1" y="-1" w="1282" h="62">
+			<setting value="style=label" />
+			<setting value="pixmap=pm_appbar.png" />
+		</control>
+		<control class="bncs_control" name="1002" x="190" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1003" x="260" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1004" x="330" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1005" x="400" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1006" x="470" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1007" x="540" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1008" x="610" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1009" x="680" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1012" x="890" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1011" x="820" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1010" x="750" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1013" x="960" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1001" x="120" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="start" x="2" y="2" w="112" h="56">
+			<setting value="colour.background=#ffffff" />
+			<setting value="textalign=bottom" />
+			<setting value="pixmap=bncslogo.png" />
+		</control>
+		<control class="bncs_control" name="1014" x="1030" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_control" name="1015" x="1100" y="2" w="68" h="56">
+			<setting value="stylesheet=pm_deselected" />
+		</control>
+		<control class="bncs_enum" name="back" x="1177" y="2" w="100" h="56">
+			<setting value="style=button" />
+			<setting value="name=Back" />
+			<setting value="navigate=true" />
+			<setting value="navigatedest=/close" />
+			<setting value="navigate.adjust=true" />
+			<setting value="stylesheet.button=pm_back" />
+			<setting value="buttontext=name" />
+			<setting value="parameter=Simple Navigate" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1040" h="80" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<setting value="colour.background=#001a38"/>
+		<setting value="pixmap=panelman/pm_status.png"/>
+		<control class="bncs_script_loader" name="Script" x="0" y="0" w="1040" h="80">
+			<setting value="scriptname=/components/topstrap" />
+		</control>
+	</container>
+</control_set>

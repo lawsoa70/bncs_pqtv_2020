@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="grpSources" x="10" y="10" w="590" h="780">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Audio Sources" />
+		</control>
+		<control class="bncs_script_loader" name="Script" x="30" y="40" w="550" h="730">
+			<setting value="scriptname=/components/legacy/router_list" />
+			<setting value="instance=rtr_audio1_gallery" />
+			<setting value="database=0" />
+			<setting value="ExtraDatabase=-1" />
+			<setting value="range=1-7856" />
+			<setting value="panel=wide" />
+			<setting value="offset=0" />
+		</control>
+	</container>
+</control_set>

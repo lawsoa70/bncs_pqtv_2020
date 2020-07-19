@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<exclusions>
+	<regexp wildcard="true" >*.exp</regexp>
+	<regexp wildcard="true" >*.sbr</regexp>
+	<regexp wildcard="true" >*.plg</regexp>
+	<regexp wildcard="true" >*.ilk</regexp>
+	<regexp wildcard="true" >*.pch</regexp>
+	<regexp wildcard="true" >*.bak</regexp>
+	<regexp wildcard="true" >*.old</regexp>
+	<regexp wildcard="true" >*.aps</regexp>
+	<regexp wildcard="true" >*.pdb</regexp>
+	<regexp wildcard="true" >*.obj</regexp>
+	<regexp wildcard="true" >*.sdf</regexp>
+	<regexp wildcard="true" >*.opensdf</regexp>
+	<regexp wildcard="true" >*.res</regexp>
+	<regexp wildcard="true" >*.log</regexp>
+	<regexp wildcard="true" >*.tlog</regexp>
+	<regexp wildcard="true" >*.lastbuildstate</regexp>
+	<regexp wildcard="true" >*.tmp</regexp>
+	<regexp wildcard="true" >*.rc</regexp>
+	<regexp wildcard="true" >*.h</regexp>
+	<regexp wildcard="true" >*.cpp</regexp>
+	<regexp wildcard="true" >*.sln</regexp>
+	<regexp wildcard="true" >*.vcxproj</regexp>
+	<regexp wildcard="true" >*.vcxproj.filters</regexp>
+	<regexp wildcard="true" >*.vcxproj.user</regexp>
+	<regexp wildcard="true" >*.hhp</regexp>
+	<regexp wildcard="true" >*.suo</regexp>
+	<regexp wildcard="true" >*.bsc</regexp>
+	<regexp>^old$</regexp>
+	<regexp>^rc$</regexp>
+	<regexp>^generatedfiles$</regexp>
+	<regexp>^debug$</regexp>
+	<regexp>^release$</regexp>
+</exclusions>

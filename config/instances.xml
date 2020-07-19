@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE instances SYSTEM "instances.dtd">
+<instances>
+	<!--  Instances associated with the CNA-1 driver for Studio C etc. cameras -->
+	<instance composite="yes" id="cna_1_driver_stc" type="cna_1_driver" device_ip="10.84.250.130" device_port="7800" alt_id="Sony CNA 1 Driver Studio C">
+		<group id="cna_1"  instance="cna_1" />
+		<group id="rcp_01" instance="cna_1/rcp/01" />
+		<group id="rcp_02" instance="cna_1/rcp/02" />
+		<group id="rcp_03" instance="cna_1/rcp/03" />
+		<group id="rcp_04" instance="cna_1/rcp/04" />
+		<group id="rcp_05" instance="cna_1/rcp/05" />
+		<group id="rcp_06" instance="cna_1/rcp/06" />
+		<group id="rcp_07" instance="cna_1/rcp/07" />
+		<group id="rcp_08" instance="cna_1/rcp/08" />
+		<group id="rcp_09" instance="cna_1/rcp/09" />
+		<group id="rcp_10" instance="cna_1/rcp/10" />
+		<group id="cam_01" instance="cna_1/cam/01" />
+		<group id="cam_02" instance="cna_1/cam/02" />
+		<group id="cam_03" instance="cna_1/cam/03" />
+		<group id="cam_04" instance="cna_1/cam/04" />
+		<group id="cam_05" instance="cna_1/cam/05" />
+		<group id="cam_06" instance="cna_1/cam/06" />
+		<group id="cam_07" instance="cna_1/cam/07" />
+		<group id="cam_08" instance="cna_1/cam/08" />
+		<group id="cam_09" instance="cna_1/cam/09" />
+		<group id="cam_10" instance="cna_1/cam/10" />
+		<group id="cam_11" instance="cna_1/cam/11" />
+		<group id="cam_12" instance="cna_1/cam/12" />
+		<group id="cam_13" instance="cna_1/cam/13" />
+		<group id="cam_14" instance="cna_1/cam/14" />
+		<group id="cam_15" instance="cna_1/cam/15" />
+		<group id="cam_16" instance="cna_1/cam/16" />
+	</instance>
+	<instance composite="no" id="cna_1" type="cna_1" location="studio_c" ref="device=201,offset=0" alt_id="Sony CNA 1">
+		<setting id="DeviceNo"        value="90" />
+		<setting id="IP_Address"      value="10.84.250.130" />
+		<setting id="Port"            value="7800" />
+		<setting id="MasterIP"        value="10.84.250.141" />
+		<setting id="HttpStatus"      value="OK" />
+		<setting id="GatewayEnabled"  value="True" />
+		<setting id="Mode"            value="msu" /> <!-- msu or cna ? -->
+		<setting id="CnsMode"         value="mcs" />
+		<setting id="BridgeConMode"   value="active" />
+	</instance>
+	
+	<instance composite="no" id="cna_1/rcp/01" type="cna_1_rcp" location="studio_c" ref="device=201,offset=10" rcp_num="1"  alt_id="Gall C|RCP 1" />
+	<instance composite="no" id="cna_1/rcp/02" type="cna_1_rcp" location="studio_c" ref="device=201,offset=12" rcp_num="2"  alt_id="Gall C|RCP 2" />
+	<instance composite="no" id="cna_1/rcp/03" type="cna_1_rcp" location="studio_c" ref="device=201,offset=14" rcp_num="3"  alt_id="Gall C|RCP 3" />
+	<instance composite="no" id="cna_1/rcp/04" type="cna_1_rcp" location="studio_c" ref="device=201,offset=16" rcp_num="4"  alt_id="Gall C|RCP 4" />
+	<instance composite="no" id="cna_1/rcp/05" type="cna_1_rcp" location="studio_c" ref="device=201,offset=18" rcp_num="5"  alt_id="Gall C|RCP 5" />
+	<instance composite="no" id="cna_1/rcp/06" type="cna_1_rcp" location="studio_c" ref="device=201,offset=20" rcp_num="6"  alt_id="Gall C|RCP 6" />
+	<instance composite="no" id="cna_1/rcp/07" type="cna_1_rcp" location="studio_c" ref="device=201,offset=22" rcp_num="7"  alt_id="LVCR A|C7" />
+	<instance composite="no" id="cna_1/rcp/08" type="cna_1_rcp" location="studio_c" ref="device=201,offset=24" rcp_num="8"  alt_id="LVCR A|C8" />
+	<instance composite="no" id="cna_1/rcp/09" type="cna_1_rcp" location="studio_c" ref="device=201,offset=26" rcp_num="9"  alt_id="LVCR A|C9" />
+	<instance composite="no" id="cna_1/rcp/10" type="cna_1_rcp" location="studio_c" ref="device=201,offset=28" rcp_num="10" alt_id="LVCR A|C10" />
+
+	<instance composite="no" id="cna_1/cam/01" type="cna_1_ccu" location="studio_c" ref="device=202,offset=100"  ccu_num="1"  alt_id="1: STC|CAM 1" />
+	<instance composite="no" id="cna_1/cam/02" type="cna_1_ccu" location="studio_c" ref="device=202,offset=200"  ccu_num="2"  alt_id="2: STC|CAM 2" />
+	<instance composite="no" id="cna_1/cam/03" type="cna_1_ccu" location="studio_c" ref="device=202,offset=300"  ccu_num="3"  alt_id="3: STC|CAM 3" />
+	<instance composite="no" id="cna_1/cam/04" type="cna_1_ccu" location="studio_c" ref="device=202,offset=400"  ccu_num="4"  alt_id="4: STC|CAM 4" />
+	<instance composite="no" id="cna_1/cam/05" type="cna_1_ccu" location="studio_c" ref="device=202,offset=500"  ccu_num="5"  alt_id="5: STC|CAM 5" />
+	<instance composite="no" id="cna_1/cam/06" type="cna_1_ccu" location="studio_c" ref="device=202,offset=600"  ccu_num="6"  alt_id="6: Street|CAM 1" />
+	<instance composite="no" id="cna_1/cam/07" type="cna_1_ccu" location="studio_c" ref="device=202,offset=700"  ccu_num="7"  alt_id="7: Street|CAM 2" />
+	<instance composite="no" id="cna_1/cam/08" type="cna_1_ccu" location="studio_c" ref="device=202,offset=800"  ccu_num="8"  alt_id="8: Street|CAM 3" />
+	<instance composite="no" id="cna_1/cam/09" type="cna_1_ccu" location="studio_c" ref="device=202,offset=900"  ccu_num="9"  alt_id="9: Street|CAM 4" />
+	<instance composite="no" id="cna_1/cam/10" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1000" ccu_num="10" alt_id="10: Spare|CCU 10" />
+	<instance composite="no" id="cna_1/cam/11" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1100" ccu_num="11" alt_id="11: Riverside|CAM 1" />
+	<instance composite="no" id="cna_1/cam/12" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1200" ccu_num="12" alt_id="12: Riverside|CAM 2" />
+	<instance composite="no" id="cna_1/cam/13" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1300" ccu_num="13" alt_id="13: Riverside|CAM 3" />
+	<instance composite="no" id="cna_1/cam/14" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1400" ccu_num="14" alt_id="14: Riverside|CAM 4" />
+	<instance composite="no" id="cna_1/cam/15" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1500" ccu_num="15" alt_id="15: Newsroom|CAM 1" />
+	<instance composite="no" id="cna_1/cam/16" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1600" ccu_num="16" alt_id="16: Newsroom|CAM 2" />
+
+	<instance ref="device=331,offset=0"   composite="no" id="riedel_grd"                type="Riedel"              location=""         alt_id="Riedel Base device XY router" />
+	<instance ref="device=332,offset=0"   composite="no" id="riedel_monitor"            type="Riedel"              location=""         alt_id="Riedel Monitor Device" />
+	<instance ref="device=333,offset=0"   composite="no" id="riedel_pti"                type="Riedel"              location=""         alt_id="Riedel PTI Device" />
+	<instance ref="device=334,offset=0"   composite="no" id="riedel_alias"              type="Riedel"              location=""         alt_id="Riedel Alias Device" />
+	<instance ref="device=335,offset=0"   composite="no" id="riedel_gpio"               type="Riedel"              location=""         alt_id="Riedel GPIO Device" />
+	<instance ref="device=336,offset=0"   composite="no" id="riedel_gain"               type="Riedel"              location=""         alt_id="Riedel Gain Device" />
+	<instance ref="device=337,offset=0"   composite="no" id="riedel_conference"         type="Riedel"              location=""         alt_id="Riedel Conference Device" />
+	<instance ref="device=338,offset=0"   composite="no" id="riedel_ifb"                type="Riedel"              location=""         alt_id="Riedel IFB Device" />
+	<instance ref="device=339,offset=0"   composite="no" id="riedel_extras"             type="Riedel"              location=""         alt_id="Riedel Extras" />
+	<instance ref="device=341,offset=0"   composite="no" id="sncs_interface"            type="infodriver"          location=""         alt_id="" />
+	<instance ref="device=840,offset=0"   composite="no" id="rtr_ctl_test"              type="router"              location=""         alt_id="SDI Router|Test" />
+	<instance ref="device=850,offset=0"   composite="no" id="studio_b_evertz_mvs"       type="infodriver"          location="studio_b" alt_id="" />
+	<instance ref="device=860,offset=0"   composite="no" id="stb_sdi_memory"            type="memory_auto"         location="studio_b" alt_id="" />
+	<instance ref="device=861,offset=0"   composite="no" id="rtr_stb_sdi_2020"          type="router"              location="studio_b" alt_id="SDI Router|2020" />
+	<instance ref="device=862,offset=0"   composite="no" id="rtr_stb_sdi_lock_2020"     type="router"              location="studio_b" alt_id="" />
+	<instance ref="device=864,offset=0"   composite="no" id="rtr_stb_sdi_lock"          type="router"              location="studio_b" alt_id="" />
+	<instance ref="device=865,offset=0"   composite="no" id="rtr_stb_sdi"               type="router"              location="studio_b" alt_id="SDI Video|Router" />
+	<instance ref="device=867,offset=0"   composite="no" id="rtr_stb_calrec"            type="router_calrec"       location="studio_b" alt_id="Calrec Audio|Router" />
+	<instance ref="device=868,offset=0"   composite="no" id="rtr_stb_calrec_lock"       type="router_lock"         location="studio_b" alt_id="" />
+	<instance ref="device=870,offset=0"   composite="no" id="stb_calrec_memory"         type=""                    location="studio_b" alt_id="" />
+	<instance ref="device=880,offset=0"   composite="no" id="sta_sdi_memory"            type="memory_auto"         location="studio_a" alt_id="" />
+	<instance ref="device=881,offset=0"   composite="no" id="rtr_sta_sdi_2020"          type="router"              location="studio_a" alt_id="SDI Router|2020" />
+	<instance ref="device=882,offset=0"   composite="no" id="rtr_sta_sdi_lock_2020"     type="router"              location="studio_b" alt_id="" />
+	<instance ref="device=884,offset=0"   composite="no" id="rtr_sta_sdi_lock"          type="router"              location="studio_a" alt_id="" />
+	<instance ref="device=885,offset=0"   composite="no" id="rtr_sta_sdi"               type="router"              location="studio_a" alt_id="SDI Video|Router" />
+	<instance ref="device=886,offset=0"   composite="no" id="sta_aux"                   type=""                    location="studio_a" alt_id="Sony MVS8000A" />
+	<instance ref="device=887,offset=0"   composite="no" id="rtr_sta_nexus"             type="router_nexus"        location="studio_a" alt_id="Nexus Audio|Router" />
+	<instance ref="device=888,offset=0"   composite="no" id="rtr_sta_nexus_lock"        type="router_lock"         location="studio_a" alt_id="" />
+	<instance ref="device=889,offset=0"   composite="no" id="sta_gpi_ksc"               type="ksc_gpi_inputs"      location="studio_a" alt_id="" />
+	<instance ref="device=890,offset=0"   composite="no" id="stc_gpi_ksc"               type="ksc_gpi_inputs"      location="studio_c" alt_id="" />
+	<instance ref="device=891,offset=0"   composite="no" id="studio_test_state"         type="infodriver"          location=""         alt_id="" />
+	<instance ref="device=892,offset=0"   composite="no" id="stc_sdi_memory"            type="memory_auto"         location="studio_c" alt_id="" />
+	<instance ref="device=893,offset=0"   composite="no" id="rtr_stc_nexus_lock"        type="router_lock"         location="studio_c" alt_id="" />
+	<instance ref="device=894,offset=0"   composite="no" id="rtr_stc_sdi_lock"          type="router_lock"         location="studio_c" alt_id="" />
+	<instance ref="device=895,offset=0"   composite="no" id="rtr_stc_sdi"               type="router"              location="studio_c" alt_id="SDI Video|Router" />
+	<instance ref="device=896,offset=0"   composite="no" id="stc_aux"                   type="router"              location="studio_c" alt_id="Mixer|Aux Bus" />
+	<instance ref="device=897,offset=0"   composite="no" id="rtr_stc_nexus"             type="router_nexus"        location="studio_c" alt_id="Nexus Audio|Router" />	
+	<instance ref="device=898,offset=0"   composite="no" id="rtr_stc_prompt"            type="router"              location="studio_c" alt_id="PAL|Router" />	
+	<instance ref="device=899,offset=0"   composite="no" id="tv_studio_422"             type="router"              location=""         alt_id="" />
+	<instance ref="device=900,offset=0"   composite="no" id="stc_nexus_memory"          type=""                    location="studio_c" alt_id="" />
+	<instance ref="device=902,offset=0"   composite="no" id="studio_a_bfeksc_driver"    type="infodriver"          location="studio_a" alt_id="" />
+	<instance ref="device=903,offset=0"   composite="no" id="studio_a_bfeumdlabel_auto" type="infodriver"          location="studio_a" alt_id="" />
+	<instance ref="device=904,offset=0"   composite="no" id="studio_c_bfeksc_driver"    type="infodriver"          location="studio_c" alt_id="" />
+	<instance ref="device=905,offset=0"   composite="no" id="studio_c_bfeumdlabel_auto" type="infodriver"          location="studio_c" alt_id="" />
+	<instance ref="device=906,offset=0"   composite="no" id="rtr_sta_combiner"          type="router"              location="studio_a" alt_id="Married Routing" />
+	<instance ref="device=908,offset=0"   composite="no" id="studio_b_bfeksc_driver"    type="infodriver"          location="studio_b" alt_id="" />
+	<instance ref="device=909,offset=0"   composite="no" id="studio_b_bfeumdlabel_auto" type="infodriver"          location="studio_b" alt_id="" />
+	<instance ref="device=987,offset=0"   composite="no" id="workstation_tracker"       type="workstation_tracker" location="none"     alt_id="Workstation Tracker" />
+	<instance ref="device=995,offset=0"   composite="no" id="DeviceInfodriverId"        type="Device_ID"           location="none"     alt_id="Device Info driver ID" />
+	<instance ref="device=996,offset=0"   composite="no" id="WorkstationInfodriverId"   type="Device_ID"           location="none"     alt_id="Workstation Info driver ID" />
+	<instance ref="device=997,offset=0"   composite="no" id="studio_flexdisplay"        type="infodriver"          location="none"     alt_id="Flex Display System" />
+	<instance ref="device=998,offset=0"   composite="no" id="Panel_Navigate"            type="navigate"            location="none"     alt_id="Panel Navigate" />
+</instances>

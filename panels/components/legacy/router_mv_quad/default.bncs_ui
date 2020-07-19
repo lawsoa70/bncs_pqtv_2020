@@ -1,0 +1,26 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="210" h="70" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lblBackground" x="0" y="0" w="210" h="70">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblTally_2" x="105" y="0" w="100" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblTally_3" x="2" y="35" w="100" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblTally_1" x="3" y="0" w="100" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblTally_4" x="105" y="35" w="100" h="30">
+			<setting value="stylesheet=umd_large" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

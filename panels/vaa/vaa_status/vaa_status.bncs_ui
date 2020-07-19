@@ -1,0 +1,386 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="30" y="370" w="1211" h="300">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=StudioC" />
+		</control>
+		<control class="bncs_enum" name="19" x="510" y="420" w="70" h="50">
+			<setting value="style=label" />
+			<setting value="name=TB Mics" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TB Mics" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=TB Mics ON" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TB Mics OFF" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_red_on" />
+		</control>
+		<control class="bncs_enum" name="16" x="50" y="480" w="532" h="150">
+			<setting value="style=label" />
+			<setting value="name=REH" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="nextstate=false" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=REH" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=REH" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=REH" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_reh_on" />
+		</control>
+		<control class="bncs_enum" name="15" x="590" y="480" w="532" h="150">
+			<setting value="style=label" />
+			<setting value="name=TX" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TX" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=TX" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TX" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_tx_on" />
+		</control>
+		<control class="bncs_enum" name="17" x="1130" y="480" w="70" h="70">
+			<setting value="style=label" />
+			<setting value="name=RedLights" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=RedLights" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=RED lights" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=RED lights" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_red_on" />
+		</control>
+		<control class="bncs_enum" name="22" x="690" y="420" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=MainLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=MainLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Main|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Main|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="24" x="740" y="420" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ResLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ResLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Clean|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Clean|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="26" x="790" y="420" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=CleanLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=CleanLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Res|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Res|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="28" x="840" y="420" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=RingLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=RingLU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Ring|main|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Ring|main|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="30" x="900" y="420" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ISO1LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO1LU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=ISO1|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO1|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="32" x="950" y="420" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ISO2LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO2LU" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=ISO2|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO2|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="21" x="590" y="420" w="70" h="50">
+			<setting value="style=label" />
+			<setting value="name=ReserveCleanDirty" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ReserveCleanDirty" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Dirty|Reserve" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Clean|Reserve" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_yellow_on" />
+		</control>
+		<control class="bncs_enum" name="20" x="1130" y="560" w="70" h="70">
+			<setting value="style=label" />
+			<setting value="name=FloorLights" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=FloorLights" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=Floor Lights|Enabled" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Floor Lights|Disabled" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_yellow_on" />
+		</control>
+		<control class="bncs_control" name="Label1" x="30" y="50" w="1211" h="300">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=StudioA" />
+		</control>
+		<control class="bncs_enum" name="23" x="510" y="100" w="70" h="50">
+			<setting value="style=label" />
+			<setting value="name=TB Mics" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TB Mics" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=TB Mics ON" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TB Mics OFF" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_red_on" />
+		</control>
+		<control class="bncs_enum" name="18" x="50" y="160" w="532" h="150">
+			<setting value="style=label" />
+			<setting value="name=REH" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="nextstate=false" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=REH" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=REH" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=REH" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_reh_on" />
+		</control>
+		<control class="bncs_enum" name="25" x="590" y="160" w="532" h="150">
+			<setting value="style=label" />
+			<setting value="name=TX" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TX" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=TX" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TX" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_tx_on" />
+		</control>
+		<control class="bncs_enum" name="27" x="1130" y="160" w="70" h="70">
+			<setting value="style=label" />
+			<setting value="name=RedLights" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=RedLights" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=RED lights" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=RED lights" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_red_on" />
+		</control>
+		<control class="bncs_enum" name="29" x="690" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=MainLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=MainLU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Main|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Main|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="31" x="740" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ResLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ResLU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Clean|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Clean|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="33" x="790" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=CleanLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=CleanLU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Res|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Res|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="34" x="840" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=RingLU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=RingLU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Ring|main|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Ring|main|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="35" x="900" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ISO1LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO1LU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=ISO1|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO1|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="36" x="950" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ISO2LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO2LU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=ISO2|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO2|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="37" x="590" y="100" w="70" h="50">
+			<setting value="style=label" />
+			<setting value="name=ReserveCleanDirty" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ReserveCleanDirty" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Dirty|Reserve" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Clean|Reserve" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_yellow_on" />
+		</control>
+		<control class="bncs_enum" name="38" x="1130" y="240" w="70" h="70">
+			<setting value="style=label" />
+			<setting value="name=FloorLights" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=FloorLights" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=Floor Lights|Enabled" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=Floor Lights|Disabled" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_yellow_on" />
+		</control>
+		<control class="bncs_enum" name="39" x="1000" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ISO2LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO3LU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=ISO3|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO3|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_enum" name="40" x="1050" y="100" w="50" h="50">
+			<setting value="style=label" />
+			<setting value="name=ISO2LU" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=ISO4LU" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=ISO4|LU" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=ISO4|LU" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_lineup_on" />
+		</control>
+		<control class="bncs_control" name="Label2" x="110" y="760" w="100" h="100">
+			<setting value="style=label" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/dr.evil.png" />
+		</control>
+	</container>
+</control_set>

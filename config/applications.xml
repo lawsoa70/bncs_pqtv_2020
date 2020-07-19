@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!DOCTYPE applications SYSTEM "applications.dtd">
+<applications>
+	<app id="router_xy/studio_a_nexus_list"      caption="Audio|XY"                  title="Audio XY"                    icon="/images/icon_database" />
+	<app id="router_xy/studio_a_sdi_grid"        caption="A Vision|XY"               title="A Vision XY"                 icon="/images/icon_xy" />
+	<app id="router_xy/studio_a_sdi_list"        caption="A Vision|XY"               title="A Vision XY"                 icon="/images/icon_database" />
+	<app id="router_xy/studio_a_sdi_ip_list"     caption="A NEW|XY"                  title="A NEW Vision XY"             icon="/images/icon_xy" />
+	<app id="router_xy/studio_b_sdi_grid"        caption="B Vision|XY"               title="B Vision XY"                 icon="/images/icon_xy" />
+	<app id="router_xy/studio_b_sdi_list"        caption="B Vision|XY"               title="B Vision XY"                 icon="/images/icon_database" />
+	<app id="router_xy/studio_b_calrec_grid"     caption="B Audio|XY"                title="B Audio XY"                  icon="/images/icon_xy" />
+	<app id="router_xy/studio_b_calrec_list"     caption="B Audio|XY"                title="B Audio XY"                  icon="/images/icon_database" />
+	<app id="router_xy/studio_c_nexus_list"      caption="C Audio|XY"                title="C Audio XY"                  icon="/images/icon_database" />
+	<app id="router_xy/studio_c_sdi_grid"        caption="C Vision|XY"               title="C Vision XY"                 icon="/images/icon_xy" />
+	<app id="router_xy/studio_c_sdi_grid_ncr"    caption="NCR Vision|XY"             title="NCR Vision XY"               icon="/images/icon_xy" />
+	<app id="router_xy/studio_c_sdi_list"        caption="C Vision|XY"               title=" C Vision XY"                icon="/images/icon_database" />
+	<app id="router_xy/studio_c_prompt_list"     caption="C Prompter|XY"             title="C Prompter XY"               icon="/images/icon_database" />
+	<app id="studio_a/audio_router_mapping"      caption="Audio|Mapping"             title="Audio Mapping"               icon="/images/icon_map" />
+	<app id="studio_a/comms_clean_feed"          caption="Comms|Clean Feed"          title="Comms Clean Feed"            icon="/images/icon_router_audio" />
+	<app id="studio_a/comms_highways"            caption="Comms|Highways"            title="Comms Highways"              icon="/images/icon_router_audio" />
+	<app id="studio_a/comms_os_listen"           caption="Comms|OS Listen"           title="Comms OS Listen"             icon="/images/icon_router_audio" />
+	<app id="studio_a/em_audio"                  caption="EM|Audio"                  title="EM Audio"                    icon="/images/icon_amu" />
+	<app id="studio_a/em_mons_left"              caption="EM|Vision L"               title="EM Vision Monitoring Left"   icon="/images/icon_router_sdi" />
+	<app id="studio_a/em_mons_right"             caption="EM|Vision R"               title="EM Vision Monitoring Right"  icon="/images/icon_router_sdi" />
+	<app id="studio_a/embedder_inputs"           caption="Embedder|Inputs"           title="Embedder Inputs"             icon="/images/icon_router_audio" />
+	<app id="studio_a/floor_previews"            caption="Floor|Previews"            title="Floor Previews"              icon="/images/icon_router_sdi" />
+	<app id="studio_a/grams_desk"                caption="Grams|Desk"                title="Grams Desk Inputs"           icon="/images/icon_gramsmix" />
+	<app id="studio_a/grams_machine"             caption="Grams|Machine"             title="Grams Machine Inputs"        icon="/images/icon_grams" />
+	<app id="studio_a/iso"                       caption="ISO"                       title="ISO Vision"                  icon="/images/icon_output" />
+	<app id="studio_a/iso_inhibits"              caption="Green Tally|Iso Inhibits"  title="ISO Inhibits"                icon="/images/icon_icut" />
+	<app id="studio_a/lvcr_stack"                caption="LVCR|Stack"                title="LVCR Stack"                  icon="/images/icon_stk" />
+	<app id="studio_a/mixer_capgen"              caption="Mix Cap|Inputs"            title="Mixer CapGen Inputs"         icon="/images/icon_capgen" />
+	<app id="studio_a/mv_inputs"                 caption="Multi|Viewer"              title="Multi Viewers"               icon="/images/icon_router_sdi" />
+	<app id="studio_a/pcr_audio_mon"             caption="PCR|Audio"                 title="PCR Audio Monitoring"        icon="/images/icon_shuffle" />
+	<app id="studio_a/pcr_stack"                 caption="PCR|Stack"                 title="PCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_a/protools"                  caption="Protools|Inputs"           title="Protools Inputs"             icon="/images/icon_protools" />
+	<app id="studio_a/scr_bay_mon"               caption="Bay|Monitor"               title="SCR Bay Monitoring"          icon="/images/icon_amu" />
+	<app id="studio_a/scr_stack"                 caption="SCR|Stack"                 title="SCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_a/sdi_router_mapping"        caption="A Video|Mapping"           title="A Video Mapping"             icon="/images/icon_map" />
+	<app id="studio_a/sdi_router_mapping_ip"     caption="A NEW|Mapping"             title="A NEW Video Mapping"         icon="/images/icon_map" />
+	<app id="studio_a/sdi_vista_router_mapping"  caption="Vista|Mapping"             title="Vista Mapping"               icon="/images/icon_map" />
+	<app id="studio_a/sir_mons"                  caption="Monitoring"                title="Vision Monitoring"           icon="/images/icon_stk" />
+	<app id="studio_a/SoftNameExternal_sta"      caption="SNCS|Soft Names"           title="External Sources"            icon="/images/icon_soft_external" />
+	<app id="studio_a/SoftNameLocal_sta"         caption="Local Soft"                title="Local Sources"               icon="/images/icon_soft_local" />
+	<app id="studio_a/SoftNameSncs_sta"          caption="SNCS|Labels"               title="Sncs Labels and Aliases"     icon="/images/icon_soft_sncs" />
+	<app id="studio_a/SoftNameSummary_sta"       caption="Summary"                   title="Soft Name Summary"           icon="/images/icon_soft_summary" />
+	<app id="studio_a/sound_bypass"              caption="Sound|Bypass"              title="Sound Bypass"                icon="/images/icon_bypass" />
+	<app id="studio_a/vaa_audio"                 caption="VAA|Audio"                 title="VAA Audio"                   icon="/images/icon_amu" />
+	<app id="studio_a/vaa_desk"                  caption="VAA|Monitor"               title="VAA Monitor"                 icon="/images/icon_router_sdi" />
+	<app id="studio_a/vision_bypass"             caption="Vision|Bypass"             title="Vision Bypass"               icon="/images/icon_bypass" />
+	<app id="studio_a/vision_spares"             caption="Vision|Spares"             title="Vision Spares"               icon="/images/icon_router_sdi" />
+	<app id="studio_a/vista_mixer"               caption="Vista"                     title="Vista A/B Mixer"             icon="/images/icon_mixer" />
+	<app id="studio_a/vlcr_audio"                caption="VLCR|Audio"                title="VLCR Audio"                  icon="/images/icon_vlcr_audio" />
+	<app id="studio_a/vt_inputs"                 caption="VTR|Inputs"                title="VTR Inputs"                  icon="/images/icon_vtr" />
+	<app id="studio_a/rcp_assign"                caption="RCPs"                      title="RCP Assignment"              icon="/images/icon_rcp" />
+    <app id="studio_b/sdi_router_mapping"        caption="B Video|Mapping"           title="B Video Mapping"             icon="/images/icon_map" />
+    <app id="studio_b/calrec_router_mapping"     caption="B Audio|Mapping"           title="B Audio Mapping"             icon="/images/icon_map" />
+	<app id="studio_b/SoftNameExternal_stb"      caption="B SNCS|Soft Names"         title="B External Sources"          icon="/images/icon_soft_external" />
+	<app id="studio_b/SoftNameLocal_stb"         caption="B Local|Soft"              title="B Local Sources"             icon="/images/icon_soft_local" />
+	<app id="studio_b/SoftNameSncs_stb"          caption="B SNCS|Labels"             title="B SNCS Labels and Aliases"   icon="/images/icon_soft_sncs" />
+	<app id="studio_b/SoftNameSummary_stb"       caption="B Summary"                 title="B Soft Name Summary"         icon="/images/icon_soft_summary" />
+    <app id="studio_b/pcr_stack"                 caption="B PCR|Stack"               title="B PCR Stack"                 icon="/images/icon_stk" />
+    <app id="studio_b/pcr_mons"                  caption="B PCR|Monitors"            title="B PCR Monitors"              icon="/images/icon_stk" />
+    <app id="studio_b/scr_stack"                 caption="B SCR|Stack"               title="B SCR Stack"                 icon="/images/icon_stk" />
+	<app id="studio_b/fcr_stack"                 caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_b/fcr_stack_v2"              caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_b/fcr_stack_v3"              caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_b/iso"                       caption="ISO"                       title="ISO Vision"                  icon="/images/icon_output" />
+	<app id="studio_b/de-embedder"               caption="De-Embed"                  title="De-Embedder"                 icon="/images/icon_calrec" />
+	<app id="studio_b/scr_quad_games2018"        caption="Quad|Split"                title="Quad Split"                  icon="/images/icon_mv4" />
+    <app id="mv_select"                          caption="Multiviewers"              title="Multiviewers"                icon="/images/icon_mv" />
+    <app id="studio_c/audio_router_mapping"      caption="Audio|Mapping"             title="Audio Mapping"               icon="/images/icon_map" />
+	<app id="studio_c/big_plasmas"               caption="Big|Plasmas"               title="Plasmas"                     icon="/images/icon_3plasma" />
+	<app id="studio_c/comms_clean_feed"          caption="Comms|Clean Feed"          title="Comms Clean Feed"            icon="/images/icon_router_audio" />
+	<app id="studio_c/comms_highways"            caption="Comms|Highways"            title="Comms Highways"              icon="/images/icon_router_audio" />
+	<app id="studio_c/comms_os_listen"           caption="Comms|OS Listen"           title="Comms OS Listen"             icon="/images/icon_router_audio" />
+	<app id="studio_c/em_audio"                  caption="EM|Audio"                  title="EM Audio"                    icon="/images/icon_amu" />
+	<app id="studio_c/em_mons"                   caption="EM|Vision"                 title="EM Vision Monitoring"        icon="/images/icon_router_sdi" />
+	<app id="studio_c/embedder_inputs"           caption="Embedder|Inputs"           title="Embedder Inputs"             icon="/images/icon_router_audio" />
+	<app id="studio_c/floor_previews"            caption="STC|Floor"                 title="STC Floor Previews"          icon="/images/icon_router_sdi" />
+	<app id="studio_c/grams_inputs"              caption="Grams|Inputs"              title="Grams Inputs"                icon="/images/icon_gramsmix" />
+	<app id="studio_c/iso"                       caption="ISO"                       title="ISO Vision"                  icon="/images/icon_output" />
+	<app id="studio_c/col_corr"                  caption="colour|correct"            title="Colour Correctors"           icon="/images/icon_rgb" />
+	<app id="studio_c/AR_select"                 caption="AR cam"                    title="AR camera selection"         icon="/images/icon_camera" />
+	<app id="studio_c/iso_inhibits"              caption="Green Tally|Iso Inhibits"  title="ISO Inhibits"                icon="/images/icon_icut" />
+	<app id="studio_c/mv_inputs"                 caption="Multi|Viewers"             title="STC Multi Viewers"           icon="/images/icon_router_sdi" />
+	<app id="studio_c/pcr_audio_mon"             caption="PCR|Audio"                 title="PCR Audio Monitoring"        icon="/images/icon_shuffle" />
+	<app id="studio_c/pcr_stack"                 caption="PCR|Stack"                 title="PCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_c/pyramix"                   caption="Pyramix|Inputs"            title="Pyramix Inputs"              icon="/images/icon_pyramix" />
+	<app id="studio_c/raven_inputs"              caption="Raven|Inputs"              title="Raven Inputs"                icon="/images/icon_capgen" />
+	<app id="studio_c/rep_shuffler"              caption="Eng Cam Pv|Monitors"       title="Eng PV Mon 1 - 4"            icon="/images/icon_4mons" />
+	<app id="studio_c/scr_bay_mon"               caption="Bay|Monitor"               title="SCR Bay Monitoring"          icon="/images/icon_amu" />
+	<app id="studio_c/scr_stack"                 caption="SCR|Stack"                 title="SCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_c/sdi_router_mapping"        caption="C Video|Mapping"           title="C Video Mapping"             icon="/images/icon_map" />
+	<app id="studio_c/sdi_router_mapping_ncr"    caption="NCR|Mapping"               title="NCR Video Mapping"           icon="/images/icon_map" />
+	<app id="studio_c/SoftNameExternal_stc"      caption="SNCS|Soft Names"           title="External Sources"            icon="/images/icon_soft_external" />
+	<app id="studio_c/SoftNameLocal_stc"         caption="Local Soft"                title="Local Sources"               icon="/images/icon_soft_local" />
+	<app id="studio_c/SoftNameSncs_stc"          caption="Sncs Labels"               title="Sncs Labels and Aliases"     icon="/images/icon_soft_sncs" />
+	<app id="studio_c/SoftNameSummary_stc"       caption="Summary|"                  title="Soft Name Summary"           icon="/images/icon_soft_summary" />
+	<app id="studio_c/sound_bypass"              caption="Sound|Bypass"              title="Sound Bypass"                icon="/images/icon_bypass" />
+	<app id="studio_c/vaa_audio"                 caption="VAA|Audio"                 title="VAA Audio"                   icon="/images/icon_amu" />
+	<app id="studio_c/vaa_desk"                  caption="VAA|Monitor"               title="VAA Monitor"                 icon="/images/icon_router_sdi" />
+	<app id="studio_c/vision_bypass"             caption="Vision|Bypass"             title="Vision Bypass"               icon="/images/icon_bypass" />
+	<app id="studio_c/vision_spares"             caption="Vision|Spares"             title="Vision Spares"               icon="/images/icon_router_sdi" />
+	<app id="studio_c/vlcr_audio"                caption="VLCR|Audio"                title="VLCR Audio"                  icon="/images/icon_vlcr_audio" />
+	<app id="studio_c/vt_inputs"                 caption="VTR|Inputs"                title="VTR Inputs"                  icon="/images/icon_vtr" />
+	<app id="studio_c/wall_boxes"                caption="Wall|Boxes"                title="Wall Boxes"                  icon="/images/icon_wall" />
+	<app id="studio_c/level_3"                   caption="Street"                    title="Street"                      icon="/images/icon_street" />
+	<app id="studio_c/riverside"                 caption="Riverside"                 title="Riverside"                   icon="/images/icon_rvr_flr" />
+	<app id="studio_c/channel_stc"               caption="Mixer|inputs"              title="STC Mixer Inputs"            icon="/images/icon_sony" />
+	<app id="studio_c/ext_vf3"                   caption="External|Viewfinder 3"     title="Viewfinder Return 3"         icon="/images/icon_vf3" />
+	<app id="studio_c/EU_election_2019"          caption="EU19 Mons"                 title="EU Election 19 Office Mons"  icon="/images/icon_EU19" />
+	<app id="studio_c/prompt"                    caption="Prompts"                   title="Prompt Matrix"               icon="/images/prompt" />
+	<app id="studio_c/rcp_assign"                caption="RCPs"                      title="RCP Assignment"              icon="/images/icon_rcp" />
+	<app id="studio_c/newsroom_monitors"         caption="Newsroom|Multiviewer"      title="Newsroom Multiviewer"        icon="/images/icon_mv4" />
+	<app id="ncr/ncr_edit_d"                     caption="Edit D"                    title="Edit D"                      icon="/images/icon_vtr" />
+	<app id="ncr/ncr_prod_stack"                 caption="NCR Prod|Stack"            title="NCR Production Stack"        icon="/images/icon_stk" />
+	<app id="ncr/ncr_tech_stack"                 caption="NCR|Tech"                  title="NCR Technical"               icon="/images/icon_stk" />
+	<app id="ncr/ncr_sound_stack"                caption="NCR Sound|Stack"           title="NCR Sound Stack"             icon="/images/icon_stk" />
+	<app id="ncr/ncr_iso"                        caption="NCR Iso|Output"            title="NCR Iso output"              icon="/images/icon_ncr_iso" />
+	<app id="ncr/ncr_mv"                         caption="NCR|Multiviewer"           title="NCR Multiviewer"             icon="/images/icon_mv" />
+	<app id="ncr/col_corr_ncr"                   caption="colour|correct"            title="Colour Correctors"           icon="/images/icon_rgb" />
+	<app id="ncr/channel_ncr"                    caption="Kahuna|inputs"             title="NCR Mixer Inputs"            icon="/images/icon_router_sdi" />
+	<app id="ncr/ncr_newsroom_monitors"          caption="Newsroom|Multiviewer"      title="Newsroom Multiviewer"        icon="/images/icon_mv4" />
+	<app id="ncr/ncr_nr_plasma_feed"             caption="Newsroom|Projector"        title="Newsroom Projector feed"     icon="/images/icon_nrplasma" />
+	<app id="ncr/ncr_nr_plasma_feed_2017"        caption="Newsroom|Projector"        title="Newsroom Projector feed"     icon="/images/icon_nrplasma" />
+	<app id="ncr/stc_iso_ncr"                    caption="ISO"                       title="ISO Vision"                  icon="/images/icon_output" />
+	<app id="ncr/ncr_big_plasmas"                caption="Big|Plasmas"               title="Plasmas"                     icon="/images/icon_3plasma" />
+	<app id="ncr/ncr_floor_previews"             caption="STC|Floor"                 title="STC Floor Previews"          icon="/images/icon_router_sdi" />
+	<app id="ncr/ncr_level_3"                    caption="Street"                    title="Street"                      icon="/images/icon_ncr_street" />
+	<app id="vaa/vaa_status"                     caption="Studio|Status"             title="Studio Status"               icon="/images/status_vaa" />
+<!-- Place unused, test, or temporary applications below this line ************************************************************************* -->
+	<app id="riedel_test"                        caption="Riedel|Test"               title="Riedel Test Panel"           icon="/images/riedel" />
+	<app id="studio_b/router_test"               caption="Router|Test"               title="Router Test"                 icon="" />
+</applications>

@@ -1,0 +1,1142 @@
+ GRD32
+
+ Timestamp is 56ddfdb2 (Mon Mar 07 22:16:18 2016)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010decH .text                   CODE
+ 0001:00010df0 000003f1H .text$x                 CODE
+ 0002:00000000 000002ccH .idata$5                DATA
+ 0002:000002cc 00000004H .CRT$XCA                DATA
+ 0002:000002d0 00000004H .CRT$XCAA               DATA
+ 0002:000002d4 00000004H .CRT$XCZ                DATA
+ 0002:000002d8 00000004H .CRT$XIA                DATA
+ 0002:000002dc 00000004H .CRT$XIAA               DATA
+ 0002:000002e0 00000004H .CRT$XIY                DATA
+ 0002:000002e4 00000004H .CRT$XIZ                DATA
+ 0002:000002e8 00001574H .rdata                  DATA
+ 0002:0000185c 00000158H .rdata$r                DATA
+ 0002:000019b4 00000004H .rtc$IAA                DATA
+ 0002:000019b8 00000004H .rtc$IZZ                DATA
+ 0002:000019bc 00000004H .rtc$TAA                DATA
+ 0002:000019c0 00000004H .rtc$TZZ                DATA
+ 0002:000019c8 000004bcH .xdata$x                DATA
+ 0002:00001e84 000000c8H .idata$2                DATA
+ 0002:00001f4c 00000014H .idata$3                DATA
+ 0002:00001f60 000002ccH .idata$4                DATA
+ 0002:0000222c 00000b5cH .idata$6                DATA
+ 0002:00002d88 00000000H .edata                  DATA
+ 0003:00000000 00000388H .data                   DATA
+ 0003:000003a0 00014cd8H .bss                    DATA
+ 0004:00000000 000002fcH .rsrc$01                DATA
+ 0004:00000300 00009780H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ??1bad_alloc@std@@UAE@XZ   00401000 f i ccConfig.obj
+ 0001:00000010       ??_Ebad_alloc@std@@UAEPAXI@Z 00401010 f i ccConfig.obj
+ 0001:00000010       ??_Gbad_alloc@std@@UAEPAXI@Z 00401010 f i ccConfig.obj
+ 0001:00000040       ?compare@?$char_traits@D@std@@SAHPBD0I@Z 00401040 f i ccConfig.obj
+ 0001:000000c0       ?isV4Based@ccConfig@@SA_NXZ 004010c0 f   ccConfig.obj
+ 0001:00000120       ?isV3Based@ccConfig@@SA_NXZ 00401120 f   ccConfig.obj
+ 0001:000001a0       ?_Max@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@PAU342@@Z 004011a0 f i ccConfig.obj
+ 0001:000001c0       ?_Min@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@PAU342@@Z 004011c0 f i ccConfig.obj
+ 0001:000001e0       ??E?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 004011e0 f i ccConfig.obj
+ 0001:00000230       ??0bad_alloc@std@@QAE@ABV01@@Z 00401230 f i ccConfig.obj
+ 0001:00000250       ??F?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 00401250 f i ccConfig.obj
+ 0001:000002b0       ?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHIIPBDI@Z 004012b0 f i ccConfig.obj
+ 0001:00000320       ?allocate@?$allocator@D@std@@QAEPADI@Z 00401320 f i ccConfig.obj
+ 0001:00000370       ?_Lrotate@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@@Z 00401370 f i ccConfig.obj
+ 0001:000003d0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@@Z 004013d0 f i ccConfig.obj
+ 0001:00000430       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 00401430 f i ccConfig.obj
+ 0001:000004c0       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 004014c0 f i ccConfig.obj
+ 0001:00000630       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00401630 f i ccConfig.obj
+ 0001:00000660       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z 00401660 f i ccConfig.obj
+ 0001:00000710       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 00401710 f i ccConfig.obj
+ 0001:00000800       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 00401800 f i ccConfig.obj
+ 0001:000008f0       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 004018f0 f i ccConfig.obj
+ 0001:00000a10       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 00401a10 f i ccConfig.obj
+ 0001:00000b10       ??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@XZ 00401b10 f i ccConfig.obj
+ 0001:00000b60       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@$$QAV12@@Z 00401b60 f i ccConfig.obj
+ 0001:00000be0       ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 00401be0 f i ccConfig.obj
+ 0001:00000cc0       ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV10@ABV10@@Z 00401cc0 f i ccConfig.obj
+ 0001:00000d00       ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV10@PBD@Z 00401d00 f i ccConfig.obj
+ 0001:00000d50       ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 00401d50 f i ccConfig.obj
+ 0001:00000e20       ?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 00401e20 f   ccConfig.obj
+ 0001:00001020       ??$_Dest_val@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@std@@YAXAAV?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@0@PAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@@Z 00402020 f i ccConfig.obj
+ 0001:00001070       ?_Insert@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@@2@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@1@Z 00402070 f i ccConfig.obj
+ 0001:000012a0       ?erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@@2@@Z 004022a0 f i ccConfig.obj
+ 0001:00001510       ?_Erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@@Z 00402510 f i ccConfig.obj
+ 0001:00001560       ?_Linsert@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@@std@@_N@2@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@2@_N@Z 00402560 f i ccConfig.obj
+ 0001:00001710       ??$_Cons_val@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@std@@YAXAAV?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@0@PAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@@Z 00402710 f i ccConfig.obj
+ 0001:000017a0       ?erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@@2@0@Z 004027a0 f i ccConfig.obj
+ 0001:00001860       ??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@@Z 00402860 f i ccConfig.obj
+ 0001:00001920       ?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z 00402920 f   ccConfig.obj
+ 0001:00001d30       ??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@XZ 00402d30 f i ccConfig.obj
+ 0001:00001d90       ?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z 00402d90 f   ccConfig.obj
+ 0001:00001f30       ?GRAbout_AboutDialogProc@@YGHPAUHWND__@@GGJ@Z 00402f30 f   GRABOUT.obj
+ 0001:00002000       ?GRAbout_About@@YAXXZ      00403000 f   GRABOUT.obj
+ 0001:00002020       ?GRAdrienne_Interrogate@@YAHH@Z 00403020 f   GRADRIEN.obj
+ 0001:00002080       ?GRAdrienne_Connect@@YAHHH@Z 00403080 f   GRADRIEN.obj
+ 0001:00002110       ?GRAdrienne_Decode@@YAXH@Z 00403110 f   GRADRIEN.obj
+ 0001:00002170       ?GRAdrienne_BufferClear@@YAXH@Z 00403170 f   GRADRIEN.obj
+ 0001:000021a0       ?GRAdrienne_DataIn@@YAXHE@Z 004031a0 f   GRADRIEN.obj
+ 0001:00002240       ?GRBbcRcp_Interrogate@@YAHH@Z 00403240 f   GRBBCRCP.obj
+ 0001:000022b0       ?GRBbcRcp_Connect@@YAHHH@Z 004032b0 f   GRBBCRCP.obj
+ 0001:00002340       ?GRBbcRcp_SplitRevertive@@YAHPADQAY0M@D@Z 00403340 f   GRBBCRCP.obj
+ 0001:000023f0       ?GRBbcRcp_Decode@@YAXPADH@Z 004033f0 f   GRBBCRCP.obj
+ 0001:00002510       ?GRBbcRcp_DataIn@@YAXHE@Z  00403510 f   GRBBCRCP.obj
+ 0001:00002650       ?GRBtsAsc_Interrogate@@YAHH@Z 00403650 f   GRBTSASC.obj
+ 0001:000026f0       ?GRBtsAsc_Connect@@YAHHH@Z 004036f0 f   GRBTSASC.obj
+ 0001:00002780       ?GRBtsAsc_Decode@@YAXPADH@Z 00403780 f   GRBTSASC.obj
+ 0001:00002840       ?GRBtsAsc_DataIn@@YAXHE@Z  00403840 f   GRBTSASC.obj
+ 0001:00002970       ?GRBtsEs_ACK@@YAXH@Z       00403970 f   GRBTSES.obj
+ 0001:000029b0       ?GRBtsEs_GetCheckSum@@YAEPADH@Z 004039b0 f   GRBTSES.obj
+ 0001:000029e0       ?GRBtsEs_Init@@YAHXZ       004039e0 f   GRBTSES.obj
+ 0001:00002ab0       ?GRBtsEs_Init2@@YAHXZ      00403ab0 f   GRBTSES.obj
+ 0001:00002b30       ?GRBtsEs_StartUpChk@@YAXXZ 00403b30 f   GRBTSES.obj
+ 0001:00002b50       ?GRBtsEs_Connect@@YAHHH@Z  00403b50 f   GRBTSES.obj
+ 0001:00002c50       ?GRBtsEs_Decode@@YAXH@Z    00403c50 f   GRBTSES.obj
+ 0001:00002dc0       ?GRBtsEs_DataIn@@YAXHE@Z   00403dc0 f   GRBTSES.obj
+ 0001:00002f30       ?GRCmd_RouterConnect@@YAHPAD@Z 00403f30 f   GRCMD.obj
+ 0001:00003370       ?GRCmd_RouterFile@@YAHPAD@Z 00404370 f   GRCMD.obj
+ 0001:000033d0       ?GRCmd_RouterLock@@YAHPAD@Z 004043d0 f   GRCMD.obj
+ 0001:00003480       ?GRCmd_RouterPoll@@YAHPAD@Z 00404480 f   GRCMD.obj
+ 0001:00003500       ?GRCmd_RouterQuery@@YAHPAD@Z 00404500 f   GRCMD.obj
+ 0001:00003580       ?GRCmd_Debug@@YAXHH@Z      00404580 f   GRCMD.obj
+ 0001:00003650       ?GRCmd_RouterModify@@YAHPAD@Z 00404650 f   GRCMD.obj
+ 0001:000037d0       ?GRComSup_OpenComm@@YAPAXHH@Z 004047d0 f   Grcomsup.obj
+ 0001:000038e0       ?GRComSup_Closedown@@YAXXZ 004048e0 f   Grcomsup.obj
+ 0001:00003910       ?GRComSup_IdToPort@@YAHH@Z 00404910 f   Grcomsup.obj
+ 0001:00003940       ?GRComSup_FlagError@@YAXH@Z 00404940 f   Grcomsup.obj
+ 0001:00003a30       ?GRComSup_DestToPort@@YAHH@Z 00404a30 f   Grcomsup.obj
+ 0001:00003a70       ?GRComSup_Init@@YAXXZ      00404a70 f   Grcomsup.obj
+ 0001:00003b00       ?GRComSup_SendData@@YAXHPAEH@Z 00404b00 f   Grcomsup.obj
+ 0001:00003c20       ?GRComSup_ClockDataIn@@YAXG@Z 00404c20 f   Grcomsup.obj
+ 0001:00003da0       ?GRCox_GetCheckSum@@YAEPADH@Z 00404da0 f   GRCOX.obj
+ 0001:00003dd0       ?GRCox_Interrogate@@YAHH@Z 00404dd0 f   GRCOX.obj
+ 0001:00003f80       ?GRCox_Connect@@YAHHH@Z    00404f80 f   GRCOX.obj
+ 0001:000040c0       ?CSISup_Link@@YAHXZ        004050c0 f   GRCSISUP.obj
+ 0001:000041c0       ?CSISup_Closedown@@YAXXZ   004051c0 f   GRCSISUP.obj
+ 0001:000041e0       ?CSISup_DisplayTxRxMode@@YAXI@Z 004051e0 f   GRCSISUP.obj
+ 0001:00004350       ?CSISup_TxRevertive@@YAXHHHH@Z 00405350 f   GRCSISUP.obj
+ 0001:00004630       ?CSISup_Init@@YAHXZ        00405630 f   GRCSISUP.obj
+ 0001:00004790       ?CSISup_AssertTxRxMode@@YAHI@Z 00405790 f   GRCSISUP.obj
+ 0001:00004820       ?GRDialog_EnableKeys@@YAX_N@Z 00405820 f   GRDIALOG.obj
+ 0001:000049e0       ?GRDialog_Take@@YAXXZ      004059e0 f   GRDIALOG.obj
+ 0001:00004b50       ?GRDialog_Tally@@YAXXZ     00405b50 f   GRDIALOG.obj
+ 0001:00004dd0       ?GRDialog_Update@@YAXXZ    00405dd0 f   GRDIALOG.obj
+ 0001:00004f80       ?GRDialog_RevDelayUpdate@@YAXXZ 00405f80 f   GRDIALOG.obj
+ 0001:00004fc0       ?GRDialog_FillSourceBox@@YAXXZ 00405fc0 f   GRDIALOG.obj
+ 0001:00005120       ?GRDialog_FillDestBox@@YAXXZ 00406120 f   GRDIALOG.obj
+ 0001:00005260       ?GRDialog_ClearErrors@@YAXXZ 00406260 f   GRDIALOG.obj
+ 0001:000052b0       ?setResizable@@YAXPAUHWND__@@_N@Z 004062b0 f   GRDIALOG.obj
+ 0001:00005350       ?GRDialog_ShowVirtuals@@YAXXZ 00406350 f   GRDIALOG.obj
+ 0001:000053f0       ?GRDialog_SourceHold@@YAXXZ 004063f0 f   GRDIALOG.obj
+ 0001:000054b0       ?GRDialog_ParkBtn@@YAXXZ   004064b0 f   GRDIALOG.obj
+ 0001:000055d0       ?GRDialog_Park@@YAXXZ      004065d0 f   GRDIALOG.obj
+ 0001:000055e0       ?GRDialog_Undo@@YAXXZ      004065e0 f   GRDIALOG.obj
+ 0001:000055f0       ?GRDialog_Reset@@YAXXZ     004065f0 f   GRDIALOG.obj
+ 0001:00005650       ?WriteGUIPos@@YAXPBD@Z     00406650 f   GRDIALOG.obj
+ 0001:000057c0       ?LoadGUIPos@@YAXPBDHH@Z    004067c0 f   GRDIALOG.obj
+ 0001:00005900       ?SaveGUIPos@@YAXXZ         00406900 f   GRDIALOG.obj
+ 0001:00005970       ?GRDialog_Closedown@@YAXXZ 00406970 f   GRDIALOG.obj
+ 0001:000059d0       ?GRDialog_SourceSelected@@YAXXZ 004069d0 f   GRDIALOG.obj
+ 0001:00005a40       ?GRDialog_DestSelected@@YAXXZ 00406a40 f   GRDIALOG.obj
+ 0001:00005ae0       ?GRDialog_Enable@@YAXXZ    00406ae0 f   GRDIALOG.obj
+ 0001:00005b00       ?GRDialog_EnableBtn@@YAXXZ 00406b00 f   GRDIALOG.obj
+ 0001:00005b80       ?GRDialog_ToggleLock@@YAXXZ 00406b80 f   GRDIALOG.obj
+ 0001:00005c00       ?GRDialog_Arrange@@YAXXZ   00406c00 f   GRDIALOG.obj
+ 0001:00005f40       ?GRDialog_SmallScreenMode@@YAXXZ 00406f40 f   GRDIALOG.obj
+ 0001:00005fd0       ?GRDialog_SourceHoldBtn@@YAXXZ 00406fd0 f   GRDIALOG.obj
+ 0001:00006040       ?GRDialog_DialogProc_ext@@YGJPAUHWND__@@IIJ@Z 00407040 f   GRDIALOG.obj
+ 0001:000062d0       ?GRDialog_InitDialog@@YAXXZ 004072d0 f   GRDIALOG.obj
+ 0001:000065a0       ?GRDialog_DialogProc@@YGJPAUHWND__@@IIJ@Z 004075a0 f   GRDIALOG.obj
+ 0001:00006ab0       ?GRDialog_Init@@YAXXZ      00407ab0 f   GRDIALOG.obj
+ 0001:00006c30       ?GRExt_Connect@@YAXHH@Z    00407c30 f   GREXT.obj
+ 0001:00006c50       ?GRExt_GetDest@@YAHH@Z     00407c50 f   GREXT.obj
+ 0001:00006c80       ?GRExt_SetDest@@YAXIJE@Z   00407c80 f   GREXT.obj
+ 0001:00006d00       ?GRExt_SendUserStr@@YAXPAD@Z 00407d00 f   GREXT.obj
+ 0001:00006d40       ?GRExt_RouteInternal@@YAXHH@Z 00407d40 f   GREXT.obj
+ 0001:00006d90       ?FwdBuff_Init@@YAXXZ       00407d90 f   GRFWDBUF.obj
+ 0001:00006dd0       ?FwdBuff_Write@@YAXPAD@Z   00407dd0 f   GRFWDBUF.obj
+ 0001:00006e20       ?FwdBuff_Read@@YAXXZ       00407e20 f   GRFWDBUF.obj
+ 0001:00006ea0       ?GRIdxfu_WriteIndex@@YAXXZ 00407ea0 f   GRIDXFU.obj
+ 0001:00006fc0       ?GRIdxfu_WriteLockFile@@YAXXZ 00407fc0 f   GRIDXFU.obj
+ 0001:00007090       ?GRIdxfu_ReadIndex@@YAXXZ  00408090 f   GRIDXFU.obj
+ 0001:000071f0       ?GRIdxfu_ReadLockFile@@YAXXZ 004081f0 f   GRIDXFU.obj
+ 0001:000072c0       ?GRLeitch_Interrogate@@YAHH@Z 004082c0 f   GRLEITCH.obj
+ 0001:00007370       ?GRLeitch_Connect@@YAHHH@Z 00408370 f   GRLEITCH.obj
+ 0001:00007420       ?GRLeitch_Decode@@YAXH@Z   00408420 f   GRLEITCH.obj
+ 0001:000075f0       ?GRLeitch_DataIn@@YAXHE@Z  004085f0 f   GRLEITCH.obj
+ 0001:000076b0       ?GRMain_Init@@YAXXZ        004086b0 f   GRMAIN.obj
+ 0001:00007740       ?GRMain_Closedown@@YAXXZ   00408740 f   GRMAIN.obj
+ 0001:000077e0       ?GRMain_ClientMsg@@YAXJ@Z  004087e0 f   GRMAIN.obj
+ 0001:000078d0       ?GRMain_DatabasePoll@@YAXIJ@Z 004088d0 f   GRMAIN.obj
+ 0001:00007960       ?GRMain_SendDestStr@@YAXIJ@Z 00408960 f   GRMAIN.obj
+ 0001:000079e0       ?GRMain_InquireGoTxRx@@YAHXZ 004089e0 f   GRMAIN.obj
+ 0001:00007b10       ?GRMain_ConfigFileAsPath@@YAPADH_N@Z 00408b10 f   GRMAIN.obj
+ 0001:00007b80       ?GRMain_DoHelp@@YAXXZ      00408b80 f   GRMAIN.obj
+ 0001:00007c20       ?GRMain_Initialise@@YAXXZ  00408c20 f   GRMAIN.obj
+ 0001:00007cd0       ?GRMain_ConfigStatusDialogProc@@YGHPAUHWND__@@IIJ@Z 00408cd0 f   GRMAIN.obj
+ 0001:00007d90       ?InitInstance@@YAHPAUHINSTANCE__@@H@Z 00408d90 f   GRMAIN.obj
+ 0001:00007e20       ?MainWndProc@@YGJPAUHWND__@@IIJ@Z 00408e20 f   GRMAIN.obj
+ 0001:00008cb0       ?InitApplication@@YAHPAUHINSTANCE__@@@Z 00409cb0 f   GRMAIN.obj
+ 0001:00008d20       _WinMain@16                00409d20 f   GRMAIN.obj
+ 0001:00008e30       ?GRNetCmd_Parse@@YAHPAD@Z  00409e30 f   GRNETCMD.obj
+ 0001:00009050       ?GRNetwork_Interrogate@@YAHH@Z 0040a050 f   GRNETWRK.obj
+ 0001:000090b0       ?GRNetwork_Connect@@YAHHH@Z 0040a0b0 f   GRNETWRK.obj
+ 0001:00009120       ?GRNetwork_Decode@@YAXH@Z  0040a120 f   GRNETWRK.obj
+ 0001:00009260       ?GRNetwork_DataIn@@YAXHE@Z 0040a260 f   GRNETWRK.obj
+ 0001:000092e0       ?GRNtpEq_GetEqNum@@YAHH@Z  0040a2e0 f   GRNTPEQ.obj
+ 0001:00009300       ?GRNtpEq_GetEqRange@@YAHH@Z 0040a300 f   GRNTPEQ.obj
+ 0001:00009330       ?GRNtpEq_GetDest@@YAHHH@Z  0040a330 f   GRNTPEQ.obj
+ 0001:00009350       ?GRNtpEq_Interrogate@@YAHH@Z 0040a350 f   GRNTPEQ.obj
+ 0001:000093c0       ?GRNtpEq_Connect@@YAHHH@Z  0040a3c0 f   GRNTPEQ.obj
+ 0001:00009480       ?GRNtpEq_Decode@@YAXPADH@Z 0040a480 f   GRNTPEQ.obj
+ 0001:000096e0       ?GRNtpEq_DataIn@@YAXHE@Z   0040a6e0 f   GRNTPEQ.obj
+ 0001:00009810       ?GRParser_FilterUserStr@@YAHPAD@Z 0040a810 f   GRPARSER.obj
+ 0001:00009850       ?GRParser_Parse@@YAXPAD@Z  0040a850 f   GRPARSER.obj
+ 0001:00009950       ?GRPesa_Decode@@YAXPADH@Z  0040a950 f   GRPESA.obj
+ 0001:00009a20       ?GRPesa_GetCheckSum@@YAXPAD0@Z 0040aa20 f   GRPESA.obj
+ 0001:00009aa0       ?GRPesa_Interrogate@@YAHI@Z 0040aaa0 f   GRPESA.obj
+ 0001:00009b60       ?GRPesa_Connect@@YAHII@Z   0040ab60 f   GRPESA.obj
+ 0001:00009c40       ?GRPesa_DataIn@@YAXHE@Z    0040ac40 f   GRPESA.obj
+ 0001:00009ce0       ?GRProbel_GetCheckSum@@YAEPADH@Z 0040ace0 f   GRPROBEL.obj
+ 0001:00009d10       ?GRProbel_Interrogate@@YAHH@Z 0040ad10 f   GRPROBEL.obj
+ 0001:00009da0       ?GRProbel_Connect@@YAHHH@Z 0040ada0 f   GRPROBEL.obj
+ 0001:00009e60       ?GRProbel_Decode@@YAXH@Z   0040ae60 f   GRPROBEL.obj
+ 0001:00009fe0       ?GRProbel_DataIn@@YAXHE@Z  0040afe0 f   GRPROBEL.obj
+ 0001:0000a0c0       ?GRProf_GrantAccess@@YAXH@Z 0040b0c0 f   Grprof.obj
+ 0001:0000a0e0       ?GRProf_GetVersionInfo@@YAXXZ 0040b0e0 f   Grprof.obj
+ 0001:0000a1b0       ?GRProf_ReadDialogPrefs@@YAXXZ 0040b1b0 f   Grprof.obj
+ 0001:0000a440       ?GRProf_Access@@YAXXZ      0040b440 f   Grprof.obj
+ 0001:0000a640       ?GRProf_Init@@YAXXZ        0040b640 f   Grprof.obj
+ 0001:0000bcf0       ?GRQuartz_Interrogate@@YAHH@Z 0040ccf0 f   GRQUARTZ.obj
+ 0001:0000bd70       ?GRQuartz_Connect@@YAHHH@Z 0040cd70 f   GRQUARTZ.obj
+ 0001:0000bdf0       ?GRQuartz_Decode@@YAXPADH@Z 0040cdf0 f   GRQUARTZ.obj
+ 0001:0000bef0       ?GRQuartz_DataIn@@YAXHE@Z  0040cef0 f   GRQUARTZ.obj
+ 0001:0000bfb0       ?GRRouSup_MapTallyTables@@YAXHH@Z 0040cfb0 f   GRROUSUP.obj
+ 0001:0000c000       ?GRRouSup_SourceValid@@YAHH@Z 0040d000 f   GRROUSUP.obj
+ 0001:0000c020       ?GRRouSup_DestValid@@YAHH@Z 0040d020 f   GRROUSUP.obj
+ 0001:0000c040       ?RRCmd_Connect_RSRD@@YAXHHH@Z 0040d040 f   GRRRD.obj
+ 0001:0000c0a0       ?RRCmd_GetRealSrce@@YAHH@Z 0040d0a0 f   GRRRD.obj
+ 0001:0000c0f0       ?RRCmd_Connect_VSRD@@YAXHHH@Z 0040d0f0 f   GRRRD.obj
+ 0001:0000c180       ?RRCmd_Trace@@YAXH@Z       0040d180 f   GRRRD.obj
+ 0001:0000c250       ?RRCmd_Connect_RSVD@@YAXHHH@Z 0040d250 f   GRRRD.obj
+ 0001:0000c280       ?RRCmd_Connect_VSVD@@YAXHHH@Z 0040d280 f   GRRRD.obj
+ 0001:0000c2b0       ?RRCmd_RouterConnect@@YAXPAD@Z 0040d2b0 f   GRRRD.obj
+ 0001:0000c3e0       ?GRSimple_Interrogate@@YAHH@Z 0040d3e0 f   GRSIMPLE.obj
+ 0001:0000c530       ?GRSimple_Connect@@YAHHH@Z 0040d530 f   GRSIMPLE.obj
+ 0001:0000c5a0       ?GRSMSGPI_Interrogate@@YAHH@Z 0040d5a0 f   GRSMSGPI.obj
+ 0001:0000c610       ?GRSMSGPI_Connect@@YAHHH@Z 0040d610 f   GRSMSGPI.obj
+ 0001:0000c690       ?GRSMSGPI_Decode@@YAXPADH@Z 0040d690 f   GRSMSGPI.obj
+ 0001:0000c720       ?GRSMSGPI_DataIn@@YAXHE@Z  0040d720 f   GRSMSGPI.obj
+ 0001:0000c7e0       ?GRSMSRTR_Interrogate@@YAHH@Z 0040d7e0 f   GRSMSRTR.obj
+ 0001:0000c850       ?GRSMSRTR_Connect@@YAHHH@Z 0040d850 f   GRSMSRTR.obj
+ 0001:0000c8c0       ?GRSMSRTR_Decode@@YAXPADH@Z 0040d8c0 f   GRSMSRTR.obj
+ 0001:0000c9b0       ?GRSMSRTR_DataIn@@YAXHE@Z  0040d9b0 f   GRSMSRTR.obj
+ 0001:0000ca70       ?BNCSSendMessage@@YAJPAUHWND__@@0IIJHHHE@Z 0040da70 f   GRSNDMSG.obj
+ 0001:0000cae0       ?GRSony_GetCheckSum@@YAEPADH@Z 0040dae0 f   GRSONY.obj
+ 0001:0000cb60       ?GRSony_Interrogate@@YAHH@Z 0040db60 f   GRSONY.obj
+ 0001:0000cbe0       ?GRSony_Connect@@YAHHH@Z   0040dbe0 f   GRSONY.obj
+ 0001:0000cca0       ?GRSony_Decode@@YAXH@Z     0040dca0 f   GRSONY.obj
+ 0001:0000ce00       ?GRSony_DataIn@@YAXHE@Z    0040de00 f   GRSONY.obj
+ 0001:0000cf60       ?ODS@@YAXPAD@Z             0040df60 f   GRSUFU.obj
+ 0001:0000cfb0       ?GetMultiplier@@YAEHH@Z    0040dfb0 f   GRSUFU.obj
+ 0001:0000cfd0       ?GetSource@@YAHEE@Z        0040dfd0 f   GRSUFU.obj
+ 0001:0000cff0       ?GetDestination@@YAHEE@Z   0040dff0 f   GRSUFU.obj
+ 0001:0000d010       ?GetArguments@@YAXPADH@Z   0040e010 f   GRSUFU.obj
+ 0001:0000d110       ?SendMsgToLog@@YAXPADH@Z   0040e110 f   GRSUFU.obj
+ 0001:0000d170       ?DataDump@@YAXPADH@Z       0040e170 f   GRSUFU.obj
+ 0001:0000d2a0       ?GRTimer_Delay@@YAXH@Z     0040e2a0 f   GRTIMER.obj
+ 0001:0000d2a0       ??3@YAXPAX0@Z              0040e2a0 f   ccConfig.obj
+ 0001:0000d2a0       ?GRProf_WriteWinPos@@YAXJ@Z 0040e2a0 f   Grprof.obj
+ 0001:0000d2b0       ?GRVistek_Interrogate@@YAHH@Z 0040e2b0 f   GRVISTEK.obj
+ 0001:0000d320       ?GRVistek_Connect@@YAHHH@Z 0040e320 f   GRVISTEK.obj
+ 0001:0000d390       ?GRVistek_Decode@@YAXPADH@Z 0040e390 f   GRVISTEK.obj
+ 0001:0000d520       ?GRVistek_DataIn@@YAXHE@Z  0040e520 f   GRVISTEK.obj
+ 0001:0000d650       ?_Min@?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@@Z 0040e650 f i indexMapping.obj
+ 0001:0000d670       ?_Max@?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@@Z 0040e670 f i indexMapping.obj
+ 0001:0000d690       ??F?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 0040e690 f i indexMapping.obj
+ 0001:0000d6f0       ??1?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE@XZ 0040e6f0 f i ccConfig.obj
+ 0001:0000d6f0       ??1?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE@XZ 0040e6f0 f i indexMapping.obj
+ 0001:0000d700       ??E?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 0040e700 f i indexMapping.obj
+ 0001:0000d750       ?_Lrotate@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@@Z 0040e750 f i indexMapping.obj
+ 0001:0000d7b0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@@Z 0040e7b0 f i indexMapping.obj
+ 0001:0000d810       ?_Insert@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@2@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@1@Z 0040e810 f i indexMapping.obj
+ 0001:0000da40       ?erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@2@@Z 0040ea40 f i indexMapping.obj
+ 0001:0000dca0       ?_Erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@@Z 0040eca0 f i indexMapping.obj
+ 0001:0000dce0       ?_Linsert@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@std@@_N@2@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@_N@Z 0040ece0 f i indexMapping.obj
+ 0001:0000ddc0       ??$_Cons_val@V?$allocator@U?$pair@$$CBHH@std@@@std@@U?$pair@$$CBHH@2@U?$pair@HH@2@@std@@YAXAAV?$allocator@U?$pair@$$CBHH@std@@@0@PAU?$pair@$$CBHH@0@$$QAU?$pair@HH@0@@Z 0040edc0 f i indexMapping.obj
+ 0001:0000dde0       ?unmapSource@indexMapping@@QAEHH@Z 0040ede0 f   indexMapping.obj
+ 0001:0000de60       ?unmapDest@indexMapping@@QAEHH@Z 0040ee60 f   indexMapping.obj
+ 0001:0000dee0       ?dumpSourceMapToDebug@indexMapping@@QAEXXZ 0040eee0 f   indexMapping.obj
+ 0001:0000dfc0       ?find@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@2@ABH@Z 0040efc0 f i indexMapping.obj
+ 0001:0000e030       ?clear@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAEXXZ 0040f030 f i indexMapping.obj
+ 0001:0000e080       ??$_Buynode@U?$pair@HH@std@@@?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@1@$$QAU?$pair@HH@1@@Z 0040f080 f i indexMapping.obj
+ 0001:0000e100       ?mapSource@indexMapping@@QAEHH@Z 0040f100 f   indexMapping.obj
+ 0001:0000e150       ?mapDest@indexMapping@@QAEHH@Z 0040f150 f   indexMapping.obj
+ 0001:0000e1a0       ?erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@@2@0@Z 0040f1a0 f i indexMapping.obj
+ 0001:0000e240       ??1?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ 0040f240 f i indexMapping.obj
+ 0001:0000e2a0       ??1indexMapping@@UAE@XZ    0040f2a0 f   indexMapping.obj
+ 0001:0000e340       ??_EindexMapping@@UAEPAXI@Z 0040f340 f i indexMapping.obj
+ 0001:0000e340       ??_GindexMapping@@UAEPAXI@Z 0040f340 f i indexMapping.obj
+ 0001:0000e370       ?load@indexMapping@@QAEXH@Z 0040f370 f   indexMapping.obj
+ 0001:0000e850       ??0indexMapping@@QAE@H@Z   0040f850 f   indexMapping.obj
+ 0001:0000e960       ?GetEnvironmentType@@YAHXZ 0040f960 f   PROFILE.obj
+ 0001:0000e9e0       ?GetSystemPath@@YAPADXZ    0040f9e0 f   PROFILE.obj
+ 0001:0000eab0       ?GetINIPath@@YAPADPAD@Z    0040fab0 f   PROFILE.obj
+ 0001:0000eb80       ?GetDataPath@@YAPADPAD@Z   0040fb80 f   PROFILE.obj
+ 0001:0000ebf0       ?GetLockPath@@YAPADPAD@Z   0040fbf0 f   PROFILE.obj
+ 0001:0000ec60       ?GetPrivateINIString@@YAXPBD00PADKQAD@Z 0040fc60 f   PROFILE.obj
+ 0001:0000ed10       ?WritePrivateINIString@@YAXPBD000@Z 0040fd10 f   PROFILE.obj
+ 0001:0000edb0       ??0sizedBuffer@@QAE@PBEHH@Z 0040fdb0 f   sizedBuffer.obj
+ 0001:0000ee10       ??1sizedBuffer@@UAE@XZ     0040fe10 f   sizedBuffer.obj
+ 0001:0000ee40       ?size@sizedBuffer@@QBEHXZ  0040fe40 f   sizedBuffer.obj
+ 0001:0000ee50       ?data@sizedBuffer@@QBEPBEXZ 0040fe50 f   sizedBuffer.obj
+ 0001:0000ee60       ??_GsizedBuffer@@UAEPAXI@Z 0040fe60 f i sizedBuffer.obj
+ 0001:0000ee60       ??_EsizedBuffer@@UAEPAXI@Z 0040fe60 f i sizedBuffer.obj
+ 0001:0000ee90       _BNCS32SendMessage         0040fe90 f   bncsWM32:BncsWM32.obj
+ 0001:0000ef80       _BNCS32ReceiveMessage      0040ff80 f   bncsWM32:BncsWM32.obj
+ 0001:0000f090       _CloseComm32               00410090 f   com32cm:Comms.obj
+ 0001:0000f170       _OpenComm32                00410170 f   com32cm:Comms.obj
+ 0001:0000f330       _ConfigComm32              00410330 f   com32cm:Comms.obj
+ 0001:0000f4e0       _EnableCommNotification    004104e0 f   com32cm:Comms.obj
+ 0001:0000f5a0       _GetCommError              004105a0 f   com32cm:Comms.obj
+ 0001:0000f620       _ReadComm                  00410620 f   com32cm:Comms.obj
+ 0001:0000f6a0       _WriteComm                 004106a0 f   com32cm:Comms.obj
+ 0001:0000f790       _ComRxThread@4             00410790 f   com32cm:Comms.obj
+ 0001:0000f8f0       _ProcessCommError          004108f0 f   com32cm:Comms.obj
+ 0001:0000f920       _ProcessBytes              00410920 f   com32cm:Comms.obj
+ 0001:0000f9d0       _bInitBuf                  004109d0 f   com32cm:Comms.obj
+ 0001:0000fa70       _bKillBufEx                00410a70 f   com32cm:Comms.obj
+ 0001:0000fa90       _bKillBuf                  00410a90 f   com32cm:Comms.obj
+ 0001:0000fae0       _bAddData                  00410ae0 f   com32cm:Comms.obj
+ 0001:0000fb80       _bAddByte                  00410b80 f   com32cm:Comms.obj
+ 0001:0000fbc0       _bGetData                  00410bc0 f   com32cm:Comms.obj
+ 0001:0000fc50       _bGetByte                  00410c50 f   com32cm:Comms.obj
+ 0001:0000fca0       _iRemainByte               00410ca0 f   com32cm:Comms.obj
+ 0001:0000fcd0       _iRemainByteEx             00410cd0 f   com32cm:Comms.obj
+ 0001:0000fd40       _HtmlHelpA@16              00410d40 f   htmlhelp:init.obj
+ 0001:0000fe40       ??0cBncsVersion@@QAE@PBD@Z 00410e40 f   BncsVersionInfo:cBncsVersion.obj
+ 0001:00010350       ??_GcBncsVersion@@UAEPAXI@Z 00411350 f i BncsVersionInfo:cBncsVersion.obj
+ 0001:00010350       ??_EcBncsVersion@@UAEPAXI@Z 00411350 f i BncsVersionInfo:cBncsVersion.obj
+ 0001:00010370       ??1cBncsVersion@@UAE@XZ    00411370 f   BncsVersionInfo:cBncsVersion.obj
+ 0001:00010450       ??_Etype_info@@UAEPAXI@Z   00411450 f i MSVCRT:ti_inst.obj
+ 0001:0001049c       ?what@exception@std@@UBEPBDXZ 0041149c f   MSVCRT:MSVCR100.dll
+ 0001:000104a2       ??3@YAXPAX@Z               004114a2 f   MSVCRT:MSVCR100.dll
+ 0001:000104a8       _memcpy                    004114a8 f   MSVCRT:MSVCR100.dll
+ 0001:000104ae       @__security_check_cookie@4 004114ae f   MSVCRT:secchk.obj
+ 0001:000104be       ??2@YAPAXI@Z               004114be f   MSVCRT:MSVCR100.dll
+ 0001:000104c4       __CxxThrowException@8      004114c4 f   MSVCRT:MSVCR100.dll
+ 0001:000104ca       ??0exception@std@@QAE@ABV01@@Z 004114ca f   MSVCRT:MSVCR100.dll
+ 0001:000104d0       ___CxxFrameHandler3        004114d0 f   MSVCRT:MSVCR100.dll
+ 0001:000104d6       _memset                    004114d6 f   MSVCRT:MSVCR100.dll
+ 0001:000107ba       _WinMainCRTStartup         004117ba f   MSVCRT:crtexew.obj
+ 0001:000107c4       _free                      004117c4 f   MSVCRT:MSVCR100.dll
+ 0001:000107ca       _strpbrk                   004117ca f   MSVCRT:MSVCR100.dll
+ 0001:000107d0       _malloc                    004117d0 f   MSVCRT:MSVCR100.dll
+ 0001:000107d6       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 004117d6 f   MSVCRT:ehvecdtr.obj
+ 0001:00010834       ??_M@YGXPAXIHP6EX0@Z@Z     00411834 f   MSVCRT:ehvecdtr.obj
+ 0001:00010897       ___report_gsfailure        00411897 f   MSVCRT:gs_report.obj
+ 0001:0001099d       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 0041199d f   MSVCRT:unhandld.obj
+ 0001:000109df       ___CxxSetUnhandledExceptionFilter 004119df f   MSVCRT:unhandld.obj
+ 0001:000109ee       __amsg_exit                004119ee f   MSVCRT:MSVCR100.dll
+ 0001:000109f4       __onexit                   004119f4 f   MSVCRT:atonexit.obj
+ 0001:00010a95       _atexit                    00411a95 f   MSVCRT:atonexit.obj
+ 0001:00010aac       __RTC_Initialize           00411aac f   MSVCRT:_initsect_.obj
+ 0001:00010ad2       __RTC_Terminate            00411ad2 f   MSVCRT:_initsect_.obj
+ 0001:00010af8       __XcptFilter               00411af8 f   MSVCRT:MSVCR100.dll
+ 0001:00010b00       __ValidateImageBase        00411b00 f   MSVCRT:pesect.obj
+ 0001:00010b40       __FindPESection            00411b40 f   MSVCRT:pesect.obj
+ 0001:00010b90       __IsNonwritableInCurrentImage 00411b90 f   MSVCRT:pesect.obj
+ 0001:00010c4c       __initterm                 00411c4c f   MSVCRT:MSVCR100.dll
+ 0001:00010c52       __initterm_e               00411c52 f   MSVCRT:MSVCR100.dll
+ 0001:00010c60       __SEH_prolog4              00411c60 f   MSVCRT:sehprolg4.obj
+ 0001:00010ca5       __SEH_epilog4              00411ca5 f   MSVCRT:sehprolg4.obj
+ 0001:00010cb9       __except_handler4          00411cb9 f   MSVCRT:chandler4gs.obj
+ 0001:00010cde       __setdefaultprecision      00411cde f   MSVCRT:fp8.obj
+ 0001:00010d06       __setargv                  00411d06 f   MSVCRT:dllargv.obj
+ 0001:00010d06       __matherr                  00411d06 f   MSVCRT:merr.obj
+ 0001:00010d09       ___security_init_cookie    00411d09 f   MSVCRT:gs_support.obj
+ 0001:00010da4       ?terminate@@YAXXZ          00411da4 f   MSVCRT:MSVCR100.dll
+ 0001:00010daa       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 00411daa f   MSVCRT:MSVCR100.dll
+ 0001:00010daa       ??1type_info@@UAE@XZ       00411daa f   MSVCRT:MSVCR100.dll
+ 0001:00010db0       __crt_debugger_hook        00411db0 f   MSVCRT:MSVCR100.dll
+ 0001:00010db6       __unlock                   00411db6 f   MSVCRT:MSVCR100.dll
+ 0001:00010dbc       ___dllonexit               00411dbc f   MSVCRT:MSVCR100.dll
+ 0001:00010dc2       __lock                     00411dc2 f   MSVCRT:MSVCR100.dll
+ 0001:00010dc8       __except_handler4_common   00411dc8 f   MSVCRT:MSVCR100.dll
+ 0001:00010dce       __invoke_watson            00411dce f   MSVCRT:MSVCR100.dll
+ 0001:00010dd4       __controlfp_s              00411dd4 f   MSVCRT:MSVCR100.dll
+ 0001:00010dda       _VerQueryValueA@16         00411dda f   version:VERSION.dll
+ 0001:00010de0       _GetFileVersionInfoA@16    00411de0 f   version:VERSION.dll
+ 0001:00010de6       _GetFileVersionInfoSizeA@8 00411de6 f   version:VERSION.dll
+ 0002:00000000       __imp__RegQueryValueExA@24 00413000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegOpenKeyExA@20    00413004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegCloseKey@4       00413008     advapi32:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 0041300c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp__BNCS32RxMessage     00413010     bncsif32:BNCSIF32.dll
+ 0002:00000014       __imp__BNCS32TxMessage     00413014     bncsif32:BNCSIF32.dll
+ 0002:00000018       \177BNCSIF32_NULL_THUNK_DATA 00413018     bncsif32:BNCSIF32.dll
+ 0002:0000001c       __imp__GetStockObject@4    0041301c     gdi32:GDI32.dll
+ 0002:00000020       __imp__DeleteObject@4      00413020     gdi32:GDI32.dll
+ 0002:00000024       __imp__CreateSolidBrush@4  00413024     gdi32:GDI32.dll
+ 0002:00000028       __imp__SetTextColor@8      00413028     gdi32:GDI32.dll
+ 0002:0000002c       __imp__SetBkColor@8        0041302c     gdi32:GDI32.dll
+ 0002:00000030       \177GDI32_NULL_THUNK_DATA  00413030     gdi32:GDI32.dll
+ 0002:00000034       __imp__lstrcpynA@12        00413034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__lstrcpyA@8          00413038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetModuleFileNameA@12 0041303c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__WinExec@8           00413040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetWindowsDirectoryA@8 00413044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GlobalFree@4        00413048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__CloseHandle@4       0041304c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__WaitForSingleObject@8 00413050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__PurgeComm@8         00413054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GlobalUnlock@4      00413058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GlobalLock@4        0041305c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetLastError@0      00413060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__CreateFileA@28      00413064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__SetLastError@4      00413068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GlobalAlloc@8       0041306c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetCommState@8      00413070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__SetCommState@8      00413074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetCommProperties@8 00413078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__CreateThread@24     0041307c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__CreateSemaphoreA@16 00413080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__SetCommTimeouts@8   00413084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__ClearCommError@12   00413088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetOverlappedResult@16 0041308c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__WriteFile@20        00413090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__CreateEventA@16     00413094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__ResetEvent@4        00413098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__ReadFile@20         0041309c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__ReleaseSemaphore@12 004130a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetTickCount@0      004130a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GlobalFlags@4       004130a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__GetSystemTimeAsFileTime@4 004130ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__GetCurrentProcessId@0 004130b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__GetCurrentThreadId@0 004130b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__QueryPerformanceCounter@4 004130b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__DecodePointer@4     004130bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__IsDebuggerPresent@0 004130c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__SetUnhandledExceptionFilter@4 004130c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__UnhandledExceptionFilter@4 004130c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__GetCurrentProcess@0 004130cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__TerminateProcess@8  004130d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__EncodePointer@4     004130d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__GetStartupInfoW@4   004130d8     kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__HeapSetInformation@16 004130dc     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__InterlockedCompareExchange@12 004130e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__Sleep@4             004130e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__InterlockedExchange@8 004130e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__GetPrivateProfileStringA@24 004130ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__WritePrivateProfileStringA@16 004130f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__GetPrivateProfileIntA@16 004130f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__OutputDebugStringA@4 004130f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__FreeLibrary@4       004130fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__GetProcAddress@8    00413100     kernel32:KERNEL32.dll
+ 0002:00000104       __imp__LoadLibraryA@4      00413104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp__GetTempPathA@8      00413108     kernel32:KERNEL32.dll
+ 0002:0000010c       \177KERNEL32_NULL_THUNK_DATA 0041310c     kernel32:KERNEL32.dll
+ 0002:00000110       __imp_?_Xout_of_range@std@@YAXPBD@Z 00413110     msvcprt:MSVCP100.dll
+ 0002:00000114       __imp_?_Xlength_error@std@@YAXPBD@Z 00413114     msvcprt:MSVCP100.dll
+ 0002:00000118       \177MSVCP100_NULL_THUNK_DATA 00413118     msvcprt:MSVCP100.dll
+ 0002:0000011c       __imp___controlfp_s        0041311c     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp___invoke_watson      00413120     MSVCRT:MSVCR100.dll
+ 0002:00000124       __imp___except_handler4_common 00413124     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp___onexit             00413128     MSVCRT:MSVCR100.dll
+ 0002:0000012c       __imp___lock               0041312c     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp____dllonexit         00413130     MSVCRT:MSVCR100.dll
+ 0002:00000134       __imp___unlock             00413134     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp___crt_debugger_hook  00413138     MSVCRT:MSVCR100.dll
+ 0002:0000013c       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 0041313c     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp_?terminate@@YAXXZ    00413140     MSVCRT:MSVCR100.dll
+ 0002:00000144       __imp____set_app_type      00413144     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp___fmode              00413148     MSVCRT:MSVCR100.dll
+ 0002:0000014c       __imp___commode            0041314c     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp___configthreadlocale 00413150     MSVCRT:MSVCR100.dll
+ 0002:00000154       __imp___initterm_e         00413154     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp___initterm           00413158     MSVCRT:MSVCR100.dll
+ 0002:0000015c       __imp___acmdln             0041315c     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp__exit                00413160     MSVCRT:MSVCR100.dll
+ 0002:00000164       __imp___ismbblead          00413164     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp___XcptFilter         00413168     MSVCRT:MSVCR100.dll
+ 0002:0000016c       __imp___exit               0041316c     MSVCRT:MSVCR100.dll
+ 0002:00000170       __imp___cexit              00413170     MSVCRT:MSVCR100.dll
+ 0002:00000174       __imp____getmainargs       00413174     MSVCRT:MSVCR100.dll
+ 0002:00000178       __imp___amsg_exit          00413178     MSVCRT:MSVCR100.dll
+ 0002:0000017c       __imp__malloc              0041317c     MSVCRT:MSVCR100.dll
+ 0002:00000180       __imp__strpbrk             00413180     MSVCRT:MSVCR100.dll
+ 0002:00000184       __imp__free                00413184     MSVCRT:MSVCR100.dll
+ 0002:00000188       __imp__strtok              00413188     MSVCRT:MSVCR100.dll
+ 0002:0000018c       __imp___strupr             0041318c     MSVCRT:MSVCR100.dll
+ 0002:0000018c       __imp__strupr              0041318c     MSVCRT:MSVCR100.dll
+ 0002:00000190       __imp____setusermatherr    00413190     MSVCRT:MSVCR100.dll
+ 0002:00000194       __imp__fputc               00413194     MSVCRT:MSVCR100.dll
+ 0002:00000198       __imp__strchr              00413198     MSVCRT:MSVCR100.dll
+ 0002:0000019c       __imp_??0exception@std@@QAE@ABQBD@Z 0041319c     MSVCRT:MSVCR100.dll
+ 0002:000001a0       __imp_?what@exception@std@@UBEPBDXZ 004131a0     MSVCRT:MSVCR100.dll
+ 0002:000001a4       __imp_??1exception@std@@UAE@XZ 004131a4     MSVCRT:MSVCR100.dll
+ 0002:000001a8       __imp_??3@YAXPAX@Z         004131a8     MSVCRT:MSVCR100.dll
+ 0002:000001ac       __imp__memcpy              004131ac     MSVCRT:MSVCR100.dll
+ 0002:000001b0       __imp__memmove             004131b0     MSVCRT:MSVCR100.dll
+ 0002:000001b4       __imp__getenv              004131b4     MSVCRT:MSVCR100.dll
+ 0002:000001b8       __imp_??2@YAPAXI@Z         004131b8     MSVCRT:MSVCR100.dll
+ 0002:000001bc       __imp___CxxThrowException@8 004131bc     MSVCRT:MSVCR100.dll
+ 0002:000001c0       __imp_??0exception@std@@QAE@ABV01@@Z 004131c0     MSVCRT:MSVCR100.dll
+ 0002:000001c4       __imp____CxxFrameHandler3  004131c4     MSVCRT:MSVCR100.dll
+ 0002:000001c8       __imp__sprintf             004131c8     MSVCRT:MSVCR100.dll
+ 0002:000001cc       __imp__atoi                004131cc     MSVCRT:MSVCR100.dll
+ 0002:000001d0       __imp__fclose              004131d0     MSVCRT:MSVCR100.dll
+ 0002:000001d4       __imp__fgets               004131d4     MSVCRT:MSVCR100.dll
+ 0002:000001d8       __imp__fopen               004131d8     MSVCRT:MSVCR100.dll
+ 0002:000001dc       __imp__strncpy             004131dc     MSVCRT:MSVCR100.dll
+ 0002:000001e0       __imp__sscanf              004131e0     MSVCRT:MSVCR100.dll
+ 0002:000001e4       __imp__memset              004131e4     MSVCRT:MSVCR100.dll
+ 0002:000001e8       __imp___strlwr             004131e8     MSVCRT:MSVCR100.dll
+ 0002:000001e8       __imp__strlwr              004131e8     MSVCRT:MSVCR100.dll
+ 0002:000001ec       __imp__fgetc               004131ec     MSVCRT:MSVCR100.dll
+ 0002:000001f0       __imp__strstr              004131f0     MSVCRT:MSVCR100.dll
+ 0002:000001f4       \177MSVCR100_NULL_THUNK_DATA 004131f4     MSVCRT:MSVCR100.dll
+ 0002:000001f8       __imp__ShellExecuteA@24    004131f8     shell32:SHELL32.dll
+ 0002:000001fc       \177SHELL32_NULL_THUNK_DATA 004131fc     shell32:SHELL32.dll
+ 0002:00000200       __imp__PostMessageA@16     00413200     user32:USER32.dll
+ 0002:00000204       __imp__SetMenu@8           00413204     user32:USER32.dll
+ 0002:00000208       __imp__SetWindowLongA@12   00413208     user32:USER32.dll
+ 0002:0000020c       __imp__GetSystemMetrics@4  0041320c     user32:USER32.dll
+ 0002:00000210       __imp__GetWindowLongA@8    00413210     user32:USER32.dll
+ 0002:00000214       __imp__CheckMenuItem@12    00413214     user32:USER32.dll
+ 0002:00000218       __imp__GetWindowRect@8     00413218     user32:USER32.dll
+ 0002:0000021c       __imp__SetWindowPos@28     0041321c     user32:USER32.dll
+ 0002:00000220       __imp__IsWindowVisible@4   00413220     user32:USER32.dll
+ 0002:00000224       __imp__MessageBeep@4       00413224     user32:USER32.dll
+ 0002:00000228       __imp__SetMessageQueue@4   00413228     user32:USER32.dll
+ 0002:0000022c       __imp__GetMessageA@16      0041322c     user32:USER32.dll
+ 0002:00000230       __imp__TranslateMessage@4  00413230     user32:USER32.dll
+ 0002:00000234       __imp__DispatchMessageA@4  00413234     user32:USER32.dll
+ 0002:00000238       __imp__LoadIconA@8         00413238     user32:USER32.dll
+ 0002:0000023c       __imp__LoadCursorA@8       0041323c     user32:USER32.dll
+ 0002:00000240       __imp__RegisterClassA@4    00413240     user32:USER32.dll
+ 0002:00000244       __imp__IsWindow@4          00413244     user32:USER32.dll
+ 0002:00000248       __imp__SetFocus@4          00413248     user32:USER32.dll
+ 0002:0000024c       __imp__DefWindowProcA@16   0041324c     user32:USER32.dll
+ 0002:00000250       __imp__CreateWindowExA@48  00413250     user32:USER32.dll
+ 0002:00000254       __imp__PostQuitMessage@4   00413254     user32:USER32.dll
+ 0002:00000258       __imp__GetMenu@4           00413258     user32:USER32.dll
+ 0002:0000025c       __imp__CreateDialogParamA@20 0041325c     user32:USER32.dll
+ 0002:00000260       __imp__GetSysColor@4       00413260     user32:USER32.dll
+ 0002:00000264       __imp__GetSysColorBrush@4  00413264     user32:USER32.dll
+ 0002:00000268       __imp__LoadMenuA@8         00413268     user32:USER32.dll
+ 0002:0000026c       __imp__SetDlgItemTextA@12  0041326c     user32:USER32.dll
+ 0002:00000270       __imp__EndDialog@8         00413270     user32:USER32.dll
+ 0002:00000274       __imp__DialogBoxParamA@20  00413274     user32:USER32.dll
+ 0002:00000278       __imp__SetTimer@16         00413278     user32:USER32.dll
+ 0002:0000027c       __imp__UpdateWindow@4      0041327c     user32:USER32.dll
+ 0002:00000280       __imp__InvalidateRect@12   00413280     user32:USER32.dll
+ 0002:00000284       __imp__IsIconic@4          00413284     user32:USER32.dll
+ 0002:00000288       __imp__wsprintfA           00413288     user32:USER32.dll
+ 0002:0000028c       __imp__EnableMenuItem@12   0041328c     user32:USER32.dll
+ 0002:00000290       __imp__DrawMenuBar@4       00413290     user32:USER32.dll
+ 0002:00000294       __imp__EnableWindow@8      00413294     user32:USER32.dll
+ 0002:00000298       __imp__SetWindowTextA@8    00413298     user32:USER32.dll
+ 0002:0000029c       __imp__MessageBoxA@16      0041329c     user32:USER32.dll
+ 0002:000002a0       __imp__GetDlgItem@8        004132a0     user32:USER32.dll
+ 0002:000002a4       __imp__SendMessageA@16     004132a4     user32:USER32.dll
+ 0002:000002a8       __imp__KillTimer@8         004132a8     user32:USER32.dll
+ 0002:000002ac       __imp__ShowWindow@8        004132ac     user32:USER32.dll
+ 0002:000002b0       \177USER32_NULL_THUNK_DATA 004132b0     user32:USER32.dll
+ 0002:000002b4       __imp__GetFileVersionInfoA@16 004132b4     version:VERSION.dll
+ 0002:000002b8       __imp__VerQueryValueA@16   004132b8     version:VERSION.dll
+ 0002:000002bc       __imp__GetFileVersionInfoSizeA@8 004132bc     version:VERSION.dll
+ 0002:000002c0       \177VERSION_NULL_THUNK_DATA 004132c0     version:VERSION.dll
+ 0002:000002c4       __imp__setGrdHwnd          004132c4     grd32fix:grd32fix.dll
+ 0002:000002c8       \177grd32fix_NULL_THUNK_DATA 004132c8     grd32fix:grd32fix.dll
+ 0002:000002cc       ___xc_a                    004132cc     MSVCRT:cinitexe.obj
+ 0002:000002d4       ___xc_z                    004132d4     MSVCRT:cinitexe.obj
+ 0002:000002d8       ___xi_a                    004132d8     MSVCRT:cinitexe.obj
+ 0002:000002e4       ___xi_z                    004132e4     MSVCRT:cinitexe.obj
+ 0002:000002ec       ??_7bad_alloc@std@@6B@     004132ec     ccConfig.obj
+ 0002:000002f4       ??_C@_09DDAHAMBK@CC_SYSTEM?$AA@ 004132f4     ccConfig.obj
+ 0002:00000300       ??_C@_07JBEBLGDD@CC_ROOT?$AA@ 00413300     ccConfig.obj
+ 0002:00000308       ??_C@_06LLCHJONG@Config?$AA@ 00413308     ccConfig.obj
+ 0002:00000310       ??_C@_0L@DHJBNFFA@ConfigPath?$AA@ 00413310     ccConfig.obj
+ 0002:0000031b       ??_C@_00CNPNBAHC@?$AA@     0041331b     ccConfig.obj
+ 0002:0000031c       ??_C@_0BD@FFAKGAPP@c?3?2bncs_config?4ini?$AA@ 0041331c     ccConfig.obj
+ 0002:00000330       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 00413330     ccConfig.obj
+ 0002:00000348       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 00413348     ccConfig.obj
+ 0002:00000358       ??_C@_02DPKJAMEF@?$CFd?$AA@ 00413358     ccConfig.obj
+ 0002:0000035c       ??_C@_06KIMFAMMH@WINDIR?$AA@ 0041335c     ccConfig.obj
+ 0002:00000364       ??_C@_07IOFNEBNE@?2config?$AA@ 00413364     ccConfig.obj
+ 0002:0000036c       ??_C@_01KICIPPFI@?2?$AA@   0041336c     ccConfig.obj
+ 0002:00000370       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 00413370     ccConfig.obj
+ 0002:00000384       ??_C@_07PIGLAMMC@csi?4ini?$AA@ 00413384     ccConfig.obj
+ 0002:0000038c       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 0041338c     ccConfig.obj
+ 0002:000003a8       ??_C@_01LBDDMOBJ@?$FN?$AA@ 004133a8     ccConfig.obj
+ 0002:000003ac       ??_C@_01OHGJGJJP@?$FL?$AA@ 004133ac     ccConfig.obj
+ 0002:000003b0       ??_C@_01KDCPPGHE@r?$AA@    004133b0     ccConfig.obj
+ 0002:000003b4       ??_C@_08NKCCOMC@?2system?2?$AA@ 004133b4     ccConfig.obj
+ 0002:000003c0       ??_C@_02DKCKIIND@?$CFs?$AA@ 004133c0     GRABOUT.obj
+ 0002:000003c4       ??_C@_0L@JEBPJHPF@Version?5?$CFs?$AA@ 004133c4     GRABOUT.obj
+ 0002:000003d0       ??_C@_07FCJAGJJB@?$CFs?5?9?5?$CFs?$AA@ 004133d0     GRABOUT.obj
+ 0002:000003d8       ??_C@_0M@NPJAOAFJ@Mar?5?57?52016?$AA@ 004133d8     GRABOUT.obj
+ 0002:000003e4       ??_C@_08IBECGODO@22?304?324?$AA@ 004133e4     GRABOUT.obj
+ 0002:000003f0       ??_C@_05NPNNLANM@ABOUT?$AA@ 004133f0     GRABOUT.obj
+ 0002:000003f8       ??_C@_09PCDIIBDL@?4IA?$CFd?0?9?$CFc?$AA@ 004133f8     GRBBCRCP.obj
+ 0002:00000404       ??_C@_0M@CLNOECGA@?4S?$CFc?$CFd?0?$CFd?$CFc?$AA@ 00413404     GRBBCRCP.obj
+ 0002:00000410       ??_C@_05KABNCBHK@?$CFd?0?$CFd?$AA@ 00413410     GRBBCRCP.obj
+ 0002:00000418       ??_C@_08FCOFNLPJ@ZR?$CF03d?$CFc?$AA@ 00413418     GRBTSASC.obj
+ 0002:00000424       ??_C@_07MKHIJPHH@ZW999?$CFc?$AA@ 00413424     GRBTSASC.obj
+ 0002:0000042c       ??_C@_0N@OPPCJMNG@ZS?$CF03d?$CF03d?$CFc?$AA@ 0041342c     GRBTSASC.obj
+ 0002:0000043c       ??_C@_09KJBOCPHA@ZR?$CF03d?$CF3d?$AA@ 0041343c     GRBTSASC.obj
+ 0002:00000448       ??_C@_0FH@OCIIFPCA@Start?9up?5message?5?$CISTUR?$CJ?5received@ 00413448     GRBTSES.obj
+ 0002:000004a0       ??_C@_04JMOHHEMF@NACK?$AA@ 004134a0     GRBTSES.obj
+ 0002:000004a8       ??_C@_0BO@EIOGIDAB@Unknown?5primary?5response?5?$CF02x?$AA@ 004134a8     GRBTSES.obj
+ 0002:000004c8       ??_C@_0BB@JPPMGHAO@ROUTING?5?$CFd?5to?5?$CFd?$AA@ 004134c8     GRCMD.obj
+ 0002:000004e0       ??_C@_0FE@BDKIGILE@Request?5to?5route?5?$CFd?5to?5?$CFd?5change@ 004134e0     GRCMD.obj
+ 0002:00000534       ??_C@_0CI@OJAEAJMA@Request?5to?5route?5?$CFd?5to?5?$CFd?5on?5dev@ 00413534     GRCMD.obj
+ 0002:00000560       ??_C@_0EO@PLDPPLHH@Cannot?5route?5because?5dest?5?$CFd?5is?5@ 00413560     GRCMD.obj
+ 0002:000005b0       ??_C@_0FC@BHFLPGNM@Cannot?5route?5because?5source?5?$CFd?5i@ 004135b0     GRCMD.obj
+ 0002:00000604       ??_C@_08OKCDBCOK@?$CF04d?3?5?$CFs?$AA@ 00413604     GRCMD.obj
+ 0002:00000610       ??_C@_09EJACOFEF@?$CF04dv?3?5?$CFs?$AA@ 00413610     GRCMD.obj
+ 0002:0000061c       ??_C@_0BK@IHOKECEC@Can?8t?5open?5serial?5port?5?$CFd?$AA@ 0041361c     Grcomsup.obj
+ 0002:00000638       ??_C@_08IPHONAPF@COM?$CFd?5?$CFd?$AA@ 00413638     Grcomsup.obj
+ 0002:00000644       ??_C@_0BE@OILKNMAF@Comms?5ok?5on?5port?5?$CFd?$AA@ 00413644     Grcomsup.obj
+ 0002:00000658       ??_C@_02GIPFHKNO@OK?$AA@   00413658     Grcomsup.obj
+ 0002:0000065c       ??_C@_0BG@PGEFAEPB@Comms?5fail?5on?5port?5?$CFd?$AA@ 0041365c     Grcomsup.obj
+ 0002:00000674       ??_C@_04ODLKOBGJ@Fail?$AA@ 00413674     Grcomsup.obj
+ 0002:0000067c       ??_C@_02GMHACPFF@?$CFu?$AA@ 0041367c     Grcomsup.obj
+ 0002:00000680       ??_C@_0BN@DELKBMNA@Tx?5Error?5?80x?$CF04x?8?5on?5Port?5?$CFd?$AA@ 00413680     Grcomsup.obj
+ 0002:000006a0       ??_C@_0DP@PIAPAHPO@?$FLPort?5?$CFd?5?9?5?$CFd?$FN?5Tx?5?$CF02x?5?$CF02x?5?$CF02x@ 004136a0     Grcomsup.obj
+ 0002:000006e0       ??_C@_0M@DKCGKEKH@Byte?5?$DN?5?$CF02x?$AA@ 004136e0     GRCOX.obj
+ 0002:000006ec       ??_C@_0DJ@DBOFDGDA@Cannot?5find?5BBC?5Network?5Control?5@ 004136ec     GRCSISUP.obj
+ 0002:00000728       ??_C@_09MPNAHAN@?$CB?5Error?5?$CB?$AA@ 00413728     GRCSISUP.obj
+ 0002:00000734       ??_C@_0CK@BMPKJFHD@ccClient?3?5CSI?5handle?5from?5handle@ 00413734     GRCSISUP.obj
+ 0002:00000760       ??_C@_07OLHBNAMO@csiHwnd?$AA@ 00413760     GRCSISUP.obj
+ 0002:00000768       ??_C@_0BA@OPCDEPBM@handleShare?4dll?$AA@ 00413768     GRCSISUP.obj
+ 0002:00000778       ??_C@_0BK@JHHDNGJO@Requesting?5handle?5for?5CSI?$AA@ 00413778     GRCSISUP.obj
+ 0002:00000794       ??_C@_0CI@IOEPFCPH@GRD_?$CF03d?5?9?5Unknown?5Mode?$CB?5?9?5v?$CFs?5?9@ 00413794     GRCSISUP.obj
+ 0002:000007bc       ??_C@_06JPHCLLC@Error?$CB?$AA@ 004137bc     GRCSISUP.obj
+ 0002:000007c4       ??_C@_0CB@PCLDLCJE@GRD_?$CF03d?5?9?5RxOnly?5?9?5v?$CFs?5?9?5?$CC?5?$CFs?5?$CC@ 004137c4     GRCSISUP.obj
+ 0002:000007e8       ??_C@_0CO@KMCOADAF@GRD_?$CF03d?5?9?5RxOnly?5?9?5v?$CFs?5?9?5?$CC?5?$CFs?5?$CC@ 004137e8     GRCSISUP.obj
+ 0002:00000818       ??_C@_07OLJPPAAE@Rx?5Only?$AA@ 00413818     GRCSISUP.obj
+ 0002:00000820       ??_C@_0BP@DNLGOCPL@GRD_?$CF03d?5?9?5TXRX?5?9?5v?$CFs?5?9?5?$CC?5?$CFs?5?$CC?$AA@ 00413820     GRCSISUP.obj
+ 0002:00000840       ??_C@_0CM@EBDFKPAM@GRD_?$CF03d?5?9?5TXRX?5?9?5v?$CFs?5?9?5?$CC?5?$CFs?5?$CC?5?$CI@ 00413840     GRCSISUP.obj
+ 0002:0000086c       ??_C@_05GAAPAJPL@Tx?1Rx?$AA@ 0041386c     GRCSISUP.obj
+ 0002:00000874       ??_C@_05MNLODOPG@?$CF08ld?$AA@ 00413874     GRCSISUP.obj
+ 0002:0000087c       ??_C@_0BC@KNABGBDN@RR?5?$CF03d?5?$CF03d?5?$CF03d?$AA@ 0041387c     GRCSISUP.obj
+ 0002:00000890       ??_C@_0CC@NCHBOMBH@The?5supplied?5driver?5Id?5is?5invali@ 00413890     GRCSISUP.obj
+ 0002:000008b4       ??_C@_0DK@PNIGLNLE@Request?5refused?5?9?5CSI?5has?5not?5be@ 004138b4     GRCSISUP.obj
+ 0002:000008f0       ??_C@_0DK@JLDOAEPM@Request?5refused?5?9?5A?5driver?5has?5a@ 004138f0     GRCSISUP.obj
+ 0002:0000092c       ??_C@_0CJ@PAFNHGGJ@Request?5refused?5?9?5ID?5supplied?5is@ 0041392c     GRCSISUP.obj
+ 0002:00000958       ??_C@_0CB@NEMDEONF@Attempting?5to?5register?5device?5?$CFd@ 00413958     GRCSISUP.obj
+ 0002:0000097c       ??_C@_0BC@LBOILKLF@CSI?5handle?50x?$CF04x?$AA@ 0041397c     GRCSISUP.obj
+ 0002:00000990       ??_C@_04GPIFAJG@LOCK?$AA@  00413990     GRDIALOG.obj
+ 0002:00000998       ??_C@_06BJAJNFPJ@UNLOCK?$AA@ 00413998     GRDIALOG.obj
+ 0002:000009a0       ??_C@_07DKCFBCHE@ENABLED?$AA@ 004139a0     GRDIALOG.obj
+ 0002:000009a8       ??_C@_06OBPCDPOI@ENABLE?$AA@ 004139a8     GRDIALOG.obj
+ 0002:000009b0       ??_C@_0BF@PLKAHGAB@RC?5?$CFd?5?$CFd?5?$CFd?5?8?0?9?9?9?8?50?$AA@ 004139b0     GRDIALOG.obj
+ 0002:000009c8       ??_C@_05BIHCJKAJ@s?$CF04d?$AA@ 004139c8     GRDIALOG.obj
+ 0002:000009d0       ??_C@_04OCCELDNI@?$CF04d?$AA@ 004139d0     GRDIALOG.obj
+ 0002:000009d8       ??_C@_0CD@GALHAKII@Route?5Selected?5Source?5?$CI?5No?5Tally@ 004139d8     GRDIALOG.obj
+ 0002:000009fc       ??_C@_06CLBDIDBH@Source?$AA@ 004139fc     GRDIALOG.obj
+ 0002:00000a04       ??_C@_0BL@FADFGLPA@Source?5?$CI?5Virtual?5Tallies?5?$CJ?$AA@ 00413a04     GRDIALOG.obj
+ 0002:00000a20       ??_C@_0L@BDKMHHDB@0000?3?5PARK?$AA@ 00413a20     GRDIALOG.obj
+ 0002:00000a2c       ??_C@_01GBGANLPD@0?$AA@    00413a2c     GRDIALOG.obj
+ 0002:00000a30       ??_C@_06EBLJEIEC@Dialog?$AA@ 00413a30     GRDIALOG.obj
+ 0002:00000a38       ??_C@_08MLCJABEA@Virtuals?$AA@ 00413a38     GRDIALOG.obj
+ 0002:00000a44       ??_C@_0O@MDPGCHFJ@VIRTUAL?5TABLE?$AA@ 00413a44     GRDIALOG.obj
+ 0002:00000a54       ??_C@_01HIHLOKLC@1?$AA@    00413a54     GRDIALOG.obj
+ 0002:00000a58       ??_C@_0N@BJBIKLLH@ROUTER?5TABLE?$AA@ 00413a58     GRDIALOG.obj
+ 0002:00000a68       ??_C@_0M@HJAKEHBJ@SOURCE?5HOLD?$AA@ 00413a68     GRDIALOG.obj
+ 0002:00000a74       ??_C@_0N@DJHPHLNC@SHOW?5TALLIES?$AA@ 00413a74     GRDIALOG.obj
+ 0002:00000a84       ??_C@_04FDCIFJBN@Park?$AA@ 00413a84     GRDIALOG.obj
+ 0002:00000a8c       ??_C@_01BDACAMKP@h?$AA@    00413a8c     GRDIALOG.obj
+ 0002:00000a90       ??_C@_01NOFIACDB@w?$AA@    00413a90     GRDIALOG.obj
+ 0002:00000a94       ??_C@_01EANLCPLP@y?$AA@    00413a94     GRDIALOG.obj
+ 0002:00000a98       ??_C@_01FJMABOPO@x?$AA@    00413a98     GRDIALOG.obj
+ 0002:00000a9c       ??_C@_0O@LBFANDBE@?2dev_?$CF03d?4tmp?$AA@ 00413a9c     GRDIALOG.obj
+ 0002:00000aac       ??_C@_04IPBPFFEL@Load?$AA@ 00413aac     GRDIALOG.obj
+ 0002:00000ab4       ??_C@_0N@IJABICMN@DialogExtend?$AA@ 00413ab4     GRDIALOG.obj
+ 0002:00000ac4       ??_C@_0M@MDBAJHBM@SmallStatus?$AA@ 00413ac4     GRDIALOG.obj
+ 0002:00000ad0       ??_C@_09KNCOCJO@SmallList?$AA@ 00413ad0     GRDIALOG.obj
+ 0002:00000adc       ??_C@_05HOPBAMFM@?9?5?9?5?9?$AA@ 00413adc     GRDIALOG.obj
+ 0002:00000ae4       ??_C@_09EHFANNLN@EnableBtn?$AA@ 00413ae4     GRDIALOG.obj
+ 0002:00000af0       ??_C@_0BA@CMHODCGE@RL?5?$CFd?5?$CFd?5?$CFd?51?50?$AA@ 00413af0     GRDIALOG.obj
+ 0002:00000b00       ??_C@_0BA@JEMCFFAB@RL?5?$CFd?5?$CFd?5?$CFd?50?50?$AA@ 00413b00     GRDIALOG.obj
+ 0002:00000b10       ??_C@_07IEFBPACG@MORE?5?$DO?$DO?$AA@ 00413b10     GRDIALOG.obj
+ 0002:00000b18       ??_C@_06NAKDPMEE@Extend?$AA@ 00413b18     GRDIALOG.obj
+ 0002:00000b20       ??_C@_07OOHFCPIN@?$DM?$DM?5LESS?$AA@ 00413b20     GRDIALOG.obj
+ 0002:00000b28       ??_C@_0M@PBGMLHPL@SmallScreen?$AA@ 00413b28     GRDIALOG.obj
+ 0002:00000b34       ??_C@_08GKOOPLMO@External?$AA@ 00413b34     GRDIALOG.obj
+ 0002:00000b40       ??_C@_08DGAODAHG@Internal?$AA@ 00413b40     GRDIALOG.obj
+ 0002:00000b4c       ??_C@_04OHGLKFFN@?$CF03d?$AA@ 00413b4c     GRDIALOG.obj
+ 0002:00000b54       ??_C@_04IFEHPILC@Menu?$AA@ 00413b54     GRDIALOG.obj
+ 0002:00000b5c       ??_C@_07JKHJCFDG@Inhibit?$AA@ 00413b5c     GRDIALOG.obj
+ 0002:00000b64       ??_C@_0BI@OFOLMCK@Can?8t?5create?5dialog?5box?$AA@ 00413b64     GRDIALOG.obj
+ 0002:00000b7c       ??_C@_0L@FOEGJMGL@MAINDIALOG?$AA@ 00413b7c     GRDIALOG.obj
+ 0002:00000b88       ??_C@_0BM@PJMEJBBJ@Can?8t?5create?5ext?5dialog?5box?$AA@ 00413b88     GRDIALOG.obj
+ 0002:00000ba4       ??_C@_01DCLJPIOD@?$CB?$AA@ 00413ba4     GRDIALOG.obj
+ 0002:00000ba8       ??_C@_0P@JICPLCKL@MAINDIALOG_EXT?$AA@ 00413ba8     GRDIALOG.obj
+ 0002:00000bb8       ??_C@_0BA@EAJGLPAN@Creating?5Dialog?$AA@ 00413bb8     GRDIALOG.obj
+ 0002:00000bc8       ??_C@_0BJ@BFGDOIEE@wParam?5?$DN?5?$CFd?0?5lParam?5?$DN?5?$CFd?$AA@ 00413bc8     GREXT.obj
+ 0002:00000be4       ??_C@_0BG@GMIAFPNI@RC?5?$CFd?5?$CFd?5?$CFd?5?8?0?9?9?9?8?5?$CFd?$AA@ 00413be4     GREXT.obj
+ 0002:00000bfc       ??_C@_0CB@BCONAMPI@Couldn?8t?5write?5index?5file?5?9?5?8?$CFs?8@ 00413bfc     GRIDXFU.obj
+ 0002:00000c20       ??_C@_02GMLFBBN@wb?$AA@    00413c20     GRIDXFU.obj
+ 0002:00000c24       ??_C@_0N@HPCGAPLI@DEV_?$CF03d?4DAT?$AA@ 00413c24     GRIDXFU.obj
+ 0002:00000c34       ??_C@_0CA@LCONCFDO@Couldn?8t?5write?5lock?5file?5?9?5?8?$CFs?8?$AA@ 00413c34     GRIDXFU.obj
+ 0002:00000c54       ??_C@_0N@HEEMPNKH@DEV_?$CF03d?4LCK?$AA@ 00413c54     GRIDXFU.obj
+ 0002:00000c64       ??_C@_02JDPG@rb?$AA@       00413c64     GRIDXFU.obj
+ 0002:00000c68       ??_C@_09DOLFAIGA@?$EA?5X?$DP?$CFx?$CFx?$AN?$AA@ 00413c68     GRLEITCH.obj
+ 0002:00000c74       ??_C@_08HALPAFGP@?$EA?5?$DP?$ANT?5F?$AN?$AA@ 00413c74     GRLEITCH.obj
+ 0002:00000c80       ??_C@_0O@OIANJPMO@?$EA?5X?3?$CFx?1?$CFx?0?$CFx?$AN?$AA@ 00413c80     GRLEITCH.obj
+ 0002:00000c90       ??_C@_0BF@KDIGFDNI@Router?5Connect?5?$CFd?5?$CFd?$AA@ 00413c90     GRLEITCH.obj
+ 0002:00000ca8       ??_C@_0BD@EJOBMLDI@Result?5?9?$DO?5?$CFx?1?$CFx?0?$CFx?$AA@ 00413ca8     GRLEITCH.obj
+ 0002:00000cbc       ??_C@_02EDILEODF@?0X?$AA@  00413cbc     GRLEITCH.obj
+ 0002:00000cc0       ??_C@_05ODHKAGKE@?$CFx?0?$CFx?$AA@ 00413cc0     GRLEITCH.obj
+ 0002:00000cc8       ??_C@_0P@EDKDJMFB@GRD?5running?4?4?4?$AA@ 00413cc8     GRMAIN.obj
+ 0002:00000cd8       ??_C@_0P@HKFBNMB@GRD?5closing?4?4?4?$AA@ 00413cd8     GRMAIN.obj
+ 0002:00000ce8       ??_C@_04PMOCAHAA@open?$AA@ 00413ce8     GRMAIN.obj
+ 0002:00000cf0       ??_C@_0N@HJHMPMEE@DEV_?$CF03d?4INI?$AA@ 00413cf0     GRMAIN.obj
+ 0002:00000d00       ??_C@_04PICIEOBI@?4chm?$AA@ 00413d00     GRMAIN.obj
+ 0002:00000d08       ??_C@_04JLMDILM@?4exe?$AA@ 00413d08     GRMAIN.obj
+ 0002:00000d10       ??_C@_0FB@NJCHKFHA@The?5driver?5Id?5supplied?5as?5a?5comm@ 00413d10     GRMAIN.obj
+ 0002:00000d64       ??_C@_05MBJIDIPB@GRD32?$AA@ 00413d64     GRMAIN.obj
+ 0002:00000d6c       ??_C@_08HGKCAEJE@Ext?5?$CIWM?$CJ?$AA@ 00413d6c     GRMAIN.obj
+ 0002:00000d78       ??_C@_09GCLCOJEO@Ext?5?$CIDLL?$CJ?$AA@ 00413d78     GRMAIN.obj
+ 0002:00000d84       ??_C@_0DF@KEIKLAAE@External?5client?5is?5not?5acknowled@ 00413d84     GRMAIN.obj
+ 0002:00000dbc       ??_C@_0BK@HPKKIGMP@IDM_PANEL_SMALLSCREENMODE?$AA@ 00413dbc     GRMAIN.obj
+ 0002:00000dd8       ??_C@_0DF@KDBIPPK@Can?8t?5force?5GRD32?5TxRx?5state?5?9?5e@ 00413dd8     GRMAIN.obj
+ 0002:00000e10       ??_C@_0CD@MKNLAGMB@Device?5?$CF03d?3?5Force?5TxRx?5mode?5err@ 00413e10     GRMAIN.obj
+ 0002:00000e34       ??_C@_0M@DDNOHNFA@CONFIG_VIEW?$AA@ 00413e34     GRMAIN.obj
+ 0002:00000e40       ??_C@_08CPOKIBJK@Keyboard?$AA@ 00413e40     GRMAIN.obj
+ 0002:00000e4c       ??_C@_08JGILNPHN@Disabled?$AA@ 00413e4c     GRMAIN.obj
+ 0002:00000e58       ??_C@_07DOAOMMKG@Enabled?$AA@ 00413e58     GRMAIN.obj
+ 0002:00000e60       ??_C@_0JJ@MLOKCMPA@GRD32?5requires?5gr32fix?4exe?5in?5or@ 00413e60     GRMAIN.obj
+ 0002:00000efc       ??_C@_0M@CCBHJJLC@gr32fix?4exe?$AA@ 00413efc     GRMAIN.obj
+ 0002:00000f08       ??_C@_0CA@HNGGBPDA@NS?5?$CF03d?5?$CF03d?5?8TXRX?$DN?$CFd?8?5?$CFs?5?$CFs?5?$CFs?$AA@ 00413f08     GRNETCMD.obj
+ 0002:00000f28       ??_C@_04CLJHIJFO@txrx?$AA@ 00413f28     GRNETCMD.obj
+ 0002:00000f30       ??_C@_05DNIIFBMG@?$CFs?5?$CFs?$AA@ 00413f30     GRNETCMD.obj
+ 0002:00000f38       ??_C@_09DANKOKMA@?4ZM?$CFd?0?9?$CFc?$AA@ 00413f38     GRNTPEQ.obj
+ 0002:00000f44       ??_C@_0M@FAJDHMOF@?4Z?$CFc?$CFd?0?$CFd?$CFc?$AA@ 00413f44     GRNTPEQ.obj
+ 0002:00000f50       ??_C@_0BM@HIEBFIHB@Tally?5?$DO?5iDest?$DN?$CFd?5iSource?$DN?$CFd?$AA@ 00413f50     GRNTPEQ.obj
+ 0002:00000f6c       ??_C@_0BF@ECALHJFL@?$CFd?0?$CFd?0?$CFd?0?$CFd?0?$CFd?0?$CFd?0?$CFd?$AA@ 00413f6c     GRNTPEQ.obj
+ 0002:00000f84       ??_C@_0P@DDJDPHFH@Parsing?5?9?5?$FL?$CFs?$FN?$AA@ 00413f84     GRPARSER.obj
+ 0002:00000f94       ??_C@_0BD@KPKGNNK@Revertive?5?$CFd?5?$CFd?5?$CFd?$AA@ 00413f94     GRPESA.obj
+ 0002:00000fa8       ??_C@_0N@BMPDDOJB@?$CF03d?$CF02d?$CF03d?$AA@ 00413fa8     GRPESA.obj
+ 0002:00000fb8       ??_C@_05LLAKKKNM@Y?$CF03d?$AA@ 00413fb8     GRPESA.obj
+ 0002:00000fc0       ??_C@_09IOLBLHA@H?$CF03d?$CF03d?$AA@ 00413fc0     GRPESA.obj
+ 0002:00000fcc       ??_C@_02PGHGPEOM@?91?$AA@  00413fcc     Grprof.obj
+ 0002:00000fd0       ??_C@_05BIKBEGBP@?$CFd?9?$CFd?$AA@ 00413fd0     Grprof.obj
+ 0002:00000fd8       ??_C@_01JOAMLHOP@?9?$AA@   00413fd8     Grprof.obj
+ 0002:00000fdc       ??_C@_01IHBHIGKO@?0?$AA@   00413fdc     Grprof.obj
+ 0002:00000fe0       ??_C@_08EDKKPLCC@Security?$AA@ 00413fe0     Grprof.obj
+ 0002:00000fec       ??_C@_06IOEANFCI@Access?$AA@ 00413fec     Grprof.obj
+ 0002:00000ff4       ??_C@_03NIFPGLBG@ALL?$AA@  00413ff4     Grprof.obj
+ 0002:00000ff8       ??_C@_01NANMIPIL@N?$AA@    00413ff8     Grprof.obj
+ 0002:00000ffc       ??_C@_06OKNHBMNM@Parity?$AA@ 00413ffc     Grprof.obj
+ 0002:00001004       ??_C@_08DPBIGBFM@StopBits?$AA@ 00414004     Grprof.obj
+ 0002:00001010       ??_C@_01KJLJFBPL@8?$AA@    00414010     Grprof.obj
+ 0002:00001014       ??_C@_08GOLBGIKB@DataBits?$AA@ 00414014     Grprof.obj
+ 0002:00001020       ??_C@_05HOIAGEJD@Speed?$AA@ 00414020     Grprof.obj
+ 0002:00001028       ??_C@_04JEGELDEF@SONY?$AA@ 00414028     Grprof.obj
+ 0002:00001030       ??_C@_04CKJMIBIL@PESA?$AA@ 00414030     Grprof.obj
+ 0002:00001038       ??_C@_08PNAHHAIF@ADRIENNE?$AA@ 00414038     Grprof.obj
+ 0002:00001044       ??_C@_06OFFNPAAK@LEITCH?$AA@ 00414044     Grprof.obj
+ 0002:0000104c       ??_C@_07BCBHNHNG@NETWORK?$AA@ 0041404c     Grprof.obj
+ 0002:00001054       ??_C@_0M@NFNMKOED@BTSESSWITCH?$AA@ 00414054     Grprof.obj
+ 0002:00001060       ??_C@_06JEAENOKE@QUARTZ?$AA@ 00414060     Grprof.obj
+ 0002:00001068       ??_C@_08EGCFBHME@BTSASCII?$AA@ 00414068     Grprof.obj
+ 0002:00001074       ??_C@_08ILFOOMEH@SIMOSGPI?$AA@ 00414074     Grprof.obj
+ 0002:00001080       ??_C@_08ECKGCIKM@SIMOSRTR?$AA@ 00414080     Grprof.obj
+ 0002:0000108c       ??_C@_05KIAAHANH@NTPEQ?$AA@ 0041408c     Grprof.obj
+ 0002:00001094       ??_C@_06FEMBFDKD@VISTEK?$AA@ 00414094     Grprof.obj
+ 0002:0000109c       ??_C@_03FOLOMKJB@COX?$AA@  0041409c     Grprof.obj
+ 0002:000010a0       ??_C@_06MHBJNELB@SIMPLE?$AA@ 004140a0     Grprof.obj
+ 0002:000010a8       ??_C@_06MBCDHAMG@PROBEL?$AA@ 004140a8     Grprof.obj
+ 0002:000010b0       ??_C@_06EFKHGEML@BBCRCP?$AA@ 004140b0     Grprof.obj
+ 0002:000010b8       ??_C@_03HEHONENF@NTP?$AA@  004140b8     Grprof.obj
+ 0002:000010bc       ??_C@_08NAKOFPNG@Protocol?$AA@ 004140bc     Grprof.obj
+ 0002:000010c8       ??_C@_07FOJKKMBE@MaxDest?$AA@ 004140c8     Grprof.obj
+ 0002:000010d0       ??_C@_04OKGDLNCL@NONE?$AA@ 004140d0     Grprof.obj
+ 0002:000010d8       ??_C@_07LIPKADPF@MinDest?$AA@ 004140d8     Grprof.obj
+ 0002:000010e0       ??_C@_04HOKNCALA@Port?$AA@ 004140e0     Grprof.obj
+ 0002:000010e8       ??_C@_06CDAJHEEK@Com_?$CFd?$AA@ 004140e8     Grprof.obj
+ 0002:000010f0       ??_C@_0BC@PEPCAHEB@GoRxOnlyOnComFail?$AA@ 004140f0     Grprof.obj
+ 0002:00001104       ??_C@_02NNFLKHCP@?92?$AA@  00414104     Grprof.obj
+ 0002:00001108       ??_C@_0M@ELCJDNLE@SonyAddress?$AA@ 00414108     Grprof.obj
+ 0002:00001114       ??_C@_04OGKJMPGK@?$CF02d?$AA@ 00414114     Grprof.obj
+ 0002:0000111c       ??_C@_0BA@GGBKKNHK@AdrienneAddress?$AA@ 0041411c     Grprof.obj
+ 0002:0000112c       ??_C@_0BB@KJJOONMB@NetworkRouterLvl?$AA@ 0041412c     Grprof.obj
+ 0002:00001140       ??_C@_05GGBGONMB@AUDIO?$AA@ 00414140     Grprof.obj
+ 0002:00001148       ??_C@_05NEMPFMAF@VIDEO?$AA@ 00414148     Grprof.obj
+ 0002:00001150       ??_C@_0BC@OJIPGFCI@NetworkRouterType?$AA@ 00414150     Grprof.obj
+ 0002:00001164       ??_C@_03IDMKLKON@VAB?$AA@  00414164     Grprof.obj
+ 0002:00001168       ??_C@_0N@IPGACJHK@QuartzLevels?$AA@ 00414168     Grprof.obj
+ 0002:00001178       ??_C@_0M@BGAIABCI@LeitchLevel?$AA@ 00414178     Grprof.obj
+ 0002:00001184       ??_C@_0N@DBLBIKMO@LeitchLevels?$AA@ 00414184     Grprof.obj
+ 0002:00001194       ??_C@_08EICEIJOP@OBSOLETE?$AA@ 00414194     Grprof.obj
+ 0002:000011a0       ??_C@_0O@FLJDAHBF@BBCRCP_Levels?$AA@ 004141a0     Grprof.obj
+ 0002:000011b0       ??_C@_0L@GMHNONFH@Simulation?$AA@ 004141b0     Grprof.obj
+ 0002:000011bc       ??_C@_0N@MKNJEJLD@DestToSource?$AA@ 004141bc     Grprof.obj
+ 0002:000011cc       ??_C@_0N@MHGEKHJ@SourceToDest?$AA@ 004141cc     Grprof.obj
+ 0002:000011dc       ??_C@_09DAMNBEKD@DebugMode?$AA@ 004141dc     Grprof.obj
+ 0002:000011e8       ??_C@_08BMDPLADO@ReAssert?$AA@ 004141e8     Grprof.obj
+ 0002:000011f4       ??_C@_0BG@KHBBHKFD@InhibitNetworkOnStart?$AA@ 004141f4     Grprof.obj
+ 0002:0000120c       ??_C@_0BB@JNIOBBIJ@NetUpdateOnStart?$AA@ 0041420c     Grprof.obj
+ 0002:00001220       ??_C@_06NGMIMCKM@DRIVER?$AA@ 00414220     Grprof.obj
+ 0002:00001228       ??_C@_06GCJHMIBF@ROUTER?$AA@ 00414228     Grprof.obj
+ 0002:00001230       ??_C@_0O@MCKNHOIM@RevertiveMode?$AA@ 00414230     Grprof.obj
+ 0002:00001240       ??_C@_01BMBHCPLG@5?$AA@    00414240     Grprof.obj
+ 0002:00001244       ??_C@_0P@GKKMFOD@CommErrorLimit?$AA@ 00414244     Grprof.obj
+ 0002:00001254       ??_C@_04OJDKMIMG@2000?$AA@ 00414254     Grprof.obj
+ 0002:0000125c       ??_C@_0L@CFNKEGBD@TallyDelay?$AA@ 0041425c     Grprof.obj
+ 0002:00001268       ??_C@_03HPLEMDKK@200?$AA@  00414268     Grprof.obj
+ 0002:0000126c       ??_C@_0P@MMGLCIJO@InitTallyDelay?$AA@ 0041426c     Grprof.obj
+ 0002:0000127c       ??_C@_08MLFDIMPC@INTERNAL?$AA@ 0041427c     Grprof.obj
+ 0002:00001288       ??_C@_08JHLDEHEK@EXTERNAL?$AA@ 00414288     Grprof.obj
+ 0002:00001294       ??_C@_0L@JBLMJGAI@DriverMode?$AA@ 00414294     Grprof.obj
+ 0002:000012a0       ??_C@_0P@LFDDGJJA@RevertiveDelay?$AA@ 004142a0     Grprof.obj
+ 0002:000012b0       ??_C@_0N@IAKGGAHK@FwdBuffDelay?$AA@ 004142b0     Grprof.obj
+ 0002:000012c0       ??_C@_02PKFBJPLJ@10?$AA@   004142c0     Grprof.obj
+ 0002:000012c4       ??_C@_09LFPMFPCE@SaveDelay?$AA@ 004142c4     Grprof.obj
+ 0002:000012d0       ??_C@_0N@FFAECKEC@FirstVirtual?$AA@ 004142d0     Grprof.obj
+ 0002:000012e0       ??_C@_03JALODAI@?$CFld?$AA@ 004142e0     Grprof.obj
+ 0002:000012e4       ??_C@_0L@MILHAIFB@ParkSource?$AA@ 004142e4     Grprof.obj
+ 0002:000012f0       ??_C@_0BM@JKAJGGCJ@INDEXMAPPING?3?5writing?5entry?$AA@ 004142f0     Grprof.obj
+ 0002:0000130c       ??_C@_0BO@HCMOKCH@INDEXMAPPING?3?5writing?5default?$AA@ 0041430c     Grprof.obj
+ 0002:0000132c       ??_C@_0BF@DEOEFPLD@DEV_?$CF03d?4destMapping?$AA@ 0041432c     Grprof.obj
+ 0002:00001344       ??_C@_06FAIPBNED@?$DMbncs?$DO?$AA@ 00414344     Grprof.obj
+ 0002:0000134c       ??_C@_06JJPKACAP@?$DMreal?$DO?$AA@ 0041434c     Grprof.obj
+ 0002:00001354       ??_C@_0BH@KKKOLPKD@DEV_?$CF03d?4sourceMapping?$AA@ 00414354     Grprof.obj
+ 0002:0000136c       ??_C@_0N@NEDKAIML@IndexMapping?$AA@ 0041436c     Grprof.obj
+ 0002:00001380       ??_C@_0KA@PJLPHADK@A?5device?5profile?5INI?5File?5?8DEV_?$CF@ 00414380     Grprof.obj
+ 0002:00001420       ??_C@_0P@PEJKJHIM@DatabaseSize_1?$AA@ 00414420     Grprof.obj
+ 0002:00001430       ??_C@_0JL@JDBEOAFF@A?5device?5profile?5INI?5File?5?8DEV_?$CF@ 00414430     Grprof.obj
+ 0002:000014cc       ??_C@_08HDBDMMBI@Database?$AA@ 004144cc     Grprof.obj
+ 0002:000014d8       ??_C@_0P@ONIBKGMN@DatabaseSize_0?$AA@ 004144d8     Grprof.obj
+ 0002:000014e8       ??_C@_0N@KFCNBJNC@Default?5Name?$AA@ 004144e8     Grprof.obj
+ 0002:000014f8       ??_C@_06OIEJKIHP@Device?$AA@ 004144f8     Grprof.obj
+ 0002:00001500       ??_C@_03CDFFDALI@GRD?$AA@  00414500     Grprof.obj
+ 0002:00001504       ??_C@_04FABLJDN@Name?$AA@  00414504     Grprof.obj
+ 0002:0000150c       ??_C@_08LLMBHMCG@?4I?$CFc?$CFd?$CFc?$AA@ 0041450c     GRQUARTZ.obj
+ 0002:00001518       ??_C@_0M@IHBOAABB@?4S?$CFs?$CFd?0?$CFd?$CFc?$AA@ 00414518     GRQUARTZ.obj
+ 0002:00001524       ??_C@_09EEBMNNNA@?$CF03d?0?$CF04d?$AA@ 00414524     GRQUARTZ.obj
+ 0002:00001530       ??_C@_0CF@DPENPENI@Deleting?5virtual?5source?5to?5same?5@ 00414530     GRRRD.obj
+ 0002:00001558       ??_C@_05KLFJHJLH@I?$CFd?$CFc?$AA@ 00414558     GRSMSGPI.obj
+ 0002:00001560       ??_C@_06MLAANCGN@S?$CFd0?$CFc?$AA@ 00414560     GRSMSGPI.obj
+ 0002:00001568       ??_C@_06HDLMLFAI@S?$CFd1?$CFc?$AA@ 00414568     GRSMSGPI.obj
+ 0002:00001570       ??_C@_07EOANPDBF@R?$CFd?$CFd?$CFc?$AA@ 00414570     GRSMSRTR.obj
+ 0002:00001578       ??_C@_0BL@HJNILOFF@Checksum?5should?5be?5?$CF02x?5?$CFd?$AA@ 00414578     GRSONY.obj
+ 0002:00001594       ??_C@_0M@IOIJIFPL@Checksum?5?$CFd?$AA@ 00414594     GRSONY.obj
+ 0002:000015a0       ??_C@_07NGNBECIC@Byte?5?$CFd?$AA@ 004145a0     GRSONY.obj
+ 0002:000015a8       ??_C@_0BL@PCENKPGN@?$CISony?$CJRouter?5Connect?5?$CFd?5?$CFd?$AA@ 004145a8     GRSONY.obj
+ 0002:000015c4       ??_C@_08OOOGJDLJ@UPDATING?$AA@ 004145c4     GRSONY.obj
+ 0002:000015d0       ??_C@_0L@KFOABEDK@Dest?5valid?$AA@ 004145d0     GRSONY.obj
+ 0002:000015dc       ??_C@_05HPIKBAHI@TALLY?$AA@ 004145dc     GRSONY.obj
+ 0002:000015e4       ??_C@_0CL@JDCABKHK@?$FLPort?5?$CFd?$FN?5Rx?5?$CF02x?5?$CF02x?5?$CF02x?5?$CF02x@ 004145e4     GRSONY.obj
+ 0002:00001610       ??_C@_0BF@NCLILHDB@CheckSum?5is?5?$CF02x?0?5?$CFd?$AA@ 00414610     GRSONY.obj
+ 0002:00001628       ??_C@_09HHLAIGAP@?$DO?$DO?$DO?5?$CFd?5?$CFd?$AA@ 00414628     GRSONY.obj
+ 0002:00001634       ??_C@_0BB@GHBGMAFJ@?$CI?$CFd?$CJ?5?9?5?$CF02x?5?8?$CFc?8?$AA@ 00414634     GRSONY.obj
+ 0002:00001648       ??_C@_08HKHEAHBK@?$DMGR?$DO?9?$CFs?6?$AA@ 00414648     GRSUFU.obj
+ 0002:00001654       ??_C@_0BC@IBHIBFAM@?$CF03d?5GRD?5?$CFd?5?9?5?$CFs?5?$AA@ 00414654     GRSUFU.obj
+ 0002:00001668       ??_C@_05CNDJFPDP@?$CF02x?5?$AA@ 00414668     GRSUFU.obj
+ 0002:00001670       ??_C@_0BD@HKDAJCHJ@Bytes?5?$CF02x?9?$CF02x?5?3?5?$AA@ 00414670     GRSUFU.obj
+ 0002:00001684       ??_C@_0DL@CNMFILOC@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 00414684     GRSUFU.obj
+ 0002:000016c0       ??_C@_09NDOJKMEG@?4IZ?$CFd?0?9?$CFc?$AA@ 004146c0     GRVISTEK.obj
+ 0002:000016cc       ??_C@_0L@IGPPKBKH@?4SZ?$CFd?0?$CFd?$CFc?$AA@ 004146cc     GRVISTEK.obj
+ 0002:000016d8       ??_C@_04BENCBKLA@?4A?$CFc?$AA@ 004146d8     GRVISTEK.obj
+ 0002:000016e0       ??_C@_0DC@BOKMAJCJ@Sources?5not?5mapped?5return?5suppli@ 004146e0     indexMapping.obj
+ 0002:00001714       ??_C@_0BO@NPPBFKFL@Sources?5not?5mapped?5return?5?91?6?$AA@ 00414714     indexMapping.obj
+ 0002:00001734       ??_C@_0CJ@IGFAINPH@Real?5source?5?$CFd?5mapped?5to?5BNCS?5so@ 00414734     indexMapping.obj
+ 0002:00001764       ??_7indexMapping@@6B@      00414764     indexMapping.obj
+ 0002:00001768       ??_C@_0BF@JPFEFMHE@dev_?$CF03d?4destMapping?$AA@ 00414768     indexMapping.obj
+ 0002:00001780       ??_C@_0BH@LHBMAECA@dev_?$CF03d?4sourceMapping?$AA@ 00414780     indexMapping.obj
+ 0002:00001798       ??_C@_0BD@EEKAIDBM@C?3?1bncs_config?4ini?$AA@ 00414798     PROFILE.obj
+ 0002:000017ac       ??_C@_06FIBGPAEC@?$CFs?2?$CFs?2?$AA@ 004147ac     PROFILE.obj
+ 0002:000017b4       ??_C@_0BD@MMLPLJH@?$CFsconfig?2system?2?$CFs?$AA@ 004147b4     PROFILE.obj
+ 0002:000017c8       ??_C@_0BA@JEGAKECJ@bncs_system?4ini?$AA@ 004147c8     PROFILE.obj
+ 0002:000017d8       ??_C@_04HDOCAJNK@?$CFs?$CFs?$AA@ 004147d8     PROFILE.obj
+ 0002:000017e0       ??_C@_09IKOBEGBD@?$CFsdata?2?$CFs?$AA@ 004147e0     PROFILE.obj
+ 0002:000017ec       ??_C@_01JLIPDDHJ@?3?$AA@   004147ec     PROFILE.obj
+ 0002:000017f4       ??_7sizedBuffer@@6B@       004147f4     sizedBuffer.obj
+ 0002:00001844       ??_C@_00A@?$AA@            00414844     htmlhelp:init.obj
+ 0002:00001848       ??_7cBncsVersion@@6B@      00414848     BncsVersionInfo:cBncsVersion.obj
+ 0002:00001850       ??_7type_info@@6B@         00414850     MSVCRT:ti_inst.obj
+ 0002:0000185c       ??_R4bad_alloc@std@@6B@    0041485c     ccConfig.obj
+ 0002:00001870       ??_R3bad_alloc@std@@8      00414870     ccConfig.obj
+ 0002:00001880       ??_R2bad_alloc@std@@8      00414880     ccConfig.obj
+ 0002:0000188c       ??_R1A@?0A@EA@bad_alloc@std@@8 0041488c     ccConfig.obj
+ 0002:000018a8       ??_R1A@?0A@EA@exception@std@@8 004148a8     ccConfig.obj
+ 0002:000018c4       ??_R3exception@std@@8      004148c4     ccConfig.obj
+ 0002:000018d4       ??_R2exception@std@@8      004148d4     ccConfig.obj
+ 0002:000018dc       ??_R4indexMapping@@6B@     004148dc     indexMapping.obj
+ 0002:000018f0       ??_R3indexMapping@@8       004148f0     indexMapping.obj
+ 0002:00001900       ??_R2indexMapping@@8       00414900     indexMapping.obj
+ 0002:00001908       ??_R1A@?0A@EA@indexMapping@@8 00414908     indexMapping.obj
+ 0002:00001924       ??_R4sizedBuffer@@6B@      00414924     sizedBuffer.obj
+ 0002:00001938       ??_R3sizedBuffer@@8        00414938     sizedBuffer.obj
+ 0002:00001948       ??_R2sizedBuffer@@8        00414948     sizedBuffer.obj
+ 0002:00001950       ??_R1A@?0A@EA@sizedBuffer@@8 00414950     sizedBuffer.obj
+ 0002:0000196c       ??_R4type_info@@6B@        0041496c     MSVCRT:ti_inst.obj
+ 0002:00001980       ??_R3type_info@@8          00414980     MSVCRT:ti_inst.obj
+ 0002:00001990       ??_R2type_info@@8          00414990     MSVCRT:ti_inst.obj
+ 0002:00001998       ??_R1A@?0A@EA@type_info@@8 00414998     MSVCRT:ti_inst.obj
+ 0002:000019b4       ___rtc_iaa                 004149b4     MSVCRT:_initsect_.obj
+ 0002:000019b8       ___rtc_izz                 004149b8     MSVCRT:_initsect_.obj
+ 0002:000019bc       ___rtc_taa                 004149bc     MSVCRT:_initsect_.obj
+ 0002:000019c0       ___rtc_tzz                 004149c0     MSVCRT:_initsect_.obj
+ 0002:000019c8       __TI2?AVbad_alloc@std@@    004149c8     ccConfig.obj
+ 0002:000019d8       __CTA2?AVbad_alloc@std@@   004149d8     ccConfig.obj
+ 0002:000019e4       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 004149e4     ccConfig.obj
+ 0002:00001a00       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 00414a00     ccConfig.obj
+ 0002:00001e84       __IMPORT_DESCRIPTOR_BNCSIF32 00414e84     bncsif32:BNCSIF32.dll
+ 0002:00001e98       __IMPORT_DESCRIPTOR_grd32fix 00414e98     grd32fix:grd32fix.dll
+ 0002:00001eac       __IMPORT_DESCRIPTOR_KERNEL32 00414eac     kernel32:KERNEL32.dll
+ 0002:00001ec0       __IMPORT_DESCRIPTOR_USER32 00414ec0     user32:USER32.dll
+ 0002:00001ed4       __IMPORT_DESCRIPTOR_GDI32  00414ed4     gdi32:GDI32.dll
+ 0002:00001ee8       __IMPORT_DESCRIPTOR_ADVAPI32 00414ee8     advapi32:ADVAPI32.dll
+ 0002:00001efc       __IMPORT_DESCRIPTOR_SHELL32 00414efc     shell32:SHELL32.dll
+ 0002:00001f10       __IMPORT_DESCRIPTOR_MSVCP100 00414f10     msvcprt:MSVCP100.dll
+ 0002:00001f24       __IMPORT_DESCRIPTOR_MSVCR100 00414f24     MSVCRT:MSVCR100.dll
+ 0002:00001f38       __IMPORT_DESCRIPTOR_VERSION 00414f38     version:VERSION.dll
+ 0002:00001f4c       __NULL_IMPORT_DESCRIPTOR   00414f4c     bncsif32:BNCSIF32.dll
+ 0003:00000000       ??_R0?AVbad_alloc@std@@@8  00416000     ccConfig.obj
+ 0003:0000001c       ??_R0?AVexception@std@@@8  0041601c     ccConfig.obj
+ 0003:0000004c       ??_R0?AVindexMapping@@@8   0041604c     indexMapping.obj
+ 0003:00000068       ??_R0?AVsizedBuffer@@@8    00416068     sizedBuffer.obj
+ 0003:00000084       ??_C@_05LCJC@?$CF08lx?$AA@ 00416084     bncsWM32:BncsWM32.obj
+ 0003:0000008c       ??_C@_0BC@EPJM@Closing?5port?5?$CFd?$AN?6?$AA@ 0041608c     com32cm:Comms.obj
+ 0003:000000a0       ??_C@_0BP@BIEF@Serial?5Port?5?$CFd?5is?5already?5open?$AA@ 004160a0     com32cm:Comms.obj
+ 0003:000000c0       ??_C@_0BJ@DLEI@CreateFile?$CI?$CJ?5returns?5?$CF?$CDx?$AA@ 004160c0     com32cm:Comms.obj
+ 0003:000000dc       ??_C@_09GLGJ@?2?2?4?2COM?$CFd?$AA@ 004160dc     com32cm:Comms.obj
+ 0003:000000e8       ??_C@_0BC@BNOL@Opening?5port?5?$CFd?$AN?6?$AA@ 004160e8     com32cm:Comms.obj
+ 0003:000000fc       ??_C@_0EA@ONLB@Comms?5library?5very?5serious?5inter@ 004160fc     com32cm:Comms.obj
+ 0003:0000013c       ??_C@_0M@BHNG@Comms?5error?$AA@ 0041613c     com32cm:Comms.obj
+ 0003:00000148       ??_C@_0CA@PGJH@Creating?5Thread?5for?5hCom?5?$CF?$CDx?4?$AN?6?$AA@ 00416148     com32cm:Comms.obj
+ 0003:00000168       ??_C@_0BO@ECEA@Thread?5Up?5for?5hComPort?5?$CF?$CDx?4?$AN?6?$AA@ 00416168     com32cm:Comms.obj
+ 0003:00000188       ??_C@_08PDKF@?$CFXBUFSEM?$AA@ 00416188     com32cm:Comms.obj
+ 0003:00000194       ??_C@_0CA@NIKF@?2StringFileInfo?2?$CFs?2SpecialBuild?$AA@ 00416194     BncsVersionInfo:cBncsVersion.obj
+ 0003:000001b4       ??_C@_0CE@CKA@?2StringFileInfo?2?$CFs?2OriginalFileN@ 004161b4     BncsVersionInfo:cBncsVersion.obj
+ 0003:000001d8       ??_C@_0CA@BBDI@?2StringFileInfo?2?$CFs?2PrivateBuild?$AA@ 004161d8     BncsVersionInfo:cBncsVersion.obj
+ 0003:000001f8       ??_C@_0CD@GCNL@?2StringFileInfo?2?$CFs?2LegalTradeMar@ 004161f8     BncsVersionInfo:cBncsVersion.obj
+ 0003:0000021c       ??_C@_0CC@KILK@?2StringFileInfo?2?$CFs?2ProductVersio@ 0041621c     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000240       ??_C@_0CC@OKGI@?2StringFileInfo?2?$CFs?2LegalCopyrigh@ 00416240     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000264       ??_C@_0BP@HFNO@?2StringFileInfo?2?$CFs?2CompanyName?$AA@ 00416264     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000284       ??_C@_0BP@OKDL@?2StringFileInfo?2?$CFs?2ProductName?$AA@ 00416284     BncsVersionInfo:cBncsVersion.obj
+ 0003:000002a4       ??_C@_0CA@FECA@?2StringFileInfo?2?$CFs?2InternalName?$AA@ 004162a4     BncsVersionInfo:cBncsVersion.obj
+ 0003:000002c4       ??_C@_0BM@IIGK@?2StringFileInfo?2?$CFs?2Comments?$AA@ 004162c4     BncsVersionInfo:cBncsVersion.obj
+ 0003:000002e0       ??_C@_0CD@LFKN@?2StringFileInfo?2?$CFs?2FileDescripti@ 004162e0     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000304       ??_C@_01KMAE@?0?$AA@       00416304     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000308       ??_C@_0BP@EOHM@?2StringFileInfo?2?$CFs?2FileVersion?$AA@ 00416308     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000328       ??_C@_08CALL@?$CF04X?$CF04X?$AA@ 00416328     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000334       ??_C@_0BJ@KCFH@?2VarFileInfo?2Translation?$AA@ 00416334     BncsVersionInfo:cBncsVersion.obj
+ 0003:00000350       ??_R0?AVtype_info@@@8      00416350     MSVCRT:ti_inst.obj
+ 0003:00000368       ___security_cookie         00416368     MSVCRT:gs_cookie.obj
+ 0003:0000036c       ___security_cookie_complement 0041636c     MSVCRT:gs_cookie.obj
+ 0003:00000370       ___native_dllmain_reason   00416370     MSVCRT:natstart.obj
+ 0003:00000374       ___native_vcclrit_reason   00416374     MSVCRT:natstart.obj
+ 0003:00000380       ___globallocalestatus      00416380     MSVCRT:xthdloc.obj
+ 0003:00000384       ___defaultmatherr          00416384     MSVCRT:merr.obj
+ 0003:000003a0       ?bInit1@@3HA               004163a0     GRBTSES.obj
+ 0003:000003a4       ?bInitTimer@@3HA           004163a4     GRBTSES.obj
+ 0003:000003a8       ?bDecMsg@@3HA              004163a8     GRBTSES.obj
+ 0003:000003ac       ?iCmdLen@@3HA              004163ac     GRBTSES.obj
+ 0003:000003b0       ?bInit2@@3HA               004163b0     GRBTSES.obj
+ 0003:000003d0       ?bDialogExtend@@3HA        004163d0     GRMAIN.obj
+ 0003:000003d4       ?bDialogTempShowVirtuals@@3HA 004163d4     GRMAIN.obj
+ 0003:000003d8       ?avVar@@3PADA              004163d8     GRMAIN.obj
+ 0003:000003e2       ?bExtCtlType@@3EA          004163e2     GRMAIN.obj
+ 0003:000003e3       ?bAdrienneAddrHigh@@3EA    004163e3     GRMAIN.obj
+ 0003:000003e4       ?bDialogShowVirtuals@@3HA  004163e4     GRMAIN.obj
+ 0003:000003e8       ?hWndDlg@@3PAUHWND__@@A    004163e8     GRMAIN.obj
+ 0003:000003ec       ?iGoRxOnlyOnComFail@@3HA   004163ec     GRMAIN.obj
+ 0003:000003f0       ?bEnableBtn@@3HA           004163f0     GRMAIN.obj
+ 0003:000003f4       ?lNetRx@@3JA               004163f4     GRMAIN.obj
+ 0003:000003f8       ?acRtrName@@3PADA          004163f8     GRMAIN.obj
+ 0003:0000044a       ?bExtDrvType@@3EA          0041644a     GRMAIN.obj
+ 0003:0000044b       ?bLastMsgType@@3EA         0041644b     GRMAIN.obj
+ 0003:0000044c       ?hMenu@@3PAUHMENU__@@A     0041644c     GRMAIN.obj
+ 0003:00000450       ?bSourceHold@@3HA          00416450     GRMAIN.obj
+ 0003:00000454       ?iParkSource@@3HA          00416454     GRMAIN.obj
+ 0003:00000458       ?iDefaultControlMode@@3HA  00416458     GRMAIN.obj
+ 0003:0000045c       ?bUndoAvailable@@3HA       0041645c     GRMAIN.obj
+ 0003:00000460       ?iKbEnabled@@3HA           00416460     GRMAIN.obj
+ 0003:00000464       ?hMenuMain@@3PAUHMENU__@@A 00416464     GRMAIN.obj
+ 0003:00000468       ?iInterfaceMode@@3HA       00416468     GRMAIN.obj
+ 0003:0000046c       ?iLastDatabaseChange@@3HA  0041646c     GRMAIN.obj
+ 0003:00000470       ?iTallyTable@@3PAHA        00416470     GRMAIN.obj
+ 0003:00004474       ?iSrceHold@@3HA            0041a474     GRMAIN.obj
+ 0003:00004478       ?iRevDelay@@3HA            0041a478     GRMAIN.obj
+ 0003:0000447c       ?iRevertiveMode@@3HA       0041a47c     GRMAIN.obj
+ 0003:00004480       ?iYPadding@@3HA            0041a480     GRMAIN.obj
+ 0003:00004484       ?iCommErrorLimit@@3HA      0041a484     GRMAIN.obj
+ 0003:00004488       ?iFirstVirtual@@3HA        0041a488     GRMAIN.obj
+ 0003:0000448c       ?iFwdBuffDelay@@3HA        0041a48c     GRMAIN.obj
+ 0003:00004490       ?uSaveCount@@3IA           0041a490     GRMAIN.obj
+ 0003:00004494       ?uUpdateDelay@@3IA         0041a494     GRMAIN.obj
+ 0003:00004498       ?hWndControl@@3PAUHWND__@@A 0041a498     GRMAIN.obj
+ 0003:0000449c       ?iRtrDrvNum@@3HA           0041a49c     GRMAIN.obj
+ 0003:000044a0       ?bNetUpdateOnStart@@3HA    0041a4a0     GRMAIN.obj
+ 0003:000044a4       ?iControlMode@@3HA         0041a4a4     GRMAIN.obj
+ 0003:000044a8       ?iSonyDelay@@3HA           0041a4a8     GRMAIN.obj
+ 0003:000044ac       ?iFwdBuffWPtr@@3HA         0041a4ac     GRMAIN.obj
+ 0003:000044b0       ?acVar@@3PAY0PP@DA         0041a4b0     GRMAIN.obj
+ 0003:00004ea6       ?bAdrienneAddrLow@@3EA     0041aea6     GRMAIN.obj
+ 0003:00004ea8       ?iUndoSrce@@3HA            0041aea8     GRMAIN.obj
+ 0003:00004eac       ?hInst@@3PAUHINSTANCE__@@A 0041aeac     GRMAIN.obj
+ 0003:00004eb0       ?hWndDlg_ext@@3PAUHWND__@@A 0041aeb0     GRMAIN.obj
+ 0003:00004eb4       ?iWinYpos@@3HA             0041aeb4     GRMAIN.obj
+ 0003:00004eb8       ?GRD@@3UGRDPort@@A         0041aeb8     GRMAIN.obj
+ 0003:000059b8       ?bDestToSource@@3HA        0041b9b8     GRMAIN.obj
+ 0003:000059bc       ?iCurrentSrce@@3HA         0041b9bc     GRMAIN.obj
+ 0003:000059c0       ?bSourceToDest@@3HA        0041b9c0     GRMAIN.obj
+ 0003:000059c4       ?iBbcRcpLevels@@3HA        0041b9c4     GRMAIN.obj
+ 0003:000059c8       ?pIndexMapping@@3PAVindexMapping@@A 0041b9c8     GRMAIN.obj
+ 0003:000059cc       ?bDialogSmallShowingList@@3HA 0041b9cc     GRMAIN.obj
+ 0003:000059d0       ?bLockDest@@3PAHA          0041b9d0     GRMAIN.obj
+ 0003:000099d4       ?iDefaultDriverMode@@3HA   0041f9d4     GRMAIN.obj
+ 0003:000099d8       ?acQuartzLvls@@3PADA       0041f9d8     GRMAIN.obj
+ 0003:000099e0       ?bDestLockedFlag@@3HA      0041f9e0     GRMAIN.obj
+ 0003:000099e4       ?iNetworkRtrType@@3HA      0041f9e4     GRMAIN.obj
+ 0003:000099e8       ?iDlgYpos@@3HA             0041f9e8     GRMAIN.obj
+ 0003:000099ec       ?bDialogSmallScreen@@3HA   0041f9ec     GRMAIN.obj
+ 0003:000099f0       ?bAccess@@3PAHA            0041f9f0     GRMAIN.obj
+ 0003:0000a994       ?acFileVersion@@3PADA      00420994     GRMAIN.obj
+ 0003:0000a9a4       ?iMaxNames@@3HA            004209a4     GRMAIN.obj
+ 0003:0000a9a8       ?iXPadding@@3HA            004209a8     GRMAIN.obj
+ 0003:0000a9ac       ?lpMainDlgProc@@3P6GHXZA   004209ac     GRMAIN.obj
+ 0003:0000a9b0       ?iSimulation@@3HA          004209b0     GRMAIN.obj
+ 0003:0000a9b4       ?iSelectedDest@@3HA        004209b4     GRMAIN.obj
+ 0003:0000a9b8       ?iRRDTable@@3PAHA          004209b8     GRMAIN.obj
+ 0003:0000e9bc       ?iInitTallyDelay@@3HA      004249bc     GRMAIN.obj
+ 0003:0000e9c0       ?iTallyCount@@3HA          004249c0     GRMAIN.obj
+ 0003:0000e9c4       ?hWndExternal@@3PAUHWND__@@A 004249c4     GRMAIN.obj
+ 0003:0000e9c8       ?hWndMain@@3PAUHWND__@@A   004249c8     GRMAIN.obj
+ 0003:0000e9cc       ?iDests@@3HA               004249cc     GRMAIN.obj
+ 0003:0000e9d0       ?iGoRxOnlyOnExternalFail@@3HA 004249d0     GRMAIN.obj
+ 0003:0000e9d4       ?iDlgH@@3HA                004249d4     GRMAIN.obj
+ 0003:0000e9d8       ?iSelectedSrce@@3HA        004249d8     GRMAIN.obj
+ 0003:0000e9dc       ?aiVar@@3PAHA              004249dc     GRMAIN.obj
+ 0003:0000ea04       ?iReAssert@@3HA            00424a04     GRMAIN.obj
+ 0003:0000ea08       ?iNetworkRtrLvl@@3HA       00424a08     GRMAIN.obj
+ 0003:0000ea0c       ?lpDialog@@3P6GHXZA        00424a0c     GRMAIN.obj
+ 0003:0000ea10       ?acFwdBuff@@3PAY0EA@DA     00424a10     GRMAIN.obj
+ 0003:0000f250       ?iPesaDelay@@3HA           00425250     GRMAIN.obj
+ 0003:0000f254       ?bListBoxMode@@3HA         00425254     GRMAIN.obj
+ 0003:0000f258       ?iSelectedMappedDest@@3HA  00425258     GRMAIN.obj
+ 0003:0000f25c       ?iTallyDelay@@3HA          0042525c     GRMAIN.obj
+ 0003:0000f260       ?iWinXpos@@3HA             00425260     GRMAIN.obj
+ 0003:0000f264       ?iInhibitNetworkOnStart@@3HA 00425264     GRMAIN.obj
+ 0003:0000f268       ?uSaveDelay@@3IA           00425268     GRMAIN.obj
+ 0003:0000f26c       ?iRxEnable@@3HA            0042526c     GRMAIN.obj
+ 0003:0000f270       ?iWorkstationId@@3HA       00425270     GRMAIN.obj
+ 0003:0000f274       ?bDebugMode@@3HA           00425274     GRMAIN.obj
+ 0003:0000f278       ?iUseIndexMapping@@3HA     00425278     GRMAIN.obj
+ 0003:0000f27c       ?bClosedown@@3HA           0042527c     GRMAIN.obj
+ 0003:0000f280       ?iSonyAddr@@3HA            00425280     GRMAIN.obj
+ 0003:0000f284       ?bDialogEnabled@@3HA       00425284     GRMAIN.obj
+ 0003:0000f288       ?acLegalCopyright@@3PADA   00425288     GRMAIN.obj
+ 0003:0000f2c8       ?acPath@@3PADA             004252c8     GRMAIN.obj
+ 0003:0000f3cc       ?iDriverMode@@3HA          004253cc     GRMAIN.obj
+ 0003:0000f3d0       ?iLastDatabaseChangeIndex@@3HA 004253d0     GRMAIN.obj
+ 0003:0000f3d4       ?bPark@@3HA                004253d4     GRMAIN.obj
+ 0003:0000f3d8       ?iLeitchLevel@@3HA         004253d8     GRMAIN.obj
+ 0003:0000f3dc       ?iAdrienneAddr@@3HA        004253dc     GRMAIN.obj
+ 0003:0000f3e0       ?hWndCSI@@3PAUHWND__@@A    004253e0     GRMAIN.obj
+ 0003:0000f3e4       ?iNetworkRtrInit@@3HA      004253e4     GRMAIN.obj
+ 0003:0000f3e8       ?iInitTallyCount@@3HA      004253e8     GRMAIN.obj
+ 0003:0000f3ec       ?lNetTx@@3JA               004253ec     GRMAIN.obj
+ 0003:0000f3f0       ?acDebug@@3PADA            004253f0     GRMAIN.obj
+ 0003:0000f7f0       ?bEnableKeys@@3HA          004257f0     GRMAIN.obj
+ 0003:0000f7f4       ?iSources@@3HA             004257f4     GRMAIN.obj
+ 0003:0000f7f8       ?iDestCount@@3HA           004257f8     GRMAIN.obj
+ 0003:0000f7fc       ?bSourceHoldBtn@@3HA       004257fc     GRMAIN.obj
+ 0003:0000f800       ?iRevTable@@3PAHA          00425800     GRMAIN.obj
+ 0003:00013804       ?iFwdBuffRPtr@@3HA         00429804     GRMAIN.obj
+ 0003:00013808       ?iDlgW@@3HA                00429808     GRMAIN.obj
+ 0003:00013914       ?iInMessage@@3HA           00429914     GRSONY.obj
+ 0003:00013918       ?iEnvType@@3HA             00429918     PROFILE.obj
+ 0003:000143ec       _hGPortInfo                0042a3ec     com32cm:Comms.obj
+ 0003:00014400       ?pHtmlHelpW@@3P6GPAUHWND__@@PAU1@PBGIK@ZA 0042a400     htmlhelp:init.obj
+ 0003:00014404       ?pHtmlHelpA@@3P6GPAUHWND__@@PAU1@PBDIK@ZA 0042a404     htmlhelp:init.obj
+ 0003:0001474c       __dowildcard               0042a74c     MSVCRT:wildcard.obj
+ 0003:00014750       __newmode                  0042a750     MSVCRT:_newmode.obj
+ 0003:00014754       __commode                  0042a754     MSVCRT:xncommod.obj
+ 0003:00014758       __fmode                    0042a758     MSVCRT:xtxtmode.obj
+ 0003:00014760       _szODS                     0042a760     <common>
+ 0003:00014860       _iBTR                      0042a860     <common>
+ 0003:00014c60       _bReading                  0042ac60     <common>
+ 0003:00015060       ___native_startup_state    0042b060     <common>
+ 0003:00015064       ___native_startup_lock     0042b064     <common>
+ 0003:00015068       ___onexitend               0042b068     <common>
+ 0003:0001506c       ___onexitbegin             0042b06c     <common>
+ 0003:00015070       __NoHeapEnableTerminationOnCorruption 0042b070     <common>
+ 0003:00015074       ___dyn_tls_init_callback   0042b074     <common>
+
+ entry point at        0001:000107ba
+
+ Static symbols
+
+ 0001:00000574       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$0 00401574 f i ccConfig.obj
+ 0001:000005fc       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1 004015fc f i ccConfig.obj
+ 0001:000018e4       __catch$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@@Z$0 004028e4 f i ccConfig.obj
+ 0001:0000fdd9       ?GetRegisteredLocation@@YGHPAD@Z 00410dd9 f   htmlhelp:init.obj
+ 0001:000104dc       _pre_cpp_init              004114dc f   MSVCRT:crtexew.obj
+ 0001:00010527       ___tmainCRTStartup         00411527 f   MSVCRT:crtexew.obj
+ 0001:00010700       _pre_c_init                00411700 f   MSVCRT:crtexew.obj
+ 0001:00010df0       __ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 00411df0 f   ccConfig.obj
+ 0001:00010e10       __unwindfunclet$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z$0 00411e10 f   ccConfig.obj
+ 0001:00010e29       __ehhandler$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 00411e29 f   ccConfig.obj
+ 0001:00010e50       __unwindfunclet$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z$0 00411e50 f   ccConfig.obj
+ 0001:00010e69       __ehhandler$??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 00411e69 f   ccConfig.obj
+ 0001:00010e90       __unwindfunclet$?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ$0 00411e90 f   ccConfig.obj
+ 0001:00010e9b       __unwindfunclet$?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ$1 00411e9b f   ccConfig.obj
+ 0001:00010ea6       __unwindfunclet$?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ$2 00411ea6 f   ccConfig.obj
+ 0001:00010eb1       __ehhandler$?getDevPath@ccConfig@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 00411eb1 f   ccConfig.obj
+ 0001:00010ee0       __unwindfunclet$??$_Cons_val@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@std@@YAXAAV?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@0@PAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@@Z$0 00411ee0 f   ccConfig.obj
+ 0001:00010ef1       __unwindfunclet$??$_Cons_val@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@std@@YAXAAV?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@0@PAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@@Z$2 00411ef1 f   ccConfig.obj
+ 0001:00010ef9       __ehhandler$??$_Cons_val@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@2@@std@@YAXAAV?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@0@PAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@@Z 00411ef9 f   ccConfig.obj
+ 0001:00010f20       __ehhandler$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@@Z 00411f20 f   ccConfig.obj
+ 0001:00010f40       __unwindfunclet$?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$0 00411f40 f   ccConfig.obj
+ 0001:00010f4b       __unwindfunclet$?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$2 00411f4b f   ccConfig.obj
+ 0001:00010f56       __unwindfunclet$?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$3 00411f56 f   ccConfig.obj
+ 0001:00010f61       __unwindfunclet$?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$6 00411f61 f   ccConfig.obj
+ 0001:00010f6c       __unwindfunclet$?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$4 00411f6c f   ccConfig.obj
+ 0001:00010f77       __ehhandler$?readConfigSectionAbs@ccConfig@@CAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z 00411f77 f   ccConfig.obj
+ 0001:00010fa0       __unwindfunclet$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$0 00411fa0 f   ccConfig.obj
+ 0001:00010fa8       __unwindfunclet$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$1 00411fa8 f   ccConfig.obj
+ 0001:00010fb0       __unwindfunclet$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$2 00411fb0 f   ccConfig.obj
+ 0001:00010fb8       __unwindfunclet$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$3 00411fb8 f   ccConfig.obj
+ 0001:00010fc0       __unwindfunclet$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$4 00411fc0 f   ccConfig.obj
+ 0001:00010fc8       __unwindfunclet$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z$5 00411fc8 f   ccConfig.obj
+ 0001:00010fd0       __ehhandler$?readConfigSection@ccConfig@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z 00411fd0 f   ccConfig.obj
+ 0001:00011000       __unwindfunclet$?MainWndProc@@YGJPAUHWND__@@IIJ@Z$0 00412000 f   GRMAIN.obj
+ 0001:0001100e       __unwindfunclet$?MainWndProc@@YGJPAUHWND__@@IIJ@Z$1 0041200e f   GRMAIN.obj
+ 0001:0001101c       __ehhandler$?MainWndProc@@YGJPAUHWND__@@IIJ@Z 0041201c f   GRMAIN.obj
+ 0001:00011050       __unwindfunclet$?GRProf_GetVersionInfo@@YAXXZ$0 00412050 f   Grprof.obj
+ 0001:0001105e       __ehhandler$?GRProf_GetVersionInfo@@YAXXZ 0041205e f   Grprof.obj
+ 0001:00011090       __unwindfunclet$?GRProf_Init@@YAXXZ$0 00412090 f   Grprof.obj
+ 0001:0001109e       __ehhandler$?GRProf_Init@@YAXXZ 0041209e f   Grprof.obj
+ 0001:000110d0       __unwindfunclet$??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@XZ$1 004120d0 f   indexMapping.obj
+ 0001:000110d0       __unwindfunclet$??1?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ$1 004120d0 f   indexMapping.obj
+ 0001:000110d8       __ehhandler$??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@XZ 004120d8 f   indexMapping.obj
+ 0001:000110d8       __ehhandler$??1?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ 004120d8 f   indexMapping.obj
+ 0001:00011100       __unwindfunclet$??1indexMapping@@UAE@XZ$0 00412100 f   indexMapping.obj
+ 0001:0001110b       __unwindfunclet$??1indexMapping@@UAE@XZ$3 0041210b f   indexMapping.obj
+ 0001:00011113       __unwindfunclet$??1indexMapping@@UAE@XZ$5 00412113 f   indexMapping.obj
+ 0001:0001111b       __ehhandler$??1indexMapping@@UAE@XZ 0041211b f   indexMapping.obj
+ 0001:00011140       __unwindfunclet$?load@indexMapping@@QAEXH@Z$0 00412140 f   indexMapping.obj
+ 0001:0001114b       __unwindfunclet$?load@indexMapping@@QAEXH@Z$1 0041214b f   indexMapping.obj
+ 0001:00011156       __unwindfunclet$?load@indexMapping@@QAEXH@Z$2 00412156 f   indexMapping.obj
+ 0001:00011161       __unwindfunclet$?load@indexMapping@@QAEXH@Z$3 00412161 f   indexMapping.obj
+ 0001:0001116c       __unwindfunclet$?load@indexMapping@@QAEXH@Z$4 0041216c f   indexMapping.obj
+ 0001:00011177       __unwindfunclet$?load@indexMapping@@QAEXH@Z$8 00412177 f   indexMapping.obj
+ 0001:00011182       __ehhandler$?load@indexMapping@@QAEXH@Z 00412182 f   indexMapping.obj
+ 0001:000111b0       __unwindfunclet$??0indexMapping@@QAE@H@Z$0 004121b0 f   indexMapping.obj
+ 0001:000111bb       __unwindfunclet$??0indexMapping@@QAE@H@Z$1 004121bb f   indexMapping.obj
+ 0001:000111c6       __ehhandler$??0indexMapping@@QAE@H@Z 004121c6 f   indexMapping.obj

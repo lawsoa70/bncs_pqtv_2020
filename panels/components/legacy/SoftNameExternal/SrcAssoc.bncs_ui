@@ -1,0 +1,53 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="550" y="130" w="660" h="500" gridSize="10" gridEnabled="0" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="background_group_cf" x="9" y="9" w="638" h="479">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Commit" x="556" y="435" w="82" h="45">
+			<setting value="text=SAVE" />
+		</control>
+		<control class="bncs_control" name="Cancel" x="454" y="436" w="82" h="45">
+			<setting value="text=Cancel" />
+		</control>
+		<control class="bncs_control" name="lbl5" x="34" y="27" w="39" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Src" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_listbox" name="1" x="32" y="59" w="184" h="403">
+		</control>
+		<control class="bncs_listbox" name="2" x="431" y="107" w="184" h="228">
+		</control>
+		<control class="bncs_control" name="ClearSources" x="284" y="133" w="78" h="45">
+			<setting value="text=Clear|Sources" />
+		</control>
+		<control class="bncs_control" name="AddSource" x="285" y="196" w="78" h="45">
+			<setting value="text=Add|Source" />
+		</control>
+		<control class="bncs_control" name="AddSource1" x="285" y="258" w="78" h="45">
+			<setting value="text=Remove|Source" />
+		</control>
+		<control class="bncs_control" name="lbl6" x="76" y="27" w="141" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Source Name" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl7" x="430" y="26" w="186" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=Assoc Sncs Alias" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="SncsLabel" x="431" y="67" w="184" h="28">
+			<setting value="style=label" />
+		</control>
+	</container>
+</control_set>

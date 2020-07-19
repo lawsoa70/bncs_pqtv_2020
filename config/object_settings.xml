@@ -1,0 +1,419 @@
+<object_settings>
+	<object id="studio_a">
+		<setting id="area_name"         value="PQ Studio A"/>
+    	<setting id="background_colour" value="red"/>
+	</object>
+	<object id="studio_b">
+		<setting id="area_name"         value="PQ Studio B"/>
+    	<setting id="background_colour" value="green"/>
+	</object>
+	<object id="studio_c">
+		<setting id="area_name"         value="PQ Studio C"/>
+    	<setting id="background_colour" value="blue"/>
+	</object>
+	<object id="studio_a_embedder_list">	
+		<item id="1" value="studio_a_embedder_1"/>
+		<item id="2" value="studio_a_embedder_2"/>
+		<item id="3" value="studio_a_embedder_3"/>
+		<item id="4" value="studio_a_embedder_4"/>
+		<item id="5" value="studio_a_embedder_5"/>
+		<item id="6" value="studio_a_embedder_6"/>
+		<item id="7" value="studio_a_embedder_7"/>
+		<item id="8" value="studio_a_embedder_8"/>
+		<item id="9" value="studio_a_embedder_9"/>
+		<item id="10" value="studio_a_embedder_10"/>
+		<item id="11" value="studio_a_embedder_11"/>
+	</object>	
+	<object id="studio_a_embedder_1">
+		<item id="name" value="sta_line1_main"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="59"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="301"/>
+		<item id="audio_input_2" value="302"/>
+		<item id="audio_input_3" value="303"/>
+		<item id="audio_input_4" value="304"/>
+		<item id="audio_input_5" value="305"/>
+		<item id="audio_input_6" value="306"/>
+		<item id="audio_input_7" value="307"/>
+		<item id="audio_input_8" value="308"/>
+	</object>	
+	<object id="studio_a_embedder_2">	
+		<item id="name" value="sta_line2_clean"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="60"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="333"/>
+		<item id="audio_input_2" value="334"/>
+		<item id="audio_input_3" value="335"/>
+		<item id="audio_input_4" value="336"/>
+		<item id="audio_input_5" value="337"/>
+		<item id="audio_input_6" value="338"/>
+		<item id="audio_input_7" value="339"/>
+		<item id="audio_input_8" value="340"/>
+	</object>	
+	<object id="studio_a_embedder_3">	
+		<item id="name" value="sta_line3_reserve"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="120"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="1289"/>
+		<item id="audio_input_2" value="1290"/>
+		<item id="audio_input_3" value="1291"/>
+		<item id="audio_input_4" value="1292"/>
+		<item id="audio_input_5" value="1293"/>
+		<item id="audio_input_6" value="1294"/>
+		<item id="audio_input_7" value="1295"/>
+		<item id="audio_input_8" value="1296"/>
+	</object>	
+	<object id="studio_a_embedder_4">	
+		<item id="name" value="sta_iso1"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="61"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="349"/>
+		<item id="audio_input_2" value="350"/>
+		<item id="audio_input_3" value="351"/>
+		<item id="audio_input_4" value="352"/>
+		<item id="audio_input_5" value="353"/>
+		<item id="audio_input_6" value="354"/>
+		<item id="audio_input_7" value="355"/>
+		<item id="audio_input_8" value="356"/>
+	</object>	
+	<object id="studio_a_embedder_5">	
+		<item id="name" value="sta_iso2"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="62"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="365"/>
+		<item id="audio_input_2" value="366"/>
+		<item id="audio_input_3" value="367"/>
+		<item id="audio_input_4" value="368"/>
+		<item id="audio_input_5" value="369"/>
+		<item id="audio_input_6" value="370"/>
+		<item id="audio_input_7" value="371"/>
+		<item id="audio_input_8" value="372"/>
+	</object>	
+	<object id="studio_a_embedder_6">	
+		<item id="name" value="sta_iso3"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="63"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="381"/>
+		<item id="audio_input_2" value="382"/>
+		<item id="audio_input_3" value="383"/>
+		<item id="audio_input_4" value="384"/>
+		<item id="audio_input_5" value="385"/>
+		<item id="audio_input_6" value="386"/>
+		<item id="audio_input_7" value="387"/>
+		<item id="audio_input_8" value="388"/>
+	</object>	
+	<object id="studio_a_embedder_7">	
+		<item id="name" value="sta_iso4"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="64"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="397"/>
+		<item id="audio_input_2" value="398"/>
+		<item id="audio_input_3" value="399"/>
+		<item id="audio_input_4" value="400"/>
+		<item id="audio_input_5" value="401"/>
+		<item id="audio_input_6" value="402"/>
+		<item id="audio_input_7" value="403"/>
+		<item id="audio_input_8" value="404"/>
+	</object>
+	<object id="studio_a_embedder_8">
+		<item id="name" value="sta_iso5"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="69"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="461"/>
+		<item id="audio_input_2" value="462"/>
+		<item id="audio_input_3" value="463"/>
+		<item id="audio_input_4" value="464"/>
+		<item id="audio_input_5" value="465"/>
+		<item id="audio_input_6" value="466"/>
+		<item id="audio_input_7" value="467"/>
+		<item id="audio_input_8" value="468"/>
+	</object>
+	<object id="studio_a_embedder_9">
+		<item id="name" value="sta_iso6"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="70"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="477"/>
+		<item id="audio_input_2" value="478"/>
+		<item id="audio_input_3" value="479"/>
+		<item id="audio_input_4" value="480"/>
+		<item id="audio_input_5" value="481"/>
+		<item id="audio_input_6" value="482"/>
+		<item id="audio_input_7" value="483"/>
+		<item id="audio_input_8" value="484"/>
+	</object>
+	<object id="studio_a_embedder_10">
+		<item id="name" value="sta_iso7"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="71"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="493"/>
+		<item id="audio_input_2" value="494"/>
+		<item id="audio_input_3" value="495"/>
+		<item id="audio_input_4" value="496"/>
+		<item id="audio_input_5" value="497"/>
+		<item id="audio_input_6" value="498"/>
+		<item id="audio_input_7" value="499"/>
+		<item id="audio_input_8" value="500"/>
+	</object>
+	<object id="studio_a_embedder_11">
+		<item id="name" value="sta_iso8"/>
+		<item id="video_router" value="rtr_sta_sdi"/>
+		<item id="video_output" value="72"/>
+		<item id="audio_router" value="rtr_sta_nexus"/>
+		<item id="audio_input_1" value="509"/>
+		<item id="audio_input_2" value="510"/>
+		<item id="audio_input_3" value="511"/>
+		<item id="audio_input_4" value="512"/>
+		<item id="audio_input_5" value="513"/>
+		<item id="audio_input_6" value="514"/>
+		<item id="audio_input_7" value="515"/>
+		<item id="audio_input_8" value="516"/>
+	</object>
+	<object id="studio_a_mv_list">	
+		<item id="1" value="studio_a_mv_1"/>
+		<item id="2" value="studio_a_mv_2"/>
+		<item id="3" value="studio_a_mv_3"/>
+	</object>	
+	<object id="studio_a_mv_1">	
+		<item id="router" value="rtr_sta_sdi"/>
+		<item id="output" value="121"/>
+		<item id="input_1" value="41"/>
+		<item id="input_2" value="42"/>
+		<item id="input_3" value="43"/>
+		<item id="input_4" value="44"/>
+	</object>	
+	<object id="studio_a_mv_2">	
+		<item id="router" value="rtr_sta_sdi"/>
+		<item id="output" value="122"/>
+		<item id="input_1" value="45"/>
+		<item id="input_2" value="46"/>
+		<item id="input_3" value="47"/>
+		<item id="input_4" value="48"/>
+	</object>	
+	<object id="studio_a_mv_3">	
+		<item id="router" value="rtr_sta_sdi"/>
+		<item id="output" value="123"/>
+		<item id="input_1" value="49"/>
+		<item id="input_2" value="50"/>
+		<item id="input_3" value="51"/>
+		<item id="input_4" value="52"/>
+	</object>	
+	<object id="studio_b_multiviewers">	
+		<item id="mv_1" value="studio_b_mv_1"/>
+		<item id="mv_2" value="studio_b_mv_2"/>
+		<item id="mv_3" value="studio_b_mv_3"/>
+		<item id="mv_4" value="studio_b_mv_4"/>
+		<item id="router" value="rtr_stb_sdi"/>
+		<item id="dest_database" value="1"/>
+		<item id="dest_instance_database" value="7"/>
+		<item id="tally_database" value="0"/>
+		<item id="memory" value="stb_sdi_memory" />
+		<item id="memory_layout" value="stb_pcr_stack" />
+		<item id="layout_driver" value="studio_b_evertz_mvs" />
+	</object>	
+	<object id="studio_b_mv_1">
+		<item id="name" value="Studio B MV 1" />
+		<item id="dest_count" value="12" />
+		<item id="first_dest" value="1" />
+		<item id="output" value="121"/>
+		<item id="layout_list" value="12 Way,6 Way,4 Right,4 Plus 2,9 Left,9 Right" />
+		<item id="layout_driver_offset" value="0" />
+	</object>
+	<object id="studio_b_mv_2">
+		<item id="name" value="Studio B MV 2" />
+		<item id="dest_count" value="12" />
+		<item id="first_dest" value="13" />
+		<item id="output" value="122"/>
+		<item id="layout_list" value="12 Way,6 Way,4 Right,4 Plus 2,9 Left,9 Right" />
+<!-- Quad,4 Left,9 Middle, -->
+		<item id="layout_driver_offset" value="500" />
+	</object>
+	<object id="studio_b_mv_3">
+		<item id="name" value="Studio B MV 3" />
+		<item id="dest_count" value="12" />
+		<item id="first_dest" value="25" />
+		<item id="output" value="123"/>
+		<item id="layout_list" value="12 Way,6 Way,4 Right,4 Plus 2,9 Left,9 Right" />
+		<item id="layout_driver_offset" value="1000" />
+	</object>
+	<object id="studio_b_mv_4">
+		<item id="name" value="Studio B MV 4" />
+		<item id="dest_count" value="12" />
+		<item id="first_dest" value="37" />
+		<item id="output" value="124"/>
+		<item id="layout_list" value="12 Way,6 Way,4 Right,4 Plus 2,9 Left,9 Right" />
+		<item id="layout_driver_offset" value="1500" />
+	</object>
+
+	<object id="studio_c_embedder_list">	
+		<item id="1" value="studio_c_embedder_1"/>
+		<item id="2" value="studio_c_embedder_2"/>
+		<item id="3" value="studio_c_embedder_3"/>
+		<item id="4" value="studio_c_embedder_4"/>
+		<item id="5" value="studio_c_embedder_5"/>
+	</object>	
+	<object id="studio_c_embedder_1">	
+		<item id="name" value="stc_line1_main"/>
+		<item id="video_router" value="rtr_stc_sdi"/>
+		<item id="video_output" value="59"/>
+		<item id="audio_router" value="rtr_stc_nexus"/>
+		<item id="audio_input_1" value="301"/>
+		<item id="audio_input_2" value="302"/>
+		<item id="audio_input_3" value="303"/>
+		<item id="audio_input_4" value="304"/>
+		<item id="audio_input_5" value="305"/>
+		<item id="audio_input_6" value="306"/>
+		<item id="audio_input_7" value="307"/>
+		<item id="audio_input_8" value="308"/>
+	</object>	
+	<object id="studio_c_embedder_2">	
+		<item id="name" value="stc_line2_reserve"/>
+		<item id="video_router" value="rtr_stc_sdi"/>
+		<item id="video_output" value="60"/>
+		<item id="audio_router" value="rtr_stc_nexus"/>
+		<item id="audio_input_1" value="333"/>
+		<item id="audio_input_2" value="334"/>
+		<item id="audio_input_3" value="335"/>
+		<item id="audio_input_4" value="336"/>
+		<item id="audio_input_5" value="337"/>
+		<item id="audio_input_6" value="338"/>
+		<item id="audio_input_7" value="339"/>
+		<item id="audio_input_8" value="340"/>
+	</object>	
+	<object id="studio_c_embedder_3">	
+		<item id="name" value="stc_line3_reserve"/>
+		<item id="video_router" value="rtr_stc_sdi"/>
+		<item id="video_output" value="120"/>
+		<item id="audio_router" value="rtr_stc_nexus"/>
+		<item id="audio_input_1" value="1257"/>
+		<item id="audio_input_2" value="1258"/>
+		<item id="audio_input_3" value="1259"/>
+		<item id="audio_input_4" value="1260"/>
+		<item id="audio_input_5" value="1261"/>
+		<item id="audio_input_6" value="1262"/>
+		<item id="audio_input_7" value="1263"/>
+		<item id="audio_input_8" value="1264"/>
+	</object>	
+	<object id="studio_c_embedder_4">	
+		<item id="name" value="stc_iso1"/>
+		<item id="video_router" value="rtr_stc_sdi"/>
+		<item id="video_output" value="61"/>
+		<item id="audio_router" value="rtr_stc_nexus"/>
+		<item id="audio_input_1" value="349"/>
+		<item id="audio_input_2" value="350"/>
+		<item id="audio_input_3" value="351"/>
+		<item id="audio_input_4" value="352"/>
+		<item id="audio_input_5" value="353"/>
+		<item id="audio_input_6" value="354"/>
+		<item id="audio_input_7" value="355"/>
+		<item id="audio_input_8" value="356"/>
+	</object>	
+	<object id="studio_c_embedder_5">	
+		<item id="name" value="stc_iso2"/>
+		<item id="video_router" value="rtr_stc_sdi"/>
+		<item id="video_output" value="62"/>
+		<item id="audio_router" value="rtr_stc_nexus"/>
+		<item id="audio_input_1" value="365"/>
+		<item id="audio_input_2" value="366"/>
+		<item id="audio_input_3" value="367"/>
+		<item id="audio_input_4" value="368"/>
+		<item id="audio_input_5" value="369"/>
+		<item id="audio_input_6" value="370"/>
+		<item id="audio_input_7" value="371"/>
+		<item id="audio_input_8" value="372"/>
+	</object>	
+	<object id="studio_c_mv_list">	
+		<item id="1" value="studio_c_mv_1"/>
+		<item id="2" value="studio_c_mv_2"/>
+		<item id="3" value="studio_c_mv_3"/>
+		<item id="4" value="studio_c_mv_4"/>
+		<item id="5" value="studio_c_mv_5"/>
+		<item id="6" value="studio_c_mv_6"/>
+	</object>	
+	<object id="studio_c_mv_1">	
+		<item id="router" value="rtr_stc_sdi"/>
+		<item id="output" value="121"/>
+		<item id="input_1" value="25"/>
+		<item id="input_2" value="26"/>
+		<item id="input_3" value="27"/>
+		<item id="input_4" value="28"/>
+	</object>	
+	<object id="studio_c_mv_2">	
+		<item id="router" value="rtr_stc_sdi"/>
+		<item id="output" value="122"/>
+		<item id="input_1" value="29"/>
+		<item id="input_2" value="30"/>
+		<item id="input_3" value="31"/>
+		<item id="input_4" value="32"/>
+	</object>	
+	<object id="studio_c_mv_3">	
+		<item id="router" value="rtr_stc_sdi"/>
+		<item id="output" value="123"/>
+		<item id="input_1" value="33"/>
+		<item id="input_2" value="34"/>
+		<item id="input_3" value="35"/>
+		<item id="input_4" value="36"/>
+	</object>	
+	<object id="studio_c_mv_4">	
+		<item id="router" value="rtr_stc_sdi"/>
+		<item id="output" value="124"/>
+		<item id="input_1" value="37"/>
+		<item id="input_2" value="38"/>
+		<item id="input_3" value="39"/>
+		<item id="input_4" value="40"/>
+	</object>	
+	<object id="studio_c_mv_5">	
+		<item id="router" value="rtr_stc_sdi"/>
+		<item id="output" value="125"/>
+		<item id="input_1" value="41"/>
+		<item id="input_2" value="42"/>
+		<item id="input_3" value="43"/>
+		<item id="input_4" value="44"/>
+	</object>	
+	<object id="studio_c_mv_6">
+		<item id="router" value="rtr_stc_sdi"/>
+		<item id="output" value="126"/>
+		<item id="input_1" value="45"/>
+		<item id="input_2" value="46"/>
+		<item id="input_3" value="47"/>
+		<item id="input_4" value="48"/>
+	</object>	
+	<object id="studio_a_bfeumdlabel_auto">
+	  <setting id="router" value="rtr_sta_sdi"/>
+	  <setting id="sncs_interface" value="sncs_interface"/>
+	  <setting id="bfeksc_driver" value="studio_a_bfeksc_driver"/>
+	  <setting id="sources_external" value="11,12,13,14,15,16,17,18,21,22,23,24,25,26,27,28,41,42,43,44,94"/>
+	  <setting id="sncs_infodriver_slots" value="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42"/>
+	  <setting id="sources_cameras" value="1,2,3,4,5,6,7,8,9,10"/>
+	  <setting id="sources_looped" value="61,62,63,64,65,68,69,70,71,72,99,100,101,102,103,104,110"/>
+	</object>
+	<object id="studio_b_bfeumdlabel_auto">
+	  <setting id="router" value="rtr_stb_sdi"/>
+	  <setting id="sncs_interface" value="sncs_interface"/>
+	  <setting id="bfeksc_driver" value="studio_b_bfeksc_driver"/>
+	  <setting id="sources_external" value="13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,127"/>
+	  <setting id="sncs_infodriver_slots" value="102,104,106,108,110,112,114,116,118,120,122,124,126,128,130,132,134,136,138,140,142"/>
+	  <setting id="sources_cameras" value="1,2,3,4,5,6,41,42,43,44"/>
+	  <setting id="sources_looped" value="88,89,90,91,92,93,94,95,96"/>
+	</object>
+	<object id="studio_c_bfeumdlabel_auto">
+	  <setting id="router" value="rtr_stc_sdi"/>
+	  <setting id="sncs_interface" value="sncs_interface"/>
+	  <setting id="bfeksc_driver" value="studio_c_bfeksc_driver"/>
+	  <setting id="sources_external" value="11,12,13,14,15,16,17,18,21,22,23,24,25,26,27,28,41,42,43,44,70,75,76,95,77,78,79,110,111,96,97,98,80"/>
+	  <setting id="sncs_infodriver_slots" value="202,204,206,208,210,212,214,216,218,220,222,224,226,228,230,232,234,236,238,240,66,242,244,246,248,250,252,254,256,58,60,62,64"/>
+	  <setting id="sources_cameras" value="1,2,3,4,5,6,179,180,181,182"/>
+	  <setting id="sources_looped" value="61,62,65,68,222,223,224"/>
+	</object>
+</object_settings>
+
+

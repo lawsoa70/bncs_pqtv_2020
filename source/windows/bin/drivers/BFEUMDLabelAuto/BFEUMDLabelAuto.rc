@@ -1,0 +1,306 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+109 ACCELERATORS
+BEGIN
+    VK_F1,          104,                    VIRTKEY, NOINVERT
+    VK_F10,         105,                    VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+103 DIALOGEX 22, 17, 244, 70
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System", 0, 0, 0x0
+BEGIN
+    ICON            1,2,14,9,20,20
+    LTEXT           "BNCS Auto for BFEUMDLabelAuto",IDC_STATIC,50,9,185,8,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "Written by Paul Wilkins",IDC_STATIC,50,20,187,8
+    LTEXT           "© 2016 Atos",IDC_STATIC,50,31,187,8
+    DEFPUSHBUTTON   "OK",1,6,53,30,11,WS_GROUP
+    LTEXT           "",IDC_COMPID,50,42,187,8
+    LTEXT           "",IDC_VERSION,50,53,187,8
+END
+
+IDD_STATUS DIALOGEX 0, 0, 475, 291
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 10, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Colledia Comms",IDC_STATIC,3,27,198,26
+    GROUPBOX        "Automatic",IDC_STATIC,3,2,398,25,0,WS_EX_TRANSPARENT
+    LTEXT           "Status",IDC_STATIC,10,12,21,10,0,WS_EX_TRANSPARENT
+    CTEXT           "",IDC_AUTO_STATUS,37,12,59,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_DEVRX1,20,38,36,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_DEVTX1,74,38,35,10,SS_SUNKEN
+    LTEXT           "Rx:",IDC_STATIC,6,38,10,10
+    LTEXT           "Tx:",IDC_STATIC,60,38,10,10
+    LTEXT           "Ver",IDC_STATIC,102,12,13,10,0,WS_EX_TRANSPARENT
+    CTEXT           "",IDC_VERSION,120,12,40,10,SS_SUNKEN
+    LTEXT           "Status",IDC_STATIC,114,38,20,10
+    CTEXT           "",IDC_CSI_STATUS,137,38,59,10,SS_SUNKEN
+    GROUPBOX        "Infodriver Comms",IDC_STATIC,204,27,197,26
+    LTEXT           "00000000",IDC_IDRX1,220,38,35,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_IDTX1,274,38,35,10,SS_SUNKEN
+    LTEXT           "Rx:",IDC_STATIC,208,38,10,10
+    LTEXT           "Tx:",IDC_STATIC,260,38,10,10
+    LTEXT           "Status",IDC_STATIC,314,38,20,10
+    CTEXT           "",IDC_INFO_STATUS,338,38,59,10,SS_SUNKEN
+    LTEXT           "SCNS revs :",IDC_STATIC,7,66,46,10
+    GROUPBOX        "Revertives from All over the place",IDC_STATIC,3,54,398,62,BS_CENTER
+    LTEXT           "Router revs :",IDC_STATIC,7,77,46,10
+    LTEXT           "CC Panel revs :",IDC_STATIC,8,102,46,10
+    LTEXT           "BFE Driver revs :",IDC_STATIC,8,90,56,10
+    LTEXT           "00000000",IDC_ROUTERREVS,67,77,36,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_CCPANELREVS,67,102,36,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_BFEDRIVERREVS,67,89,36,10,SS_SUNKEN
+    LTEXT           "Last Data ",IDC_STATIC,109,66,33,10
+    LTEXT           "Last Data ",IDC_STATIC,110,78,32,10
+    LTEXT           "",IDC_DATA_ROUTER,147,78,183,10,SS_SUNKEN
+    LTEXT           "Last Data ",IDC_STATIC,110,101,32,10
+    LTEXT           "",IDC_DATA_PANELS,147,101,184,10,SS_SUNKEN
+    LTEXT           "Last Data ",IDC_STATIC,110,89,32,10
+    LTEXT           "",IDC_DATA_BFE,147,89,184,10,SS_SUNKEN
+    LTEXT           "SNCS drvr",IDC_STATIC,166,12,33,10
+    CTEXT           "",IDC_ID_SNCS,206,12,19,10,SS_SUNKEN
+    LTEXT           "ROUTER",IDC_STATIC,293,12,33,10
+    CTEXT           "",IDC_ID_ROUTER,331,12,19,10,SS_SUNKEN
+    LTEXT           "BFE drvr",IDC_STATIC,232,12,29,10
+    CTEXT           "",IDC_ID_BFE,266,12,19,10,SS_SUNKEN
+    CONTROL         "List1",IDC_LISTSNCS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,5,120,300,82
+    CTEXT           "",IDC_ALIAS_SNCS,357,71,19,10,SS_SUNKEN
+    CONTROL         "List1",IDC_LISTOUT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,311,120,160,163
+    CTEXT           "200",IDC_ID_ROUTERDESTS,436,47,16,10,SS_SUNKEN
+    LTEXT           "dests",IDC_STATIC,415,48,17,10
+    CONTROL         "List1",IDC_LISTRTR,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,5,205,300,79
+    LTEXT           "SNCS names",IDC_STATIC,346,60,42,8
+    CTEXT           "",IDC_ALIAS_ROUTER,357,96,19,10,SS_SUNKEN
+    LTEXT           "ROUTER names",IDC_STATIC,351,84,32,8
+    CTEXT           "200",IDC_ID_ROUTERSRCS,435,33,16,10,SS_SUNKEN
+    LTEXT           "srcs",IDC_STATIC,415,34,17,10
+    GROUPBOX        "",IDC_STATIC,406,2,63,68,BS_CENTER
+    LTEXT           "FIFO buff",IDC_STATIC,410,13,29,10
+    CTEXT           "",IDC_ID_FIFO,445,13,19,10,SS_SUNKEN,WS_EX_TRANSPARENT
+    LTEXT           "",IDC_DATA_SNCS,147,66,184,10,SS_SUNKEN
+    LTEXT           "00000000",IDC_SNCSREVS,67,65,36,10,SS_SUNKEN
+    CTEXT           "s",IDC_ID_STUDIO,355,9,40,15,SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON                    "BFEUMDLABELAUTO.ICO"
+108                     ICON                    "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+109 MENUEX
+BEGIN
+    POPUP "&File",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "E&xit",                       105,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "D&ebug",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "On",                          ID_DEBUG_ON,MFT_STRING,MFS_ENABLED
+        MENUITEM "Hide",                        ID_DEBUG_HIDE,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Clear",                       32771,MFT_STRING,MFS_ENABLED
+        MENUITEM "Show All Messages",           ID_DEBUG_SHOWALLMESSAGES,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Options",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Force TXRX",                  ID_OPTIONS_FORCETXRX,MFT_STRING,MFS_ENABLED
+        MENUITEM "Force RXOnly",                ID_OPTIONS_FORCERXONLY,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Labelling",                      65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Reload Ini File",             ID_LABELLING_RELOAD,MFT_STRING,MFS_ENABLED
+        MENUITEM "Reassert All Labels",         ID_LABELLING_REASSERT,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Help",                          65535,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "&About ...",                  104,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,2,5,0
+ PRODUCTVERSION 1,2,5,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Author", "Paul Wilkins"
+            VALUE "Comments", "V2013 rebuild, TXRX Resilience fix"
+            VALUE "CompanyName", "Atos Ltd"
+            VALUE "FileDescription", "BNCS UMDLabel Automatic for PQ Studios"
+            VALUE "FileVersion", "1.2.5.0"
+            VALUE "LegalCopyright", "Copyright © 2016 Atos Ltd"
+            VALUE "OriginalFilename", "BFEUMDLabelAuto.exe"
+            VALUE "ProductName", "BFEUMDLabelAuto"
+            VALUE "ProductVersion", "1.2.5.0"
+            VALUE "SpecialBuild", "Project generated by BNCS Options Wizard Version 4.2 "
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    103, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_STATUS, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    103                     "BNCS BFEUMDLabel Automatic - Device %d"
+    107                     "CLASS_BFEUMDLABELAUTO"
+    110                     "BFEUMDLabelAuto"
+END
+
+STRINGTABLE
+BEGIN
+    65535                   "Wizard by BNCS Team"
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

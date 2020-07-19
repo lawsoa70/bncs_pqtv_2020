@@ -1,0 +1,34 @@
+[Database_2]
+0001=Port 1
+0002=Port 2
+0003=Port 3
+0004=Port 4
+0005=Port 5
+0006=Port 6
+0007=Port 7
+0008=Port 8
+0009=Port 9
+0010=Port 10
+0011=Port 11
+0012=Port 12
+0013=Port 13
+0014=Port 14
+0015=Port 15
+0016=Port 16
+0017=Port 17
+0018=Port 18
+0019=Port 19
+0020=Port 20
+0021=Port 21
+0022=Port 22
+0023=Port 23
+0024=Port 24
+0025=Port 25
+0026=Port 26
+0027=Port 27
+0028=Port 28
+0029=Port 29
+0030=Port 30
+0031=Port 31
+0032=Port 32
+

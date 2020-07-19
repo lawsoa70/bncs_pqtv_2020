@@ -1,0 +1,198 @@
+ bbcnb32
+
+ Timestamp is 56ddfd84 (Mon Mar 07 22:15:32 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001f90H .text                   CODE
+ 0001:00001f90 00000029H .text$x                 CODE
+ 0002:00000000 0000008cH .idata$5                DATA
+ 0002:0000008c 00000008H .rdata                  DATA
+ 0002:00000098 00000030H .xdata$x                DATA
+ 0002:000000c8 00000050H .idata$2                DATA
+ 0002:00000118 00000014H .idata$3                DATA
+ 0002:0000012c 0000008cH .idata$4                DATA
+ 0002:000001b8 000001e4H .idata$6                DATA
+ 0002:000003a0 00000334H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCU                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 000003f0H .data                   DATA
+ 0003:00000410 000001e0H .bss                    DATA
+ 0004:00000000 00000310H .rsrc$01                DATA
+ 0004:00000310 000015a0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000050       ??1?$queue@VsizedBuffer@@V?$deque@VsizedBuffer@@V?$allocator@VsizedBuffer@@@std@@@std@@@std@@QAE@XZ 10001050 f i BBCNB32.obj
+ 0001:00000100       ?dgMsgQueueSize@@YAHXZ     10001100 f   BBCNB32.obj
+ 0001:00000130       ?dgMsgQueueNextItem@@YA?AVsizedBuffer@@XZ 10001130 f   BBCNB32.obj
+ 0001:000002b0       _DllMain@12                100012b0 f   BBCNB32.obj
+ 0001:000002f0       _NetCmdCode@8              100012f0 f   BBCNB32.obj
+ 0001:00000390       _NetRetCode@8              10001390 f   BBCNB32.obj
+ 0001:00000460       _PostRoutine@4             10001460 f   BBCNB32.obj
+ 0001:00000530       _PostRoutineNCBDGRECV@4    10001530 f   BBCNB32.obj
+ 0001:00000920       _NetVersion@0              10001920 f   BBCNB32.obj
+ 0001:00000930       _NetDebugMode@4            10001930 f   BBCNB32.obj
+ 0001:00000940       _NetODS                    10001940 f   BBCNB32.obj
+ 0001:00000970       _NetSetNameFilter@4        10001970 f   BBCNB32.obj
+ 0001:00000a00       ??0?$queue@VsizedBuffer@@V?$deque@VsizedBuffer@@V?$allocator@VsizedBuffer@@@std@@@std@@@std@@QAE@ABV?$allocator@VsizedBuffer@@@1@@Z 10001a00 f i BBCNB32.obj
+ 0001:00000a30       ?_Buyback@?$deque@VsizedBuffer@@V?$allocator@VsizedBuffer@@@std@@@std@@IAEXXZ 10001a30 f i BBCNB32.obj
+ 0001:00000b90       ?_Growmap@?$deque@VsizedBuffer@@V?$allocator@VsizedBuffer@@@std@@@std@@IAEPAPAVsizedBuffer@@I@Z 10001b90 f i BBCNB32.obj
+ 0001:00000c00       ??0const_iterator@?$deque@VsizedBuffer@@V?$allocator@VsizedBuffer@@@std@@@std@@QAE@PAVsizedBuffer@@PAPAV3@@Z 10001c00 f i BBCNB32.obj
+ 0001:00000c30       ??0bncs_disklog@@QAE@PBDW4filetype@0@000000@Z 10001c30 f   bncs_disklog.obj
+ 0001:00000c80       ??_Ebncs_disklog@@UAEPAXI@Z 10001c80 f i bncs_disklog.obj
+ 0001:00000c80       ??_Gbncs_disklog@@UAEPAXI@Z 10001c80 f i bncs_disklog.obj
+ 0001:00000ca0       ?initVars@bncs_disklog@@AAEXXZ 10001ca0 f   bncs_disklog.obj
+ 0001:00000cb0       ?openLogFile@bncs_disklog@@AAEXPBDW4filetype@1@@Z 10001cb0 f   bncs_disklog.obj
+ 0001:00000ec0       ?cleanup@bncs_disklog@@AAEXXZ 10001ec0 f   bncs_disklog.obj
+ 0001:00000ee0       ??1bncs_disklog@@UAE@XZ    10001ee0 f   bncs_disklog.obj
+ 0001:00000ef0       ?write@bncs_disklog@@QAEXPBD00000@Z 10001ef0 f   bncs_disklog.obj
+ 0001:00001120       ?createDirectory@bncs_disklog@@AAEXPBD@Z 10002120 f   bncs_disklog.obj
+ 0001:00001240       _NetAllocNcbAndBuf@4       10002240 f   NCBALLOC.obj
+ 0001:00001270       _NetNcbFree@4              10002270 f   NCBALLOC.obj
+ 0001:00001280       _NetAdaptorStatus@20       10002280 f   NCBCALLS.obj
+ 0001:00001300       _NetSessionStatus@20       10002300 f   NCBCALLS.obj
+ 0001:00001380       _NetAddName@12             10002380 f   NCBCALLS.obj
+ 0001:000013e0       _NetAddGroupName@12        100023e0 f   NCBCALLS.obj
+ 0001:00001440       _NetDeleteName@12          10002440 f   NCBCALLS.obj
+ 0001:00001490       _NetHangUp@8               10002490 f   NCBCALLS.obj
+ 0001:000014d0       _NetCancel@8               100024d0 f   NCBCALLS.obj
+ 0001:00001510       _NetCall@28                10002510 f   NCBCALLS.obj
+ 0001:000015a0       _NetListen@28              100025a0 f   NCBCALLS.obj
+ 0001:00001630       _NetSend@24                10002630 f   NCBCALLS.obj
+ 0001:000016b0       _NetSendDG@28              100026b0 f   NCBCALLS.obj
+ 0001:00001750       _NetSendBCDG@24            10002750 f   NCBCALLS.obj
+ 0001:000017d0       _NetReceive@20             100027d0 f   NCBCALLS.obj
+ 0001:00001840       _NetReceiveAny@20          10002840 f   NCBCALLS.obj
+ 0001:000018b0       _NetReceiveDG@20           100028b0 f   NCBCALLS.obj
+ 0001:00001920       _NetReceiveBCDG@20         10002920 f   NCBCALLS.obj
+ 0001:00001990       _NetReset@12               10002990 f   NCBCALLS.obj
+ 0001:000019e0       _NetCopyName@8             100029e0 f   NCBSUFU.obj
+ 0001:00001a50       _NetDumpSessionStatus@8    10002a50 f   NCBSUFU.obj
+ 0001:00001c80       ??_GsizedBuffer@@UAEPAXI@Z 10002c80 f i sizedBuffer.obj
+ 0001:00001c80       ??_EsizedBuffer@@UAEPAXI@Z 10002c80 f i sizedBuffer.obj
+ 0001:00001ca0       ??0sizedBuffer@@QAE@PBEHH@Z 10002ca0 f   sizedBuffer.obj
+ 0001:00001d10       ??1sizedBuffer@@UAE@XZ     10002d10 f   sizedBuffer.obj
+ 0001:00001d40       ??0sizedBuffer@@QAE@ABV0@@Z 10002d40 f   sizedBuffer.obj
+ 0001:00001d60       ?doCopy@sizedBuffer@@AAEXABV1@@Z 10002d60 f   sizedBuffer.obj
+ 0001:00001dd0       _Netbios@4                 10002dd0 f   netapi32:NETAPI32.dll
+ 0001:00001dd6       ??3@YAXPAX@Z               10002dd6 f   msvcprt:delop_s.obj
+ 0001:00001de1       __onexit                   10002de1 f   MSVCRT:atonexit.obj
+ 0001:00001e0d       _atexit                    10002e0d f   MSVCRT:atonexit.obj
+ 0001:00001e20       ___CxxFrameHandler         10002e20 f   MSVCRT:MSVCRT.dll
+ 0001:00001e30       ??2@YAPAXI@Z               10002e30 f   MSVCRT:MSVCRT.dll
+ 0001:00001e36       _free                      10002e36 f   MSVCRT:MSVCRT.dll
+ 0001:00001e3c       __CRT_INIT@12              10002e3c f   MSVCRT:crtdll.obj
+ 0001:00001ee7       __DllMainCRTStartup@12     10002ee7 f   MSVCRT:crtdll.obj
+ 0001:00001f84       ___dllonexit               10002f84 f   MSVCRT:MSVCRT.dll
+ 0001:00001f8a       __initterm                 10002f8a f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__SetThreadPriority@8 10003000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__ReleaseMutex@4      10003004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__WaitForSingleObject@8 10003008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__OutputDebugStringA@4 1000300c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__CreateMutexA@12     10003010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsBadReadPtr@8      10003014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentThread@0  10003018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__SetFilePointer@16   1000301c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetLastError@0      10003020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__CreateFileA@28      10003024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__CloseHandle@4       10003028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__WriteFile@20        1000302c     kernel32:KERNEL32.dll
+ 0002:00000030       \177KERNEL32_NULL_THUNK_DATA 10003030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp___onexit             10003034     MSVCRT:MSVCRT.dll
+ 0002:00000038       __imp___adjust_fdiv        10003038     MSVCRT:MSVCRT.dll
+ 0002:0000003c       __imp____dllonexit         1000303c     MSVCRT:MSVCRT.dll
+ 0002:00000040       __imp__malloc              10003040     MSVCRT:MSVCRT.dll
+ 0002:00000044       __imp____CxxFrameHandler   10003044     MSVCRT:MSVCRT.dll
+ 0002:00000048       __imp__sprintf             10003048     MSVCRT:MSVCRT.dll
+ 0002:0000004c       __imp_??2@YAPAXI@Z         1000304c     MSVCRT:MSVCRT.dll
+ 0002:00000050       __imp__localtime           10003050     MSVCRT:MSVCRT.dll
+ 0002:00000054       __imp__time                10003054     MSVCRT:MSVCRT.dll
+ 0002:00000058       __imp__getenv              10003058     MSVCRT:MSVCRT.dll
+ 0002:0000005c       __imp__strncpy             1000305c     MSVCRT:MSVCRT.dll
+ 0002:00000060       __imp___mkdir              10003060     MSVCRT:MSVCRT.dll
+ 0002:00000064       __imp__strtok              10003064     MSVCRT:MSVCRT.dll
+ 0002:00000068       __imp__calloc              10003068     MSVCRT:MSVCRT.dll
+ 0002:0000006c       __imp__free                1000306c     MSVCRT:MSVCRT.dll
+ 0002:00000070       __imp___initterm           10003070     MSVCRT:MSVCRT.dll
+ 0002:00000074       \177MSVCRT_NULL_THUNK_DATA 10003074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp__Netbios@4           10003078     netapi32:NETAPI32.dll
+ 0002:0000007c       \177NETAPI32_NULL_THUNK_DATA 1000307c     netapi32:NETAPI32.dll
+ 0002:00000080       __imp__LoadStringA@16      10003080     user32:USER32.dll
+ 0002:00000084       __imp__PostMessageA@16     10003084     user32:USER32.dll
+ 0002:00000088       \177USER32_NULL_THUNK_DATA 10003088     user32:USER32.dll
+ 0002:0000008c       ??_7bncs_disklog@@6B@      1000308c     bncs_disklog.obj
+ 0002:00000090       ??_7sizedBuffer@@6B@       10003090     sizedBuffer.obj
+ 0002:000000c8       __IMPORT_DESCRIPTOR_NETAPI32 100030c8     netapi32:NETAPI32.dll
+ 0002:000000dc       __IMPORT_DESCRIPTOR_KERNEL32 100030dc     kernel32:KERNEL32.dll
+ 0002:000000f0       __IMPORT_DESCRIPTOR_USER32 100030f0     user32:USER32.dll
+ 0002:00000104       __IMPORT_DESCRIPTOR_MSVCRT 10003104     MSVCRT:MSVCRT.dll
+ 0002:00000118       __NULL_IMPORT_DESCRIPTOR   10003118     netapi32:NETAPI32.dll
+ 0003:00000000       ___xc_a                    10004000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    10004008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    1000400c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    10004010     MSVCRT:cinitexe.obj
+ 0003:00000020       ??_C@_0P@COBJ@bbcnb32m_queue?$AA@ 10004020     BBCNB32.obj
+ 0003:00000030       ??_C@_0BK@EGFC@?$CFs?5?9?5NetBIOS?50x?$CF02x?5?9?5?$CFs?6?$AA@ 10004030     BBCNB32.obj
+ 0003:0000004c       ??_C@_0BN@CDG@Unknown?5NetBIOS?5command?5code?$AA@ 1000404c     BBCNB32.obj
+ 0003:0000006c       ??_C@_07HCHI@bbcnb32?$AA@  1000406c     BBCNB32.obj
+ 0003:00000074       ??_C@_0BG@CKIF@?$CFs?5?9?5NRC?50x?$CF02x?5?9?5?$CFs?6?$AA@ 10004074     BBCNB32.obj
+ 0003:0000008c       ??_C@_0BN@JPI@Unlisted?5NetBIOS?5return?5code?$AA@ 1000408c     BBCNB32.obj
+ 0003:000000ac       ??_C@_0BE@KBAL@ERROR?5?9?5Bad?5pointer?$AA@ 100040ac     BBCNB32.obj
+ 0003:000000c0       ??_C@_0CI@IKFB@Strlen?$DN?$CFd?0?5Str?$DN?$FL?$CFs?$FN?$DN?$CF02x?0?$CF02x?0?$CF0@ 100040c0     BBCNB32.obj
+ 0003:000000e8       ??_C@_0DJ@CDKA@Ptr?5to?5NCB?$DN0x?$CF08lx?0?5Ptr?5to?5buffe@ 100040e8     BBCNB32.obj
+ 0003:00000124       ??_C@_0BK@GIKM@?$DMCS?$DO?9MSG?9NCBDGRECV?5failed?$AA@ 10004124     BBCNB32.obj
+ 0003:00000140       ??_C@_09DPCM@?$DMNet?$DO?9?$CFs?6?$AA@ 10004140     BBCNB32.obj
+ 0003:0000014c       ??_C@_01BJG@?6?$AA@        1000414c     bncs_disklog.obj
+ 0003:00000150       ??_C@_0CE@MPPH@bncs_disklog?3?5Can?8t?5open?5log?5fil@ 10004150     bncs_disklog.obj
+ 0003:00000174       ??_C@_0N@MKOM@?$CFs?2?$CFs?2?$CFs?4log?$AA@ 10004174     bncs_disklog.obj
+ 0003:00000184       ??_C@_0BH@JOFC@?$CFs?2?$CFs?2?$CF04d?$CF02d?$CF02d?4log?$AA@ 10004184     bncs_disklog.obj
+ 0003:0000019c       ??_C@_0BM@GACA@?$CFs?2?$CFs?2?$CF04d?$CF02d?$CF02d?9?$CF02d?4log?$AA@ 1000419c     bncs_disklog.obj
+ 0003:000001b8       ??_C@_0BG@KLKP@localtime?5has?5failed?6?$AA@ 100041b8     bncs_disklog.obj
+ 0003:000001d0       ??_C@_0M@OFHL@c?3?2bncslogs?$AA@ 100041d0     bncs_disklog.obj
+ 0003:000001dc       ??_C@_0L@PKIN@?$CFs?2?$CFs?2logs?$AA@ 100041dc     bncs_disklog.obj
+ 0003:000001e8       ??_C@_09EFEJ@CC_SYSTEM?$AA@ 100041e8     bncs_disklog.obj
+ 0003:000001f4       ??_C@_07FCNI@CC_ROOT?$AA@  100041f4     bncs_disklog.obj
+ 0003:000001fc       ??_C@_02PIMC@?$AN?6?$AA@   100041fc     bncs_disklog.obj
+ 0003:00000200       ??_C@_02GIEM@?0?5?$AA@     10004200     bncs_disklog.obj
+ 0003:00000204       ??_C@_0BP@LJGD@?$CF02d?1?$CF02d?1?$CF04d?5?$CF02d?3?$CF02d?3?$CF02d?5?$AA@ 10004204     bncs_disklog.obj
+ 0003:00000224       ??_C@_01PCFE@?2?$AA@       10004224     bncs_disklog.obj
+ 0003:00000228       ??_C@_0CN@MFLH@?9?9?9?5No?5session?5table?5entries?5to?5@ 10004228     NCBSUFU.obj
+ 0003:00000258       ??_C@_0O@CMMA@?7?$CFs?7?$CFs?7?$CFd?7?$CFd?6?$AA@ 10004258     NCBSUFU.obj
+ 0003:00000268       ??_C@_0BA@IAOK@Unknown?5state?5?5?$AA@ 10004268     NCBSUFU.obj
+ 0003:00000278       ??_C@_0BA@PBKH@Session?5aborted?$AA@ 10004278     NCBSUFU.obj
+ 0003:00000288       ??_C@_0BA@MOHF@HANGUP?5complete?$AA@ 10004288     NCBSUFU.obj
+ 0003:00000298       ??_C@_0BA@KDIA@HANGUP?5pending?5?$AA@ 10004298     NCBSUFU.obj
+ 0003:000002a8       ??_C@_0BA@KIPP@Active?5?5?5?5?5?5?5?5?5?$AA@ 100042a8     NCBSUFU.obj
+ 0003:000002b8       ??_C@_0BA@CLH@CALL?5pending?5?5?5?$AA@ 100042b8     NCBSUFU.obj
+ 0003:000002c8       ??_C@_0BA@EADB@LISTEN?5pending?5?$AA@ 100042c8     NCBSUFU.obj
+ 0003:000002d8       ??_C@_06HGGG@?$CFd?7?$CFd?7?$AA@ 100042d8     NCBSUFU.obj
+ 0003:000002e0       ??_C@_0DO@DAFC@Idx?7LSN?7State?7?7Local?5Name?7?7Remot@ 100042e0     NCBSUFU.obj
+ 0003:00000320       ??_C@_0CI@MDAG@?$CFd?5?8Recieve?5Any?8?5Datagrams?5outst@ 10004320     NCBSUFU.obj
+ 0003:00000348       ??_C@_0DI@PIPO@?$CFd?5Receive?5Datagrams?5?$CG?5Broadcast@ 10004348     NCBSUFU.obj
+ 0003:00000380       ??_C@_0BL@LLFM@?$CFd?5Sessions?5Table?5Entries?6?$AA@ 10004380     NCBSUFU.obj
+ 0003:0000039c       ??_C@_0CJ@PDGI@Session?5Information?5for?5?8?$CFs?8?5on?5@ 1000439c     NCBSUFU.obj
+ 0003:000003c8       ??_C@_0DP@NDGH@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 100043c8     NCBSUFU.obj
+ 0003:00000418       ?acNetDebug@@3PADA         10004418     BBCNB32.obj
+ 0003:0000059c       ?hInst@@3PAUHINSTANCE__@@A 1000459c     BBCNB32.obj
+ 0003:000005a0       ?hMutex@@3PAXA             100045a0     BBCNB32.obj
+ 0003:000005a4       ?bDebugMode@@3HA           100045a4     BBCNB32.obj
+ 0003:000005a8       ?dgMsgQueue@@3V?$queue@VsizedBuffer@@V?$deque@VsizedBuffer@@V?$allocator@VsizedBuffer@@@std@@@std@@@std@@A 100045a8     BBCNB32.obj
+ 0003:000005d8       ??_C@_00A@?$AA@            100045d8     bncs_disklog.obj
+ 0003:000005e0       __adjust_fdiv              100045e0     <common>
+ 0003:000005e4       __pRawDllMain              100045e4     <common>
+ 0003:000005e8       ___onexitend               100045e8     <common>
+ 0003:000005ec       ___onexitbegin             100045ec     <common>
+
+ entry point at        0001:00001ee7
+
+ Static symbols
+
+ 0001:00000000       _$E6                       10001000 f   BBCNB32.obj
+ 0001:00000010       _$E3                       10001010 f   BBCNB32.obj
+ 0001:00000030       _$E5                       10001030 f   BBCNB32.obj
+ 0001:00000040       _$E4                       10001040 f   BBCNB32.obj

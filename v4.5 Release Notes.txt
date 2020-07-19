@@ -1,0 +1,886 @@
+************************************************************************************************
+* NOTE: Please do not do "revision number arithmetic". A large number of commits does not mean *
+* a large amount of change as this repository is shared between all that is "core BNCS"        *
+************************************************************************************************
+
+Revision 2127 07/03/2016
+========================
+applicationScreenGrab utility: v1.0.2.0
+adds timeout value to grab settings (set in the UI) 
+
+Revision 2122 07/03/2016
+========================
+Experimental new utility "pmTarget" can be used to clear panels from panelman when you hit the 
+build button in a compiler and then re-run on successful build. Look for pmTarget executable and 
+chm (help file) in windows\lib (not windows\bin - there's a good reason for this!)
+
+Revision 2108 03/03/2016
+========================
+panelman v4.6.7.0: adds "PA /CLEAR" navigation command which does the same as hitting the clear 
+button on panelman's popup (start-menu-like) UI. This is designed for use with pmtarget for 
+active control of panelman when compiling panels.
+
+Revision 2024 17/02/2016
+========================
+Build output now includes extinfo.lib again (and needs to be further reviewed for the other 
+interfacing libraries)
+
+Revision 2022 17/02/2016
+========================
+ccConfig class now has methods to read the list of sections
+
+Revision 1926 04/02/2016
+========================
+CSI32: 1.2.60 revertive messages now set target workstation in wParam (previously hard-coded 
+to zero) so that you can tell if this was a poll response or change of state
+
+Revision 1914 04/02/2016
+========================
+CSI32 v1.2.58 adds BBC_SETREDUNDANCYMASTER a new API feature so that redundancy mastering can 
+be set on the fly by drivers that understand it. This will reduce the redundancy changeover time 
+from 
+  t * <number of BNCS devices> 
+to just 
+  t * <number of DRIVERS>
+where this may be a single driver hosting all 999 devices, but all 999 follow the master in a 
+single cycle
+
+Revision 1891 11/01/2016
+========================
+Fix to Revision 1858 to allow infodriver32 to work (IS BROKEN IN Revision 1858)
+
+Revision 1858 11/01/2016
+========================
+GRD32/Infodriver32 now try and use handle-sharing DLL in preference to HWND_BROADCAST. The tip 
+of a very large iceberg....
+
+Revision 1854 07/01/2016
+========================
+bncs_listview_extended v1.0.11.0 - removeTag will now remove row by tag name. Bug 2713
+
+Revision 1850 07/01/2016
+========================
+bncs_listview_extended v1.0.10.0 - tagRow now has option to force add of non-existent entry 
+if we didn't find it. Bug 2712
+
+Revision 1848 07/01/2016
+========================
+bncs_listview_extended v1.0.9.0 - now has rowFG and rowBG to set entire row colours, also 
+column equivalent with columnFG and columnBG. Bug 2683
+
+Revision 1839 17/12/2015
+========================
+CSI32 1.2.57 adds "deaf to self" setting so that CSI32 can be used as a gateway interface
+
+Revision 1834 15/12/2015
+========================
+UI host wizard now spits out VS2013 project files (local conversions from DSW aren't always 
+that successful and don't address "the well-known faults")
+
+Revision 1821 10/12/2015
+========================
+bncs_bargraph now supports VU-style colouring of mid and upper ranges. Also selectable shading.
+
+Revision 1816 08/12/2015
+========================
+CC_Sys_Check now uses a Splitter for its layout, so it's easier to manipulate to see its diagnostics.
+
+Revision 1766 12/11/2015
+========================
+Added some default size for range control and made it be big up down by default
+Added icon for Instance viewer
+
+Revision 1763 12/11/2015
+========================
+CSI's redundancy docs now have clearer examples of what to implement at the lowest interfacing 
+level
+
+Revision 1758 12/11/2015
+========================
+bncs_ssmart v4.6.138 - range control (up/down buttons) now uses the same tooltip code as enum 
+
+Revision 1727 05/11/2015
+========================
+bncs_script_helper 4.8.4.0 simplification of getWorkstationSetting and getObjectSettingto break 
+out of the loop earlier 
+
+Revision 1723 05/11/2015
+========================
+Bug #2679
+bncs_listview_extended v1.0.8.0
+Rationlisation of internal passing of encoded strings so that auto cell-width works on the text 
+not the encoded version of the text 
+
+Revision 1718 05/11/2015
+========================
+bncs_vis_ed: 4.6.25 - fix to open sln files not just offer to create a new project even though 
+one already exists. Also removes old icon from the project
+
+Revision 1714 03/11/2015
+========================
+Bug #2714
+bncs_listview_extended v1.0.7.0 - merely setting the sort column isn't enough to force a sort 
+if it's already set to that column - so force a sort if the column turns out to be the same one 
+as we already had
+
+Revision 1711 03/11/2015
+========================
+Bug #2711
+bncs_listview_extended v1.0.6.0 - now supports return value for tags or tags.<delim>
+
+Revision 1706 02/11/2015
+========================
+UI: (bncs_ssmart.dll 4.6.137) Instance viewer control will now accept other attributes than 
+available in the drop-down list (i.e. any that appears in instances.xml) e.g. ip_address
+
+Revision 1701 30/10/2015
+========================
+Bug #2618
+GRD32: v1.0.16.0 Now uses device number for the file it uses to store location and UI state, 
+saves size/pos on closedown (doesn't save if dialog never got displayed e.g. error box) 
+
+Revision 1698 29/10/2015
+========================
+V3Caplog: 3.15.06 New config setting (with legacy default) to allow turning off of setting local clock 
+from incoming TS message
+
+Revision 1688 19/10/2015
+========================
+Various project changes, icon updates etc. for VS2013 build of core_system (impacts on VC6 build 
+too - e.g. icon changes)
+
+Revision 1640 09/10/2015
+========================
+Adds bncs_style2 help to the distribution
+
+Revision 1597 25/09/2015
+========================
+Bug 2525.
+Fix to core toolkit library to fix handle leak (a couple of handles every 10 seconds under certain
+circumstances
+
+Revision 1595 17/09/2015
+========================
+Bug 2724.
+Wizard VS2013 project files now builds to project directory not solution directory (for when 
+you're working with multiple panels in one solution)
+
+Revision 1593 17/09/2015
+========================
+Bug 2618.
+GRD32 v1.0.15 GUI better behaved when in small screen mode and allows dynamic resizing of the listboxes
+
+Revision 1572 10/09/2015
+========================
+Bug 2723.
+UI host now won't try and use instance from both its own dialog and if it appears in the param list of the UI that it loads
+
+Revision 1568 04/09/2015
+========================
+enableCaption method on v4.5 dll "scripts" now has explicit title parameter
+
+Revision 1558 01/09/2015
+========================
+Workstation Tracker documentation updated.  Substantially revised, especially to clarify InfoDriver
+interaction (Bug 2706).
+
+Log Control date/time filter changes (Bug 2530).
+Functional changes as follows:
+- Addition of Date/Time filtering.
+- Addition of Between filters.
+- Addition of Compare Mode (selection of inclusive/exclusive match).  Default is exclusive, which most closely
+matches the existing implementation.
+Also fixes to search implementations, both SQL and Update variants, so both give the same results and behave
+in an intuitive way, in conjunction with all the options, old and new.
+(Also addition of various test applications to implement automated testing of as much as possible of the above.
+For development use - not accessible by users.)
+
+Revision 1550 28/08/2015
+========================
+Numerous typos in custom control documentation resolved
+
+Revision 1540 27/08/2015
+========================
+Incorporated the V2/V3 "VT Clock" custom control
+
+Revision 1503 17/08/2015
+========================
+Updates wstracker docs with slot information
+
+Revision 1495 13/08/2015
+========================
+ccInfodriver previously forced TxRx state when setRedundancyState() rather than asking. Now
+has additional parameter to give the option of either.
+
+Revision 1399 14/07/2015
+========================
+V3CapLog now sticks a banner at the top of the dialog if any of the device filter settings 
+exclude devices
+
+Revision 1381 14/07/2015
+========================
+Vis Ed has additional edit menu item and keyboard shortcut for access to the dialog properties 
+which is otherwise difficult to get hold of when using full-screen components
+
+Revision 1377 14/07/2015
+========================
+A line in the vs2013 build output installer licence file to note that it's not for production use 
+and isn't required for systems where UI development is on VS2013 - this seems to have caused 
+unnecessary confusion
+
+Revision 1370 13/07/2015
+========================
+Panelman v4.6.4: configurable engineering PIN was being mucked up if the system used workstation 
+tracker.
+Config filename was being overwritten with the value for the tracker - so if you need to work-
+around this issue, you'll find the engineering PIN in the workstation tracker ini file.
+
+Revision 1367 10/07/2015
+========================
+Panel docs now include bncs_dateTime (though if you want to use this class you need to include
+bncs_dateTime.lib in your project settings)
+
+Revision 1360 10/07/2015
+========================
+Build output now includes alternative bncsif32.dll (called bncsif32_32.dll) that can kill of stalled apps
+To use it you have to remove the old bncsif32.dll and rename this new one to take its place
+
+Revision 1336 06/07/2015
+========================
+ccClient now has deviceMode notification parameter the right way round
+CSI32 now accepts environment variables in path arguments (e.g. temp path within bncs_system.ini)
+Includes BBC_NETTXRXSTATUS_BROADCAST_ENABLED, BBC_NETMSGUPDATE_BROADCAST_ENABLED IPC messages so 
+that you know whether to manually register for these messages or they'll be broadcast to every client (a CSI setting)
+
+Revision 1287 30/06/2015
+========================
+bncs_dateTime v1.0.5 Fixed stupid formatting error with blind-fix to ddddd formating of bncs_dateTime string
+
+Revision 1281 26/06/2015
+========================
+CSI32 now has IPC timing information on the clients/drivers dialog (see Diagnostics menu)
+
+Revision 1276 16/06/2015
+========================
+bncs_ssmart.dll: 4.6.131 enum buttons now will dynamically update their display if state list 
+is dynamically adjusted
+
+Revision 1274 22/06/2015
+========================
+bncs_ws_man will now resolve environment variable references (e.g. %CC_ROOT%) for both arguments 
+and  working directory
+
+Revision 1268 16/06/2015
+========================
+bncs_vis_ed: finally "test" has been made "save and test" - toolbar icon changed to draw your 
+attention to this change and the tooltip/menu item text changed too
+
+Revision 1266 16/06/2015
+========================
+Fix to calculation of sizes relating to shrinking of text (manifests itself on shrunk text on 
+enum buttons)
+
+Revision 1243 16/06/2015
+========================
+bncs_datetime version 1.0.4: fixes to toString functions using (so you don't get 11st and 12nd)
+and it gets the day of the week right (when using ddd rather than dddd). Fix to fromString docs 
+to show using dashes for date delimiter rather than colons
+
+Revision 1223 11/06/2015
+========================
+bncs_ws_man: 4.5.25 makes start/stop buttons double height for ease of operation on a touchscreen
+
+Revision 1223 11/06/2015
+========================
+	*********************
+	*** IMPORTANT FIX ***
+	*********************
+All V4.5 builds since December 2013 have a flaw with the bncs_enum control that means a change of 
+device number does not de-register with the previous slot so the control can pick up values from 
+a device at which it's no longer supposed to be targeted
+
+
+Revision 1218 10/06/2015
+========================
+bncs_log.  Some changes to handling of BNCS revertives and database connection related messages
+so that updates that arrive before the connection is made get displayed.  Includes some changes
+relating to selections and ensuring things are visible, and ensuring all database related messages
+are considered OK rather than some OK and some Fail for no particular reason. (Bug 2479)
+
+Revision 1210 05/06/2015
+========================
+bncs_listview_extended 1.0.3.0 - Crashfix to edit-time bncs_listview_extended control
+bncs_listview_extended 1.0.4.0 - enableSorting now set on design-time dialog from the value used
+bncs_listview_extended 1.0.5.0 - column alignment now actually sets the alignment on the control
+
+Revision 1202 05/06/2015
+========================
+Adds difference functions to bncs_dateTime class
+
+Revision 1193 29/05/2015
+========================
+To prevent update issues, installer now gives you a presync.bat file with blunt deletion of all 
+residual ".bncs_update" files that prevents the new mechanism from working properly
+
+Original update-updater (InnoSetup script) now has logging enabled by default
+
+Revision 1187 26/05/2015
+========================
+Allows for the filtering of connections on the sub-parameter so you can distinguish between
+button.1=released and button.2=released (previously the rule would have ignored anything after 
+the period)
+
+Revision 1178 21/05/2015
+========================
+Not and Truth processes now treat Latched as an Ok state, rather than an Alarm state.  (Bug 2626)
+
+Revision 1168 19/05/2015
+========================
+bncs_range/enum fix to notify setting where setting notify.<anything>=true would set the button 
+notify true - now will only accept notify=true or notify=false
+
+Revision 1167 19/05/2015
+========================
+GRD32 now returns virtual tallies to XG (external client) requests rather than real tally table entries
+
+Revision 1162 18/05/2015
+========================
+navigateCanAdjust marginally more discerning in that it'll check that the typehandler entry exists 
+AND has length, not just that the XML entry exists
+
+Revision 1160 18/05/2015
+========================
+Cancel button on the filesync application was found to be non-functional after all these years - 
+now fixed...though you wouldn't really wanna use it
+
+Revision 1156 18/05/2015
+========================
+Minor change to revision 1107 and bncs_filesync - regular expressions now use "search" rather than 
+"exactMatch" so that you have to explicitly specify start and end tags (e.g. ^old$ ) rather than 
+have them implied by the function call
+
+Revision 1152 15/05/2015
+========================
+Speculative fix to log control to fix crash problem (initial UAT suggests a positive move)
+
+Revision 1149 15/05/2015
+========================
+GRD32 v1.0.7.0    crashfix to out-of-range array value when using virtual dests with unset tallies
+
+Revision 1140 14/05/2015
+========================
+<2015 release 2>	- candidate for release
+
+Revision 1124 11/05/2015
+========================
+Alarm config editor:
+- BNCS Input - Right-click context menu for inputs is now enabled whichever column is selected.
+
+Revision 1121 11/05/2015
+========================
+Alarm config editor:
+- BNCS Input - Fixed enabling Delete and Edit Process buttons in the Dependant Inputs area.
+  	   		   Should now be enabled only when a process is actually selected.
+
+Revision 1119 11/05/2015
+========================
+Alarm config editor:
+- BNCS Output - Duplicate module now fully working.
+- BNCS Output - Delete module now on Del key (was ctrl-x).
+
+Revision 1117 11/05/2015
+========================
+Fix to uiHost control docs - was missing images
+
+Revision 1110 08/05/2015
+========================
+Fix to bncs_cachedData (rev 868) to not spit out debug messages that end up visible in the file-sync window
+
+Revision 1107 07/05/2015
+========================
+bncs_filesync (launched as part of bncs_ws_mgr's startup sequence) now accepts regular expression
+configuration so that individual file types may be excluded
+
+Revision 1101 06/05/2015
+========================
+Alarm config editor:
+- Processes - Dialog area now also shows invalid process references.
+
+Revision 1083 01/05/2015
+========================
+CSI, Infodriver and GRD now use new-style of icons
+
+Revision 1076 30/04/2015
+========================
+bncs_cachedData v4.6.6: was pretty casual about what it loaded from instances - would accept any tag with an id value
+now changed to be more discerning
+
+Revision 1073 30/04/2015
+========================
+Panelman v4.6.3: Fix to 1041 where relative paths to SHARED panelman image resources got upset
+
+Revision 1069 29/04/2015
+========================
+Alarm config editor:
+- Processes - Added a column to show process validity, and mark invalid process by colours.
+  			  Process input selection dialog now shows invalid processes, greyed-out.
+			  They can't be manually removed but (as before) will be removed on selecting OK.
+
+Revision 1067 27/04/2015
+========================
+Alarm config editor:
+- Processes - Copy process using template has been changed visually to be clearer regarding the functionality.
+  			  And now accesible using Ctrl-T.
+- Processes - Added "Clear Filter" button.
+- Processes - Changed "Delete Process" from Ctrl-X to the Delete key.
+
+Revision 1065 27/04/2015
+========================
+bncs_clock (digital/lcd variants) now only updates the value written to the display when it changes rather than every tick
+panelman now only updates the clock display when the value changes rather than every tick
+
+Revision 1060 24/04/2015
+========================
+BNCS_SIGNATURE version string name clashes in certain libraries. Renamed (shouldn't cause any issue - 
+these are there to verify version of static libraries used to build projects)
+
+Revision 1058 23/04/2015
+========================
+Script wizard now allows you to select VC6 and/or VS20xx versions of the project files. 
+Setting is persisted between sessions so that you shouldn't have to set this more than once
+
+Revision 1055 23/04/2015
+========================
+runVisEd can now be used without command line parameters to just run the current vis ed (i.e. pin runVisEd to your task bar and it'll always open the correct vis ed according to your env vars)
+runVisEd and bncs_vis_ed now have the new-style app icon
+
+Revision 1052 23/04/2015
+========================
+Alarm Control.
+- Added context (right-click) menu to select a process name as a filter (main or input).  Still able to double-click to set an input filter.
+- Fixed odd handling of which items are left selected when a filter is removed.
+
+Revision 1048 22/04/2015
+========================
+Alarm config editors:
+- BNCS Acquisition - Fixed enable state of signal-on controls according to Input Type (ie not available for Alarm System Input).
+- BNCS Acquisition - Now able to automatically insdert nwe input processes into per-group overalls.
+- BNCS Output - Second column of module list-view now shows file-name.
+- BNCS Output - Deleting module now works (Save buttons should be enabled when this is done so action can be confirmed, ie written back to the server).
+- Database Output - Second column of module list-view now shows file-name.
+
+Revision 1041 21/04/2015
+========================
+**** COMPATABILITY WARNING ****
+Panelman now accepts the command line parameter /size as a profile name rather than a fixed size.
+It then looks in a folder of that name for its resources. ie. a command line parameter of /size=mySize
+will load the title bar from panelman/mySize/pm_title.bncs_ui
+Note: the resources are just the same as they were, but now in their own sub-folder and lose the numeric suffix
+The layout of the final panelman UI is then down to the configuration within the pm_title, pm_app, pm_status and pm_blank
+You MUST have a pm_blank.bncs_ui of the correct dimensions in order to set the location of the main client area of panelman
+
+*** To make it easy ***, the upgrade tool that runs when you upgrade: "V4.5 System Check" will move these files, copy the PNGs 
+and create a likely pm_blank.bncs_ui for all known panelman sizes
+
+Revision 1021 14/04/2015
+========================
+GRD32: v1.0.5.0    Will now return a tally if you route a virtual source to a dest that's already got the real source on there (and wouldn't otherwise return a tally) 
+
+Revision 974 31/03/15
+=====================
+Now has renamed builds of database_vs2013.lib and ccLibrary_vs2013.lib as they don't play happily together in a mixed VC6 environment
+
+Revision 945 24/03/15
+=====================
+adds 3840x2160 panel size to panelman
+
+Revision 896 19/03/15
+=====================
+bncs_cc.dll now included from the freshly built version not an "uncontrolled lib" previously manually included
+PDF docs now generated from Office internally rather than "printing" to an external PDF writer
+
+Revision 868 16/03/15
+=====================
+bncs_cachedData version 4.6.4.0 -checks to see if complex_instances directory exists before trying 
+to get a list of entries or else it throws a visible debug message (filesync)
+
+Revision 862 13/03/15
+=====================
+Router name grid & dest grid now support databases 8-65535 for names and mapping
+CSI32 v1.2.50 - memory database now uses default filenames for databases which are in the format DEV_nnn.DByyyy where 
+yyyy is four character zero padded database name. You do not need to specify a filename explicitly for any level in bncs_system.ini/csi.ini if you're happy this format
+
+Revision 857 12/03/15
+=====================
+First round of updates to alarm system documentation.  Part of Bug 2585.
+
+Revision 844 11/03/15
+=====================
+All version resource fields should now be set consistently, and copyright years set, in exes, dlls and installers.
+
+Revision 817 09/03/15
+=====================
+CSI32 and V4.5 client now supports 65536 databases rather than just 10 when in "UseMemoryDatabaseOnly" mode. 
+All usual rules apply except you do not have to supply the path to the file in the DEV_nnn.INI file 
+ - it defaults to DEV_xxx.DBnnnnn where nnnnn is a number 0 to 65535 with no zero padding e.g. DEV_123.DB20 or DEV_123.DB65535<<<<<<this changes in revision 862
+The number of databases supported my be retrieved using the new IPC message: BBC_GETMAXDATABASES
+
+Revision 801 06/03/15
+=====================
+doSnapShot version 4.5.2 now writes a log to "the usual place" so that its activities can be traced
+
+Revision 790 05/03/15
+=====================
+Small fix to the context link in the editor to the docs for the (deprecated) router source grid
+
+Revision 714 19/02/15
+=====================
+Panel scripts docs-only wizard now works (broken by previous script wizard changes)
+bncs_buildTool now creates a default configuration if it doesn't exist
+
+Revision 705 16/02/15
+=====================
+bncs_listbox: force a recalculation of the layout when changing sort mode (otherwise you end up with cropped names)
+
+Revision 702 16/02/15
+=====================
+extinfo:
+better behaved wrt interprocess comms. 
+**COMPATIBILITY WARNING**: Fixes notification value when being set to RxOnly (previously it would return raw IPC value BBC_DEVICEIDINUSE rather than the wrapped up TO_RXONLY)
+
+Revision 691 12/02/15
+=====================
+UI Connections rewriting now extended to [id.param] or ["buttonName".param] to allow retrieval of values from controls within the connection itself
+
+Revision 675 10/02/15
+=====================
+File-sync is now case-insensitive when considering exclude lists.  Workstation manager includes "source" in the exclude
+  list it passes to file-sync, but the folder is usually "Source" so was not being properly excluded from the sync.
+There is now a "<<" operator available in bncs_string for C++ stream output.
+
+Revision 648 29/01/15
+=====================
+ui host now reads connection information of its configured UI so that you can populate a script like table with those senders/receivers that contain the [parent] keyword
+
+Revision 635 27/01/15
+=====================
+Fixed careless handling of = when setting params on a cpp scripted component meant you couldn't have = within the value itself
+
+Revision 632 27/01/15
+=====================
+The name grid control was not marking the state as dirty when assigning new sources - this was preventing it from saving
+
+Revision 629 26/01/15
+=====================
+Note about using [startup] in connections (feature there but not previously made the docs)
+
+Revision 625 23/01/15
+=====================
+Minor enhancement to listbox to stop it moving about (quite so much) when updating entries
+
+Revision 622 22/01/15
+=====================
+Adds multi-column options to the normal listbox control
+
+Revision 615 22/01/15
+=====================
+IMPORTANT FIX to bncs_cachedData which was not correctly loading device type information (smart buttons wouldn't target properly)
+
+Revision 593 15/01/15
+=====================
+Panelman now has a 1920 profile e.g. windows\bin\paneman /size=1920
+
+Revision 547 02/12/14
+=====================
+Shim now no longer re-polls for slots that do not have a registration (it relies on the fact there's 
+a client registration to know to stop polling).
+
+Revision 531 28/11/14
+=====================
+The quest to tidy up the rounded edge - this now works on components that have only a single child or are not transparent
+
+Revision 503: 18/11/14
+======================
+bncs_ssmart.dll (smart controls): v4.6.112
+cascades the edge masking code to the right place for different button presentations 
+
+Revision 494: 17/11/14
+======================
+bncs_ssmart.dll (smart controls): v4.6.111
+Base control now better behaved with all possible combinations of press/release/focus/doublepush
+Fixes an obscure issue where an enum with no style set in the device description would cause a crash 
+ if you then manually select the "line" style
+
+Revision 452: 31/10/2014
+========================
+Installer now won't blast local changes of "blank system" components (such as panelman resources or images)
+
+Revision 447: 30/10/2014
+========================
+CSI32 now allows for BBC_CONFIGCHANGE clients that are not normal (revertive) clients by defaulting to BBC_COPYDATA IPC
+
+Revision 441: 30/10/2014
+========================
+Renames mis-named bncs_stylesheet to be bncs_cachedData to better reflect its actual use
+
+Revision 437: 27/10/2014
+========================
+Revision number/URL now stamped into executables so that any release may be rebuilt from source
+
+Revision 402:
+=============
+Scripting "Control Move" fixed (had been broken by earlier update)
+
+Revision 399
+============
+Workstation manager now creates well-known directories on startup
+
+Revision 396
+============
+bncs_buildTool now has sample config included in the zipper
+
+Revision 378
+============
+Panelman now clears the navigation history when switching out of the engineering menu
+
+Revision 334:
+=============
+Added more docs that always existed but never made the release
+New Docs index document (documentation.html in the root of the system)
+
+Revision 331:
+=============
+Docs are now not written to docs_updated - I'm not sure why this was ever so, the only local modification was likely to tree_items.js file which is unsustainable since it means you can never update it with new core system docs.
+
+So COMPATIBILITY WARNING HERE - your next update will overwrite not only all your system binaries but also the docs. I'm rather hoping you'd take a copy (or use source control) before embarking on a system update anyway....
+
+Revision 313:
+=============
+MySQL library updated to 5.6.20 - this may mean that mySQL databases that use "OLD PASSWORDS" e.g. alarm systems may need the user account changing to use the new (>version 4) mySQL password
+
+Revision 312:
+=============
+Changes script loader to use explicit DLL path rather than leave it to the loadlibrary to infer one. It was found that it didn't work on Win Sever 2008r2 as implicit path.
+
+Revision 295:
+=============
+minor tweak to inst env to explain how the environment is only set when you create a process and how launching 
+apps from an already running explorer window will pick up the old environment
+
+D20140519T140852: 
+================
+Alarm System
+ - Added facility to manually request that AlarmControl go RxOnly when it is TxRx.
+ 
+CSI32 - v1.2.44 - adds redundancy master feature
+
+v4.5 custom controls
+ - minor correction to range button default state so that it updates when set dynamically
+
+D20140407T103348:
+=================
+
+bncs_control
+removes debug messages
+removes stop and immediate restart of deferredstartup control
+
+Workstation manager: 
+ - new mechanism to chain execution to a deferred update application so in-use files can be updated without fuss
+ - adds command line option to resync/restart - simply attempt to run a new instance of workstation manager with 
+   this as a command line option and it will force the existing instance to resync/restart
+CSI32:
+ - new message type for configuration change - this is just the delivery mechanism and a proposal for packet format
+Alarm System
+ - Alarm Log files are now written into named sub-folders (once the alarm system name is known).  Bug 2509.
+ - Erroneous indication of "Fail" from database output modules has been fixed.  Bug 2505.
+ - Erroneous display of unselectable instances in the Manage Templates dialog (BNCS Output module) has been fixed.  Bug 2487.
+ - Complex instances now display correctly in the BNCS Acquisitions editor.  Bug 2485.
+ - Substition of alt_id values (using %alt_id%) is now working properly.  Bug 2458.
+ - Other information from the instance may be substituted in the same way as alt_id.  Bug 2452.
+    - Available values are: location, composite, type, ref, device, offset, complex (use %location% etc).
+ - If the process number goes above 9999 the alarm system will now either provide an indication or work properly.  Bug 2455.
+ - An issue was noted where the BNCS acquisition startup poll would continue to run long after the diagnostics
+    indicated that all required data had arrived.  This has been fixed.
+ - A re-poll may now be manually requested.  This may be done for all the BNCS Acquisition modules, or individual modules.
+ - Copying processes using a template now allows the number of leading zeroes to be specified.
+ - *** There is an undocumented restriction that the database output module will not work properly if more than one instance
+       of the module is running on any one PC.  Work is ongoing to remedy this but for the time beig it should be avoided.
+	     Bugs 2507 and 2510.
+GRD32
+ - updated GUI
+ - Filters RC messages from destinations that are locked by external driver - Bug #2532.
+bncs_stringlist
+ - small change to documentation to correct misunderstanding with sort function
+Workstation Tracker
+ - The "restart the whole system" button is now only available if it is configured ([WSTracker]EnableRestartAllButton).  Bug 2516.
+Log control
+ - The Log Control may now be configured not to connect to a database.  Bug 2451.
+    This is relevant if it displays a single line, in which case there is no room for historical data.
+
+14/3/14
+Smart Controls
+Fixes a bug in ListView where using the Reset command adds an extra connection each time. So mulitple connections are send out on each click
+
+10/02/14
+Smart Controls - 4.6.103 
+makes navigateCanExecute do something sensible (based entirely on the filename rather than applications.xml config)
+
+07/02/14
+dCW - 4.5.27 
+trying to set path of null widget pointer - crasher
+
+07/02/14
+Smart Controls - 4.6.102
+careless problem introduced reworking DLL-controls comms to allow for spaces - upshot was that PR didn't work
+
+03/02/14
+bncs_buildTool
+Generic tool born out of VS2013 conversion/building that searching a path for filename pattern matches and then run a tool against them
+
+28/01/14
+GRD32 - v1.0.0.7
+Adds button/menu option to view virtual routes - Bug #2503
+Reinstates original NetUpdateOnStart mechanism - Bug #2508
+Revised GUI layout (bug 2503)
+
+23/01/14
+Smart Controls - 4.6.98 
+two  mechanisms font scaling now tidied up
+
+16/01/14
+dCW (connections) - 4.5.26
+fix to parent connections filtering
+adds startup connection event
+
+14/01/14
+Smart Controls- 4.6.97
+schoolboy trig and now shrink to fit works with angled text - both vertical and arbitrary angles (vertical more efficient than arbitrary)
+
+09/12/13
+Smart Controls - 4.6.95
+fix to fader control to not use the multiplier internally
+
+16/12/13
+Smart Controls - 4.6.96 Changes to ensure that upsidedown faders (min>max) work properly for faders"
+
+17/12/13
+Workstation Manager - 4.5.17
+if configured uses "wait for input idle" so that apps that take an age to start up can be monitored and wait for launch 
+scope of bncs_disklog changed so that the scope of one logging function doesn't block a second call from opening the file
+
+09/12/13
+Smart Controls - 4.6.94 fix to fader control to update the range on the fader when incoming min/max changes
+
+09/12/13
+Smart Controls - 4.6.93 
+small fix to ensure that the router name grid updates correctly when targeted with device rather than instance
+
+06/12/13
+CSI32 - 1.2.38
+Updates database functions to be the same as those just optimised for bncslink
+cache function now returns the correct value on not reading a cache entry
+
+26/11/13
+CSI32 - 1.2.37		
+Makes buffer for NetDisable big enough to hold the data (crash fix)
+
+11/13 - 12/13
+Changes to creation of UIs, use of timers, deferred startup
+
+14/11/13
+Smart Controls - 4.6.89 enum now clears current state if not targeted and won't target when only instance is valid but parameter not
+
+12/11/13
+CSI32 1.2.34/35
+now has memory cache functions using same code as memory databases
+heartbeats now sent out for all registered devices even when there are 999 of them
+
+11/11/13
+bncs_string - 4.5.18
+adds rfind(char) option
+
+
+11/11/13
+bncs_string - 4.5.17
+silly fault with bncs_string::find( char, index, cs ).... that meant it always searched from the first char not the given index
+
+11/11/13
+v3Caplog 3.15.01
+now filters RD messages according to the revertive filter"
+
+04/11/13
+Smart Controls 4.6.87 
+Now doesn't display the ""extra"" 9 fixed position pixmaps when the button is disabled. 
+Clears the pixmap values on the dest button when changing pages.
+
+24/10/13	
+Smart Controls 4.6.86 
+Fix to popup navigate destination so that popup controls the lifetime of the child widget properly and that the signals off it don't get connected multiple times"
+	
+22/10/13
+Alarms System Inputs
+Will now support more than 10000 inputs	
+	
+15/10/13
+autohost - 4.5.2.0 
+adds ability to load .bncs_ui files instead of just DLLs (usual prioritisatiom rules apply)
+	
+15/10/13
+CSI32 - 1.2.33
+reworks packet recovery to use NetBIOS not AF_NETBIOS socket so that it works on 64 bit OSs
+	
+15/10/13	
+V3Caplog 3.15.00
+now doesn't use external DLL for packet recovery messages but uses normal NetBIOS "buffers" - this means it'll work on Win7/64"
+
+11/10/2013	
+Panelman - 4.5.20.0 
+now allows bottom row (the original buttons) to appear on the extension app bar dialogs - if this is present (not compulsory) the "more" button becomes a "less" button so that the UI can be dismissed"
+
+	
+07/10/13
+bncs_filesync 4.5.4.0
+has new flag to control the readonly state of the destination. Setting the flag changes the attributes of the file so that it can be replaced - otherwise sync fails.
+	
+07/10/13
+bncs_config 4.5.4.0 
+fixes to ensure that comments in the XML file are not misinterpretted as real data
+	
+07/10/13	
+Smart Controls 4.6.85 		
+now allows return of "name" parameter from smart button types
+	
+04/10/13
+Smart Controls 4.6.84 
+clears smart string value when retargeting
+bncs_instance control now has full bncs_control editor to set style, states, notifications etc
+fixes "next" in bncs_enum button mode when one of the states is null"
+	
+30/09/13	
+autohost 4.5.1.0 
+Now closes with CSI
+	
+30/09/13	
+Smart Controls 4.6.83
+splits info/gpi/router poll/query commands into separate things - previously IP and IQ (etc) would both have just polled...
+		
+30/09/13	
+Panelman - 4.5.19.0 
+mod so that you don't get an unnecessary blank page when using multiples of the number of buttons on the application bar
+		
+25/09/13
+bncs_log
+Added ability to control vertical scroll bar visibility - auto, always on, always off.
+
+Alarm System
+Allows selection of system folder to read config from. Some plug-ins ignore it as they only use the main config file which was already passed in in full.
+
+23/09/13
+Panelman - 4.5.18.0
+Adds titlebar targeting information for custom titlebar
+adds abiltiy to override the panelman button text (caption) from the default taken from applications.xml with a value in panelsets
+
+19/09/2013
+Panelman - 4.5.17.0
+optimisation of retrieval of "instances" data
+

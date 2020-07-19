@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE workstations SYSTEM "workstations.dtd" >
+<workstations>
+	<workstation id="9"   name="Studio Fabian"     user="server"/>
+	<workstation id="18"  name="PQ TV Server"      user="server"/>
+	<workstation id="53"  name="STB EM"            user="STB_Eng_Man"/>
+	<workstation id="55"  name="STB Snd Sup"       user="STB_Snd_Sup"/>
+	<workstation id="61"  name="STA Router"        user="server"/>
+	<workstation id="62"  name="STA Automatics"    user="server"/>
+	<workstation id="63"  name="STC Router"        user="server"/>
+	<workstation id="64"  name="STC Automatics"    user="server"/>
+	<workstation id="65"  name="STB Router"        user="server"/>
+	<workstation id="70"  name="STA VAA Bays"      user="STA_VAA"/>
+	<workstation id="71"  name="STA VAA Desk"      user="STA_VAA"/>
+	<workstation id="72"  name="STA LVCR"          user="STA_LVCR"/>
+	<workstation id="73"  name="STA EM"            user="STA_Eng_Man"/>
+	<workstation id="74"  name="STA Vision Mixer"  user="STA_Vis_Mix"/>
+	<workstation id="75"  name="STA Snd Sup"       user="STA_Snd_Sup"/>
+	<workstation id="76"  name="STA Grams"         user="STA_Grams"/>
+	<workstation id="77"  name="STA Snd Bays"      user="STA_Snd_Bay"/>
+	<workstation id="80"  name="STC VAA Bays"      user="STC_VAA"/>
+	<workstation id="81"  name="STC VAA Desk"      user="STC_VAA"/>
+	<workstation id="83"  name="STC EM"            user="STC_Eng_Man"/>
+	<workstation id="85"  name="STC Snd Sup"       user="STC_Snd_Sup"/>
+	<workstation id="86"  name="STC Grams"         user="STC_Grams"/>
+	<workstation id="87"  name="STC Snd Bays"      user="STC_Snd_Bay"/>
+	<workstation id="90"  name="NCR"               user="NCR"/>
+	<workstation id="91"  name="SIR"               user="SIR"/>
+	<workstation id="92"  name="White Heather"     user="STB_Rec"/>
+	<workstation id="93"  name="FCR"               user="STB_Rec" />
+	<workstation id="100" name="Laptop"            user="Laptop"/>
+</workstations>

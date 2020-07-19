@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1120" h="390" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="btnClose" x="1010" y="320" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Close  " />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+		<control class="bncs_script_loader" name="source_grid" x="0" y="0" w="1115" h="310">
+			<setting value="scriptname=/components/custom/source_grid" />
+			<setting value="layout=grid_15x32_wide" />
+		</control>
+	</container>
+</control_set>

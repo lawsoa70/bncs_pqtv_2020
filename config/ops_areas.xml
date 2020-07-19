@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ops_areas>
+	<!--  
+	<area id="gallery_n"> where n is 1 to 9 or abcd etc
+		<setting id="name" value="PCR B" /> for reference only 
+		<setting id="topstrap_layout" value="" /> the gui that will be displayed form the selection in../components/topstrat/layouts
+		<setting id="change_area_button" value="true" /> enables a workstation to select a different hardware mapping application rather than their areas default
+	</area>
+	-->
+	<area id="studio_a">
+		<setting id="name"            value="Studio A" />
+		<setting id="topstrap_layout" value="studio_a" />
+	</area>
+	<area id="studio_b">
+		<setting id="name"            value="Studio B" />
+		<setting id="topstrap_layout" value="studio_b" />
+	</area>
+	<area id="studio_c">
+		<setting id="name"            value="Studio C" />
+		<setting id="topstrap_layout" value="studio_c" />
+	</area>
+	<area id="ncr">
+		<setting id="name"            value="NCR" />
+		<setting id="topstrap_layout" value="ncr" />
+	</area>
+	<area id="engineering">
+		<setting id="name"            value="engineering" />
+		<setting id="topstrap_layout" value="engineering" />
+	</area>
+</ops_areas>

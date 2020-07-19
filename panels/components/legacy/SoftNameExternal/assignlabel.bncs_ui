@@ -1,0 +1,81 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="580" y="130" w="660" h="654" gridSize="10" gridEnabled="0" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="10" y="3" w="633" h="637">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="lbl1" x="53" y="14" w="542" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=SNCS Label Selection" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lbl9" x="84" y="83" w="252" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= SNCS Labels" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_listbox" name="LabelList" x="85" y="113" w="249" h="497">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="sort=true" />
+		</control>
+		<control class="bncs_control" name="lbl10" x="378" y="83" w="178" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= Source" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="SOURCENAME" x="377" y="113" w="178" h="34">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl11" x="378" y="160" w="178" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text= Current Label" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="LABELNAME" x="378" y="190" w="178" h="34">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="DEASSIGN" x="378" y="237" w="178" h="55">
+			<setting value="pixmapalign=right" />
+			<setting value="text=DE-ASSIGN|Current Label" />
+		</control>
+		<control class="bncs_control" name="lbl12" x="378" y="366" w="178" h="28">
+			<setting value="style=label" />
+			<setting value="stylesheet=grouplabel" />
+			<setting value="text=New Label / Alias" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="NEWLABEL" x="377" y="396" w="178" h="34">
+			<setting value="style=label" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="ASSIGNNEW" x="378" y="443" w="178" h="55">
+			<setting value="pixmapalign=right" />
+			<setting value="text=ASSIGN NEW LABEL" />
+		</control>
+		<control class="bncs_control" name="CLOSEPANEL" x="452" y="563" w="104" h="45">
+			<setting value="text=CLOSE" />
+		</control>
+	</container>
+</control_set>
