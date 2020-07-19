@@ -1,0 +1,334 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="2180" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="-198" y="-6" w="317" h="969">
+			<setting value="style=label" />
+			<setting value="labelstyle=blackbox" />
+			<setting value="colour.background=black" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tab" x="0" y="0" w="119" h="102">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+		</control>
+		<control class="bncs_script_loader" name="page_6" x="10" y="510" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_7" x="10" y="610" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_8" x="10" y="710" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_9" x="10" y="810" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_2" x="10" y="110" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_3" x="10" y="210" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_4" x="10" y="310" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_5" x="10" y="410" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="page_1" x="10" y="10" w="100" h="80">
+			<setting value="scriptname=page" />
+			<setting value="instance=WorkstationInfodriverId" />
+		</control>
+		<control class="bncs_script_loader" name="ws_1" x="140" y="20" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_4" x="140" y="170" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_5" x="140" y="220" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_6" x="140" y="270" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_7" x="140" y="320" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_8" x="140" y="370" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_9" x="140" y="420" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_10" x="140" y="470" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_11" x="140" y="520" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_12" x="140" y="570" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_13" x="140" y="620" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_14" x="140" y="670" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_15" x="140" y="720" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_16" x="140" y="770" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_18" x="140" y="870" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_17" x="140" y="820" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_19" x="510" y="20" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_20" x="510" y="70" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_21" x="510" y="120" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_22" x="510" y="170" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_23" x="510" y="220" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_24" x="510" y="270" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_25" x="510" y="320" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_26" x="510" y="370" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_27" x="510" y="420" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_28" x="510" y="470" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_29" x="510" y="520" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_30" x="510" y="570" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_32" x="510" y="670" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_33" x="510" y="720" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_31" x="510" y="620" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_34" x="510" y="770" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_35" x="510" y="820" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_36" x="510" y="870" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_37" x="880" y="20" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_38" x="880" y="70" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_39" x="880" y="120" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_40" x="880" y="170" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_41" x="880" y="220" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_42" x="880" y="270" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_46" x="880" y="470" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_47" x="880" y="520" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_48" x="880" y="570" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_49" x="880" y="620" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_51" x="880" y="720" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_50" x="880" y="670" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_52" x="880" y="770" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_53" x="880" y="820" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_54" x="880" y="870" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_43" x="880" y="320" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_44" x="880" y="370" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_45" x="880" y="420" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_control" name="ignore1" x="140" y="450" w="230" h="19">
+			<setting value="style=label" />
+			<setting value="colour.text=#ffffff" />
+			<setting value="colour.background=#ff0000" />
+			<setting value="text=Ignored workstation list" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_script_loader" name="ws_2" x="140" y="70" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_script_loader" name="ws_3" x="140" y="120" w="360" h="50">
+			<setting value="scriptname=statusmonws" />
+			<setting value="instance=workstationStatus" />
+			<setting value="workstation=0" />
+		</control>
+		<control class="bncs_control" name="ignore" x="370" y="450" w="895" h="19">
+			<setting value="style=label" />
+			<setting value="colour.text=#000000" />
+			<setting value="colour.background=#ffffff" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

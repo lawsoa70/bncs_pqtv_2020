@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="160" h="120" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lblTally" x="0" y="79" w="160" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=umd" />
+			<setting value="text=12345678" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="160" h="80">
+			<setting value="colour.text=black" />
+			<setting value="pixmapstretch=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

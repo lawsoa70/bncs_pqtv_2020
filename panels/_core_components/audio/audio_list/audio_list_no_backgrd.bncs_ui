@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="482" h="845" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="grps" x="0" y="0" w="489" h="849">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Audio List -" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="park" x="9" y="788" w="56" h="56">
+			<setting value="pixmapalign=centre" />
+			<setting value="led.align=topleft" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=icon_park.png" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="Jump_2" x="7" y="119" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 1|(G1)" />
+		</control>
+		<control class="bncs_control" name="Jump_6" x="7" y="279" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 5|(G5)" />
+		</control>
+		<control class="bncs_control" name="Jump_7" x="7" y="319" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 6|(G6)" />
+		</control>
+		<control class="bncs_control" name="Jump_8" x="7" y="359" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 7|(G7)" />
+		</control>
+		<control class="bncs_control" name="Jump_10" x="7" y="439" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Floor|(F)" />
+		</control>
+		<control class="bncs_control" name="Jump_11" x="7" y="479" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=SHARED|(T)" />
+		</control>
+		<control class="bncs_control" name="Jump_12" x="7" y="519" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=ICA VOB|(C)" />
+		</control>
+		<control class="bncs_control" name="Jump_13" x="7" y="559" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=ECR|(E)" />
+		</control>
+		<control class="bncs_control" name="Jump_15" x="7" y="640" w="82" h="38">
+		</control>
+		<control class="bncs_control" name="Jump_16" x="7" y="679" w="82" h="38">
+		</control>
+		<control class="bncs_control" name="none7" x="11" y="41" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Area     |Namespace" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Jump_9" x="7" y="399" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 8|(G8)" />
+		</control>
+		<control class="bncs_control" name="none8" x="142" y="735" w="53" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Audio|Leg" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg2" x="230" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= R" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg3" x="261" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= M" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg8" x="416" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= Ls" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg7" x="385" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= E" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg6" x="354" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= C" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg5" x="323" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= fR" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg4" x="292" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= fL" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Jump_4" x="7" y="199" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 3|(G3)" />
+		</control>
+		<control class="bncs_control" name="Jump_3" x="7" y="159" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 2|(G2)" />
+		</control>
+		<control class="bncs_control" name="Jump_5" x="7" y="239" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Gallery 4|(G4)" />
+		</control>
+		<control class="bncs_control" name="sort" x="104" y="788" w="90" h="56">
+			<setting value="stylesheet=dest_large" />
+			<setting value="text=ALPHA|SORT" />
+		</control>
+		<control class="bncs_control" name="Jump_17" x="7" y="733" w="82" h="38">
+			<setting value="font.size=-2" />
+			<setting value="text=ALL" />
+		</control>
+		<control class="bncs_control" name="Jump_14" x="7" y="599" w="82" h="38">
+			<setting value="text=BC lines|(L)" />
+		</control>
+		<control class="bncs_control" name="Leg1" x="199" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= L" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Leg9" x="447" y="736" w="29" h="29">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.background=#888888" />
+			<setting value="text= Rs" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_listbox" name="list" x="93" y="78" w="386" h="648">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=16" />
+		</control>
+		<control class="bncs_control" name="Jump_1" x="7" y="79" w="82" h="38">
+			<setting value="font.size=-1" />
+			<setting value="text=Shared|(S)" />
+		</control>
+		<control class="bncs_control" name="indexNo" x="405" y="40" w="70" h="30">
+			<setting value="style=label" />
+			<setting value="colour.background=white" />
+		</control>
+		<control class="bncs_control" name="none4" x="351" y="40" w="53" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=|Index " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="area" x="121" y="-1" w="207" h="27">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#ffffff" />
+			<setting value="colour.background=#9a9a9a" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="text=Area" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

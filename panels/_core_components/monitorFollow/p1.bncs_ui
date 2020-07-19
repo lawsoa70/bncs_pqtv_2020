@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="100" h="100" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="tally" x="0" y="80" w="100" h="20">
+			<setting value="style=label" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="button" x="0" y="0" w="100" h="80">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=MON|FOLLOW" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\deviceStatus.chm
+Default Window=main
+Default topic=deviceStatus.html
+Display compile notes=No
+Display compile progress=No
+Full-text search=Yes
+Language=0x809 English (United Kingdom)
+ 
+[WINDOWS]
+main="deviceStatus",,,"deviceStatus.html","deviceStatus.html",,,,,0x22420,,0x204e,[0,0,700,800],,,,1,,,0
+ 
+
+[FILES]
+*.html
+ 
+[INFOTYPES]

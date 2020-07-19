@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="290" h="580" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="10" y="10" w="270" h="560">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Take Stereo - Stereo" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="LR-FLFR" x="30" y="50" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LR - FLFR" />
+			<setting value="pixmap=audio_take_mode_LR-FLFR.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="LR-CE" x="30" y="180" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LR - CE" />
+			<setting value="pixmap=audio_take_mode_LR-CE.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="L-FLFR" x="30" y="310" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=L - FLFR" />
+			<setting value="pixmap=audio_take_mode_L-FLFR.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="L-C" x="30" y="440" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=L - C" />
+			<setting value="pixmap=audio_take_mode_L-C.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="LR-LSRS" x="160" y="180" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LR - LSRS" />
+			<setting value="pixmap=audio_take_mode_LR-LSRS.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="R-FLFR" x="160" y="310" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=R - FLFR" />
+			<setting value="pixmap=audio_take_mode_R-FLFR.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="R-C" x="160" y="440" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=R - C" />
+			<setting value="pixmap=audio_take_mode_R-C.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="LR-FRFL" x="160" y="50" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LR - FRFL" />
+			<setting value="pixmap=audio_take_mode_LR-FRFL.png" />
+			<setting value="doublepush=true" />
+		</control>
+	</container>
+</control_set>

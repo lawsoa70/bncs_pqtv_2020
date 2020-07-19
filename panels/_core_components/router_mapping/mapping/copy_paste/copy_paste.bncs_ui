@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="100" h="100" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="copy" x="0" y="0" w="100" h="50">
+			<setting value="text=Copy" />
+		</control>
+		<control class="bncs_control" name="paste" x="0" y="50" w="100" h="50">
+			<setting value="text=Paste" />
+		</control>
+	</container>
+</control_set>

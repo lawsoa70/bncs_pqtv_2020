@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{601d7548-fa65-4bb3-a211-a37dc6f24eaa}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{02627033-5ad5-4124-af87-19b47b27c04d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{2379f9cf-3e04-44b4-a354-3f76399c340c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio_take.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="audio_take.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\include\audio_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_take.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="docs\audio_take.hhp">
+      <Filter>Docs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="51-51.bncs_ui" />
+    <CustomBuild Include="51-LR.bncs_ui" />
+    <CustomBuild Include="51-M.bncs_ui" />
+    <CustomBuild Include="LR-51.bncs_ui" />
+    <CustomBuild Include="LR-LR.bncs_ui" />
+    <CustomBuild Include="LR-M.bncs_ui" />
+    <CustomBuild Include="M-51.bncs_ui" />
+    <CustomBuild Include="M-LR.bncs_ui" />
+    <CustomBuild Include="p1.bncs_ui" />
+  </ItemGroup>
+</Project>

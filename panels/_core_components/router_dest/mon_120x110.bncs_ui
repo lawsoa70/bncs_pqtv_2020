@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="120" h="110" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="lblTally" x="0" y="80" w="120" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=umd" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="120" h="80">
+			<setting value="pixmapalign=centre" />
+			<setting value="pixmapstretch=true" />
+			<setting value="pixmap=/images/mon_trans_medium.png" />
+		</control>
+	</container>
+</control_set>

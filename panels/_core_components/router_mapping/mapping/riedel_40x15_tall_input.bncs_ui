@@ -1,0 +1,83 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="845" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="grpGrids" x="680" y="10" w="590" h="685">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Inputs - Map to button" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grp" x="10" y="10" w="450" h="823">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Select Input" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none" x="480" y="10" w="180" h="570">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label" x="510" y="70" w="120" h="120">
+			<setting value="style=label" />
+			<setting value="stylesheet=takeBackground" />
+		</control>
+		<control class="bncs_control" name="grpPages" x="480" y="599" w="790" h="233">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="save" x="520" y="80" w="100" h="100">
+			<setting value="font.size=4" />
+			<setting value="text=Save" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="rename" x="520" y="710" w="100" h="100">
+			<setting value="text=Rename|Page" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="page" x="700" y="610" w="550" h="200">
+			<setting value="rename_mode=true" />
+			<setting value="namesdb=8" />
+			<setting value="mapoffset=2000" />
+			<setting value="namesoffset=2500" />
+			<setting value="notify.released=false" />
+			<setting value="notify.name=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.selected=sourcepage_selected" />
+			<setting value="stylesheet.deselected=sourcepage_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="grid" x="700" y="40" w="550" h="540">
+			<setting value="map_mode=true" />
+			<setting value="rows=8" />
+			<setting value="page=0" />
+			<setting value="notify.name=false" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="list" x="30" y="40" w="399" h="744">
+			<setting value="scriptname=/components/router_list" />
+			<setting value="instance=riedel_grd" />
+			<setting value="database=0" />
+			<setting value="ExtraDatabase=-1" />
+			<setting value="range=all" />
+			<setting value="panel=p1" />
+			<setting value="offset=0" />
+		</control>
+		<control class="bncs_script_loader" name="database_details" x="30" y="780" w="400" h="50">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scriptname=/components/databasedetails" />
+			<setting value="instance=riedel_grd" />
+			<setting value="display_Pattern=" />
+			<setting value="index=0" />
+			<setting value="single_line=true" />
+		</control>
+		<control class="bncs_control" name="cancel" x="520" y="210" w="100" h="60">
+			<setting value="text=Cancel" />
+		</control>
+		<control class="bncs_script_loader" name="copypaste" x="520" y="370" w="100" h="100">
+			<setting value="scriptname=copy_paste" />
+			<setting value="Mapping_DB_Number=8" />
+			<setting value="Mapping_DB_Offset=0" />
+		</control>
+	</container>
+</control_set>

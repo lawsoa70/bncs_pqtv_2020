@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1269" h="672" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="rename" x="10" y="10" w="1219" h="647">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Group Name" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Cancel" x="1096" y="590" w="100" h="50">
+			<setting value="text=Cancel" />
+		</control>
+		<control class="bncs_keyboard_ctrl" name="keyboard" x="40" y="40" w="1156" h="520">
+			<setting value="exceptions=:&quot;" />
+			<setting value="keyboardType=Keypad" />
+		</control>
+	</container>
+</control_set>

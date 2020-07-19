@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="560" h="45" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="0" y="0" w="560" h="45">
+			<setting value="style=label" />
+			<setting value="labelstyle=whitebox" />
+			<setting value="colour.text=#ffffff" />
+			<setting value="colour.background=#000000" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="button_5" x="10" y="5" w="100" h="35">
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="button_4" x="120" y="5" w="100" h="35">
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="button_3" x="230" y="5" w="100" h="35">
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="button_2" x="340" y="5" w="100" h="35">
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="button_1" x="450" y="5" w="100" h="35">
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

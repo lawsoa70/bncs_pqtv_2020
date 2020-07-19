@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="845" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="grpPages" x="480" y="620" w="780" h="215">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grpGrids" x="680" y="10" w="580" h="630">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=DESTINATION - Map to button" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grp" x="10" y="10" w="450" h="825">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Select Port" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label" x="510" y="70" w="120" h="120">
+			<setting value="style=label" />
+			<setting value="stylesheet=takeBackground" />
+			<setting value="background=true" />
+		</control>
+		<control class="bncs_control" name="none" x="480" y="10" w="180" h="590">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="cancel" x="520" y="210" w="100" h="60">
+			<setting value="text=Cancel" />
+		</control>
+		<control class="bncs_control" name="save" x="520" y="80" w="100" h="100">
+			<setting value="font.size=4" />
+			<setting value="text=Save" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="rename" x="520" y="710" w="100" h="100">
+			<setting value="text=Rename|Page" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="grid" x="690" y="40" w="560" h="606">
+			<setting value="map_mode=true" />
+			<setting value="columns=4" />
+			<setting value="rows=9" />
+			<setting value="namesdb=1" />
+			<setting value="page=0" />
+			<setting value="mapoffset=1000" />
+			<setting value="notify.name=false" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="page" x="695" y="720" w="555" h="63">
+			<setting value="rename_mode=true" />
+			<setting value="rows=1" />
+			<setting value="namesdb=8" />
+			<setting value="mapoffset=3000" />
+			<setting value="namesoffset=3500" />
+			<setting value="notify.released=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.button=" />
+			<setting value="stylesheet.selected=destpage_selected" />
+			<setting value="stylesheet.deselected=destpage_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="list" x="30" y="40" w="399" h="744">
+			<setting value="scriptname=/components/router_list" />
+			<setting value="database=1" />
+			<setting value="ExtraDatabase=-1" />
+			<setting value="range=all" />
+			<setting value="panel=p1" />
+			<setting value="offset=0" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="80" h="80" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="80" h="80">
+			<setting value="colour.text=black" />
+			<setting value="pixmapstretch=true" />
+		</control>
+	</container>
+</control_set>

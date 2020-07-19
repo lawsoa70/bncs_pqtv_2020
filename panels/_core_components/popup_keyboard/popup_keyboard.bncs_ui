@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1186" h="565" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_keyboard_ctrl" name="keyboard" x="2" y="4" w="1177" h="472">
+			<setting value="keyboardType=Keypad" />
+		</control>
+		<control class="bncs_control" name="close" x="1049" y="490" w="120" h="60">
+			<setting value="pixmapalign=left" />
+			<setting value="text=     Close" />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+		<control class="bncs_control" name="preset" x="853" y="490" w="120" h="60">
+			<setting value="pixmapalign=centre" />
+			<setting value="text=Preset" />
+		</control>
+	</container>
+</control_set>

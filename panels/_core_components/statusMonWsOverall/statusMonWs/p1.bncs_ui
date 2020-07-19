@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="360" h="50" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="1" x="280" y="0" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="text=Status" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="name" x="40" y="0" w="240" h="30">
+			<setting value="style=label" />
+			<setting value="colour.background=#ffffff" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="lastUpdated" x="40" y="30" w="320" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=background_discrete" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="number" x="0" y="0" w="40" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

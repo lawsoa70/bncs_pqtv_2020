@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "router_mapping", "router_mapping.vcxproj", "{41328DDC-D2CB-4DB3-A997-824A19EC6C49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapping", "mapping\mapping.vcxproj", "{82D869D7-3455-4E6E-A175-4AD2A2B86C60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "copy_paste", "mapping\copy_paste\copy_paste.vcxproj", "{064B9583-F3EC-443C-B137-1EEA529805D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41328DDC-D2CB-4DB3-A997-824A19EC6C49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41328DDC-D2CB-4DB3-A997-824A19EC6C49}.Debug|Win32.Build.0 = Debug|Win32
+		{41328DDC-D2CB-4DB3-A997-824A19EC6C49}.Release|Win32.ActiveCfg = Release|Win32
+		{41328DDC-D2CB-4DB3-A997-824A19EC6C49}.Release|Win32.Build.0 = Release|Win32
+		{82D869D7-3455-4E6E-A175-4AD2A2B86C60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82D869D7-3455-4E6E-A175-4AD2A2B86C60}.Debug|Win32.Build.0 = Debug|Win32
+		{82D869D7-3455-4E6E-A175-4AD2A2B86C60}.Release|Win32.ActiveCfg = Release|Win32
+		{82D869D7-3455-4E6E-A175-4AD2A2B86C60}.Release|Win32.Build.0 = Release|Win32
+		{064B9583-F3EC-443C-B137-1EEA529805D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{064B9583-F3EC-443C-B137-1EEA529805D9}.Debug|Win32.Build.0 = Debug|Win32
+		{064B9583-F3EC-443C-B137-1EEA529805D9}.Release|Win32.ActiveCfg = Release|Win32
+		{064B9583-F3EC-443C-B137-1EEA529805D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

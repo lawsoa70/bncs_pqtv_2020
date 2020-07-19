@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="299" h="200" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="2" x="100" y="130" w="140" h="10">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#ffffff" />
+			<setting value="colour.background=#000000" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="1" x="100" y="60" w="140" h="10">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=#ffffff" />
+			<setting value="colour.background=#000000" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=12" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=topleft" />
+			<setting value="background=true" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblTally" x="250" y="30" w="80" h="40">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="250" y="70" w="100" h="180">
+			<setting value="colour.text=black" />
+			<setting value="pixmapstretch=true" />
+		</control>
+		<control class="bncs_control" name="tally_5" x="100" y="30" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=OS 1 5.1 mix fR" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally_8" x="100" y="70" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=OS 1 5.1 mix C" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally_7" x="100" y="100" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=OS 1 5.1 mix E" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally_10" x="100" y="140" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=OS 1 5.1 mix Rs" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally_9" x="100" y="170" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=OS 1 5.1 mix Ls" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally_6" x="100" y="0" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=OS 1 5.1 mix fL" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="test" x="0" y="0" w="100" h="200">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=5.1|MIX" />
+			<setting value="pixmapstretch=true" />
+		</control>
+	</container>
+</control_set>

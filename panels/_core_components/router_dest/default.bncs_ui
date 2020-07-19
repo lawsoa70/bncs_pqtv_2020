@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="100" h="120" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lblTally" x="0" y="80" w="100" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=sourcegrid_tally" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="100" h="80">
+			<setting value="stylesheet=dest_deselected" />
+			<setting value="pixmapstretch=true" />
+		</control>
+	</container>
+</control_set>

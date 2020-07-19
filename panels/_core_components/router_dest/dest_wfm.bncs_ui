@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="200" h="170" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="btnDest" x="0" y="0" w="200" h="130">
+			<setting value="stylesheet=pixmap_full" />
+			<setting value="statesheet=dest_deselected" />
+			<setting value="pixmap=/images/wfm_trans.png" />
+		</control>
+		<control class="bncs_control" name="lblTally" x="0" y="130" w="200" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=umd" />
+		</control>
+	</container>
+</control_set>

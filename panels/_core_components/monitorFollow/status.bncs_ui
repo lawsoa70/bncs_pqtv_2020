@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="400" h="460" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="close" x="290" y="410" w="100" h="40">
+			<setting value="colour.text=white" />
+			<setting value="colour.background=blue" />
+			<setting value="text=Close" />
+		</control>
+		<control class="bncs_listview" name="status" x="0" y="0" w="400" h="400">
+			<setting value="enableColumnResize=false" />
+			<setting value="enableColumnMoving=false" />
+			<setting value="columns=Monitor Follow Status;Data" />
+			<setting value="columnsWidth=200;196" />
+			<setting value="notify.selection=false" />
+		</control>
+	</container>
+</control_set>

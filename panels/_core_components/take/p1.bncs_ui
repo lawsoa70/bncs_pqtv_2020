@@ -1,0 +1,55 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="143" h="280" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="none" x="0" y="0" w="143" h="280">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="Label" x="10" y="30" w="120" h="110">
+			<setting value="style=label" />
+			<setting value="stylesheet=takeBackground" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="dest" x="10" y="10" w="120" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=take_preset" />
+			<setting value="statesheet=dest_deselected" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="take" x="20" y="40" w="100" h="90">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=TAKE" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="undo" x="20" y="200" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=UNDO" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="source" x="10" y="140" w="120" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=take_preset" />
+			<setting value="statesheet=source_deselected" />
+			<setting value="notify.released=false" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="preset_source" x="10" y="161" w="61" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=take_index" />
+			<setting value="text=Source|-" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="preset_dest" x="70" y="161" w="61" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=take_index" />
+			<setting value="text=Dest|-" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>

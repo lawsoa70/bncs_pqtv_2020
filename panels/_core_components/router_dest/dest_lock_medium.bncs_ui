@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="130" h="130" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="btnLock" x="0" y="0" w="130" h="40">
+			<setting value="stylesheet=destgrid_default" />
+			<setting value="text=LOCK" />
+			<setting value="pixmapstretch=true" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="40" w="130" h="60">
+			<setting value="stylesheet=destgrid_default" />
+			<setting value="pixmapstretch=true" />
+		</control>
+		<control class="bncs_control" name="lblTally" x="0" y="100" w="130" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=destgrid_tally" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1920" h="40" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="1" x="0" y="0" w="1920" h="40">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="textalign=topleft" />
+		</control>
+	</container>
+</control_set>

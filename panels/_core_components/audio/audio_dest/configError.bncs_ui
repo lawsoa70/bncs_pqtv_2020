@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="76" h="18" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="Label" x="0" y="0" w="76" h="17">
+			<setting value="style=label" />
+			<setting value="colour.text=#ffffff" />
+			<setting value="colour.background=#ff0000" />
+			<setting value="font.size=-4" />
+			<setting value="textalign=topleft" />
+			<setting value="text=Config Error" />
+		</control>
+	</container>
+</control_set>

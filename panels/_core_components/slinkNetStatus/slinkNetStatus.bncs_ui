@@ -1,0 +1,48 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="310" h="160" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="name" x="0" y="0" w="310" h="160">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+		</control>
+		<control class="bncs_control" name="none" x="10" y="60" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Address" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="address" x="100" y="60" w="200" h="30">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="none1" x="10" y="30" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Peer" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="peer" x="100" y="30" w="200" h="30">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="none2" x="10" y="120" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Alt" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="alt" x="100" y="120" w="200" h="30">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="none3" x="10" y="90" w="80" h="30">
+			<setting value="style=label" />
+			<setting value="stylesheet=paramlabelH" />
+			<setting value="text=Port" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="port" x="100" y="90" w="200" h="30">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="status" x="201" y="0" w="100" h="30">
+			<setting value="style=label" />
+		</control>
+	</container>
+</control_set>

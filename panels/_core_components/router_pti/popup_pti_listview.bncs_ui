@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="410" h="480" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="grpPTI" x="0" y="0" w="410" h="480">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Destination List " />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="close" x="270" y="400" w="120" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=right" />
+			<setting value="pixmapalign=left" />
+			<setting value="text=Close" />
+			<setting value="pixmap=/images/close.png" />
+		</control>
+		<control class="bncs_listview" name="destination_listview" x="20" y="30" w="370" h="350">
+			<setting value="stylesheet=listbox_default" />
+			<setting value="enableColumnResize=false" />
+			<setting value="enableColumnMoving=false" />
+			<setting value="columns=Dest;Name" />
+			<setting value="columnsWidth=100;225" />
+			<setting value="columnsAlign=68;65" />
+			<setting value="notify.selection=false" />
+		</control>
+	</container>
+</control_set>

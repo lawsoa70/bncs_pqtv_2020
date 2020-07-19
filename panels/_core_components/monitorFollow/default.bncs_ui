@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="121" h="91" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Group box" x="0" y="0" w="121" h="93">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="label" x="0" y="70" w="120" h="20">
+			<setting value="style=label" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="button" x="0" y="0" w="120" h="70">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="pixmapalign=topright" />
+			<setting value="led.align=bottom" />
+			<setting value="text=MON|FOLLOW" />
+			<setting value="pixmap=icon_lock.png" />
+			<setting value="notify.pressed=true" />
+		</control>
+	</container>
+</control_set>

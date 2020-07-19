@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="200" h="850" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="10" y="10" w="180" h="830">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Take 5.1 to Mono" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="FL-M" x="50" y="40" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FL - M" />
+			<setting value="pixmap=audio_take_mode_FL-M.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="FR-M" x="50" y="170" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=FR - M" />
+			<setting value="pixmap=audio_take_mode_FR-M.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="C-M" x="50" y="300" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=C - M" />
+			<setting value="pixmap=audio_take_mode_C-M.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="E-M" x="50" y="430" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=E - M" />
+			<setting value="pixmap=audio_take_mode_E-M.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="LS-M" x="50" y="560" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=LS - M" />
+			<setting value="pixmap=audio_take_mode_LS-M.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+		<control class="bncs_control" name="RS-M" x="50" y="690" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=RS-M" />
+			<setting value="pixmap=audio_take_mode_RS-M.png" />
+			<setting value="doublepush=true" />
+			<setting value="sizepolicy=shrinktofit" />
+		</control>
+	</container>
+</control_set>

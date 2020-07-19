@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="160" h="310" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="10" y="10" w="140" h="289">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Take M-Stereo" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="M-L" x="30" y="40" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=M - L" />
+			<setting value="pixmap=audio_take_mode_M-L.png" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_control" name="M-R" x="30" y="170" w="100" h="120">
+			<setting value="textalign=bottom" />
+			<setting value="text=M - R" />
+			<setting value="pixmap=audio_take_mode_M-R.png" />
+			<setting value="doublepush=true" />
+		</control>
+	</container>
+</control_set>

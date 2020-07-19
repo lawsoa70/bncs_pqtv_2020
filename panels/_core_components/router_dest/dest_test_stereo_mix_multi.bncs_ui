@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="268" h="132" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="lblTally" x="100" y="70" w="80" h="40">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="btnDest" x="0" y="60" w="100" h="60">
+			<setting value="colour.text=black" />
+			<setting value="pixmapstretch=true" />
+		</control>
+		<control class="bncs_control" name="tally_1" x="100" y="0" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=SpotOn2 O/P A fL" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="tally_2" x="100" y="30" w="140" h="30">
+			<setting value="style=label" />
+			<setting value="labelstyle=plain" />
+			<setting value="colour.text=green" />
+			<setting value="colour.background=black" />
+			<setting value="font.face=Arial" />
+			<setting value="font.size=10" />
+			<setting value="font.style=bold " />
+			<setting value="textalign=left" />
+			<setting value="text=SpotOn2 O/P A fR" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="test" x="0" y="0" w="100" h="60">
+			<setting value="font.face=Arial" />
+			<setting value="font.size=14" />
+			<setting value="font.style=bold " />
+			<setting value="text=AES 1" />
+			<setting value="pixmapstretch=true" />
+		</control>
+	</container>
+</control_set>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="none" x="10" y="10" w="450" h="60">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+			<setting value="text=Map" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="sources" x="80" y="15" w="130" h="50">
+			<setting value="font.size=2" />
+			<setting value="text=Sources" />
+		</control>
+		<control class="bncs_control" name="destinations" x="290" y="15" w="130" h="50">
+			<setting value="font.size=2" />
+			<setting value="text=Destinations" />
+		</control>
+		<control class="bncs_script_loader" name="mapping_destinations" x="0" y="80" w="1280" h="800">
+			<setting value="scriptname=mapping" />
+			<setting value="panel=" />
+		</control>
+		<control class="bncs_script_loader" name="mapping_sources" x="0" y="80" w="1280" h="845">
+			<setting value="scriptname=mapping" />
+			<setting value="panel=" />
+		</control>
+	</container>
+</control_set>

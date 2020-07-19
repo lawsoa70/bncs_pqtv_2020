@@ -1,0 +1,96 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="900" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="1280" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="535" y="70" w="120" h="120">
+			<setting value="style=label" />
+			<setting value="stylesheet=takeBackground" />
+		</control>
+		<control class="bncs_control" name="grpPages" x="520" y="605" w="670" h="230">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grpGrids" x="680" y="10" w="510" h="630">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Map to button" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="none" x="520" y="10" w="150" h="583">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="grp" x="10" y="10" w="500" h="780">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="text=Select Port" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="cancel" x="545" y="210" w="100" h="60">
+			<setting value="text=Cancel" />
+		</control>
+		<control class="bncs_control" name="save" x="545" y="80" w="100" h="100">
+			<setting value="font.size=4" />
+			<setting value="text=Save" />
+			<setting value="doublepush=true" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="grid" x="690" y="40" w="490" h="550">
+			<setting value="map_mode=true" />
+			<setting value="rows=8" />
+			<setting value="instance=rtr_lawo" />
+			<setting value="instance.map=rtr_lawo" />
+			<setting value="page=0" />
+			<setting value="notify.name=false" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_control" name="renamegroups" x="550" y="619" w="100" h="50">
+			<setting value="text=Rename|Group" />
+		</control>
+		<control class="bncs_control" name="rename" x="550" y="680" w="100" h="100">
+			<setting value="text=Rename|Page" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="page" x="690" y="673" w="490" h="150">
+			<setting value="rename_mode=true" />
+			<setting value="instance=rtr_lawo" />
+			<setting value="instance.map=rtr_lawo" />
+			<setting value="namesdb=8" />
+			<setting value="mapoffset=2000" />
+			<setting value="namesoffset=2500" />
+			<setting value="notify.released=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.selected=sourcegroup_selected" />
+			<setting value="stylesheet.deselected=sourcegroup_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_rtrNameGrid" name="pagepage" x="690" y="610" w="490" h="47">
+			<setting value="rename_mode=true" />
+			<setting value="columns=6" />
+			<setting value="rows=1" />
+			<setting value="instance=rtr_lawo" />
+			<setting value="instance.map=rtr_lawo" />
+			<setting value="namesdb=8" />
+			<setting value="mapoffset=2800" />
+			<setting value="namesoffset=2900" />
+			<setting value="notify.released=false" />
+			<setting value="notify.index=true" />
+			<setting value="stylesheet.selected=sourcegroup_selected" />
+			<setting value="stylesheet.deselected=sourcegroup_deselected" />
+			<setting value="stylesheet.background=groupbox" />
+		</control>
+		<control class="bncs_script_loader" name="list" x="10" y="10" w="483" h="787">
+			<setting value="scriptname=/components/audio_list" />
+			<setting value="instance=rtr_lawo" />
+			<setting value="DB_index=0" />
+			<setting value="DB_index_names=2" />
+			<setting value="DB_index_areas=4" />
+			<setting value="DB_audio_leg=6" />
+			<setting value="Listed_Namespaces=all" />
+			<setting value="Selected_Namespace=all" />
+			<setting value="Useable_Legs=L,M,1,7" />
+			<setting value="Show_Unused_Ports=false" />
+			<setting value="Alpha_Sorted=false" />
+			<setting value="Silence_Index=04096" />
+		</control>
+	</container>
+</control_set>

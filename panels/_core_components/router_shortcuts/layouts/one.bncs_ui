@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="80" h="40" gridSize="10" gridEnabled="1">
+		<control class="bncs_control" name="Label" x="0" y="0" w="80" h="40">
+			<setting value="style=label" />
+			<setting value="stylesheet=groupbox" />
+			<setting value="background=true" />
+		</control>
+		<control class="bncs_control" name="source_1" x="0" y="0" w="80" h="40">
+			<setting value="text=source_1" />
+		</control>
+	</container>
+</control_set>
