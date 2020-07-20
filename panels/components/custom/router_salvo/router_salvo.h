@@ -2,7 +2,7 @@
 	#define router_salvo_INCLUDED
 
 #include <bncs_script_helper.h>
-#include "..\..\..\SOURCE\INCLUDE\bncs_string.h"	// Added by ClassView
+#include "..\..\..\..\SOURCE\INCLUDE\bncs_string.h"	// Added by ClassView
 
 #ifdef WIN32
 	#ifdef DOEXPORT_SCRIPT
