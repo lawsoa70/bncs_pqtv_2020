@@ -5,5 +5,219 @@
 			<setting value="style=label" />
 			<setting value="stylesheet=pm_title_background" />
 		</control>
+		<control class="bncs_control" name="4" x="230" y="0" w="124" h="76">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="5" x="356" y="1" w="124" h="76">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="lblSound" x="360" y="51" w="110" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_background" />
+			<setting value="text=Sound" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblVision" x="237" y="51" w="110" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_background" />
+			<setting value="text=Vision" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_enum" name="23" x="236" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=VisionEcut" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=VisionEcut" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=E-CUT" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=E-CUT" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_ecut_on" />
+		</control>
+		<control class="bncs_enum" name="27" x="293" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=VisionBypass" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=VisionBypass" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=BYPASS" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=BYPASS" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_bypass_on" />
+		</control>
+		<control class="bncs_enum" name="31" x="363" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=SoundEcut" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=SoundEcut" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=E-CUT" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=E-CUT" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_ecut_on" />
+		</control>
+		<control class="bncs_enum" name="36" x="421" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=SoundBypass" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=SoundBypass" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=BYPASS" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=BYPASS" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_bypass_on" />
+		</control>
+		<control class="bncs_enum" name="16" x="80" y="1" w="73" h="76">
+			<setting value="style=label" />
+			<setting value="name=REH" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=REH" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=REH" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=REH" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_reh_on" />
+		</control>
+		<control class="bncs_enum" name="15" x="155" y="1" w="73" h="76">
+			<setting value="style=label" />
+			<setting value="name=TX" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TX" />
+			<setting value="instance=sta_gpi_ksc" />
+			<setting value="state.0.caption=TX" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TX" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_tx_on" />
+		</control>
+		<control class="bncs_control" name="lbl_A" x="6" y="1" w="72" h="76">
+			<setting value="style=label" />
+			<setting value="font.size=5" />
+			<setting value="text=Studio|A" />
+		</control>
+		<control class="bncs_control" name="6" x="748" y="0" w="124" h="76">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="7" x="874" y="1" w="124" h="76">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="lblSound1" x="878" y="51" w="110" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_background" />
+			<setting value="text=Sound" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lblVision1" x="755" y="51" w="110" h="20">
+			<setting value="style=label" />
+			<setting value="stylesheet=pm_background" />
+			<setting value="text=Vision" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_enum" name="24" x="754" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=VisionEcut" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=VisionEcut" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=E-CUT" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=E-CUT" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_ecut_on" />
+		</control>
+		<control class="bncs_enum" name="28" x="811" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=VisionBypass" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=VisionBypass" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=BYPASS" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=BYPASS" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_bypass_on" />
+		</control>
+		<control class="bncs_enum" name="32" x="881" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=SoundEcut" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=SoundEcut" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=E-CUT" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=E-CUT" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_ecut_on" />
+		</control>
+		<control class="bncs_enum" name="37" x="939" y="6" w="52" h="40">
+			<setting value="style=label" />
+			<setting value="name=SoundBypass" />
+			<setting value="stylesheet.button=topstrap_small" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=SoundBypass" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=BYPASS" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=BYPASS" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_bypass_on" />
+		</control>
+		<control class="bncs_enum" name="17" x="598" y="1" w="73" h="76">
+			<setting value="style=label" />
+			<setting value="name=REH" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=REH" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=REH" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=REH" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_reh_on" />
+		</control>
+		<control class="bncs_enum" name="18" x="673" y="1" w="73" h="76">
+			<setting value="style=label" />
+			<setting value="name=TX" />
+			<setting value="stylesheet.button=topstrap_large" />
+			<setting value="buttontext=list" />
+			<setting value="parameter=TX" />
+			<setting value="instance=stc_gpi_ksc" />
+			<setting value="state.0.caption=TX" />
+			<setting value="state.0.value=0" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.1.caption=TX" />
+			<setting value="state.1.value=1" />
+			<setting value="state.1.style=topstrap_tx_on" />
+		</control>
+		<control class="bncs_control" name="lbl_A1" x="524" y="1" w="72" h="76">
+			<setting value="style=label" />
+			<setting value="font.size=5" />
+			<setting value="text=Studio|C" />
+		</control>
 	</container>
 </control_set>
