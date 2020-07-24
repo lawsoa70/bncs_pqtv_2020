@@ -11,6 +11,10 @@
 		<setting id="area_name"         value="PQ Studio C"/>
     	<setting id="background_colour" value="blue"/>
 	</object>
+	<object id="engineering">
+		<setting id="area_name"         value="Engineering"/>
+    	<setting id="background_colour" value="black"/>
+	</object>
 	<object id="studio_a_embedder_list">	
 		<item id="1" value="studio_a_embedder_1"/>
 		<item id="2" value="studio_a_embedder_2"/>

@@ -12,13 +12,13 @@
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>
 	<workstation id="70"> <!--STA VAA Bays-->
-		<setting id="ops_area" value="studio_a"/>
-		<setting id="ops_position" value="studio_a"/>
+		<setting id="ops_area" value="engineering"/>
+		<setting id="ops_position" value="engineering"/>
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>
 	<workstation id="71"> <!--STA VAA Desk-->
-		<setting id="ops_area" value="studio_a"/>
-		<setting id="ops_position" value="studio_a"/>
+		<setting id="ops_area" value="engineering"/>
+		<setting id="ops_position" value="engineering"/>
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>	
 	<workstation id="72"> <!--STA LVCR-->
@@ -52,13 +52,13 @@
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>
 	<workstation id="80"> <!--STC VAA Bays-->
-		<setting id="ops_area" value="studio_c"/>
-		<setting id="ops_position" value="studio_c"/>
+		<setting id="ops_area" value="engineering"/>
+		<setting id="ops_position" value="engineering"/>
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>
 	<workstation id="81"> <!--STC VAA Desk-->
-		<setting id="ops_area" value="studio_c"/>
-		<setting id="ops_position" value="studio_c"/>
+		<setting id="ops_area" value="engineering"/>
+		<setting id="ops_position" value="engineering"/>
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>
 	<workstation id="83"> <!--STC EM-->
@@ -102,7 +102,7 @@
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>	
 	<workstation id="100"> <!--Laptop-->
-		<setting id="ops_area" value="studio_b"/>
-		<setting id="ops_position" value="studio_b"/>
+		<setting id="ops_area" value="engineering"/>
+		<setting id="ops_position" value="engineering"/>
 	</workstation>
 </workstation_settings>
