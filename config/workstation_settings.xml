@@ -102,7 +102,7 @@
 		<setting id="touchscreen" value="c:\Program Files\touchkit\touchkit.exe"/>
 	</workstation>	
 	<workstation id="100"> <!--Laptop-->
-		<setting id="ops_area" value="studio_a"/>
-		<setting id="ops_position" value="studio_a"/>
+		<setting id="ops_area" value="studio_b"/>
+		<setting id="ops_position" value="studio_b"/>
 	</workstation>
 </workstation_settings>

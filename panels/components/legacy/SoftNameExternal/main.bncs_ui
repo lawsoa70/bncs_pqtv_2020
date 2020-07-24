@@ -1,6 +1,6 @@
 <?xml version="1.0"  encoding="windows-1252"?>
 <control_set>
-	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="928" gridSize="10" gridEnabled="0" testInstance="" panelmanSize="1280" showTestDialog="0">
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="0" testInstance="" panelmanSize="1280" showTestDialog="0">
 		<control class="bncs_control" name="Label3" x="10" y="350" w="660" h="100">
 			<setting value="style=label" />
 			<setting value="stylesheet=groupbox" />
@@ -122,7 +122,6 @@
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Type" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="101" x="365" y="50" w="73" h="30">
 		</control>
@@ -169,7 +168,6 @@
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Source" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="3" x="35" y="114" w="104" h="30">
 			<setting value="font.face=Arial" />
@@ -361,14 +359,12 @@
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Sncs Name" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="lbl6" x="249" y="24" w="104" h="25">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Alias Name" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ALIAS2" x="251" y="82" w="100" h="30">
 			<setting value="style=label" />
@@ -480,16 +476,16 @@
 			<setting value="font.size=12" />
 			<setting value="font.style=bold " />
 		</control>
-		<control class="bncs_control" name="debug1" x="629" y="900" w="134" h="30">
+		<control class="bncs_control" name="debug1" x="631" y="856" w="134" h="30">
 			<setting value="style=label" />
 		</control>
-		<control class="bncs_control" name="debug2" x="767" y="899" w="134" h="30">
+		<control class="bncs_control" name="debug2" x="769" y="855" w="134" h="30">
 			<setting value="style=label" />
 		</control>
-		<control class="bncs_control" name="debug3" x="900" y="899" w="134" h="30">
+		<control class="bncs_control" name="debug3" x="902" y="855" w="134" h="30">
 			<setting value="style=label" />
 		</control>
-		<control class="bncs_control" name="debug4" x="1036" y="898" w="134" h="30">
+		<control class="bncs_control" name="debug4" x="1038" y="854" w="134" h="30">
 			<setting value="style=label" />
 		</control>
 		<control class="bncs_control" name="ChosenStyle" x="561" y="510" w="69" h="29">
@@ -501,7 +497,6 @@
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Active Name" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Commit" x="340" y="380" w="128" h="45">
 			<setting value="text=SAVE Edit" />
@@ -530,42 +525,36 @@
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Maximum allowed|length reached !!!" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ChosenSoftName8" x="108" y="491" w="109" h="17">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Source Name" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ChosenSoftName9" x="218" y="489" w="110" h="17">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Assoc Alias" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ChosenSoftName6" x="330" y="489" w="110" h="17">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Auto name" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ChosenSoftName7" x="446" y="489" w="110" h="17">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=Manual name" />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ChosenSoftName3" x="720" y="510" w="49" h="29">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text= Old : " />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ASSIGNLABEL" x="40" y="380" w="111" h="45">
 			<setting value="text=ASSIGN|SNCS Label" />
@@ -575,7 +564,6 @@
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=New : " />
 			<setting value="notify.released=false" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="ChosenSoftName1" x="771" y="510" w="194" h="29">
 			<setting value="style=label" />

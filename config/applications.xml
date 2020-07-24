@@ -61,7 +61,7 @@
     <app id="studio_b/pcr_stack"                 caption="B PCR|Stack"               title="B PCR Stack"                 icon="/images/icon_stk" />
     <app id="studio_b/pcr_mons"                  caption="B PCR|Monitors"            title="B PCR Monitors"              icon="/images/icon_stk" />
     <app id="studio_b/scr_stack"                 caption="B SCR|Stack"               title="B SCR Stack"                 icon="/images/icon_stk" />
-	<app id="studio_b/fcr_stack"                 caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
+	<app id="studio_b/fcr_stack_v1"              caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
 	<app id="studio_b/fcr_stack_v2"              caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
 	<app id="studio_b/fcr_stack_v3"              caption="FCR|Stack"                 title="FCR Stack"                   icon="/images/icon_stk" />
 	<app id="studio_b/iso"                       caption="ISO"                       title="ISO Vision"                  icon="/images/icon_output" />

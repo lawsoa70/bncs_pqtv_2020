@@ -3,7 +3,7 @@
 	<!--  
 	<area id="gallery_n"> where n is 1 to 9 or abcd etc
 		<setting id="name" value="PCR B" /> for reference only 
-		<setting id="topstrap_layout" value="" /> the gui that will be displayed form the selection in../components/topstrat/layouts
+		<setting id="topstrap_layout" value="" /> the gui that will be displayed from the selection in../components/topstrap/layouts
 		<setting id="change_area_button" value="true" /> enables a workstation to select a different hardware mapping application rather than their areas default
 	</area>
 	-->
