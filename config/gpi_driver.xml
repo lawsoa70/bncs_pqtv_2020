@@ -1,0 +1,7 @@
+<gpi_driver>
+	<driver id="axon_gpi">
+		<setting id="simulation" value="true" />
+		<setting id="logging_to_file"  value="ExtraDetailed" />
+		<setting id="logging_to_debug" value="ExtraDetailed" />
+	</driver>
+</gpi_driver>

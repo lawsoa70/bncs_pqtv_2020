@@ -199,6 +199,9 @@
 		<application arguments="338" name="infodriver32" />
 		<application arguments="339" name="infodriver32" />
 		<application arguments="331" name="drivers\RiedelArtistDrv" />  <!--  delay="5000" /> -->
+		<!-- GPI -->
+		<application arguments="841" name="infodriver32" />
+		<application arguments="841" name="drivers\gpi\GPIDriver.exe" /> <!--Axon GPI-->
 		<!-- Studio A -->
 		<application arguments="885" name="grd32.exe" /> <!--rtr_sta_sdi-->
 		<application arguments="884" name="infodriver32" /> <!--rtr_sta_sdi_lock-->
@@ -247,6 +250,14 @@
 		<application arguments="891" name="infodriver32" /> <!--studio_test_state-->
 		<!--Panelman-->
 		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
+	</workstation>
+	<workstation csi="csi32" id="101" > <!--Laptop simple-->
+		<!-- GPI -->
+		<application arguments="273" name="infodriver32" />
+		<application arguments="274" name="infodriver32" />
+		<application arguments="275" name="infodriver32" />
+		<application arguments="276" name="infodriver32" />
+		<application arguments="axon_gpi" name="drivers\gpi\GPIDriver.exe" /> <!--Axon GPI-->
 	</workstation>
 	<workstation csi="csi32" id="777" > <!--?-->
 		<application arguments="885" name="grd32.exe" />

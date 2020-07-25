@@ -71,6 +71,28 @@
 	<instance composite="no" id="cna_1/cam/15" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1500" ccu_num="15" alt_id="15: Newsroom|CAM 1" />
 	<instance composite="no" id="cna_1/cam/16" type="cna_1_ccu" location="studio_c" ref="device=202,offset=1600" ccu_num="16" alt_id="16: Newsroom|CAM 2" />
 
+	<!-- Axon GPI Instances -->
+	
+	<instance composite="yes" id="axon_gpi">
+		<group id="device_1" instance="GPI001" />
+	</instance>
+	<instance composite="yes" id="GPI001" type="CGP4848" alt_id="Axon GPI 1" address="10.0.0.1" protocol="axon_gpi_protocol" inputs="48" outputs="48">
+		<group id="inputs"     instance="GPI001/inputs" />
+		<group id="outputs"    instance="GPI001/outputs" />
+		<group id="input_pti"  instance="GPI001/input_pti" />
+		<group id="output_pti" instance="GPI001/output_pti" />
+		<group id="routes"     instance="GPI001/routes" />
+		<group id="comms"      instance="GPI001/comms" />
+	</instance>
+	<instance composite="no" id="GPI001/inputs"     type="gpi_inputs_48"     location="TBA" ref="device=273,offset=0"    alt_id="Axon GPI 1 Inputs" />
+	<instance composite="no" id="GPI001/outputs"    type="gpi_outputs_48"    location="TBA" ref="device=274,offset=0"    alt_id="Axon GPI 1 Outputs" />
+	<instance composite="no" id="GPI001/input_pti"  type="gpi_input_pti_48"  location="TBA" ref="device=275,offset=0"    alt_id="Axon GPI 1 input_pti" />
+	<instance composite="no" id="GPI001/output_pti" type="gpi_output_pti_48" location="TBA" ref="device=275,offset=2000" alt_id="Axon GPI 1 output_pti" />
+	<instance composite="no" id="GPI001/routes"     type="gpi_routes_48"     location="TBA" ref="device=276,offset=0"    alt_id="Axon GPI 1 Routes" />
+	<instance composite="no" id="GPI001/comms"      type="gpi_comms_48"      location="TBA" ref="device=276,offset=3500" alt_id="Axon GPI 1 Routes" />
+	
+	<!--  Riedel instances -->
+
 	<instance ref="device=331,offset=0"   composite="no" id="riedel_grd"                type="Riedel"              location=""         alt_id="Riedel Base device XY router" />
 	<instance ref="device=332,offset=0"   composite="no" id="riedel_monitor"            type="Riedel"              location=""         alt_id="Riedel Monitor Device" />
 	<instance ref="device=333,offset=0"   composite="no" id="riedel_pti"                type="Riedel"              location=""         alt_id="Riedel PTI Device" />
@@ -80,6 +102,9 @@
 	<instance ref="device=337,offset=0"   composite="no" id="riedel_conference"         type="Riedel"              location=""         alt_id="Riedel Conference Device" />
 	<instance ref="device=338,offset=0"   composite="no" id="riedel_ifb"                type="Riedel"              location=""         alt_id="Riedel IFB Device" />
 	<instance ref="device=339,offset=0"   composite="no" id="riedel_extras"             type="Riedel"              location=""         alt_id="Riedel Extras" />
+
+	<!-- Others -->
+
 	<instance ref="device=341,offset=0"   composite="no" id="sncs_interface"            type="infodriver"          location=""         alt_id="" />
 	<instance ref="device=840,offset=0"   composite="no" id="rtr_ctl_test"              type="router"              location=""         alt_id="SDI Router|Test" />
 	<instance ref="device=850,offset=0"   composite="no" id="studio_b_evertz_mvs"       type="infodriver"          location="studio_b" alt_id="" />

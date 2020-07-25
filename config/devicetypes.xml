@@ -3,4 +3,6 @@
 <devicetypes>
     <type family="Memory" id="MemoryVisionFunctions" />
     <type family="GPID"   id="ksc_gpi_inputs" />
+	<!--<type family="GPID"   id="gpi_inputs_48" />
+	<type family="GPID"   id="gpi_outputs_48" />-->
 </devicetypes>

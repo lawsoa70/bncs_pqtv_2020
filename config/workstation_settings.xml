@@ -105,4 +105,8 @@
 		<setting id="ops_area" value="engineering"/>
 		<setting id="ops_position" value="engineering"/>
 	</workstation>
+	<workstation id="101"> <!--Laptop simple-->
+		<setting id="ops_area" value="engineering"/>
+		<setting id="ops_position" value="engineering"/>
+	</workstation>
 </workstation_settings>
