@@ -1,0 +1,37 @@
+<?xml version = '1.0'?>
+<!DOCTYPE device_description SYSTEM "device_description.dtd">
+<device_description name="gpi002_outputs" drivertype="INFODRIVER">
+    <param class="enum" access="readonly" style="button" name="stc_ISO1 Inhibit" slot="1">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO2 Inhibit" slot="2">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO3 Inhibit" slot="3">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO4 Inhibit" slot="4">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO5 Inhibit" slot="5">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO6 Inhibit" slot="6">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO7 Inhibit" slot="7">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="button" name="stc_ISO8 Inhibit" slot="8">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+
+</device_description>

@@ -82,7 +82,7 @@
 			<setting value="name=VisionEcut" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=VisionEcut" />
+			<setting value="parameter=sta_VisionEcut" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=E-CUT" />
 			<setting value="state.0.value=0" />
@@ -96,7 +96,7 @@
 			<setting value="name=VisionBypass" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=VisionBypass" />
+			<setting value="parameter=sta_VisionBypass" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=BYPASS" />
 			<setting value="state.0.value=0" />
@@ -110,7 +110,7 @@
 			<setting value="name=SoundEcut" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=SoundEcut" />
+			<setting value="parameter=sta_SoundEcut" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=E-CUT" />
 			<setting value="state.0.value=0" />
@@ -124,7 +124,7 @@
 			<setting value="name=SoundBypass" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=SoundBypass" />
+			<setting value="parameter=sta_SoundBypass" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=BYPASS" />
 			<setting value="state.0.value=0" />
@@ -138,7 +138,7 @@
 			<setting value="name=TB Mics" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=TB Mics" />
+			<setting value="parameter=sta_TB Mics" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=TB Mics ON" />
 			<setting value="state.0.value=0" />
@@ -152,7 +152,7 @@
 			<setting value="name=ReserveCleanDirty" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ReserveCleanDirty" />
+			<setting value="parameter=sta_ReserveCleanDirty" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=Mons|Lineup" />
 			<setting value="state.0.value=0" />
@@ -166,7 +166,7 @@
 			<setting value="name=REH" />
 			<setting value="stylesheet.button=topstrap_large" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=REH" />
+			<setting value="parameter=sta_REH" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=REH" />
 			<setting value="state.0.value=0" />
@@ -180,7 +180,7 @@
 			<setting value="name=TX" />
 			<setting value="stylesheet.button=topstrap_large" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=TX" />
+			<setting value="parameter=sta_TX" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=TX" />
 			<setting value="state.0.value=0" />
@@ -194,7 +194,7 @@
 			<setting value="name=RedLights" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=RedLights" />
+			<setting value="parameter=sta_RedLights" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=RED lights" />
 			<setting value="state.0.value=0" />
@@ -275,12 +275,12 @@
 			<setting value="database=2" />
 			<setting value="singleline=" />
 		</control>
-		<control class="bncs_enum" name="22" x="306" y="2" w="36" h="36">
+		<control class="bncs_enum" name="sta_main_lu" x="306" y="2" w="36" h="36">
 			<setting value="style=label" />
 			<setting value="name=MainLU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=MainLU" />
+			<setting value="parameter=sta_MainLU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=Main|LU" />
 			<setting value="state.0.value=0" />
@@ -289,12 +289,12 @@
 			<setting value="state.1.value=1" />
 			<setting value="state.1.style=topstrap_lineup_on" />
 		</control>
-		<control class="bncs_enum" name="24" x="346" y="2" w="36" h="36">
+		<control class="bncs_enum" name="sta_cln_lu" x="346" y="2" w="36" h="36">
 			<setting value="style=label" />
-			<setting value="name=ResLU" />
+			<setting value="name=CleanLU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ResLU" />
+			<setting value="parameter=sta_CleanLU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=Clean|LU" />
 			<setting value="state.0.value=0" />
@@ -303,12 +303,12 @@
 			<setting value="state.1.value=1" />
 			<setting value="state.1.style=topstrap_lineup_on" />
 		</control>
-		<control class="bncs_enum" name="26" x="386" y="2" w="36" h="36">
+		<control class="bncs_enum" name="sta_res_lu" x="386" y="2" w="36" h="36">
 			<setting value="style=label" />
-			<setting value="name=CleanLU" />
+			<setting value="name=ResLU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=CleanLU" />
+			<setting value="parameter=sta_ResLU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption= Res|LU" />
 			<setting value="state.0.value=0" />
@@ -322,7 +322,7 @@
 			<setting value="name=RingLU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=RingLU" />
+			<setting value="parameter=sta_RingLU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=Ring|main|LU" />
 			<setting value="state.0.value=0" />
@@ -336,7 +336,7 @@
 			<setting value="name=ISO1LU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO1LU" />
+			<setting value="parameter=sta_ISO1LU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=ISO1|LU" />
 			<setting value="state.0.value=0" />
@@ -350,7 +350,7 @@
 			<setting value="name=ISO3LU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO3LU" />
+			<setting value="parameter=sta_ISO3LU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=ISO3|LU" />
 			<setting value="state.0.value=0" />
@@ -364,7 +364,7 @@
 			<setting value="name=ISO4LU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO4LU" />
+			<setting value="parameter=sta_ISO4LU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=ISO4|LU" />
 			<setting value="state.0.value=0" />
@@ -378,7 +378,7 @@
 			<setting value="name=ISO2LU" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO2LU" />
+			<setting value="parameter=sta_ISO2LU" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=ISO2|LU" />
 			<setting value="state.0.value=0" />
@@ -392,7 +392,7 @@
 			<setting value="name=FloorLights" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=FloorLights" />
+			<setting value="parameter=sta_FloorLights" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=Floor Lights|Enabled" />
 			<setting value="state.0.value=0" />

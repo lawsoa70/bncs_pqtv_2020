@@ -9,8 +9,8 @@
 			<setting value="name=ISO1 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO1 Inhibit" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_ISO1 Inhibit" />
+			<setting value="instance=GPI002/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=enum_normal" />
@@ -23,8 +23,8 @@
 			<setting value="name=ISO2 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO2 Inhibit" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_ISO2 Inhibit" />
+			<setting value="instance=GPI002/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=enum_normal" />
@@ -36,13 +36,11 @@
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 1" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label1" x="650" y="340" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 2" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 	</container>
 </control_set>

@@ -75,6 +75,7 @@
 	
 	<instance composite="yes" id="axon_gpi">
 		<group id="device_1" instance="GPI001" />
+		<group id="device_2" instance="GPI002" />
 	</instance>
 	<instance composite="yes" id="GPI001" type="CGP4848" alt_id="Axon GPI 1" address="10.0.0.1" protocol="axon_gpi_protocol" inputs="48" outputs="48">
 		<group id="inputs"     instance="GPI001/inputs" />
@@ -84,12 +85,26 @@
 		<group id="routes"     instance="GPI001/routes" />
 		<group id="comms"      instance="GPI001/comms" />
 	</instance>
-	<instance composite="no" id="GPI001/inputs"     type="gpi_inputs_48"     location="TBA" ref="device=273,offset=0"    alt_id="Axon GPI 1 Inputs" />
-	<instance composite="no" id="GPI001/outputs"    type="gpi_outputs_48"    location="TBA" ref="device=274,offset=0"    alt_id="Axon GPI 1 Outputs" />
-	<instance composite="no" id="GPI001/input_pti"  type="gpi_input_pti_48"  location="TBA" ref="device=275,offset=0"    alt_id="Axon GPI 1 input_pti" />
-	<instance composite="no" id="GPI001/output_pti" type="gpi_output_pti_48" location="TBA" ref="device=275,offset=2000" alt_id="Axon GPI 1 output_pti" />
-	<instance composite="no" id="GPI001/routes"     type="gpi_routes_48"     location="TBA" ref="device=276,offset=0"    alt_id="Axon GPI 1 Routes" />
-	<instance composite="no" id="GPI001/comms"      type="gpi_comms_48"      location="TBA" ref="device=276,offset=3500" alt_id="Axon GPI 1 Routes" />
+	<instance composite="yes" id="GPI002" type="CGP4848" alt_id="Axon GPI 2" address="10.0.0.2" protocol="axon_gpi_protocol" inputs="48" outputs="48">
+		<group id="inputs"     instance="GPI002/inputs" />
+		<group id="outputs"    instance="GPI002/outputs" />
+		<group id="input_pti"  instance="GPI002/input_pti" />
+		<group id="output_pti" instance="GPI002/output_pti" />
+		<group id="routes"     instance="GPI002/routes" />
+		<group id="comms"      instance="GPI002/comms" />
+	</instance>
+	<instance composite="no" id="GPI001/inputs"     type="gpi001_inputs"     location="TBA" ref="device=351,offset=0"    alt_id="Axon GPI 1 Inputs" />
+	<instance composite="no" id="GPI001/outputs"    type="gpi001_outputs"    location="TBA" ref="device=351,offset=2000" alt_id="Axon GPI 1 Outputs" />
+	<instance composite="no" id="GPI001/input_pti"  type=""                  location="TBA" ref="device=352,offset=0"    alt_id="Axon GPI 1 input_pti" />
+	<instance composite="no" id="GPI001/output_pti" type=""                  location="TBA" ref="device=352,offset=2000" alt_id="Axon GPI 1 output_pti" />
+	<instance composite="no" id="GPI001/routes"     type=""                  location="TBA" ref="device=353,offset=0"    alt_id="Axon GPI 1 Routes" />
+	<instance composite="no" id="GPI001/comms"      type="gpi001_comms"      location="TBA" ref="device=351,offset=4000" alt_id="Axon GPI 1 Comms" />
+	<instance composite="no" id="GPI002/inputs"     type="gpi002_inputs"     location="TBA" ref="device=351,offset=48"   alt_id="Axon GPI 2 Inputs" />
+	<instance composite="no" id="GPI002/outputs"    type="gpi002_outputs"    location="TBA" ref="device=351,offset=2048" alt_id="Axon GPI 2 Outputs" />
+	<instance composite="no" id="GPI002/input_pti"  type=""                  location="TBA" ref="device=352,offset=48"   alt_id="Axon GPI 2 input_pti" />
+	<instance composite="no" id="GPI002/output_pti" type=""                  location="TBA" ref="device=352,offset=2048" alt_id="Axon GPI 2 output_pti" />
+	<instance composite="no" id="GPI002/routes"     type=""                  location="TBA" ref="device=353,offset=48"   alt_id="Axon GPI 2 Routes" />
+	<instance composite="no" id="GPI002/comms"      type="gpi002_comms"      location="TBA" ref="device=351,offset=4001" alt_id="Axon GPI 2 Comms" />
 	
 	<!--  Riedel instances -->
 

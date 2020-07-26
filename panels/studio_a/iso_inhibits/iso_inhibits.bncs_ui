@@ -12,8 +12,8 @@
 			<setting value="name=ISO1 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO1 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO1 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -26,8 +26,8 @@
 			<setting value="name=ISO2 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO2 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO2 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -40,8 +40,8 @@
 			<setting value="name=ISO3 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO3 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO3 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -54,8 +54,8 @@
 			<setting value="name=ISO4 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO4 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO4 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -67,33 +67,29 @@
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 1" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label1" x="530" y="240" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 2" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label2" x="680" y="240" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 3" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label3" x="830" y="240" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 4" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_enum" name="9" x="380" y="510" w="100" h="100">
 			<setting value="style=button" />
 			<setting value="name=ISO4 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO5 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO5 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -106,8 +102,8 @@
 			<setting value="name=ISO4 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO6 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO6 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -120,8 +116,8 @@
 			<setting value="name=ISO4 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO7 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO7 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -134,8 +130,8 @@
 			<setting value="name=ISO4 Inhibit" />
 			<setting value="doublepush=true" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=ISO8 Inhibit" />
-			<setting value="instance=sta_gpi_ksc" />
+			<setting value="parameter=sta_ISO8 Inhibit" />
+			<setting value="instance=GPI001/outputs" />
 			<setting value="state.0.caption=Cues On" />
 			<setting value="state.0.value=1" />
 			<setting value="state.0.style=enum_normal" />
@@ -147,25 +143,21 @@
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 8" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label6" x="380" y="480" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 5" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label8" x="680" y="480" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 7" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 		<control class="bncs_control" name="Label7" x="530" y="480" w="100" h="30">
 			<setting value="style=label" />
 			<setting value="stylesheet=grouplabel" />
 			<setting value="text=ISO 6" />
-			<setting value="sizepolicy=shrinktofit" />
 		</control>
 	</container>
 </control_set>

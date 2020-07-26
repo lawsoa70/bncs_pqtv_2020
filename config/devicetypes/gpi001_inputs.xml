@@ -1,0 +1,93 @@
+<?xml version = '1.0'?>
+<!DOCTYPE device_description SYSTEM "device_description.dtd">
+<device_description name="gpi001_inputs" drivertype="INFODRIVER">
+    <param class="enum" access="readonly" style="label" name="sta_REH"               slot="1">
+        <state caption="REH" style="topstrap_off" value="0" msg="" />
+        <state caption="REH" style="topstrap_reh_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_TX"                slot="2">
+        <state caption="TX" style="topstrap_off" value="0" msg="" />
+        <state caption="TX" style="topstrap_tx_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_RedLights"         slot="3">
+        <state caption="RED lights" style="topstrap_off" value="0" msg="" />
+        <state caption="RED lights" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_FloorLights"       slot="4">
+        <state caption="Disable|Floor Lights" style="topstrap_off" value="0" msg="" />
+        <state caption="Enable|Floor Lights" style="topstrap_yellow_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_ReserveCleanDirty" slot="5">
+        <state caption="Dirty|Reserve" style="topstrap_off" value="0" msg="" />
+        <state caption="Clean|Reserve" style="topstrap_yellow_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_MainLU"            slot="6">
+        <state caption="Main|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="Main|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_ResLU"             slot="7">
+        <state caption="Res|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="Res|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_CleanLU"           slot="8">
+        <state caption="Clean|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="Clean|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_RingLU"            slot="9">
+        <state caption="Ring|main|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="Ring|main|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_ISO1LU"            slot="10">
+        <state caption="ISO1|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="ISO1|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_ISO2LU"            slot="11">
+        <state caption="ISO2|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="ISO2|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_ISO3LU"            slot="12">
+        <state caption="ISO3|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="ISO3|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_ISO4LU"            slot="13">
+        <state caption="ISO4|LU" style="topstrap_off" value="0" msg="" />
+        <state caption="ISO4|LU" style="topstrap_red_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_VisionEcut"        slot="14">
+        <state caption="E-CUT" style="topstrap_off" value="0" msg="" />
+        <state caption="E-CUT" style="topstrap_ecut_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_VisionBypass"      slot="15">
+        <state caption="BYPASS" style="topstrap_off" value="0" msg="" />
+        <state caption="BYPASS" style="topstrap_bypass_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_SoundEcut"         slot="16">
+        <state caption="E-CUT" style="topstrap_off" value="0" msg="" />
+        <state caption="E-CUT" style="topstrap_ecut_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_SoundBypass"       slot="17">
+        <state caption="BYPASS" style="topstrap_off" value="0" msg="" />
+        <state caption="BYPASS" style="topstrap_bypass_on" value="1" msg="" />
+	</param>
+    <param class="enum" access="readonly" style="label" name="sta_TB Mics"           slot="18">
+        <state caption="TB Mics ON" style="topstrap_off" value="0" msg="" />
+        <state caption="TB Mics OFF" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="label" name="sta_Vista1"            slot="19">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="label" name="sta_Vista2"            slot="20">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="label" name="sta_Vista3"            slot="21">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+	<param class="enum" access="readonly" style="label" name="sta_Vista4"            slot="22">
+        <state caption="Cues On" style="" value="0" msg="" />
+        <state caption="Cues Off" style="" value="1" msg="" />
+	</param>
+
+</device_description>

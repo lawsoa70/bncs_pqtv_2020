@@ -28,7 +28,7 @@
 			<setting value="name=VisionEcut" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=VisionEcut" />
+			<setting value="parameter=sta_VisionEcut" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=E-CUT" />
 			<setting value="state.0.value=0" />
@@ -42,7 +42,7 @@
 			<setting value="name=VisionBypass" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=VisionBypass" />
+			<setting value="parameter=sta_VisionBypass" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=BYPASS" />
 			<setting value="state.0.value=0" />
@@ -56,7 +56,7 @@
 			<setting value="name=SoundEcut" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=SoundEcut" />
+			<setting value="parameter=sta_SoundEcut" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=E-CUT" />
 			<setting value="state.0.value=0" />
@@ -70,7 +70,7 @@
 			<setting value="name=SoundBypass" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=SoundBypass" />
+			<setting value="parameter=sta_SoundBypass" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=BYPASS" />
 			<setting value="state.0.value=0" />
@@ -79,12 +79,12 @@
 			<setting value="state.1.value=1" />
 			<setting value="state.1.style=topstrap_bypass_on" />
 		</control>
-		<control class="bncs_enum" name="16" x="80" y="1" w="73" h="76">
+		<control class="bncs_enum" name="a_reh" x="80" y="0" w="73" h="76">
 			<setting value="style=label" />
 			<setting value="name=REH" />
 			<setting value="stylesheet.button=topstrap_large" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=REH" />
+			<setting value="parameter=sta_REH" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=REH" />
 			<setting value="state.0.value=0" />
@@ -93,12 +93,12 @@
 			<setting value="state.1.value=1" />
 			<setting value="state.1.style=topstrap_reh_on" />
 		</control>
-		<control class="bncs_enum" name="15" x="155" y="1" w="73" h="76">
+		<control class="bncs_enum" name="a_tx" x="155" y="1" w="73" h="76">
 			<setting value="style=label" />
 			<setting value="name=TX" />
 			<setting value="stylesheet.button=topstrap_large" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=TX" />
+			<setting value="parameter=sta_TX" />
 			<setting value="instance=GPI001/inputs" />
 			<setting value="state.0.caption=TX" />
 			<setting value="state.0.value=0" />
@@ -135,8 +135,8 @@
 			<setting value="name=VisionEcut" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=VisionEcut" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_VisionEcut" />
+			<setting value="instance=GPI002/inputs" />
 			<setting value="state.0.caption=E-CUT" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=topstrap_off" />
@@ -149,8 +149,8 @@
 			<setting value="name=VisionBypass" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=VisionBypass" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_VisionBypass" />
+			<setting value="instance=GPI002/inputs" />
 			<setting value="state.0.caption=BYPASS" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=topstrap_off" />
@@ -163,8 +163,8 @@
 			<setting value="name=SoundEcut" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=SoundEcut" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_SoundEcut" />
+			<setting value="instance=GPI002/inputs" />
 			<setting value="state.0.caption=E-CUT" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=topstrap_off" />
@@ -177,8 +177,8 @@
 			<setting value="name=SoundBypass" />
 			<setting value="stylesheet.button=topstrap_small" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=SoundBypass" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_SoundBypass" />
+			<setting value="instance=GPI002/inputs" />
 			<setting value="state.0.caption=BYPASS" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=topstrap_off" />
@@ -186,13 +186,13 @@
 			<setting value="state.1.value=1" />
 			<setting value="state.1.style=topstrap_bypass_on" />
 		</control>
-		<control class="bncs_enum" name="17" x="598" y="1" w="73" h="76">
+		<control class="bncs_enum" name="c_reh" x="598" y="1" w="73" h="76">
 			<setting value="style=label" />
 			<setting value="name=REH" />
 			<setting value="stylesheet.button=topstrap_large" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=REH" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_REH" />
+			<setting value="instance=GPI002/inputs" />
 			<setting value="state.0.caption=REH" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=topstrap_off" />
@@ -200,13 +200,13 @@
 			<setting value="state.1.value=1" />
 			<setting value="state.1.style=topstrap_reh_on" />
 		</control>
-		<control class="bncs_enum" name="18" x="673" y="1" w="73" h="76">
+		<control class="bncs_enum" name="c_tx" x="673" y="1" w="73" h="76">
 			<setting value="style=label" />
 			<setting value="name=TX" />
 			<setting value="stylesheet.button=topstrap_large" />
 			<setting value="buttontext=list" />
-			<setting value="parameter=TX" />
-			<setting value="instance=stc_gpi_ksc" />
+			<setting value="parameter=stc_TX" />
+			<setting value="instance=GPI002/inputs" />
 			<setting value="state.0.caption=TX" />
 			<setting value="state.0.value=0" />
 			<setting value="state.0.style=topstrap_off" />

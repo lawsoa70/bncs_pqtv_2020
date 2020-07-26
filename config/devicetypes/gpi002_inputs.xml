@@ -1,91 +1,91 @@
 <?xml version = '1.0'?>
 <!DOCTYPE device_description SYSTEM "device_description.dtd">
-<device_description name="gpi_inputs_48" drivertype="GPI">
-    <param class="enum" access="readonly" style="label" name="REH" slot="1">
+<device_description name="gpi002_inputs" drivertype="INFODRIVER">
+    <param class="enum" access="readonly" style="label" name="stc_REH"               slot="1">
         <state caption="REH" style="topstrap_off" value="0" msg="" />
         <state caption="REH" style="topstrap_reh_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="TX" slot="2">
+    <param class="enum" access="readonly" style="label" name="stc_TX"                slot="2">
         <state caption="TX" style="topstrap_off" value="0" msg="" />
         <state caption="TX" style="topstrap_tx_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="RedLights" slot="3">
+    <param class="enum" access="readonly" style="label" name="stc_RedLights"         slot="3">
         <state caption="RED lights" style="topstrap_off" value="0" msg="" />
         <state caption="RED lights" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="FloorLights" slot="4">
+    <param class="enum" access="readonly" style="label" name="stc_FloorLights"       slot="4">
         <state caption="Disable|Floor Lights" style="topstrap_off" value="0" msg="" />
         <state caption="Enable|Floor Lights" style="topstrap_yellow_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="ReserveCleanDirty" slot="5">
+    <param class="enum" access="readonly" style="label" name="stc_ReserveCleanDirty" slot="5">
         <state caption="Dirty|Reserve" style="topstrap_off" value="0" msg="" />
         <state caption="Clean|Reserve" style="topstrap_yellow_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="MainLU" slot="6">
+    <param class="enum" access="readonly" style="label" name="stc_MainLU"            slot="6">
         <state caption="Main|LU" style="topstrap_off" value="0" msg="" />
         <state caption="Main|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="ResLU" slot="7">
+    <param class="enum" access="readonly" style="label" name="stc_ResLU"             slot="7">
         <state caption="Res|LU" style="topstrap_off" value="0" msg="" />
         <state caption="Res|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="CleanLU" slot="8">
+    <param class="enum" access="readonly" style="label" name="stc_CleanLU"           slot="8">
         <state caption="Clean|LU" style="topstrap_off" value="0" msg="" />
         <state caption="Clean|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="RingLU" slot="9">
+    <param class="enum" access="readonly" style="label" name="stc_RingLU"            slot="9">
         <state caption="Ring|main|LU" style="topstrap_off" value="0" msg="" />
         <state caption="Ring|main|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="ISO1LU" slot="10">
+    <param class="enum" access="readonly" style="label" name="stc_ISO1LU"            slot="10">
         <state caption="ISO1|LU" style="topstrap_off" value="0" msg="" />
         <state caption="ISO1|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="ISO2LU" slot="11">
+    <param class="enum" access="readonly" style="label" name="stc_ISO2LU"            slot="11">
         <state caption="ISO2|LU" style="topstrap_off" value="0" msg="" />
         <state caption="ISO2|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="ISO3LU" slot="12">
+    <param class="enum" access="readonly" style="label" name="stc_ISO3LU"            slot="12">
         <state caption="ISO3|LU" style="topstrap_off" value="0" msg="" />
         <state caption="ISO3|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="ISO4LU" slot="13">
+    <param class="enum" access="readonly" style="label" name="stc_ISO4LU"            slot="13">
         <state caption="ISO4|LU" style="topstrap_off" value="0" msg="" />
         <state caption="ISO4|LU" style="topstrap_red_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="VisionEcut" slot="14">
+    <param class="enum" access="readonly" style="label" name="stc_VisionEcut"        slot="14">
         <state caption="E-CUT" style="topstrap_off" value="0" msg="" />
         <state caption="E-CUT" style="topstrap_ecut_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="VisionBypass" slot="15">
+    <param class="enum" access="readonly" style="label" name="stc_VisionBypass"      slot="15">
         <state caption="BYPASS" style="topstrap_off" value="0" msg="" />
         <state caption="BYPASS" style="topstrap_bypass_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="SoundEcut" slot="16">
+    <param class="enum" access="readonly" style="label" name="stc_SoundEcut"         slot="16">
         <state caption="E-CUT" style="topstrap_off" value="0" msg="" />
         <state caption="E-CUT" style="topstrap_ecut_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="SoundBypass" slot="17">
+    <param class="enum" access="readonly" style="label" name="stc_SoundBypass"       slot="17">
         <state caption="BYPASS" style="topstrap_off" value="0" msg="" />
         <state caption="BYPASS" style="topstrap_bypass_on" value="1" msg="" />
 	</param>
-    <param class="enum" access="readonly" style="label" name="TB Mics" slot="18">
+    <param class="enum" access="readonly" style="label" name="stc_TB Mics"           slot="18">
         <state caption="TB Mics ON" style="topstrap_off" value="0" msg="" />
         <state caption="TB Mics OFF" style="" value="1" msg="" />
 	</param>
-	<param class="enum" access="readonly" style="label" name="Vista1" slot="19">
+	<param class="enum" access="readonly" style="label" name="stc_Vista1"            slot="19">
         <state caption="Cues On" style="" value="0" msg="" />
         <state caption="Cues Off" style="" value="1" msg="" />
 	</param>
-	<param class="enum" access="readonly" style="label" name="Vista2" slot="20">
+	<param class="enum" access="readonly" style="label" name="stc_Vista2"            slot="20">
         <state caption="Cues On" style="" value="0" msg="" />
         <state caption="Cues Off" style="" value="1" msg="" />
 	</param>
-	<param class="enum" access="readonly" style="label" name="Vista3" slot="21">
+	<param class="enum" access="readonly" style="label" name="stc_Vista3"            slot="21">
         <state caption="Cues On" style="" value="0" msg="" />
         <state caption="Cues Off" style="" value="1" msg="" />
 	</param>
-	<param class="enum" access="readonly" style="label" name="Vista4" slot="22">
+	<param class="enum" access="readonly" style="label" name="stc_Vista4"            slot="22">
         <state caption="Cues On" style="" value="0" msg="" />
         <state caption="Cues Off" style="" value="1" msg="" />
 	</param>
