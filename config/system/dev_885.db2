@@ -100,7 +100,7 @@
 0099=MIX OUT          
 0100=MIX OUT         
 0101=AUX 1           
-0102=AUX 3         
+0102=MIX OUT         
 0103=MIX OUT         
 0104=- - -               
 0105=" "                                   
