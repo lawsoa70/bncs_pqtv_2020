@@ -13,14 +13,14 @@
 0008=~<0008>~<CAM 4>~<CAM 4>~<AUTO>~<TEMP>~< >
 0009=~<0009>~< >~< >~<AUTO>~<TEMP>~< >
 0010=~<0010>~< >~< >~<AUTO>~<TEMP>~< >
-0011=~<0011>~<STC>~< main>~<AUTO>~<TEMP>~<STC>
-0012=~<0012>~<- - ->~< backing>~<AUTO>~<TEMP>~<- - ->
+0011=~<0011>~<NEWS24RX>~< main>~<MANUAL>~<TEMP>~<NEWS24RX>
+0012=~<0012>~<BBC1>~< backing>~<AUTO>~<TEMP>~<BBC1>
 0013=~<0013>~<BICGW6HD>~< iso 1>~<AUTO>~<TEMP>~<BICGW6HD>
 0014=~<0014>~<BICGW3HD>~< iso 2>~<AUTO>~<TEMP>~<BICGW3HD>
 0015=~<0015>~<STAISO1>~< iso 3>~<AUTO>~<TEMP>~<STAISO1>
-0016=~<0016>~<STB>~< iso 4>~<AUTO>~<TEMP>~<STB>
+0016=~<0016>~<- - ->~< iso 4>~<AUTO>~<TEMP>~<- - ->
 0017=~<0017>~<- - ->~< iso 6>~<AUTO>~<TEMP>~<- - ->
-0018=~<0018>~<EDIT4>~< iso 7>~<AUTO>~<TEMP>~<EDIT4>
+0018=~<0018>~<EDIT9>~< iso 7>~<AUTO>~<TEMP>~<EDIT9>
 0019=~<0019>~< >~< >~<AUTO>~<TEMP>~< >
 0020=~<0020>~< >~< >~<AUTO>~<TEMP>~< >
 0021=~<0021>~<- - ->~<LINE A>~<AUTO>~<TEMP>~<- - ->
@@ -30,7 +30,7 @@
 0025=~<0025>~<- - ->~< iso 3>~<AUTO>~<TEMP>~<- - ->
 0026=~<0026>~<STA>~< iso 4>~<AUTO>~<TEMP>~<STA>
 0027=~<0027>~<STAISO1>~< iso 5>~<AUTO>~<TEMP>~<STAISO1>
-0028=~<0028>~<STAISO2>~< AR 5 (screen)>~<AUTO>~<TEMP>~<STAISO2>
+0028=~<0028>~<STAISO2>~< AR 5 (screen)>~<MANUAL>~<TEMP>~<STAISO2>
 0029=~<0029>~< >~< >~<AUTO>~<TEMP>~< >
 0030=~<0030>~< >~< >~<AUTO>~<TEMP>~< >
 0031=~<0031>~< >~< >~<AUTO>~<TEMP>~< >
@@ -96,7 +96,7 @@
 0091=~<0091>~< >~< >~<AUTO>~<TEMP>~< >
 0092=~<0092>~< >~< >~<AUTO>~<TEMP>~< >
 0093=~<0093>~< >~< >~<AUTO>~<TEMP>~< >
-0094=~<0094>~< >~< >~<AUTO>~<TEMP>~< >
+0094=~<0094>~<- - ->~< >~<AUTO>~<TEMP>~<- - ->
 0095=~<0095>~< >~< >~<AUTO>~<TEMP>~< >
 0096=~<0096>~< >~< >~<AUTO>~<TEMP>~< >
 0097=~<0097>~< >~< >~<AUTO>~<TEMP>~< >

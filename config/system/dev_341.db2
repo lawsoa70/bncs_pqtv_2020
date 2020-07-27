@@ -3,7 +3,7 @@
 ; compares to db2 entries for sncs data
 ;
 [Database_2]
-0001=~<VSAT42WMT>~< >~< >~<AUTO>~<TEMP>~< >
+0001=~<EDIT9>~< >~< >~<AUTO>~<TEMP>~< >
 0002=~<PQN2C>~<LINE C>~<LINE C>~<AUTO>~<PERM>~< >
 0003=~<EHGW702>~< >~< >~<AUTO>~<TEMP>~< >
 0004=~<BP5WMT>~< >~< >~<AUTO>~<TEMP>~< >
