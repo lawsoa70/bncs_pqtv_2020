@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="730" h="630" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_enum" name="5" x="140" y="330" w="220" h="100">
+			<setting value="style=label" />
+			<setting value="name=sta_tx_state" />
+			<setting value="buttontext=list" />
+			<setting value="defaultstyle=topstrap_off" />
+			<setting value="parameter=sta_tx_state" />
+			<setting value="instance=interop" />
+			<setting value="state.0.caption=Rigging" />
+			<setting value="state.0.value=RIG" />
+			<setting value="state.0.style=topstrap_off" />
+			<setting value="state.0.enabled=false" />
+			<setting value="state.1.caption=REH" />
+			<setting value="state.1.value=REH" />
+			<setting value="state.1.style=topstrap_reh_on" />
+			<setting value="state.1.enabled=false" />
+			<setting value="state.2.caption=Impending" />
+			<setting value="state.2.value=IMPEND" />
+			<setting value="state.2.style=topstrap_yellow_on" />
+			<setting value="state.2.enabled=false" />
+			<setting value="state.3.caption=TX" />
+			<setting value="state.3.value=TX" />
+			<setting value="state.3.style=topstrap_tx_on" />
+			<setting value="state.3.enabled=false" />
+		</control>
+	</container>
+</control_set>

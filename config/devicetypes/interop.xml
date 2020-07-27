@@ -1,0 +1,10 @@
+<?xml version = '1.0'?>
+<!DOCTYPE device_description SYSTEM "device_description.dtd">
+<device_description name="interop" drivertype="INFODRIVER">
+    <param class="enum" access="readonly" style="label" name="sta_tx_state"               slot="1">
+        <state caption="Rigging"   style="topstrap_off"       value="RIG"    msg="" />
+        <state caption="REH"       style="topstrap_reh_on"    value="REH"    msg="" />
+        <state caption="Impending TX" style="topstrap_yellow_on" value="IMPEND" msg="" />
+        <state caption="TX"        style="topstrap_tx_on"     value="TX"     msg="" />
+	</param>
+</device_description>

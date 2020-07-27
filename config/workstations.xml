@@ -29,5 +29,5 @@
 	<workstation id="92"  name="White Heather"     user="STB_Rec"/>
 	<workstation id="93"  name="FCR"               user="STB_Rec" />
 	<workstation id="100" name="Laptop"            user="STA_Eng_Man"/>
-	<workstation id="101" name="Laptop Simple"     user="STC_Eng_Man"/>
+	<workstation id="101" name="Laptop Simple"     user="Laptop"/>
 </workstations>

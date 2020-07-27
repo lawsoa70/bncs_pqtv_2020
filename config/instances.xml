@@ -121,6 +121,7 @@
 	<!-- Others -->
 
 	<instance ref="device=341,offset=0"   composite="no" id="sncs_interface"            type="infodriver"          location=""         alt_id="" />
+	<instance ref="device=361,offset=0"   composite="no" id="interop"                   type="interop"          location=""         alt_id="Gallery Studio Interop" />
 	<instance ref="device=840,offset=0"   composite="no" id="rtr_ctl_test"              type="router"              location=""         alt_id="SDI Router|Test" />
 	<instance ref="device=850,offset=0"   composite="no" id="studio_b_evertz_mvs"       type="infodriver"          location="studio_b" alt_id="" />
 	<instance ref="device=860,offset=0"   composite="no" id="stb_sdi_memory"            type="memory_auto"         location="studio_b" alt_id="" />

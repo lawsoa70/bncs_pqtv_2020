@@ -199,11 +199,12 @@
 		<application arguments="338" name="infodriver32" />
 		<application arguments="339" name="infodriver32" />
 		<application arguments="331" name="drivers\RiedelArtistDrv" />  <!--  delay="5000" /> -->
-		<!-- GPI -->
+		<!-- GPI and Interop -->
 		<application arguments="351" name="infodriver32" /> <!-- Axon GPI IO -->
 		<application arguments="352" name="infodriver32" /> <!-- Axon GPI PTI -->
 		<application arguments="353" name="infodriver32" /> <!-- Axon GPI Routes -->
 		<application arguments="axon_gpi" name="drivers\gpi\GPIDriver.exe" /> <!--Axon GPI-->
+		<application arguments="/load=automatics/InteropAuto" name="bncs_v45_host" /> <!-- Interop Automatic -->
 		<!-- Studio A -->
 		<application arguments="885" name="grd32.exe" /> <!--rtr_sta_sdi-->
 		<application arguments="884" name="infodriver32" /> <!--rtr_sta_sdi_lock-->
@@ -255,10 +256,12 @@
 	</workstation>
 	<workstation csi="csi32" id="101" > <!--Laptop simple-->
 		<!-- GPI -->
-		<application arguments="351" name="infodriver32" />
-		<application arguments="352" name="infodriver32" />
-		<application arguments="353" name="infodriver32" />
+		<application arguments="351" name="infodriver32" /> <!-- Axon GPI IO -->
+		<application arguments="352" name="infodriver32" /> <!-- Axon GPI PTI -->
+		<application arguments="353" name="infodriver32" /> <!-- Axon GPI Routes -->
 		<application arguments="axon_gpi" name="drivers\gpi\GPIDriver.exe" /> <!--Axon GPI-->
+		<application arguments="361" name="infodriver32" /> <!-- Interop -->
+		<application arguments="autos_1" name="autohost" /> <!-- Interop Automatic -->
 		<application name="v3caplog.exe" />
 		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
 	</workstation>
