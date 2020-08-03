@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <autohost>
     <host id="autos_1" >
-        <app name="Interop Automatic" panel="automatics/InteropAuto" />
+        <app name="Interop Automatic" panel="automatics/InteropAuto" instance="interop" />
     </host>
 </autohost>

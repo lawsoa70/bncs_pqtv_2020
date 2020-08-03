@@ -28,7 +28,32 @@ public:
 private:
 	bncs_string m_myParam;
 	bncs_string m_instance;
-	
+	int m_intDevice;
+	int m_intMinimumMaster;
+	int m_intMaximumMaster;
+	int m_intMinimumSlave;
+	int m_intMaximumSlave;
+
+	//Internal methods
+	void setMasterLocalState(int, bncs_string);
+	void setMasterOutputState(int, bncs_string);
+	void setMasterBlueSlot(int, int);
+	void setMasterRedSlot(int, int);
+	void setSlaveBlueSlot(int, int);
+	void setSlaveRedSlot(int, int);
+	void setMasterMasterMatrixSlot(int, int, int);
+	void setMasterSlaveMatrixSlot(int, int, int);
+
+	int getMasterLocalStateSlot(int);
+	int getMasterOutputStateSlot(int);
+	int getMasterBlueSlot(int);
+	int getMasterRedSlot(int);
+	int getSlaveBlueSlot(int);
+	int getSlaveRedSlot(int);
+	int getMasterMasterMatrixSlot(int, int);
+	int getMasterSlaveMatrixSlot(int, int);
+
+	boolean getRangeInUse(int, int, int &, int &);
 };
 
 
