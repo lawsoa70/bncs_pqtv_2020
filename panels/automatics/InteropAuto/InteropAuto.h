@@ -13,6 +13,21 @@
 	#define EXPORT_SCRIPT
 #endif
  
+#define MASTER_DB_NUMBER                2
+#define SLAVE_DB_NUMBER                 3
+
+#define MASTER_COUNT                   20
+#define SLAVE_COUNT                    50
+#define MASTER_LOCAL_STATE_TABLE      100
+#define MASTER_OUTPUT_STATE_TABLE     200
+#define MASTER_BLUE_TABLE             300
+#define MASTER_RED_TABLE              400
+#define SLAVE_BLUE_TABLE              500
+#define SLAVE_RED_TABLE               600
+#define MASTER_MASTER_MATRIX_TABLE   1000
+#define MASTER_SLAVE_MATRIX_TABLE    2000
+
+
 class InteropAuto : public bncs_script_helper
 {
 public:
@@ -33,6 +48,7 @@ private:
 	int m_intMaximumMaster;
 	int m_intMinimumSlave;
 	int m_intMaximumSlave;
+	boolean m_boolMasterRedFlash[MASTER_COUNT];
 
 	//Internal methods
 	void setMasterLocalState(int, bncs_string);

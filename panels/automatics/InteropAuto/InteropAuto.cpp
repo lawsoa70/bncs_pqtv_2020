@@ -6,25 +6,10 @@
 
 #define PNL_MAIN	1
 
-#define TIMER_SETUP	1
+#define TIMER_SETUP	    1
+#define TIMER_FLASH_OFF 2
+#define TIMER_FLASH_ON  3
 
-#define MASTER_DB_NUMBER                2
-#define SLAVE_DB_NUMBER                 3
-
-#define MASTER_COUNT                   20
-#define SLAVE_COUNT                    50
-#define MASTER_LOCAL_STATE_TABLE      100
-#define MASTER_OUTPUT_STATE_TABLE     200
-#define MASTER_BLUE_TABLE             300
-#define MASTER_RED_TABLE              400
-#define SLAVE_BLUE_TABLE              500
-#define SLAVE_RED_TABLE               600
-#define MASTER_MASTER_MATRIX_TABLE   1000
-#define MASTER_SLAVE_MATRIX_TABLE    2000
-
-//define MASTER_STUDIO_A                 1
-//define MASTER_STUDIO_B                 2
-//define MASTER_STUDIO_C                 3
 
 // this nasty little macro to make our class visible to the outside world
 EXPORT_BNCS_SCRIPT( InteropAuto )
@@ -149,6 +134,7 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 		}
 		else if (r->index() > MASTER_OUTPUT_STATE_TABLE) {
 			relative = r->index() - MASTER_OUTPUT_STATE_TABLE;
+			m_boolMasterRedFlash[relative - 1] = false;
 			if (r->sInfo() == "NULL") {
 				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
 				setMasterBlueSlot(relative, 0);
@@ -168,6 +154,7 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
 				setMasterBlueSlot(relative, 0);
 				setMasterRedSlot(relative, 1);
+				m_boolMasterRedFlash[relative - 1] = true;
 			}
 			else if (r->sInfo() == "TX") {
 				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
@@ -280,6 +267,9 @@ void InteropAuto::timerCallback( int id )
 		debug("InteropAuto::timerCallback m_intMinimumMaster=%1, m_intMaximumMaster=%2, return=%3\n", m_intMinimumMaster, m_intMaximumMaster, t);
 		t = getRangeInUse(SLAVE_DB_NUMBER, SLAVE_COUNT, m_intMinimumSlave, m_intMaximumSlave);
 		debug("InteropAuto::timerCallback m_intMinimumSlave=%1, m_intMaximumSlave=%2, return=%3\n", m_intMinimumSlave, m_intMaximumSlave, t);
+		for (int i = 0; i < MASTER_COUNT; i++) {
+			m_boolMasterRedFlash[i] = false;
+		}
 		//register infodriver revertives
 		infoRegister(m_intDevice, getMasterLocalStateSlot (m_intMinimumMaster), getMasterLocalStateSlot (m_intMaximumMaster), false);
 		infoPoll(m_intDevice, getMasterLocalStateSlot(m_intMinimumMaster), getMasterLocalStateSlot(m_intMaximumMaster));
@@ -301,7 +291,28 @@ void InteropAuto::timerCallback( int id )
 			getMasterSlaveMatrixSlot(m_intMaximumMaster, m_intMaximumSlave),   true);
 		infoPoll(m_intDevice, getMasterSlaveMatrixSlot(m_intMinimumMaster, m_intMinimumSlave),
 			getMasterSlaveMatrixSlot(m_intMaximumMaster, m_intMaximumSlave));
+		timerStart(TIMER_FLASH_OFF, 500);
 
+		break;
+
+	case TIMER_FLASH_OFF:
+		timerStop(id);
+		timerStart(TIMER_FLASH_ON, 500);
+		for (int i = 0; i < MASTER_COUNT; i++) {
+			if (m_boolMasterRedFlash[i]) {
+				setMasterRedSlot(i + 1, 0);
+			}
+		}
+		break;
+
+	case TIMER_FLASH_ON:
+		timerStop(id);
+		timerStart(TIMER_FLASH_OFF, 500);
+		for (int i = 0; i < MASTER_COUNT; i++) {
+			if (m_boolMasterRedFlash[i]) {
+				setMasterRedSlot(i + 1, 1);
+			}
+		}
 		break;
 
 	default:	// Unhandled timer event
