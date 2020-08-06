@@ -39,14 +39,20 @@ InteropAuto::~InteropAuto()
 // all button pushes and notifications come here
 void InteropAuto::buttonCallback( buttonNotify *b )
 {
-	if( b->panel() == PNL_MAIN )
-	{
-		switch( b->id() )
-		{
-			case 1:			textPut( "text", m_instance,              PNL_MAIN, 4 );	   	break;
-			case 2:			textPut( "text", "you pressed|control 2", PNL_MAIN, 4 );		break;
-			case 3:			textPut( "text", "you pressed|control 3", PNL_MAIN, 4 );		break;
+	if( b->panel() == PNL_MAIN ) {
+		if (b->id() == "btn_rig") {
+			setMasterLocalState(1, "RIG");
 		}
+		else if (b->id() == "btn_reh") {
+			setMasterLocalState(1, "REH");
+		}
+		else if (b->id() == "btn_impend") {
+			setMasterLocalState(1, "IMPEND");
+		}
+		else if (b->id() == "btn_tx") {
+			setMasterLocalState(1, "TX");
+		}
+		// textPut( "text", m_instance,              PNL_MAIN, 4 );
 	}
 }
 
@@ -112,9 +118,11 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 			relative = r->index() - MASTER_RED_TABLE;
 			if (r->sInfo() == "0") {
 				debug("InteropAuto::revertiveCallback MASTER_RED_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				textPut("colour.background", "", PNL_MAIN, "lbl_red");
 			}
 			else if (r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback MASTER_RED_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				textPut("colour.background", "red", PNL_MAIN, "lbl_red");
 			}
 			else {
 				setMasterRedSlot(relative, 0);
@@ -124,9 +132,11 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 			relative = r->index() - MASTER_BLUE_TABLE;
 			if (r->sInfo() == "0") {
 				debug("InteropAuto::revertiveCallback MASTER_BLUE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				textPut("colour.background", "", PNL_MAIN, "lbl_blue");
 			}
 			else if (r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback MASTER_BLUE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				textPut("colour.background", "blue", PNL_MAIN, "lbl_blue");
 			}
 			else {
 				setMasterBlueSlot(relative, 0);
@@ -167,9 +177,11 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 		}
 		else if (r->index() > MASTER_LOCAL_STATE_TABLE) {
 			relative = r->index() - MASTER_LOCAL_STATE_TABLE;
-			if (r->sInfo() == "NULL") {
+			if (r->sInfo() == "NULL" || r->sInfo() == "RIG" || r->sInfo() == "IMPEND" || r->sInfo() == "REH" || r->sInfo() == "TX") {
 				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				setMasterOutputState(relative, r->sInfo());
 			}
+			/*
 			else if (r->sInfo() == "RIG") {
 				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
 			}
@@ -182,6 +194,7 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 			else if (r->sInfo() == "TX") {
 				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
 			}
+			*/
 			else {
 				setMasterLocalState(relative, "NULL");
 			}
