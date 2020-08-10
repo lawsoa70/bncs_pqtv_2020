@@ -1109,4 +1109,12 @@
     <setting value="colour.background=darkGreen" />
     <setting value="colour.text=white" />
   </style>
+  <style type="state" suitablefor="interop" name="crosspoint_off" description="" >
+    <setting value="colour.background=#400000" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="interop" name="crosspoint_on" description="" >
+    <setting value="colour.background=#00FF00" />
+    <setting value="colour.text=black" />
+  </style>
 </stylesheet>

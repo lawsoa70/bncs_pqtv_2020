@@ -261,9 +261,9 @@
 		<application arguments="353" name="infodriver32" /> <!-- Axon GPI Routes -->
 		<application arguments="axon_gpi" name="drivers\gpi\GPIDriver.exe" /> <!--Axon GPI-->
 		<application arguments="361" name="infodriver32" /> <!-- Interop -->
-		<!-- <application arguments="autos_1" name="autohost" /> --> <!-- Interop Automatic -->
+		<application arguments="autos_1" name="autohost" /> <!-- Interop Automatic -->
 		<application name="v3caplog.exe" />
-		<!-- <application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" /> -->
+		<application restartoncrash="true" arguments="/size=1280" name="Panelman.exe" />
 	</workstation>
 	<workstation csi="csi32" id="777" > <!--?-->
 		<application arguments="885" name="grd32.exe" />

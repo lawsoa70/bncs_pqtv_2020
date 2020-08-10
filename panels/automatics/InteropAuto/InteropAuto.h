@@ -39,7 +39,7 @@ public:
 	void databaseCallback( revertiveNotify * r );
 	bncs_string parentCallback( parentNotify *p );
 	void timerCallback( int );
-	
+
 private:
 	bncs_string m_myParam;
 	bncs_string m_instance;
@@ -48,8 +48,15 @@ private:
 	int m_intMaximumMaster;
 	int m_intMinimumSlave;
 	int m_intMaximumSlave;
+	bncs_string m_strMasterOutputState[MASTER_COUNT];
 	boolean m_boolMasterRedFlash[MASTER_COUNT];
-
+	boolean m_boolMasterBlue[MASTER_COUNT];
+	boolean m_boolMasterRed[MASTER_COUNT];
+	boolean m_boolSlaveBlue[SLAVE_COUNT];
+	boolean m_boolSlaveRed[SLAVE_COUNT];
+	boolean m_boolMasterMasterMatrix[MASTER_COUNT][MASTER_COUNT];
+	boolean m_boolMasterSlaveMatrix[MASTER_COUNT][SLAVE_COUNT];
+	
 	//Internal methods
 	void setMasterLocalState(int, bncs_string);
 	void setMasterOutputState(int, bncs_string);
@@ -71,6 +78,5 @@ private:
 
 	boolean getRangeInUse(int, int, int &, int &);
 };
-
 
 #endif // InteropAuto_INCLUDED

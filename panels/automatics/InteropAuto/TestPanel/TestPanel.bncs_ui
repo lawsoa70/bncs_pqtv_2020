@@ -1,0 +1,47 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="20" y="10" w="964" h="355">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="Label1" x="20" y="370" w="964" h="355">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_script_loader" name="Script" x="320" y="160" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script1" x="350" y="160" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script2" x="320" y="190" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script3" x="350" y="190" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=2" />
+		</control>
+	</container>
+</control_set>

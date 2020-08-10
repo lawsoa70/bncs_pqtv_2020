@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="25" h="25" gridSize="5" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="btn" x="0" y="0" w="25" h="25">
+			<setting value="statesheet=crosspoint_off" />
+			<setting value="text=1" />
+		</control>
+	</container>
+</control_set>

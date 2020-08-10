@@ -131,4 +131,5 @@
 <!-- Place unused, test, or temporary applications below this line ************************************************************************* -->
 	<app id="riedel_test"                        caption="Riedel|Test"               title="Riedel Test Panel"           icon="/images/riedel" />
 	<app id="studio_b/router_test"               caption="Router|Test"               title="Router Test"                 icon="" />
+	<app id="automatics/InteropAuto/TestPanel"   caption="Interop|Test"              title="Interop Test"                icon="" />
 </applications>

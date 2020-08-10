@@ -436,7 +436,7 @@
 		<item id="router_xy/studio_c_prompt_list"   class="application" param=""/>
 	</set>
 	<set id="laptop" level="user" popup="true">
-	
+		<item id="automatics/InteropAuto/TestPanel" class="application" param=""/>
 	
 	
 	

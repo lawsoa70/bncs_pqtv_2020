@@ -52,7 +52,6 @@ void InteropAuto::buttonCallback( buttonNotify *b )
 		else if (b->id() == "btn_tx") {
 			setMasterLocalState(1, "TX");
 		}
-		// textPut( "text", m_instance,              PNL_MAIN, 4 );
 	}
 }
 
@@ -66,11 +65,42 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 			relative = r->index() - MASTER_SLAVE_MATRIX_TABLE;
 			source = (relative - 1) / SLAVE_COUNT;
 			dest = ((relative - 1) % SLAVE_COUNT) + 1;
-			if (r->sInfo() == "0") {
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback MASTER_SLAVE_MATRIX_TABLE index: %1, relative: %2, source: %3, dest: %4, value: %5\n", r->index(), relative, source, dest, r->sInfo());
-			}
-			else if (r->sInfo() == "1") {
-				debug("InteropAuto::revertiveCallback MASTER_SLAVE_MATRIX_TABLE index: %1, relative: %2, source: %3, dest: %4, value: %5\n", r->index(), relative, source, dest, r->sInfo());
+				m_boolMasterSlaveMatrix[source - 1][dest - 1] = (r->sInfo() == "1"); // update array 
+				if (r->sInfo() == "1") { //crosspoint switching ON
+					// for blue:
+					if (!m_boolSlaveBlue[dest - 1]) { // if slave is currently ON leave it, else...
+						setSlaveBlueSlot(dest, int(r->sInfo())); // make it same as master
+					}
+					// same for red:
+					if (!m_boolSlaveRed[dest - 1]) {
+						setSlaveRedSlot(dest, int(r->sInfo()));
+					}
+				}
+				else { //crosspoint switching OFF
+					// for blue:
+					if (m_boolSlaveBlue[dest - 1]) { // if slave is currently OFF leave it, else...
+						// is there another master set to ON
+						boolean foundOne = false;
+						int j = m_intMinimumMaster; // try to find another master set to ON
+						while (j <= m_intMaximumMaster && !foundOne) {
+							foundOne = (j != source) && m_boolMasterSlaveMatrix[j - 1][dest - 1] && m_boolMasterBlue[j - 1];
+							j++;
+						}
+						setSlaveBlueSlot(dest, foundOne ? 1 : 0); // set slave according to foundOne
+					}
+					// same for red:
+					if (m_boolSlaveRed[dest - 1]) {
+						boolean foundOne = false;
+						int j = m_intMinimumMaster;
+						while (j <= m_intMaximumMaster && !foundOne) {
+							foundOne = (j != source) && m_boolMasterSlaveMatrix[j - 1][dest - 1] && m_boolMasterRed[j - 1];
+							j++;
+						}
+						setSlaveRedSlot(dest, foundOne ? 1 : 0);
+					}
+				}
 			}
 			else {
 				setMasterSlaveMatrixSlot(source, dest, 0);
@@ -80,11 +110,9 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 			relative = r->index() - MASTER_MASTER_MATRIX_TABLE;
 			source = (relative - 1) / MASTER_COUNT;
 			dest = ((relative - 1) % MASTER_COUNT) + 1;
-			if (r->sInfo() == "0") {
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback MASTER_MASTER_MATRIX_TABLE index: %1, relative: %2, source: %3, dest: %4, value: %5\n", r->index(), relative, source, dest, r->sInfo());
-			}
-			else if (r->sInfo() == "1") {
-				debug("InteropAuto::revertiveCallback MASTER_MASTER_MATRIX_TABLE index: %1, relative: %2, source: %3, dest: %4, value: %5\n", r->index(), relative, source, dest, r->sInfo());
+				m_boolMasterMasterMatrix[source - 1][dest - 1] = (r->sInfo() == "1");
 			}
 			else {
 				setMasterMasterMatrixSlot(source, dest, 0);
@@ -92,11 +120,15 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 		}
 		else if (r->index() > SLAVE_RED_TABLE) {
 			relative = r->index() - SLAVE_RED_TABLE;
-			if (r->sInfo() == "0") {
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback SLAVE_RED_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-			}
-			else if (r->sInfo() == "1") {
-				debug("InteropAuto::revertiveCallback SLAVE_RED_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				m_boolSlaveRed[relative - 1] = (r->sInfo() == "1");
+				if (r->sInfo() == "1") {
+					textPut("colour.background", "red", PNL_MAIN, "lbl_red");
+				}
+				else {
+					textPut("colour.background", "", PNL_MAIN, "lbl_red");
+				}
 			}
 			else {
 				setSlaveRedSlot(relative, 0);
@@ -104,11 +136,15 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 		}
 		else if (r->index() > SLAVE_BLUE_TABLE) {
 			relative = r->index() - SLAVE_BLUE_TABLE;
-			if (r->sInfo() == "0") {
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback SLAVE_BLUE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-			}
-			else if (r->sInfo() == "1") {
-				debug("InteropAuto::revertiveCallback SLAVE_BLUE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				m_boolSlaveBlue[relative - 1] = (r->sInfo() == "1");
+				if (r->sInfo() == "1") {
+					textPut("colour.background", "blue", PNL_MAIN, "lbl_blue");
+				}
+				else {
+					textPut("colour.background", "", PNL_MAIN, "lbl_blue");
+				}
 			}
 			else {
 				setSlaveBlueSlot(relative, 0);
@@ -116,27 +152,49 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 		}
 		else if (r->index() > MASTER_RED_TABLE) {
 			relative = r->index() - MASTER_RED_TABLE;
-			if (r->sInfo() == "0") {
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback MASTER_RED_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				textPut("colour.background", "", PNL_MAIN, "lbl_red");
-			}
-			else if (r->sInfo() == "1") {
-				debug("InteropAuto::revertiveCallback MASTER_RED_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				textPut("colour.background", "red", PNL_MAIN, "lbl_red");
+				m_boolMasterRed[relative - 1] = (r->sInfo() == "1"); // update array
+				for (int i = m_intMinimumSlave; i <= m_intMaximumSlave; i++) { // for each slave
+					if (m_boolMasterSlaveMatrix[relative - 1][i - 1]) { // if crosspoint is on
+						if (r->sInfo() == "1") { // if new master is ON
+							setSlaveRedSlot(relative, 1); // then so must the slave be
+						} else { // new master is OFF but is another master still applicable?
+							boolean foundOne = false;
+							int j = m_intMinimumMaster; // try to find another master set to ON
+							while (j <= m_intMaximumMaster && !foundOne) {
+								foundOne = (j != relative) && m_boolMasterSlaveMatrix[j - 1][i - 1] && m_boolMasterRed[j - 1];
+								j++;
+							}
+							setSlaveRedSlot(relative, foundOne ? 1 : 0); // set slave according to foundOne
+						}
+					}
+				}
 			}
 			else {
 				setMasterRedSlot(relative, 0);
 			}
 		}
-		else if (r->index() > MASTER_BLUE_TABLE) {
+		else if (r->index() > MASTER_BLUE_TABLE) { // see comments above for master red
 			relative = r->index() - MASTER_BLUE_TABLE;
-			if (r->sInfo() == "0") {
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
 				debug("InteropAuto::revertiveCallback MASTER_BLUE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				textPut("colour.background", "", PNL_MAIN, "lbl_blue");
-			}
-			else if (r->sInfo() == "1") {
-				debug("InteropAuto::revertiveCallback MASTER_BLUE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				textPut("colour.background", "blue", PNL_MAIN, "lbl_blue");
+				m_boolMasterBlue[relative - 1] = (r->sInfo() == "1");
+				for (int i = m_intMinimumSlave; i <= m_intMaximumSlave; i++) {
+					if (m_boolMasterSlaveMatrix[relative - 1][i - 1]) {
+						if (r->sInfo() == "1") {
+							setSlaveBlueSlot(relative, 1);
+						} else {
+							boolean foundOne = false;
+							int j = m_intMinimumMaster;
+							while (j <= m_intMaximumMaster && !foundOne) {
+								foundOne = (j != relative) && m_boolMasterSlaveMatrix[j - 1][i - 1] && m_boolMasterBlue[j - 1];
+								j++;
+							}
+							setSlaveBlueSlot(relative, foundOne ? 1 : 0);
+						}
+					}
+				}
 			}
 			else {
 				setMasterBlueSlot(relative, 0);
@@ -145,31 +203,30 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 		else if (r->index() > MASTER_OUTPUT_STATE_TABLE) {
 			relative = r->index() - MASTER_OUTPUT_STATE_TABLE;
 			m_boolMasterRedFlash[relative - 1] = false;
-			if (r->sInfo() == "NULL") {
+			if (r->sInfo() == "NULL" || r->sInfo() == "RIG" || r->sInfo() == "IMPEND" || r->sInfo() == "REH" || r->sInfo() == "TX") {
 				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				setMasterBlueSlot(relative, 0);
-				setMasterRedSlot(relative, 0);
-			}
-			else if (r->sInfo() == "RIG") {
-				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				setMasterBlueSlot(relative, 0);
-				setMasterRedSlot(relative, 0);
-			}
-			else if (r->sInfo() == "REH") {
-				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				setMasterBlueSlot(relative, 1);
-				setMasterRedSlot(relative, 0);
-			}
-			else if (r->sInfo() == "IMPEND") {
-				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				setMasterBlueSlot(relative, 0);
-				setMasterRedSlot(relative, 1);
-				m_boolMasterRedFlash[relative - 1] = true;
-			}
-			else if (r->sInfo() == "TX") {
-				debug("InteropAuto::revertiveCallback MASTER_OUTPUT_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-				setMasterBlueSlot(relative, 0);
-				setMasterRedSlot(relative, 1);
+				m_strMasterOutputState[relative - 1] = r->sInfo();
+				if (r->sInfo() == "NULL") {
+					setMasterBlueSlot(relative, 0);
+					setMasterRedSlot(relative, 0);
+				}
+				else if (r->sInfo() == "RIG") {
+					setMasterBlueSlot(relative, 0);
+					setMasterRedSlot(relative, 0);
+				}
+				else if (r->sInfo() == "REH") {
+					setMasterBlueSlot(relative, 1);
+					setMasterRedSlot(relative, 0);
+				}
+				else if (r->sInfo() == "IMPEND") {
+					setMasterBlueSlot(relative, 0);
+					setMasterRedSlot(relative, 1);
+					m_boolMasterRedFlash[relative - 1] = true;
+				}
+				else if (r->sInfo() == "TX") {
+					setMasterBlueSlot(relative, 0);
+					setMasterRedSlot(relative, 1);
+				}
 			}
 			else {
 				setMasterOutputState(relative, "NULL");
@@ -179,22 +236,9 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 			relative = r->index() - MASTER_LOCAL_STATE_TABLE;
 			if (r->sInfo() == "NULL" || r->sInfo() == "RIG" || r->sInfo() == "IMPEND" || r->sInfo() == "REH" || r->sInfo() == "TX") {
 				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				//temp until external logic added...
 				setMasterOutputState(relative, r->sInfo());
 			}
-			/*
-			else if (r->sInfo() == "RIG") {
-				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-			}
-			else if (r->sInfo() == "REH") {
-				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-			}
-			else if (r->sInfo() == "IMPEND") {
-				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-			}
-			else if (r->sInfo() == "TX") {
-				debug("InteropAuto::revertiveCallback MASTER_LOCAL_STATE_TABLE relative: %1, value: %2\n", relative, r->sInfo());
-			}
-			*/
 			else {
 				setMasterLocalState(relative, "NULL");
 			}
@@ -281,7 +325,20 @@ void InteropAuto::timerCallback( int id )
 		t = getRangeInUse(SLAVE_DB_NUMBER, SLAVE_COUNT, m_intMinimumSlave, m_intMaximumSlave);
 		debug("InteropAuto::timerCallback m_intMinimumSlave=%1, m_intMaximumSlave=%2, return=%3\n", m_intMinimumSlave, m_intMaximumSlave, t);
 		for (int i = 0; i < MASTER_COUNT; i++) {
+			m_strMasterOutputState[i] = "NULL";
 			m_boolMasterRedFlash[i] = false;
+			m_boolMasterBlue[i] = false;
+			m_boolMasterRed[i] = false;
+			for (int j = 0; j < MASTER_COUNT; j++) {
+				m_boolMasterMasterMatrix[i][j] = false;
+			}
+			for (int j = 0; j < SLAVE_COUNT; j++) {
+				m_boolMasterSlaveMatrix[i][j] = false;
+			}
+		}
+		for (int j = 0; j < SLAVE_COUNT; j++) {
+			m_boolSlaveBlue[j] = false;
+			m_boolSlaveRed[j] = false;
 		}
 		//register infodriver revertives
 		infoRegister(m_intDevice, getMasterLocalStateSlot (m_intMinimumMaster), getMasterLocalStateSlot (m_intMaximumMaster), false);
@@ -311,9 +368,9 @@ void InteropAuto::timerCallback( int id )
 	case TIMER_FLASH_OFF:
 		timerStop(id);
 		timerStart(TIMER_FLASH_ON, 500);
-		for (int i = 0; i < MASTER_COUNT; i++) {
-			if (m_boolMasterRedFlash[i]) {
-				setMasterRedSlot(i + 1, 0);
+		for (int i = m_intMinimumMaster; i <= m_intMaximumMaster; i++) {
+			if (m_boolMasterRedFlash[i - 1]) {
+				setMasterRedSlot(i, 0);
 			}
 		}
 		break;
@@ -321,9 +378,9 @@ void InteropAuto::timerCallback( int id )
 	case TIMER_FLASH_ON:
 		timerStop(id);
 		timerStart(TIMER_FLASH_OFF, 500);
-		for (int i = 0; i < MASTER_COUNT; i++) {
-			if (m_boolMasterRedFlash[i]) {
-				setMasterRedSlot(i + 1, 1);
+		for (int i = m_intMinimumMaster; i <= m_intMaximumMaster; i++) {
+			if (m_boolMasterRedFlash[i - 1]) {
+				setMasterRedSlot(i, 1);
 			}
 		}
 		break;
@@ -360,13 +417,13 @@ void InteropAuto::setMasterRedSlot(int master, int state) {
 	infoWrite(m_intDevice, bncs_string(state), slot);
 }
 
-void InteropAuto::setSlaveBlueSlot(int master, int state) {
-	int slot = getSlaveBlueSlot(master);
+void InteropAuto::setSlaveBlueSlot(int slave, int state) {
+	int slot = getSlaveBlueSlot(slave);
 	infoWrite(m_intDevice, bncs_string(state), slot);
 }
 
-void InteropAuto::setSlaveRedSlot(int master, int state) {
-	int slot = getSlaveRedSlot(master);
+void InteropAuto::setSlaveRedSlot(int slave, int state) {
+	int slot = getSlaveRedSlot(slave);
 	infoWrite(m_intDevice, bncs_string(state), slot);
 }
 
