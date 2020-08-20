@@ -18,15 +18,17 @@
 
 #define MASTER_COUNT                   20
 #define SLAVE_COUNT                    50
+
 #define MASTER_LOCAL_STATE_TABLE      100
-#define MASTER_OUTPUT_STATE_TABLE     200
-#define MASTER_BLUE_TABLE             300
-#define MASTER_RED_TABLE              400
-#define SLAVE_BLUE_TABLE              500
-#define SLAVE_RED_TABLE               600
+#define MASTER_EXTERNAL_STATE_TABLE   200
+#define MASTER_OUTPUT_STATE_TABLE     300
+#define MASTER_BLUE_TABLE             500
+#define MASTER_RED_TABLE              600
+#define SLAVE_BLUE_TABLE              700
+#define SLAVE_RED_TABLE               800
+#define ALLOW_EXTERNAL_TABLE          900
 #define MASTER_MASTER_MATRIX_TABLE   1000
 #define MASTER_SLAVE_MATRIX_TABLE    2000
-
 
 class InteropAuto : public bncs_script_helper
 {
@@ -48,6 +50,7 @@ private:
 	int m_intMaximumMaster;
 	int m_intMinimumSlave;
 	int m_intMaximumSlave;
+	bncs_string m_strMasterExternalState[MASTER_COUNT];
 	bncs_string m_strMasterOutputState[MASTER_COUNT];
 	boolean m_boolMasterRedFlash[MASTER_COUNT];
 	boolean m_boolMasterBlue[MASTER_COUNT];
@@ -59,6 +62,7 @@ private:
 	
 	//Internal methods
 	void setMasterLocalState(int, bncs_string);
+	void setMasterExternalState(int, bncs_string);
 	void setMasterOutputState(int, bncs_string);
 	void setMasterBlueSlot(int, int);
 	void setMasterRedSlot(int, int);
@@ -68,6 +72,7 @@ private:
 	void setMasterSlaveMatrixSlot(int, int, int);
 
 	int getMasterLocalStateSlot(int);
+	int getMasterExternalStateSlot(int);
 	int getMasterOutputStateSlot(int);
 	int getMasterBlueSlot(int);
 	int getMasterRedSlot(int);
@@ -77,6 +82,7 @@ private:
 	int getMasterSlaveMatrixSlot(int, int);
 
 	boolean getRangeInUse(int, int, int &, int &);
+	bncs_string higher(bncs_string, bncs_string);
 };
 
 #endif // InteropAuto_INCLUDED

@@ -1,5 +1,5 @@
-#ifndef interop_crosspoint_INCLUDED
-	#define interop_crosspoint_INCLUDED
+#ifndef interop_lights_INCLUDED
+	#define interop_lights_INCLUDED
 
 #include <bncs_script_helper.h>
 
@@ -12,7 +12,7 @@
 #else 
 	#define EXPORT_SCRIPT
 #endif
-
+ 
 #define MASTER_COUNT                   20
 #define SLAVE_COUNT                    50
 
@@ -26,12 +26,12 @@
 #define ALLOW_EXTERNAL_TABLE          900
 #define MASTER_MASTER_MATRIX_TABLE   1000
 #define MASTER_SLAVE_MATRIX_TABLE    2000
- 
-class interop_crosspoint : public bncs_script_helper
+
+class interop_lights : public bncs_script_helper
 {
 public:
-	interop_crosspoint( bncs_client_callback * parent, const char* path );
-	virtual ~interop_crosspoint();
+	interop_lights( bncs_client_callback * parent, const char* path );
+	virtual ~interop_lights();
 
 	void buttonCallback( buttonNotify *b );
 	int revertiveCallback( revertiveNotify * r );
@@ -43,18 +43,20 @@ private:
 	bncs_string m_myParam;
 	bncs_string m_instance;
 	int m_intDevice;
-	bncs_string m_strDestinationType;
-	int m_intSourceIndex;
-	int m_intDestinationIndex;
-	boolean m_boolCrosspoint;
-	int m_intSlot;
+	bncs_string m_strMasterOrSlave;
+	int m_intIndex;
+	boolean m_boolBlueState;
+	boolean m_boolRedState;
+	int m_intBlueSlot;
+	int m_intRedSlot;
 
 	//Internal methods
-	int getMasterMasterMatrixSlot(int, int);
-	int getMasterSlaveMatrixSlot(int, int);
+	int getMasterBlueSlot(int);
+	int getMasterRedSlot(int);
+	int getSlaveBlueSlot(int);
+	int getSlaveRedSlot(int);
 
-	boolean getRangeInUse(int, int, int &, int &);
 };
 
 
-#endif // interop_crosspoint_INCLUDED
+#endif // interop_lights_INCLUDED

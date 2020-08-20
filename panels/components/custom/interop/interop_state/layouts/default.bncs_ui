@@ -1,0 +1,36 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="169" h="20" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label" x="0" y="0" w="169" h="20">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_control" name="btn_ext" x="0" y="0" w="40" h="20">
+			<setting value="led=true" />
+			<setting value="colour.led=black" />
+			<setting value="font.size=-2" />
+			<setting value="textalign=bottomleft" />
+			<setting value="text=EXT" />
+		</control>
+		<control class="bncs_control" name="btn_reh" x="45" y="0" w="40" h="20">
+			<setting value="led=true" />
+			<setting value="colour.led=blue" />
+			<setting value="font.size=-2" />
+			<setting value="textalign=bottomleft" />
+			<setting value="text=REH" />
+		</control>
+		<control class="bncs_control" name="btn_impend" x="87" y="0" w="40" h="20">
+			<setting value="led=true" />
+			<setting value="colour.led=red" />
+			<setting value="font.size=-2" />
+			<setting value="textalign=bottomleft" />
+			<setting value="text=IMP" />
+		</control>
+		<control class="bncs_control" name="btn_tx" x="129" y="0" w="40" h="20">
+			<setting value="led=true" />
+			<setting value="colour.led=red" />
+			<setting value="font.size=-2" />
+			<setting value="textalign=bottomleft" />
+			<setting value="text=TX" />
+		</control>
+	</container>
+</control_set>

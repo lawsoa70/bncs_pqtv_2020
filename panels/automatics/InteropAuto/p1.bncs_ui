@@ -1,25 +1,5 @@
 <?xml version="1.0"  encoding="windows-1252"?>
 <control_set>
 	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="730" h="630" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
-		<control class="bncs_control" name="btn_rig" x="60" y="60" w="100" h="40">
-			<setting value="text=RIG" />
-		</control>
-		<control class="bncs_control" name="lbl_blue" x="70" y="170" w="199" h="100">
-			<setting value="style=label" />
-			<setting value="notify.released=false" />
-		</control>
-		<control class="bncs_control" name="btn_reh" x="170" y="60" w="100" h="40">
-			<setting value="text=REH" />
-		</control>
-		<control class="bncs_control" name="btn_impend" x="280" y="60" w="100" h="40">
-			<setting value="text=IMPENDING" />
-		</control>
-		<control class="bncs_control" name="btn_tx" x="390" y="60" w="100" h="40">
-			<setting value="text=TX" />
-		</control>
-		<control class="bncs_control" name="lbl_red" x="280" y="170" w="199" h="100">
-			<setting value="style=label" />
-			<setting value="notify.released=false" />
-		</control>
 	</container>
 </control_set>

@@ -136,6 +136,9 @@ void interop_crosspoint::timerCallback( int id )
 	case TIMER_SETUP:
 		timerStop(id);
 		if (m_strDestinationType == "master") {
+			if (m_intSourceIndex == m_intDestinationIndex) {
+				controlDisable(PNL_MAIN, "btn");
+			}
 			m_intSlot = getMasterMasterMatrixSlot(m_intSourceIndex, m_intDestinationIndex);
 		} else if (m_strDestinationType == "slave") {
 			m_intSlot = getMasterSlaveMatrixSlot(m_intSourceIndex, m_intDestinationIndex);

@@ -1,13 +1,16 @@
 <?xml version="1.0"  encoding="windows-1252"?>
 <control_set>
-	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="924" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
-		<control class="bncs_control" name="Label" x="20" y="10" w="964" h="355">
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="1280" h="884" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="Label2" x="10" y="477" w="825" h="404">
 			<setting value="style=label" />
 		</control>
-		<control class="bncs_control" name="Label1" x="20" y="370" w="964" h="355">
+		<control class="bncs_control" name="Label1" x="10" y="167" w="825" h="185">
 			<setting value="style=label" />
 		</control>
-		<control class="bncs_script_loader" name="Script" x="320" y="160" w="26" h="24">
+		<control class="bncs_control" name="Label" x="10" y="0" w="825" h="118">
+			<setting value="style=label" />
+		</control>
+		<control class="bncs_script_loader" name="Script" x="89" y="524" w="26" h="24">
 			<setting value="scaleWithCanvas=true" />
 			<setting value="scaleFontWithCanvas=true" />
 			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
@@ -16,7 +19,144 @@
 			<setting value="SourceIndex=1" />
 			<setting value="DestinationIndex=1" />
 		</control>
-		<control class="bncs_script_loader" name="Script1" x="350" y="160" w="26" h="24">
+		<control class="bncs_script_loader" name="state_01" x="19" y="20" w="169" h="39">
+			<setting value="scriptname=/components/custom/interop/interop_state" />
+			<setting value="instance=interop" />
+			<setting value="MasterIndex=1" />
+			<setting value="Panel=bigger" />
+			<setting value="ReadOnly=false" />
+		</control>
+		<control class="bncs_script_loader" name="Script4" x="80" y="491" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=master" />
+			<setting value="Index=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script6" x="708" y="524" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script7" x="708" y="554" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script8" x="708" y="584" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script9" x="708" y="614" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script10" x="708" y="644" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script11" x="708" y="674" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=6" />
+		</control>
+		<control class="bncs_script_loader" name="Script12" x="708" y="704" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=7" />
+		</control>
+		<control class="bncs_script_loader" name="Script13" x="708" y="734" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=8" />
+		</control>
+		<control class="bncs_script_loader" name="Script14" x="708" y="764" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=9" />
+		</control>
+		<control class="bncs_script_loader" name="Script15" x="708" y="794" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=10" />
+		</control>
+		<control class="bncs_script_loader" name="Script16" x="708" y="824" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=11" />
+		</control>
+		<control class="bncs_script_loader" name="Script17" x="708" y="854" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=slave" />
+			<setting value="Index=12" />
+		</control>
+		<control class="bncs_script_loader" name="state_02" x="150" y="70" w="169" h="39">
+			<setting value="scriptname=/components/custom/interop/interop_state" />
+			<setting value="instance=interop" />
+			<setting value="MasterIndex=2" />
+			<setting value="Panel=bigger" />
+			<setting value="ReadOnly=false" />
+		</control>
+		<control class="bncs_script_loader" name="Script5" x="211" y="491" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=master" />
+			<setting value="Index=2" />
+		</control>
+		<control class="bncs_script_loader" name="state_03" x="281" y="20" w="169" h="39">
+			<setting value="scriptname=/components/custom/interop/interop_state" />
+			<setting value="instance=interop" />
+			<setting value="MasterIndex=3" />
+			<setting value="Panel=bigger" />
+			<setting value="ReadOnly=false" />
+		</control>
+		<control class="bncs_script_loader" name="Script18" x="342" y="491" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=master" />
+			<setting value="Index=3" />
+		</control>
+		<control class="bncs_script_loader" name="state_04" x="416" y="70" w="169" h="39">
+			<setting value="scriptname=/components/custom/interop/interop_state" />
+			<setting value="instance=interop" />
+			<setting value="MasterIndex=4" />
+			<setting value="Panel=bigger" />
+			<setting value="ReadOnly=false" />
+		</control>
+		<control class="bncs_script_loader" name="Script19" x="477" y="491" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=master" />
+			<setting value="Index=4" />
+		</control>
+		<control class="bncs_script_loader" name="state_05" x="548" y="20" w="169" h="39">
+			<setting value="scriptname=/components/custom/interop/interop_state" />
+			<setting value="instance=interop" />
+			<setting value="MasterIndex=5" />
+			<setting value="Panel=bigger" />
+			<setting value="ReadOnly=true" />
+		</control>
+		<control class="bncs_script_loader" name="Script20" x="609" y="491" w="45" h="20">
+			<setting value="scriptname=/components/custom/interop/interop_lights" />
+			<setting value="instance=interop" />
+			<setting value="MasterOrSlave=master" />
+			<setting value="Index=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script1" x="220" y="522" w="26" h="24">
 			<setting value="scaleWithCanvas=true" />
 			<setting value="scaleFontWithCanvas=true" />
 			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
@@ -25,7 +165,34 @@
 			<setting value="SourceIndex=2" />
 			<setting value="DestinationIndex=1" />
 		</control>
-		<control class="bncs_script_loader" name="Script2" x="320" y="190" w="26" h="24">
+		<control class="bncs_script_loader" name="Script2" x="351" y="522" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script3" x="486" y="522" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script21" x="618" y="522" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script22" x="89" y="552" w="26" h="24">
 			<setting value="scaleWithCanvas=true" />
 			<setting value="scaleFontWithCanvas=true" />
 			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
@@ -34,7 +201,7 @@
 			<setting value="SourceIndex=1" />
 			<setting value="DestinationIndex=2" />
 		</control>
-		<control class="bncs_script_loader" name="Script3" x="350" y="190" w="26" h="24">
+		<control class="bncs_script_loader" name="Script23" x="220" y="552" w="26" h="24">
 			<setting value="scaleWithCanvas=true" />
 			<setting value="scaleFontWithCanvas=true" />
 			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
@@ -42,6 +209,708 @@
 			<setting value="DestinationType=slave" />
 			<setting value="SourceIndex=2" />
 			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script24" x="351" y="552" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script25" x="486" y="552" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script26" x="618" y="552" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script27" x="89" y="582" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script28" x="220" y="582" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script29" x="351" y="582" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script30" x="486" y="582" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script31" x="618" y="582" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script32" x="90" y="612" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script33" x="220" y="612" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script34" x="351" y="612" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script35" x="486" y="612" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script36" x="618" y="612" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script37" x="89" y="642" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script38" x="220" y="642" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script39" x="351" y="642" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script40" x="486" y="642" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script41" x="618" y="642" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script42" x="89" y="672" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=6" />
+		</control>
+		<control class="bncs_script_loader" name="Script43" x="220" y="672" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=6" />
+		</control>
+		<control class="bncs_script_loader" name="Script44" x="351" y="672" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=6" />
+		</control>
+		<control class="bncs_script_loader" name="Script45" x="486" y="672" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=6" />
+		</control>
+		<control class="bncs_script_loader" name="Script46" x="618" y="672" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=6" />
+		</control>
+		<control class="bncs_script_loader" name="Script47" x="89" y="702" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=7" />
+		</control>
+		<control class="bncs_script_loader" name="Script48" x="220" y="703" w="26" h="23">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=7" />
+		</control>
+		<control class="bncs_script_loader" name="Script49" x="351" y="702" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=7" />
+		</control>
+		<control class="bncs_script_loader" name="Script50" x="486" y="702" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=7" />
+		</control>
+		<control class="bncs_script_loader" name="Script51" x="618" y="702" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=7" />
+		</control>
+		<control class="bncs_script_loader" name="Script52" x="90" y="732" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=8" />
+		</control>
+		<control class="bncs_script_loader" name="Script53" x="220" y="732" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=8" />
+		</control>
+		<control class="bncs_script_loader" name="Script54" x="351" y="732" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=8" />
+		</control>
+		<control class="bncs_script_loader" name="Script55" x="486" y="732" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=8" />
+		</control>
+		<control class="bncs_script_loader" name="Script56" x="618" y="732" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=8" />
+		</control>
+		<control class="bncs_script_loader" name="Script57" x="89" y="762" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=9" />
+		</control>
+		<control class="bncs_script_loader" name="Script58" x="220" y="762" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=9" />
+		</control>
+		<control class="bncs_script_loader" name="Script59" x="351" y="762" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=9" />
+		</control>
+		<control class="bncs_script_loader" name="Script60" x="486" y="762" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=9" />
+		</control>
+		<control class="bncs_script_loader" name="Script61" x="618" y="762" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=9" />
+		</control>
+		<control class="bncs_script_loader" name="Script62" x="90" y="792" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=10" />
+		</control>
+		<control class="bncs_script_loader" name="Script63" x="220" y="792" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=10" />
+		</control>
+		<control class="bncs_script_loader" name="Script64" x="351" y="792" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=10" />
+		</control>
+		<control class="bncs_script_loader" name="Script65" x="486" y="792" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=10" />
+		</control>
+		<control class="bncs_script_loader" name="Script66" x="618" y="792" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=10" />
+		</control>
+		<control class="bncs_script_loader" name="Script67" x="89" y="822" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=11" />
+		</control>
+		<control class="bncs_script_loader" name="Script68" x="220" y="822" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=11" />
+		</control>
+		<control class="bncs_script_loader" name="Script69" x="351" y="822" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=11" />
+		</control>
+		<control class="bncs_script_loader" name="Script70" x="486" y="822" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=11" />
+		</control>
+		<control class="bncs_script_loader" name="Script71" x="618" y="822" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=11" />
+		</control>
+		<control class="bncs_script_loader" name="Script72" x="89" y="852" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=12" />
+		</control>
+		<control class="bncs_script_loader" name="Script73" x="220" y="852" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=12" />
+		</control>
+		<control class="bncs_script_loader" name="Script74" x="351" y="852" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=12" />
+		</control>
+		<control class="bncs_script_loader" name="Script75" x="486" y="852" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=12" />
+		</control>
+		<control class="bncs_script_loader" name="Script76" x="618" y="852" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=slave" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=12" />
+		</control>
+		<control class="bncs_script_loader" name="Script77" x="90" y="186" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script78" x="221" y="186" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script79" x="352" y="186" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script80" x="487" y="186" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script81" x="619" y="186" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=1" />
+		</control>
+		<control class="bncs_script_loader" name="Script82" x="90" y="216" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script83" x="221" y="216" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script84" x="352" y="216" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script85" x="487" y="216" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script86" x="619" y="216" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=2" />
+		</control>
+		<control class="bncs_script_loader" name="Script87" x="90" y="246" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script88" x="221" y="246" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script89" x="352" y="246" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script90" x="487" y="246" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script91" x="619" y="246" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=3" />
+		</control>
+		<control class="bncs_script_loader" name="Script92" x="91" y="276" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script93" x="221" y="276" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script94" x="352" y="276" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script95" x="487" y="276" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script96" x="619" y="276" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=4" />
+		</control>
+		<control class="bncs_script_loader" name="Script97" x="90" y="306" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=1" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script98" x="221" y="306" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=2" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script99" x="352" y="306" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=3" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script100" x="487" y="306" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=4" />
+			<setting value="DestinationIndex=5" />
+		</control>
+		<control class="bncs_script_loader" name="Script101" x="619" y="306" w="26" h="24">
+			<setting value="scaleWithCanvas=true" />
+			<setting value="scaleFontWithCanvas=true" />
+			<setting value="scriptname=/components/custom/interop/interop_crosspoint" />
+			<setting value="instance=interop" />
+			<setting value="DestinationType=master" />
+			<setting value="SourceIndex=5" />
+			<setting value="DestinationIndex=5" />
 		</control>
 	</container>
 </control_set>

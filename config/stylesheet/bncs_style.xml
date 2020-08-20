@@ -1117,4 +1117,20 @@
     <setting value="colour.background=#00FF00" />
     <setting value="colour.text=black" />
   </style>
+  <style type="state" suitablefor="interop" name="reh_btn_off" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="interop" name="reh_btn_on" description="" >
+    <setting value="colour.background=blue" />
+    <setting value="colour.text=white" />
+  </style>
+  <style type="state" suitablefor="interop" name="tx_btn_off" description="" >
+    <setting value="colour.background=" />
+    <setting value="colour.text=black" />
+  </style>
+  <style type="state" suitablefor="interop" name="tx_btn_on" description="" >
+    <setting value="colour.background=red" />
+    <setting value="colour.text=black" />
+  </style>
 </stylesheet>

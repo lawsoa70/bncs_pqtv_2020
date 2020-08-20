@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+<control_set>
+	<container style="" type="widget" name="Visual Editor Dialog" x="0" y="0" w="45" h="21" gridSize="10" gridEnabled="1" testInstance="" panelmanSize="" showTestDialog="0">
+		<control class="bncs_control" name="lbl_blue" x="0" y="0" w="22" h="20">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+		<control class="bncs_control" name="lbl_red" x="20" y="0" w="22" h="20">
+			<setting value="style=label" />
+			<setting value="notify.released=false" />
+		</control>
+	</container>
+</control_set>
