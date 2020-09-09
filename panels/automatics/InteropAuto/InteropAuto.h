@@ -57,6 +57,7 @@ private:
 	boolean m_boolMasterRed[MASTER_COUNT];
 	boolean m_boolSlaveBlue[SLAVE_COUNT];
 	boolean m_boolSlaveRed[SLAVE_COUNT];
+	boolean m_boolAllowExternal[MASTER_COUNT];
 	boolean m_boolMasterMasterMatrix[MASTER_COUNT][MASTER_COUNT];
 	boolean m_boolMasterSlaveMatrix[MASTER_COUNT][SLAVE_COUNT];
 	
@@ -68,6 +69,7 @@ private:
 	void setMasterRedSlot(int, int);
 	void setSlaveBlueSlot(int, int);
 	void setSlaveRedSlot(int, int);
+	void setAllowExternalSlot(int, int);
 	void setMasterMasterMatrixSlot(int, int, int);
 	void setMasterSlaveMatrixSlot(int, int, int);
 
@@ -78,6 +80,7 @@ private:
 	int getMasterRedSlot(int);
 	int getSlaveBlueSlot(int);
 	int getSlaveRedSlot(int);
+	int getAllowExternalSlot(int);
 	int getMasterMasterMatrixSlot(int, int);
 	int getMasterSlaveMatrixSlot(int, int);
 

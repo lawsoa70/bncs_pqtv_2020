@@ -124,6 +124,16 @@ int InteropAuto::revertiveCallback( revertiveNotify * r ) {
 				setMasterMasterMatrixSlot(source, dest, 0);
 			}
 		}
+		else if (r->index() > ALLOW_EXTERNAL_TABLE) {
+			relative = r->index() - ALLOW_EXTERNAL_TABLE;
+			if (r->sInfo() == "0" || r->sInfo() == "1") {
+				debug("InteropAuto::revertiveCallback ALLOW_EXTERNAL_TABLE relative: %1, value: %2\n", relative, r->sInfo());
+				m_boolAllowExternal[relative - 1] = (r->sInfo() == "1");
+			}
+			else {
+				setAllowExternalSlot(relative, 0);
+			}
+		}
 		else if (r->index() > SLAVE_RED_TABLE) {
 			relative = r->index() - SLAVE_RED_TABLE;
 			if (r->sInfo() == "0" || r->sInfo() == "1") {
@@ -359,6 +369,7 @@ void InteropAuto::timerCallback( int id )
 			m_boolMasterRedFlash[i] = false;
 			m_boolMasterBlue[i] = false;
 			m_boolMasterRed[i] = false;
+			m_boolAllowExternal[i] = false;
 			for (int j = 0; j < MASTER_COUNT; j++) {
 				m_boolMasterMasterMatrix[i][j] = false;
 			}
@@ -464,6 +475,11 @@ void InteropAuto::setSlaveRedSlot(int slave, int state) {
 	infoWrite(m_intDevice, bncs_string(state), slot);
 }
 
+void InteropAuto::setAllowExternalSlot(int master, int state) {
+	int slot = getAllowExternalSlot(master);
+	infoWrite(m_intDevice, bncs_string(state), slot);
+}
+
 void InteropAuto::setMasterMasterMatrixSlot(int source, int dest, int state) {
 	int slot = getMasterMasterMatrixSlot(source, dest);
 	infoWrite(m_intDevice, bncs_string(state), slot);
@@ -500,6 +516,10 @@ int InteropAuto::getSlaveBlueSlot(int slave) {
 
 int InteropAuto::getSlaveRedSlot(int slave) {
 	return (SLAVE_RED_TABLE + slave);
+}
+
+int InteropAuto::getAllowExternalSlot(int master) {
+	return (ALLOW_EXTERNAL_TABLE + master);
 }
 
 int InteropAuto::getMasterMasterMatrixSlot(int source, int dest) {
